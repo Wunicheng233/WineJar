@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-07-19T13:05:06.933+08:00",
+  "description": "Base-frame correction added to fixed-camera visual targets. Measured by manually aligning the physical suction center over detected targets.",
+  "sample_count": 1,
+  "bias_base_mm": [
+    0.0,
+    50.0,
+    0.0
+  ],
+  "sample_range_base_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "samples": [
+    {
+      "created_at": "2026-07-19T13:05:06.927+08:00",
+      "target": "leaf",
+      "measurement_method": "manual physical alignment after visual approach",
+      "correction_base_mm": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "note": "Coarse Y +45 mm measurement refined to Y +50 mm after compensated hover verification over the ceramic disk."
+    }
+  ]
+}

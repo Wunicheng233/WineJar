@@ -1,0 +1,13 @@
+name: winejar-xarm-sdk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pyyaml
+  - pip:
+      - xarm-python-sdk
+      - pyrealsense2
+      - opencv-contrib-python<5
+      - numpy
+      - pytest

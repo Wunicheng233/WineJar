@@ -1,0 +1,46 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+
+# Generated RGB-D captures, masks, previews, and run results
+xarm_sdk_control/data/
+vision/data/
+
+# Downloaded model weights and caches
+vision/models/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Vendor archives and local installers
+xarm6/*.zip
+
+# Logs and rendered media
+*.log
+MUJOCO_LOG.TXT
+*.mp4
+*.avi
+
+# Simulation is maintained in Wunicheng233/Winejar-mujoco.
+mujoco_xarm6/
+
+# Production-demo animation planning stays with the simulation repository.
+docs/superpowers/**/*animation*
+docs/superpowers/**/*production-demo*
+docs/superpowers/**/*sdk-style-production*

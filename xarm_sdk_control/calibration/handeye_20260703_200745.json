@@ -1,0 +1,231 @@
+{
+  "timestamp": "20260703_200745",
+  "description": "Eye-in-hand calibration. Transform maps RealSense camera coordinates into xArm TCP coordinates.",
+  "rpy_convention": "R = Rz(yaw) @ Ry(pitch) @ Rx(roll), xArm pose units are mm/deg",
+  "sample_count": 11,
+  "sample_paths": [
+    "xarm_sdk_control/data/handeye_samples/20260703_193241/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_193637/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_193840/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_194057/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_194542/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_194750/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_195330/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_195511/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_195732/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_195852/sample.json",
+    "xarm_sdk_control/data/handeye_samples/20260703_200114/sample.json"
+  ],
+  "max_reprojection_error_px": 1.0,
+  "selected_method": "DANIILIDIS",
+  "tcp_T_camera": [
+    [
+      0.7127169870221615,
+      -0.7003886802749361,
+      0.03860301740519299,
+      -0.004636115391436672
+    ],
+    [
+      0.7002034220730554,
+      0.7136522106412369,
+      0.020388476256416162,
+      -0.004396701290419467
+    ],
+    [
+      -0.0418289866866863,
+      0.012498751522016042,
+      0.9990466040596685,
+      0.005994400805006466
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tcp_T_camera_translation_m": [
+    -0.004636115391436672,
+    -0.004396701290419467,
+    0.005994400805006466
+  ],
+  "quality": {
+    "target_position_error_mean_mm": 6.164058768363007,
+    "target_position_error_max_mm": 9.844312735424461,
+    "target_position_error_std_mm": 2.088057272525705,
+    "target_rotation_error_mean_deg": 1.9190496678584104,
+    "target_rotation_error_max_deg": 2.8301107163893056
+  },
+  "all_methods": [
+    {
+      "method": "TSAI",
+      "tcp_T_camera": [
+        [
+          0.7144131013406898,
+          -0.6986085903888812,
+          0.039496304480769476,
+          -0.005322307287159029
+        ],
+        [
+          0.6983891193674274,
+          0.7153983563802802,
+          0.021396953932344902,
+          -0.0044983006478342595
+        ],
+        [
+          -0.04320368713392887,
+          0.012297525086541982,
+          0.9989905966998784,
+          0.006076571822227303
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_position_error_mean_mm": 6.2116767947538865,
+      "target_position_error_max_mm": 9.757872118483593,
+      "target_position_error_std_mm": 1.96259108686401,
+      "target_rotation_error_mean_deg": 1.9381293993067907,
+      "target_rotation_error_max_deg": 2.820355607597914
+    },
+    {
+      "method": "PARK",
+      "tcp_T_camera": [
+        [
+          0.7142179233735044,
+          -0.6988333321709503,
+          0.039047814009048665,
+          -0.005244654913117533
+        ],
+        [
+          0.6986020132800445,
+          0.7151857853770017,
+          0.021552712955712705,
+          -0.00454125432552907
+        ],
+        [
+          -0.04298819574148105,
+          0.011885547590612257,
+          0.9990048792600384,
+          0.006078289265679507
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_position_error_mean_mm": 6.202645833259213,
+      "target_position_error_max_mm": 9.767863474140334,
+      "target_position_error_std_mm": 1.953309793295784,
+      "target_rotation_error_mean_deg": 1.9342023381958766,
+      "target_rotation_error_max_deg": 2.8258454020365873
+    },
+    {
+      "method": "HORAUD",
+      "tcp_T_camera": [
+        [
+          0.7142488487264997,
+          -0.6988090916121419,
+          0.03891574967905315,
+          -0.005230397442566057
+        ],
+        [
+          0.6985833084620412,
+          0.7152090515403806,
+          0.02138629778474206,
+          -0.004494389563222411
+        ],
+        [
+          -0.04277783574584084,
+          0.01191075459079946,
+          0.9990136088632524,
+          0.006071792526321334
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_position_error_mean_mm": 6.194185820900474,
+      "target_position_error_max_mm": 9.778649786473125,
+      "target_position_error_std_mm": 1.9566527488419956,
+      "target_rotation_error_mean_deg": 1.9325698396658488,
+      "target_rotation_error_max_deg": 2.8239409136456564
+    },
+    {
+      "method": "ANDREFF",
+      "tcp_T_camera": [
+        [
+          0.7132475560769174,
+          -0.6998718567257115,
+          0.03817470253465183,
+          -0.005872435240714641
+        ],
+        [
+          0.6996712666071718,
+          0.7141674932604404,
+          0.02061335136298706,
+          -0.00489597117918553
+        ],
+        [
+          -0.04168983610688837,
+          0.012007319992566073,
+          0.9990584476555799,
+          0.03459759439768789
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_position_error_mean_mm": 13.999246399703326,
+      "target_position_error_max_mm": 23.32568383230549,
+      "target_position_error_std_mm": 5.279224515721467,
+      "target_rotation_error_mean_deg": 1.9187029528950625,
+      "target_rotation_error_max_deg": 2.828257758640589
+    },
+    {
+      "method": "DANIILIDIS",
+      "tcp_T_camera": [
+        [
+          0.7127169870221615,
+          -0.7003886802749361,
+          0.03860301740519299,
+          -0.004636115391436672
+        ],
+        [
+          0.7002034220730554,
+          0.7136522106412369,
+          0.020388476256416162,
+          -0.004396701290419467
+        ],
+        [
+          -0.0418289866866863,
+          0.012498751522016042,
+          0.9990466040596685,
+          0.005994400805006466
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_position_error_mean_mm": 6.164058768363007,
+      "target_position_error_max_mm": 9.844312735424461,
+      "target_position_error_std_mm": 2.088057272525705,
+      "target_rotation_error_mean_deg": 1.9190496678584104,
+      "target_rotation_error_max_deg": 2.8301107163893056
+    }
+  ]
+}

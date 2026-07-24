@@ -1,0 +1,22 @@
+name: winejar-vision
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - opencv-python<5
+      - numpy
+      - pillow
+      - matplotlib
+      - pyyaml
+      - tqdm
+      - scipy
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - accelerate
+      - safetensors
+      - huggingface-hub
+      - supervision

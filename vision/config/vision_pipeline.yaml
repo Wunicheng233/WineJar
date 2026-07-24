@@ -1,0 +1,14 @@
+grounding_dino:
+  model_id: IDEA-Research/grounding-dino-tiny
+  box_threshold: 0.25
+  text_threshold: 0.20
+
+sam2:
+  # The script will use the installed SAM2 package. Keep the checkpoint path here
+  # so we can pin a local model file later instead of changing code.
+  checkpoint: ""
+  model_cfg: ""
+
+output:
+  save_masks: true
+  save_annotated_image: true

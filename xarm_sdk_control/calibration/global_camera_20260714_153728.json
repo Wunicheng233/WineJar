@@ -1,0 +1,321 @@
+{
+  "timestamp": "20260714_153728",
+  "description": "Eye-to-hand/global camera calibration. Transform maps fixed RealSense camera coordinates into xArm base coordinates.",
+  "sample_count": 12,
+  "sample_paths": [
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_152521_582/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_152623_074/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_152723_369/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_152840_982/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_152927_658/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153002_405/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153054_179/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153214_289/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153305_257/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153345_150/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153424_202/sample.json",
+    "xarm_sdk_control/data/global_camera_samples_v2/20260714_153522_350/sample.json"
+  ],
+  "base_T_camera": [
+    [
+      0.06814578769506634,
+      0.9975872115996569,
+      -0.013262988812509507,
+      0.3822771347597701
+    ],
+    [
+      0.995486683294291,
+      -0.0688703700349799,
+      -0.06529269112984666,
+      0.08162180182183701
+    ],
+    [
+      -0.06604858062934844,
+      -0.008753706875760218,
+      -0.9977780101870266,
+      0.5642904703116577
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "base_T_camera_translation_m": [
+    0.3822771347597701,
+    0.08162180182183701,
+    0.5642904703116577
+  ],
+  "quality": {
+    "residual_mean_mm": 3.4148835067332577,
+    "residual_max_mm": 6.113106328212752,
+    "residual_std_mm": 1.610624615674798
+  },
+  "per_sample": [
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_152521_582/sample.json",
+      "timestamp": "2026-07-14T15:25:21.582+08:00",
+      "point_name": "p01",
+      "camera_point_m": [
+        0.0365971177816391,
+        -0.028253762051463127,
+        0.367000013589859
+      ],
+      "measured_base_point_m": [
+        0.347088165,
+        0.09784536,
+        0.19728230300000002
+      ],
+      "predicted_base_point_m": [
+        0.35171796540181655,
+        0.09603717373580378,
+        0.1959360644798901
+      ],
+      "residual_mm": 5.149460892143591,
+      "median_depth_m": 0.367000013589859
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_152623_074/sample.json",
+      "timestamp": "2026-07-14T15:26:23.074+08:00",
+      "point_name": "p02",
+      "camera_point_m": [
+        0.014836487360298634,
+        -0.030644716694951057,
+        0.31200000643730164
+      ],
+      "measured_base_point_m": [
+        0.35,
+        0.07500003100000001,
+        0.24999992399999998
+      ],
+      "predicted_base_point_m": [
+        0.34857934880470703,
+        0.07813052034145587,
+        0.2522720506458727
+      ],
+      "residual_mm": 4.120773329187241,
+      "median_depth_m": 0.31200000643730164
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_152723_369/sample.json",
+      "timestamp": "2026-07-14T15:27:23.369+08:00",
+      "point_name": "p03",
+      "camera_point_m": [
+        0.022056417539715767,
+        0.021326221525669098,
+        0.36400002241134644
+      ],
+      "measured_base_point_m": [
+        0.39999993899999997,
+        0.075,
+        0.2
+      ],
+      "predicted_base_point_m": [
+        0.40022722434749924,
+        0.0783433859613206,
+        0.19945577367776163
+      ],
+      "residual_mm": 3.395006716541314,
+      "median_depth_m": 0.36400002241134644
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_152840_982/sample.json",
+      "timestamp": "2026-07-14T15:28:40.982+08:00",
+      "point_name": "p04",
+      "camera_point_m": [
+        0.09481633454561234,
+        0.014043903909623623,
+        0.41200003027915955
+      ],
+      "measured_base_point_m": [
+        0.400000031,
+        0.149999985,
+        0.15
+      ],
+      "predicted_base_point_m": [
+        0.39728413571256865,
+        0.14814240063927442,
+        0.1468204793672918
+      ],
+      "residual_mm": 4.575593767296327,
+      "median_depth_m": 0.41200003027915955
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_152927_658/sample.json",
+      "timestamp": "2026-07-14T15:29:27.658+08:00",
+      "point_name": "p05",
+      "camera_point_m": [
+        0.05856398865580559,
+        -0.03190762177109718,
+        0.2600000202655792
+      ],
+      "measured_base_point_m": [
+        0.35,
+        0.125000023,
+        0.3
+      ],
+      "predicted_base_point_m": [
+        0.3509890111058449,
+        0.1251428613506467,
+        0.30127940908385903
+      ],
+      "residual_mm": 1.6234017881476872,
+      "median_depth_m": 0.2600000202655792
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153002_405/sample.json",
+      "timestamp": "2026-07-14T15:30:02.405+08:00",
+      "point_name": "p06",
+      "camera_point_m": [
+        0.05929173529148102,
+        -0.05658772215247154,
+        0.28600001335144043
+      ],
+      "measured_base_point_m": [
+        0.325,
+        0.125,
+        0.275
+      ],
+      "predicted_base_point_m": [
+        0.3260732138346975,
+        0.12586944156310623,
+        0.2755051634498307
+      ],
+      "residual_mm": 1.470682385047009,
+      "median_depth_m": 0.28600001335144043
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153054_179/sample.json",
+      "timestamp": "2026-07-14T15:30:54.179+08:00",
+      "point_name": "p07",
+      "camera_point_m": [
+        0.02881506085395813,
+        -0.059044402092695236,
+        0.21000000834465027
+      ],
+      "measured_base_point_m": [
+        0.32499993899999996,
+        0.099999985,
+        0.35
+      ],
+      "predicted_base_point_m": [
+        0.32255359157362157,
+        0.10066175531877254,
+        0.3533707433646953
+      ],
+      "residual_mm": 4.217163325743283,
+      "median_depth_m": 0.21000000834465027
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153214_289/sample.json",
+      "timestamp": "2026-07-14T15:32:14.289+08:00",
+      "point_name": "p09",
+      "camera_point_m": [
+        -0.012120718136429787,
+        0.0004426199884619564,
+        0.31200000643730164
+      ],
+      "measured_base_point_m": [
+        0.374999939,
+        0.050000046,
+        0.25
+      ],
+      "predicted_base_point_m": [
+        0.37775465832014044,
+        0.0491539848698464,
+        0.2537804063737906
+      ],
+      "residual_mm": 4.753500848817481,
+      "median_depth_m": 0.31200000643730164
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153305_257/sample.json",
+      "timestamp": "2026-07-14T15:33:05.257+08:00",
+      "point_name": "p10",
+      "camera_point_m": [
+        0.010625242255628109,
+        -0.0283966027200222,
+        0.3400000035762787
+      ],
+      "measured_base_point_m": [
+        0.350000031,
+        0.075,
+        0.225000015
+      ],
+      "predicted_base_point_m": [
+        0.35016369629267524,
+        0.07195525831350211,
+        0.22459273664638768
+      ],
+      "residual_mm": 3.0762174700182774,
+      "median_depth_m": 0.3400000035762787
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153345_150/sample.json",
+      "timestamp": "2026-07-14T15:33:45.150+08:00",
+      "point_name": "p11",
+      "camera_point_m": [
+        -0.05534365773200989,
+        -0.02272946946322918,
+        0.42000001668930054
+      ],
+      "measured_base_point_m": [
+        0.35,
+        -6e-09,
+        0.15
+      ],
+      "predicted_base_point_m": [
+        0.3502606140241298,
+        0.0006703831532304666,
+        0.14907802653404778
+      ],
+      "residual_mm": 1.1693486897679959,
+      "median_depth_m": 0.42000001668930054
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153424_202/sample.json",
+      "timestamp": "2026-07-14T15:34:24.202+08:00",
+      "point_name": "p12",
+      "camera_point_m": [
+        -0.10752511769533157,
+        0.006012564525008202,
+        0.37300002574920654
+      ],
+      "measured_base_point_m": [
+        0.37499996900000004,
+        -0.04999995,
+        0.19999993900000002
+      ],
+      "predicted_base_point_m": [
+        0.37600071322790546,
+        -0.0501862839798812,
+        0.19916849599826147
+      ],
+      "residual_mm": 1.3143465398761347,
+      "median_depth_m": 0.37300002574920654
+    },
+    {
+      "path": "xarm_sdk_control/data/global_camera_samples_v2/20260714_153522_350/sample.json",
+      "timestamp": "2026-07-14T15:35:22.350+08:00",
+      "point_name": "p13",
+      "camera_point_m": [
+        -0.06391500681638718,
+        -0.07766472548246384,
+        0.37400001287460327
+      ],
+      "measured_base_point_m": [
+        0.30000006100000004,
+        1.9999999999999997e-09,
+        0.2
+      ],
+      "predicted_base_point_m": [
+        0.2954839013543937,
+        -0.001075405267078,
+        0.19602283137831106
+      ],
+      "residual_mm": 6.113106328212752,
+      "median_depth_m": 0.37400001287460327
+    }
+  ]
+}
