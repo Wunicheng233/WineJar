@@ -1,18 +1,11 @@
 from __future__ import annotations
 
-import importlib.util
-from pathlib import Path
-
+from conftest import load_script_module
 from xarm_sdk_control.vacuum_control import VacuumController, VacuumIOConfig
 from xarm_sdk_control.end_effector_config import load_end_effector_config
 
 
-ROOT = Path(__file__).resolve().parents[2]
-SCRIPT_PATH = ROOT / "xarm_sdk_control" / "scripts" / "15_vacuum_io_check.py"
-SPEC = importlib.util.spec_from_file_location("vacuum_io_check", SCRIPT_PATH)
-assert SPEC is not None and SPEC.loader is not None
-IO_CHECK = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(IO_CHECK)
+IO_CHECK = load_script_module("vacuum_io_check", "xarm_sdk_control/scripts/15_vacuum_io_check.py")
 
 
 class FakeArm:

@@ -1,20 +1,14 @@
 from __future__ import annotations
 
-import importlib.util
-from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
 
+from conftest import load_script_module
 from xarm_sdk_control.pick_verification import PickVerification
 
 
-ROOT = Path(__file__).resolve().parents[2]
-SCRIPT_PATH = ROOT / "xarm_sdk_control" / "scripts" / "20_visual_pick_test.py"
-SPEC = importlib.util.spec_from_file_location("visual_pick_test", SCRIPT_PATH)
-MODULE = importlib.util.module_from_spec(SPEC)
-assert SPEC.loader is not None
-SPEC.loader.exec_module(MODULE)
+MODULE = load_script_module("visual_pick_test", "xarm_sdk_control/scripts/20_visual_pick_test.py")
 
 
 def args(**overrides):

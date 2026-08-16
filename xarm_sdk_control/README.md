@@ -23,6 +23,20 @@ Robot IP is stored in:
 xarm_sdk_control/config/robot.yaml
 ```
 
+## Modules
+
+Task scripts are thin orchestration over shared importable modules:
+
+- `robot_motion.py` — connection, preparation, emergency-stop checks, safe reset motion
+- `visual_targeting.py` — calibration loading, RGB-D scan pipeline, detection selection
+- `cross_place_route.py` — two-shell cycle route construction and task geometry
+- `cross_place_motion.py` — motion-profile validation, joint-aware planning, route execution
+- `trajectory_speed_planner.py` — joint speed/acceleration scaling and controller preflight
+- `pick_test_workflow.py` — attended single-object pick-test profiles and execution
+- `vacuum_control.py` / `end_effector_config.py` / `positioning_bias.py` — end-effector I/O, tool config, measured bias
+- `realsense_capture.py` — aligned RGB-D capture session
+- `geometry.py` / `cli_utils.py` / `run_output.py` / `task_timing.py` — shared pose math, argparse plumbing, run reporting, timeline
+
 ## Attended single-object pick test
 
 `20_visual_pick_test.py` is an isolated test workflow for visually targeting,

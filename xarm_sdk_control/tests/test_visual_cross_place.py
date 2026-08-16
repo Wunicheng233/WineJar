@@ -1,100 +1,22 @@
 from __future__ import annotations
 
-import importlib.util
-from pathlib import Path
-from types import SimpleNamespace
+from conftest import (
+    RecordingArm,
+    RecordingTimeline,
+    RecordingVacuum,
+    TimeoutAtTargetArm,
+    TimeoutAwayFromTargetArm,
+    load_script_module,
+    motion_args,
+)
 
 from xarm_sdk_control import cross_place_motion as MOTION
 
 
-ROOT = Path(__file__).resolve().parents[2]
-SCRIPT_PATH = ROOT / "xarm_sdk_control" / "scripts" / "19_visual_cross_place_two_leaves.py"
-SPEC = importlib.util.spec_from_file_location("visual_cross_place", SCRIPT_PATH)
-assert SPEC is not None and SPEC.loader is not None
-MODULE = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(MODULE)
-
-
-class TimeoutAtTargetArm:
-    def get_position(self, is_radian=False):
-        return 0, [300.0, 150.0, -60.0, 180.0, 0.0, 90.0]
-
-    def get_state(self):
-        return 0, 2
-
-    def get_err_warn_code(self):
-        return 0, [0, 0]
-
-
-class TimeoutAwayFromTargetArm(TimeoutAtTargetArm):
-    def get_position(self, is_radian=False):
-        return 0, [300.0, 150.0, -50.0, 180.0, 0.0, 90.0]
-
-
-class RecordingArm:
-    def __init__(self) -> None:
-        self.commands = []
-
-    def set_position(self, *pose, **kwargs):
-        self.commands.append((pose, kwargs))
-        return 0
-
-    def get_state(self):
-        return 0, 4
-
-    def get_err_warn_code(self):
-        return 0, [0, 0]
-
-    def get_position(self, is_radian=False):
-        return 0, [300.0, 100.0, 200.0, 178.0, 0.0, 0.0]
-
-    def get_servo_angle(self, is_radian=False):
-        return 0, [0.0] * 7
-
-
-class RecordingVacuum:
-    def __init__(self) -> None:
-        self.actions = []
-
-    def prepare_for_pick(self) -> None:
-        self.actions.append("prepare")
-
-    def acquire(self, settle_seconds: float) -> None:
-        self.actions.append(("acquire", settle_seconds))
-
-    def release(self, settle_seconds: float) -> None:
-        self.actions.append(("release", settle_seconds))
-
-
-class RecordingTimeline:
-    def __init__(self) -> None:
-        self.events = []
-
-    def mark(self, name: str, **details) -> None:
-        self.events.append((name, details))
-
-
-def motion_args(**overrides):
-    values = {
-        "transit_speed": 300.0,
-        "loaded_transit_speed": 220.0,
-        "vertical_speed": 200.0,
-        "loaded_vertical_speed": 120.0,
-        "precision_speed": 60.0,
-        "contact_speed": 20.0,
-        "acc": 500.0,
-        "loaded_acc": 250.0,
-        "precision_acc": 200.0,
-        "blend_radius_mm": 10.0,
-        "vacuum_settle_seconds": 0.9,
-        "release_settle_seconds": 0.3,
-        "joint_velocity_utilization": 0.40,
-        "joint_acceleration_utilization": 0.40,
-        "ik_translation_step_mm": 10.0,
-        "ik_rotation_step_deg": 2.0,
-    }
-    values.update(overrides)
-    return SimpleNamespace(**values)
+MODULE = load_script_module(
+    "visual_cross_place",
+    "xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py",
+)
 
 
 def test_robot_status_snapshot_records_post_stop_diagnostics() -> None:

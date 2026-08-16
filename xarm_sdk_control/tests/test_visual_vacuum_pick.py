@@ -1,15 +1,9 @@
 from __future__ import annotations
 
-import importlib.util
-from pathlib import Path
+from conftest import load_script_module
 
 
-ROOT = Path(__file__).resolve().parents[2]
-SCRIPT_PATH = ROOT / "xarm_sdk_control" / "scripts" / "16_visual_vacuum_pick.py"
-SPEC = importlib.util.spec_from_file_location("visual_vacuum_pick", SCRIPT_PATH)
-assert SPEC is not None and SPEC.loader is not None
-MODULE = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(MODULE)
+MODULE = load_script_module("visual_vacuum_pick", "xarm_sdk_control/scripts/16_visual_vacuum_pick.py")
 
 
 def test_approach_route_never_reaches_leaf_contact_height() -> None:

@@ -85,15 +85,12 @@ python xarm_sdk_control/scripts/15_vacuum_io_check.py --test status
 python xarm_sdk_control/scripts/15_vacuum_io_check.py --test cycle --hold-seconds 2
 ```
 
-单片竹壳完整吸放：
+单片竹壳非接触接近检查（无真空动作，仅下降至吸点上方并悬停观察）：
 
 ```bash
 python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
   --run \
-  --stage full \
-  --confirm-no-pressure-sensor \
-  --allow-validated-clipped-leaf-for-full \
-  --compression-mm <实测安全压缩量> \
+  --allow-clipped-leaf-for-approach \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
   --min-z-mm -75 --max-z-mm 430 \
@@ -101,6 +98,9 @@ python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
   --descent-speed 20 \
   --acc 240
 ```
+
+接触式吸放任务由 `19_visual_cross_place_two_leaves.py`（两片交叉放置）与
+`20_visual_pick_test.py`（有人值守单物吸起测试）承担。
 
 两片竹壳交叉放置：
 
@@ -138,8 +138,8 @@ python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
 
 ## 测试
 
-在仓库根目录运行：
+在任意目录运行（测试夹具会自动定位仓库根目录）：
 
 ```bash
-PYTHONPATH=. pytest -q xarm_sdk_control/tests
+conda run -n winejar-xarm-sdk python -m pytest -q xarm_sdk_control/tests
 ```

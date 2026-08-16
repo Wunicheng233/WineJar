@@ -6,6 +6,7 @@ import cv2
 import numpy as np
 
 from xarm_sdk_control import visual_targeting
+from xarm_sdk_control.geometry import undirected_axis_delta_deg
 
 
 def test_run_vision_passes_custom_text_prompt(tmp_path, monkeypatch) -> None:
@@ -75,7 +76,7 @@ def test_mask_principal_axis_and_undirected_delta(tmp_path) -> None:
 
     assert min(abs(angle), abs(angle - 180.0)) < 1.0
     assert elongation > 10.0
-    assert visual_targeting.undirected_axis_delta_deg(170.0, 10.0) == 20.0
+    assert undirected_axis_delta_deg(170.0, 10.0) == 20.0
 
 
 def test_mixed_grounding_label_uses_elongated_shape_as_bamboo() -> None:
