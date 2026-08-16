@@ -1,13 +1,16 @@
-"""Object profiles and guarded routes for attended vacuum-pick tests."""
+"""Object profiles, guarded routes, and execution for attended vacuum-pick tests."""
 
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass
+from typing import Any, Callable, Sequence
 
 import numpy as np
 
 from xarm_sdk_control.geometry import compose_pose_mm
-from xarm_sdk_control.robot_motion import require_overhead_camera_safe_route
+from xarm_sdk_control.robot_motion import require_code, require_overhead_camera_safe_route
+from xarm_sdk_control.vacuum_control import VacuumController
 
 
 MAX_COMPRESSION_MM = 30.0
@@ -120,3 +123,78 @@ def build_pick_test_route(
     ]
     require_overhead_camera_safe_route([home, *[step.pose_mm_deg for step in steps]])
     return steps
+
+
+def validate_pick_test_args(args: Any, profile: PickTestProfile) -> tuple[float, float]:
+    min_score = profile.default_min_score if args.min_score is None else float(args.min_score)
+    compression_mm = profile.default_compression_mm if args.compression_mm is None else float(args.compression_mm)
+    if not 0.0 <= min_score <= 1.0:
+        raise ValueError("--min-score must be within 0~1")
+    if not 0.0 <= compression_mm <= MAX_COMPRESSION_MM:
+        raise ValueError(
+            f"--compression-mm must remain within the configured 0~{MAX_COMPRESSION_MM:g} mm spring travel"
+        )
+    if min(args.vacuum_settle_seconds, args.release_settle_seconds, args.inspection_hold_seconds) < 0.0:
+        raise ValueError("Hold and settle times must be non-negative")
+    if min(args.transit_speed, args.precision_speed, args.acc) <= 0.0:
+        raise ValueError("Motion speeds and acceleration must be positive")
+    limits = (args.min_x_mm, args.max_x_mm, args.min_y_mm, args.max_y_mm, args.min_z_mm, args.max_z_mm)
+    if args.run and any(value is None for value in limits):
+        raise ValueError("--run requires explicit min/max X, Y, and Z workspace limits")
+    if args.run and not args.confirm_no_pressure_sensor:
+        raise ValueError("--run requires --confirm-no-pressure-sensor")
+    if not 1 <= args.max_attempts <= 3:
+        raise ValueError("--max-attempts must be within 1~3")
+    if args.verify_pick and not args.run:
+        raise ValueError("--verify-pick requires --run")
+    if args.max_attempts > 1 and not args.verify_pick:
+        raise ValueError("Multiple attempts require --verify-pick")
+    if args.simulate_first_pick_failure and not args.verify_pick:
+        raise ValueError("--simulate-first-pick-failure requires --verify-pick")
+    if args.simulate_first_pick_failure and args.max_attempts < 2:
+        raise ValueError("Simulated first-pick failure requires --max-attempts 2 or greater")
+    return min_score, compression_mm
+
+
+def speed_for_step(step: PickTestStep, args: Any) -> float:
+    return float(args.precision_speed if step.motion != "empty_transit" else args.transit_speed)
+
+
+def execute_pick_test_route(
+    arm: Any,
+    vacuum: VacuumController,
+    route: Sequence[PickTestStep],
+    args: Any,
+    holding_state: dict[str, bool],
+    *,
+    label_prefix: str = "",
+    failure_injected: bool = False,
+    event_callback: Callable[[PickTestStep], None] | None = None,
+) -> None:
+    vacuum.prepare_for_pick()
+    for index, step in enumerate(route, start=1):
+        require_code(
+            f"{label_prefix}move {index:02d}: {step.label}",
+            arm.set_position(
+                *step.pose_mm_deg,
+                speed=speed_for_step(step, args),
+                mvacc=args.acc,
+                wait=True,
+                radius=-1,
+                is_radian=False,
+            ),
+        )
+        if step.event == "acquire":
+            if failure_injected:
+                print("CONTROLLED TEST: pump activation skipped; valve remains in the suction path state.")
+            else:
+                vacuum.acquire(args.vacuum_settle_seconds)
+                holding_state["value"] = True
+        elif step.event == "hold":
+            print(f"Holding for operator inspection: {args.inspection_hold_seconds:.1f} s")
+            time.sleep(args.inspection_hold_seconds)
+        elif step.event == "verify" and event_callback is not None:
+            event_callback(step)
+        elif step.event == "release":
+            vacuum.release(args.release_settle_seconds)
+            holding_state["value"] = False
