@@ -21,6 +21,7 @@ from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
 from xarm_sdk_control.cli_utils import (  # noqa: E402
+    add_motion_profile_args,
     add_vision_common_args,
     add_workspace_limit_args,
     route_safety_report,
@@ -38,6 +39,7 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
 )
 from xarm_sdk_control.task_timing import TaskTimeline  # noqa: E402
 from xarm_sdk_control.cross_place_motion import (  # noqa: E402
+    DEFAULT_MOTION_PROFILE,
     build_cycle_route,
     choose_second_source_leaf,
     execute_route,
@@ -108,22 +110,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--precision-lift-mm", type=float, default=20.0)
     parser.add_argument("--compression-mm", type=float, default=END_EFFECTOR.default_compression_mm)
     parser.add_argument("--release-clearance-mm", type=float, default=0.0)
-    parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
-    parser.add_argument("--release-settle-seconds", type=float, default=0.3)
-    parser.add_argument("--transit-speed", type=float, default=300.0)
-    parser.add_argument("--loaded-transit-speed", type=float, default=220.0)
-    parser.add_argument("--vertical-speed", type=float, default=200.0)
-    parser.add_argument("--loaded-vertical-speed", type=float, default=120.0)
-    parser.add_argument("--precision-speed", type=float, default=60.0)
-    parser.add_argument("--contact-speed", type=float, default=20.0)
-    parser.add_argument("--acc", type=float, default=500.0)
-    parser.add_argument("--loaded-acc", type=float, default=250.0)
-    parser.add_argument("--precision-acc", type=float, default=200.0)
-    parser.add_argument("--blend-radius-mm", type=float, default=10.0)
-    parser.add_argument("--joint-velocity-utilization", type=float, default=0.40)
-    parser.add_argument("--joint-acceleration-utilization", type=float, default=0.40)
-    parser.add_argument("--ik-translation-step-mm", type=float, default=10.0)
-    parser.add_argument("--ik-rotation-step-deg", type=float, default=2.0)
+    add_motion_profile_args(parser, DEFAULT_MOTION_PROFILE)
     add_workspace_limit_args(parser)
     return parser.parse_args()
 
