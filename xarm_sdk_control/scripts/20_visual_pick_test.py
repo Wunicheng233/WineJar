@@ -80,9 +80,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
-        default=10.0,
-        help="Measured X compensation applied to every ceramic suction point; "
-             "the cup lands off-center otherwise. Applied after the shared positioning bias.",
+        default=-20.0,
+        help="X offset of the suction point relative to the detected disk center; "
+             "negative moves toward a flatter spot away from the raised ceramic center.",
     )
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
     parser.add_argument("--release-settle-seconds", type=float, default=0.5)
