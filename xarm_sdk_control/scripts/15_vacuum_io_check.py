@@ -17,7 +17,8 @@ REPO_ROOT = ROOT.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from xarm_sdk_control.vacuum_control import VacuumController, VacuumIOConfig  # noqa: E402
+from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
+from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 
 
 def controller_port_reachable(robot_ip: str, timeout_seconds: float = 2.0) -> bool:
@@ -30,15 +31,14 @@ def controller_port_reachable(robot_ip: str, timeout_seconds: float = 2.0) -> bo
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--test", choices=("status", "off", "pump", "vent", "cycle"), default="status")
-    parser.add_argument("--pump-on-value", type=int, choices=(0, 1), default=1)
-    parser.add_argument("--vent-on-value", type=int, choices=(0, 1), default=1)
+    parser.add_argument("--test", choices=("status", "off", "pump", "valve", "cycle"), default="status")
     parser.add_argument("--hold-seconds", type=float, default=2.0)
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
+    tool = load_end_effector_config()
     if args.hold_seconds < 0.0 or args.hold_seconds > 10.0:
         raise ValueError("--hold-seconds must be between 0 and 10 seconds")
 
@@ -68,17 +68,11 @@ def main() -> int:
             print("STATUS ONLY: no output was changed and robot motion was not enabled.")
             return 0
 
-        config = VacuumIOConfig(
-            pump_channel=0,
-            vent_channel=1,
-            pump_on_value=args.pump_on_value,
-            vent_on_value=args.vent_on_value,
-        )
-        vacuum = VacuumController(arm, config)
+        vacuum = VacuumController(arm, tool.vacuum_io)
         vacuum.configure()
         vacuum.safe_shutdown()
         if args.test == "off":
-            print("Pump is OFF and vent valve is CLOSED. Robot motion was not enabled.")
+            print("Pump is OFF and selector valve is VENTING. Robot motion was not enabled.")
             return 0
         time.sleep(0.5)
 
@@ -87,11 +81,11 @@ def main() -> int:
             vacuum.set_pump(True)
             time.sleep(args.hold_seconds)
             vacuum.set_pump(False)
-        elif args.test == "vent":
-            print(f"Opening the vent valve for {args.hold_seconds:.1f} seconds. Observe relay X2 and valve click.")
-            vacuum.set_vent(True)
+        elif args.test == "valve":
+            print(f"Energizing the vacuum selector valve for {args.hold_seconds:.1f} seconds. Observe relay X2 and valve click.")
+            vacuum.set_vacuum_path(True)
             time.sleep(args.hold_seconds)
-            vacuum.set_vent(False)
+            vacuum.set_vacuum_path(False)
         else:
             print(f"Running one vacuum/vent cycle with a {args.hold_seconds:.1f}-second vacuum hold.")
             vacuum.acquire(args.hold_seconds)

@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -71,12 +72,46 @@ def infer_grounding_dino(
     device: torch.device,
     local_files_only: bool,
 ) -> tuple[list[dict[str, Any]], Any]:
+    processor, model = load_grounding_dino(
+        model_id=model_id,
+        device=device,
+        local_files_only=local_files_only,
+    )
+    detections = infer_grounding_dino_loaded(
+        image=image,
+        text_prompt=text_prompt,
+        processor=processor,
+        model=model,
+        box_threshold=box_threshold,
+        text_threshold=text_threshold,
+        device=device,
+    )
+    return detections, processor
+
+
+def load_grounding_dino(
+    model_id: str,
+    device: torch.device,
+    local_files_only: bool,
+) -> tuple[Any, Any]:
     processor = AutoProcessor.from_pretrained(model_id, local_files_only=local_files_only)
     model = AutoModelForZeroShotObjectDetection.from_pretrained(
         model_id,
         local_files_only=local_files_only,
     ).to(device)
     model.eval()
+    return processor, model
+
+
+def infer_grounding_dino_loaded(
+    image: Image.Image,
+    text_prompt: str,
+    processor: Any,
+    model: Any,
+    box_threshold: float,
+    text_threshold: float,
+    device: torch.device,
+) -> list[dict[str, Any]]:
 
     text = text_prompt.strip()
     if not text.endswith("."):
@@ -105,7 +140,7 @@ def infer_grounding_dino(
                 "box_xyxy": [float(v) for v in box.detach().cpu().tolist()],
             }
         )
-    return detections, processor
+    return detections
 
 
 def build_sam2_predictor(
@@ -275,60 +310,47 @@ def camera_point_to_world(
     return [float(v) for v in point_world[:3]]
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--frame-dir", type=Path, required=True)
-    parser.add_argument("--text-prompt", required=True)
-    parser.add_argument("--model-id", default=DEFAULT_MODEL_ID)
-    parser.add_argument("--sam2-model-id", default=DEFAULT_SAM2_MODEL_ID)
-    parser.add_argument("--sam2-config", default=DEFAULT_SAM2_CONFIG)
-    parser.add_argument("--sam2-checkpoint", type=Path, default=DEFAULT_SAM2_CHECKPOINT)
-    parser.add_argument("--box-threshold", type=float, default=0.45)
-    parser.add_argument("--text-threshold", type=float, default=0.20)
-    parser.add_argument(
-        "--output-min-score",
-        type=float,
-        default=0.45,
-        help="Discard detections below this confidence before SAM2 and visualization.",
-    )
-    parser.add_argument("--cpu", action="store_true", help="Force CPU inference.")
-    parser.add_argument(
-        "--allow-model-download",
-        action="store_true",
-        help="Allow Hugging Face network access. By default, use the local model cache only.",
-    )
-    args = parser.parse_args()
-
-    frame_dir = args.frame_dir.expanduser().resolve()
+def process_saved_frame(
+    frame_dir: Path,
+    text_prompt: str,
+    processor: Any,
+    detector: Any,
+    sam2_predictor: Any,
+    device: torch.device,
+    model_id: str,
+    sam2_model_id: str,
+    sam2_config: str,
+    sam2_checkpoint: Path | None,
+    box_threshold: float,
+    text_threshold: float,
+    output_min_score: float,
+) -> dict[str, Any]:
+    started_total = time.monotonic()
     metadata, color_bgr, depth_raw, image_pil = load_frame(frame_dir)
-    device = torch.device("cpu" if args.cpu or not torch.cuda.is_available() else "cuda")
-    print(f"Device: {device}")
-    print(f"Frame: {frame_dir}")
 
-    raw_detections, _ = infer_grounding_dino(
+    started_grounding = time.monotonic()
+    raw_detections = infer_grounding_dino_loaded(
         image=image_pil,
-        text_prompt=args.text_prompt,
-        model_id=args.model_id,
-        box_threshold=args.box_threshold,
-        text_threshold=args.text_threshold,
+        text_prompt=text_prompt,
+        processor=processor,
+        model=detector,
+        box_threshold=box_threshold,
+        text_threshold=text_threshold,
         device=device,
-        local_files_only=not args.allow_model_download,
     )
     raw_detections = [
         detection
         for detection in raw_detections
-        if float(detection.get("score", 0.0)) >= args.output_min_score
+        if float(detection.get("score", 0.0)) >= output_min_score
     ]
+    grounding_seconds = time.monotonic() - started_grounding
     print(f"Detections: {len(raw_detections)}")
 
-    predictor = build_sam2_predictor(
-        device=device,
-        config_file=args.sam2_config,
-        checkpoint=args.sam2_checkpoint.expanduser().resolve() if args.sam2_checkpoint else None,
-        model_id=args.sam2_model_id,
-    )
-    masks = infer_sam2_masks(predictor, image_pil, raw_detections)
+    started_sam2 = time.monotonic()
+    masks = infer_sam2_masks(sam2_predictor, image_pil, raw_detections)
+    sam2_seconds = time.monotonic() - started_sam2
 
+    started_postprocess = time.monotonic()
     depth_scale_m = metadata["stream"]["depth_scale_m_per_unit"]
     intrinsics = metadata["intrinsics"]
     detections: list[Detection] = []
@@ -364,20 +386,28 @@ def main() -> int:
 
     annotated = draw_overlay(color_bgr, detections, masks)
     cv2.imwrite(str(frame_dir / "annotated.png"), annotated)
+    postprocess_seconds = time.monotonic() - started_postprocess
+    total_seconds = time.monotonic() - started_total
 
     result = {
         "schema_version": 1,
         "frame_dir": str(frame_dir),
-        "text_prompt": args.text_prompt,
-        "model_id": args.model_id,
+        "text_prompt": text_prompt,
+        "model_id": model_id,
         "sam2": {
-            "model_id": args.sam2_model_id,
-            "config": args.sam2_config,
-            "checkpoint": str(args.sam2_checkpoint) if args.sam2_checkpoint else None,
+            "model_id": sam2_model_id,
+            "config": sam2_config,
+            "checkpoint": str(sam2_checkpoint) if sam2_checkpoint else None,
         },
         "device": str(device),
         "coordinate_convention": metadata["stream"]["coordinate_convention"],
         "detections": [det.__dict__ for det in detections],
+        "timing_seconds": {
+            "grounding_dino": grounding_seconds,
+            "sam2": sam2_seconds,
+            "postprocess": postprocess_seconds,
+            "total": total_seconds,
+        },
         "files": {
             "annotated": "annotated.png",
             "result": "vision_result.json",
@@ -387,9 +417,68 @@ def main() -> int:
         json.dumps(result, ensure_ascii=True, indent=2) + "\n",
         encoding="utf-8",
     )
-
+    print(f"Inference timing: {result['timing_seconds']}")
     print(f"Saved: {frame_dir / 'vision_result.json'}")
     print(f"Saved: {frame_dir / 'annotated.png'}")
+    return result
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--frame-dir", type=Path, required=True)
+    parser.add_argument("--text-prompt", required=True)
+    parser.add_argument("--model-id", default=DEFAULT_MODEL_ID)
+    parser.add_argument("--sam2-model-id", default=DEFAULT_SAM2_MODEL_ID)
+    parser.add_argument("--sam2-config", default=DEFAULT_SAM2_CONFIG)
+    parser.add_argument("--sam2-checkpoint", type=Path, default=DEFAULT_SAM2_CHECKPOINT)
+    parser.add_argument("--box-threshold", type=float, default=0.45)
+    parser.add_argument("--text-threshold", type=float, default=0.20)
+    parser.add_argument(
+        "--output-min-score",
+        type=float,
+        default=0.45,
+        help="Discard detections below this confidence before SAM2 and visualization.",
+    )
+    parser.add_argument("--cpu", action="store_true", help="Force CPU inference.")
+    parser.add_argument(
+        "--allow-model-download",
+        action="store_true",
+        help="Allow Hugging Face network access. By default, use the local model cache only.",
+    )
+    args = parser.parse_args()
+
+    frame_dir = args.frame_dir.expanduser().resolve()
+    device = torch.device("cpu" if args.cpu or not torch.cuda.is_available() else "cuda")
+    print(f"Device: {device}")
+    print(f"Frame: {frame_dir}")
+    started_loading = time.monotonic()
+    processor, detector = load_grounding_dino(
+        model_id=args.model_id,
+        device=device,
+        local_files_only=not args.allow_model_download,
+    )
+    predictor = build_sam2_predictor(
+        device=device,
+        config_file=args.sam2_config,
+        checkpoint=args.sam2_checkpoint.expanduser().resolve() if args.sam2_checkpoint else None,
+        model_id=args.sam2_model_id,
+    )
+    print(f"Model loading: {time.monotonic() - started_loading:.3f}s")
+    process_saved_frame(
+        frame_dir=frame_dir,
+        text_prompt=args.text_prompt,
+        processor=processor,
+        detector=detector,
+        sam2_predictor=predictor,
+        device=device,
+        model_id=args.model_id,
+        sam2_model_id=args.sam2_model_id,
+        sam2_config=args.sam2_config,
+        sam2_checkpoint=args.sam2_checkpoint.expanduser().resolve() if args.sam2_checkpoint else None,
+        box_threshold=args.box_threshold,
+        text_threshold=args.text_threshold,
+        output_min_score=args.output_min_score,
+    )
     return 0
 
 

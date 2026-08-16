@@ -64,3 +64,35 @@ The script writes:
 - `vision_result.json`
 - `annotated.png`
 - `mask_*.png`
+
+## Persistent inference service
+
+For robot cycle-time tests, start the vision service before starting production:
+
+```bash
+conda run --no-capture-output -n winejar-vision \
+  env HF_HUB_OFFLINE=1 \
+  python -u vision/scripts/03_grounded_sam2_service.py
+```
+
+Wait for the JSON `"status": "ready"` message. The service keeps GroundingDINO
+and SAM2 in GPU memory and listens only on the local Unix socket:
+
+```text
+/tmp/winejar_grounded_sam2.sock
+```
+
+The robot task automatically uses this service when the socket exists. For a
+cycle-time test, pass `--require-vision-service` so a missing service fails the
+task instead of silently falling back to cold one-shot inference.
+
+The service never connects to or commands the robot. It reads a saved RGB-D
+frame directory and writes the same `vision_result.json`, `annotated.png`, and
+`mask_*.png` artifacts as the offline script.
+
+Model loading is startup overhead and is not production cycle time. The robot
+task records the productive cycle from the first RGB-D capture after reset to
+the final safe return in its `result.json` timeline.
+
+Stop the service with `Ctrl+C` after experiments. Its Unix socket is removed on
+clean shutdown.

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import math
 import unittest
-from importlib.machinery import SourceFileLoader
+import importlib.util
 from pathlib import Path
 
 import numpy as np
@@ -14,10 +14,11 @@ from xarm_sdk_control.calibration_utils import (
 )
 
 
-COLLECTOR = SourceFileLoader(
-    "global_camera_collector",
-    str(Path(__file__).resolve().parents[1] / "scripts" / "11_collect_global_camera_sample.py"),
-).load_module()
+SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "11_collect_global_camera_sample.py"
+SPEC = importlib.util.spec_from_file_location("global_camera_collector", SCRIPT_PATH)
+assert SPEC is not None and SPEC.loader is not None
+COLLECTOR = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(COLLECTOR)
 
 
 class FakeDepthFrame:

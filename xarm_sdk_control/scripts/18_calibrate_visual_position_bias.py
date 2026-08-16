@@ -21,6 +21,12 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from xarm_sdk_control.positioning_bias import append_bias_sample, load_bias_mm  # noqa: E402
+from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
+from xarm_sdk_control.robot_motion import (  # noqa: E402
+    CAMERA_TRANSIT_Z_MM,
+    pose_in_overhead_camera_keepout,
+    require_overhead_camera_safe_route,
+)
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     capture_rgbd,
     detections_in_base,
@@ -34,6 +40,7 @@ from xarm_sdk_control.visual_targeting import (  # noqa: E402
 CONFIG_PATH = ROOT / "config" / "robot.yaml"
 DEFAULT_OUTPUT = ROOT / "config" / "visual_position_bias.json"
 OUTPUT_ROOT = ROOT / "data" / "visual_position_bias"
+END_EFFECTOR = load_end_effector_config()
 
 
 def require_code(label: str, result: Any) -> Any:
@@ -58,13 +65,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--verify-only",
         action="store_true",
-        help="Hold at the predicted/compensated pose, then return without interactive jogging or saving.",
+        help="Hold at the predicted/compensated pose without interactive jogging or saving.",
+    )
+    parser.add_argument(
+        "--leave-at-target",
+        action="store_true",
+        help="On successful verification, disconnect without returning so the physical offset can be measured.",
     )
     parser.add_argument("--hold-seconds", type=float, default=8.0)
     parser.add_argument("--vision-env", default="winejar-vision")
     parser.add_argument("--serial")
     parser.add_argument("--min-score", type=float, default=0.45)
-    parser.add_argument("--tcp-offset-z-mm", type=float, default=100.0)
+    parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
     parser.add_argument("--transport-clearance-mm", type=float, default=200.0)
     parser.add_argument("--step-mm", type=float, default=2.0)
@@ -90,7 +102,7 @@ def inside_limits(pose: list[float], args: argparse.Namespace) -> bool:
 def jog_until_aligned(arm: Any, predicted_pose: list[float], args: argparse.Namespace) -> list[float] | None:
     pose = predicted_pose.copy()
     step = float(args.step_mm)
-    print("\nAlign the physical center between the two suction cups with the visual target.")
+    print("\nAlign the physical suction-cup center with the visual target.")
     print("Commands: x+ x- y+ y- | step N | save | cancel")
     while True:
         command = input(f"bias-jog (step={step:g} mm)> ").strip().lower()
@@ -118,6 +130,9 @@ def jog_until_aligned(arm: Any, predicted_pose: list[float], args: argparse.Name
         candidate[1] += delta[1]
         if not inside_limits(candidate, args):
             print("Refusing jog: candidate pose is outside the explicit workspace limits.")
+            continue
+        if pose_in_overhead_camera_keepout(candidate):
+            print("Refusing jog: candidate pose enters the overhead-camera keepout.")
             continue
         require_code(
             "jog",
@@ -170,6 +185,8 @@ def main() -> int:
     arm = XArmAPI(do_not_open=True, is_radian=False)
     initial_pose: list[float] | None = None
     transit_pose: list[float] | None = None
+    initial_column_pose: list[float] | None = None
+    completed_at_target = False
     try:
         require_code("connect", arm.connect(port=robot_ip))
         require_code(
@@ -180,6 +197,17 @@ def main() -> int:
         require_code("get initial TCP pose", (pose_code, initial_pose))
         orientation = list(map(float, initial_pose[3:6]))
         transit_z = float(target_mm[2] + args.transport_clearance_mm)
+        if transit_z > CAMERA_TRANSIT_Z_MM:
+            raise RuntimeError(
+                f"Target transit Z {transit_z:.1f} mm exceeds the "
+                f"{CAMERA_TRANSIT_Z_MM:.1f} mm camera-safe corridor"
+            )
+        initial_column_pose = [
+            float(initial_pose[0]),
+            float(initial_pose[1]),
+            transit_z,
+            *orientation,
+        ]
         transit_pose = [float(target_mm[0]), float(target_mm[1]), transit_z, *orientation]
         raw_predicted_pose = [
             float(target_mm[0]),
@@ -199,12 +227,26 @@ def main() -> int:
             print(f"Starting from existing XY bias [mm]: {starting_bias_mm[:2].round(2).tolist()}")
         if not inside_limits(transit_pose, args) or not inside_limits(predicted_pose, args):
             raise RuntimeError("Predicted calibration route is outside the explicit workspace limits")
+        require_overhead_camera_safe_route(
+            [list(map(float, initial_pose)), initial_column_pose, transit_pose, predicted_pose]
+        )
 
         require_code("clean error", arm.clean_error())
         require_code("clean warn", arm.clean_warn())
         require_code("motion enable", arm.motion_enable(enable=True))
         require_code("set mode 0", arm.set_mode(0))
         require_code("set state 0", arm.set_state(0))
+        require_code(
+            "move vertically to camera-safe transit height",
+            arm.set_position(
+                *initial_column_pose,
+                speed=args.speed,
+                mvacc=args.acc,
+                wait=True,
+                radius=-1,
+                is_radian=False,
+            ),
+        )
         require_code(
             "move directly above target",
             arm.set_position(*transit_pose, speed=args.speed, mvacc=args.acc, wait=True, radius=-1, is_radian=False),
@@ -216,6 +258,7 @@ def main() -> int:
         if args.verify_only:
             print(f"VERIFY ONLY: holding {args.hold_seconds:.1f} seconds; no sample will be saved.")
             time.sleep(args.hold_seconds)
+            completed_at_target = True
             return 0
         aligned_pose = jog_until_aligned(arm, predicted_pose, args)
         if aligned_pose is None:
@@ -241,15 +284,28 @@ def main() -> int:
         print(f"Median system bias [mm]: {np.asarray(result['bias_base_mm']).round(2).tolist()}")
         print(f"Sample range [mm]: {np.asarray(result['sample_range_base_mm']).round(2).tolist()}")
         print(f"Saved: {args.output.expanduser().resolve()}")
+        completed_at_target = True
         return 0
     finally:
-        if arm.connected and initial_pose is not None:
+        should_return = not (args.leave_at_target and completed_at_target)
+        if arm.connected and initial_pose is not None and should_return:
             try:
                 if transit_pose is not None:
                     arm.set_position(*transit_pose, speed=args.speed, mvacc=args.acc, wait=True, radius=-1, is_radian=False)
+                if initial_column_pose is not None:
+                    arm.set_position(
+                        *initial_column_pose,
+                        speed=args.speed,
+                        mvacc=args.acc,
+                        wait=True,
+                        radius=-1,
+                        is_radian=False,
+                    )
                 arm.set_position(*initial_pose, speed=args.speed, mvacc=args.acc, wait=True, radius=-1, is_radian=False)
             except Exception as exc:
                 print(f"WARNING: automatic safe return failed: {exc}", file=sys.stderr)
+        elif arm.connected and not should_return:
+            print("Leaving the robot at the verified target by request; no automatic return was commanded.")
         arm.disconnect()
 
 

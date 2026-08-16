@@ -7,11 +7,11 @@
 - 固定全局相机 RGB-D 采集与坐标标定
 - GroundingDINO 开放词汇检测
 - SAM2 像素级分割
-- 粽叶与陶瓷片三维定位
+- 竹壳与陶瓷片三维定位
 - xArm6 视觉引导运动
-- 自制双吸盘的泵与放气阀控制
-- 单片粽叶吸放
-- 两片叠放粽叶二次视觉定位与交叉放置
+- 自制单吸盘的泵与真空/放气切换阀控制
+- 单片竹壳吸放
+- 两片叠放竹壳二次视觉定位与交叉放置
 
 MuJoCo 仿真与演示动画维护在独立仓库：
 [Wunicheng233/Winejar-mujoco](https://github.com/Wunicheng233/Winejar-mujoco)。
@@ -27,7 +27,9 @@ MuJoCo 仿真与演示动画维护在独立仓库：
 └── 项目策划.docx          原始项目策划
 ```
 
-采集图像、深度图、分割结果、模型权重和运行日志不会提交到 Git。
+采集图像、深度图、分割结果和运行日志不会提交到 Git。它们分别生成在
+`xarm_sdk_control/data/` 与 `vision/data/`，可在实验复盘完成后直接清理。
+模型权重保存在 `vision/models/`，不提交 Git，但运行视觉服务时必须保留。
 
 ## 环境配置
 
@@ -53,17 +55,20 @@ pip install -r vision/requirements-sam2.txt
 - xArm6 控制器地址默认存放在 `xarm_sdk_control/config/robot.yaml`
 - RealSense 型号：Intel RealSense D435i
 - `CO0`：真空泵继电器
-- `CO1`：放气阀继电器
+- `CO1`：真空/放气通路电磁阀
+- 当前单吸盘 TCP：法兰中心轴向下 `120 mm`
 - 当前没有真空压力传感器
 
 GPIO 真值表：
 
-| 状态 | CO0 气泵 | CO1 放气阀 |
+| 状态 | CO0 气泵 | CO1 通路阀 |
 |---|---:|---:|
 | 待机 | 0 | 0 |
-| 吸取与保持 | 1 | 0 |
-| 主动释放 | 0 | 1 |
+| 吸取与保持 | 1 | 1 |
+| 主动释放 | 0 | 0 |
 | 释放完成 | 0 | 0 |
+
+执行器参数统一存放在 `xarm_sdk_control/config/end_effector.yaml`。当前单吸盘与弹簧金具已经实机验证，默认压缩量为 `13 mm`；更换吸盘或金具后必须重新确认该值。
 
 ## 常用流程
 
@@ -80,7 +85,7 @@ python xarm_sdk_control/scripts/15_vacuum_io_check.py --test status
 python xarm_sdk_control/scripts/15_vacuum_io_check.py --test cycle --hold-seconds 2
 ```
 
-单片粽叶完整吸放：
+单片竹壳完整吸放：
 
 ```bash
 python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
@@ -88,7 +93,7 @@ python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
   --stage full \
   --confirm-no-pressure-sensor \
   --allow-validated-clipped-leaf-for-full \
-  --compression-mm 15 \
+  --compression-mm <实测安全压缩量> \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
   --min-z-mm -75 --max-z-mm 430 \
@@ -97,21 +102,30 @@ python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
   --acc 240
 ```
 
-两片粽叶交叉放置：
+两片竹壳交叉放置：
 
 ```bash
 python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
   --run \
   --confirm-no-pressure-sensor \
+  --require-vision-service \
   --allow-validated-clipped-leaf \
+  --compression-mm 13 \
+  --min-score 0.35 \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
-  --min-z-mm -75 --max-z-mm 430 \
-  --transit-speed 70 \
-  --vertical-speed 35 \
-  --contact-speed 15 \
-  --acc 240
+  --min-z-mm -85 --max-z-mm 500
 ```
+
+脚本默认将速度按工况分层：空载搬运 `300 mm/s`、带料搬运 `220 mm/s`、
+普通竖直 `200 mm/s`、带料竖直抬升 `120 mm/s`、精细动作 `60 mm/s`、
+接触 `20 mm/s`。第一片放置后机械臂停留在陶瓷片上方完成第二次视觉，
+不执行中间复位；RealSense pipeline 在两次扫描之间保持运行。
+
+每片竹壳动作前，程序会先做连续逆解采样，估算各关节速度和加速度，
+随后调用 xArm 控制器进行一次无动作路径预检。任何超速、碰撞、限位或
+规划错误都会在真空开启和机械臂运动前终止；程序不会在实机任务中自动
+搜索或改写速度参数。
 
 ## 安全规则
 

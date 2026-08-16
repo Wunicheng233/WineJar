@@ -20,8 +20,14 @@ REPO_ROOT = ROOT.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from xarm_sdk_control.vacuum_control import VacuumController, VacuumIOConfig  # noqa: E402
+from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
+from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
+from xarm_sdk_control.robot_motion import (  # noqa: E402
+    CAMERA_TRANSIT_Z_MM,
+    require_overhead_camera_safe_route,
+    reset_robot_at_ip,
+)
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     capture_rgbd,
     detections_in_base,
@@ -37,6 +43,7 @@ CONFIG_PATH = ROOT / "config" / "robot.yaml"
 OUTPUT_ROOT = ROOT / "data" / "visual_vacuum_pick"
 DEFAULT_GRASP_CONFIG = ROOT / "config" / "leaf_grasp_target.json"
 DEFAULT_POSITION_BIAS_CONFIG = ROOT / "config" / "visual_position_bias.json"
+END_EFFECTOR = load_end_effector_config()
 
 
 def require_code(label: str, result: Any) -> Any:
@@ -78,29 +85,36 @@ def build_route(
     leaf_mm = np.asarray(leaf_point_m, dtype=float) * 1000.0
     ceramic_mm = np.asarray(ceramic_point_m, dtype=float) * 1000.0
     transport_z = float(max(leaf_mm[2], ceramic_mm[2]) + transport_clearance_mm)
+    if transport_z > CAMERA_TRANSIT_Z_MM:
+        raise RuntimeError(
+            f"Transport Z {transport_z:.1f} mm exceeds the {CAMERA_TRANSIT_Z_MM:.1f} mm camera-safe corridor"
+        )
     leaf_transit = pose_at(leaf_mm, transport_z, orientation)
     leaf_approach = pose_at(leaf_mm, float(leaf_mm[2] + approach_clearance_mm), orientation)
 
     def add_safe_departure(route: list[tuple[str, list[float], str]]) -> None:
-        if float(initial_pose[2]) < transport_z - 1.0:
+        if abs(float(initial_pose[2]) - transport_z) > 1.0:
             route.append(
                 (
-                    "raise vertically from low initial pose",
+                    "move vertically to camera-safe transit height",
                     [float(initial_pose[0]), float(initial_pose[1]), transport_z, *orientation],
                     "descent",
                 )
             )
 
     def add_safe_return(route: list[tuple[str, list[float], str]]) -> None:
-        if float(initial_pose[2]) < transport_z - 1.0:
-            route.append(
-                (
-                    "move above low initial pose",
-                    [float(initial_pose[0]), float(initial_pose[1]), transport_z, *orientation],
-                    "transit",
-                )
+        route.append(
+            (
+                "move to camera-safe initial column",
+                [float(initial_pose[0]), float(initial_pose[1]), transport_z, *orientation],
+                "transit",
             )
-        route.append(("return directly to initial pose", list(map(float, initial_pose)), "transit"))
+        )
+        route.append(("return vertically to initial pose", list(map(float, initial_pose)), "descent"))
+
+    def checked(route: list[tuple[str, list[float], str]]) -> list[tuple[str, list[float], str]]:
+        require_overhead_camera_safe_route([list(map(float, initial_pose)), *[item[1] for item in route]])
+        return route
 
     if stage == "approach":
         route: list[tuple[str, list[float], str]] = []
@@ -113,9 +127,27 @@ def build_route(
             ]
         )
         add_safe_return(route)
-        return route
+        return checked(route)
 
     leaf_contact = pose_at(leaf_mm, float(leaf_mm[2] - compression_mm), orientation)
+    if stage == "pick-test":
+        leaf_release = pose_at(leaf_mm, float(leaf_mm[2] + release_clearance_mm), orientation)
+        route = []
+        add_safe_departure(route)
+        route.extend(
+            [
+                ("move directly above leaf", leaf_transit, "transit"),
+                ("descend to leaf approach pose", leaf_approach, "descent"),
+                ("contact source leaf", leaf_contact, "descent"),
+                ("lift leaf vertically for inspection", leaf_transit, "descent"),
+                ("descend above original source", leaf_approach, "descent"),
+                ("lower leaf back to source", leaf_release, "descent"),
+                ("retract vertically above source", leaf_transit, "descent"),
+            ]
+        )
+        add_safe_return(route)
+        return checked(route)
+
     ceramic_transit = pose_at(ceramic_mm, transport_z, orientation)
     ceramic_approach = pose_at(ceramic_mm, float(ceramic_mm[2] + approach_clearance_mm), orientation)
     ceramic_release = pose_at(ceramic_mm, float(ceramic_mm[2] + release_clearance_mm), orientation)
@@ -124,7 +156,7 @@ def build_route(
     route.extend([
         ("move directly above leaf", leaf_transit, "transit"),
         ("descend to leaf approach pose", leaf_approach, "descent"),
-        ("compress suction cups on leaf", leaf_contact, "descent"),
+        ("contact source leaf", leaf_contact, "descent"),
         ("lift leaf vertically", leaf_transit, "descent"),
         ("carry leaf above ceramic disk", ceramic_transit, "transit"),
         ("descend to ceramic approach pose", ceramic_approach, "descent"),
@@ -132,13 +164,13 @@ def build_route(
         ("retract vertically above ceramic", ceramic_transit, "descent"),
     ])
     add_safe_return(route)
-    return route
+    return checked(route)
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true", help="Enable real robot motion; default is a dry run.")
-    parser.add_argument("--stage", choices=("approach", "full"), default="approach")
+    parser.add_argument("--stage", choices=("approach", "pick-test", "full"), default="approach")
     parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     parser.add_argument("--calibration", type=Path, default=latest_global_calibration())
     parser.add_argument("--vision-env", default="winejar-vision")
@@ -154,10 +186,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--allow-validated-clipped-leaf-for-full",
         action="store_true",
-        help="Allow a clipped leaf during full motion only after its compensated center was physically hover-validated.",
+        help="Allow a clipped leaf during contact motion only after its compensated center was physically hover-validated.",
     )
     parser.add_argument("--max-calibration-residual-mm", type=float, default=15.0)
-    parser.add_argument("--tcp-offset-z-mm", type=float, default=100.0)
+    parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])
     parser.add_argument(
         "--apply-tcp-offset",
         action="store_true",
@@ -165,16 +197,15 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--transport-clearance-mm", type=float, default=200.0)
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
-    parser.add_argument("--compression-mm", type=float, default=15.0)
+    parser.add_argument("--compression-mm", type=float, default=END_EFFECTOR.default_compression_mm)
     parser.add_argument("--release-clearance-mm", type=float, default=5.0)
     parser.add_argument("--vacuum-settle-seconds", type=float, default=1.5)
     parser.add_argument("--release-settle-seconds", type=float, default=1.0)
     parser.add_argument("--approach-hold-seconds", type=float, default=3.0)
+    parser.add_argument("--pick-hold-seconds", type=float, default=3.0)
     parser.add_argument("--transit-speed", type=float, default=35.0)
     parser.add_argument("--descent-speed", type=float, default=10.0)
     parser.add_argument("--acc", type=float, default=120.0)
-    parser.add_argument("--pump-on-value", type=int, choices=(0, 1), default=1)
-    parser.add_argument("--vent-on-value", type=int, choices=(0, 1), default=1)
     parser.add_argument("--min-x-mm", type=float)
     parser.add_argument("--max-x-mm", type=float)
     parser.add_argument("--min-y-mm", type=float)
@@ -195,8 +226,8 @@ def main() -> int:
     ):
         print("ERROR: --run requires explicit min/max X, Y, and Z workspace limits.")
         return 3
-    if args.run and args.stage == "full" and not args.confirm_no_pressure_sensor:
-        print("ERROR: full motion requires --confirm-no-pressure-sensor.")
+    if args.run and args.stage != "approach" and not args.confirm_no_pressure_sensor:
+        print("ERROR: contact motion requires --confirm-no-pressure-sensor.")
         return 4
     if not 0.0 <= args.compression_mm <= 20.0:
         raise ValueError("--compression-mm must stay within the stated 0~20 mm cup travel")
@@ -213,6 +244,18 @@ def main() -> int:
         print(f"ERROR: calibration residual {residual_max_mm} mm exceeds the configured limit.")
         return 5
 
+    with CONFIG_PATH.open("r", encoding="utf-8") as file:
+        robot_ip = str(yaml.safe_load(file)["robot_ip"])
+    if args.run:
+        print("Task step 1: moving to the configured camera-clear reset pose.")
+        reset_robot_at_ip(
+            robot_ip,
+            [0, 0, args.tcp_offset_z_mm, 0, 0, 0],
+            END_EFFECTOR.home_pose_mm_deg,
+            args.transit_speed,
+            args.acc,
+        )
+
     timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
     run_dir = OUTPUT_ROOT / timestamp
     run_dir.mkdir(parents=True, exist_ok=False)
@@ -225,7 +268,7 @@ def main() -> int:
         distinct_distance_m=0.05,
         allow_any_clipping=bool(
             (args.stage == "approach" and args.allow_clipped_leaf_for_approach)
-            or (args.stage == "full" and args.allow_validated_clipped_leaf_for_full)
+            or (args.stage in {"pick-test", "full"} and args.allow_validated_clipped_leaf_for_full)
         ),
     )
     leaf = leaves[0]
@@ -245,8 +288,6 @@ def main() -> int:
         ceramic = dict(ceramic)
         ceramic["point_base_m"] = (np.asarray(ceramic["point_base_m"], dtype=float) + position_bias_m).tolist()
 
-    with CONFIG_PATH.open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
     from xarm.wrapper import XArmAPI
 
     arm = XArmAPI(do_not_open=True, is_radian=False)
@@ -258,7 +299,7 @@ def main() -> int:
         require_code("connect", arm.connect(port=robot_ip))
         if args.run or args.apply_tcp_offset:
             require_code(
-                "set 100 mm suction-cup TCP offset",
+                "set suction-cup TCP offset",
                 arm.set_tcp_offset([0, 0, args.tcp_offset_z_mm, 0, 0, 0], is_radian=False, wait=True),
             )
             time.sleep(0.5)
@@ -309,18 +350,13 @@ def main() -> int:
             if not safety["all_ok"]:
                 raise RuntimeError("Refusing robot motion because a waypoint is outside explicit safety limits")
             require_emergency_stop_released(arm)
-            if args.stage == "full":
+            if args.stage != "approach":
                 vacuum = VacuumController(
                     arm,
-                    VacuumIOConfig(
-                        pump_channel=0,
-                        vent_channel=1,
-                        pump_on_value=args.pump_on_value,
-                        vent_on_value=args.vent_on_value,
-                    ),
+                    END_EFFECTOR.vacuum_io,
                 )
                 vacuum.configure()
-                vacuum.safe_shutdown()
+                vacuum.prepare_for_pick()
             require_code("clean error", arm.clean_error())
             require_code("clean warn", arm.clean_warn())
             require_code("motion enable", arm.motion_enable(enable=True))
@@ -343,11 +379,17 @@ def main() -> int:
                 if args.stage == "approach" and label == "descend to leaf approach pose":
                     print(f"Holding {args.approach_hold_seconds:.1f} seconds for visual inspection.")
                     time.sleep(args.approach_hold_seconds)
-                if args.stage == "full" and label == "compress suction cups on leaf":
+                if args.stage != "approach" and label == "contact source leaf":
                     assert vacuum is not None
                     vacuum.acquire(args.vacuum_settle_seconds)
                     holding_leaf = True
-                if args.stage == "full" and label == "lower leaf to release clearance":
+                if args.stage == "pick-test" and label == "lift leaf vertically for inspection":
+                    print(f"Holding lifted leaf for {args.pick_hold_seconds:.1f} seconds.")
+                    time.sleep(args.pick_hold_seconds)
+                if (
+                    (args.stage == "full" and label == "lower leaf to release clearance")
+                    or (args.stage == "pick-test" and label == "lower leaf back to source")
+                ):
                     assert vacuum is not None
                     vacuum.release(args.release_settle_seconds)
                     holding_leaf = False

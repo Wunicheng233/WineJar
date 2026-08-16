@@ -1,0 +1,19 @@
+name: single_vacuum_cup_v2
+type: single_vacuum_cup
+cup_count: 1
+
+# Tool frame is centered on the suction cup and aligned with the flange axis.
+tcp_offset_mm_deg: [0.0, 0.0, 120.0, 0.0, 0.0, 0.0]
+
+# Camera-clear reset pose with the 120 mm TCP active. Z=300 mm keeps the
+# complete direct route at or below the overhead-camera height boundary.
+home_pose_mm_deg: [215.194, -2.409, 300.000, 178.467, 0.581, -0.014]
+
+vacuum_io:
+  pump_channel: 0
+  valve_channel: 1
+  pump_on_value: 1
+  valve_vacuum_value: 1
+
+# Validated spring compression for the current single-cup tool.
+default_compression_mm: 13.0

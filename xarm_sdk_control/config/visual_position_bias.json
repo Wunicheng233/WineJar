@@ -1,10 +1,11 @@
 {
-  "updated_at": "2026-07-19T13:05:06.933+08:00",
-  "description": "Base-frame correction added to fixed-camera visual targets. Measured by manually aligning the physical suction center over detected targets.",
-  "sample_count": 1,
+  "updated_at": "2026-08-14T21:18:49+08:00",
+  "description": "Base-frame correction for the current fixed-camera pose and single-cup end effector, measured over the ceramic disk.",
+  "end_effector": "single_vacuum_cup_v2",
+  "sample_count": 3,
   "bias_base_mm": [
-    0.0,
-    50.0,
+    -15.0,
+    35.0,
     0.0
   ],
   "sample_range_base_mm": [
@@ -14,15 +15,52 @@
   ],
   "samples": [
     {
-      "created_at": "2026-07-19T13:05:06.927+08:00",
-      "target": "leaf",
-      "measurement_method": "manual physical alignment after visual approach",
+      "created_at": "2026-08-14T20:02:00+08:00",
+      "target": "ceramic",
+      "measurement_method": "manual physical alignment from an uncompensated 35 mm hover",
       "correction_base_mm": [
         0.0,
-        50.0,
+        45.0,
         0.0
       ],
-      "note": "Coarse Y +45 mm measurement refined to Y +50 mm after compensated hover verification over the ceramic disk."
+      "raw_visual_surface_point_mm": [
+        311.478,
+        31.292,
+        -34.816
+      ],
+      "note": "Compensated hover refinement increased Y from +40 mm to +45 mm. Camera mount was straightened and fixed before this measurement. No X or Z correction was reported."
+    },
+    {
+      "created_at": "2026-08-14T21:06:36+08:00",
+      "target": "ceramic",
+      "measurement_method": "manual physical alignment after the global camera was disturbed",
+      "correction_base_mm": [
+        -8.0,
+        40.0,
+        0.0
+      ],
+      "raw_visual_surface_point_mm": [
+        382.094,
+        -153.423,
+        30.453
+      ],
+      "note": "Current validated correction: X -8 mm and Y +40 mm. This supersedes the previous X 0 mm and Y +45 mm correction."
+    },
+    {
+      "created_at": "2026-08-14T21:18:49+08:00",
+      "target": "ceramic",
+      "measurement_method": "manual physical alignment after a fresh visual verification run",
+      "correction_base_mm": [
+        -15.0,
+        35.0,
+        0.0
+      ],
+      "raw_visual_surface_point_mm": [
+        379.1,
+        -147.32,
+        32.1
+      ],
+      "note": "Current correction refined from X -8 mm, Y +40 mm to X -15 mm, Y +35 mm."
     }
   ]
 }

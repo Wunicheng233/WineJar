@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import json
 import os
+import socket
 import subprocess
 import sys
+import uuid
 from pathlib import Path
 from typing import Any
 
+import cv2
 import numpy as np
 
 
@@ -16,6 +19,7 @@ ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parent
 CAPTURE_SCRIPT = ROOT / "scripts" / "13_capture_realsense_frame.py"
 VISION_SCRIPT = REPO_ROOT / "vision" / "scripts" / "01_offline_grounded_sam2.py"
+DEFAULT_VISION_SOCKET = Path("/tmp/winejar_grounded_sam2.sock")
 
 
 def latest_global_calibration() -> Path | None:
@@ -26,6 +30,33 @@ def latest_global_calibration() -> Path | None:
 def transform_point(transform: np.ndarray, point_m: list[float]) -> np.ndarray:
     point_h = np.array([point_m[0], point_m[1], point_m[2], 1.0], dtype=float)
     return (transform @ point_h)[:3]
+
+
+def mask_principal_axis_deg(frame_dir: Path, detection: dict[str, Any]) -> tuple[float, float]:
+    """Return the mask's undirected image-axis angle and PCA elongation ratio."""
+    relative_path = detection.get("mask_path")
+    if not relative_path:
+        raise ValueError("Detection has no mask_path")
+    mask = cv2.imread(str(frame_dir / str(relative_path)), cv2.IMREAD_GRAYSCALE)
+    if mask is None:
+        raise FileNotFoundError(frame_dir / str(relative_path))
+    rows, columns = np.nonzero(mask > 127)
+    if len(columns) < 100:
+        raise ValueError("Detection mask is too small for a stable principal axis")
+    points = np.column_stack([columns, rows]).astype(np.float64)
+    covariance = np.cov(points - points.mean(axis=0), rowvar=False)
+    eigenvalues, eigenvectors = np.linalg.eigh(covariance)
+    major_index = int(np.argmax(eigenvalues))
+    major = eigenvectors[:, major_index]
+    angle_deg = float(np.degrees(np.arctan2(major[1], major[0])) % 180.0)
+    minor_value = max(float(np.min(eigenvalues)), 1e-9)
+    elongation_ratio = float(np.max(eigenvalues) / minor_value)
+    return angle_deg, elongation_ratio
+
+
+def undirected_axis_delta_deg(start_deg: float, end_deg: float) -> float:
+    """Shortest signed difference between two axes whose direction is modulo 180 degrees."""
+    return (float(end_deg) - float(start_deg) + 90.0) % 180.0 - 90.0
 
 
 def capture_rgbd(run_dir: Path, serial: str | None) -> Path:
@@ -41,7 +72,33 @@ def capture_rgbd(run_dir: Path, serial: str | None) -> Path:
     return frame_dirs[0]
 
 
-def run_vision(frame_dir: Path, vision_env: str, min_score: float) -> dict[str, Any]:
+def run_vision(
+    frame_dir: Path,
+    vision_env: str,
+    min_score: float,
+    text_prompt: str = "bamboo leaf. ceramic disk.",
+    service_socket: Path | None = DEFAULT_VISION_SOCKET,
+    require_service: bool = False,
+) -> dict[str, Any]:
+    if service_socket is not None:
+        socket_path = service_socket.expanduser().resolve()
+        try:
+            response = request_vision_service(
+                socket_path=socket_path,
+                frame_dir=frame_dir,
+                text_prompt=text_prompt,
+                min_score=min_score,
+            )
+            print(
+                "Warm vision service timing:",
+                response.get("timing_seconds", {}),
+            )
+            return json.loads((frame_dir / "vision_result.json").read_text(encoding="utf-8"))
+        except Exception as exc:
+            if require_service:
+                raise RuntimeError(f"Required vision service is unavailable: {exc}") from exc
+            print(f"Vision service unavailable ({exc}); falling back to one-shot inference.")
+
     cmd = [
         "conda",
         "run",
@@ -53,7 +110,7 @@ def run_vision(frame_dir: Path, vision_env: str, min_score: float) -> dict[str, 
         "--frame-dir",
         str(frame_dir),
         "--text-prompt",
-        "bamboo leaf. ceramic disk.",
+        text_prompt,
         "--box-threshold",
         str(min_score),
         "--output-min-score",
@@ -66,6 +123,41 @@ def run_vision(frame_dir: Path, vision_env: str, min_score: float) -> dict[str, 
     print("Running vision:", " ".join(cmd))
     subprocess.run(cmd, cwd=str(REPO_ROOT), env=env, check=True)
     return json.loads((frame_dir / "vision_result.json").read_text(encoding="utf-8"))
+
+
+def request_vision_service(
+    socket_path: Path,
+    frame_dir: Path,
+    text_prompt: str,
+    min_score: float,
+    timeout_seconds: float = 30.0,
+) -> dict[str, Any]:
+    request = {
+        "command": "infer",
+        "request_id": uuid.uuid4().hex,
+        "frame_dir": str(frame_dir.expanduser().resolve()),
+        "text_prompt": text_prompt,
+        "box_threshold": min_score,
+        "output_min_score": min_score,
+        "text_threshold": 0.15,
+    }
+    client = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    client.settimeout(timeout_seconds)
+    try:
+        client.connect(str(socket_path))
+        client.sendall((json.dumps(request, separators=(",", ":")) + "\n").encode("utf-8"))
+        response_file = client.makefile("r", encoding="utf-8")
+        line = response_file.readline()
+        if not line:
+            raise RuntimeError("Vision service closed the connection without a response")
+        response = json.loads(line)
+    finally:
+        client.close()
+    if not response.get("ok"):
+        raise RuntimeError(str(response.get("error", "unknown vision service error")))
+    if response.get("request_id") != request["request_id"]:
+        raise RuntimeError("Vision service response ID does not match the request")
+    return response
 
 
 def detections_in_base(
@@ -85,18 +177,38 @@ def detections_in_base(
     return converted
 
 
+def detection_object_kind(item: dict[str, Any]) -> str | None:
+    """Map GroundingDINO text spans to one unambiguous task object class."""
+    label = str(item.get("label", "")).lower()
+    has_bamboo = "bamboo" in label
+    has_ceramic = "ceramic" in label
+    if has_bamboo and has_ceramic:
+        box = item.get("box_xyxy")
+        if not isinstance(box, list) or len(box) != 4:
+            return None
+        width = max(float(box[2]) - float(box[0]), 1.0)
+        height = max(float(box[3]) - float(box[1]), 1.0)
+        elongation = max(width / height, height / width)
+        return "bamboo" if elongation >= 1.8 else None
+    if has_bamboo:
+        return "bamboo"
+    if has_ceramic:
+        return "ceramic"
+    return None
+
+
 def select_ceramic(detections: list[dict[str, Any]]) -> dict[str, Any]:
     candidates = [
         item
         for item in detections
-        if "ceramic" in str(item.get("label", "")).lower()
+        if detection_object_kind(item) == "ceramic"
         and not bool(item.get("touches_image_edge", False))
     ]
     if not candidates:
         clipped = [
             item
             for item in detections
-            if "ceramic" in str(item.get("label", "")).lower()
+            if detection_object_kind(item) == "ceramic"
             and bool(item.get("touches_image_edge", False))
         ]
         if clipped:
@@ -130,7 +242,7 @@ def select_leaf_waypoints(
         [
             item
             for item in detections
-            if "bamboo" in str(item.get("label", "")).lower()
+            if detection_object_kind(item) == "bamboo"
             and (allow_any_clipping or clipping_is_usable(item))
         ],
         key=lambda item: float(item["score"]),
@@ -140,7 +252,7 @@ def select_leaf_waypoints(
         clipped = [
             item
             for item in detections
-            if "bamboo" in str(item.get("label", "")).lower()
+            if detection_object_kind(item) == "bamboo"
             and not clipping_is_usable(item)
         ]
         if clipped:
