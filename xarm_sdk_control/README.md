@@ -73,11 +73,12 @@ Behavior:
 
 - One scan at the start; every in-frame ceramic disk whose mask does not touch
   the image edge is processed in descending confidence order.
-- Per disk: approach, contact at a shallow 11 mm spring compression (keep it
+- Per disk: approach, contact at a shallow 6 mm spring compression (keep it
   shallow on a rigid table — deep compression can trip the controller's joint
   overload), a vertical lift of
   25 mm, a hold (`--inspection-hold-seconds`) for operator observation, lower
-  back to the original source, release, and return to the camera-clear home
+  back to the original source, release at `--release-clearance-mm` (default
+  10 mm above the detected surface), and return to the camera-clear home
   pose before the next disk.
 - Every suction point gets a measured `--pick-offset-x-mm` compensation
   (default 10 mm) on top of the shared positioning bias, so the cup lands on

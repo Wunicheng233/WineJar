@@ -66,10 +66,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--compression-mm",
         type=float,
-        default=11.0,
+        default=6.0,
         help="Ceramic-disk spring compression; keep shallow on a rigid table to avoid joint overload.",
     )
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
+    parser.add_argument(
+        "--release-clearance-mm",
+        type=float,
+        default=10.0,
+        help="Height above the detected surface at which the held disk is released; "
+             "raise it if the disk presses into the table at release.",
+    )
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
@@ -185,6 +192,7 @@ def main() -> int:
                 profile=profile,
                 compression_mm=args.compression_mm,
                 approach_clearance_mm=args.approach_clearance_mm,
+                release_clearance_mm=args.release_clearance_mm,
                 inspection_event="hold",
             )
             safety = route_safety_report([step.pose_mm_deg for step in route], args)
@@ -238,6 +246,7 @@ def main() -> int:
             "position_bias_mm": bias_mm.tolist(),
             "pick_offset_x_mm": args.pick_offset_x_mm,
             "compression_mm": args.compression_mm,
+            "release_clearance_mm": args.release_clearance_mm,
             "test_lift_mm": profile.test_lift_mm,
             "disks": disk_records,
             "picked_count": len(disks) if args.run else 0,
