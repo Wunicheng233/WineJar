@@ -290,6 +290,31 @@ def select_ceramic(detections: list[dict[str, Any]]) -> dict[str, Any]:
     return max(candidates, key=lambda item: float(item["score"]))
 
 
+def select_all_ceramic(detections: list[dict[str, Any]], min_score: float) -> list[dict[str, Any]]:
+    """All in-frame ceramic disks at/above the score gate, best confidence first."""
+    candidates = [
+        item
+        for item in detections
+        if detection_object_kind(item) == "ceramic"
+        and float(item.get("score", 0.0)) >= min_score
+        and not bool(item.get("touches_image_edge", False))
+    ]
+    if not candidates:
+        clipped = [
+            item
+            for item in detections
+            if detection_object_kind(item) == "ceramic"
+            and bool(item.get("touches_image_edge", False))
+        ]
+        if clipped:
+            raise RuntimeError(
+                "Ceramic disk was detected but its mask touches the image edge; "
+                "move every disk fully into the calibrated camera view"
+            )
+        raise RuntimeError("No ceramic disk detection passed the confidence threshold")
+    return sorted(candidates, key=lambda item: float(item["score"]), reverse=True)
+
+
 def select_leaf_waypoints(
     detections: list[dict[str, Any]],
     distinct_distance_m: float = DISTINCT_LEAF_DISTANCE_M,

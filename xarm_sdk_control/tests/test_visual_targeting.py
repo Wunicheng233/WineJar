@@ -112,3 +112,46 @@ def test_ambiguous_square_mixed_label_is_not_used_for_either_object() -> None:
         "touches_image_edge": False,
     }
     assert visual_targeting.detection_object_kind(ambiguous) is None
+
+
+def ceramic_detection(score: float, point_base_m=(0.3, 0.1, 0.02), clipped=False):
+    return {
+        "label": "ceramic disk",
+        "score": score,
+        "box_xyxy": [20.0, 140.0, 140.0, 275.0],
+        "point_base_m": list(point_base_m),
+        "touches_image_edge": clipped,
+    }
+
+
+def test_select_all_ceramic_returns_all_sorted_by_score() -> None:
+    low = ceramic_detection(0.50, (0.20, 0.10, 0.02))
+    high = ceramic_detection(0.80, (0.35, -0.05, 0.03))
+    selected = visual_targeting.select_all_ceramic([low, high], min_score=0.45)
+    assert [item["score"] for item in selected] == [0.80, 0.50]
+
+
+def test_select_all_ceramic_applies_score_gate_and_rejects_clipped() -> None:
+    weak = ceramic_detection(0.30, (0.20, 0.10, 0.02))
+    clipped = ceramic_detection(0.70, (0.35, -0.05, 0.03), clipped=True)
+    good = ceramic_detection(0.60, (0.40, 0.00, 0.02))
+    selected = visual_targeting.select_all_ceramic([weak, clipped, good], min_score=0.45)
+    assert [item["score"] for item in selected] == [0.60]
+
+
+def test_select_all_ceramic_raises_on_empty_result() -> None:
+    try:
+        visual_targeting.select_all_ceramic([ceramic_detection(0.30)], min_score=0.45)
+    except RuntimeError as exc:
+        assert "confidence threshold" in str(exc)
+    else:
+        raise AssertionError("An empty ceramic selection must be rejected")
+
+
+def test_select_all_ceramic_reports_clipped_disk() -> None:
+    try:
+        visual_targeting.select_all_ceramic([ceramic_detection(0.70, clipped=True)], min_score=0.45)
+    except RuntimeError as exc:
+        assert "image edge" in str(exc)
+    else:
+        raise AssertionError("Clipped ceramic disks must be rejected with guidance")
