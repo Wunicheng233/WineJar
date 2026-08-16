@@ -18,6 +18,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
+from xarm_sdk_control.robot_motion import load_robot_ip  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 
 
@@ -42,8 +43,7 @@ def main() -> int:
     if args.hold_seconds < 0.0 or args.hold_seconds > 10.0:
         raise ValueError("--hold-seconds must be between 0 and 10 seconds")
 
-    with (ROOT / "config" / "robot.yaml").open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
+    robot_ip = load_robot_ip()
     if not controller_port_reachable(robot_ip):
         print(f"ERROR: xArm controller {robot_ip}:502 is unreachable.", file=sys.stderr)
         print("Check controller power, Ethernet connection, and the computer's IPv4 subnet before retrying.", file=sys.stderr)

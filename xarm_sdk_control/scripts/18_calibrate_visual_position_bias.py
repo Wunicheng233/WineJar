@@ -24,7 +24,11 @@ from xarm_sdk_control.positioning_bias import append_bias_sample, load_bias_mm  
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     CAMERA_TRANSIT_Z_MM,
+    connect_robot,
+    load_robot_ip,
     pose_in_overhead_camera_keepout,
+    prepare_robot_for_motion,
+    require_code,
     require_overhead_camera_safe_route,
 )
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
@@ -43,12 +47,6 @@ OUTPUT_ROOT = ROOT / "data" / "visual_position_bias"
 END_EFFECTOR = load_end_effector_config()
 
 
-def require_code(label: str, result: Any) -> Any:
-    code = result[0] if isinstance(result, tuple) else result
-    print(f"{label}: {result}")
-    if code not in (0, None):
-        raise RuntimeError(f"{label} failed with code/result: {result}")
-    return result
 
 
 def parse_args() -> argparse.Namespace:
@@ -178,23 +176,14 @@ def main() -> int:
         print("DRY RUN: no robot motion was commanded.")
         return 0
 
-    with CONFIG_PATH.open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
-    from xarm.wrapper import XArmAPI
-
-    arm = XArmAPI(do_not_open=True, is_radian=False)
+    robot_ip = load_robot_ip(CONFIG_PATH)
+    arm: Any | None = None
     initial_pose: list[float] | None = None
     transit_pose: list[float] | None = None
     initial_column_pose: list[float] | None = None
     completed_at_target = False
     try:
-        require_code("connect", arm.connect(port=robot_ip))
-        require_code(
-            "set suction-cup TCP offset",
-            arm.set_tcp_offset([0, 0, args.tcp_offset_z_mm, 0, 0, 0], is_radian=False, wait=True),
-        )
-        pose_code, initial_pose = arm.get_position(is_radian=False)
-        require_code("get initial TCP pose", (pose_code, initial_pose))
+        arm, initial_pose = connect_robot(robot_ip, [0, 0, args.tcp_offset_z_mm, 0, 0, 0])
         orientation = list(map(float, initial_pose[3:6]))
         transit_z = float(target_mm[2] + args.transport_clearance_mm)
         if transit_z > CAMERA_TRANSIT_Z_MM:
@@ -231,11 +220,7 @@ def main() -> int:
             [list(map(float, initial_pose)), initial_column_pose, transit_pose, predicted_pose]
         )
 
-        require_code("clean error", arm.clean_error())
-        require_code("clean warn", arm.clean_warn())
-        require_code("motion enable", arm.motion_enable(enable=True))
-        require_code("set mode 0", arm.set_mode(0))
-        require_code("set state 0", arm.set_state(0))
+        prepare_robot_for_motion(arm, clean_error=True)
         require_code(
             "move vertically to camera-safe transit height",
             arm.set_position(
@@ -288,7 +273,7 @@ def main() -> int:
         return 0
     finally:
         should_return = not (args.leave_at_target and completed_at_target)
-        if arm.connected and initial_pose is not None and should_return:
+        if arm is not None and arm.connected and initial_pose is not None and should_return:
             try:
                 if transit_pose is not None:
                     arm.set_position(*transit_pose, speed=args.speed, mvacc=args.acc, wait=True, radius=-1, is_radian=False)
@@ -304,9 +289,10 @@ def main() -> int:
                 arm.set_position(*initial_pose, speed=args.speed, mvacc=args.acc, wait=True, radius=-1, is_radian=False)
             except Exception as exc:
                 print(f"WARNING: automatic safe return failed: {exc}", file=sys.stderr)
-        elif arm.connected and not should_return:
+        elif arm is not None and arm.connected and not should_return:
             print("Leaving the robot at the verified target by request; no automatic return was commanded.")
-        arm.disconnect()
+        if arm is not None:
+            arm.disconnect()
 
 
 if __name__ == "__main__":

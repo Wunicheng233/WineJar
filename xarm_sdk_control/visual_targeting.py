@@ -14,6 +14,8 @@ from typing import Any
 import cv2
 import numpy as np
 
+from xarm_sdk_control.geometry import undirected_axis_delta_deg
+
 
 ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parent
@@ -52,11 +54,6 @@ def mask_principal_axis_deg(frame_dir: Path, detection: dict[str, Any]) -> tuple
     minor_value = max(float(np.min(eigenvalues)), 1e-9)
     elongation_ratio = float(np.max(eigenvalues) / minor_value)
     return angle_deg, elongation_ratio
-
-
-def undirected_axis_delta_deg(start_deg: float, end_deg: float) -> float:
-    """Shortest signed difference between two axes whose direction is modulo 180 degrees."""
-    return (float(end_deg) - float(start_deg) + 90.0) % 180.0 - 90.0
 
 
 def capture_rgbd(run_dir: Path, serial: str | None) -> Path:

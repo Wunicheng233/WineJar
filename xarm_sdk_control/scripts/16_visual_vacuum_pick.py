@@ -12,7 +12,6 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
-import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,8 +22,12 @@ if str(REPO_ROOT) not in sys.path:
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
+from xarm_sdk_control.geometry import compose_pose_mm  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     CAMERA_TRANSIT_Z_MM,
+    load_robot_ip,
+    require_code,
+    require_emergency_stop_released,
     require_overhead_camera_safe_route,
     reset_robot_at_ip,
 )
@@ -44,31 +47,7 @@ OUTPUT_ROOT = ROOT / "data" / "visual_vacuum_pick"
 DEFAULT_GRASP_CONFIG = ROOT / "config" / "leaf_grasp_target.json"
 DEFAULT_POSITION_BIAS_CONFIG = ROOT / "config" / "visual_position_bias.json"
 END_EFFECTOR = load_end_effector_config()
-
-
-def require_code(label: str, result: Any) -> Any:
-    code = result[0] if isinstance(result, tuple) else result
-    print(f"{label}: {result}")
-    if code not in (0, None):
-        raise RuntimeError(f"{label} failed with code/result: {result}")
-    return result
-
-
-def require_emergency_stop_released(arm: Any) -> None:
-    result = arm.get_err_warn_code()
-    require_code("get controller error/warn before motion", result)
-    error_code, warn_code = result[1]
-    if error_code == 1:
-        raise RuntimeError(
-            "Controller error C1: the control-box emergency-stop button is pressed. "
-            "Twist/release the physical emergency stop, then enable the robot in UFactory before retrying."
-        )
-    if error_code != 0:
-        raise RuntimeError(f"Controller has unresolved error C{error_code} (warning={warn_code})")
-
-
-def pose_at(point_mm: np.ndarray, z_mm: float, orientation: list[float]) -> list[float]:
-    return [float(point_mm[0]), float(point_mm[1]), float(z_mm), *map(float, orientation)]
+pose_at = compose_pose_mm
 
 
 def build_route(
@@ -244,8 +223,7 @@ def main() -> int:
         print(f"ERROR: calibration residual {residual_max_mm} mm exceeds the configured limit.")
         return 5
 
-    with CONFIG_PATH.open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
+    robot_ip = load_robot_ip(CONFIG_PATH)
     if args.run:
         print("Task step 1: moving to the configured camera-clear reset pose.")
         reset_robot_at_ip(

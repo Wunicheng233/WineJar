@@ -2,12 +2,18 @@
 
 from __future__ import annotations
 
-from typing import Any
+import time
+from pathlib import Path
+from typing import Any, Sequence
+
+import yaml
 
 
 CAMERA_ZONE_X_MIN_MM = 300.0
 CAMERA_ZONE_Z_MAX_MM = 300.0
 CAMERA_TRANSIT_Z_MM = 280.0
+
+DEFAULT_ROBOT_CONFIG_PATH = Path(__file__).resolve().parent / "config" / "robot.yaml"
 
 
 def require_code(label: str, result: Any) -> Any:
@@ -18,15 +24,70 @@ def require_code(label: str, result: Any) -> Any:
     return result
 
 
-def prepare_robot_for_motion(arm: Any) -> None:
-    status = require_code("get controller error/warn before motion", arm.get_err_warn_code())
-    error_code, warning_code = status[1]
+def load_robot_ip(config_path: Path = DEFAULT_ROBOT_CONFIG_PATH) -> str:
+    with config_path.open("r", encoding="utf-8") as file:
+        return str(yaml.safe_load(file)["robot_ip"])
+
+
+def require_emergency_stop_released(arm: Any) -> None:
+    result = arm.get_err_warn_code()
+    require_code("get controller error/warn before motion", result)
+    error_code, warn_code = result[1]
+    if error_code == 1:
+        raise RuntimeError(
+            "Controller error C1: the control-box emergency-stop button is pressed. "
+            "Twist/release the physical emergency stop, then enable the robot in UFactory before retrying."
+        )
     if error_code != 0:
-        raise RuntimeError(f"Controller has unresolved error C{error_code} (warning={warning_code})")
+        raise RuntimeError(f"Controller has unresolved error C{error_code} (warning={warn_code})")
+
+
+def prepare_robot_for_motion(arm: Any, clean_error: bool = False) -> None:
+    require_emergency_stop_released(arm)
+    if clean_error:
+        require_code("clean error", arm.clean_error())
     require_code("clean warning", arm.clean_warn())
     require_code("motion enable", arm.motion_enable(enable=True))
     require_code("set mode 0", arm.set_mode(0))
     require_code("set state 0", arm.set_state(0))
+
+
+def connect_robot(
+    robot_ip: str,
+    tcp_offset_mm_deg: Sequence[float] | None = None,
+    *,
+    settle_seconds: float = 0.0,
+) -> tuple[Any, list[float]]:
+    """Connect, apply the optional tool frame, and read the current TCP pose."""
+    from xarm.wrapper import XArmAPI
+
+    arm = XArmAPI(do_not_open=True, is_radian=False)
+    require_code("connect", arm.connect(port=robot_ip))
+    if tcp_offset_mm_deg is not None:
+        require_code(
+            "set task TCP offset",
+            arm.set_tcp_offset(list(tcp_offset_mm_deg), is_radian=False, wait=True),
+        )
+        if settle_seconds > 0:
+            time.sleep(settle_seconds)
+    pose_code, pose = arm.get_position(is_radian=False)
+    require_code("get current TCP pose", (pose_code, pose))
+    return arm, list(map(float, pose))
+
+
+def robot_status_snapshot(arm: Any) -> dict[str, Any]:
+    snapshot: dict[str, Any] = {}
+    for name, getter in (
+        ("state", arm.get_state),
+        ("error_warn", arm.get_err_warn_code),
+        ("tcp_pose_mm_deg", lambda: arm.get_position(is_radian=False)),
+        ("joint_angles_deg", lambda: arm.get_servo_angle(is_radian=False)),
+    ):
+        try:
+            snapshot[name] = getter()
+        except Exception as exc:
+            snapshot[name] = {"read_error": f"{type(exc).__name__}: {exc}"}
+    return snapshot
 
 
 def pose_in_overhead_camera_keepout(pose: list[float] | tuple[float, ...]) -> bool:

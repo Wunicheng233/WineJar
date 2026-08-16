@@ -7,6 +7,8 @@ from typing import Any, Sequence
 
 import numpy as np
 
+from xarm_sdk_control.geometry import wrapped_delta_deg
+
 
 class TrajectoryPlanningError(RuntimeError):
     """Raised when a route cannot be certified before robot motion."""
@@ -81,11 +83,6 @@ class ControllerPreflightError(TrajectoryPlanningError):
             f"Controller preflight rejected segment {segment_index + 1} {label!r}: "
             f"API code={api_code}, controller result=C{controller_result}"
         )
-
-
-def wrapped_delta_deg(target: np.ndarray, start: np.ndarray) -> np.ndarray:
-    """Return shortest signed Euler/joint deltas in degrees."""
-    return (np.asarray(target, dtype=float) - np.asarray(start, dtype=float) + 180.0) % 360.0 - 180.0
 
 
 def interpolate_pose_mm_deg(start: Sequence[float], target: Sequence[float], alpha: float) -> list[float]:

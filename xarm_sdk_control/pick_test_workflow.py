@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
+from xarm_sdk_control.geometry import compose_pose_mm
 from xarm_sdk_control.robot_motion import require_overhead_camera_safe_route
 
 
@@ -54,10 +55,6 @@ def profile_for(target: str) -> PickTestProfile:
         raise ValueError(f"Unsupported pick-test target: {target}") from exc
 
 
-def _pose(point_mm: np.ndarray, z_mm: float, orientation: list[float]) -> list[float]:
-    return [float(point_mm[0]), float(point_mm[1]), float(z_mm), *map(float, orientation)]
-
-
 def build_pick_test_route(
     *,
     home_pose_mm_deg: list[float],
@@ -88,35 +85,35 @@ def build_pick_test_route(
     steps = [
         PickTestStep(
             "move directly above detected target",
-            _pose(source, source[2] + approach_clearance_mm, orientation),
+            compose_pose_mm(source, source[2] + approach_clearance_mm, orientation),
             "empty_transit",
         ),
         PickTestStep(
             "descend to target precontact height",
-            _pose(source, source[2] + precontact_clearance_mm, orientation),
+            compose_pose_mm(source, source[2] + precontact_clearance_mm, orientation),
             "precision",
         ),
         PickTestStep(
             "compress suction cup on target",
-            _pose(source, source[2] - compression_mm, orientation),
+            compose_pose_mm(source, source[2] - compression_mm, orientation),
             "contact",
             "acquire",
         ),
         PickTestStep(
             "lift target vertically for operator inspection",
-            _pose(source, source[2] + profile.test_lift_mm, orientation),
+            compose_pose_mm(source, source[2] + profile.test_lift_mm, orientation),
             "loaded_precision",
             inspection_event,
         ),
         PickTestStep(
             "lower target back to its original source",
-            _pose(source, source[2] + release_clearance_mm, orientation),
+            compose_pose_mm(source, source[2] + release_clearance_mm, orientation),
             "loaded_precision",
             "release",
         ),
         PickTestStep(
             "retract vertically after release",
-            _pose(source, source[2] + approach_clearance_mm, orientation),
+            compose_pose_mm(source, source[2] + approach_clearance_mm, orientation),
             "precision",
         ),
         PickTestStep("return to camera-clear home pose", home, "empty_transit"),

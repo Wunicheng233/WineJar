@@ -6,13 +6,7 @@ import time
 from dataclasses import dataclass
 from typing import Any, Callable
 
-
-def _require_code(label: str, result: Any) -> Any:
-    code = result[0] if isinstance(result, tuple) else result
-    print(f"{label}: {result}")
-    if code not in (0, None):
-        raise RuntimeError(f"{label} failed with code/result: {result}")
-    return result
+from xarm_sdk_control.robot_motion import require_code
 
 
 @dataclass(frozen=True)
@@ -61,7 +55,7 @@ class VacuumController:
             (self.config.pump_channel, "pump"),
             (self.config.valve_channel, "vacuum selector valve"),
         ):
-            _require_code(
+            require_code(
                 f"configure {label} CO{channel} as general output",
                 self.arm.set_cgpio_digital_output_function(channel, 0),
             )
@@ -70,7 +64,7 @@ class VacuumController:
     def _write(self, channel: int, value: int, label: str) -> None:
         if not self.configured:
             raise RuntimeError("Vacuum outputs must be configured before use")
-        _require_code(label, self.arm.set_cgpio_digital(channel, value))
+        require_code(label, self.arm.set_cgpio_digital(channel, value))
 
     def set_pump(self, enabled: bool) -> None:
         value = self.config.pump_on_value if enabled else self.config.pump_off_value

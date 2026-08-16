@@ -24,7 +24,12 @@ if str(REPO_ROOT) not in sys.path:
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
-from xarm_sdk_control.robot_motion import prepare_robot_for_motion, reset_robot_at_ip  # noqa: E402
+from xarm_sdk_control.robot_motion import (  # noqa: E402
+    connect_robot,
+    load_robot_ip,
+    prepare_robot_for_motion,
+    reset_robot_at_ip,
+)
 from xarm_sdk_control.task_timing import TaskTimeline  # noqa: E402
 from xarm_sdk_control.cross_place_motion import (  # noqa: E402
     build_cycle_route,
@@ -35,7 +40,6 @@ from xarm_sdk_control.cross_place_motion import (  # noqa: E402
     plan_route_motion_profile,
     require_code,
     require_distinct_pick_and_place_targets,
-    require_emergency_stop_released,
     robot_status_snapshot,
     validate_motion_profile,
 )
@@ -157,8 +161,7 @@ def main() -> int:
     calibration_path = args.calibration.expanduser().resolve()
     base_t_camera = np.asarray(json.loads(calibration_path.read_text())["base_T_camera"], dtype=float)
     position_bias_m = load_bias_mm(POSITION_BIAS_CONFIG) / 1000.0
-    with ROBOT_CONFIG.open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
+    robot_ip = load_robot_ip(ROBOT_CONFIG)
     camera_fps = args.recording_fps if args.record_global_camera else 30
     camera = RealSenseCaptureSession(serial=args.serial, fps=camera_fps)
     camera.start()
@@ -220,21 +223,13 @@ def main() -> int:
         camera.stop(raise_recording_error=False)
         raise
 
-    from xarm.wrapper import XArmAPI
-
-    arm = XArmAPI(do_not_open=True, is_radian=False)
+    arm: Any | None = None
     vacuum: VacuumController | None = None
     controller_ready = False
     holding_state = {"value": False}
     records: list[dict[str, Any]] = []
     try:
-        require_code("connect", arm.connect(port=robot_ip))
-        require_code(
-            "set suction-cup TCP offset",
-            arm.set_tcp_offset([0, 0, args.tcp_offset_z_mm, 0, 0, 0], is_radian=False, wait=True),
-        )
-        pose_code, home_pose = arm.get_position(is_radian=False)
-        require_code("get camera-clear home pose", (pose_code, home_pose))
+        arm, home_pose = connect_robot(robot_ip, [0, 0, args.tcp_offset_z_mm, 0, 0, 0])
 
         first_route = build_cycle_route(
             home_pose,
@@ -272,12 +267,7 @@ def main() -> int:
             raise RuntimeError("First-leaf route is outside explicit workspace limits")
 
         if args.run:
-            require_emergency_stop_released(arm)
-            require_code("clean error", arm.clean_error())
-            require_code("clean warn", arm.clean_warn())
-            require_code("motion enable", arm.motion_enable(enable=True))
-            require_code("set mode 0", arm.set_mode(0))
-            require_code("set state 0", arm.set_state(0))
+            prepare_robot_for_motion(arm, clean_error=True)
         else:
             print("Preparing controller for no-motion route preflight.")
             prepare_robot_for_motion(arm)
@@ -560,7 +550,8 @@ def main() -> int:
         print(f"Saved failure report: {failure_path}", file=sys.stderr)
         raise
     finally:
-        arm.disconnect()
+        if arm is not None:
+            arm.disconnect()
         camera.stop(raise_recording_error=False)
 
 

@@ -7,9 +7,13 @@ from typing import Any
 
 import numpy as np
 
+from xarm_sdk_control.geometry import compose_pose_from_m as pose, wrapped_angle_deg
 from xarm_sdk_control.robot_motion import (
     CAMERA_TRANSIT_Z_MM,
+    require_code,
+    require_emergency_stop_released,
     require_overhead_camera_safe_route,
+    robot_status_snapshot,
 )
 from xarm_sdk_control.task_timing import TaskTimeline
 from xarm_sdk_control.trajectory_speed_planner import (
@@ -37,27 +41,6 @@ BLENDABLE_TRANSITIONS = {
     ("empty_transit", "precision"),
     ("precision", "vertical"),
 }
-
-
-def require_code(label: str, result: Any) -> Any:
-    code = result[0] if isinstance(result, tuple) else result
-    print(f"{label}: {result}")
-    if code not in (0, None):
-        raise RuntimeError(f"{label} failed with code/result: {result}")
-    return result
-
-
-def require_emergency_stop_released(arm: Any) -> None:
-    result = arm.get_err_warn_code()
-    require_code("get controller error/warn before motion", result)
-    error_code, warn_code = result[1]
-    if error_code == 1:
-        raise RuntimeError(
-            "Controller error C1: the control-box emergency-stop button is pressed. "
-            "Twist/release the physical emergency stop, then enable the robot in UFactory before retrying."
-        )
-    if error_code != 0:
-        raise RuntimeError(f"Controller has unresolved error C{error_code} (warning={warn_code})")
 
 
 def require_motion_completed(
@@ -143,15 +126,6 @@ def require_distinct_pick_and_place_targets(
             f"Visual pick and placement targets are only {separation_mm:.1f} mm apart; "
             "the bamboo shell and ceramic disk detections may refer to the same object"
         )
-
-
-def wrapped_angle_deg(value: float) -> float:
-    return (float(value) + 180.0) % 360.0 - 180.0
-
-
-def pose(point_m: list[float], z_mm: float, orientation: list[float]) -> list[float]:
-    point_mm = np.asarray(point_m, dtype=float) * 1000.0
-    return [float(point_mm[0]), float(point_mm[1]), float(z_mm), *map(float, orientation)]
 
 
 def build_cycle_route(
@@ -482,18 +456,3 @@ def execute_route(
                 f"{cycle_name}.vacuum_released",
                 settle_seconds=args.release_settle_seconds,
             )
-
-
-def robot_status_snapshot(arm: Any) -> dict[str, Any]:
-    snapshot: dict[str, Any] = {}
-    for name, getter in (
-        ("state", arm.get_state),
-        ("error_warn", arm.get_err_warn_code),
-        ("tcp_pose_mm_deg", lambda: arm.get_position(is_radian=False)),
-        ("joint_angles_deg", lambda: arm.get_servo_angle(is_radian=False)),
-    ):
-        try:
-            snapshot[name] = getter()
-        except Exception as exc:
-            snapshot[name] = {"read_error": f"{type(exc).__name__}: {exc}"}
-    return snapshot

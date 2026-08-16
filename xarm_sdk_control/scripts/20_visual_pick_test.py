@@ -36,6 +36,8 @@ from xarm_sdk_control.pick_verification import (  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
+    connect_robot,
+    load_robot_ip,
     prepare_robot_for_motion,
     require_code,
     reset_robot_at_ip,
@@ -221,7 +223,7 @@ def main() -> int:
     min_score, compression_mm = validate_args(args, profile)
     calibration_path, base_t_camera = load_calibration(args.calibration)
     bias_mm = load_bias_mm(args.position_bias_config.expanduser().resolve())
-    robot_ip = str(yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))["robot_ip"])
+    robot_ip = load_robot_ip(CONFIG_PATH)
 
     timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
     run_dir = OUTPUT_ROOT / timestamp
@@ -242,17 +244,8 @@ def main() -> int:
                 args.transit_speed,
                 args.acc,
             )
-            from xarm.wrapper import XArmAPI
-
-            arm = XArmAPI(do_not_open=True, is_radian=False)
-            require_code("connect", arm.connect(port=robot_ip))
-            require_code(
-                "set suction-cup TCP offset",
-                arm.set_tcp_offset(END_EFFECTOR.tcp_offset_mm_deg, is_radian=False, wait=True),
-            )
+            arm, home_pose = connect_robot(robot_ip, END_EFFECTOR.tcp_offset_mm_deg)
             prepare_robot_for_motion(arm)
-            pose_code, home_pose = arm.get_position(is_radian=False)
-            require_code("get camera-clear home pose", (pose_code, home_pose))
             vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
             vacuum.configure()
         else:
