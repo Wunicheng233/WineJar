@@ -37,58 +37,30 @@ Task scripts are thin orchestration over shared importable modules:
 - `realsense_capture.py` — aligned RGB-D capture session
 - `geometry.py` / `cli_utils.py` / `run_output.py` / `task_timing.py` — shared pose math, argparse plumbing, run reporting, timeline
 
-## Attended single-object pick test
+## Multi-ceramic suction validation
 
-`20_visual_pick_test.py` is an isolated test workflow for visually targeting,
-lifting, and returning one object under direct operator observation. Its
-default behavior does not infer whether pickup succeeded and does not change
-the validated two-shell production task. The default mode captures one RGB-D
-frame, detects the target, prints the guarded route, and commands neither robot
-motion nor controller I/O:
+`20_visual_pick_test.py` picks up and returns every ceramic disk detected in
+one RGB-D frame, best confidence first, under direct operator observation. It
+is the suction-reliability check for the ceramic disks: stage N disks on the
+table and the robot lifts each one, holds it at inspection height for the
+operator to observe, lowers it back to its original position, releases, and
+moves on to the next disk. No software pickup verdict is produced — the
+operator's eyes are the verdict.
+
+The default mode captures one RGB-D frame, detects every in-frame ceramic
+disk, prints the guarded route for each, and commands neither robot motion nor
+controller I/O:
 
 ```bash
-python xarm_sdk_control/scripts/20_visual_pick_test.py \
-  --target bamboo \
-  --allow-validated-clipped-target
-
-python xarm_sdk_control/scripts/20_visual_pick_test.py \
-  --target ceramic
+python xarm_sdk_control/scripts/20_visual_pick_test.py
 ```
 
-During a real test, vacuum remains on while the object is lifted vertically and
-held briefly for the operator. The object is then lowered to its original
-source, released, and the robot returns home. There is no post-lift camera
-capture, model inference, automatic retry, or software pickup verdict. The
-ceramic profile uses 21 mm spring compression and lifts only 25 mm vertically.
-
-After the dry-run route and workspace have been inspected, the attended test
-form is:
+After the dry-run routes and workspace have been inspected, the attended form
+is:
 
 ```bash
 python xarm_sdk_control/scripts/20_visual_pick_test.py \
-  --target ceramic \
   --run \
-  --confirm-no-pressure-sensor \
-  --require-vision-service \
-  --min-x-mm 180 --max-x-mm 520 \
-  --min-y-mm -180 --max-y-mm 180 \
-  --min-z-mm -85 --max-z-mm 500
-```
-
-An optional closed-loop experiment captures another RGB-D frame while the
-object is lifted. It classifies the target as `confirmed`, `not_confirmed`, or
-`inconclusive`; always returns the tool vertically to the original source
-before venting; and captures a fresh targeting frame before every retry. The
-following controlled experiment deliberately leaves the pump off on attempt 1,
-then replans and performs a normal attempt 2:
-
-```bash
-python xarm_sdk_control/scripts/20_visual_pick_test.py \
-  --target ceramic \
-  --run \
-  --verify-pick \
-  --simulate-first-pick-failure \
-  --max-attempts 2 \
   --confirm-no-pressure-sensor \
   --require-vision-service \
   --compression-mm 21 \
@@ -97,9 +69,20 @@ python xarm_sdk_control/scripts/20_visual_pick_test.py \
   --min-z-mm -85 --max-z-mm 500
 ```
 
-The closed-loop command exits with status `2` if all attempts finish without a
-`confirmed` visual pickup. Robot and vacuum cleanup still complete before that
-status is returned.
+Behavior:
+
+- One scan at the start; every in-frame ceramic disk whose mask does not touch
+  the image edge is processed in descending confidence order.
+- Per disk: approach, contact at 21 mm spring compression, a vertical lift of
+  25 mm, a hold (`--inspection-hold-seconds`) for operator observation, lower
+  back to the original source, release, and return to the camera-clear home
+  pose before the next disk.
+- Disks must sit within the explicit workspace limits and within arm reach. A
+  detection touching the image edge aborts with guidance to move the disk
+  fully into the calibrated camera view.
+- `result.json` records `picked_count`, per-disk source points, routes, and
+  safety checks; the `TaskTimeline` marks `disk_NN.pick_started` and
+  `disk_NN.pick_complete` per disk.
 
 ## Two-shell performance experiment
 
