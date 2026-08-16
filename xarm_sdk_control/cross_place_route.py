@@ -56,6 +56,17 @@ def require_distinct_pick_and_place_targets(
         )
 
 
+def transport_height_mm(
+    leaf_point_m: list[float],
+    ceramic_point_m: list[float],
+    transport_clearance_mm: float,
+) -> float:
+    """Camera-safe transport height shared by the cycle and recovery route builders."""
+    leaf_z_mm = float(np.asarray(leaf_point_m, dtype=float)[2] * 1000.0)
+    ceramic_z_mm = float(np.asarray(ceramic_point_m, dtype=float)[2] * 1000.0)
+    return float(max(leaf_z_mm, ceramic_z_mm) + transport_clearance_mm)
+
+
 def build_cycle_route(
     home_pose: list[float],
     leaf_point_m: list[float],
@@ -70,14 +81,17 @@ def build_cycle_route(
     return_home: bool = True,
     precontact_clearance_mm: float = 5.0,
     precision_lift_mm: float = 20.0,
+    inspection_event: str | None = None,
 ) -> list[tuple[str, list[float], str, str | None]]:
+    if inspection_event not in (None, "verify"):
+        raise ValueError(f"Unsupported inspection event: {inspection_event!r}")
     cycle_start = list(map(float, start_pose if start_pose is not None else home_pose))
     pickup_orientation = list(map(float, home_pose[3:6]))
     place_orientation = pickup_orientation.copy()
     place_orientation[2] = wrapped_angle_deg(place_orientation[2] + place_yaw_offset_deg)
     leaf_mm = np.asarray(leaf_point_m, dtype=float) * 1000.0
     ceramic_mm = np.asarray(ceramic_point_m, dtype=float) * 1000.0
-    transport_z = float(max(leaf_mm[2], ceramic_mm[2]) + transport_clearance_mm)
+    transport_z = transport_height_mm(leaf_point_m, ceramic_point_m, transport_clearance_mm)
     if transport_z > CAMERA_TRANSIT_Z_MM:
         raise RuntimeError(
             f"Transport Z {transport_z:.1f} mm exceeds the {CAMERA_TRANSIT_Z_MM:.1f} mm camera-safe corridor"
@@ -113,6 +127,18 @@ def build_cycle_route(
             compose_pose_mm(leaf_mm, transport_z, pickup_orientation),
             "loaded_vertical",
             None,
+        ),
+        *(
+            [
+                (
+                    "hold leaf above source for visual verification",
+                    compose_pose_mm(leaf_mm, transport_z, pickup_orientation),
+                    "loaded_vertical",
+                    "verify",
+                )
+            ]
+            if inspection_event is not None
+            else []
         ),
         (
             "move above ceramic while interpolating placement yaw",
@@ -210,3 +236,55 @@ def route_blend_radii(
         )
         radii.append(float(blend_radius_mm if blendable else -1.0))
     return radii
+
+
+def build_pick_recovery_route(
+    source_point_m: list[float],
+    transport_z_mm: float,
+    release_clearance_mm: float,
+    home_pose: list[float],
+    start_pose: list[float],
+) -> list[tuple[str, list[float], str, str | None]]:
+    """Vent a possibly-held leaf back onto its source stack and retreat to transport height.
+
+    The start pose is the verification hold pose. All steps are exact-stop; the
+    vent step shares the descend step's pose and commands no motion.
+    """
+    source = np.asarray(source_point_m, dtype=float)
+    if source.shape != (3,) or not np.all(np.isfinite(source)):
+        raise ValueError("Source point must contain three finite values")
+    if transport_z_mm > CAMERA_TRANSIT_Z_MM:
+        raise RuntimeError(
+            f"Recovery transport Z {transport_z_mm:.1f} mm exceeds the "
+            f"{CAMERA_TRANSIT_Z_MM:.1f} mm camera-safe corridor"
+        )
+    release_z_mm = float(source[2] * 1000.0 + release_clearance_mm)
+    if transport_z_mm < release_z_mm:
+        raise RuntimeError(
+            f"Recovery transport Z {transport_z_mm:.1f} mm is below the release height {release_z_mm:.1f} mm"
+        )
+    pickup_orientation = list(map(float, home_pose[3:6]))
+    release_pose = compose_pose_mm(source * 1000.0, release_z_mm, pickup_orientation)
+    retreat_pose = compose_pose_mm(source * 1000.0, transport_z_mm, pickup_orientation)
+    route: list[tuple[str, list[float], str, str | None]] = [
+        (
+            "descend loaded to source release height",
+            release_pose,
+            "loaded_vertical",
+            None,
+        ),
+        (
+            "vent any carried leaf back onto the source stack",
+            release_pose,
+            "contact",
+            "release",
+        ),
+        (
+            "retreat vertically above the source stack",
+            retreat_pose,
+            "vertical",
+            None,
+        ),
+    ]
+    require_overhead_camera_safe_route([list(map(float, start_pose)), *[item[1] for item in route]])
+    return route

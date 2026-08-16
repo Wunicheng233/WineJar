@@ -328,3 +328,230 @@ def test_feedback_timeout_away_from_target_is_rejected(monkeypatch) -> None:
         assert "could not be verified" in str(exc)
     else:
         raise AssertionError("A timed-out motion away from target must be rejected")
+
+
+def test_verify_step_inserts_stationary_hold_at_transport_height() -> None:
+    route = MOTION.build_cycle_route(
+        home_pose=[215.194, -2.409, 300.0, 178.467, 0.581, -0.014],
+        leaf_point_m=[0.50, 0.06, -0.015],
+        ceramic_point_m=[0.30, -0.16, 0.018],
+        place_yaw_offset_deg=45.0,
+        transport_clearance_mm=100,
+        approach_clearance_mm=25,
+        compression_mm=13,
+        release_clearance_mm=0.0,
+        layer_height_mm=0.0,
+        inspection_event="verify",
+    )
+
+    verify_indices = [index for index, item in enumerate(route) if item[3] == "verify"]
+    assert len(verify_indices) == 1
+    index = verify_indices[0]
+    assert route[index][0] == "hold leaf above source for visual verification"
+    assert route[index][2] == "loaded_vertical"
+    assert route[index - 1][0] == "lift leaf vertically with pickup yaw fixed"
+    assert route[index][1] == route[index - 1][1]
+    assert route[index][1][2] == 118.0
+
+
+def test_invalid_inspection_event_is_rejected() -> None:
+    try:
+        MOTION.build_cycle_route(
+            home_pose=[215.194, -2.409, 300.0, 178.467, 0.581, -0.014],
+            leaf_point_m=[0.50, 0.06, -0.015],
+            ceramic_point_m=[0.30, -0.16, 0.018],
+            place_yaw_offset_deg=45.0,
+            transport_clearance_mm=100,
+            approach_clearance_mm=25,
+            compression_mm=13,
+            release_clearance_mm=0.0,
+            layer_height_mm=0.0,
+            inspection_event="hold",
+        )
+    except ValueError as exc:
+        assert "inspection event" in str(exc)
+    else:
+        raise AssertionError("Unsupported inspection events must be rejected")
+
+
+def test_recovery_route_vents_at_source_and_retreats() -> None:
+    route = MOTION.build_pick_recovery_route(
+        source_point_m=[0.50, 0.06, -0.015],
+        transport_z_mm=118.0,
+        release_clearance_mm=0.0,
+        home_pose=[215.194, -2.409, 300.0, 178.467, 0.581, -0.014],
+        start_pose=[500.0, 60.0, 118.0, 178.467, 0.581, -0.014],
+    )
+
+    assert len(route) == 3
+    assert route[0][0] == "descend loaded to source release height"
+    assert route[0][1][2] == -15.0
+    assert route[1][3] == "release"
+    assert route[1][1] == route[0][1]
+    assert route[2][0] == "retreat vertically above the source stack"
+    assert route[2][1][2] == 118.0
+    assert MOTION.route_blend_radii(route, 10.0) == [-1.0, -1.0, -1.0]
+
+
+def test_recovery_route_rejects_transport_above_camera_corridor() -> None:
+    try:
+        MOTION.build_pick_recovery_route(
+            source_point_m=[0.50, 0.06, -0.015],
+            transport_z_mm=300.0,
+            release_clearance_mm=0.0,
+            home_pose=[215.194, -2.409, 300.0, 178.467, 0.581, -0.014],
+            start_pose=[500.0, 60.0, 118.0, 178.467, 0.581, -0.014],
+        )
+    except RuntimeError as exc:
+        assert "camera-safe corridor" in str(exc)
+    else:
+        raise AssertionError("Recovery transport above the camera corridor must be rejected")
+
+
+def test_transport_height_uses_max_of_leaf_and_ceramic() -> None:
+    assert MOTION.transport_height_mm([0.50, 0.06, -0.015], [0.30, -0.16, 0.018], 100.0) == 118.0
+    assert MOTION.transport_height_mm([0.50, 0.06, 0.05], [0.30, -0.16, 0.018], 100.0) == 150.0
+
+
+def test_verify_event_invokes_callback_and_commands_no_hold_motion() -> None:
+    arm = RecordingArm()
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    route = [
+        ("lift", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", None),
+        ("verify hold", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", "verify"),
+    ]
+    seen: list[str] = []
+
+    MOTION.execute_route(
+        arm,
+        vacuum,
+        route,
+        motion_args(),
+        {"value": False},
+        timeline,
+        "leaf_1",
+        event_callback=seen.append,
+    )
+
+    assert len(arm.commands) == 1
+    assert seen == ["verify hold"]
+
+
+def test_verify_event_without_callback_is_rejected() -> None:
+    arm = RecordingArm()
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    route = [
+        ("lift", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", None),
+        ("verify hold", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", "verify"),
+    ]
+    try:
+        MOTION.execute_route(arm, vacuum, route, motion_args(), {"value": False}, timeline, "leaf_1")
+    except RuntimeError as exc:
+        assert "no event callback" in str(exc)
+    else:
+        raise AssertionError("A verify event without a callback must be rejected")
+
+
+def test_failure_injected_acquire_skips_pump_and_leaves_holding_unset() -> None:
+    arm = RecordingArm()
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+    ]
+
+    MOTION.execute_route(
+        arm,
+        vacuum,
+        route,
+        motion_args(),
+        holding,
+        timeline,
+        "leaf_1",
+        failure_injected=True,
+    )
+
+    assert vacuum.actions == ["prepare"]
+    assert holding["value"] is False
+    names = [name for name, _details in timeline.events]
+    assert "leaf_1.vacuum_acquire_skipped" in names
+
+
+def test_prepare_vacuum_false_skips_preparation() -> None:
+    arm = RecordingArm()
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    route = [
+        ("lift", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", None),
+    ]
+
+    MOTION.execute_route(
+        arm,
+        vacuum,
+        route,
+        motion_args(),
+        {"value": False},
+        timeline,
+        "leaf_1",
+        prepare_vacuum=False,
+    )
+
+    assert vacuum.actions == []
+
+
+def test_stationary_hold_step_is_planned_without_motion_preflight(monkeypatch) -> None:
+    class FakeArm:
+        joint_speed_limit = (None, 100.0)
+        joint_acc_limit = (None, 200.0)
+
+    route = [
+        ("lift", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", None),
+        ("verify hold", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", "verify"),
+    ]
+    captured: dict = {}
+
+    def fake_plan(arm, start_pose, start_angles, requests, **kwargs):
+        captured["plan_labels"] = [request.label for request in requests]
+        return [
+            MOTION.SegmentSpeedPlan(
+                label=request.label,
+                sample_count=2,
+                translation_distance_mm=100.0,
+                rotation_distance_deg=0.0,
+                requested_speed_mm_s=request.requested_speed_mm_s,
+                planned_speed_mm_s=request.requested_speed_mm_s,
+                requested_acceleration_mm_s2=request.requested_acceleration_mm_s2,
+                planned_acceleration_mm_s2=request.requested_acceleration_mm_s2,
+                predicted_peak_joint_speed_deg_s=10.0,
+                predicted_peak_joint_acceleration_deg_s2=20.0,
+                limiting_velocity_joint=1,
+                limiting_acceleration_joint=1,
+                end_joint_angles_deg=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0],
+            )
+            for request in requests
+        ]
+
+    def fake_preflight(arm, requests, plans, radii):
+        captured["preflight_labels"] = [request.label for request in requests]
+        captured["preflight_radii"] = radii
+
+    monkeypatch.setattr(MOTION, "plan_cartesian_route_speeds", fake_plan)
+    monkeypatch.setattr(MOTION, "preflight_cartesian_route", fake_preflight)
+
+    plans = MOTION.plan_route_motion_profile(
+        FakeArm(),
+        [400.0, 60.0, 118.0, 178.0, 0.0, 0.0],
+        [0.0] * 6,
+        route,
+        motion_args(),
+    )
+
+    assert captured["plan_labels"] == ["lift"]
+    assert captured["preflight_labels"] == ["lift"]
+    assert len(plans) == 2
+    assert plans[1].translation_distance_mm == 0.0
+    assert plans[1].label == "verify hold"
+    assert plans[1].end_joint_angles_deg == [1.0, 2.0, 3.0, 4.0, 5.0, 6.0]
