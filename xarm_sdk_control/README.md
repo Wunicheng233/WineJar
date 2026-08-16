@@ -184,6 +184,81 @@ reduce USB bandwidth while retaining enough temporal detail for review. The
 robot motion profile is unchanged. Use `--recording-fps 30` only after the
 camera cable and USB controller have passed a sustained recording test.
 
+### Closed-loop pick verification and retry
+
+`19_visual_cross_place_two_leaves.py` can classify every lift from a fresh
+RGB-D frame and recover + replan + retry when the pick clearly failed. The
+mechanism is opt-in and leaves the validated baseline unchanged when off:
+
+```bash
+# production command with verification enabled
+python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
+  --run --confirm-no-pressure-sensor \
+  --require-vision-service \
+  --verify-pick \
+  --max-pick-attempts 3 \
+  --allow-validated-clipped-leaf \
+  --compression-mm 13 --min-score 0.35 \
+  --min-x-mm 180 --max-x-mm 520 \
+  --min-y-mm -180 --max-y-mm 180 \
+  --min-z-mm -85 --max-z-mm 500
+
+# controlled experiment: leaf-1 attempt 1 contacts normally but keeps the
+# pump OFF, so the failure-detection + recovery + retry path is exercised
+python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
+  --run --confirm-no-pressure-sensor \
+  --require-vision-service \
+  --verify-pick \
+  --simulate-first-pick-failure --max-pick-attempts 2 \
+  --allow-validated-clipped-leaf \
+  --compression-mm 13 --min-score 0.35 \
+  --min-x-mm 180 --max-x-mm 520 \
+  --min-y-mm -180 --max-y-mm 180 \
+  --min-z-mm -85 --max-z-mm 500
+```
+
+Verification policy per lift:
+
+- `confirmed` (leaf seen at the lifted tool position) — continue placement.
+- `not_confirmed` (leaf still near its original source height) — descend back
+  to the source release height, vent any carried leaf onto the stack, retreat,
+  return to the camera-clear reset pose, capture a fresh targeting frame, and
+  retry. Every replanned route passes the full joint-aware planner and the
+  controller no-motion preflight again.
+- `inconclusive` — currently treated as success and recorded, because many
+  verified successful picks read as inconclusive with the present vision
+  check; the recorded reasons will guide tightening this policy later.
+
+Details:
+
+- `--max-pick-attempts` (1-3, default 3) bounds attempts per leaf. A retry
+  targeting scan only accepts a candidate within `--max-second-source-shift-mm`
+  of the original source stack, so a leaf that fell elsewhere (or the already
+  placed leaf) can never be selected.
+- Verification score is adaptive: leaf 1 uses `--min-score`, leaf 2 uses
+  `--second-scan-min-score` (the remaining shell has lower contrast after the
+  top shell is removed).
+- Every attempt's targeting and verification frames, the full verification
+  dict, retry decision, and recovery flag are recorded per attempt under
+  `data/visual_cross_place/<run>/leaf_<N>_attempt_<NN>/` and in `result.json`
+  (`pick_verification` top-level block, `cycles[].pick_attempts[]`,
+  `final_pick_verification_status`). Timeline events use
+  `leaf_<N>.attempt_<NN>.verification.*` / `.recovery.*` / `.targeting.*`.
+- If all attempts for a leaf fail, the task vents at the source, stops,
+  writes `failure.json` (with `pick_verification_failed`) plus a
+  `result.json` with `"status": "failed"`, and exits with code `2`.
+
+Known v1 limitations (recorded for later analysis):
+
+- Stacked-leaf ambiguity: after a real leaf-1 success the remaining shell
+  sits ~3 mm lower at the source and can read as `not_confirmed`, causing a
+  conservative vent-back-and-retry (safe, only costs time).
+- The suction cup can occlude the carried leaf from the overhead camera,
+  producing `inconclusive` (currently treated as success).
+- If a leaf drops far from the stack, the retry legitimately picks the
+  remaining stacked leaf under the failed leaf's role; the dropped leaf must
+  be recovered by the operator.
+
 Generated RGB-D frames, masks, previews, and run logs live under
 `xarm_sdk_control/data/`. They are disposable experiment artifacts and are not
 required by the control software. Keep `calibration/` and `config/`: those files

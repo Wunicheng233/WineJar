@@ -97,6 +97,9 @@ def test_default_profile_compensates_yaw_and_shortens_free_space_motion(monkeypa
     assert args.recording_fps == 15
     assert args.second_scan_min_score == 0.20
     assert args.skip_second_controller_preflight is False
+    assert args.verify_pick is False
+    assert args.max_pick_attempts == 3
+    assert args.simulate_first_pick_failure is False
 
 
 def test_place_offset_moves_only_the_task_target() -> None:
@@ -280,6 +283,46 @@ def test_negative_settle_time_is_rejected_by_main_validation(monkeypatch) -> Non
         assert "settle times" in str(exc)
     else:
         raise AssertionError("Negative settle time must be rejected")
+
+
+def _reject_argv(monkeypatch, argv: list[str], expected: str) -> None:
+    monkeypatch.setattr(MODULE.sys, "argv", ["19_visual_cross_place_two_leaves.py", *argv])
+    try:
+        MODULE.main()
+    except ValueError as exc:
+        assert expected in str(exc)
+    else:
+        raise AssertionError(f"{expected!r} must be rejected")
+
+
+def test_verify_pick_requires_run(monkeypatch) -> None:
+    _reject_argv(monkeypatch, ["--verify-pick"], "--verify-pick requires --run")
+
+
+def test_simulate_first_pick_failure_requires_verify_pick(monkeypatch) -> None:
+    _reject_argv(monkeypatch, ["--simulate-first-pick-failure"], "requires --verify-pick")
+
+
+def test_max_pick_attempts_must_stay_within_three(monkeypatch) -> None:
+    _reject_argv(monkeypatch, ["--max-pick-attempts", "4"], "--max-pick-attempts must be within 1~3")
+
+
+def test_simulated_failure_needs_at_least_two_attempts(monkeypatch) -> None:
+    _reject_argv(
+        monkeypatch,
+        [
+            "--run",
+            "--confirm-no-pressure-sensor",
+            "--verify-pick",
+            "--simulate-first-pick-failure",
+            "--max-pick-attempts",
+            "1",
+            "--min-x-mm", "-1000", "--max-x-mm", "1000",
+            "--min-y-mm", "-1000", "--max-y-mm", "1000",
+            "--min-z-mm", "-1000", "--max-z-mm", "1000",
+        ],
+        "requires --max-pick-attempts 2 or greater",
+    )
 
 
 def test_loaded_yaw_starts_only_after_vertical_lift_during_horizontal_carry() -> None:

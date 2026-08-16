@@ -51,6 +51,10 @@ from xarm_sdk_control.cross_place_motion import (  # noqa: E402
     robot_status_snapshot,
     validate_motion_profile,
 )
+from xarm_sdk_control.cross_place_retry import (  # noqa: E402
+    AllPickAttemptsFailedError,
+    run_leaf_pick_with_retry,
+)
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     DEFAULT_VISION_SOCKET,
@@ -110,6 +114,24 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--precision-lift-mm", type=float, default=20.0)
     parser.add_argument("--compression-mm", type=float, default=END_EFFECTOR.default_compression_mm)
     parser.add_argument("--release-clearance-mm", type=float, default=0.0)
+    parser.add_argument(
+        "--verify-pick",
+        action="store_true",
+        help="Classify every lift from a fresh RGB-D frame; on failure vent at the "
+             "source stack, replan from a new targeting frame, and retry.",
+    )
+    parser.add_argument(
+        "--max-pick-attempts",
+        type=int,
+        default=3,
+        help="Pick attempts per leaf including retries (1-3). Ignored while --verify-pick is off.",
+    )
+    parser.add_argument(
+        "--simulate-first-pick-failure",
+        action="store_true",
+        help="Controlled test: skip pump activation on leaf-1 attempt 1 to validate the "
+             "failure-detection and retry mechanism.",
+    )
     add_motion_profile_args(parser, DEFAULT_MOTION_PROFILE)
     add_workspace_limit_args(parser)
     return parser.parse_args()
@@ -141,6 +163,22 @@ def main() -> int:
     if args.precision_lift_mm <= args.precontact_clearance_mm:
         raise ValueError("Precision lift height must exceed precontact clearance")
     validate_motion_profile(args)
+    if not 1 <= args.max_pick_attempts <= 3:
+        raise ValueError("--max-pick-attempts must be within 1~3")
+    if args.verify_pick and not args.run:
+        raise ValueError("--verify-pick requires --run")
+    if args.simulate_first_pick_failure and not args.verify_pick:
+        raise ValueError("--simulate-first-pick-failure requires --verify-pick")
+    if args.simulate_first_pick_failure and args.max_pick_attempts < 2:
+        raise ValueError("Simulated first-pick failure requires --max-pick-attempts 2 or greater")
+    if args.verify_pick and not args.require_vision_service:
+        print(
+            "WARNING: --verify-pick without --require-vision-service falls back to one-shot "
+            "inference for every targeting and verification capture; the persistent vision "
+            "service is strongly recommended."
+        )
+    if args.max_pick_attempts > 1 and not args.verify_pick:
+        print("WARNING: --max-pick-attempts is ignored while --verify-pick is off.")
 
     calibration_path, base_t_camera = load_base_t_camera(args.calibration)
     position_bias_m = load_bias_mm(POSITION_BIAS_CONFIG) / 1000.0
@@ -208,20 +246,6 @@ def main() -> int:
     try:
         arm, home_pose = connect_robot(robot_ip, [0, 0, args.tcp_offset_z_mm, 0, 0, 0])
 
-        first_route = build_cycle_route(
-            home_pose,
-            first_leaf["point_base_m"],
-            placement_target_m,
-            args.first_place_yaw_offset_deg,
-            args.transport_clearance_mm,
-            args.approach_clearance_mm,
-            args.compression_mm,
-            args.release_clearance_mm,
-            0.0,
-            return_home=False,
-            precontact_clearance_mm=args.precontact_clearance_mm,
-            precision_lift_mm=args.precision_lift_mm,
-        )
         print(f"System positioning bias [mm]: {(position_bias_m * 1000).round(2).tolist()}")
         print(f"First source [mm]: {(np.asarray(first_leaf['point_base_m']) * 1000).round(2).tolist()}")
         print(f"Detected ceramic center [mm]: {(np.asarray(ceramic['point_base_m']) * 1000).round(2).tolist()}")
@@ -231,67 +255,121 @@ def main() -> int:
             f"(Y offset={args.place_offset_y_mm:.1f} mm)"
         )
 
-        first_safety = route_safety_report([item[1] for item in first_route], args)
-        if not first_safety["all_ok"]:
-            raise RuntimeError("First-leaf route is outside explicit workspace limits")
-
-        if args.run:
-            prepare_robot_for_motion(arm, clean_error=True)
-        else:
-            print("Preparing controller for no-motion route preflight.")
-            prepare_robot_for_motion(arm)
-        controller_ready = True
-
-        angles_code, first_start_angles = arm.get_servo_angle(is_radian=False)
-        require_code("get joint angles for first-route planning", (angles_code, first_start_angles))
-        planning_started = time.perf_counter()
-        first_plans = plan_route_motion_profile(
-            arm,
-            home_pose,
-            first_start_angles,
-            first_route,
-            args,
-        )
-        first_planning_seconds = time.perf_counter() - planning_started
-        timeline.mark(
-            "leaf_1.route_planned",
-            planning_seconds=first_planning_seconds,
-            segment_count=len(first_plans),
-        )
-
-        if not args.run:
-            require_code("stop robot after no-motion preflight", arm.set_state(4))
-            controller_ready = False
-            print(
-                "DRY RUN: first scan, workspace limits, IK continuity, and joint limits validated; "
-                "second scan requires the first physical placement."
+        if not args.verify_pick:
+            first_route = build_cycle_route(
+                home_pose,
+                first_leaf["point_base_m"],
+                placement_target_m,
+                args.first_place_yaw_offset_deg,
+                args.transport_clearance_mm,
+                args.approach_clearance_mm,
+                args.compression_mm,
+                args.release_clearance_mm,
+                0.0,
+                return_home=False,
+                precontact_clearance_mm=args.precontact_clearance_mm,
+                precision_lift_mm=args.precision_lift_mm,
             )
-            return 0
+            first_safety = route_safety_report([item[1] for item in first_route], args)
+            if not first_safety["all_ok"]:
+                raise RuntimeError("First-leaf route is outside explicit workspace limits")
 
-        vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
-        vacuum.configure()
+            if args.run:
+                prepare_robot_for_motion(arm, clean_error=True)
+            else:
+                print("Preparing controller for no-motion route preflight.")
+                prepare_robot_for_motion(arm)
+            controller_ready = True
 
-        execute_route(
-            arm,
-            vacuum,
-            first_route,
-            args,
-            holding_state,
-            timeline,
-            "leaf_1",
-            first_plans,
-        )
-        timeline.mark("leaf_1.cycle_complete")
-        records.append(
-            {
-                "leaf": 1,
-                "frame_dir": str(first_frame),
-                "route": first_route,
-                "joint_speed_planning_seconds": first_planning_seconds,
-                "joint_speed_plan": [plan.to_dict() for plan in first_plans],
-                "controller_preflight": {"checks_run": 1, "passed": True},
-            }
-        )
+            angles_code, first_start_angles = arm.get_servo_angle(is_radian=False)
+            require_code("get joint angles for first-route planning", (angles_code, first_start_angles))
+            planning_started = time.perf_counter()
+            first_plans = plan_route_motion_profile(
+                arm,
+                home_pose,
+                first_start_angles,
+                first_route,
+                args,
+            )
+            first_planning_seconds = time.perf_counter() - planning_started
+            timeline.mark(
+                "leaf_1.route_planned",
+                planning_seconds=first_planning_seconds,
+                segment_count=len(first_plans),
+            )
+
+            if not args.run:
+                require_code("stop robot after no-motion preflight", arm.set_state(4))
+                controller_ready = False
+                print(
+                    "DRY RUN: first scan, workspace limits, IK continuity, and joint limits validated; "
+                    "second scan requires the first physical placement."
+                )
+                return 0
+
+            vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
+            vacuum.configure()
+
+            execute_route(
+                arm,
+                vacuum,
+                first_route,
+                args,
+                holding_state,
+                timeline,
+                "leaf_1",
+                first_plans,
+            )
+            timeline.mark("leaf_1.cycle_complete")
+            records.append(
+                {
+                    "leaf": 1,
+                    "frame_dir": str(first_frame),
+                    "route": first_route,
+                    "joint_speed_planning_seconds": first_planning_seconds,
+                    "joint_speed_plan": [plan.to_dict() for plan in first_plans],
+                    "controller_preflight": {"checks_run": 1, "passed": True},
+                }
+            )
+        else:
+            prepare_robot_for_motion(arm, clean_error=True)
+            controller_ready = True
+
+            vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
+            vacuum.configure()
+
+            leaf_1_outcome = run_leaf_pick_with_retry(
+                leaf_index=1,
+                arm=arm,
+                vacuum=vacuum,
+                home_pose=home_pose,
+                placement_target_m=placement_target_m,
+                initial_target_m=first_leaf["point_base_m"],
+                source_stack_reference_m=first_leaf["point_base_m"],
+                place_yaw_offset_deg=args.first_place_yaw_offset_deg,
+                layer_height_mm=0.0,
+                return_home=False,
+                args=args,
+                holding_state=holding_state,
+                timeline=timeline,
+                run_dir=run_dir,
+                base_t_camera=base_t_camera,
+                position_bias_m=position_bias_m,
+                camera=camera,
+                initial_targeting_frame=first_frame,
+            )
+            records.append(leaf_1_outcome.cycle_record())
+            if not leaf_1_outcome.success:
+                raise AllPickAttemptsFailedError(1, leaf_1_outcome)
+            timeline.mark(
+                "leaf_1.pick_complete",
+                final_status=(
+                    leaf_1_outcome.final_verification.status
+                    if leaf_1_outcome.final_verification is not None
+                    else None
+                ),
+                attempts_used=len(leaf_1_outcome.attempts),
+            )
 
         pose_code, second_start_pose = arm.get_position(is_radian=False)
         require_code("get continuous-cycle waiting pose", (pose_code, second_start_pose))
@@ -359,64 +437,98 @@ def main() -> int:
         except Exception as exc:
             orientation_diagnostic["error"] = f"{type(exc).__name__}: {exc}"
             print(f"WARNING: first-leaf orientation diagnostic unavailable: {exc}")
-        second_route = build_cycle_route(
-            home_pose,
-            second_leaf["point_base_m"],
-            placement_target_m,
-            args.second_place_yaw_offset_deg,
-            args.transport_clearance_mm,
-            args.approach_clearance_mm,
-            args.compression_mm,
-            args.release_clearance_mm,
-            args.second_layer_height_mm,
-            start_pose=second_start_pose,
-            return_home=True,
-            precontact_clearance_mm=args.precontact_clearance_mm,
-            precision_lift_mm=args.precision_lift_mm,
-        )
-        second_safety = route_safety_report([item[1] for item in second_route], args)
-        if not second_safety["all_ok"]:
-            raise RuntimeError("Second-leaf route is outside explicit workspace limits")
-        planning_started = time.perf_counter()
-        second_plans = plan_route_motion_profile(
-            arm,
-            second_start_pose,
-            second_start_angles,
-            second_route,
-            args,
-            run_controller_preflight=not args.skip_second_controller_preflight,
-        )
-        second_planning_seconds = time.perf_counter() - planning_started
-        timeline.mark(
-            "leaf_2.route_planned",
-            planning_seconds=second_planning_seconds,
-            segment_count=len(second_plans),
-        )
-        execute_route(
-            arm,
-            vacuum,
-            second_route,
-            args,
-            holding_state,
-            timeline,
-            "leaf_2",
-            second_plans,
-        )
-        timeline.mark("leaf_2.cycle_complete")
-        records.append(
-            {
-                "leaf": 2,
-                "frame_dir": str(second_frame),
-                "route": second_route,
-                "joint_speed_planning_seconds": second_planning_seconds,
-                "joint_speed_plan": [plan.to_dict() for plan in second_plans],
-                "controller_preflight": {
-                    "checks_run": int(not args.skip_second_controller_preflight),
-                    "passed": None if args.skip_second_controller_preflight else True,
-                    "skipped_by_operator": args.skip_second_controller_preflight,
-                },
-            }
-        )
+        if args.verify_pick:
+            leaf_2_outcome = run_leaf_pick_with_retry(
+                leaf_index=2,
+                arm=arm,
+                vacuum=vacuum,
+                home_pose=home_pose,
+                placement_target_m=placement_target_m,
+                initial_target_m=second_leaf["point_base_m"],
+                source_stack_reference_m=first_leaf["point_base_m"],
+                place_yaw_offset_deg=args.second_place_yaw_offset_deg,
+                layer_height_mm=args.second_layer_height_mm,
+                return_home=True,
+                args=args,
+                holding_state=holding_state,
+                timeline=timeline,
+                run_dir=run_dir,
+                base_t_camera=base_t_camera,
+                position_bias_m=position_bias_m,
+                camera=camera,
+                initial_targeting_frame=second_frame,
+            )
+            records.append(leaf_2_outcome.cycle_record())
+            if not leaf_2_outcome.success:
+                raise AllPickAttemptsFailedError(2, leaf_2_outcome)
+            timeline.mark(
+                "leaf_2.pick_complete",
+                final_status=(
+                    leaf_2_outcome.final_verification.status
+                    if leaf_2_outcome.final_verification is not None
+                    else None
+                ),
+                attempts_used=len(leaf_2_outcome.attempts),
+            )
+        else:
+            second_route = build_cycle_route(
+                home_pose,
+                second_leaf["point_base_m"],
+                placement_target_m,
+                args.second_place_yaw_offset_deg,
+                args.transport_clearance_mm,
+                args.approach_clearance_mm,
+                args.compression_mm,
+                args.release_clearance_mm,
+                args.second_layer_height_mm,
+                start_pose=second_start_pose,
+                return_home=True,
+                precontact_clearance_mm=args.precontact_clearance_mm,
+                precision_lift_mm=args.precision_lift_mm,
+            )
+            second_safety = route_safety_report([item[1] for item in second_route], args)
+            if not second_safety["all_ok"]:
+                raise RuntimeError("Second-leaf route is outside explicit workspace limits")
+            planning_started = time.perf_counter()
+            second_plans = plan_route_motion_profile(
+                arm,
+                second_start_pose,
+                second_start_angles,
+                second_route,
+                args,
+                run_controller_preflight=not args.skip_second_controller_preflight,
+            )
+            second_planning_seconds = time.perf_counter() - planning_started
+            timeline.mark(
+                "leaf_2.route_planned",
+                planning_seconds=second_planning_seconds,
+                segment_count=len(second_plans),
+            )
+            execute_route(
+                arm,
+                vacuum,
+                second_route,
+                args,
+                holding_state,
+                timeline,
+                "leaf_2",
+                second_plans,
+            )
+            timeline.mark("leaf_2.cycle_complete")
+            records.append(
+                {
+                    "leaf": 2,
+                    "frame_dir": str(second_frame),
+                    "route": second_route,
+                    "joint_speed_planning_seconds": second_planning_seconds,
+                    "joint_speed_plan": [plan.to_dict() for plan in second_plans],
+                    "controller_preflight": {
+                        "checks_run": int(not args.skip_second_controller_preflight),
+                        "passed": None if args.skip_second_controller_preflight else True,
+                        "skipped_by_operator": args.skip_second_controller_preflight,
+                    },
+                }
+            )
         vacuum.safe_shutdown()
         if global_camera_video is not None:
             camera.stop_recording()
@@ -427,7 +539,14 @@ def main() -> int:
         result_path = write_json_report(
             run_dir,
             {
+                    "status": "success",
                     "calibration": str(calibration_path),
+                    "pick_verification": {
+                        "enabled": bool(args.verify_pick),
+                        "max_pick_attempts": args.max_pick_attempts,
+                        "simulate_first_pick_failure": bool(args.simulate_first_pick_failure),
+                        "require_vision_service": bool(args.require_vision_service),
+                    },
                     "position_bias_base_mm": (position_bias_m * 1000).tolist(),
                     "ceramic_target": ceramic,
                     "placement_offset_base_mm": [0.0, args.place_offset_y_mm, 0.0],
@@ -483,6 +602,45 @@ def main() -> int:
             )
         elif vacuum is not None:
             vacuum.safe_shutdown()
+        extra: dict[str, Any] | None = None
+        if isinstance(exc, AllPickAttemptsFailedError):
+            final_status = (
+                exc.outcome.final_verification.status
+                if exc.outcome.final_verification is not None
+                else None
+            )
+            final_reason = (
+                exc.outcome.final_verification.reason
+                if exc.outcome.final_verification is not None
+                else None
+            )
+            extra = {
+                "pick_verification_failed": {
+                    "leaf": exc.leaf_index,
+                    "attempts_used": exc.attempts_used,
+                    "final_status": final_status,
+                    "final_reason": final_reason,
+                }
+            }
+            result_path = write_json_report(
+                run_dir,
+                {
+                    "status": "failed",
+                    "error_type": type(exc).__name__,
+                    "error_message": str(exc),
+                    "calibration": str(calibration_path),
+                    "pick_verification": {
+                        "enabled": bool(args.verify_pick),
+                        "max_pick_attempts": args.max_pick_attempts,
+                        "simulate_first_pick_failure": bool(args.simulate_first_pick_failure),
+                        "require_vision_service": bool(args.require_vision_service),
+                    },
+                    "timing": timeline.to_dict(productive_start="productive_cycle_started"),
+                    "cycles": records,
+                },
+                name="result.json",
+            )
+            print(f"Saved result: {result_path}", file=sys.stderr)
         failure_path = write_failure_report(
             run_dir,
             exc,
@@ -491,8 +649,11 @@ def main() -> int:
             productive_start="productive_cycle_started",
             completed_records=records,
             robot_snapshot=robot_status_snapshot(arm) if arm is not None else None,
+            extra=extra,
         )
         print(f"Saved failure report: {failure_path}", file=sys.stderr)
+        if isinstance(exc, AllPickAttemptsFailedError):
+            return 2
         raise
     finally:
         if arm is not None:
