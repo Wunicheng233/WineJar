@@ -40,9 +40,6 @@ class TaskTimeline:
                 return float(event["elapsed_seconds"])
         raise KeyError(f"Timeline event not found: {name}")
 
-    def duration(self, start_name: str, end_name: str) -> float:
-        return self.elapsed_at(end_name) - self.elapsed_at(start_name)
-
     def to_dict(self, productive_start: str | None = None) -> dict[str, Any]:
         total = self.events[-1]["elapsed_seconds"] if self.events else 0.0
         result: dict[str, Any] = {

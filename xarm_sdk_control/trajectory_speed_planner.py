@@ -110,10 +110,6 @@ def _joint_limit_array(value: float | Sequence[float], joint_count: int, label: 
     return array
 
 
-def _continuous_joint_delta_deg(target: np.ndarray, start: np.ndarray) -> np.ndarray:
-    return wrapped_delta_deg(target, start)
-
-
 def _solve_ik(arm: Any, pose: list[float], reference_deg: np.ndarray, joint_count: int) -> np.ndarray:
     result = arm.get_inverse_kinematics(
         pose,
@@ -128,7 +124,7 @@ def _solve_ik(arm: Any, pose: list[float], reference_deg: np.ndarray, joint_coun
     angles = np.asarray(result[1], dtype=float)[:joint_count]
     if angles.shape != (joint_count,) or not np.all(np.isfinite(angles)):
         raise TrajectoryPlanningError(f"Inverse kinematics returned invalid joint angles: {result}")
-    return reference_deg + _continuous_joint_delta_deg(angles, reference_deg)
+    return reference_deg + wrapped_delta_deg(angles, reference_deg)
 
 
 def _sample_segment(

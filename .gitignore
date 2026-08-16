@@ -39,8 +39,3 @@ MUJOCO_LOG.TXT
 
 # Simulation is maintained in Wunicheng233/Winejar-mujoco.
 mujoco_xarm6/
-
-# Production-demo animation planning stays with the simulation repository.
-docs/superpowers/**/*animation*
-docs/superpowers/**/*production-demo*
-docs/superpowers/**/*sdk-style-production*

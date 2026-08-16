@@ -274,11 +274,6 @@ def select_leaf_waypoints(
     return selected, stacked_or_occluded
 
 
-def make_waypoint(point_base_m: list[float], above_mm: float, orientation: list[float]) -> list[float]:
-    point_mm = np.asarray(point_base_m, dtype=float) * 1000.0
-    return [float(point_mm[0]), float(point_mm[1]), float(point_mm[2] + above_mm), *map(float, orientation)]
-
-
 def safety_report(
     waypoints: list[list[float]],
     min_x_mm: float,

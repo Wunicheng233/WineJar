@@ -1,18 +1,10 @@
 from __future__ import annotations
 
-import math
-
 import numpy as np
 
 
 def matrix_to_list(transform: np.ndarray) -> list[list[float]]:
     return [[float(value) for value in row] for row in transform]
-
-
-def rotation_angle_deg(rotation: np.ndarray) -> float:
-    value = (np.trace(rotation) - 1.0) / 2.0
-    value = float(np.clip(value, -1.0, 1.0))
-    return math.degrees(math.acos(value))
 
 
 def transform_points(transform: np.ndarray, points: np.ndarray) -> np.ndarray:
