@@ -3,12 +3,19 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
 import numpy as np
 
-from xarm_sdk_control.calibration_utils import (
+
+ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = ROOT.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from xarm_sdk_control.calibration_utils import (  # noqa: E402
     matrix_to_list,
     residuals_m,
     solve_rigid_transform,
@@ -16,7 +23,6 @@ from xarm_sdk_control.calibration_utils import (
 )
 
 
-ROOT = Path(__file__).resolve().parents[1]
 SAMPLES_ROOT = ROOT / "data" / "global_camera_samples"
 OUTPUT_ROOT = ROOT / "calibration"
 

@@ -15,6 +15,7 @@ import cv2
 import numpy as np
 
 from xarm_sdk_control.geometry import undirected_axis_delta_deg
+from xarm_sdk_control.task_timing import TaskTimeline
 
 
 ROOT = Path(__file__).resolve().parent
@@ -22,11 +23,83 @@ REPO_ROOT = ROOT.parent
 CAPTURE_SCRIPT = ROOT / "scripts" / "13_capture_realsense_frame.py"
 VISION_SCRIPT = REPO_ROOT / "vision" / "scripts" / "01_offline_grounded_sam2.py"
 DEFAULT_VISION_SOCKET = Path("/tmp/winejar_grounded_sam2.sock")
+DEFAULT_VISION_ENV = "winejar-vision"
+DEFAULT_MIN_SCORE = 0.45
+DISTINCT_LEAF_DISTANCE_M = 0.05
+DEFAULT_MAX_CALIBRATION_RESIDUAL_MM = 15.0
+
+
+class CalibrationResidualError(RuntimeError):
+    """Raised when a calibration file's reported residual exceeds the task gate."""
 
 
 def latest_global_calibration() -> Path | None:
     candidates = sorted((ROOT / "calibration").glob("global_camera_*.json"))
     return candidates[-1] if candidates else None
+
+
+def load_base_t_camera(
+    path: Path,
+    max_residual_mm: float = DEFAULT_MAX_CALIBRATION_RESIDUAL_MM,
+) -> tuple[Path, np.ndarray]:
+    """Load and validate a global-camera calibration file against the residual gate."""
+    resolved = path.expanduser().resolve()
+    if not resolved.exists():
+        raise FileNotFoundError(resolved)
+    calibration = json.loads(resolved.read_text(encoding="utf-8"))
+    base_t_camera = np.asarray(calibration["base_T_camera"], dtype=float)
+    if base_t_camera.shape != (4, 4):
+        raise RuntimeError(f"Invalid base_T_camera shape: {base_t_camera.shape}")
+    residual_max_mm = calibration.get("quality", {}).get("residual_max_mm")
+    if residual_max_mm is None or float(residual_max_mm) > max_residual_mm:
+        raise CalibrationResidualError(
+            f"calibration residual {residual_max_mm} mm exceeds the configured {max_residual_mm} mm limit"
+        )
+    return resolved, base_t_camera
+
+
+def run_scan(
+    capture_root: Path,
+    base_t_camera: np.ndarray,
+    vision_env: str,
+    min_score: float,
+    *,
+    serial: str | None = None,
+    camera: Any | None = None,
+    text_prompt: str = "bamboo leaf. ceramic disk.",
+    service_socket: Path | None = DEFAULT_VISION_SOCKET,
+    require_service: bool = False,
+    timeline: TaskTimeline | None = None,
+    timeline_prefix: str = "scan",
+) -> tuple[Path, list[dict[str, Any]]]:
+    """Capture one RGB-D frame, run inference, and return detections in the base frame.
+
+    ``capture_root`` is the folder in which the captured frame directory is created:
+    directly for an in-process camera session, or via a ``captures/`` subfolder when
+    shelling out to the capture script.
+    """
+    if timeline is not None:
+        timeline.mark(f"{timeline_prefix}.capture_started")
+    if camera is not None:
+        frame_dir = camera.capture(capture_root)
+    else:
+        frame_dir = capture_rgbd(capture_root, serial)
+    if timeline is not None:
+        timeline.mark(f"{timeline_prefix}.capture_complete", frame_dir=str(frame_dir))
+    vision_result = run_vision(
+        frame_dir,
+        vision_env,
+        min_score,
+        text_prompt=text_prompt,
+        service_socket=service_socket,
+        require_service=require_service,
+    )
+    if timeline is not None:
+        timeline.mark(
+            f"{timeline_prefix}.vision_complete",
+            inference_timing_seconds=vision_result.get("timing_seconds", {}),
+        )
+    return frame_dir, detections_in_base(vision_result.get("detections", []), base_t_camera, min_score)
 
 
 def transform_point(transform: np.ndarray, point_m: list[float]) -> np.ndarray:
@@ -219,7 +292,7 @@ def select_ceramic(detections: list[dict[str, Any]]) -> dict[str, Any]:
 
 def select_leaf_waypoints(
     detections: list[dict[str, Any]],
-    distinct_distance_m: float,
+    distinct_distance_m: float = DISTINCT_LEAF_DISTANCE_M,
     allow_any_clipping: bool = False,
 ) -> tuple[list[dict[str, Any]], bool]:
     def clipping_is_usable(item: dict[str, Any]) -> bool:

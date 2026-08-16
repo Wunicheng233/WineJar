@@ -12,6 +12,7 @@ import argparse
 import json
 import math
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -21,11 +22,18 @@ os.environ.setdefault("QT_QPA_FONTDIR", "/usr/share/fonts/truetype")
 import cv2
 import numpy as np
 import pyrealsense2 as rs
-import yaml
 from xarm.wrapper import XArmAPI
 
 
 ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = ROOT.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from xarm_sdk_control.realsense_capture import camera_info, choose_device  # noqa: E402
+from xarm_sdk_control.robot_motion import load_robot_ip  # noqa: E402
+
+
 CONFIG_PATH = ROOT / "config" / "robot.yaml"
 OUTPUT_ROOT = ROOT / "data" / "global_camera_samples"
 WINDOW_NAME = "Global camera calibration - read-only robot"
@@ -112,19 +120,6 @@ def depth_statistics(
     median_m = float(np.median(same_surface))
     mad_m = float(np.median(np.abs(same_surface - median_m)))
     return median_m, mad_m, int(same_surface.size)
-
-
-def camera_info(device: rs.device) -> dict[str, str]:
-    fields = {
-        "name": rs.camera_info.name,
-        "serial": rs.camera_info.serial_number,
-        "firmware": rs.camera_info.firmware_version,
-        "usb_type": rs.camera_info.usb_type_descriptor,
-    }
-    return {
-        name: device.get_info(field) if device.supports(field) else "unknown"
-        for name, field in fields.items()
-    }
 
 
 def save_sample(
@@ -267,8 +262,7 @@ def main() -> int:
     parser.add_argument("--output-root", type=Path, default=OUTPUT_ROOT)
     args = parser.parse_args()
 
-    with CONFIG_PATH.open("r", encoding="utf-8") as file:
-        robot_ip = str(yaml.safe_load(file)["robot_ip"])
+    robot_ip = load_robot_ip(CONFIG_PATH)
 
     print("READ-ONLY MODE: this script never enables or commands xArm motion.")
     print("Move the robot only in UFactory, then select the corresponding physical point and press S.")
@@ -276,18 +270,13 @@ def main() -> int:
 
     arm = XArmAPI(do_not_open=True, is_radian=False)
     context = rs.context()
-    devices = context.query_devices()
-    if len(devices) == 0:
+    if len(context.query_devices()) == 0:
         print("ERROR: no RealSense camera detected")
         return 2
-    device = None
-    for candidate in devices:
-        serial = candidate.get_info(rs.camera_info.serial_number)
-        if args.serial is None or serial == args.serial:
-            device = candidate
-            break
-    if device is None:
-        print(f"ERROR: RealSense serial {args.serial!r} not found")
+    try:
+        device = choose_device(context, args.serial)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}")
         return 3
     device_info = camera_info(device)
 

@@ -4,15 +4,12 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import time
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 import numpy as np
-import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +19,8 @@ if str(REPO_ROOT) not in sys.path:
 
 from xarm_sdk_control.positioning_bias import append_bias_sample, load_bias_mm  # noqa: E402
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
+from xarm_sdk_control.cli_utils import add_vision_common_args, add_workspace_limit_args  # noqa: E402
+from xarm_sdk_control.run_output import new_timestamped_run_dir  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     CAMERA_TRANSIT_Z_MM,
     connect_robot,
@@ -32,10 +31,9 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
     require_overhead_camera_safe_route,
 )
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
-    capture_rgbd,
-    detections_in_base,
     latest_global_calibration,
-    run_vision,
+    load_base_t_camera,
+    run_scan,
     select_ceramic,
     select_leaf_waypoints,
 )
@@ -53,7 +51,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true", help="Enable robot motion; otherwise only detect and print.")
     parser.add_argument("--target", choices=("leaf", "ceramic"), default="leaf")
-    parser.add_argument("--calibration", type=Path, default=latest_global_calibration())
+    add_vision_common_args(parser, latest_global_calibration())
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
         "--use-existing-bias",
@@ -71,21 +69,13 @@ def parse_args() -> argparse.Namespace:
         help="On successful verification, disconnect without returning so the physical offset can be measured.",
     )
     parser.add_argument("--hold-seconds", type=float, default=8.0)
-    parser.add_argument("--vision-env", default="winejar-vision")
-    parser.add_argument("--serial")
-    parser.add_argument("--min-score", type=float, default=0.45)
     parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
     parser.add_argument("--transport-clearance-mm", type=float, default=200.0)
     parser.add_argument("--step-mm", type=float, default=2.0)
     parser.add_argument("--speed", type=float, default=20.0)
     parser.add_argument("--acc", type=float, default=100.0)
-    parser.add_argument("--min-x-mm", type=float)
-    parser.add_argument("--max-x-mm", type=float)
-    parser.add_argument("--min-y-mm", type=float)
-    parser.add_argument("--max-y-mm", type=float)
-    parser.add_argument("--min-z-mm", type=float)
-    parser.add_argument("--max-z-mm", type=float)
+    add_workspace_limit_args(parser)
     return parser.parse_args()
 
 
@@ -157,15 +147,9 @@ def main() -> int:
     if args.calibration is None or not args.calibration.expanduser().exists():
         raise RuntimeError("Global camera calibration is missing")
 
-    calibration_path = args.calibration.expanduser().resolve()
-    calibration = json.loads(calibration_path.read_text(encoding="utf-8"))
-    base_t_camera = np.asarray(calibration["base_T_camera"], dtype=float)
-    timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
-    run_dir = OUTPUT_ROOT / timestamp
-    run_dir.mkdir(parents=True, exist_ok=False)
-    frame_dir = capture_rgbd(run_dir, args.serial)
-    vision_result = run_vision(frame_dir, args.vision_env, args.min_score)
-    detections = detections_in_base(vision_result.get("detections", []), base_t_camera, args.min_score)
+    calibration_path, base_t_camera = load_base_t_camera(args.calibration)
+    run_dir = new_timestamped_run_dir(OUTPUT_ROOT)
+    frame_dir, detections = run_scan(run_dir, base_t_camera, args.vision_env, args.min_score, serial=args.serial)
     if args.target == "leaf":
         target = select_leaf_waypoints(detections, distinct_distance_m=0.05)[0][0]
     else:

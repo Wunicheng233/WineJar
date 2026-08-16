@@ -4,16 +4,12 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import time
-import traceback
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 import numpy as np
-import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +20,16 @@ if str(REPO_ROOT) not in sys.path:
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
+from xarm_sdk_control.cli_utils import (  # noqa: E402
+    add_vision_common_args,
+    add_workspace_limit_args,
+    route_safety_report,
+)
+from xarm_sdk_control.run_output import (  # noqa: E402
+    new_timestamped_run_dir,
+    write_failure_report,
+    write_json_report,
+)
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     connect_robot,
     load_robot_ip,
@@ -47,11 +53,10 @@ from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     DEFAULT_VISION_SOCKET,
     detection_object_kind,
-    detections_in_base,
     latest_global_calibration,
+    load_base_t_camera,
     mask_principal_axis_deg,
-    run_vision,
-    safety_report,
+    run_scan,
     select_ceramic,
     select_leaf_waypoints,
     undirected_axis_delta_deg,
@@ -74,11 +79,9 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     parser.add_argument("--allow-validated-clipped-leaf", action="store_true")
-    parser.add_argument("--calibration", type=Path, default=latest_global_calibration())
-    parser.add_argument("--vision-env", default="winejar-vision")
+    add_vision_common_args(parser, latest_global_calibration())
     parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
     parser.add_argument("--require-vision-service", action="store_true")
-    parser.add_argument("--serial")
     parser.add_argument("--record-global-camera", action="store_true")
     parser.add_argument(
         "--recording-fps",
@@ -87,7 +90,6 @@ def parse_args() -> argparse.Namespace:
         default=15,
         help="RealSense stream and video FPS while --record-global-camera is active",
     )
-    parser.add_argument("--min-score", type=float, default=0.45)
     parser.add_argument(
         "--second-scan-min-score",
         type=float,
@@ -122,12 +124,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--joint-acceleration-utilization", type=float, default=0.40)
     parser.add_argument("--ik-translation-step-mm", type=float, default=10.0)
     parser.add_argument("--ik-rotation-step-deg", type=float, default=2.0)
-    parser.add_argument("--min-x-mm", type=float)
-    parser.add_argument("--max-x-mm", type=float)
-    parser.add_argument("--min-y-mm", type=float)
-    parser.add_argument("--max-y-mm", type=float)
-    parser.add_argument("--min-z-mm", type=float)
-    parser.add_argument("--max-z-mm", type=float)
+    add_workspace_limit_args(parser)
     return parser.parse_args()
 
 
@@ -158,8 +155,7 @@ def main() -> int:
         raise ValueError("Precision lift height must exceed precontact clearance")
     validate_motion_profile(args)
 
-    calibration_path = args.calibration.expanduser().resolve()
-    base_t_camera = np.asarray(json.loads(calibration_path.read_text())["base_T_camera"], dtype=float)
+    calibration_path, base_t_camera = load_base_t_camera(args.calibration)
     position_bias_m = load_bias_mm(POSITION_BIAS_CONFIG) / 1000.0
     robot_ip = load_robot_ip(ROBOT_CONFIG)
     camera_fps = args.recording_fps if args.record_global_camera else 30
@@ -181,29 +177,23 @@ def main() -> int:
         else:
             timeline.mark("reset_skipped")
         timeline.mark("productive_cycle_started")
-        timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
-        run_dir = OUTPUT_ROOT / timestamp
-        run_dir.mkdir(parents=True, exist_ok=False)
+        run_dir = new_timestamped_run_dir(OUTPUT_ROOT)
         global_camera_video = run_dir / "global_camera.mp4" if args.record_global_camera else None
         if global_camera_video is not None:
             camera.start_recording(global_camera_video)
             timeline.mark("global_camera_recording_started", path=str(global_camera_video))
 
-        timeline.mark("scan_1.capture_started")
-        first_frame = camera.capture(run_dir / "scan_1" / "captures")
-        timeline.mark("scan_1.capture_complete", frame_dir=str(first_frame))
-        first_vision = run_vision(
-            first_frame,
+        first_frame, first_detections = run_scan(
+            run_dir / "scan_1" / "captures",
+            base_t_camera,
             args.vision_env,
             args.min_score,
+            camera=camera,
             service_socket=args.vision_socket,
             require_service=args.require_vision_service,
+            timeline=timeline,
+            timeline_prefix="scan_1",
         )
-        timeline.mark(
-            "scan_1.vision_complete",
-            inference_timing_seconds=first_vision.get("timing_seconds", {}),
-        )
-        first_detections = detections_in_base(first_vision.get("detections", []), base_t_camera, args.min_score)
         ceramic = offset_detection(select_ceramic(first_detections), position_bias_m)
         placement_target_m = offset_point_mm(
             ceramic["point_base_m"],
@@ -254,15 +244,7 @@ def main() -> int:
             f"(Y offset={args.place_offset_y_mm:.1f} mm)"
         )
 
-        bound_values = {
-            "min_x_mm": args.min_x_mm if args.min_x_mm is not None else -1000.0,
-            "max_x_mm": args.max_x_mm if args.max_x_mm is not None else 1000.0,
-            "min_y_mm": args.min_y_mm if args.min_y_mm is not None else -1000.0,
-            "max_y_mm": args.max_y_mm if args.max_y_mm is not None else 1000.0,
-            "min_z_mm": args.min_z_mm if args.min_z_mm is not None else -1000.0,
-            "max_z_mm": args.max_z_mm if args.max_z_mm is not None else 1000.0,
-        }
-        first_safety = safety_report([item[1] for item in first_route], **bound_values)
+        first_safety = route_safety_report([item[1] for item in first_route], args)
         if not first_safety["all_ok"]:
             raise RuntimeError("First-leaf route is outside explicit workspace limits")
 
@@ -329,25 +311,17 @@ def main() -> int:
         angles_code, second_start_angles = arm.get_servo_angle(is_radian=False)
         require_code("get joint angles for second-route planning", (angles_code, second_start_angles))
 
-        timeline.mark("scan_2.capture_started")
-        second_frame = camera.capture(run_dir / "scan_2" / "captures")
-        timeline.mark("scan_2.capture_complete", frame_dir=str(second_frame))
-        second_vision = run_vision(
-            second_frame,
+        second_frame, second_detections = run_scan(
+            run_dir / "scan_2" / "captures",
+            base_t_camera,
             args.vision_env,
             args.second_scan_min_score,
+            camera=camera,
             text_prompt="bamboo leaf.",
             service_socket=args.vision_socket,
             require_service=args.require_vision_service,
-        )
-        timeline.mark(
-            "scan_2.vision_complete",
-            inference_timing_seconds=second_vision.get("timing_seconds", {}),
-        )
-        second_detections = detections_in_base(
-            second_vision.get("detections", []),
-            base_t_camera,
-            args.second_scan_min_score,
+            timeline=timeline,
+            timeline_prefix="scan_2",
         )
         second_detections = [offset_detection(item, position_bias_m) for item in second_detections]
         second_leaf = choose_second_source_leaf(
@@ -413,7 +387,7 @@ def main() -> int:
             precontact_clearance_mm=args.precontact_clearance_mm,
             precision_lift_mm=args.precision_lift_mm,
         )
-        second_safety = safety_report([item[1] for item in second_route], **bound_values)
+        second_safety = route_safety_report([item[1] for item in second_route], args)
         if not second_safety["all_ok"]:
             raise RuntimeError("Second-leaf route is outside explicit workspace limits")
         planning_started = time.perf_counter()
@@ -463,10 +437,9 @@ def main() -> int:
         timeline.mark("task_complete")
         timing = timeline.to_dict(productive_start="productive_cycle_started")
 
-        result_path = run_dir / "result.json"
-        result_path.write_text(
-            json.dumps(
-                {
+        result_path = write_json_report(
+            run_dir,
+            {
                     "calibration": str(calibration_path),
                     "position_bias_base_mm": (position_bias_m * 1000).tolist(),
                     "ceramic_target": ceramic,
@@ -500,12 +473,7 @@ def main() -> int:
                     "timing": timing,
                     "orientation_diagnostic": orientation_diagnostic,
                     "cycles": records,
-                },
-                ensure_ascii=True,
-                indent=2,
-            )
-            + "\n",
-            encoding="utf-8",
+            },
         )
         print(
             f"Productive cycle: {timing['productive_cycle_seconds']:.3f}s; "
@@ -528,24 +496,14 @@ def main() -> int:
             )
         elif vacuum is not None:
             vacuum.safe_shutdown()
-        failure_path = run_dir / "failure.json"
-        failure_path.write_text(
-            json.dumps(
-                {
-                    "status": "failed",
-                    "error_type": type(exc).__name__,
-                    "error_message": str(exc),
-                    "traceback": traceback.format_exc(),
-                    "holding_leaf": holding_state["value"],
-                    "robot_after_stop": robot_status_snapshot(arm),
-                    "timing": timeline.to_dict(productive_start="productive_cycle_started"),
-                    "completed_cycles": records,
-                },
-                ensure_ascii=True,
-                indent=2,
-            )
-            + "\n",
-            encoding="utf-8",
+        failure_path = write_failure_report(
+            run_dir,
+            exc,
+            holding=holding_state["value"],
+            timeline=timeline,
+            productive_start="productive_cycle_started",
+            completed_records=records,
+            robot_snapshot=robot_status_snapshot(arm) if arm is not None else None,
         )
         print(f"Saved failure report: {failure_path}", file=sys.stderr)
         raise

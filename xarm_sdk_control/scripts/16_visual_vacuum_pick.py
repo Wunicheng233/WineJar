@@ -7,7 +7,6 @@ import argparse
 import json
 import sys
 import time
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -23,6 +22,8 @@ from xarm_sdk_control.end_effector_config import load_end_effector_config  # noq
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.geometry import compose_pose_mm  # noqa: E402
+from xarm_sdk_control.cli_utils import route_safety_report  # noqa: E402
+from xarm_sdk_control.run_output import new_timestamped_run_dir, write_json_report  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     CAMERA_TRANSIT_Z_MM,
     load_robot_ip,
@@ -32,11 +33,10 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
     reset_robot_at_ip,
 )
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
-    capture_rgbd,
-    detections_in_base,
+    CalibrationResidualError,
     latest_global_calibration,
-    run_vision,
-    safety_report,
+    load_base_t_camera,
+    run_scan,
     select_ceramic,
     select_leaf_waypoints,
 )
@@ -213,14 +213,16 @@ def main() -> int:
     if min(args.transport_clearance_mm, args.approach_clearance_mm, args.release_clearance_mm) < 0.0:
         raise ValueError("Clearance values cannot be negative")
 
-    calibration_path = args.calibration.expanduser().resolve()
-    calibration = json.loads(calibration_path.read_text(encoding="utf-8"))
-    base_t_camera = np.asarray(calibration["base_T_camera"], dtype=float)
-    residual_max_mm = calibration.get("quality", {}).get("residual_max_mm")
-    if base_t_camera.shape != (4, 4):
-        raise RuntimeError(f"Invalid base_T_camera shape: {base_t_camera.shape}")
-    if residual_max_mm is None or float(residual_max_mm) > args.max_calibration_residual_mm:
-        print(f"ERROR: calibration residual {residual_max_mm} mm exceeds the configured limit.")
+    try:
+        calibration_path, base_t_camera = load_base_t_camera(
+            args.calibration,
+            args.max_calibration_residual_mm,
+        )
+    except FileNotFoundError:
+        print("ERROR: fixed global-camera calibration is missing.")
+        return 2
+    except CalibrationResidualError as exc:
+        print(f"ERROR: {exc}")
         return 5
 
     robot_ip = load_robot_ip(CONFIG_PATH)
@@ -234,12 +236,8 @@ def main() -> int:
             args.acc,
         )
 
-    timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
-    run_dir = OUTPUT_ROOT / timestamp
-    run_dir.mkdir(parents=True, exist_ok=False)
-    frame_dir = capture_rgbd(run_dir, args.serial)
-    vision_result = run_vision(frame_dir, args.vision_env, args.min_score)
-    detections = detections_in_base(vision_result.get("detections", []), base_t_camera, args.min_score)
+    run_dir = new_timestamped_run_dir(OUTPUT_ROOT)
+    frame_dir, detections = run_scan(run_dir, base_t_camera, args.vision_env, args.min_score, serial=args.serial)
     ceramic = select_ceramic(detections) if args.stage == "full" else None
     leaves, _reused = select_leaf_waypoints(
         detections,
@@ -299,15 +297,7 @@ def main() -> int:
             args.compression_mm,
             args.release_clearance_mm,
         )
-        limits = {
-            "min_x_mm": args.min_x_mm if args.min_x_mm is not None else -1000.0,
-            "max_x_mm": args.max_x_mm if args.max_x_mm is not None else 1000.0,
-            "min_y_mm": args.min_y_mm if args.min_y_mm is not None else -1000.0,
-            "max_y_mm": args.max_y_mm if args.max_y_mm is not None else 1000.0,
-            "min_z_mm": args.min_z_mm if args.min_z_mm is not None else -1000.0,
-            "max_z_mm": args.max_z_mm if args.max_z_mm is not None else 1000.0,
-        }
-        safety = safety_report([pose for _label, pose, _kind in route], **limits)
+        safety = route_safety_report([pose for _label, pose, _kind in route], args)
 
         print(f"Calibration: {calibration_path}")
         print(f"TCP offset [mm/deg]: {[round(value, 2) for value in reported_offset]}")
@@ -392,8 +382,7 @@ def main() -> int:
             "route": [{"label": label, "pose_mm_deg": pose, "motion": kind} for label, pose, kind in route],
             "safety": safety,
         }
-        result_path = run_dir / "result.json"
-        result_path.write_text(json.dumps(result, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+        result_path = write_json_report(run_dir, result)
         print(f"Saved result: {result_path}")
         return 0
     except Exception:

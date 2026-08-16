@@ -4,15 +4,12 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import time
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 import numpy as np
-import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +32,12 @@ from xarm_sdk_control.pick_verification import (  # noqa: E402
 )
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
+from xarm_sdk_control.cli_utils import (  # noqa: E402
+    add_vision_common_args,
+    add_workspace_limit_args,
+    route_safety_report,
+)
+from xarm_sdk_control.run_output import new_timestamped_run_dir, write_json_report  # noqa: E402
 from xarm_sdk_control.robot_motion import (  # noqa: E402
     connect_robot,
     load_robot_ip,
@@ -44,11 +47,11 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
 )
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
+    DEFAULT_MAX_CALIBRATION_RESIDUAL_MM,
     DEFAULT_VISION_SOCKET,
-    detections_in_base,
     latest_global_calibration,
-    run_vision,
-    safety_report,
+    load_base_t_camera,
+    run_scan,
     select_ceramic,
     select_leaf_waypoints,
 )
@@ -65,13 +68,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--target", choices=("bamboo", "ceramic"), required=True)
     parser.add_argument("--run", action="store_true", help="Enable robot motion; default is camera/route dry-run.")
     parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
-    parser.add_argument("--calibration", type=Path, default=latest_global_calibration())
+    add_vision_common_args(parser, latest_global_calibration(), min_score_default=None)
     parser.add_argument("--position-bias-config", type=Path, default=POSITION_BIAS_PATH)
-    parser.add_argument("--serial")
-    parser.add_argument("--vision-env", default="winejar-vision")
     parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
     parser.add_argument("--require-vision-service", action="store_true")
-    parser.add_argument("--min-score", type=float)
     parser.add_argument("--compression-mm", type=float)
     parser.add_argument("--allow-validated-clipped-target", action="store_true")
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
@@ -91,12 +91,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--transit-speed", type=float, default=80.0)
     parser.add_argument("--precision-speed", type=float, default=15.0)
     parser.add_argument("--acc", type=float, default=150.0)
-    parser.add_argument("--min-x-mm", type=float)
-    parser.add_argument("--max-x-mm", type=float)
-    parser.add_argument("--min-y-mm", type=float)
-    parser.add_argument("--max-y-mm", type=float)
-    parser.add_argument("--min-z-mm", type=float)
-    parser.add_argument("--max-z-mm", type=float)
+    add_workspace_limit_args(parser)
     return parser.parse_args()
 
 
@@ -134,15 +129,7 @@ def validate_args(args: argparse.Namespace, profile: PickTestProfile) -> tuple[f
 def load_calibration(path: Path | None) -> tuple[Path, np.ndarray]:
     if path is None or not path.expanduser().exists():
         raise FileNotFoundError("Fixed global-camera calibration is missing")
-    resolved = path.expanduser().resolve()
-    calibration = json.loads(resolved.read_text(encoding="utf-8"))
-    transform = np.asarray(calibration["base_T_camera"], dtype=float)
-    if transform.shape != (4, 4):
-        raise RuntimeError(f"Invalid base_T_camera shape: {transform.shape}")
-    residual_mm = calibration.get("quality", {}).get("residual_max_mm")
-    if residual_mm is None or float(residual_mm) > 15.0:
-        raise RuntimeError(f"Calibration residual {residual_mm} mm exceeds the 15 mm test limit")
-    return resolved, transform
+    return load_base_t_camera(path, DEFAULT_MAX_CALIBRATION_RESIDUAL_MM)
 
 
 def select_target(
@@ -165,15 +152,7 @@ def speed_for(step: PickTestStep, args: argparse.Namespace) -> float:
 
 
 def route_safety(route: list[PickTestStep], args: argparse.Namespace) -> dict[str, Any]:
-    return safety_report(
-        [step.pose_mm_deg for step in route],
-        min_x_mm=args.min_x_mm if args.min_x_mm is not None else -1000.0,
-        max_x_mm=args.max_x_mm if args.max_x_mm is not None else 1000.0,
-        min_y_mm=args.min_y_mm if args.min_y_mm is not None else -1000.0,
-        max_y_mm=args.max_y_mm if args.max_y_mm is not None else 1000.0,
-        min_z_mm=args.min_z_mm if args.min_z_mm is not None else -1000.0,
-        max_z_mm=args.max_z_mm if args.max_z_mm is not None else 1000.0,
-    )
+    return route_safety_report([step.pose_mm_deg for step in route], args)
 
 
 def apply_position_bias(detections: list[dict[str, Any]], bias_mm: np.ndarray) -> None:
@@ -192,16 +171,16 @@ def capture_detections(
     base_t_camera: np.ndarray,
     bias_mm: np.ndarray,
 ) -> tuple[Path, list[dict[str, Any]]]:
-    frame_dir = camera.capture(capture_root)
-    vision = run_vision(
-        frame_dir,
+    frame_dir, detections = run_scan(
+        capture_root,
+        base_t_camera,
         args.vision_env,
         min_score,
+        camera=camera,
         text_prompt=profile.text_prompt,
         service_socket=args.vision_socket,
         require_service=args.require_vision_service,
     )
-    detections = detections_in_base(vision.get("detections", []), base_t_camera, min_score)
     apply_position_bias(detections, bias_mm)
     return frame_dir, detections
 
@@ -225,9 +204,7 @@ def main() -> int:
     bias_mm = load_bias_mm(args.position_bias_config.expanduser().resolve())
     robot_ip = load_robot_ip(CONFIG_PATH)
 
-    timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%f")[:-3]
-    run_dir = OUTPUT_ROOT / timestamp
-    run_dir.mkdir(parents=True, exist_ok=False)
+    run_dir = new_timestamped_run_dir(OUTPUT_ROOT)
     camera = RealSenseCaptureSession(serial=args.serial)
     arm: Any | None = None
     vacuum: VacuumController | None = None
@@ -405,8 +382,7 @@ def main() -> int:
             "attempts": attempts,
             "final_verification_status": final_verification.status if final_verification else None,
         }
-        result_path = run_dir / "result.json"
-        result_path.write_text(json.dumps(result, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+        result_path = write_json_report(run_dir, result)
         print(f"Saved result: {result_path}")
         exit_code = result_exit_code(
             run_mode=bool(args.run),
