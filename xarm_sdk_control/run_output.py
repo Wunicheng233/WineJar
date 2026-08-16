@@ -33,6 +33,7 @@ def write_failure_report(
     productive_start: str | None = None,
     completed_records: list[dict[str, Any]] | None = None,
     robot_snapshot: dict[str, Any] | None = None,
+    extra: dict[str, Any] | None = None,
 ) -> Path:
     report: dict[str, Any] = {
         "status": "failed",
@@ -44,4 +45,6 @@ def write_failure_report(
         "timing": timeline.to_dict(productive_start=productive_start) if timeline is not None else None,
         "completed_cycles": completed_records if completed_records is not None else [],
     }
+    if extra:
+        report.update(extra)
     return write_json_report(run_dir, report, name="failure.json")
