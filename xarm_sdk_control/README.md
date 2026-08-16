@@ -63,7 +63,7 @@ python xarm_sdk_control/scripts/20_visual_pick_test.py \
   --run \
   --confirm-no-pressure-sensor \
   --require-vision-service \
-  --compression-mm 21 \
+  --compression-mm 11 \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
   --min-z-mm -85 --max-z-mm 500
@@ -73,10 +73,15 @@ Behavior:
 
 - One scan at the start; every in-frame ceramic disk whose mask does not touch
   the image edge is processed in descending confidence order.
-- Per disk: approach, contact at 21 mm spring compression, a vertical lift of
+- Per disk: approach, contact at a shallow 11 mm spring compression (keep it
+  shallow on a rigid table — deep compression can trip the controller's joint
+  overload), a vertical lift of
   25 mm, a hold (`--inspection-hold-seconds`) for operator observation, lower
   back to the original source, release, and return to the camera-clear home
   pose before the next disk.
+- Every suction point gets a measured `--pick-offset-x-mm` compensation
+  (default 10 mm) on top of the shared positioning bias, so the cup lands on
+  the disk center.
 - Disks must sit within the explicit workspace limits and within arm reach. A
   detection touching the image edge aborts with guidance to move the disk
   fully into the calibrated camera view.

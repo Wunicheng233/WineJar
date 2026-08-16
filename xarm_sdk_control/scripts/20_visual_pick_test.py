@@ -41,6 +41,7 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
 from xarm_sdk_control.task_timing import TaskTimeline  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
+    DEFAULT_VISION_SOCKET,
     latest_global_calibration,
     load_base_t_camera,
     run_scan,
@@ -59,14 +60,23 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--run", action="store_true", help="Enable robot motion; default is camera/route dry-run.")
     parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     add_vision_common_args(parser, latest_global_calibration())
+    parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
+    parser.add_argument("--require-vision-service", action="store_true")
     parser.add_argument("--position-bias-config", type=Path, default=POSITION_BIAS_PATH)
     parser.add_argument(
         "--compression-mm",
         type=float,
-        default=21.0,
-        help="Validated ceramic-disk spring compression for the current single-cup tool.",
+        default=11.0,
+        help="Ceramic-disk spring compression; keep shallow on a rigid table to avoid joint overload.",
     )
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
+    parser.add_argument(
+        "--pick-offset-x-mm",
+        type=float,
+        default=10.0,
+        help="Measured X compensation applied to every ceramic suction point; "
+             "the cup lands off-center otherwise. Applied after the shared positioning bias.",
+    )
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
     parser.add_argument("--release-settle-seconds", type=float, default=0.5)
     parser.add_argument(
@@ -145,13 +155,17 @@ def main() -> int:
             args.min_score,
             camera=camera,
             text_prompt="ceramic disk.",
+            service_socket=args.vision_socket,
+            require_service=args.require_vision_service,
             timeline=timeline,
             timeline_prefix="scan",
         )
         disks = [dict(item) for item in select_all_ceramic(detections, args.min_score)]
         for item in disks:
             point = np.asarray(item["point_base_m"], dtype=float)
-            item["point_base_m"] = (point + bias_mm / 1000.0).tolist()
+            point += bias_mm / 1000.0
+            point[0] += args.pick_offset_x_mm / 1000.0
+            item["point_base_m"] = point.tolist()
 
         print(f"Calibration: {calibration_path}")
         print(f"Position bias [mm]: {bias_mm.round(2).tolist()}")
@@ -222,6 +236,7 @@ def main() -> int:
             "run_mode": bool(args.run),
             "calibration": str(calibration_path),
             "position_bias_mm": bias_mm.tolist(),
+            "pick_offset_x_mm": args.pick_offset_x_mm,
             "compression_mm": args.compression_mm,
             "test_lift_mm": profile.test_lift_mm,
             "disks": disk_records,
