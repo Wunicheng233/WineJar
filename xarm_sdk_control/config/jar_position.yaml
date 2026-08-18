@@ -1,7 +1,7 @@
 # Fixed wine-jar mouth teach point in the robot base frame [mm].
-# Fill these in once (measure the mouth center with the robot TCP), then keep
-# the jar at this position for every complete-loading run. Override per run
-# with --jar-x-mm/--jar-y-mm/--jar-z-mm if the jar is re-staged.
-x_mm: 0.0
-y_mm: 0.0
-z_mm: 0.0
+# Measured 2026-08-18 with the TCP at the mouth center plane.
+# Keep the jar at this position for every complete-loading run; override per
+# run with --jar-x-mm/--jar-y-mm/--jar-z-mm if the jar is re-staged.
+x_mm: 300.0
+y_mm: -150.0
+z_mm: 65.0
