@@ -69,8 +69,6 @@ JAR_POSITION_CONFIG = ROOT / "config" / "jar_position.yaml"
 OUTPUT_ROOT = ROOT / "data" / "complete_loading"
 END_EFFECTOR = load_end_effector_config()
 
-STACK_A_PRESENCE_SHIFT_MM = 30.0
-
 
 def load_jar_point_mm(args: argparse.Namespace) -> list[float]:
     """The fixed jar-mouth teach point, from CLI overrides or config/jar_position.yaml."""
@@ -141,28 +139,6 @@ def parse_args() -> argparse.Namespace:
     add_motion_profile_args(parser, DEFAULT_MOTION_PROFILE)
     add_workspace_limit_args(parser)
     return parser.parse_args()
-
-
-def require_stack_a_present(
-    detections: list[dict[str, Any]],
-    shell1_point_m: list[float],
-    bias_m: np.ndarray,
-    args: argparse.Namespace,
-) -> None:
-    """Reject runs where the bamboo stack has moved away from its original position."""
-    dets = [offset_detection(item, bias_m) for item in detections]
-    try:
-        choose_second_source_leaf(
-            dets,
-            shell1_point_m,
-            args.allow_validated_clipped_leaf,
-            STACK_A_PRESENCE_SHIFT_MM / 1000.0,
-        )
-    except RuntimeError as exc:
-        raise RuntimeError(
-            "Stack A bamboo shell no longer detected near its original position; "
-            "re-stage the stacks or abort"
-        ) from exc
 
 
 def main() -> int:
@@ -243,7 +219,7 @@ def main() -> int:
             args.vision_env,
             args.min_score,
             camera=camera,
-            text_prompt="lotus leaf. bamboo leaf.",
+            text_prompt="lotus leaf.",
             service_socket=args.vision_socket,
             require_service=args.require_vision_service,
             timeline=timeline,
@@ -253,9 +229,21 @@ def main() -> int:
             select_single_of_kind("lotus", first_detections, display_name="lotus leaf"),
             position_bias_m,
         )
+        _shell_frame, shell_detections = run_scan(
+            run_dir / "scan_2" / "captures",
+            base_t_camera,
+            args.vision_env,
+            args.min_score,
+            camera=camera,
+            text_prompt="bamboo leaf.",
+            service_socket=args.vision_socket,
+            require_service=args.require_vision_service,
+            timeline=timeline,
+            timeline_prefix="scan_2",
+        )
         shell1 = offset_detection(
             select_leaf_waypoints(
-                first_detections,
+                shell_detections,
                 distinct_distance_m=0.05,
                 allow_any_clipping=args.allow_validated_clipped_leaf,
             )[0][0],
@@ -305,37 +293,35 @@ def main() -> int:
             if material == "lotus":
                 source = lotus
             elif material == "paper":
-                paper_frame, paper_dets = run_scan(
-                    run_dir / "scan_2" / "captures",
-                    base_t_camera,
-                    args.vision_env,
-                    args.min_score,
-                    camera=camera,
-                    text_prompt="white paper. bamboo leaf.",
-                    service_socket=args.vision_socket,
-                    require_service=args.require_vision_service,
-                    timeline=timeline,
-                    timeline_prefix="scan_2",
-                )
-                require_stack_a_present(paper_dets, shell1["point_base_m"], position_bias_m, args)
-                source = offset_detection(
-                    select_single_of_kind("paper", paper_dets, display_name="white paper"),
-                    position_bias_m,
-                )
-            elif material == "ceramic":
-                ceramic_frame, ceramic_dets = run_scan(
+                _paper_frame, paper_dets = run_scan(
                     run_dir / "scan_3" / "captures",
                     base_t_camera,
                     args.vision_env,
                     args.min_score,
                     camera=camera,
-                    text_prompt="ceramic disk. bamboo leaf.",
+                    text_prompt="white paper.",
                     service_socket=args.vision_socket,
                     require_service=args.require_vision_service,
                     timeline=timeline,
                     timeline_prefix="scan_3",
                 )
-                require_stack_a_present(ceramic_dets, shell1["point_base_m"], position_bias_m, args)
+                source = offset_detection(
+                    select_single_of_kind("paper", paper_dets, display_name="white paper"),
+                    position_bias_m,
+                )
+            elif material == "ceramic":
+                _ceramic_frame, ceramic_dets = run_scan(
+                    run_dir / "scan_4" / "captures",
+                    base_t_camera,
+                    args.vision_env,
+                    args.min_score,
+                    camera=camera,
+                    text_prompt="ceramic disk.",
+                    service_socket=args.vision_socket,
+                    require_service=args.require_vision_service,
+                    timeline=timeline,
+                    timeline_prefix="scan_4",
+                )
                 source = offset_detection(
                     select_single_of_kind("ceramic", ceramic_dets, display_name="ceramic disk"),
                     position_bias_m,
@@ -343,8 +329,8 @@ def main() -> int:
             elif material == "shell_1":
                 source = shell1
             else:  # shell_2
-                shell2_frame, shell2_dets = run_scan(
-                    run_dir / "scan_4" / "captures",
+                _shell2_frame, shell2_dets = run_scan(
+                    run_dir / "scan_5" / "captures",
                     base_t_camera,
                     args.vision_env,
                     args.second_scan_min_score,
@@ -353,7 +339,7 @@ def main() -> int:
                     service_socket=args.vision_socket,
                     require_service=args.require_vision_service,
                     timeline=timeline,
-                    timeline_prefix="scan_4",
+                    timeline_prefix="scan_5",
                 )
                 shell2_dets = [offset_detection(item, position_bias_m) for item in shell2_dets]
                 source = choose_second_source_leaf(

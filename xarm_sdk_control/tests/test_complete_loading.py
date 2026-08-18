@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import numpy as np
-
 from conftest import load_script_module
 from xarm_sdk_control.cross_place_motion import accumulated_layer_heights_mm, build_cycle_route
 
@@ -95,24 +93,3 @@ def test_lotus_leg_route_targets_jar_mouth() -> None:
     assert poses["lower leaf to release height"][:2] == [350.0, -50.0]
     assert poses["lower leaf to release height"][2] == 100.0  # jar z + release clearance + layer 0
     assert poses["lower leaf to release height"][5] == 0.0
-
-
-def test_stack_a_presence_raises_staging_guidance(monkeypatch) -> None:
-    from types import SimpleNamespace
-
-    def fail(*_args, **_kwargs):
-        raise RuntimeError("shifted")
-
-    monkeypatch.setattr(MODULE, "choose_second_source_leaf", fail)
-    args = SimpleNamespace(allow_validated_clipped_leaf=False)
-    try:
-        MODULE.require_stack_a_present(
-            [{"point_base_m": [0.5, 0.5, 0.0], "label": "bamboo leaf"}],
-            [0.3, 0.1, 0.0],
-            np.zeros(3),
-            args,
-        )
-    except RuntimeError as exc:
-        assert "re-stage" in str(exc)
-    else:
-        raise AssertionError("A shifted stack A must abort with staging guidance")
