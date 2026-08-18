@@ -81,9 +81,10 @@ Behavior:
   10 mm above the detected surface), and return to the camera-clear home
   pose before the next disk.
 - Every suction point is offset from the detected disk center by
-  `--pick-offset-x-mm` (default -20 mm toward X-negative) on top of the shared
+  `--pick-offset-x-mm` (default -10 mm toward X-negative) on top of the shared
   positioning bias: the raised ceramic center does not seal well, so the cup
-  targets a flatter spot instead.
+  targets a flatter spot while staying close enough to the center that the
+  disk does not tilt.
 - Disks must sit within the explicit workspace limits and within arm reach. A
   detection touching the image edge aborts with guidance to move the disk
   fully into the calibrated camera view.

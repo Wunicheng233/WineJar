@@ -80,9 +80,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
-        default=-20.0,
-        help="X offset of the suction point relative to the detected disk center; "
-             "negative moves toward a flatter spot away from the raised ceramic center.",
+        default=-10.0,
+        help="X offset of the suction point relative to the detected disk center "
+             "(applied after the shared positioning bias). -10 mm clears the raised "
+             "center while keeping the disk level enough not to tilt.",
     )
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
     parser.add_argument("--release-settle-seconds", type=float, default=0.5)
