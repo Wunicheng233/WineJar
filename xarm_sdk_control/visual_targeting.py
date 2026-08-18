@@ -247,12 +247,23 @@ def detections_in_base(
     return converted
 
 
+KIND_KEYWORDS = (
+    ("lotus", "lotus"),
+    ("paper", "paper"),
+    ("jar", "jar"),
+    ("bamboo", "bamboo"),
+    ("ceramic", "ceramic"),
+)
+TASK_KINDS = tuple(kind for kind, _keyword in KIND_KEYWORDS)
+
+
 def detection_object_kind(item: dict[str, Any]) -> str | None:
     """Map GroundingDINO text spans to one unambiguous task object class."""
     label = str(item.get("label", "")).lower()
-    has_bamboo = "bamboo" in label
-    has_ceramic = "ceramic" in label
-    if has_bamboo and has_ceramic:
+    matched = [kind for kind, keyword in KIND_KEYWORDS if keyword in label]
+    if len(matched) == 1:
+        return matched[0]
+    if set(matched) == {"bamboo", "ceramic"}:
         box = item.get("box_xyxy")
         if not isinstance(box, list) or len(box) != 4:
             return None
@@ -260,42 +271,60 @@ def detection_object_kind(item: dict[str, Any]) -> str | None:
         height = max(float(box[3]) - float(box[1]), 1.0)
         elongation = max(width / height, height / width)
         return "bamboo" if elongation >= 1.8 else None
-    if has_bamboo:
-        return "bamboo"
-    if has_ceramic:
-        return "ceramic"
     return None
 
 
-def select_ceramic(detections: list[dict[str, Any]]) -> dict[str, Any]:
+def select_single_of_kind(
+    kind: str,
+    detections: list[dict[str, Any]],
+    *,
+    display_name: str | None = None,
+) -> dict[str, Any]:
+    """Best-confidence single detection of one kind; clipped candidates raise guidance."""
+    if kind not in TASK_KINDS:
+        raise ValueError(f"Unsupported object kind: {kind!r}")
+    name = display_name if display_name is not None else kind
     candidates = [
         item
         for item in detections
-        if detection_object_kind(item) == "ceramic"
+        if detection_object_kind(item) == kind
         and not bool(item.get("touches_image_edge", False))
     ]
     if not candidates:
         clipped = [
             item
             for item in detections
-            if detection_object_kind(item) == "ceramic"
+            if detection_object_kind(item) == kind
             and bool(item.get("touches_image_edge", False))
         ]
         if clipped:
             raise RuntimeError(
-                "Ceramic disk was detected but its mask touches the image edge; "
-                "move the disk fully into the calibrated camera view"
+                f"{name.title()} was detected but its mask touches the image edge; "
+                f"move the {name} fully into the calibrated camera view"
             )
-        raise RuntimeError("No ceramic disk detection passed the confidence threshold")
+        raise RuntimeError(f"No {name} detection passed the confidence threshold")
     return max(candidates, key=lambda item: float(item["score"]))
 
 
-def select_all_ceramic(detections: list[dict[str, Any]], min_score: float) -> list[dict[str, Any]]:
-    """All in-frame ceramic disks at/above the score gate, best confidence first."""
+def select_ceramic(detections: list[dict[str, Any]]) -> dict[str, Any]:
+    return select_single_of_kind("ceramic", detections, display_name="ceramic disk")
+
+
+def select_all_of_kind(
+    kind: str,
+    detections: list[dict[str, Any]],
+    min_score: float,
+    *,
+    display_name: str | None = None,
+) -> list[dict[str, Any]]:
+    """All in-frame detections of one task kind at/above the score gate, best confidence first."""
+    if kind not in TASK_KINDS:
+        raise ValueError(f"Unsupported object kind: {kind!r}")
+    name = display_name if display_name is not None else kind
     candidates = [
         item
         for item in detections
-        if detection_object_kind(item) == "ceramic"
+        if detection_object_kind(item) == kind
         and float(item.get("score", 0.0)) >= min_score
         and not bool(item.get("touches_image_edge", False))
     ]
@@ -303,16 +332,20 @@ def select_all_ceramic(detections: list[dict[str, Any]], min_score: float) -> li
         clipped = [
             item
             for item in detections
-            if detection_object_kind(item) == "ceramic"
+            if detection_object_kind(item) == kind
             and bool(item.get("touches_image_edge", False))
         ]
         if clipped:
             raise RuntimeError(
-                "Ceramic disk was detected but its mask touches the image edge; "
-                "move every disk fully into the calibrated camera view"
+                f"{name.title()} was detected but its mask touches the image edge; "
+                f"move every {name} fully into the calibrated camera view"
             )
-        raise RuntimeError("No ceramic disk detection passed the confidence threshold")
+        raise RuntimeError(f"No {name} detection passed the confidence threshold")
     return sorted(candidates, key=lambda item: float(item["score"]), reverse=True)
+
+
+def select_all_ceramic(detections: list[dict[str, Any]], min_score: float) -> list[dict[str, Any]]:
+    return select_all_of_kind("ceramic", detections, min_score, display_name="ceramic disk")
 
 
 def select_leaf_waypoints(

@@ -45,8 +45,22 @@ PROFILES = {
         kind="ceramic",
         text_prompt="ceramic disk.",
         default_min_score=0.45,
-        default_compression_mm=21.0,
-        test_lift_mm=25.0,
+        default_compression_mm=6.0,
+        test_lift_mm=40.0,
+    ),
+    "lotus-leaf": PickTestProfile(
+        kind="lotus",
+        text_prompt="lotus leaf.",
+        default_min_score=0.35,
+        default_compression_mm=2.0,
+        test_lift_mm=40.0,
+    ),
+    "paper": PickTestProfile(
+        kind="paper",
+        text_prompt="white paper.",
+        default_min_score=0.35,
+        default_compression_mm=1.0,
+        test_lift_mm=40.0,
     ),
 }
 
@@ -56,6 +70,21 @@ def profile_for(target: str) -> PickTestProfile:
         return PROFILES[target]
     except KeyError as exc:
         raise ValueError(f"Unsupported pick-test target: {target}") from exc
+
+
+def resolve_pick_test_settings(
+    profile: PickTestProfile,
+    *,
+    min_score: float | None = None,
+    compression_mm: float | None = None,
+    test_lift_mm: float | None = None,
+) -> tuple[float, float, float]:
+    """Resolve CLI-or-profile values for one pick-test target: (min_score, compression, lift)."""
+    return (
+        profile.default_min_score if min_score is None else float(min_score),
+        profile.default_compression_mm if compression_mm is None else float(compression_mm),
+        profile.test_lift_mm if test_lift_mm is None else float(test_lift_mm),
+    )
 
 
 def build_pick_test_route(

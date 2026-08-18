@@ -155,3 +155,41 @@ def test_select_all_ceramic_reports_clipped_disk() -> None:
         assert "image edge" in str(exc)
     else:
         raise AssertionError("Clipped ceramic disks must be rejected with guidance")
+
+
+def test_lotus_paper_and_jar_labels_map_to_kinds() -> None:
+    assert visual_targeting.detection_object_kind({"label": "lotus leaf"}) == "lotus"
+    assert visual_targeting.detection_object_kind({"label": "white paper"}) == "paper"
+    assert visual_targeting.detection_object_kind({"label": "wine jar"}) == "jar"
+
+
+def test_ambiguous_new_kind_mixes_are_rejected() -> None:
+    assert visual_targeting.detection_object_kind({"label": "bamboo leaf lotus leaf"}) is None
+    assert visual_targeting.detection_object_kind({"label": "lotus leaf white paper"}) is None
+
+
+def test_select_all_of_kind_matches_ceramic_wrapper() -> None:
+    high = ceramic_detection(0.80)
+    low = ceramic_detection(0.50, (0.20, 0.10, 0.02))
+    selected = visual_targeting.select_all_of_kind("ceramic", [low, high], 0.45, display_name="ceramic disk")
+    assert [item["score"] for item in selected] == [0.80, 0.50]
+    assert [item["score"] for item in visual_targeting.select_all_ceramic([low, high], 0.45)] == [0.80, 0.50]
+    try:
+        visual_targeting.select_all_of_kind("ceramic", [ceramic_detection(0.30)], 0.45, display_name="ceramic disk")
+    except RuntimeError as exc:
+        assert "confidence threshold" in str(exc)
+    else:
+        raise AssertionError("An empty selection must be rejected")
+
+
+def test_select_single_of_kind_picks_best_and_guides_on_clipped() -> None:
+    low = ceramic_detection(0.50)
+    high = ceramic_detection(0.80, (0.35, -0.05, 0.03))
+    selected = visual_targeting.select_single_of_kind("ceramic", [low, high], display_name="ceramic disk")
+    assert selected is high
+    try:
+        visual_targeting.select_single_of_kind("ceramic", [ceramic_detection(0.70, clipped=True)], display_name="ceramic disk")
+    except RuntimeError as exc:
+        assert "image edge" in str(exc)
+    else:
+        raise AssertionError("Clipped detections must be rejected with guidance")
