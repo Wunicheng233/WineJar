@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from dataclasses import replace
 from pathlib import Path
 from typing import Any
 
@@ -80,10 +81,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
-        default=-10.0,
+        default=5.0,
         help="X offset of the suction point relative to the detected disk center "
-             "(applied after the shared positioning bias). -10 mm clears the raised "
-             "center while keeping the disk level enough not to tilt.",
+             "(applied after the shared positioning bias). Tune until the disk hangs level.",
+    )
+    parser.add_argument(
+        "--test-lift-mm",
+        type=float,
+        default=40.0,
+        help="Vertical lift height for operator inspection; raise it if the disk "
+             "does not fully clear the table surface.",
     )
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
     parser.add_argument("--release-settle-seconds", type=float, default=0.5)
@@ -102,7 +109,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    profile = profile_for("ceramic")
+    profile = replace(profile_for("ceramic"), test_lift_mm=args.test_lift_mm)
     if not 0.0 <= args.compression_mm <= MAX_COMPRESSION_MM:
         raise ValueError(
             f"--compression-mm must remain within the configured 0~{MAX_COMPRESSION_MM:g} mm spring travel"
@@ -113,6 +120,8 @@ def main() -> int:
         raise ValueError("Motion speeds and acceleration must be positive")
     if args.approach_clearance_mm < 0.0:
         raise ValueError("--approach-clearance-mm must be non-negative")
+    if args.test_lift_mm <= 0.0:
+        raise ValueError("--test-lift-mm must be positive")
     if args.run and not explicit_workspace_limits(args):
         print("ERROR: --run requires explicit min/max X, Y, and Z workspace limits.")
         return 3
