@@ -81,16 +81,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
-        default=20.0,
+        default=0.0,
         help="X offset of the suction point relative to the detected disk center "
-             "(applied after the shared positioning bias); measured against the hover pose.",
+             "(applied after the shared positioning bias).",
     )
     parser.add_argument(
         "--pick-offset-y-mm",
         type=float,
-        default=2.0,
+        default=0.0,
         help="Y offset of the suction point relative to the detected disk center "
-             "(applied after the shared positioning bias); measured against the hover pose.",
+             "(applied after the shared positioning bias).",
     )
     parser.add_argument(
         "--test-lift-mm",

@@ -81,10 +81,9 @@ Behavior:
   10 mm above the detected surface), and return to the camera-clear home
   pose before the next disk.
 - Every suction point is offset from the detected disk center by
-  `--pick-offset-x-mm` / `--pick-offset-y-mm` (defaults +20 mm / +2 mm,
-  measured against the hover pose) on top of the shared positioning bias.
-  The inspection lift uses `--test-lift-mm` (default 40 mm) so the disk
-  fully clears the table surface.
+  `--pick-offset-x-mm` / `--pick-offset-y-mm` (both default 0 mm) on top of
+  the shared positioning bias. The inspection lift uses `--test-lift-mm`
+  (default 40 mm) so the disk fully clears the table surface.
 - Disks must sit within the explicit workspace limits and within arm reach. A
   detection touching the image edge aborts with guidance to move the disk
   fully into the calibrated camera view.
