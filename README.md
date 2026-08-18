@@ -70,6 +70,8 @@ GPIO 真值表：
 
 执行器参数统一存放在 `xarm_sdk_control/config/end_effector.yaml`。当前单吸盘与弹簧金具已经实机验证，默认压缩量为 `13 mm`；更换吸盘或金具后必须重新确认该值。
 
+酒坛坛口教点存放在 `xarm_sdk_control/config/jar_position.yaml`（固定点，用机械臂 TCP 实测一次坛口中心后填入；酒坛必须保持在该位置）。
+
 ## 常用流程
 
 只读检查机械臂：
@@ -101,6 +103,38 @@ python xarm_sdk_control/scripts/16_visual_vacuum_pick.py \
 
 接触式吸放任务由 `19_visual_cross_place_two_leaves.py`（两片交叉放置）与
 `20_visual_pick_test.py`（有人值守单物吸起测试）承担。
+
+多物料吸放验证（脚本 20 支持陶瓷片 / 荷叶 / 白纸的吸起-悬停-放回循环）：
+
+```bash
+python xarm_sdk_control/scripts/20_visual_pick_test.py --material ceramic
+python xarm_sdk_control/scripts/20_visual_pick_test.py --material lotus-leaf
+python xarm_sdk_control/scripts/20_visual_pick_test.py --material paper
+```
+
+完整封坛上料（脚本 21：荷叶 → 白纸 → 陶瓷片 → 双竹壳，依次叠放到酒坛坛口）。
+现场布置：A 堆 = 两片竹壳叠放；B 堆 = 从上到下荷叶、白纸、陶瓷片。
+每次吸起一层后重新扫描露出下一层；放置高度按层厚累积（荷叶 4 / 白纸 0.5 /
+陶瓷 5 / 竹壳 3 mm，均可调）。先 dry-run 再实机：
+
+```bash
+python xarm_sdk_control/scripts/21_complete_loading.py \
+  --require-vision-service \
+  --min-x-mm 180 --max-x-mm 520 \
+  --min-y-mm -180 --max-y-mm 180 \
+  --min-z-mm -85 --max-z-mm 500
+
+python xarm_sdk_control/scripts/21_complete_loading.py \
+  --run --confirm-no-pressure-sensor \
+  --require-vision-service \
+  --min-x-mm 180 --max-x-mm 520 \
+  --min-y-mm -180 --max-y-mm 180 \
+  --min-z-mm -85 --max-z-mm 500
+```
+
+调试可用 `--max-legs N`（1-5）只执行前 N 段，`--intermediate-home` 每段回位。
+压力传感器到货后：吸起确认将由压力信号驱动（复用已有恢复+重试循环），并移除
+`--confirm-no-pressure-sensor` 门。
 
 两片竹壳交叉放置：
 
