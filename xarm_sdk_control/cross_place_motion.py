@@ -10,6 +10,7 @@ import numpy as np
 
 from xarm_sdk_control.cross_place_route import (  # noqa: F401  (re-exported for task scripts)
     BLENDABLE_TRANSITIONS,
+    accumulated_layer_heights_mm,
     build_cycle_route,
     build_pick_recovery_route,
     choose_second_source_leaf,

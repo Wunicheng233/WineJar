@@ -598,3 +598,14 @@ def test_stationary_hold_step_is_planned_without_motion_preflight(monkeypatch) -
     assert plans[1].translation_distance_mm == 0.0
     assert plans[1].label == "verify hold"
     assert plans[1].end_joint_angles_deg == [1.0, 2.0, 3.0, 4.0, 5.0, 6.0]
+
+
+def test_accumulated_layer_heights_running_sums() -> None:
+    assert MOTION.accumulated_layer_heights_mm([4.0, 0.5, 5.0, 3.0, 3.0]) == [0.0, 4.0, 4.5, 9.5, 12.5]
+    assert MOTION.accumulated_layer_heights_mm([]) == []
+    try:
+        MOTION.accumulated_layer_heights_mm([4.0, -1.0])
+    except ValueError as exc:
+        assert "non-negative" in str(exc)
+    else:
+        raise AssertionError("Negative layer thicknesses must be rejected")

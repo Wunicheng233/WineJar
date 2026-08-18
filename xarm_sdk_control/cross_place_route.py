@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Sequence
 
 import numpy as np
 
@@ -65,6 +65,23 @@ def transport_height_mm(
     leaf_z_mm = float(np.asarray(leaf_point_m, dtype=float)[2] * 1000.0)
     ceramic_z_mm = float(np.asarray(ceramic_point_m, dtype=float)[2] * 1000.0)
     return float(max(leaf_z_mm, ceramic_z_mm) + transport_clearance_mm)
+
+
+def accumulated_layer_heights_mm(layer_thicknesses_mm: Sequence[float]) -> list[float]:
+    """Running sums giving the placement layer height before each item lands.
+
+    ``[4.0, 0.5, 5.0, 3.0, 3.0]`` -> ``[0.0, 4.0, 4.5, 9.5, 12.5]`` so that
+    leg ``i`` passes ``result[i]`` as the layer height into ``build_cycle_route``.
+    """
+    result: list[float] = []
+    running = 0.0
+    for thickness in layer_thicknesses_mm:
+        value = float(thickness)
+        if value < 0:
+            raise ValueError("Layer thicknesses must be non-negative")
+        result.append(running)
+        running += value
+    return result
 
 
 def build_cycle_route(
