@@ -11,19 +11,39 @@ def test_parse_args_defaults(monkeypatch) -> None:
     args = MODULE.parse_args()
     assert args.run is False
     assert args.confirm_no_pressure_sensor is False
-    assert args.compression_mm == 6.0
+    assert args.material == "ceramic"
+    assert args.compression_mm is None
+    assert args.test_lift_mm is None
+    assert args.min_score is None
     assert args.approach_clearance_mm == 35.0
     assert args.release_clearance_mm == 10.0
     assert args.pick_offset_x_mm == 0.0
     assert args.pick_offset_y_mm == 0.0
-    assert args.test_lift_mm == 40.0
     assert args.vacuum_settle_seconds == 0.9
     assert args.release_settle_seconds == 0.5
     assert args.inspection_hold_seconds == 2.0
     assert args.transit_speed == 80.0
     assert args.precision_speed == 15.0
     assert args.acc == 150.0
-    assert args.min_score == 0.45
+
+
+def test_per_material_defaults_resolve(monkeypatch) -> None:
+    from xarm_sdk_control.pick_test_workflow import profile_for, resolve_pick_test_settings
+
+    assert resolve_pick_test_settings(profile_for("ceramic")) == (0.45, 6.0, 40.0)
+    assert resolve_pick_test_settings(profile_for("lotus-leaf")) == (0.35, 2.0, 40.0)
+    assert resolve_pick_test_settings(profile_for("paper")) == (0.35, 1.0, 40.0)
+    assert resolve_pick_test_settings(profile_for("ceramic"), compression_mm=8.0) == (0.45, 8.0, 40.0)
+
+
+def test_material_choices_reject_unknown(monkeypatch) -> None:
+    monkeypatch.setattr(MODULE.sys, "argv", ["20_visual_pick_test.py", "--material", "metal"])
+    try:
+        MODULE.parse_args()
+    except SystemExit:
+        pass
+    else:
+        raise AssertionError("Unknown materials must be rejected by argparse")
 
 
 def test_run_requires_workspace_limits(monkeypatch) -> None:
