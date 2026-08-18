@@ -81,9 +81,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pick-offset-x-mm",
         type=float,
-        default=5.0,
+        default=20.0,
         help="X offset of the suction point relative to the detected disk center "
-             "(applied after the shared positioning bias). Tune until the disk hangs level.",
+             "(applied after the shared positioning bias); measured against the hover pose.",
+    )
+    parser.add_argument(
+        "--pick-offset-y-mm",
+        type=float,
+        default=2.0,
+        help="Y offset of the suction point relative to the detected disk center "
+             "(applied after the shared positioning bias); measured against the hover pose.",
     )
     parser.add_argument(
         "--test-lift-mm",
@@ -182,6 +189,7 @@ def main() -> int:
             point = np.asarray(item["point_base_m"], dtype=float)
             point += bias_mm / 1000.0
             point[0] += args.pick_offset_x_mm / 1000.0
+            point[1] += args.pick_offset_y_mm / 1000.0
             item["point_base_m"] = point.tolist()
 
         print(f"Calibration: {calibration_path}")
@@ -255,6 +263,7 @@ def main() -> int:
             "calibration": str(calibration_path),
             "position_bias_mm": bias_mm.tolist(),
             "pick_offset_x_mm": args.pick_offset_x_mm,
+            "pick_offset_y_mm": args.pick_offset_y_mm,
             "compression_mm": args.compression_mm,
             "release_clearance_mm": args.release_clearance_mm,
             "test_lift_mm": profile.test_lift_mm,

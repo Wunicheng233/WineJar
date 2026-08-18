@@ -14,7 +14,8 @@ def test_parse_args_defaults(monkeypatch) -> None:
     assert args.compression_mm == 6.0
     assert args.approach_clearance_mm == 35.0
     assert args.release_clearance_mm == 10.0
-    assert args.pick_offset_x_mm == 5.0
+    assert args.pick_offset_x_mm == 20.0
+    assert args.pick_offset_y_mm == 2.0
     assert args.test_lift_mm == 40.0
     assert args.vacuum_settle_seconds == 0.9
     assert args.release_settle_seconds == 0.5
