@@ -383,6 +383,7 @@ def run_leaf_pick_with_retry(
         skip_controller_preflight = bool(
             leaf_index == 2 and bool(getattr(args, "skip_second_controller_preflight", False))
         )
+        preflight_result: dict[str, Any] = {}
         plans = plan_route_motion_profile(
             arm,
             start_pose,
@@ -390,6 +391,7 @@ def run_leaf_pick_with_retry(
             route,
             args,
             run_controller_preflight=not skip_controller_preflight,
+            preflight_result=preflight_result,
         )
         planning_seconds = time.perf_counter() - planning_started
         timeline.mark(
@@ -412,7 +414,8 @@ def run_leaf_pick_with_retry(
             "joint_speed_plan": [plan.to_dict() for plan in plans],
             "controller_preflight": {
                 "checks_run": int(not skip_controller_preflight),
-                "passed": None if skip_controller_preflight else True,
+                "status": preflight_result.get("status"),
+                "error": preflight_result.get("error"),
                 "skipped_by_operator": skip_controller_preflight,
             },
             "failure_injected": failure_injected,

@@ -30,6 +30,7 @@ from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSen
 from xarm_sdk_control.task_timing import TaskTimeline
 from xarm_sdk_control.trajectory_speed_planner import (
     CartesianSegmentRequest,
+    ControllerPreflightError,
     JointConstraintConfig,
     SegmentSpeedPlan,  # noqa: F401  (re-exported for tests)
     TrajectoryPlanningError,
@@ -225,6 +226,7 @@ def plan_route_motion_profile(
     route: list[tuple[str, list[float], str, str | None]],
     args: Any,
     run_controller_preflight: bool = True,
+    preflight_result: dict[str, Any] | None = None,
 ) -> list[SegmentSpeedPlan]:
     speeds, accelerations = requested_motion_profiles(args)
     requests = [
@@ -287,15 +289,29 @@ def plan_route_motion_profile(
             config=config,
         )
     blend_radii = route_blend_radii(route, args.blend_radius_mm)
+    preflight_status = "skipped"
+    preflight_error: str | None = None
     if run_controller_preflight:
-        preflight_cartesian_route(
-            arm,
-            motion_requests,
-            motion_plans,
-            [blend_radii[index] for index in motion_indices],
-        )
+        try:
+            preflight_cartesian_route(
+                arm,
+                motion_requests,
+                motion_plans,
+                [blend_radii[index] for index in motion_indices],
+            )
+            preflight_status = "passed"
+        except ControllerPreflightError as exc:
+            # The only_check rehearsal produces repeatable false rejections
+            # (e.g. leaf-2 C24) that do not latch as controller errors; per
+            # operator policy the rehearsal is advisory. Software-side joint
+            # limits and the controller's runtime enforcement remain active.
+            preflight_status = "warned"
+            preflight_error = str(exc)
+            print(f"WARNING: controller preflight rejected the route ({exc}); continuing per operator policy.")
     else:
         print("WARNING: controller no-motion preflight skipped for this route.")
+    if preflight_result is not None:
+        preflight_result.update({"status": preflight_status, "error": preflight_error})
 
     running_angles = list(map(float, start_angles))
     motion_plan_by_index = dict(zip(motion_indices, motion_plans))

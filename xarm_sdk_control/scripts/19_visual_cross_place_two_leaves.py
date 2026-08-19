@@ -259,49 +259,44 @@ def main() -> int:
         )
 
         if not args.verify_pick:
-            first_route = build_cycle_route(
-                home_pose,
-                first_leaf["point_base_m"],
-                placement_target_m,
-                args.first_place_yaw_offset_deg,
-                args.transport_clearance_mm,
-                args.approach_clearance_mm,
-                args.compression_mm,
-                args.release_clearance_mm,
-                0.0,
-                return_home=False,
-                precontact_clearance_mm=args.precontact_clearance_mm,
-                precision_lift_mm=args.precision_lift_mm,
-            )
-            first_safety = route_safety_report([item[1] for item in first_route], args)
-            if not first_safety["all_ok"]:
-                raise RuntimeError("First-leaf route is outside explicit workspace limits")
-
-            if args.run:
-                prepare_robot_for_motion(arm, clean_error=True)
-            else:
+            if not args.run:
+                first_route = build_cycle_route(
+                    home_pose,
+                    first_leaf["point_base_m"],
+                    placement_target_m,
+                    args.first_place_yaw_offset_deg,
+                    args.transport_clearance_mm,
+                    args.approach_clearance_mm,
+                    args.compression_mm,
+                    args.release_clearance_mm,
+                    0.0,
+                    return_home=False,
+                    precontact_clearance_mm=args.precontact_clearance_mm,
+                    precision_lift_mm=args.precision_lift_mm,
+                )
+                first_safety = route_safety_report([item[1] for item in first_route], args)
+                if not first_safety["all_ok"]:
+                    raise RuntimeError("First-leaf route is outside explicit workspace limits")
                 print("Preparing controller for no-motion route preflight.")
                 prepare_robot_for_motion(arm)
-            controller_ready = True
+                controller_ready = True
 
-            angles_code, first_start_angles = arm.get_servo_angle(is_radian=False)
-            require_code("get joint angles for first-route planning", (angles_code, first_start_angles))
-            planning_started = time.perf_counter()
-            first_plans = plan_route_motion_profile(
-                arm,
-                home_pose,
-                first_start_angles,
-                first_route,
-                args,
-            )
-            first_planning_seconds = time.perf_counter() - planning_started
-            timeline.mark(
-                "leaf_1.route_planned",
-                planning_seconds=first_planning_seconds,
-                segment_count=len(first_plans),
-            )
-
-            if not args.run:
+                angles_code, first_start_angles = arm.get_servo_angle(is_radian=False)
+                require_code("get joint angles for first-route planning", (angles_code, first_start_angles))
+                planning_started = time.perf_counter()
+                first_plans = plan_route_motion_profile(
+                    arm,
+                    home_pose,
+                    first_start_angles,
+                    first_route,
+                    args,
+                )
+                first_planning_seconds = time.perf_counter() - planning_started
+                timeline.mark(
+                    "leaf_1.route_planned",
+                    planning_seconds=first_planning_seconds,
+                    segment_count=len(first_plans),
+                )
                 require_code("stop robot after no-motion preflight", arm.set_state(4))
                 controller_ready = False
                 print(
@@ -309,6 +304,9 @@ def main() -> int:
                     "second scan requires the first physical placement."
                 )
                 return 0
+
+            prepare_robot_for_motion(arm, clean_error=True)
+            controller_ready = True
 
             vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
             vacuum.configure()

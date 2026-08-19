@@ -79,7 +79,10 @@ def patch_retry_io(monkeypatch, tmp_path, verification_results, targeting_detect
         calls["targeting_calls"] += 1
         return tmp_path / f"targeting_{calls['targeting_calls']}", [detection(point) for point in targeting_detections]
 
-    def fake_plan(arm, start_pose, start_angles, route, args, run_controller_preflight=True):
+    def fake_plan(arm, start_pose, start_angles, route, args, run_controller_preflight=True,
+                  preflight_result=None):
+        if preflight_result is not None:
+            preflight_result.update({"status": "passed", "error": None})
         return [FakePlan(label) for label, _pose, _motion, _event in route]
 
     def fake_execute(arm, vacuum, route, args, holding_state, timeline, cycle_name,
@@ -388,7 +391,10 @@ def test_retry_target_injection_uses_prompt_and_selector(monkeypatch, tmp_path) 
             return tmp_path / "targeting", [detection(SOURCE)]
         return tmp_path / "verify", [detection(LIFTED)]
 
-    def fake_plan(arm, start_pose, start_angles, route, args, run_controller_preflight=True):
+    def fake_plan(arm, start_pose, start_angles, route, args, run_controller_preflight=True,
+                  preflight_result=None):
+        if preflight_result is not None:
+            preflight_result.update({"status": "passed", "error": None})
         return [FakePlan(label) for label, _p, _m, _e in route]
 
     def fake_execute(arm, vacuum, route, args, holding_state, timeline, cycle_name,
