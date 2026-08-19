@@ -26,6 +26,7 @@ from xarm_sdk_control.robot_motion import (  # noqa: F401  (re-exported for task
     require_emergency_stop_released,
     robot_status_snapshot,
 )
+from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSensor
 from xarm_sdk_control.task_timing import TaskTimeline
 from xarm_sdk_control.trajectory_speed_planner import (
     CartesianSegmentRequest,
@@ -327,6 +328,7 @@ def execute_route(
     event_callback: Callable[[str], None] | None = None,
     failure_injected: bool = False,
     prepare_vacuum: bool = True,
+    suction_sensor: SuctionSensor | None = None,
 ) -> None:
     """Drive one planned route with exact-stop discipline and vacuum events.
 
@@ -334,8 +336,11 @@ def execute_route(
     and may raise to abort the remaining segments; ``failure_injected`` skips
     pump activation on "acquire" for controlled tests (holding state stays
     unset); ``prepare_vacuum=False`` skips the initial prepare call and is used
-    by recovery routes. Steps whose pose equals the previous step's pose are
-    stationary holds: no motion is commanded and only the event fires.
+    by recovery routes; ``suction_sensor`` confirms every acquire with the
+    pressure switch and raises ``SuctionNotConfirmedError`` on timeout (holding
+    state stays set so the caller's recovery path vents safely at the source).
+    Steps whose pose equals the previous step's pose are stationary holds: no
+    motion is commanded and only the event fires.
     """
     if prepare_vacuum:
         vacuum.prepare_for_pick()
@@ -407,6 +412,25 @@ def execute_route(
                     f"{cycle_name}.vacuum_acquired",
                     settle_seconds=args.vacuum_settle_seconds,
                 )
+            if suction_sensor is not None:
+                ok = suction_sensor.wait_for_suction()
+                outcome = suction_sensor.last_wait
+                assert outcome is not None
+                if ok:
+                    timeline.mark(
+                        f"{cycle_name}.suction_confirmed",
+                        elapsed_seconds=outcome.elapsed_seconds,
+                        debounce_seconds=suction_sensor.config.debounce_seconds,
+                        timeout_seconds=outcome.timeout_seconds,
+                    )
+                else:
+                    timeline.mark(
+                        f"{cycle_name}.suction_failed",
+                        elapsed_seconds=outcome.elapsed_seconds,
+                        timeout_seconds=outcome.timeout_seconds,
+                        last_value=outcome.last_value,
+                    )
+                    raise SuctionNotConfirmedError(suction_sensor.config.input_channel, outcome)
         elif event == "verify":
             if event_callback is None:
                 raise RuntimeError(

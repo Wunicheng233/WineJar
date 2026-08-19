@@ -10,6 +10,7 @@ import numpy as np
 
 from xarm_sdk_control.geometry import compose_pose_mm
 from xarm_sdk_control.robot_motion import require_code, require_overhead_camera_safe_route
+from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSensor
 from xarm_sdk_control.vacuum_control import VacuumController
 
 
@@ -199,6 +200,7 @@ def execute_pick_test_route(
     label_prefix: str = "",
     failure_injected: bool = False,
     event_callback: Callable[[PickTestStep], None] | None = None,
+    suction_sensor: SuctionSensor | None = None,
 ) -> None:
     vacuum.prepare_for_pick()
     for index, step in enumerate(route, start=1):
@@ -219,6 +221,13 @@ def execute_pick_test_route(
             else:
                 vacuum.acquire(args.vacuum_settle_seconds)
                 holding_state["value"] = True
+            if suction_sensor is not None:
+                if not suction_sensor.wait_for_suction():
+                    assert suction_sensor.last_wait is not None
+                    raise SuctionNotConfirmedError(
+                        suction_sensor.config.input_channel,
+                        suction_sensor.last_wait,
+                    )
         elif step.event == "hold":
             print(f"Holding for operator inspection: {args.inspection_hold_seconds:.1f} s")
             time.sleep(args.inspection_hold_seconds)

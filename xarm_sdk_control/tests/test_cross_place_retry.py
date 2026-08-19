@@ -256,3 +256,180 @@ def test_outcome_cycle_record_preserves_baseline_keys() -> None:
     assert record["completed"] is True
     assert record["pick_attempts_used"] == 1
     assert record["final_pick_verification_status"] == "confirmed"
+
+
+class SuctionErrorArm(RecordingArm):
+    def __init__(self, fail_times: int) -> None:
+        super().__init__()
+        self.fail_times = fail_times
+        self.reads = 0
+
+    def get_cgpio_digital(self, channel):
+        self.reads += 1
+        value = 1 if self.reads <= self.fail_times else 0
+        return 0, value
+
+
+def test_decide_pick_retry_on_suction_failure_policy() -> None:
+    assert RETRY.decide_pick_retry_on_suction_failure(2, 3).action == "recover_retry"
+    assert RETRY.decide_pick_retry_on_suction_failure(3, 3).action == "abort"
+
+
+def test_suction_failure_then_success_recovers_and_retries(monkeypatch, tmp_path) -> None:
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSensorConfig, SuctionSensor, SuctionWaitOutcome
+
+    calls = patch_retry_io(monkeypatch, tmp_path, [LIFTED], [SOURCE])
+    arm = RecordingArm()
+    sensor_arm = SuctionErrorArm(4)
+    sensor = SuctionSensor(
+        sensor_arm,
+        SuctionSensorConfig(input_channel=0, success_value=0, debounce_seconds=0.05, timeout_seconds=2.0),
+        clock=lambda: sensor_arm.reads * 0.02,
+        sleep=lambda _s: None,
+    )
+
+    real_execute = RETRY.execute_route
+
+    def fake_execute(*args, **kwargs):
+        # First attempt: sensor never confirms (reads fail) -> real path raises.
+        # Simulate via the real execute_route? Simpler: raise the error directly on call 1.
+        if not fake_execute.calls:
+            raise SuctionNotConfirmedError(0, SuctionWaitOutcome(False, 2.0, 2.0, 1))
+        fake_execute.calls += 1
+
+    fake_execute.calls = 0
+
+    def wrapped_execute(arm, vacuum, route, args, holding_state, timeline, cycle_name,
+                        segment_plans=None, **kwargs):
+        if wrapped_execute.calls == 0:
+            wrapped_execute.calls += 1
+            raise SuctionNotConfirmedError(0, SuctionWaitOutcome(False, 2.0, 2.0, 1))
+        wrapped_execute.calls += 1
+
+    wrapped_execute.calls = 0
+    monkeypatch.setattr(RETRY, "execute_route", wrapped_execute)
+
+    outcome = RETRY.run_leaf_pick_with_retry(
+        leaf_index=1,
+        arm=arm,
+        vacuum=RecordingVacuum(),
+        home_pose=HOME,
+        placement_target_m=PLACEMENT,
+        initial_target_m=SOURCE,
+        source_stack_reference_m=SOURCE,
+        place_yaw_offset_deg=45.0,
+        layer_height_mm=0.0,
+        return_home=False,
+        args=retry_args(),
+        holding_state={"value": False},
+        timeline=RecordingTimeline(),
+        run_dir=tmp_path,
+        base_t_camera=np.eye(4),
+        position_bias_m=np.zeros(3),
+        camera=None,
+        inspection_event=None,
+    )
+
+    assert outcome.success is True
+    assert len(outcome.attempts) == 2
+    assert outcome.attempts[0]["recovery_completed"] is True
+    assert outcome.attempts[0]["failure_type"] == "suction_not_confirmed"
+    assert "suction_failure" in outcome.attempts[0]
+    assert calls["home"] == 1
+    assert calls["targeting_calls"] == 1
+
+
+def test_pressure_only_loop_skips_verification(monkeypatch, tmp_path) -> None:
+    calls = patch_retry_io(monkeypatch, tmp_path, [LIFTED], [SOURCE])
+    captured = {}
+
+    def spy_execute(arm, vacuum, route, args, holding_state, timeline, cycle_name,
+                    segment_plans=None, **kwargs):
+        captured["event_callback"] = kwargs.get("event_callback")
+        captured["suction_sensor"] = kwargs.get("suction_sensor")
+
+    monkeypatch.setattr(RETRY, "execute_route", spy_execute)
+
+    RETRY.run_leaf_pick_with_retry(
+        leaf_index=1,
+        arm=RecordingArm(),
+        vacuum=RecordingVacuum(),
+        home_pose=HOME,
+        placement_target_m=PLACEMENT,
+        initial_target_m=SOURCE,
+        source_stack_reference_m=SOURCE,
+        place_yaw_offset_deg=45.0,
+        layer_height_mm=0.0,
+        return_home=False,
+        args=retry_args(),
+        holding_state={"value": False},
+        timeline=RecordingTimeline(),
+        run_dir=tmp_path,
+        base_t_camera=np.eye(4),
+        position_bias_m=np.zeros(3),
+        camera=None,
+        inspection_event=None,
+    )
+
+    assert captured["event_callback"] is None
+    assert captured["suction_sensor"] is None
+    assert calls["verification_calls"] == 0
+
+
+def test_retry_target_injection_uses_prompt_and_selector(monkeypatch, tmp_path) -> None:
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionWaitOutcome
+
+    captured = {"prompts": [], "selector_called": 0}
+
+    def fake_run_scan(capture_root, base_t_camera, vision_env, min_score, **kwargs):
+        captured["prompts"].append(kwargs.get("text_prompt"))
+        if "targeting" in str(capture_root):
+            captured["selector_called"] += 1
+            return tmp_path / "targeting", [detection(SOURCE)]
+        return tmp_path / "verify", [detection(LIFTED)]
+
+    def fake_plan(arm, start_pose, start_angles, route, args, run_controller_preflight=True):
+        return [FakePlan(label) for label, _p, _m, _e in route]
+
+    def fake_execute(arm, vacuum, route, args, holding_state, timeline, cycle_name,
+                     segment_plans=None, **kwargs):
+        if fake_execute.calls == 0:
+            fake_execute.calls += 1
+            raise SuctionNotConfirmedError(0, SuctionWaitOutcome(False, 2.0, 2.0, 1))
+        fake_execute.calls += 1
+
+    fake_execute.calls = 0
+    monkeypatch.setattr(RETRY, "run_scan", fake_run_scan)
+    monkeypatch.setattr(RETRY, "plan_route_motion_profile", fake_plan)
+    monkeypatch.setattr(RETRY, "execute_route", fake_execute)
+    monkeypatch.setattr(RETRY, "move_robot_home", lambda *a, **k: HOME)
+
+    def selector(dets, reference):
+        return dets[0]
+
+    outcome = RETRY.run_leaf_pick_with_retry(
+        leaf_index=1,
+        arm=RecordingArm(),
+        vacuum=RecordingVacuum(),
+        home_pose=HOME,
+        placement_target_m=PLACEMENT,
+        initial_target_m=SOURCE,
+        source_stack_reference_m=SOURCE,
+        place_yaw_offset_deg=45.0,
+        layer_height_mm=0.0,
+        return_home=False,
+        args=retry_args(),
+        holding_state={"value": False},
+        timeline=RecordingTimeline(),
+        run_dir=tmp_path,
+        base_t_camera=np.eye(4),
+        position_bias_m=np.zeros(3),
+        camera=None,
+        inspection_event=None,
+        retry_scan_prompt="lotus leaf.",
+        retry_select=selector,
+    )
+
+    assert outcome.success is True
+    assert captured["prompts"] == ["lotus leaf."]
+    assert captured["selector_called"] == 1

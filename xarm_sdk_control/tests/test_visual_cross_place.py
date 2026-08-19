@@ -609,3 +609,105 @@ def test_accumulated_layer_heights_running_sums() -> None:
         assert "non-negative" in str(exc)
     else:
         raise AssertionError("Negative layer thicknesses must be rejected")
+
+
+class SuctionFakeArm(RecordingArm):
+    def __init__(self, values) -> None:
+        super().__init__()
+        self.sensor_values = list(values)
+        self._last_value = 0
+
+    def get_cgpio_digital(self, channel):
+        if self.sensor_values:
+            self._last_value = self.sensor_values.pop(0)
+        return 0, self._last_value
+
+
+def make_sensor_for_test(arm, clock=None):
+    from xarm_sdk_control.suction_sensor import SuctionSensor, SuctionSensorConfig
+
+    if clock is None:
+        class AdvancingClock:
+            def __init__(self):
+                self.now = 0.0
+
+            def __call__(self):
+                return self.now
+
+            def advance(self, seconds):
+                self.now += seconds
+
+        clock = AdvancingClock()
+    config = SuctionSensorConfig(input_channel=0, success_value=0, debounce_seconds=0.05, timeout_seconds=2.0)
+    return SuctionSensor(arm, config, clock=clock, sleep=lambda s: clock.advance(s))
+
+
+def test_execute_route_confirms_suction_on_acquire() -> None:
+    arm = SuctionFakeArm([0, 0, 0, 0, 0, 0])
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+    ]
+
+    MOTION.execute_route(
+        arm, vacuum, route, motion_args(), holding, timeline, "leaf_1", suction_sensor=sensor
+    )
+
+    assert holding["value"] is True
+    names = [name for name, _details in timeline.events]
+    assert "leaf_1.vacuum_acquired" in names
+    assert "leaf_1.suction_confirmed" in names
+
+
+def test_execute_route_raises_when_suction_never_confirms() -> None:
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError
+
+    arm = SuctionFakeArm([1, 1, 1, 1])
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+    ]
+
+    try:
+        MOTION.execute_route(
+            arm, vacuum, route, motion_args(), holding, timeline, "leaf_1", suction_sensor=sensor
+        )
+    except SuctionNotConfirmedError:
+        pass
+    else:
+        raise AssertionError("A never-confirming sensor must abort the acquire")
+
+    assert holding["value"] is True  # stays set so recovery can vent safely
+    names = [name for name, _details in timeline.events]
+    assert "leaf_1.suction_failed" in names
+
+
+def test_execute_route_failure_injected_with_sensor_raises() -> None:
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError
+
+    arm = SuctionFakeArm([1, 1, 1, 1])
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+    ]
+
+    try:
+        MOTION.execute_route(
+            arm, vacuum, route, motion_args(), holding, timeline, "leaf_1",
+            failure_injected=True, suction_sensor=sensor,
+        )
+    except SuctionNotConfirmedError:
+        pass
+    else:
+        raise AssertionError("Controlled pump-skip with a sensor must fail suction")
+
+    assert holding["value"] is False

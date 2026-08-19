@@ -68,6 +68,9 @@ class RecordingArm:
     def get_servo_angle(self, is_radian=False):
         return 0, [0.0] * 7
 
+    def get_cgpio_digital(self, channel):
+        return 0, 0
+
 
 class RecordingVacuum:
     def __init__(self) -> None:

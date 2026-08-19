@@ -5,7 +5,7 @@ from __future__ import annotations
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Literal
+from typing import Any, Callable, Literal
 
 import numpy as np
 
@@ -25,12 +25,15 @@ from xarm_sdk_control.pick_verification import (
     verify_carried_object,
 )
 from xarm_sdk_control.robot_motion import move_robot_home, require_code
+from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSensor
 from xarm_sdk_control.task_timing import TaskTimeline
 from xarm_sdk_control.vacuum_control import VacuumController
 from xarm_sdk_control.visual_targeting import run_scan
 
 
 RetryAction = Literal["proceed", "recover_retry", "abort"]
+
+RetrySelect = Callable[[list[dict[str, Any]], list[float]], dict[str, Any]]
 
 
 @dataclass(frozen=True)
@@ -92,6 +95,19 @@ def decide_pick_retry(
     return RetryDecision(
         "abort",
         f"attempt {attempt_number}/{max_attempts} was not confirmed and no attempts remain",
+    )
+
+
+def decide_pick_retry_on_suction_failure(attempt_number: int, max_attempts: int) -> RetryDecision:
+    """Retry policy mirroring the vision not_confirmed branch for pressure-switch failures."""
+    if attempt_number < max_attempts:
+        return RetryDecision(
+            "recover_retry",
+            f"attempt {attempt_number}/{max_attempts} had no suction confirmation; recovery and retry",
+        )
+    return RetryDecision(
+        "abort",
+        f"attempt {attempt_number}/{max_attempts} had no suction confirmation and no attempts remain",
     )
 
 
@@ -246,14 +262,27 @@ def run_leaf_pick_with_retry(
     position_bias_m: np.ndarray,
     camera: Any,
     initial_targeting_frame: Path | None = None,
+    suction_sensor: SuctionSensor | None = None,
+    inspection_event: str | None = "verify",
+    retry_scan_prompt: str = "bamboo leaf.",
+    retry_select: RetrySelect | None = None,
+    compression_mm: float | None = None,
+    cycle_prefix: str | None = None,
 ) -> LeafPickOutcome:
-    """Pick one leaf with post-lift visual verification, recovery, and bounded retries."""
+    """Pick one object with verification, recovery, and bounded retries.
+
+    ``inspection_event=None`` runs pressure-only confirmation (no visual verify
+    step); ``retry_scan_prompt``/``retry_select`` customize the retry targeting
+    scan (default: bamboo with the near-source gate); ``compression_mm``
+    overrides ``args.compression_mm`` for callers whose args lack that field.
+    """
     verification_score = args.second_scan_min_score if leaf_index == 2 else args.min_score
     attempts: list[dict[str, Any]] = []
     final_verification: PickVerification | None = None
+    prefix = cycle_prefix if cycle_prefix is not None else f"leaf_{leaf_index}"
     for attempt_number in range(1, args.max_pick_attempts + 1):
-        cycle_name = f"leaf_{leaf_index}.attempt_{attempt_number:02d}"
-        attempt_dir = run_dir / f"leaf_{leaf_index}_attempt_{attempt_number:02d}"
+        cycle_name = f"{prefix}.attempt_{attempt_number:02d}"
+        attempt_dir = run_dir / f"{prefix}_attempt_{attempt_number:02d}"
         if attempt_number == 1:
             target_m = list(map(float, initial_target_m))
             targeting_frame = initial_targeting_frame
@@ -264,7 +293,7 @@ def run_leaf_pick_with_retry(
                 args.vision_env,
                 args.second_scan_min_score,
                 camera=camera,
-                text_prompt="bamboo leaf.",
+                text_prompt=retry_scan_prompt,
                 service_socket=args.vision_socket,
                 require_service=args.require_vision_service,
                 timeline=timeline,
@@ -272,12 +301,15 @@ def run_leaf_pick_with_retry(
             )
             targeting_frame = retry_frame
             retry_detections = [offset_detection(item, position_bias_m) for item in retry_detections]
-            retry_target = choose_second_source_leaf(
-                retry_detections,
-                source_stack_reference_m,
-                args.allow_validated_clipped_leaf,
-                args.max_second_source_shift_mm / 1000.0,
-            )
+            if retry_select is not None:
+                retry_target = retry_select(retry_detections, source_stack_reference_m)
+            else:
+                retry_target = choose_second_source_leaf(
+                    retry_detections,
+                    source_stack_reference_m,
+                    args.allow_validated_clipped_leaf,
+                    args.max_second_source_shift_mm / 1000.0,
+                )
             target_m = list(map(float, retry_target["point_base_m"]))
         require_distinct_pick_and_place_targets(target_m, placement_target_m)
 
@@ -289,13 +321,13 @@ def run_leaf_pick_with_retry(
             place_yaw_offset_deg,
             args.transport_clearance_mm,
             args.approach_clearance_mm,
-            args.compression_mm,
+            args.compression_mm if compression_mm is None else compression_mm,
             args.release_clearance_mm,
             layer_height_mm,
             return_home=return_home,
             precontact_clearance_mm=args.precontact_clearance_mm,
             precision_lift_mm=args.precision_lift_mm,
-            inspection_event="verify",
+            inspection_event=inspection_event,
         )
         safety = route_safety_report([item[1] for item in route], args)
         if not safety["all_ok"]:
@@ -306,13 +338,16 @@ def run_leaf_pick_with_retry(
         angles_code, start_angles = arm.get_servo_angle(is_radian=False)
         require_code("get joint angles for route planning", (angles_code, start_angles))
         planning_started = time.perf_counter()
+        skip_controller_preflight = bool(
+            leaf_index == 2 and bool(getattr(args, "skip_second_controller_preflight", False))
+        )
         plans = plan_route_motion_profile(
             arm,
             start_pose,
             start_angles,
             route,
             args,
-            run_controller_preflight=not (leaf_index == 2 and args.skip_second_controller_preflight),
+            run_controller_preflight=not skip_controller_preflight,
         )
         planning_seconds = time.perf_counter() - planning_started
         timeline.mark(
@@ -320,8 +355,11 @@ def run_leaf_pick_with_retry(
             planning_seconds=planning_seconds,
             segment_count=len(plans),
         )
-        skip_controller_preflight = bool(leaf_index == 2 and args.skip_second_controller_preflight)
-        failure_injected = bool(args.simulate_first_pick_failure and leaf_index == 1 and attempt_number == 1)
+        failure_injected = bool(
+            getattr(args, "simulate_first_pick_failure", False)
+            and leaf_index == 1
+            and attempt_number == 1
+        )
         attempt_record: dict[str, Any] = {
             "attempt": attempt_number,
             "targeting_frame": str(targeting_frame) if targeting_frame is not None else None,
@@ -336,6 +374,7 @@ def run_leaf_pick_with_retry(
                 "skipped_by_operator": skip_controller_preflight,
             },
             "failure_injected": failure_injected,
+            "suction_checked": suction_sensor is not None,
         }
         attempts.append(attempt_record)
         if failure_injected:
@@ -393,16 +432,27 @@ def run_leaf_pick_with_retry(
                 timeline,
                 cycle_name,
                 plans,
-                event_callback=verify_step,
+                event_callback=verify_step if inspection_event is not None else None,
                 failure_injected=failure_injected,
+                suction_sensor=suction_sensor,
             )
-        except PickNotConfirmedError:
-            verification = verification_state.get("verification")
-            timeline.mark(
-                f"{cycle_name}.verification_failed",
-                status=verification.status if verification is not None else "unknown",
-                reason=verification.reason if verification is not None else "unknown",
-            )
+        except (PickNotConfirmedError, SuctionNotConfirmedError) as exc:
+            if isinstance(exc, PickNotConfirmedError):
+                verification = verification_state.get("verification")
+                timeline.mark(
+                    f"{cycle_name}.verification_failed",
+                    status=verification.status if verification is not None else "unknown",
+                    reason=verification.reason if verification is not None else "unknown",
+                )
+                attempt_record["failure_type"] = "verification_not_confirmed"
+            else:
+                verification = None
+                attempt_record["failure_type"] = "suction_not_confirmed"
+                attempt_record["suction_failure"] = {
+                    "elapsed_seconds": exc.elapsed_seconds,
+                    "timeout_seconds": exc.timeout_seconds,
+                    "last_value": exc.last_value,
+                }
             _execute_recovery(
                 arm=arm,
                 vacuum=vacuum,
@@ -426,6 +476,12 @@ def run_leaf_pick_with_retry(
             continue
         timeline.mark(f"{cycle_name}.cycle_complete")
         final_verification = verification_state.get("verification")
+        if suction_sensor is not None and suction_sensor.last_wait is not None:
+            attempt_record["suction"] = {
+                "confirmed": True,
+                "elapsed_seconds": suction_sensor.last_wait.elapsed_seconds,
+                "timeout_seconds": suction_sensor.last_wait.timeout_seconds,
+            }
         return LeafPickOutcome(
             success=True,
             leaf_index=leaf_index,
