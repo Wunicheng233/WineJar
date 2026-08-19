@@ -434,6 +434,25 @@ def execute_route(
                 waited_for_completion=wait,
             )
         previous_target = list(map(float, target_pose))
+        if (
+            suction_sensor is not None
+            and holding_state["value"]
+            and motion.startswith("loaded")
+        ):
+            # Sustain check: a leaf can drop off the cup during the lift or
+            # carry even though suction was confirmed at the contact. Re-verify
+            # after every loaded segment so a mid-carry loss triggers recovery.
+            if not suction_sensor.wait_for_suction():
+                outcome = suction_sensor.last_wait
+                assert outcome is not None
+                timeline.mark(
+                    f"{cycle_name}.suction_lost",
+                    label=label,
+                    elapsed_seconds=outcome.elapsed_seconds,
+                    timeout_seconds=outcome.timeout_seconds,
+                    last_value=outcome.last_value,
+                )
+                raise SuctionNotConfirmedError(suction_sensor.config.input_channel, outcome)
         if event == "acquire":
             if failure_injected:
                 print("CONTROLLED TEST: pump activation skipped; holding state remains unset.")

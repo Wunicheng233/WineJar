@@ -133,4 +133,9 @@ class SuctionSensor:
                 streak_start = None
             elapsed = self.clock() - started
             remaining = min(SAMPLE_INTERVAL_SECONDS, max(0.0, timeout - elapsed))
+            if remaining < SAMPLE_INTERVAL_SECONDS:
+                # Less than one full sample period remains (or the clock stalls
+                # on a sub-ULP advance); treat that as timed out.
+                self.last_wait = SuctionWaitOutcome(False, timeout, timeout, last_value)
+                return False
             self.sleep(remaining)

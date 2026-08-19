@@ -719,3 +719,61 @@ def test_execute_route_failure_injected_with_sensor_raises() -> None:
         raise AssertionError("Controlled pump-skip with a sensor must fail suction")
 
     assert holding["value"] is False
+
+
+class SuctionCounterArm(RecordingArm):
+    """Returns 0 for the first `success_reads` calls, then 1 forever."""
+
+    def __init__(self, success_reads: int) -> None:
+        super().__init__()
+        self.success_reads = success_reads
+        self.reads = 0
+
+    def get_cgpio_digital(self, channel):
+        self.reads += 1
+        return 0, 0 if self.reads <= self.success_reads else 1
+
+
+def test_execute_route_holds_through_loaded_segments() -> None:
+    arm = SuctionCounterArm(1000)  # always confirms
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+        ("lift", [500.0, 60.0, 20.0, 178.0, 0.0, 0.0], "loaded_precision", None),
+    ]
+
+    MOTION.execute_route(
+        arm, vacuum, route, motion_args(), holding, timeline, "leaf_1", suction_sensor=sensor
+    )
+
+    assert holding["value"] is True
+
+
+def test_execute_route_detects_suction_lost_after_lift() -> None:
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError
+
+    arm = SuctionCounterArm(8)  # confirms at acquire, then loses the hold
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+        ("lift", [500.0, 60.0, 20.0, 178.0, 0.0, 0.0], "loaded_precision", None),
+    ]
+
+    try:
+        MOTION.execute_route(
+            arm, vacuum, route, motion_args(), holding, timeline, "leaf_1", suction_sensor=sensor
+        )
+    except SuctionNotConfirmedError:
+        pass
+    else:
+        raise AssertionError("A mid-lift suction loss must abort the carry")
+
+    assert holding["value"] is True
+    names = [name for name, _details in timeline.events]
+    assert "leaf_1.suction_lost" in names

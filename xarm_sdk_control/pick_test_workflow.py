@@ -228,7 +228,16 @@ def execute_pick_test_route(
                         suction_sensor.config.input_channel,
                         suction_sensor.last_wait,
                     )
-        elif step.event == "hold":
+        if suction_sensor is not None and holding_state["value"] and step.motion.startswith("loaded"):
+            # Sustain check: the material can drop off the cup during the lift
+            # even though suction was confirmed at the contact.
+            if not suction_sensor.wait_for_suction():
+                assert suction_sensor.last_wait is not None
+                raise SuctionNotConfirmedError(
+                    suction_sensor.config.input_channel,
+                    suction_sensor.last_wait,
+                )
+        if step.event == "hold":
             print(f"Holding for operator inspection: {args.inspection_hold_seconds:.1f} s")
             time.sleep(args.inspection_hold_seconds)
         elif step.event == "verify" and event_callback is not None:
