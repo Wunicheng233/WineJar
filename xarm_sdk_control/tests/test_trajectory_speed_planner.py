@@ -9,6 +9,7 @@ from xarm_sdk_control.trajectory_speed_planner import (
     TrajectoryPlanningError,
     interpolate_pose_mm_deg,
     plan_cartesian_route_speeds,
+    plan_cartesian_route_speeds_endpoint,
     preflight_cartesian_route,
 )
 
@@ -180,3 +181,56 @@ def test_controller_preflight_does_not_hide_non_c24_failure() -> None:
             [-1.0],
         )
 
+
+
+class FlipMidArm:
+    """IK stable at segment endpoints but flips its branch for interior samples."""
+
+    def __init__(self, gain_deg_per_mm: float = 1.0) -> None:
+        self.gain = gain_deg_per_mm
+
+    def get_inverse_kinematics(self, pose, **kwargs):
+        x = float(pose[0])
+        joint_1 = self.gain * x
+        if 0.0 < x < 200.0:
+            joint_1 += 90.0
+        return 0, [joint_1, 0.0, 0.0, 0.0, 0.0, float(pose[5])]
+
+
+def test_endpoint_planner_survives_interior_branch_flips() -> None:
+    arm = FlipMidArm()
+    plans = plan_cartesian_route_speeds_endpoint(
+        arm,
+        start_pose_mm_deg=[0, 0, 0, 0, 0, 0],
+        start_joint_angles_deg=[0] * 6,
+        requests=[request(speed=100.0, acceleration=100.0)],
+        joint_velocity_limit_deg_s=180.0,
+        joint_acceleration_limit_deg_s2=1000.0,
+        config=JointConstraintConfig(max_translation_step_mm=5.0),
+    )
+    assert len(plans) == 1
+    assert plans[0].limiting_velocity_joint == 1
+    assert plans[0].sample_count == 2
+
+
+def test_dense_planner_rejects_interior_flips_while_endpoint_succeeds() -> None:
+    with pytest.raises(TrajectoryPlanningError):
+        plan_cartesian_route_speeds(
+            FlipMidArm(),
+            start_pose_mm_deg=[0, 0, 0, 0, 0, 0],
+            start_joint_angles_deg=[0] * 6,
+            requests=[request()],
+            joint_velocity_limit_deg_s=180.0,
+            joint_acceleration_limit_deg_s2=1000.0,
+            config=JointConstraintConfig(max_translation_step_mm=5.0),
+        )
+    plans = plan_cartesian_route_speeds_endpoint(
+        FlipMidArm(),
+        start_pose_mm_deg=[0, 0, 0, 0, 0, 0],
+        start_joint_angles_deg=[0] * 6,
+        requests=[request()],
+        joint_velocity_limit_deg_s=180.0,
+        joint_acceleration_limit_deg_s2=1000.0,
+        config=JointConstraintConfig(max_translation_step_mm=5.0),
+    )
+    assert len(plans) == 1

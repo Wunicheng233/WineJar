@@ -277,6 +277,72 @@ def plan_cartesian_route_speeds(
     return plans
 
 
+def plan_cartesian_route_speeds_endpoint(
+    arm: Any,
+    start_pose_mm_deg: Sequence[float],
+    start_joint_angles_deg: Sequence[float],
+    requests: Sequence[CartesianSegmentRequest],
+    joint_velocity_limit_deg_s: float | Sequence[float],
+    joint_acceleration_limit_deg_s2: float | Sequence[float],
+    config: JointConstraintConfig | None = None,
+) -> list[SegmentSpeedPlan]:
+    """Reduced-fidelity fallback: linear joint interpolation between endpoint IK
+    solutions.
+
+    The dense per-sample IK sampling is fragile near the wrist singularity of
+    the home pose (roll ~178.5 deg): the controller's solver intermittently
+    flips its J4/J6 branch for nearly identical inputs. This fallback solves
+    IK only at the segment endpoints (each anchored to the previous endpoint),
+    so it cannot drift onto a flipped branch mid-segment. The cost is losing
+    the curvature caps from interior samples; the controller no-motion
+    preflight and runtime joint-limit enforcement still apply.
+    """
+    config = config or JointConstraintConfig()
+    velocity_limits = _joint_limit_array(
+        joint_velocity_limit_deg_s,
+        config.joint_count,
+        "joint_velocity_limit_deg_s",
+    )
+    acceleration_limits = _joint_limit_array(
+        joint_acceleration_limit_deg_s2,
+        config.joint_count,
+        "joint_acceleration_limit_deg_s2",
+    )
+    pose = np.asarray(start_pose_mm_deg, dtype=float)
+    angles = np.asarray(start_joint_angles_deg, dtype=float)[: config.joint_count]
+    if pose.shape != (6,) or angles.shape != (config.joint_count,):
+        raise ValueError("Invalid start pose or joint-angle vector")
+
+    plans: list[SegmentSpeedPlan] = []
+    for request in requests:
+        target = np.asarray(request.target_pose_mm_deg, dtype=float)
+        if target.shape != (6,):
+            raise ValueError(f"Invalid target pose for {request.label!r}")
+        # Anchor the endpoint solve to the previous endpoint's angles. Unlike the
+        # dense sampler there is no per-step continuity check: a whole segment
+        # can legitimately move a joint far more than max_joint_step_deg, and a
+        # flipped branch merely yields a conservative speed estimate that the
+        # controller preflight and runtime limits still guard.
+        end_angles = _solve_ik(arm, target.tolist(), angles, config.joint_count)
+        samples = np.vstack([angles, end_angles])
+        distance = float(np.linalg.norm(target[:3] - pose[:3]))
+        rotation = float(np.max(np.abs(wrapped_delta_deg(target[3:], pose[3:]))))
+        plan = _plan_segment(
+            samples,
+            request,
+            distance,
+            rotation,
+            2,
+            velocity_limits,
+            acceleration_limits,
+            config,
+        )
+        plans.append(plan)
+        pose = target
+        angles = end_angles
+    return plans
+
+
 def _api_code(result: Any) -> int:
     code = result[0] if isinstance(result, (tuple, list)) else result
     return 0 if code is None else int(code)

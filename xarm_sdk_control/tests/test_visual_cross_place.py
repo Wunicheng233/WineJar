@@ -777,3 +777,53 @@ def test_execute_route_detects_suction_lost_after_lift() -> None:
     assert holding["value"] is True
     names = [name for name, _details in timeline.events]
     assert "leaf_1.suction_lost" in names
+
+
+def test_route_planning_falls_back_to_endpoint_interpolation(monkeypatch) -> None:
+    class FakeArm:
+        joint_speed_limit = (None, 100.0)
+        joint_acc_limit = (None, 200.0)
+
+    route = [
+        ("lift", [500.0, 60.0, 118.0, 178.0, 0.0, 0.0], "loaded_vertical", None),
+    ]
+    calls = {"endpoint": 0}
+
+    def always_fail(arm, start_pose, start_angles, requests, **kwargs):
+        raise MOTION.TrajectoryPlanningError("IK discontinuity on joint 4")
+
+    def fake_endpoint(arm, start_pose, start_angles, requests, **kwargs):
+        calls["endpoint"] += 1
+        return [
+            MOTION.SegmentSpeedPlan(
+                label=r.label,
+                sample_count=2,
+                translation_distance_mm=100.0,
+                rotation_distance_deg=0.0,
+                requested_speed_mm_s=r.requested_speed_mm_s,
+                planned_speed_mm_s=r.requested_speed_mm_s,
+                requested_acceleration_mm_s2=r.requested_acceleration_mm_s2,
+                planned_acceleration_mm_s2=r.requested_acceleration_mm_s2,
+                predicted_peak_joint_speed_deg_s=10.0,
+                predicted_peak_joint_acceleration_deg_s2=20.0,
+                limiting_velocity_joint=1,
+                limiting_acceleration_joint=1,
+                end_joint_angles_deg=[0.0] * 6,
+            )
+            for r in requests
+        ]
+
+    monkeypatch.setattr(MOTION, "plan_cartesian_route_speeds", always_fail)
+    monkeypatch.setattr(MOTION, "plan_cartesian_route_speeds_endpoint", fake_endpoint)
+    monkeypatch.setattr(MOTION, "preflight_cartesian_route", lambda *a, **k: None)
+
+    plans = MOTION.plan_route_motion_profile(
+        FakeArm(),
+        [400.0, 60.0, 118.0, 178.0, 0.0, 0.0],
+        [0.0] * 6,
+        route,
+        motion_args(),
+    )
+
+    assert calls["endpoint"] == 1
+    assert len(plans) == 1

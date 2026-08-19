@@ -35,6 +35,7 @@ from xarm_sdk_control.trajectory_speed_planner import (
     SegmentSpeedPlan,  # noqa: F401  (re-exported for tests)
     TrajectoryPlanningError,
     plan_cartesian_route_speeds,
+    plan_cartesian_route_speeds_endpoint,
     preflight_cartesian_route,
 )
 from xarm_sdk_control.vacuum_control import VacuumController
@@ -285,8 +286,25 @@ def plan_route_motion_profile(
             last_error = exc
             print(f"WARNING: joint-aware route estimation attempt {attempt} failed ({exc}); retrying.")
     if motion_plans is None:
+        # Degrade to the endpoint interpolation planner: the dense sampling is
+        # fragile near the wrist singularity of the home pose, and repeated
+        # failures for a given geometry are usually branch flips rather than
+        # an invalid route. The controller preflight below still validates the
+        # final plan.
         assert last_error is not None
-        raise last_error
+        print(
+            "WARNING: dense joint-aware estimation failed repeatedly; "
+            "falling back to endpoint interpolation."
+        )
+        motion_plans = plan_cartesian_route_speeds_endpoint(
+            arm,
+            start_pose,
+            start_angles,
+            motion_requests,
+            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
+            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
+            config=config,
+        )
     blend_radii = route_blend_radii(route, args.blend_radius_mm)
     preflight_status = "skipped"
     preflight_error: str | None = None
