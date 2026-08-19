@@ -32,6 +32,7 @@ from xarm_sdk_control.trajectory_speed_planner import (
     CartesianSegmentRequest,
     JointConstraintConfig,
     SegmentSpeedPlan,  # noqa: F401  (re-exported for tests)
+    TrajectoryPlanningError,
     plan_cartesian_route_speeds,
     preflight_cartesian_route,
 )
@@ -259,15 +260,32 @@ def plan_route_motion_profile(
         previous_pose = request.target_pose_mm_deg
 
     motion_requests = [requests[index] for index in motion_indices]
-    motion_plans = plan_cartesian_route_speeds(
-        arm,
-        start_pose,
-        start_angles,
-        motion_requests,
-        joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
-        joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
-        config=config,
-    )
+    try:
+        motion_plans = plan_cartesian_route_speeds(
+            arm,
+            start_pose,
+            start_angles,
+            motion_requests,
+            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
+            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
+            config=config,
+        )
+    except TrajectoryPlanningError:
+        # The xArm IK occasionally flips its J4/J6 branch near the roll
+        # singularity of the home pose (identical inputs can yield a 160+ deg
+        # discontinuity between adjacent samples). Retry the estimation once;
+        # the controller no-motion preflight below still validates the final
+        # plan strictly.
+        print("WARNING: joint-aware route estimation hit an IK discontinuity; retrying once.")
+        motion_plans = plan_cartesian_route_speeds(
+            arm,
+            start_pose,
+            start_angles,
+            motion_requests,
+            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
+            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
+            config=config,
+        )
     blend_radii = route_blend_radii(route, args.blend_radius_mm)
     if run_controller_preflight:
         preflight_cartesian_route(
