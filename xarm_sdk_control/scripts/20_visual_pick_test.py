@@ -25,6 +25,7 @@ from xarm_sdk_control.pick_test_workflow import (  # noqa: E402
     profile_for,
     resolve_pick_test_settings,
 )
+from xarm_sdk_control.cross_place_retry import DEFAULT_RETRY_OFFSETS_MM  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
 from xarm_sdk_control.cli_utils import (  # noqa: E402
@@ -63,7 +64,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--run", action="store_true", help="Enable robot motion; default is camera/route dry-run.")
     parser.add_argument(
         "--material",
-        choices=("ceramic", "lotus-leaf", "paper"),
+        choices=("ceramic", "lotus-leaf", "paper", "bamboo"),
         default="ceramic",
         help="Which material to pick and return; drives the vision prompt and per-material defaults.",
     )
@@ -260,50 +261,95 @@ def main() -> int:
 
             assert arm is not None and vacuum is not None
             print(f"\n=== {args.material} {index}/{len(items)} at {source_mm} ===")
-            try:
-                execute_pick_test_route(
-                    arm,
-                    vacuum,
-                    route,
-                    args,
-                    holding_state,
-                    label_prefix=f"disk {index} ",
-                    suction_sensor=sensor,
-                )
-            except SuctionNotConfirmedError as exc:
-                print(f"\nSUCTION NOT CONFIRMED for item {index} ({args.material}): {exc}")
-                timeline.mark(
-                    f"{cycle_name}.suction_failed",
-                    elapsed_seconds=exc.elapsed_seconds,
-                    timeout_seconds=exc.timeout_seconds,
-                    last_value=exc.last_value,
+            attempts = []
+            last_error: SuctionNotConfirmedError | None = None
+            for attempt in range(1, 4):
+                offset_x_mm, offset_y_mm = DEFAULT_RETRY_OFFSETS_MM[(attempt - 1) % len(DEFAULT_RETRY_OFFSETS_MM)]
+                attempt_point_m = [
+                    source_point_m[0] + offset_x_mm / 1000.0,
+                    source_point_m[1] + offset_y_mm / 1000.0,
+                    source_point_m[2],
+                ]
+                attempt_mm = (np.asarray(attempt_point_m, dtype=float) * 1000.0).round(2).tolist()
+                if attempt > 1:
+                    print(f"RETRY attempt {attempt}: offset [{offset_x_mm:+.1f}, {offset_y_mm:+.1f}] mm -> {attempt_mm}")
+                    route = build_pick_test_route(
+                        home_pose_mm_deg=list(map(float, home_pose)),
+                        source_point_m=attempt_point_m,
+                        profile=profile,
+                        compression_mm=compression_mm,
+                        approach_clearance_mm=args.approach_clearance_mm,
+                        release_clearance_mm=args.release_clearance_mm,
+                        inspection_event="hold",
+                    )
+                    safety = route_safety_report([step.pose_mm_deg for step in route], args)
+                    if not safety["all_ok"]:
+                        raise RuntimeError(f"Item {index} retry route is outside explicit workspace limits")
+                try:
+                    execute_pick_test_route(
+                        arm,
+                        vacuum,
+                        route,
+                        args,
+                        holding_state,
+                        label_prefix=f"disk {index} ",
+                        suction_sensor=sensor,
+                    )
+                except SuctionNotConfirmedError as exc:
+                    last_error = exc
+                    print(f"\nSUCTION NOT CONFIRMED on attempt {attempt}: {exc}")
+                    timeline.mark(
+                        f"{cycle_name}.suction_failed",
+                        attempt=attempt,
+                        offset_mm=[offset_x_mm, offset_y_mm],
+                        elapsed_seconds=exc.elapsed_seconds,
+                        timeout_seconds=exc.timeout_seconds,
+                        last_value=exc.last_value,
+                    )
+                    attempts.append(
+                        {
+                            "attempt": attempt,
+                            "offset_mm": [offset_x_mm, offset_y_mm],
+                            "confirmed": False,
+                            "elapsed_seconds": exc.elapsed_seconds,
+                            "timeout_seconds": exc.timeout_seconds,
+                            "last_value": exc.last_value,
+                        }
+                    )
+                    holding_state["value"] = False  # the sensor proves nothing is held
+                    if vacuum is not None:
+                        vacuum.safe_shutdown()
+                    continue
+                confirmed_at = sensor.last_wait
+                attempts.append(
+                    {
+                        "attempt": attempt,
+                        "offset_mm": [offset_x_mm, offset_y_mm],
+                        "confirmed": True,
+                        "elapsed_seconds": confirmed_at.elapsed_seconds if confirmed_at else None,
+                    }
                 )
                 disk_records[-1]["suction"] = {
-                    "confirmed": False,
-                    "elapsed_seconds": exc.elapsed_seconds,
-                    "timeout_seconds": exc.timeout_seconds,
-                    "last_value": exc.last_value,
+                    "confirmed": True,
+                    "attempt": attempt,
+                    "elapsed_seconds": confirmed_at.elapsed_seconds if confirmed_at else None,
                 }
-                holding_state["value"] = False  # the sensor proves nothing is held
-                if vacuum is not None:
-                    vacuum.safe_shutdown()
+                break
+            else:
+                assert last_error is not None
+                disk_records[-1]["suction"] = {"confirmed": False, "attempts": attempts}
                 result = {
                     "status": "failed",
                     "run_mode": bool(args.run),
                     "material": args.material,
-                    "error": str(exc),
+                    "error": str(last_error),
                     "items": disk_records,
                     "picked_count": index - 1,
                     "timing": timeline.to_dict(productive_start="productive_cycle_started"),
                 }
                 write_json_report(run_dir, result)
                 return 2
-            if sensor.last_wait is not None:
-                disk_records[-1]["suction"] = {
-                    "confirmed": True,
-                    "elapsed_seconds": sensor.last_wait.elapsed_seconds,
-                    "timeout_seconds": sensor.last_wait.timeout_seconds,
-                }
+            disk_records[-1]["suction_attempts"] = attempts
             timeline.mark(f"{cycle_name}.pick_complete")
 
         if vacuum is not None:
