@@ -5,7 +5,7 @@ from __future__ import annotations
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Callable, Literal
+from typing import Any, Callable, Literal, Sequence
 
 import numpy as np
 
@@ -34,6 +34,12 @@ from xarm_sdk_control.visual_targeting import run_scan
 RetryAction = Literal["proceed", "recover_retry", "abort"]
 
 RetrySelect = Callable[[list[dict[str, Any]], list[float]], dict[str, Any]]
+
+DEFAULT_RETRY_OFFSETS_MM: tuple[tuple[float, float], ...] = (
+    (0.0, 0.0),
+    (0.0, -5.0),
+    (5.0, 0.0),
+)
 
 
 def select_nearest_of_kind(
@@ -310,6 +316,7 @@ def run_leaf_pick_with_retry(
     retry_select: RetrySelect | None = None,
     compression_mm: float | None = None,
     cycle_prefix: str | None = None,
+    retry_offsets_mm: Sequence[tuple[float, float]] = DEFAULT_RETRY_OFFSETS_MM,
 ) -> LeafPickOutcome:
     """Pick one object with verification, recovery, and bounded retries.
 
@@ -353,6 +360,14 @@ def run_leaf_pick_with_retry(
                     args.max_second_source_shift_mm / 1000.0,
                 )
             target_m = list(map(float, retry_target["point_base_m"]))
+        # Vary the suction point per attempt: re-pressing the exact same spot
+        # reproduces the same failed seal. Small offsets probe nearby spots.
+        offset_x_mm, offset_y_mm = retry_offsets_mm[(attempt_number - 1) % len(retry_offsets_mm)]
+        target_m = [
+            target_m[0] + offset_x_mm / 1000.0,
+            target_m[1] + offset_y_mm / 1000.0,
+            target_m[2],
+        ]
         require_distinct_pick_and_place_targets(target_m, placement_target_m)
 
         pose_code, start_pose = arm.get_position(is_radian=False)
@@ -408,6 +423,7 @@ def run_leaf_pick_with_retry(
             "attempt": attempt_number,
             "targeting_frame": str(targeting_frame) if targeting_frame is not None else None,
             "source_point_base_m": target_m,
+            "pick_offset_mm": [offset_x_mm, offset_y_mm],
             "route": route,
             "safety": safety,
             "joint_speed_planning_seconds": planning_seconds,
