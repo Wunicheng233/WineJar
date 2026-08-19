@@ -262,32 +262,31 @@ def plan_route_motion_profile(
         previous_pose = request.target_pose_mm_deg
 
     motion_requests = [requests[index] for index in motion_indices]
-    try:
-        motion_plans = plan_cartesian_route_speeds(
-            arm,
-            start_pose,
-            start_angles,
-            motion_requests,
-            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
-            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
-            config=config,
-        )
-    except TrajectoryPlanningError:
-        # The xArm IK occasionally flips its J4/J6 branch near the roll
-        # singularity of the home pose (identical inputs can yield a 160+ deg
-        # discontinuity between adjacent samples). Retry the estimation once;
-        # the controller no-motion preflight below still validates the final
-        # plan strictly.
-        print("WARNING: joint-aware route estimation hit an IK discontinuity; retrying once.")
-        motion_plans = plan_cartesian_route_speeds(
-            arm,
-            start_pose,
-            start_angles,
-            motion_requests,
-            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
-            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
-            config=config,
-        )
+    motion_plans: list[SegmentSpeedPlan] | None = None
+    last_error: TrajectoryPlanningError | None = None
+    for attempt in range(1, 4):
+        try:
+            motion_plans = plan_cartesian_route_speeds(
+                arm,
+                start_pose,
+                start_angles,
+                motion_requests,
+                joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
+                joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
+                config=config,
+            )
+            break
+        except TrajectoryPlanningError as exc:
+            # The xArm IK occasionally flips its J4/J6 branch near the roll
+            # singularity of the home pose (identical inputs can yield a 160+
+            # deg discontinuity). Each re-estimation resolves the IK chain
+            # independently; the controller preflight below still validates
+            # the final plan strictly.
+            last_error = exc
+            print(f"WARNING: joint-aware route estimation attempt {attempt} failed ({exc}); retrying.")
+    if motion_plans is None:
+        assert last_error is not None
+        raise last_error
     blend_radii = route_blend_radii(route, args.blend_radius_mm)
     preflight_status = "skipped"
     preflight_error: str | None = None

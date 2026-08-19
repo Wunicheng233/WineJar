@@ -149,6 +149,12 @@ def _sample_segment(
         angles = _solve_ik(arm, pose, reference, config.joint_count)
         joint_step = np.abs(angles - reference)
         if float(np.max(joint_step)) > config.max_joint_step_deg:
+            # The xArm IK occasionally jumps to a different branch near the
+            # roll singularity of the home pose; a second solve with the same
+            # reference often converges to the continuous branch.
+            angles = _solve_ik(arm, pose, reference, config.joint_count)
+            joint_step = np.abs(angles - reference)
+        if float(np.max(joint_step)) > config.max_joint_step_deg:
             joint = int(np.argmax(joint_step)) + 1
             raise TrajectoryPlanningError(
                 f"IK discontinuity on joint {joint}: {joint_step[joint - 1]:.1f} deg between adjacent samples"
