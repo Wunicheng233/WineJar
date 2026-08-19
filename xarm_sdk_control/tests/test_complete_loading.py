@@ -24,23 +24,29 @@ def test_parse_args_defaults(monkeypatch) -> None:
     assert args.first_place_yaw_offset_deg == 45.0
     assert args.second_place_yaw_offset_deg == -60.0
     assert args.max_legs == 5
+    assert args.max_pick_attempts == 3
     assert args.intermediate_home is False
     assert args.min_score == 0.35
     assert args.second_scan_min_score == 0.20
 
 
-def test_run_requires_sensor_confirmation(monkeypatch) -> None:
-    monkeypatch.setattr(MODULE.sys, "argv", ["21_complete_loading.py", "--run"])
-    assert MODULE.main() == 2
-
-
 def test_run_requires_workspace_limits(monkeypatch) -> None:
+    monkeypatch.setattr(MODULE.sys, "argv", ["21_complete_loading.py", "--run"])
+    assert MODULE.main() == 3
+
+
+def test_confirm_no_pressure_sensor_flag_is_rejected(monkeypatch) -> None:
     monkeypatch.setattr(
         MODULE.sys,
         "argv",
-        ["21_complete_loading.py", "--run", "--confirm-no-pressure-sensor"],
+        ["21_complete_loading.py", "--confirm-no-pressure-sensor"],
     )
-    assert MODULE.main() == 3
+    try:
+        MODULE.parse_args()
+    except SystemExit:
+        pass
+    else:
+        raise AssertionError("--confirm-no-pressure-sensor must be rejected")
 
 
 def _reject_argv(monkeypatch, argv: list[str], expected: str) -> None:

@@ -10,7 +10,6 @@ def test_parse_args_defaults(monkeypatch) -> None:
     monkeypatch.setattr(MODULE.sys, "argv", ["20_visual_pick_test.py"])
     args = MODULE.parse_args()
     assert args.run is False
-    assert args.confirm_no_pressure_sensor is False
     assert args.material == "ceramic"
     assert args.compression_mm is None
     assert args.test_lift_mm is None
@@ -47,27 +46,22 @@ def test_material_choices_reject_unknown(monkeypatch) -> None:
 
 
 def test_run_requires_workspace_limits(monkeypatch) -> None:
-    monkeypatch.setattr(
-        MODULE.sys,
-        "argv",
-        ["20_visual_pick_test.py", "--run", "--confirm-no-pressure-sensor"],
-    )
+    monkeypatch.setattr(MODULE.sys, "argv", ["20_visual_pick_test.py", "--run"])
     assert MODULE.main() == 3
 
 
-def test_run_requires_pressure_sensor_confirmation(monkeypatch) -> None:
+def test_confirm_no_pressure_sensor_flag_is_rejected(monkeypatch) -> None:
     monkeypatch.setattr(
         MODULE.sys,
         "argv",
-        [
-            "20_visual_pick_test.py",
-            "--run",
-            "--min-x-mm", "-1000", "--max-x-mm", "1000",
-            "--min-y-mm", "-1000", "--max-y-mm", "1000",
-            "--min-z-mm", "-1000", "--max-z-mm", "1000",
-        ],
+        ["20_visual_pick_test.py", "--confirm-no-pressure-sensor"],
     )
-    assert MODULE.main() == 2
+    try:
+        MODULE.parse_args()
+    except SystemExit:
+        pass
+    else:
+        raise AssertionError("--confirm-no-pressure-sensor must be rejected")
 
 
 def _reject_argv(monkeypatch, argv: list[str], expected: str) -> None:

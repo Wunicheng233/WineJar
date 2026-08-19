@@ -46,12 +46,17 @@ from xarm_sdk_control.cross_place_motion import (  # noqa: E402
     accumulated_layer_heights_mm,
     build_cycle_route,
     choose_second_source_leaf,
-    execute_route,
     offset_detection,
     plan_route_motion_profile,
     require_distinct_pick_and_place_targets,
     validate_motion_profile,
 )
+from xarm_sdk_control.cross_place_retry import (  # noqa: E402
+    AllPickAttemptsFailedError,
+    run_leaf_pick_with_retry,
+    select_nearest_of_kind,
+)
+from xarm_sdk_control.suction_sensor import SuctionSensor  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     DEFAULT_VISION_SOCKET,
@@ -68,6 +73,19 @@ POSITION_BIAS_CONFIG = ROOT / "config" / "visual_position_bias.json"
 JAR_POSITION_CONFIG = ROOT / "config" / "jar_position.yaml"
 OUTPUT_ROOT = ROOT / "data" / "complete_loading"
 END_EFFECTOR = load_end_effector_config()
+
+# Per-material retry targeting: single-kind materials keep the 80 mm near-source
+# gate via select_nearest_of_kind; shells keep choose_second_source_leaf (None).
+RETRY_TARGETING: dict[str, tuple[str, Any | None]] = {
+    "lotus": ("lotus leaf.", lambda dets, ref: select_nearest_of_kind(
+        "lotus", dets, ref, 80.0 / 1000.0, display_name="lotus leaf")),
+    "paper": ("white paper.", lambda dets, ref: select_nearest_of_kind(
+        "paper", dets, ref, 80.0 / 1000.0, display_name="white paper")),
+    "ceramic": ("ceramic disk.", lambda dets, ref: select_nearest_of_kind(
+        "ceramic", dets, ref, 80.0 / 1000.0, display_name="ceramic disk")),
+    "shell_1": ("bamboo leaf.", None),
+    "shell_2": ("bamboo leaf.", None),
+}
 
 
 def load_jar_point_mm(args: argparse.Namespace) -> list[float]:
@@ -89,7 +107,6 @@ def load_jar_point_mm(args: argparse.Namespace) -> list[float]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true")
-    parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     add_vision_common_args(parser, latest_global_calibration(), min_score_default=0.35)
     parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
     parser.add_argument("--require-vision-service", action="store_true")
@@ -126,6 +143,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--allow-validated-clipped-leaf", action="store_true")
     parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])
     parser.add_argument(
+        "--max-pick-attempts",
+        type=int,
+        default=3,
+        help="Pick attempts per leg including retries (1-3).",
+    )
+    parser.add_argument(
         "--max-legs",
         type=int,
         default=5,
@@ -145,9 +168,6 @@ def main() -> int:
     args = parse_args()
     timeline = TaskTimeline()
     timeline.mark("program_started")
-    if args.run and not args.confirm_no_pressure_sensor:
-        print("ERROR: --run requires --confirm-no-pressure-sensor")
-        return 2
     limits = (args.min_x_mm, args.max_x_mm, args.min_y_mm, args.max_y_mm, args.min_z_mm, args.max_z_mm)
     if args.run and any(value is None for value in limits):
         print("ERROR: --run requires explicit min/max X, Y, and Z limits")
@@ -158,6 +178,8 @@ def main() -> int:
         raise ValueError("Vision confidence thresholds must remain within 0~1")
     if not 1 <= args.max_legs <= 5:
         raise ValueError("--max-legs must be within 1~5")
+    if not 1 <= args.max_pick_attempts <= 3:
+        raise ValueError("--max-pick-attempts must be within 1~3")
     for label, value in (
         ("lotus compression", args.lotus_compression_mm),
         ("paper compression", args.paper_compression_mm),
@@ -229,7 +251,7 @@ def main() -> int:
             select_single_of_kind("lotus", first_detections, display_name="lotus leaf"),
             position_bias_m,
         )
-        _shell_frame, shell_detections = run_scan(
+        shell_frame, shell_detections = run_scan(
             run_dir / "scan_2" / "captures",
             base_t_camera,
             args.vision_env,
@@ -284,6 +306,12 @@ def main() -> int:
 
         vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
         vacuum.configure()
+        if END_EFFECTOR.suction_sensor is None:
+            raise RuntimeError(
+                "Suction confirmation is mandatory: add a suction_sensor section to "
+                "config/end_effector.yaml (input_channel, success_value, debounce_seconds, timeout_seconds)."
+            )
+        sensor = SuctionSensor(arm, END_EFFECTOR.suction_sensor)
 
         for leg_index, (material, yaw_deg, compression_mm, _thickness_mm) in enumerate(
             legs[: args.max_legs], start=1
@@ -292,8 +320,9 @@ def main() -> int:
             timeline.mark(f"{cycle_name}.pick_started")
             if material == "lotus":
                 source = lotus
+                leg_frame = first_frame
             elif material == "paper":
-                _paper_frame, paper_dets = run_scan(
+                paper_frame, paper_dets = run_scan(
                     run_dir / "scan_3" / "captures",
                     base_t_camera,
                     args.vision_env,
@@ -309,8 +338,9 @@ def main() -> int:
                     select_single_of_kind("paper", paper_dets, display_name="white paper"),
                     position_bias_m,
                 )
+                leg_frame = paper_frame
             elif material == "ceramic":
-                _ceramic_frame, ceramic_dets = run_scan(
+                ceramic_frame, ceramic_dets = run_scan(
                     run_dir / "scan_4" / "captures",
                     base_t_camera,
                     args.vision_env,
@@ -326,10 +356,12 @@ def main() -> int:
                     select_single_of_kind("ceramic", ceramic_dets, display_name="ceramic disk"),
                     position_bias_m,
                 )
+                leg_frame = ceramic_frame
             elif material == "shell_1":
                 source = shell1
+                leg_frame = shell_frame
             else:  # shell_2
-                _shell2_frame, shell2_dets = run_scan(
+                shell2_frame, shell2_dets = run_scan(
                     run_dir / "scan_5" / "captures",
                     base_t_camera,
                     args.vision_env,
@@ -348,59 +380,55 @@ def main() -> int:
                     args.allow_validated_clipped_leaf,
                     args.max_second_source_shift_mm / 1000.0,
                 )
+                leg_frame = shell2_frame
             require_distinct_pick_and_place_targets(source["point_base_m"], jar_mouth_point_m)
 
-            if leg_index == 1 or args.intermediate_home:
-                start_pose = None
-            else:
-                pose_code, start_pose = arm.get_position(is_radian=False)
-                require_code(f"get waiting pose before {material} leg", (pose_code, start_pose))
-            route = build_cycle_route(
-                home_pose,
-                source["point_base_m"],
-                jar_mouth_point_m,
-                yaw_deg,
-                args.transport_clearance_mm,
-                args.approach_clearance_mm,
-                compression_mm,
-                args.release_clearance_mm,
-                heights[leg_index - 1],
-                start_pose=start_pose,
-                return_home=(leg_index == len(legs[: args.max_legs]) or args.intermediate_home),
-                precontact_clearance_mm=args.precontact_clearance_mm,
-                precision_lift_mm=args.precision_lift_mm,
-            )
-            safety = route_safety_report([item[1] for item in route], args)
-            if not safety["all_ok"]:
-                raise RuntimeError(f"{material} route is outside explicit workspace limits")
-
-            pose_code, leg_start_pose = arm.get_position(is_radian=False)
-            require_code(f"get pose for {material} route planning", (pose_code, leg_start_pose))
-            angles_code, leg_start_angles = arm.get_servo_angle(is_radian=False)
-            require_code(f"get joint angles for {material} route planning", (angles_code, leg_start_angles))
-            planning_started = time.perf_counter()
-            plans = plan_route_motion_profile(arm, leg_start_pose, leg_start_angles, route, args)
-            planning_seconds = time.perf_counter() - planning_started
-            timeline.mark(
-                f"{cycle_name}.route_planned",
-                planning_seconds=planning_seconds,
-                segment_count=len(plans),
-            )
-            records.append(
-                {
-                    "material": material,
-                    "leg": leg_index,
-                    "layer_height_mm": heights[leg_index - 1],
-                    "source_point_m": source["point_base_m"],
-                    "route": route,
-                    "safety": safety,
-                    "joint_speed_planning_seconds": planning_seconds,
-                    "joint_speed_plan": [plan.to_dict() for plan in plans],
-                    "controller_preflight": {"checks_run": 1, "passed": True},
-                }
-            )
+            retry_scan_prompt, retry_select = RETRY_TARGETING[material]
 
             if not args.run:
+                pose_code, leg_start_pose = arm.get_position(is_radian=False)
+                require_code(f"get pose for {material} route planning", (pose_code, leg_start_pose))
+                route = build_cycle_route(
+                    home_pose,
+                    source["point_base_m"],
+                    jar_mouth_point_m,
+                    yaw_deg,
+                    args.transport_clearance_mm,
+                    args.approach_clearance_mm,
+                    compression_mm,
+                    args.release_clearance_mm,
+                    heights[leg_index - 1],
+                    start_pose=list(map(float, leg_start_pose)),
+                    return_home=(leg_index == len(legs[: args.max_legs]) or args.intermediate_home),
+                    precontact_clearance_mm=args.precontact_clearance_mm,
+                    precision_lift_mm=args.precision_lift_mm,
+                )
+                safety = route_safety_report([item[1] for item in route], args)
+                if not safety["all_ok"]:
+                    raise RuntimeError(f"{material} route is outside explicit workspace limits")
+                angles_code, leg_start_angles = arm.get_servo_angle(is_radian=False)
+                require_code(f"get joint angles for {material} route planning", (angles_code, leg_start_angles))
+                planning_started = time.perf_counter()
+                plans = plan_route_motion_profile(arm, leg_start_pose, leg_start_angles, route, args)
+                planning_seconds = time.perf_counter() - planning_started
+                timeline.mark(
+                    f"{cycle_name}.route_planned",
+                    planning_seconds=planning_seconds,
+                    segment_count=len(plans),
+                )
+                records.append(
+                    {
+                        "material": material,
+                        "leg": leg_index,
+                        "layer_height_mm": heights[leg_index - 1],
+                        "source_point_m": source["point_base_m"],
+                        "route": route,
+                        "safety": safety,
+                        "joint_speed_planning_seconds": planning_seconds,
+                        "joint_speed_plan": [plan.to_dict() for plan in plans],
+                        "controller_preflight": {"checks_run": 1, "passed": True},
+                    }
+                )
                 require_code("stop robot after no-motion preflight", arm.set_state(4))
                 controller_ready = False
                 print(
@@ -409,17 +437,42 @@ def main() -> int:
                 )
                 return 0
 
-            execute_route(
-                arm,
-                vacuum,
-                route,
-                args,
-                holding_state,
-                timeline,
-                cycle_name,
-                plans,
+            outcome = run_leaf_pick_with_retry(
+                leaf_index=leg_index,
+                arm=arm,
+                vacuum=vacuum,
+                home_pose=home_pose,
+                placement_target_m=jar_mouth_point_m,
+                initial_target_m=source["point_base_m"],
+                source_stack_reference_m=(
+                    shell1["point_base_m"] if material == "shell_2" else source["point_base_m"]
+                ),
+                place_yaw_offset_deg=yaw_deg,
+                layer_height_mm=heights[leg_index - 1],
+                return_home=(leg_index == len(legs[: args.max_legs]) or args.intermediate_home),
+                args=args,
+                holding_state=holding_state,
+                timeline=timeline,
+                run_dir=run_dir,
+                base_t_camera=base_t_camera,
+                position_bias_m=position_bias_m,
+                camera=camera,
+                initial_targeting_frame=leg_frame,
+                suction_sensor=sensor,
+                inspection_event=None,
+                retry_scan_prompt=retry_scan_prompt,
+                retry_select=retry_select,
+                compression_mm=compression_mm,
+                cycle_prefix=cycle_name,
             )
-            timeline.mark(f"{cycle_name}.cycle_complete")
+            record = outcome.cycle_record()
+            record.update(
+                {"material": material, "leg": leg_index, "layer_height_mm": heights[leg_index - 1]}
+            )
+            records.append(record)
+            if not outcome.success:
+                raise AllPickAttemptsFailedError(leg_index, outcome)
+            timeline.mark(f"{cycle_name}.cycle_complete", attempts_used=len(outcome.attempts))
             print(f"Leg {leg_index}/{len(legs[: args.max_legs])} ({material}) complete.")
 
         vacuum.safe_shutdown()
@@ -491,6 +544,36 @@ def main() -> int:
             )
         elif vacuum is not None:
             vacuum.safe_shutdown()
+        extra: dict[str, Any] | None = None
+        if isinstance(exc, AllPickAttemptsFailedError):
+            final_status = (
+                exc.outcome.final_verification.status
+                if exc.outcome.final_verification is not None
+                else None
+            )
+            extra = {
+                "pick_verification_failed": {
+                    "leg": exc.leaf_index,
+                    "attempts_used": exc.attempts_used,
+                    "final_status": final_status,
+                }
+            }
+            result_path = write_json_report(
+                run_dir,
+                {
+                    "status": "failed",
+                    "error_type": type(exc).__name__,
+                    "error_message": str(exc),
+                    "jar": {
+                        "teach_point_mm": jar_point_mm,
+                        "target_base_m": jar_mouth_point_m,
+                    },
+                    "timing": timeline.to_dict(productive_start="productive_cycle_started"),
+                    "cycles": records,
+                },
+                name="result.json",
+            )
+            print(f"Saved result: {result_path}", file=sys.stderr)
         failure_path = write_failure_report(
             run_dir,
             exc,
@@ -499,8 +582,11 @@ def main() -> int:
             productive_start="productive_cycle_started",
             completed_records=records,
             robot_snapshot=robot_status_snapshot(arm) if arm is not None else None,
+            extra=extra,
         )
         print(f"Saved failure report: {failure_path}", file=sys.stderr)
+        if isinstance(exc, AllPickAttemptsFailedError):
+            return 2
         raise
     finally:
         if arm is not None:

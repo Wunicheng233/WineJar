@@ -299,8 +299,18 @@ def test_verify_pick_requires_run(monkeypatch) -> None:
     _reject_argv(monkeypatch, ["--verify-pick"], "--verify-pick requires --run")
 
 
-def test_simulate_first_pick_failure_requires_verify_pick(monkeypatch) -> None:
-    _reject_argv(monkeypatch, ["--simulate-first-pick-failure"], "requires --verify-pick")
+def test_confirm_no_pressure_sensor_flag_is_rejected(monkeypatch) -> None:
+    monkeypatch.setattr(
+        MODULE.sys,
+        "argv",
+        ["19_visual_cross_place_two_leaves.py", "--confirm-no-pressure-sensor"],
+    )
+    try:
+        MODULE.parse_args()
+    except SystemExit:
+        pass
+    else:
+        raise AssertionError("--confirm-no-pressure-sensor must be rejected")
 
 
 def test_max_pick_attempts_must_stay_within_three(monkeypatch) -> None:
@@ -312,8 +322,6 @@ def test_simulated_failure_needs_at_least_two_attempts(monkeypatch) -> None:
         monkeypatch,
         [
             "--run",
-            "--confirm-no-pressure-sensor",
-            "--verify-pick",
             "--simulate-first-pick-failure",
             "--max-pick-attempts",
             "1",

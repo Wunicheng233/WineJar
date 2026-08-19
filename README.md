@@ -57,7 +57,7 @@ pip install -r vision/requirements-sam2.txt
 - `CO0`：真空泵继电器
 - `CO1`：真空/放气通路电磁阀
 - 当前单吸盘 TCP：法兰中心轴向下 `120 mm`
-- 当前没有真空压力传感器
+- ZSE30A-01-N 真空压力开关接 xArm CI0（NPN，三线）：CI0=0 表示真空达标（吸起成功），CI0=1 表示无真空
 
 GPIO 真值表：
 
@@ -125,7 +125,7 @@ python xarm_sdk_control/scripts/21_complete_loading.py \
   --min-z-mm -85 --max-z-mm 500
 
 python xarm_sdk_control/scripts/21_complete_loading.py \
-  --run --confirm-no-pressure-sensor \
+  --run \
   --require-vision-service \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
@@ -133,15 +133,14 @@ python xarm_sdk_control/scripts/21_complete_loading.py \
 ```
 
 调试可用 `--max-legs N`（1-5）只执行前 N 段，`--intermediate-home` 每段回位。
-压力传感器到货后：吸起确认将由压力信号驱动（复用已有恢复+重试循环），并移除
-`--confirm-no-pressure-sensor` 门。
+吸起确认由真空压力开关驱动（CI0 去抖 50ms、超时 2s）：泵开后未确认 → 自动放气、
+恢复、重规划并重试（--max-pick-attempts 默认 3）；全部失败则安全中止（退出码 2）。
 
 两片竹壳交叉放置：
 
 ```bash
 python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
   --run \
-  --confirm-no-pressure-sensor \
   --require-vision-service \
   --allow-validated-clipped-leaf \
   --compression-mm 13 \
@@ -166,7 +165,7 @@ python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
 - 实机命令必须明确提供工作空间边界。
 - 第一次运行新路径时，操作者必须位于急停按钮可及位置。
 - 控制器错误 `C1` 表示控制箱急停按钮被按下，必须先物理释放再重新使能。
-- 没有压力传感器时，程序无法确认物料是否吸牢。
+- 压力开关在每个吸起动作后强制执行去抖确认，未确认即进入恢复重试流程。
 - 吸附状态下发生异常时，程序会优先保持真空，避免物料突然掉落。
 - 标定文件和 `visual_position_bias.json` 与当前实验台布局绑定；移动相机、机械臂或执行器后必须重新验证。
 

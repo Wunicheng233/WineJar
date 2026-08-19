@@ -40,6 +40,7 @@ from xarm_sdk_control.robot_motion import (  # noqa: E402
     prepare_robot_for_motion,
     reset_robot_at_ip,
 )
+from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError, SuctionSensor  # noqa: E402
 from xarm_sdk_control.task_timing import TaskTimeline  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
@@ -60,7 +61,6 @@ END_EFFECTOR = load_end_effector_config()
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true", help="Enable robot motion; default is camera/route dry-run.")
-    parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     parser.add_argument(
         "--material",
         choices=("ceramic", "lotus-leaf", "paper"),
@@ -145,9 +145,6 @@ def main() -> int:
     if args.run and not explicit_workspace_limits(args):
         print("ERROR: --run requires explicit min/max X, Y, and Z workspace limits.")
         return 3
-    if args.run and not args.confirm_no_pressure_sensor:
-        print("ERROR: --run requires --confirm-no-pressure-sensor.")
-        return 2
     if args.calibration is None:
         raise FileNotFoundError("Fixed global-camera calibration is missing")
     calibration_path, base_t_camera = load_base_t_camera(args.calibration)
@@ -180,6 +177,12 @@ def main() -> int:
             prepare_robot_for_motion(arm)
             vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
             vacuum.configure()
+            if END_EFFECTOR.suction_sensor is None:
+                raise RuntimeError(
+                    "Suction confirmation is mandatory: add a suction_sensor section to "
+                    "config/end_effector.yaml (input_channel, success_value, debounce_seconds, timeout_seconds)."
+                )
+            sensor = SuctionSensor(arm, END_EFFECTOR.suction_sensor)
         else:
             timeline.mark("reset_skipped")
             home_pose = list(map(float, END_EFFECTOR.home_pose_mm_deg))
@@ -257,14 +260,50 @@ def main() -> int:
 
             assert arm is not None and vacuum is not None
             print(f"\n=== {args.material} {index}/{len(items)} at {source_mm} ===")
-            execute_pick_test_route(
-                arm,
-                vacuum,
-                route,
-                args,
-                holding_state,
-                label_prefix=f"disk {index} ",
-            )
+            try:
+                execute_pick_test_route(
+                    arm,
+                    vacuum,
+                    route,
+                    args,
+                    holding_state,
+                    label_prefix=f"disk {index} ",
+                    suction_sensor=sensor,
+                )
+            except SuctionNotConfirmedError as exc:
+                print(f"\nSUCTION NOT CONFIRMED for item {index} ({args.material}): {exc}")
+                timeline.mark(
+                    f"{cycle_name}.suction_failed",
+                    elapsed_seconds=exc.elapsed_seconds,
+                    timeout_seconds=exc.timeout_seconds,
+                    last_value=exc.last_value,
+                )
+                disk_records[-1]["suction"] = {
+                    "confirmed": False,
+                    "elapsed_seconds": exc.elapsed_seconds,
+                    "timeout_seconds": exc.timeout_seconds,
+                    "last_value": exc.last_value,
+                }
+                holding_state["value"] = False  # the sensor proves nothing is held
+                if vacuum is not None:
+                    vacuum.safe_shutdown()
+                result = {
+                    "status": "failed",
+                    "run_mode": bool(args.run),
+                    "material": args.material,
+                    "error": str(exc),
+                    "items": disk_records,
+                    "picked_count": index - 1,
+                    "timing": timeline.to_dict(productive_start="productive_cycle_started"),
+                }
+                write_json_report(run_dir, result)
+                return 2
+            if sensor.last_wait is not None:
+                disk_records[-1]["suction"] = {
+                    "confirmed": True,
+                    "elapsed_seconds": sensor.last_wait.elapsed_seconds,
+                    "timeout_seconds": sensor.last_wait.timeout_seconds,
+                }
             timeline.mark(f"{cycle_name}.pick_complete")
 
         if vacuum is not None:

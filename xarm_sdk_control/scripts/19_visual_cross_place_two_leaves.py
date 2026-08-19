@@ -55,6 +55,7 @@ from xarm_sdk_control.cross_place_retry import (  # noqa: E402
     AllPickAttemptsFailedError,
     run_leaf_pick_with_retry,
 )
+from xarm_sdk_control.suction_sensor import SuctionSensor  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
     DEFAULT_VISION_SOCKET,
@@ -75,6 +76,15 @@ OUTPUT_ROOT = ROOT / "data" / "visual_cross_place"
 END_EFFECTOR = load_end_effector_config()
 
 
+def _build_suction_sensor(arm: Any) -> SuctionSensor:
+    if END_EFFECTOR.suction_sensor is None:
+        raise RuntimeError(
+            "Suction confirmation is mandatory: add a suction_sensor section to "
+            "config/end_effector.yaml (input_channel, success_value, debounce_seconds, timeout_seconds)."
+        )
+    return SuctionSensor(arm, END_EFFECTOR.suction_sensor)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true")
@@ -83,7 +93,6 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Diagnostic only: retain software limits but skip xArm only_check for leaf 2",
     )
-    parser.add_argument("--confirm-no-pressure-sensor", action="store_true")
     parser.add_argument("--allow-validated-clipped-leaf", action="store_true")
     add_vision_common_args(parser, latest_global_calibration())
     parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
@@ -124,13 +133,14 @@ def parse_args() -> argparse.Namespace:
         "--max-pick-attempts",
         type=int,
         default=3,
-        help="Pick attempts per leaf including retries (1-3). Ignored while --verify-pick is off.",
+        help="Pick attempts per leaf including retries (1-3).",
     )
     parser.add_argument(
         "--simulate-first-pick-failure",
         action="store_true",
-        help="Controlled test: skip pump activation on leaf-1 attempt 1 to validate the "
-             "failure-detection and retry mechanism.",
+        help="Controlled test: the pump stays OFF on leaf-1 attempt 1, so the CI0 pressure "
+             "switch reports no suction - a real deterministic failure that exercises "
+             "recovery + replan + retry.",
     )
     add_motion_profile_args(parser, DEFAULT_MOTION_PROFILE)
     add_workspace_limit_args(parser)
@@ -141,9 +151,6 @@ def main() -> int:
     args = parse_args()
     timeline = TaskTimeline()
     timeline.mark("program_started")
-    if args.run and not args.confirm_no_pressure_sensor:
-        print("ERROR: --run requires --confirm-no-pressure-sensor")
-        return 2
     limits = (args.min_x_mm, args.max_x_mm, args.min_y_mm, args.max_y_mm, args.min_z_mm, args.max_z_mm)
     if args.run and any(value is None for value in limits):
         print("ERROR: --run requires explicit min/max X, Y, and Z limits")
@@ -167,8 +174,6 @@ def main() -> int:
         raise ValueError("--max-pick-attempts must be within 1~3")
     if args.verify_pick and not args.run:
         raise ValueError("--verify-pick requires --run")
-    if args.simulate_first_pick_failure and not args.verify_pick:
-        raise ValueError("--simulate-first-pick-failure requires --verify-pick")
     if args.simulate_first_pick_failure and args.max_pick_attempts < 2:
         raise ValueError("Simulated first-pick failure requires --max-pick-attempts 2 or greater")
     if args.verify_pick and not args.require_vision_service:
@@ -177,8 +182,6 @@ def main() -> int:
             "inference for every targeting and verification capture; the persistent vision "
             "service is strongly recommended."
         )
-    if args.max_pick_attempts > 1 and not args.verify_pick:
-        print("WARNING: --max-pick-attempts is ignored while --verify-pick is off.")
 
     calibration_path, base_t_camera = load_base_t_camera(args.calibration)
     position_bias_m = load_bias_mm(POSITION_BIAS_CONFIG) / 1000.0
@@ -309,34 +312,7 @@ def main() -> int:
 
             vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
             vacuum.configure()
-
-            execute_route(
-                arm,
-                vacuum,
-                first_route,
-                args,
-                holding_state,
-                timeline,
-                "leaf_1",
-                first_plans,
-            )
-            timeline.mark("leaf_1.cycle_complete")
-            records.append(
-                {
-                    "leaf": 1,
-                    "frame_dir": str(first_frame),
-                    "route": first_route,
-                    "joint_speed_planning_seconds": first_planning_seconds,
-                    "joint_speed_plan": [plan.to_dict() for plan in first_plans],
-                    "controller_preflight": {"checks_run": 1, "passed": True},
-                }
-            )
-        else:
-            prepare_robot_for_motion(arm, clean_error=True)
-            controller_ready = True
-
-            vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
-            vacuum.configure()
+            sensor = _build_suction_sensor(arm)
 
             leaf_1_outcome = run_leaf_pick_with_retry(
                 leaf_index=1,
@@ -357,6 +333,8 @@ def main() -> int:
                 position_bias_m=position_bias_m,
                 camera=camera,
                 initial_targeting_frame=first_frame,
+                suction_sensor=sensor,
+                inspection_event=None,
             )
             records.append(leaf_1_outcome.cycle_record())
             if not leaf_1_outcome.success:
@@ -370,11 +348,47 @@ def main() -> int:
                 ),
                 attempts_used=len(leaf_1_outcome.attempts),
             )
+        else:
+            prepare_robot_for_motion(arm, clean_error=True)
+            controller_ready = True
 
-        pose_code, second_start_pose = arm.get_position(is_radian=False)
-        require_code("get continuous-cycle waiting pose", (pose_code, second_start_pose))
-        angles_code, second_start_angles = arm.get_servo_angle(is_radian=False)
-        require_code("get joint angles for second-route planning", (angles_code, second_start_angles))
+            vacuum = VacuumController(arm, END_EFFECTOR.vacuum_io)
+            vacuum.configure()
+            sensor = _build_suction_sensor(arm)
+
+            leaf_1_outcome = run_leaf_pick_with_retry(
+                leaf_index=1,
+                arm=arm,
+                vacuum=vacuum,
+                home_pose=home_pose,
+                placement_target_m=placement_target_m,
+                initial_target_m=first_leaf["point_base_m"],
+                source_stack_reference_m=first_leaf["point_base_m"],
+                place_yaw_offset_deg=args.first_place_yaw_offset_deg,
+                layer_height_mm=0.0,
+                return_home=False,
+                args=args,
+                holding_state=holding_state,
+                timeline=timeline,
+                run_dir=run_dir,
+                base_t_camera=base_t_camera,
+                position_bias_m=position_bias_m,
+                camera=camera,
+                initial_targeting_frame=first_frame,
+                suction_sensor=sensor,
+            )
+            records.append(leaf_1_outcome.cycle_record())
+            if not leaf_1_outcome.success:
+                raise AllPickAttemptsFailedError(1, leaf_1_outcome)
+            timeline.mark(
+                "leaf_1.pick_complete",
+                final_status=(
+                    leaf_1_outcome.final_verification.status
+                    if leaf_1_outcome.final_verification is not None
+                    else None
+                ),
+                attempts_used=len(leaf_1_outcome.attempts),
+            )
 
         second_frame, second_detections = run_scan(
             run_dir / "scan_2" / "captures",
@@ -457,78 +471,43 @@ def main() -> int:
                 position_bias_m=position_bias_m,
                 camera=camera,
                 initial_targeting_frame=second_frame,
-            )
-            records.append(leaf_2_outcome.cycle_record())
-            if not leaf_2_outcome.success:
-                raise AllPickAttemptsFailedError(2, leaf_2_outcome)
-            timeline.mark(
-                "leaf_2.pick_complete",
-                final_status=(
-                    leaf_2_outcome.final_verification.status
-                    if leaf_2_outcome.final_verification is not None
-                    else None
-                ),
-                attempts_used=len(leaf_2_outcome.attempts),
+                suction_sensor=sensor,
             )
         else:
-            second_route = build_cycle_route(
-                home_pose,
-                second_leaf["point_base_m"],
-                placement_target_m,
-                args.second_place_yaw_offset_deg,
-                args.transport_clearance_mm,
-                args.approach_clearance_mm,
-                args.compression_mm,
-                args.release_clearance_mm,
-                args.second_layer_height_mm,
-                start_pose=second_start_pose,
+            leaf_2_outcome = run_leaf_pick_with_retry(
+                leaf_index=2,
+                arm=arm,
+                vacuum=vacuum,
+                home_pose=home_pose,
+                placement_target_m=placement_target_m,
+                initial_target_m=second_leaf["point_base_m"],
+                source_stack_reference_m=first_leaf["point_base_m"],
+                place_yaw_offset_deg=args.second_place_yaw_offset_deg,
+                layer_height_mm=args.second_layer_height_mm,
                 return_home=True,
-                precontact_clearance_mm=args.precontact_clearance_mm,
-                precision_lift_mm=args.precision_lift_mm,
+                args=args,
+                holding_state=holding_state,
+                timeline=timeline,
+                run_dir=run_dir,
+                base_t_camera=base_t_camera,
+                position_bias_m=position_bias_m,
+                camera=camera,
+                initial_targeting_frame=second_frame,
+                suction_sensor=sensor,
+                inspection_event=None,
             )
-            second_safety = route_safety_report([item[1] for item in second_route], args)
-            if not second_safety["all_ok"]:
-                raise RuntimeError("Second-leaf route is outside explicit workspace limits")
-            planning_started = time.perf_counter()
-            second_plans = plan_route_motion_profile(
-                arm,
-                second_start_pose,
-                second_start_angles,
-                second_route,
-                args,
-                run_controller_preflight=not args.skip_second_controller_preflight,
-            )
-            second_planning_seconds = time.perf_counter() - planning_started
-            timeline.mark(
-                "leaf_2.route_planned",
-                planning_seconds=second_planning_seconds,
-                segment_count=len(second_plans),
-            )
-            execute_route(
-                arm,
-                vacuum,
-                second_route,
-                args,
-                holding_state,
-                timeline,
-                "leaf_2",
-                second_plans,
-            )
-            timeline.mark("leaf_2.cycle_complete")
-            records.append(
-                {
-                    "leaf": 2,
-                    "frame_dir": str(second_frame),
-                    "route": second_route,
-                    "joint_speed_planning_seconds": second_planning_seconds,
-                    "joint_speed_plan": [plan.to_dict() for plan in second_plans],
-                    "controller_preflight": {
-                        "checks_run": int(not args.skip_second_controller_preflight),
-                        "passed": None if args.skip_second_controller_preflight else True,
-                        "skipped_by_operator": args.skip_second_controller_preflight,
-                    },
-                }
-            )
+        records.append(leaf_2_outcome.cycle_record())
+        if not leaf_2_outcome.success:
+            raise AllPickAttemptsFailedError(2, leaf_2_outcome)
+        timeline.mark(
+            "leaf_2.pick_complete",
+            final_status=(
+                leaf_2_outcome.final_verification.status
+                if leaf_2_outcome.final_verification is not None
+                else None
+            ),
+            attempts_used=len(leaf_2_outcome.attempts),
+        )
         vacuum.safe_shutdown()
         if global_camera_video is not None:
             camera.stop_recording()

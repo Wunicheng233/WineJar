@@ -61,7 +61,6 @@ is:
 ```bash
 python xarm_sdk_control/scripts/20_visual_pick_test.py \
   --run \
-  --confirm-no-pressure-sensor \
   --require-vision-service \
   --compression-mm 11 \
   --min-x-mm 180 --max-x-mm 520 \
@@ -101,7 +100,6 @@ shells plus the ceramic disk. Then run:
 conda run --no-capture-output -n winejar-xarm-sdk \
   python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
   --run \
-  --confirm-no-pressure-sensor \
   --require-vision-service \
   --allow-validated-clipped-leaf \
   --record-global-camera \
@@ -183,7 +181,7 @@ mechanism is opt-in and leaves the validated baseline unchanged when off:
 ```bash
 # production command with verification enabled
 python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
-  --run --confirm-no-pressure-sensor \
+  --run \
   --require-vision-service \
   --verify-pick \
   --max-pick-attempts 3 \
@@ -196,7 +194,7 @@ python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
 # controlled experiment: leaf-1 attempt 1 contacts normally but keeps the
 # pump OFF, so the failure-detection + recovery + retry path is exercised
 python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
-  --run --confirm-no-pressure-sensor \
+  --run \
   --require-vision-service \
   --verify-pick \
   --simulate-first-pick-failure --max-pick-attempts 2 \

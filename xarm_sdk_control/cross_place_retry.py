@@ -36,6 +36,48 @@ RetryAction = Literal["proceed", "recover_retry", "abort"]
 RetrySelect = Callable[[list[dict[str, Any]], list[float]], dict[str, Any]]
 
 
+def select_nearest_of_kind(
+    kind: str,
+    detections: list[dict[str, Any]],
+    reference_m: list[float],
+    max_shift_m: float,
+    *,
+    display_name: str | None = None,
+) -> dict[str, Any]:
+    """Best-confidence candidate of one kind within max_shift_m of the reference point.
+
+    Used as a ``retry_select`` for single-kind retry targeting: refuse anything
+    that moved far from its original position instead of picking it anyway.
+    """
+    from xarm_sdk_control.visual_targeting import detection_object_kind
+
+    name = display_name if display_name is not None else kind
+    candidates = [
+        item
+        for item in detections
+        if detection_object_kind(item) == kind
+        and not bool(item.get("touches_image_edge", False))
+    ]
+    if not candidates:
+        raise RuntimeError(f"No {name} detection near the original position; re-stage or abort")
+    reference_xy = np.asarray(reference_m, dtype=float)[:2]
+    selected = min(
+        candidates,
+        key=lambda item: float(
+            np.linalg.norm(np.asarray(item["point_base_m"], dtype=float)[:2] - reference_xy)
+        ),
+    )
+    shift_m = float(
+        np.linalg.norm(np.asarray(selected["point_base_m"], dtype=float)[:2] - reference_xy)
+    )
+    if shift_m > max_shift_m:
+        raise RuntimeError(
+            f"{name.title()} is {shift_m * 1000.0:.1f} mm from the original position; "
+            "refusing to pick it after it moved"
+        )
+    return selected
+
+
 @dataclass(frozen=True)
 class RetryDecision:
     action: RetryAction
@@ -313,6 +355,8 @@ def run_leaf_pick_with_retry(
             target_m = list(map(float, retry_target["point_base_m"]))
         require_distinct_pick_and_place_targets(target_m, placement_target_m)
 
+        pose_code, start_pose = arm.get_position(is_radian=False)
+        require_code("get current TCP pose for planning", (pose_code, start_pose))
         transport_z_mm = transport_height_mm(target_m, placement_target_m, args.transport_clearance_mm)
         route = build_cycle_route(
             home_pose,
@@ -324,6 +368,7 @@ def run_leaf_pick_with_retry(
             args.compression_mm if compression_mm is None else compression_mm,
             args.release_clearance_mm,
             layer_height_mm,
+            start_pose=list(map(float, start_pose)),
             return_home=return_home,
             precontact_clearance_mm=args.precontact_clearance_mm,
             precision_lift_mm=args.precision_lift_mm,
@@ -332,9 +377,6 @@ def run_leaf_pick_with_retry(
         safety = route_safety_report([item[1] for item in route], args)
         if not safety["all_ok"]:
             raise RuntimeError("Pick route is outside explicit workspace limits")
-
-        pose_code, start_pose = arm.get_position(is_radian=False)
-        require_code("get current TCP pose for planning", (pose_code, start_pose))
         angles_code, start_angles = arm.get_servo_angle(is_radian=False)
         require_code("get joint angles for route planning", (angles_code, start_angles))
         planning_started = time.perf_counter()
