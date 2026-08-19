@@ -108,8 +108,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--second-scan-min-score",
         type=float,
-        default=0.20,
-        help="Lower confidence accepted only near the previously observed source stack",
+        default=0.10,
+        help="Lower confidence accepted only near the previously observed source stack; the remaining shell can score below 0.20",
     )
     parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])
     parser.add_argument("--first-place-yaw-offset-deg", type=float, default=45.0)

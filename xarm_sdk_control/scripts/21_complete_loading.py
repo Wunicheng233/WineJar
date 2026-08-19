@@ -138,7 +138,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--precontact-clearance-mm", type=float, default=5.0)
     parser.add_argument("--precision-lift-mm", type=float, default=20.0)
     parser.add_argument("--release-clearance-mm", type=float, default=0.0)
-    parser.add_argument("--second-scan-min-score", type=float, default=0.20)
+    parser.add_argument("--second-scan-min-score", type=float, default=0.10)
     parser.add_argument("--max-second-source-shift-mm", type=float, default=80.0)
     parser.add_argument("--allow-validated-clipped-leaf", action="store_true")
     parser.add_argument("--tcp-offset-z-mm", type=float, default=END_EFFECTOR.tcp_offset_mm_deg[2])

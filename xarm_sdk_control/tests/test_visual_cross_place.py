@@ -95,7 +95,7 @@ def test_default_profile_compensates_yaw_and_shortens_free_space_motion(monkeypa
     assert args.ik_rotation_step_deg == 2.0
     assert args.record_global_camera is False
     assert args.recording_fps == 15
-    assert args.second_scan_min_score == 0.20
+    assert args.second_scan_min_score == 0.10
     assert args.skip_second_controller_preflight is False
     assert args.verify_pick is False
     assert args.max_pick_attempts == 3
