@@ -7,6 +7,7 @@ from pathlib import Path
 
 import yaml
 
+from xarm_sdk_control.suction_sensor import SuctionSensorConfig
 from xarm_sdk_control.vacuum_control import VacuumIOConfig
 
 
@@ -22,6 +23,7 @@ class EndEffectorConfig:
     home_pose_mm_deg: tuple[float, float, float, float, float, float]
     vacuum_io: VacuumIOConfig
     default_compression_mm: float
+    suction_sensor: SuctionSensorConfig | None = None
 
 
 def load_end_effector_config(path: Path = DEFAULT_CONFIG_PATH) -> EndEffectorConfig:
@@ -40,6 +42,15 @@ def load_end_effector_config(path: Path = DEFAULT_CONFIG_PATH) -> EndEffectorCon
         raise ValueError("default_compression_mm cannot be negative")
 
     vacuum = data["vacuum_io"]
+    suction: SuctionSensorConfig | None = None
+    if "suction_sensor" in data:
+        sensor = data["suction_sensor"]
+        suction = SuctionSensorConfig(
+            input_channel=int(sensor["input_channel"]),
+            success_value=int(sensor["success_value"]),
+            debounce_seconds=float(sensor["debounce_seconds"]),
+            timeout_seconds=float(sensor["timeout_seconds"]),
+        )
     return EndEffectorConfig(
         name=str(data["name"]),
         kind=str(data["type"]),
@@ -53,4 +64,5 @@ def load_end_effector_config(path: Path = DEFAULT_CONFIG_PATH) -> EndEffectorCon
             valve_vacuum_value=int(vacuum["valve_vacuum_value"]),
         ),
         default_compression_mm=compression,
+        suction_sensor=suction,
     )

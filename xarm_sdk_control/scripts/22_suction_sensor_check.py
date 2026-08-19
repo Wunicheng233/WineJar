@@ -47,13 +47,14 @@ def main() -> int:
         require_code("connect for CI0 read", arm.connect(port=robot_ip))
         print("READ-ONLY: printing CI0 every "
               f"{args.interval_seconds:.2f} s. Ctrl+C to stop.", flush=True)
+        started = time.perf_counter()
         sample = 0
         while True:
             code, value = arm.get_cgpio_digital(0)
             if code != 0:
                 print(f"ERROR: failed to read CI0: code={code}", file=sys.stderr)
                 return 1
-            print(f"CI0 = {int(value)}", flush=True)
+            print(f"t={time.perf_counter() - started:6.2f}s  CI0 = {int(value)}", flush=True)
             sample += 1
             if args.samples and sample >= args.samples:
                 return 0

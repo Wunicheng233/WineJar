@@ -17,3 +17,11 @@ vacuum_io:
 
 # Validated spring compression for the current single-cup tool.
 default_compression_mm: 13.0
+
+# ZSE30A-01-N vacuum pressure switch on CI0 (NPN). Hardware-verified polarity:
+# CI0 = 0 means vacuum reached the threshold (suction achieved).
+suction_sensor:
+  input_channel: 0
+  success_value: 0
+  debounce_seconds: 0.05
+  timeout_seconds: 2.0
