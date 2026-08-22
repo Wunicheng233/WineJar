@@ -30,29 +30,28 @@ Task scripts are thin orchestration over shared importable modules:
 - `robot_motion.py` — connection, preparation, emergency-stop checks, safe reset motion
 - `visual_targeting.py` — calibration loading, RGB-D scan pipeline, detection selection
 - `cross_place_route.py` — two-shell cycle route construction and task geometry
-- `cross_place_motion.py` — motion-profile validation, joint-aware planning, route execution
-- `trajectory_speed_planner.py` — joint speed/acceleration scaling and controller preflight
+- `cross_place_motion.py` — motion-profile validation, joint-aware planning, route execution, suction acquire/sustain checks
+- `cross_place_retry.py` — pickup-failure recovery + replan + retry loop shared by scripts 19/20/21
+- `trajectory_speed_planner.py` — dense joint-aware planning, endpoint-interpolation fallback, controller preflight
 - `pick_test_workflow.py` — attended single-object pick-test profiles and execution
+- `suction_sensor.py` — CI0 pressure-switch reading, debounce, timeout
 - `vacuum_control.py` / `end_effector_config.py` / `positioning_bias.py` — end-effector I/O, tool config, measured bias
 - `realsense_capture.py` — aligned RGB-D capture session
 - `geometry.py` / `cli_utils.py` / `run_output.py` / `task_timing.py` — shared pose math, argparse plumbing, run reporting, timeline
 
-## Multi-ceramic suction validation
+## Per-material suction validation (script 20)
 
-`20_visual_pick_test.py` picks up and returns every ceramic disk detected in
-one RGB-D frame, best confidence first, under direct operator observation. It
-is the suction-reliability check for the ceramic disks: stage N disks on the
-table and the robot lifts each one, holds it at inspection height for the
-operator to observe, lowers it back to its original position, releases, and
-moves on to the next disk. No software pickup verdict is produced — the
-operator's eyes are the verdict.
+`20_visual_pick_test.py` picks up and returns every object of one material
+detected in a single RGB-D frame, best confidence first, under direct operator
+observation. Select the material with `--material {ceramic,lotus-leaf,paper,
+bamboo}`; it is the attended suction-reliability check per material.
 
-The default mode captures one RGB-D frame, detects every in-frame ceramic
-disk, prints the guarded route for each, and commands neither robot motion nor
-controller I/O:
+The default mode captures one RGB-D frame, detects every in-frame object of
+that kind, prints the guarded route for each, and commands neither robot motion
+nor controller I/O:
 
 ```bash
-python xarm_sdk_control/scripts/20_visual_pick_test.py
+python xarm_sdk_control/scripts/20_visual_pick_test.py --material ceramic
 ```
 
 After the dry-run routes and workspace have been inspected, the attended form
@@ -60,9 +59,9 @@ is:
 
 ```bash
 python xarm_sdk_control/scripts/20_visual_pick_test.py \
+  --material ceramic \
   --run \
   --require-vision-service \
-  --compression-mm 11 \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
   --min-z-mm -85 --max-z-mm 500
@@ -70,25 +69,24 @@ python xarm_sdk_control/scripts/20_visual_pick_test.py \
 
 Behavior:
 
-- One scan at the start; every in-frame ceramic disk whose mask does not touch
-  the image edge is processed in descending confidence order.
-- Per disk: approach, contact at a shallow 6 mm spring compression (keep it
-  shallow on a rigid table — deep compression can trip the controller's joint
-  overload), a vertical lift of
-  25 mm, a hold (`--inspection-hold-seconds`) for operator observation, lower
-  back to the original source, release at `--release-clearance-mm` (default
-  10 mm above the detected surface), and return to the camera-clear home
-  pose before the next disk.
-- Every suction point is offset from the detected disk center by
-  `--pick-offset-x-mm` / `--pick-offset-y-mm` (both default 0 mm) on top of
-  the shared positioning bias. The inspection lift uses `--test-lift-mm`
-  (default 40 mm) so the disk fully clears the table surface.
-- Disks must sit within the explicit workspace limits and within arm reach. A
-  detection touching the image edge aborts with guidance to move the disk
+- One scan at the start; every in-frame object of the selected kind whose mask
+  does not touch the image edge is processed in descending confidence order.
+- Per object: approach, contact at the material-profile compression (ceramic
+  6 mm — keep it shallow on a rigid table, deep compression can trip the
+  controller's joint overload), a vertical lift, a hold
+  (`--inspection-hold-seconds`) for operator observation, lower back to the
+  original source, release above the detected surface, and return to the
+  camera-clear home pose before the next object.
+- The pressure switch on CI0 confirms every pickup (debounced 50 ms, 2 s
+  timeout). A failed confirmation retries up to 3 attempts, offsetting the
+  suction point per attempt ((0,0) → (0,-5) → (5,0) mm on top of the shared
+  positioning bias); all attempts failing aborts the script with exit code 2.
+  Per-object suction state and attempt counts are recorded in `result.json`.
+- Objects must sit within the explicit workspace limits and within arm reach.
+  A detection touching the image edge aborts with guidance to move the object
   fully into the calibrated camera view.
-- `result.json` records `picked_count`, per-disk source points, routes, and
-  safety checks; the `TaskTimeline` marks `disk_NN.pick_started` and
-  `disk_NN.pick_complete` per disk.
+- `result.json` records `picked_count`, per-object source points, routes, and
+  safety checks; the `TaskTimeline` marks per-object pick events.
 
 ## Two-shell performance experiment
 
@@ -134,17 +132,24 @@ Before each leaf cycle, the task samples the exact Cartesian route with
 continuous inverse kinematics and estimates joint speed and acceleration.
 Defaults reserve 60% joint-speed margin and 60% joint-acceleration margin.
 
-Every vision-generated route is replayed exactly once through the xArm no-motion
-path checker before suction or motion. A controller rejection aborts the cycle;
-the runtime task does not search for a faster profile or rescale the route.
+Every vision-generated route is replayed once through the xArm no-motion path
+checker before suction or motion. A controller rejection is currently demoted
+to an advisory warning (operator policy: real C24 rejections occurred on
+routes that executed fine) — it no longer aborts the cycle.
 Loaded lift, rotation, lateral transfer, and placement are exact-stop segments
 and are never blended together. Only the empty approach uses safe blending.
 
-For diagnosing a repeatable leaf-2 `only_check` C24 that does not latch as a
-controller error, `--skip-second-controller-preflight` skips only that controller
-check. Continuous IK, joint-speed/acceleration limiting, workspace limits, the
-camera keepout, and the first-cycle controller preflight remain active. Treat
-this as an attended experiment option, not a production default.
+`--skip-second-controller-preflight` still exists but now only silences the
+advisory warning, since preflight failures no longer abort.
+
+Planning near the home-pose wrist singularity (roll ~178.5 deg): the
+controller IK solver intermittently flips its J4/J6 branch for nearly
+identical inputs, which made the dense sampler raise false "IK discontinuity"
+and 0.00 mm/s^2 curvature alarms. Mitigation: up to 3 estimation retries, then
+an endpoint-interpolation fallback planner that solves IK only at segment
+endpoints (anchored to the previous endpoint) and interpolates joints
+linearly — immune to interior branch flips, at the cost of losing interior
+curvature caps. Robot routes have executed successfully through this fallback.
 
 The reset TCP is at `Z=300 mm`. Each cycle moves directly from its safe start
 pose to the source approach. Fine contact and the loaded lift are slower. The
@@ -160,9 +165,11 @@ with the leaf's observed physical rotation.
 
 The second scan accepts lower-confidence bamboo-shell detections because the
 remaining shell can have substantially lower contrast after the top shell is
-removed. This does not broaden the pickup area: the candidate must still remain
-within 80 mm of the source stack measured in scan 1, so the already placed shell
-cannot be selected.
+removed: `--second-scan-min-score` defaults to 0.10 (a real remaining shell
+measured 0.187, below the old 0.20 default that once caused a missed
+detection). This does not broaden the pickup area: the candidate must still
+remain within 80 mm of the source stack measured in scan 1, so the already
+placed shell cannot be selected.
 
 Every `result.json` contains a monotonic event timeline and reports productive
 cycle time separately from the initial safety reset.
@@ -172,11 +179,46 @@ reduce USB bandwidth while retaining enough temporal detail for review. The
 robot motion profile is unchanged. Use `--recording-fps 30` only after the
 camera cable and USB controller have passed a sustained recording test.
 
-### Closed-loop pick verification and retry
+### Pick confirmation, recovery, and retry
 
+Pickup confirmation is now **mandatory on every lift** and driven by the
+CI0 vacuum pressure switch (ZSE30A-01-N, NPN): after the pump turns on, the
+signal must read 0 continuously for a 50 ms debounce window within 2 s. The
+pressure state is also re-checked after every loaded segment of a route, so a
+mid-lift drop is caught as a failure instead of being silently carried through.
+On failure the arm vents at the source, retreats to the camera-clear reset
+pose, re-scans, replans, and retries with a shifted suction point
+((0,0) → (0,-5) → (5,0) mm). Scripts 19 and 21 retry up to
+`--max-pick-attempts` (default 3); script 20 aborts with exit code 2. The
+former `--confirm-no-pressure-sensor` escape hatch has been removed.
+
+The controlled experiment below exercises the real sensor-failure path on the
+default production chain (no `--verify-pick` needed): leaf-1 attempt 1
+contacts normally but keeps the pump OFF, so CI0 reports no suction and the
+recovery + replan + retry machinery must recover:
+
+```bash
+python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
+  --run \
+  --require-vision-service \
+  --simulate-first-pick-failure --max-pick-attempts 2 \
+  --allow-validated-clipped-leaf \
+  --compression-mm 16 --min-score 0.35 \
+  --min-x-mm 180 --max-x-mm 520 \
+  --min-y-mm -180 --max-y-mm 180 \
+  --min-z-mm -85 --max-z-mm 500
+```
+
+Known v1 limitation: the sensor is polled at rest (during the acquire hold and
+after each loaded segment), not continuously mid-motion, so a drop during a
+loaded segment is only detected at the next segment boundary. The opt-in
+visual verification below can still cover that blind spot.
+
+### Opt-in visual pick verification (`--verify-pick`)
+
+In addition to the mandatory pressure confirmation,
 `19_visual_cross_place_two_leaves.py` can classify every lift from a fresh
-RGB-D frame and recover + replan + retry when the pick clearly failed. The
-mechanism is opt-in and leaves the validated baseline unchanged when off:
+RGB-D frame and recover + replan + retry when the pick clearly failed:
 
 ```bash
 # production command with verification enabled
@@ -186,20 +228,7 @@ python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
   --verify-pick \
   --max-pick-attempts 3 \
   --allow-validated-clipped-leaf \
-  --compression-mm 13 --min-score 0.35 \
-  --min-x-mm 180 --max-x-mm 520 \
-  --min-y-mm -180 --max-y-mm 180 \
-  --min-z-mm -85 --max-z-mm 500
-
-# controlled experiment: leaf-1 attempt 1 contacts normally but keeps the
-# pump OFF, so the failure-detection + recovery + retry path is exercised
-python xarm_sdk_control/scripts/19_visual_cross_place_two_leaves.py \
-  --run \
-  --require-vision-service \
-  --verify-pick \
-  --simulate-first-pick-failure --max-pick-attempts 2 \
-  --allow-validated-clipped-leaf \
-  --compression-mm 13 --min-score 0.35 \
+  --compression-mm 16 --min-score 0.35 \
   --min-x-mm 180 --max-x-mm 520 \
   --min-y-mm -180 --max-y-mm 180 \
   --min-z-mm -85 --max-z-mm 500
@@ -246,6 +275,10 @@ Known v1 limitations (recorded for later analysis):
 - If a leaf drops far from the stack, the retry legitimately picks the
   remaining stacked leaf under the failed leaf's role; the dropped leaf must
   be recovered by the operator.
+
+Current open hardware issues (leaf-2 lift drops, lotus leaf unholdable,
+script 21 end-to-end status) are tracked in the root `README.md` handoff
+section; that file is the authoritative handover document.
 
 Generated RGB-D frames, masks, previews, and run logs live under
 `xarm_sdk_control/data/`. They are disposable experiment artifacts and are not
