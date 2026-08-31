@@ -190,5 +190,7 @@ python -m pytest -q xarm_sdk_control/tests
 4. 视觉补偿目前主要来自一次人工对齐，后续应增加多点校验并统计残差。
 5. 压力开关只能确认真空是否达到阈值，不能测量连续真空度。
 
-更详细的模块说明见 [xarm_sdk_control/README.md](xarm_sdk_control/README.md)，
-视觉服务说明见 [vision/README.md](vision/README.md)。
+完整的环境配置、标定、现场命令、参数依据、迁移和验收说明见
+[项目实施与复现指南](docs/WineJar项目实施与复现指南.md)。更详细的代码模块说明见
+[xarm_sdk_control/README.md](xarm_sdk_control/README.md)，视觉服务说明见
+[vision/README.md](vision/README.md)。
