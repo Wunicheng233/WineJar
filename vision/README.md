@@ -67,12 +67,12 @@ The script writes:
 
 ## Persistent inference service
 
-For robot cycle-time tests, start the vision service before starting production:
+For robot cycle-time tests, activate the vision environment and start the
+service before starting production:
 
 ```bash
-conda run --no-capture-output -n winejar-vision \
-  env HF_HUB_OFFLINE=1 \
-  python -u vision/scripts/03_grounded_sam2_service.py
+conda activate winejar-vision
+HF_HUB_OFFLINE=1 python -u vision/scripts/03_grounded_sam2_service.py
 ```
 
 Wait for the JSON `"status": "ready"` message. The service keeps GroundingDINO

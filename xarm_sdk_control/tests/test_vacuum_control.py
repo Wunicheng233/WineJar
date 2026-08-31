@@ -77,12 +77,13 @@ def test_active_low_configuration_inverts_safe_outputs() -> None:
     assert arm.calls[-2:] == [("digital", 0, 1), ("digital", 1, 1)]
 
 
-def test_installed_end_effector_profile_matches_single_cup_hardware() -> None:
+def test_installed_end_effector_profile_matches_dual_cup_hardware() -> None:
     tool = load_end_effector_config()
 
-    assert tool.kind == "single_vacuum_cup"
-    assert tool.cup_count == 1
-    assert tool.tcp_offset_mm_deg == (0.0, 0.0, 120.0, 0.0, 0.0, 0.0)
+    assert tool.kind == "dual_vacuum_cup"
+    assert tool.cup_count == 2
+    assert tool.tcp_offset_mm_deg == (0.0, 0.0, 113.0, 0.0, 0.0, 0.0)
+    assert tool.max_compression_mm == 20.0
     assert tool.home_pose_mm_deg == (215.194, -2.409, 300.0, 178.467, 0.581, -0.014)
     assert tool.vacuum_io.pump_channel == 0
     assert tool.vacuum_io.valve_channel == 1

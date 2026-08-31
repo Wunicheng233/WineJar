@@ -13,6 +13,9 @@ def test_parse_args_defaults(monkeypatch) -> None:
     assert args.material == "ceramic"
     assert args.compression_mm is None
     assert args.test_lift_mm is None
+    assert args.place_on_ceramic is False
+    assert args.transport_clearance_mm == 150.0
+    assert args.placement_clearance_mm == 0.0
     assert args.min_score is None
     assert args.approach_clearance_mm == 35.0
     assert args.release_clearance_mm == 10.0
@@ -29,10 +32,10 @@ def test_parse_args_defaults(monkeypatch) -> None:
 def test_per_material_defaults_resolve(monkeypatch) -> None:
     from xarm_sdk_control.pick_test_workflow import profile_for, resolve_pick_test_settings
 
-    assert resolve_pick_test_settings(profile_for("ceramic")) == (0.45, 6.0, 40.0)
-    assert resolve_pick_test_settings(profile_for("lotus-leaf")) == (0.35, 2.0, 40.0)
-    assert resolve_pick_test_settings(profile_for("paper")) == (0.35, 1.0, 40.0)
-    assert resolve_pick_test_settings(profile_for("ceramic"), compression_mm=8.0) == (0.45, 8.0, 40.0)
+    assert resolve_pick_test_settings(profile_for("ceramic")) == (0.45, 15.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("lotus-leaf")) == (0.35, 15.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("paper")) == (0.35, 15.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("ceramic"), compression_mm=8.0) == (0.45, 8.0, 100.0)
 
 
 def test_material_choices_reject_unknown(monkeypatch) -> None:
@@ -79,7 +82,7 @@ def test_negative_hold_time_is_rejected(monkeypatch) -> None:
 
 
 def test_compression_limit_is_enforced(monkeypatch) -> None:
-    _reject_argv(monkeypatch, ["--compression-mm", "31"], "spring travel")
+    _reject_argv(monkeypatch, ["--compression-mm", "21"], "spring travel")
 
 
 def test_negative_approach_clearance_is_rejected(monkeypatch) -> None:

@@ -22,6 +22,7 @@ class EndEffectorConfig:
     tcp_offset_mm_deg: tuple[float, float, float, float, float, float]
     home_pose_mm_deg: tuple[float, float, float, float, float, float]
     vacuum_io: VacuumIOConfig
+    max_compression_mm: float
     default_compression_mm: float
     suction_sensor: SuctionSensorConfig | None = None
 
@@ -38,8 +39,11 @@ def load_end_effector_config(path: Path = DEFAULT_CONFIG_PATH) -> EndEffectorCon
     if cup_count < 1:
         raise ValueError("cup_count must be positive")
     compression = float(data.get("default_compression_mm", 0.0))
-    if compression < 0.0:
-        raise ValueError("default_compression_mm cannot be negative")
+    max_compression = float(data["max_compression_mm"])
+    if max_compression <= 0.0:
+        raise ValueError("max_compression_mm must be positive")
+    if not 0.0 <= compression <= max_compression:
+        raise ValueError("default_compression_mm must remain within max_compression_mm")
 
     vacuum = data["vacuum_io"]
     suction: SuctionSensorConfig | None = None
@@ -63,6 +67,7 @@ def load_end_effector_config(path: Path = DEFAULT_CONFIG_PATH) -> EndEffectorCon
             pump_on_value=int(vacuum["pump_on_value"]),
             valve_vacuum_value=int(vacuum["valve_vacuum_value"]),
         ),
+        max_compression_mm=max_compression,
         default_compression_mm=compression,
         suction_sensor=suction,
     )

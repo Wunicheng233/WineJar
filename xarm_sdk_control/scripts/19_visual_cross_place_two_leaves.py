@@ -88,11 +88,6 @@ def _build_suction_sensor(arm: Any) -> SuctionSensor:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true")
-    parser.add_argument(
-        "--skip-second-controller-preflight",
-        action="store_true",
-        help="Diagnostic only: retain software limits but skip xArm only_check for leaf 2",
-    )
     parser.add_argument("--allow-validated-clipped-leaf", action="store_true")
     add_vision_common_args(parser, latest_global_calibration())
     parser.add_argument("--vision-socket", type=Path, default=DEFAULT_VISION_SOCKET)
@@ -159,8 +154,11 @@ def main() -> int:
         raise RuntimeError("Global camera calibration is missing")
     if not 0 <= args.min_score <= 1 or not 0 <= args.second_scan_min_score <= 1:
         raise ValueError("Vision confidence thresholds must remain within 0~1")
-    if not 0 <= args.compression_mm <= 20:
-        raise ValueError("Compression must remain within the stated 0~20 mm cup travel")
+    if not 0 <= args.compression_mm <= END_EFFECTOR.max_compression_mm:
+        raise ValueError(
+            "Compression must remain within the stated "
+            f"0~{END_EFFECTOR.max_compression_mm:g} mm cup travel"
+        )
     if args.vacuum_settle_seconds < 0 or args.release_settle_seconds < 0:
         raise ValueError("Vacuum and release settle times must be non-negative")
     if not 0 <= args.blend_radius_mm <= 50:

@@ -96,7 +96,6 @@ def test_default_profile_compensates_yaw_and_shortens_free_space_motion(monkeypa
     assert args.record_global_camera is False
     assert args.recording_fps == 15
     assert args.second_scan_min_score == 0.10
-    assert args.skip_second_controller_preflight is False
     assert args.verify_pick is False
     assert args.max_pick_attempts == 3
     assert args.simulate_first_pick_failure is False
@@ -777,6 +776,38 @@ def test_execute_route_detects_suction_lost_after_lift() -> None:
     assert holding["value"] is True
     names = [name for name, _details in timeline.events]
     assert "leaf_1.suction_lost" in names
+
+
+def test_execute_route_allows_scoped_porous_load_sustain_warning() -> None:
+    arm = SuctionCounterArm(8)  # confirms acquire, then loses the pressure signal
+    vacuum = RecordingVacuum()
+    timeline = RecordingTimeline()
+    holding = {"value": False}
+    sensor = make_sensor_for_test(arm)
+    route = [
+        ("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire"),
+        ("initial lift", [500.0, 60.0, 20.0, 178.0, 0.0, 0.0], "loaded_precision", None),
+        ("carry", [300.0, -200.0, 100.0, 178.0, 0.0, 0.0], "loaded_transit", None),
+    ]
+
+    MOTION.execute_route(
+        arm,
+        vacuum,
+        route,
+        motion_args(),
+        holding,
+        timeline,
+        "paper",
+        suction_sensor=sensor,
+        advisory_suction_loss_motions=frozenset(
+            {"loaded_precision", "loaded_vertical", "loaded_transit"}
+        ),
+    )
+
+    assert holding["value"] is True
+    names = [name for name, _details in timeline.events]
+    assert names.count("paper.suction_loss_advisory") == 1
+    assert "paper.suction_lost" not in names
 
 
 def test_route_planning_falls_back_to_endpoint_interpolation(monkeypatch) -> None:

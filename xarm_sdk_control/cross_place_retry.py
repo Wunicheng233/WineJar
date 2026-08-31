@@ -317,6 +317,7 @@ def run_leaf_pick_with_retry(
     compression_mm: float | None = None,
     cycle_prefix: str | None = None,
     retry_offsets_mm: Sequence[tuple[float, float]] = DEFAULT_RETRY_OFFSETS_MM,
+    advisory_suction_loss_motions: frozenset[str] = frozenset(),
 ) -> LeafPickOutcome:
     """Pick one object with verification, recovery, and bounded retries.
 
@@ -395,9 +396,6 @@ def run_leaf_pick_with_retry(
         angles_code, start_angles = arm.get_servo_angle(is_radian=False)
         require_code("get joint angles for route planning", (angles_code, start_angles))
         planning_started = time.perf_counter()
-        skip_controller_preflight = bool(
-            leaf_index == 2 and bool(getattr(args, "skip_second_controller_preflight", False))
-        )
         preflight_result: dict[str, Any] = {}
         plans = plan_route_motion_profile(
             arm,
@@ -405,7 +403,7 @@ def run_leaf_pick_with_retry(
             start_angles,
             route,
             args,
-            run_controller_preflight=not skip_controller_preflight,
+            run_controller_preflight=True,
             preflight_result=preflight_result,
         )
         planning_seconds = time.perf_counter() - planning_started
@@ -427,15 +425,16 @@ def run_leaf_pick_with_retry(
             "route": route,
             "safety": safety,
             "joint_speed_planning_seconds": planning_seconds,
-            "joint_speed_plan": [plan.to_dict() for plan in plans],
-            "controller_preflight": {
-                "checks_run": int(not skip_controller_preflight),
-                "status": preflight_result.get("status"),
-                "error": preflight_result.get("error"),
-                "skipped_by_operator": skip_controller_preflight,
-            },
+                "joint_speed_plan": [plan.to_dict() for plan in plans],
+                "controller_preflight": {
+                    "checks_run": 1,
+                    "status": preflight_result.get("status"),
+                    "error": preflight_result.get("error"),
+                    "skipped_by_operator": False,
+                },
             "failure_injected": failure_injected,
             "suction_checked": suction_sensor is not None,
+            "advisory_suction_loss_motions": sorted(advisory_suction_loss_motions),
         }
         attempts.append(attempt_record)
         if failure_injected:
@@ -496,6 +495,7 @@ def run_leaf_pick_with_retry(
                 event_callback=verify_step if inspection_event is not None else None,
                 failure_injected=failure_injected,
                 suction_sensor=suction_sensor,
+                advisory_suction_loss_motions=advisory_suction_loss_motions,
             )
         except (PickNotConfirmedError, SuctionNotConfirmedError) as exc:
             if isinstance(exc, PickNotConfirmedError):

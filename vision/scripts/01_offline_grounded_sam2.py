@@ -246,7 +246,11 @@ def mask_geometry(
 
 
 def centroid_mode_for_label(label: str) -> str:
-    return "geometric" if "bamboo" in label.lower() else "nearest_surface"
+    normalized = label.lower()
+    # Thin sheet materials are often tilted or draped. Selecting only their
+    # nearest depth band pulls the target toward the camera-facing edge even
+    # when SAM2 produced a complete mask.
+    return "geometric" if "bamboo" in normalized or "paper" in normalized else "nearest_surface"
 
 
 def mask_edge_sides(mask: np.ndarray, margin_px: int = 2) -> tuple[str, ...]:

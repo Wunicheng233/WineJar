@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Visually pick up and return every ceramic disk detected in one RGB-D frame."""
+"""Visually test-pick a material, optionally transferring it onto a ceramic disk."""
 
 from __future__ import annotations
 
@@ -20,12 +20,15 @@ if str(REPO_ROOT) not in sys.path:
 from xarm_sdk_control.end_effector_config import load_end_effector_config  # noqa: E402
 from xarm_sdk_control.pick_test_workflow import (  # noqa: E402
     MAX_COMPRESSION_MM,
+    build_pick_place_test_route,
     build_pick_test_route,
     execute_pick_test_route,
     profile_for,
+    recover_failed_pick_test,
     resolve_pick_test_settings,
 )
 from xarm_sdk_control.cross_place_retry import DEFAULT_RETRY_OFFSETS_MM  # noqa: E402
+from xarm_sdk_control.cross_place_route import require_distinct_pick_and_place_targets  # noqa: E402
 from xarm_sdk_control.positioning_bias import load_bias_mm  # noqa: E402
 from xarm_sdk_control.realsense_capture import RealSenseCaptureSession  # noqa: E402
 from xarm_sdk_control.cli_utils import (  # noqa: E402
@@ -57,6 +60,9 @@ CONFIG_PATH = ROOT / "config" / "robot.yaml"
 POSITION_BIAS_PATH = ROOT / "config" / "visual_position_bias.json"
 OUTPUT_ROOT = ROOT / "data" / "visual_pick_test"
 END_EFFECTOR = load_end_effector_config()
+CERAMIC_DESTINATION_PROMPT = "round brown ceramic disk."
+CERAMIC_DESTINATION_MIN_SCORE = 0.45
+MIN_PICK_PLACE_SEPARATION_M = 0.10
 
 
 def parse_args() -> argparse.Namespace:
@@ -76,9 +82,16 @@ def parse_args() -> argparse.Namespace:
         "--compression-mm",
         type=float,
         default=None,
-        help="Spring compression; per-material defaults: ceramic 6.0, lotus-leaf 2.0, paper 1.0 mm.",
+        help="Spring compression; per-material defaults: ceramic/lotus-leaf/paper 15.0 mm.",
     )
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
+    parser.add_argument(
+        "--place-on-ceramic",
+        action="store_true",
+        help="Visually locate a ceramic disk and transfer each selected material onto it.",
+    )
+    parser.add_argument("--transport-clearance-mm", type=float, default=150.0)
+    parser.add_argument("--placement-clearance-mm", type=float, default=0.0)
     parser.add_argument(
         "--release-clearance-mm",
         type=float,
@@ -104,7 +117,7 @@ def parse_args() -> argparse.Namespace:
         "--test-lift-mm",
         type=float,
         default=None,
-        help="Vertical lift height for operator inspection; per-material default 40 mm.",
+        help="Vertical lift height for operator inspection; per-material default 100 mm.",
     )
     parser.add_argument("--vacuum-settle-seconds", type=float, default=0.9)
     parser.add_argument("--release-settle-seconds", type=float, default=0.5)
@@ -139,8 +152,12 @@ def main() -> int:
         raise ValueError("Hold and settle times must be non-negative")
     if min(args.transit_speed, args.precision_speed, args.acc) <= 0.0:
         raise ValueError("Motion speeds and acceleration must be positive")
-    if args.approach_clearance_mm < 0.0:
-        raise ValueError("--approach-clearance-mm must be non-negative")
+    if min(
+        args.approach_clearance_mm,
+        args.transport_clearance_mm,
+        args.placement_clearance_mm,
+    ) < 0.0:
+        raise ValueError("Route clearances must be non-negative")
     if test_lift_mm <= 0.0:
         raise ValueError("--test-lift-mm must be positive")
     if args.run and not explicit_workspace_limits(args):
@@ -209,6 +226,57 @@ def main() -> int:
             point[1] += args.pick_offset_y_mm / 1000.0
             item["point_base_m"] = point.tolist()
 
+        destination: dict[str, Any] | None = None
+        destination_frame: Path | None = None
+        if args.place_on_ceramic:
+            destination_frame, destination_detections = run_scan(
+                run_dir / "destination_scan" / "captures",
+                base_t_camera,
+                args.vision_env,
+                CERAMIC_DESTINATION_MIN_SCORE,
+                camera=camera,
+                text_prompt=CERAMIC_DESTINATION_PROMPT,
+                service_socket=args.vision_socket,
+                require_service=args.require_vision_service,
+                timeline=timeline,
+                timeline_prefix="destination_scan",
+            )
+            destination_candidates = [
+                dict(item)
+                for item in select_all_of_kind(
+                    "ceramic",
+                    destination_detections,
+                    CERAMIC_DESTINATION_MIN_SCORE,
+                    display_name="ceramic disk",
+                )
+            ]
+            source_points = [np.asarray(item["point_base_m"], dtype=float) for item in items]
+            separated_candidates: list[dict[str, Any]] = []
+            for candidate in destination_candidates:
+                candidate_point = np.asarray(candidate["point_base_m"], dtype=float)
+                if all(
+                    np.linalg.norm(candidate_point[:2] - source_point[:2])
+                    >= MIN_PICK_PLACE_SEPARATION_M
+                    for source_point in source_points
+                ):
+                    separated_candidates.append(candidate)
+            if not separated_candidates:
+                raise RuntimeError(
+                    "No ceramic disk candidate is spatially distinct from the source material; "
+                    "check the annotated destination image before enabling robot motion"
+                )
+            destination = max(
+                separated_candidates,
+                key=lambda item: float(item.get("score", 0.0)),
+            )
+            destination_point = np.asarray(destination["point_base_m"], dtype=float)
+            destination_point += bias_mm / 1000.0
+            destination["point_base_m"] = destination_point.tolist()
+            print(
+                "Ceramic destination [mm]: "
+                f"{(destination_point * 1000.0).round(2).tolist()}"
+            )
+
         print(f"Calibration: {calibration_path}")
         print(f"Material: {args.material} (kind={profile.kind!r}, prompt={profile.text_prompt!r})")
         print(f"Position bias [mm]: {bias_mm.round(2).tolist()}")
@@ -222,15 +290,30 @@ def main() -> int:
             timeline.mark(f"{cycle_name}.pick_started")
             source_point_m = list(map(float, item["point_base_m"]))
             source_mm = (np.asarray(source_point_m, dtype=float) * 1000.0).round(2).tolist()
-            route = build_pick_test_route(
-                home_pose_mm_deg=list(map(float, home_pose)),
-                source_point_m=source_point_m,
-                profile=profile,
-                compression_mm=compression_mm,
-                approach_clearance_mm=args.approach_clearance_mm,
-                release_clearance_mm=args.release_clearance_mm,
-                inspection_event="hold",
-            )
+            if destination is None:
+                route = build_pick_test_route(
+                    home_pose_mm_deg=list(map(float, home_pose)),
+                    source_point_m=source_point_m,
+                    profile=profile,
+                    compression_mm=compression_mm,
+                    approach_clearance_mm=args.approach_clearance_mm,
+                    release_clearance_mm=args.release_clearance_mm,
+                    inspection_event="hold",
+                )
+            else:
+                require_distinct_pick_and_place_targets(
+                    source_point_m,
+                    destination["point_base_m"],
+                )
+                route = build_pick_place_test_route(
+                    home_pose_mm_deg=list(map(float, home_pose)),
+                    source_point_m=source_point_m,
+                    destination_point_m=destination["point_base_m"],
+                    compression_mm=compression_mm,
+                    transport_clearance_mm=args.transport_clearance_mm,
+                    approach_clearance_mm=args.approach_clearance_mm,
+                    placement_clearance_mm=args.placement_clearance_mm,
+                )
             safety = route_safety_report([step.pose_mm_deg for step in route], args)
             if not safety["all_ok"]:
                 raise RuntimeError(f"Item {index} route is outside explicit workspace limits")
@@ -238,7 +321,13 @@ def main() -> int:
                 {
                     "item": index,
                     "targeting_frame": str(frame_dir),
+                    "destination_frame": str(destination_frame) if destination_frame else None,
                     "source_point_mm": source_mm,
+                    "destination_point_mm": (
+                        (np.asarray(destination["point_base_m"]) * 1000.0).round(2).tolist()
+                        if destination is not None
+                        else None
+                    ),
                     "route": [
                         {
                             "label": step.label,
@@ -273,15 +362,26 @@ def main() -> int:
                 attempt_mm = (np.asarray(attempt_point_m, dtype=float) * 1000.0).round(2).tolist()
                 if attempt > 1:
                     print(f"RETRY attempt {attempt}: offset [{offset_x_mm:+.1f}, {offset_y_mm:+.1f}] mm -> {attempt_mm}")
-                    route = build_pick_test_route(
-                        home_pose_mm_deg=list(map(float, home_pose)),
-                        source_point_m=attempt_point_m,
-                        profile=profile,
-                        compression_mm=compression_mm,
-                        approach_clearance_mm=args.approach_clearance_mm,
-                        release_clearance_mm=args.release_clearance_mm,
-                        inspection_event="hold",
-                    )
+                    if destination is None:
+                        route = build_pick_test_route(
+                            home_pose_mm_deg=list(map(float, home_pose)),
+                            source_point_m=attempt_point_m,
+                            profile=profile,
+                            compression_mm=compression_mm,
+                            approach_clearance_mm=args.approach_clearance_mm,
+                            release_clearance_mm=args.release_clearance_mm,
+                            inspection_event="hold",
+                        )
+                    else:
+                        route = build_pick_place_test_route(
+                            home_pose_mm_deg=list(map(float, home_pose)),
+                            source_point_m=attempt_point_m,
+                            destination_point_m=destination["point_base_m"],
+                            compression_mm=compression_mm,
+                            transport_clearance_mm=args.transport_clearance_mm,
+                            approach_clearance_mm=args.approach_clearance_mm,
+                            placement_clearance_mm=args.placement_clearance_mm,
+                        )
                     safety = route_safety_report([step.pose_mm_deg for step in route], args)
                     if not safety["all_ok"]:
                         raise RuntimeError(f"Item {index} retry route is outside explicit workspace limits")
@@ -319,6 +419,13 @@ def main() -> int:
                     holding_state["value"] = False  # the sensor proves nothing is held
                     if vacuum is not None:
                         vacuum.safe_shutdown()
+                    recover_failed_pick_test(
+                        arm,
+                        route,
+                        args,
+                        return_home=(attempt == 3),
+                        label_prefix=f"item {index} attempt {attempt} ",
+                    )
                     continue
                 confirmed_at = sensor.last_wait
                 attempts.append(
@@ -368,6 +475,9 @@ def main() -> int:
             "compression_mm": compression_mm,
             "release_clearance_mm": args.release_clearance_mm,
             "test_lift_mm": profile.test_lift_mm,
+            "place_on_ceramic": bool(args.place_on_ceramic),
+            "transport_clearance_mm": args.transport_clearance_mm,
+            "placement_clearance_mm": args.placement_clearance_mm,
             "items": disk_records,
             "picked_count": len(items) if args.run else 0,
             "timing": timing,

@@ -245,6 +245,7 @@ def plan_route_motion_profile(
         acceleration_utilization=args.joint_acceleration_utilization,
         max_translation_step_mm=args.ik_translation_step_mm,
         max_rotation_step_deg=args.ik_rotation_step_deg,
+        minimum_speed_mm_s=float(getattr(args, "minimum_planned_speed_mm_s", 5.0)),
     )
 
     # Stationary hold steps (e.g. the verification hold) share the previous
@@ -380,6 +381,7 @@ def execute_route(
     failure_injected: bool = False,
     prepare_vacuum: bool = True,
     suction_sensor: SuctionSensor | None = None,
+    advisory_suction_loss_motions: frozenset[str] = frozenset(),
 ) -> None:
     """Drive one planned route with exact-stop discipline and vacuum events.
 
@@ -390,6 +392,10 @@ def execute_route(
     by recovery routes; ``suction_sensor`` confirms every acquire with the
     pressure switch and raises ``SuctionNotConfirmedError`` on timeout (holding
     state stays set so the caller's recovery path vents safely at the source).
+    ``advisory_suction_loss_motions`` permits a material-specific porous-load
+    policy after the initial acquire has already been confirmed: the first
+    matching sustain failure is logged, then further sustain polling is
+    disabled for that route. Initial acquisition is always strict.
     Steps whose pose equals the previous step's pose are stationary holds: no
     motion is commanded and only the event fires.
     """
@@ -401,6 +407,7 @@ def execute_route(
         raise ValueError("Segment plan count does not match route segment count")
     radii = route_blend_radii(route, args.blend_radius_mm)
     previous_target: list[float] | None = None
+    sustain_monitoring_degraded = False
     for index, (label, target_pose, motion, event) in enumerate(route, start=1):
         segment_plan = segment_plans[index - 1] if segment_plans is not None else None
         if segment_plan is not None and segment_plan.label != label:
@@ -456,6 +463,7 @@ def execute_route(
             suction_sensor is not None
             and holding_state["value"]
             and motion.startswith("loaded")
+            and not sustain_monitoring_degraded
         ):
             # Sustain check: a leaf can drop off the cup during the lift or
             # carry even though suction was confirmed at the contact. Re-verify
@@ -463,6 +471,21 @@ def execute_route(
             if not suction_sensor.wait_for_suction():
                 outcome = suction_sensor.last_wait
                 assert outcome is not None
+                if motion in advisory_suction_loss_motions:
+                    sustain_monitoring_degraded = True
+                    timeline.mark(
+                        f"{cycle_name}.suction_loss_advisory",
+                        label=label,
+                        motion=motion,
+                        elapsed_seconds=outcome.elapsed_seconds,
+                        timeout_seconds=outcome.timeout_seconds,
+                        last_value=outcome.last_value,
+                    )
+                    print(
+                        "WARNING: porous-load suction signal was lost after a confirmed acquire; "
+                        "continuing this route without further sustain polling."
+                    )
+                    continue
                 timeline.mark(
                     f"{cycle_name}.suction_lost",
                     label=label,

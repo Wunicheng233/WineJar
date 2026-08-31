@@ -143,6 +143,7 @@ def test_end_effector_config_without_sensor_section_is_none(tmp_path) -> None:
                     "valve_vacuum_value": 1,
                 },
                 "default_compression_mm": 13.0,
+                "max_compression_mm": 20.0,
             }
         ),
         encoding="utf-8",

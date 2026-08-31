@@ -31,7 +31,6 @@ def retry_args(**overrides) -> SimpleNamespace:
         "precontact_clearance_mm": 5.0,
         "precision_lift_mm": 20.0,
         "simulate_first_pick_failure": False,
-        "skip_second_controller_preflight": False,
         "min_x_mm": None,
         "max_x_mm": None,
         "min_y_mm": None,

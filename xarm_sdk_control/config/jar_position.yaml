@@ -1,7 +1,7 @@
 # Fixed wine-jar mouth teach point in the robot base frame [mm].
-# Measured 2026-08-18 with the TCP at the mouth center plane.
+# XY updated 2026-08-30 from the operator-aligned jar/lotus center.
 # Keep the jar at this position for every complete-loading run; override per
 # run with --jar-x-mm/--jar-y-mm/--jar-z-mm if the jar is re-staged.
 x_mm: 300.0
-y_mm: -150.0
+y_mm: -200.0
 z_mm: 65.0
