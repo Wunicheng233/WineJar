@@ -191,6 +191,7 @@ python -m pytest -q xarm_sdk_control/tests
 5. 压力开关只能确认真空是否达到阈值，不能测量连续真空度。
 
 完整的环境配置、标定、现场命令、参数依据、迁移和验收说明见
-[项目实施与复现指南](docs/WineJar项目实施与复现指南.md)。更详细的代码模块说明见
-[xarm_sdk_control/README.md](xarm_sdk_control/README.md)，视觉服务说明见
-[vision/README.md](vision/README.md)。
+[项目实施与复现指南（Word）](docs/WineJar项目实施与复现指南.docx)。对应的
+[Markdown 源版](docs/WineJar项目实施与复现指南.md) 便于版本维护和在线查看。
+更详细的代码模块说明见 [xarm_sdk_control/README.md](xarm_sdk_control/README.md)，
+视觉服务说明见 [vision/README.md](vision/README.md)。
