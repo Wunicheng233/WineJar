@@ -32,9 +32,10 @@ def test_parse_args_defaults(monkeypatch) -> None:
 def test_per_material_defaults_resolve(monkeypatch) -> None:
     from xarm_sdk_control.pick_test_workflow import profile_for, resolve_pick_test_settings
 
-    assert resolve_pick_test_settings(profile_for("ceramic")) == (0.45, 15.0, 100.0)
-    assert resolve_pick_test_settings(profile_for("lotus-leaf")) == (0.35, 15.0, 100.0)
-    assert resolve_pick_test_settings(profile_for("paper")) == (0.35, 15.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("ceramic")) == (0.45, 13.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("lotus-leaf")) == (0.35, 13.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("paper")) == (0.35, 13.0, 100.0)
+    assert resolve_pick_test_settings(profile_for("bamboo")) == (0.35, 11.0, 100.0)
     assert resolve_pick_test_settings(profile_for("ceramic"), compression_mm=8.0) == (0.45, 8.0, 100.0)
 
 

@@ -1,0 +1,34 @@
+# Initial conservative thresholds for the shared dual-cup surface evaluator.
+# Values are physical millimetres/degrees where applicable. Tune these from
+# saved RGB-D frames and CI0 outcomes rather than embedding task-specific rules.
+lotus:
+  edge_margin_mm: 8.0
+  dark_contrast: 18
+  max_defect_fraction: 0.12
+  max_roughness_mm: 2.5
+  max_tilt_deg: 25.0
+  min_valid_depth_fraction: 0.70
+
+bamboo:
+  edge_margin_mm: 7.0
+  dark_contrast: 20
+  max_defect_fraction: 0.16
+  max_roughness_mm: 2.0
+  max_tilt_deg: 22.0
+  min_valid_depth_fraction: 0.72
+
+ceramic:
+  edge_margin_mm: 6.0
+  dark_contrast: 18
+  max_defect_fraction: 0.10
+  max_roughness_mm: 1.2
+  max_tilt_deg: 18.0
+  min_valid_depth_fraction: 0.80
+
+paper:
+  edge_margin_mm: 7.0
+  dark_contrast: 18
+  max_defect_fraction: 0.14
+  max_roughness_mm: 1.8
+  max_tilt_deg: 20.0
+  min_valid_depth_fraction: 0.72

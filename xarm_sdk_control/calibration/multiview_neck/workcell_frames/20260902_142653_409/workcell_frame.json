@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "type": "fixed_workcell_support_plane",
+  "status": "ok",
+  "rig_path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/calibration/multiview_neck/three_camera_rig_20260901.json",
+  "capture_dir": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/workcell_frame_candidates/20260902_141737_202",
+  "reference_frame": "overhead",
+  "fitting_camera": {
+    "camera_id": "overhead",
+    "serial": "014122072372"
+  },
+  "coordinate_convention": {
+    "units": "metres",
+    "origin": "mean of fitted support-plane inliers inside ROI",
+    "z_axis": "support-plane normal pointing toward fitting camera",
+    "x_axis": "overhead_camera_x_projected_provisional",
+    "transform": "p_reference = T_reference_from_workcell @ p_workcell_homogeneous",
+    "note": "X/Y orientation is provisional; only Z=0 and +Z are production-relevant for height estimation."
+  },
+  "roi_xywh": [
+    300,
+    250,
+    135,
+    90
+  ],
+  "plane_reference": {
+    "point_m": [
+      0.036053412087885844,
+      0.05392365077897888,
+      0.5611720011765315
+    ],
+    "normal_toward_camera": [
+      0.01403411266167411,
+      0.0003048861383898594,
+      -0.9999014705090907
+    ],
+    "offset_m": 0.56059429096421,
+    "equation": "normal dot p_reference + offset = 0"
+  },
+  "transform_reference_from_workcell": [
+    [
+      0.9999015169914482,
+      0.0,
+      0.01403411266167411,
+      0.036053412087885844
+    ],
+    [
+      -4.279227846378641e-06,
+      -0.9999999535130644,
+      0.0003048861383898594,
+      0.05392365077897888
+    ],
+    [
+      0.014034112009271219,
+      -0.0003049161674513861,
+      -0.9999014705090907,
+      0.5611720011765315
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_workcell_from_reference": [
+    [
+      0.9999015169914481,
+      -4.2792278463786416e-06,
+      0.014034112009271219,
+      -0.0439251814087852
+    ],
+    [
+      8.470329866302683e-22,
+      -0.9999999535130644,
+      -0.00030491616745138616,
+      0.054094758688113365
+    ],
+    [
+      0.014034112661674111,
+      0.0003048861383898595,
+      -0.9999014705090908,
+      0.5605942909642101
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "quality": {
+    "valid_depth_fraction": 0.9987654320987654,
+    "sample_count": 12135,
+    "inlier_count": 11304,
+    "inlier_ratio": 0.9315203955500618,
+    "rms_residual_mm": 0.8706399264794221,
+    "p95_residual_mm": 1.6649069309739175,
+    "maximum_inlier_residual_mm": 2.007594228447615
+  },
+  "parameters": {
+    "distance_threshold_mm": 2.0,
+    "ransac_iterations": 600,
+    "minimum_inlier_ratio": 0.85,
+    "maximum_rms_mm": 1.5
+  },
+  "files": {
+    "overlay": "workcell_plane_overlay.png"
+  }
+}

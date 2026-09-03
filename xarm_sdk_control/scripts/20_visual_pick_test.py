@@ -82,7 +82,7 @@ def parse_args() -> argparse.Namespace:
         "--compression-mm",
         type=float,
         default=None,
-        help="Spring compression; per-material defaults: ceramic/lotus-leaf/paper 15.0 mm.",
+        help="Spring compression; defaults: ceramic/lotus-leaf/paper 13 mm, bamboo 11 mm.",
     )
     parser.add_argument("--approach-clearance-mm", type=float, default=35.0)
     parser.add_argument(
