@@ -298,7 +298,7 @@ def main() -> int:
         if connect_code not in (0, None) or not arm.connected:
             print(f"ERROR: failed to connect to xArm {robot_ip}: {connect_code}")
             return 4
-        profile = pipeline.start(config)
+        pipeline.start(config)
         started = True
         for _ in range(args.warmup):
             pipeline.wait_for_frames()

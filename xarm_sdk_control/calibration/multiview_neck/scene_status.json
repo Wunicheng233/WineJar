@@ -1,0 +1,131 @@
+{
+  "status": "validated_for_capture",
+  "scene_id": "fixed_cameras_20260910_side_b_current_recapture",
+  "approved_rig_fingerprint": "9d6a9b8a8ae39c4d84716bd5796fe16711d00ae8735d794f140a26f88bffd290",
+  "absolute_accuracy_validated": false,
+  "reported_on": "2026-09-10",
+  "updated_on": "2026-09-10",
+  "reason": "Separate current B viewpoint from pre-sample-30 geometry. Fixed background shift and two live B checks show mismatch; physical cause not established. User requests 12-pose recapture at current mounting.",
+  "historical_replay_allowed": true,
+  "previous_scene_status_path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/scene_before_B_recapture_104633.json",
+  "invalidated_geometry_fingerprints": [
+    "ecd4c174a2131e7f367715c3d6db7ae712447e889ad9e5a52881180b20f11c5e"
+  ],
+  "candidate_pair_extrinsics": {
+    "side_b": "/home/wunicheng/Git/WineJar/xarm_sdk_control/calibration/multiview_neck/overhead_from_side_b_charuco_extrinsics_20260910_104633_474.json",
+    "side_a": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/overhead_from_side_a_current_scene.json"
+  },
+  "retained_A_evidence": {
+    "candidate": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/camera_bump_20260910/post_bump_pair.json",
+    "summary": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/camera_bump_20260910/independent_A_summary.json",
+    "current_recheck": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_104101_009/validation.json",
+    "source_scene_id": "fixed_cameras_20260910_overhead_bumped_after_sample_9",
+    "assessment": "A current recheck remains consistent. Originals retained; explicit provenance handling needed before use under new scene."
+  },
+  "B_viewpoint_diagnostic": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/background_motion.json",
+  "required_before_new_scene_measurement": [
+    "new empty background capture",
+    "new workcell support plane",
+    "independent measurement reference and test objects",
+    "measure center and height errors against 4 mm maximum / 3 mm preferred",
+    "production accuracy acceptance remains pending"
+  ],
+  "B_leave_out_diagnostic": {
+    "report": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/calibration_validation/20260910_105031_114/validation.json",
+    "pose_average_rmse_px": 0.7987362830548379,
+    "stereo_rmse_px": 0.7911888347919371,
+    "sample_count": 12,
+    "solver_rejected_indices": [],
+    "accepted_for_capture": false
+  },
+  "independent_validation_diagnostics": {
+    "side_b_summary": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/independent_B_summary.json",
+    "side_b_distinct_poses": 5,
+    "side_b_frame_pairs": 25,
+    "acceptance_policy_applied": false
+  },
+  "prepared_rig_candidate": {
+    "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/three_camera_rig_candidate.json",
+    "preflight": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/preflight.json",
+    "readme": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/README.md",
+    "live_capture_enabled": true
+  },
+  "approved_rig_path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/calibration/multiview_neck/three_camera_rig_20260910_110140_324.json",
+  "acceptance": {
+    "reports": [
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_01.json",
+        "sha256": "f39339aa235ded0ea7b1302f95552e5f45a3e3a86cab5e25bdfdb33d0ec5fbd6"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_02.json",
+        "sha256": "193b365af4774080c97f74178af460879c032fc4dc88b78aa2c3155b8f3c131a"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_03.json",
+        "sha256": "9898054d0c346ec88b3d314b71a5f5e0656d9a3ba36735fe1d80dd94aa7034c5"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_04.json",
+        "sha256": "e142d7a65cf49b503b41125bfefff956162b6dc7dc01b6cb1e3c8a6ec313e2f8"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_05.json",
+        "sha256": "1ce92b77890218395311b991d448ef36b06595efe00c735df34a594423280796"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/A_evidence_06.json",
+        "sha256": "8910066f062501ea26a8b8d144bc64c188fb06db113810100bbf53cbe7185b21"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_105055_204/validation.json",
+        "sha256": "c35cbfd202abc43c0cc66eccb866c9c596e35976ab4790462ae7e62b81d85aad"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_105202_225/validation.json",
+        "sha256": "d29e07e550fe9da2a8f2abb02b72bdd85f0dd2e6a928a7341c8a4a0a54238ba2"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_105246_321/validation.json",
+        "sha256": "eab70f7a7377a8ea299bfaa3da31091b537a66721b269a0960e7ba17eb3e39b6"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_105445_430/validation.json",
+        "sha256": "28c8a85d8c99f57af75c91ab774d5d1d4c9609e9d8105f16d3561ea25d4f62b6"
+      },
+      {
+        "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_105608_093/validation.json",
+        "sha256": "670422453663c0d798966a67d9d65822f74544dd8ae8da3a7c452e00abb02468"
+      }
+    ],
+    "distinct_poses": {
+      "2ad618dde91e426cb1382ede0195851a9ffd70d2d25e5c1983ffecf460238106": 6,
+      "d7c2d19dd3a5ecd242a69772ae52c0c735d94fdc8a049f044e2c834b8bed960e": 5
+    },
+    "max_rmse_px": 1.5,
+    "max_p95_px": 3.0,
+    "absolute_accuracy_validated": false,
+    "scope": "static_rgbd_capture_only_not_robot_motion"
+  },
+  "metric_acceptance_target": {
+    "source": "User: maximum error <=4 mm, preferably within 3 mm.",
+    "center_position": {
+      "maximum_error_mm": 4,
+      "preferred_error_mm": 3,
+      "metric": "3D Euclidean distance to independently measured center in same workcell frame"
+    },
+    "mouth_height": {
+      "maximum_absolute_error_mm": 4,
+      "preferred_absolute_error_mm": 3,
+      "reference": "actual support plane"
+    },
+    "aggregation": "Individual errors across tested positions/heights/orientations; report worst observed error and coverage, not only average.",
+    "independent_ground_truth_required": true,
+    "absolute_accuracy_validated": false,
+    "temporary_pixel_admission": {
+      "max_cross_rmse_px": 1.5,
+      "max_cross_p95_px": 3.0,
+      "scope": "static measurement validation only; no production accuracy or robot approval"
+    }
+  }
+}

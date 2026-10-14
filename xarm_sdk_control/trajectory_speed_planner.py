@@ -131,8 +131,10 @@ def _sample_segment(
     start_angles_deg: np.ndarray,
     config: JointConstraintConfig,
 ) -> tuple[np.ndarray, float, float, int]:
-    translation_mm = float(np.linalg.norm(target_pose[:3] - start_pose[:3]))
-    rotation_deg = float(np.max(np.abs(wrapped_delta_deg(target_pose[3:], start_pose[3:]))))
+    translation_delta = target_pose[:3] - start_pose[:3]
+    rotation_delta = wrapped_delta_deg(target_pose[3:], start_pose[3:])
+    translation_mm = float(np.linalg.norm(translation_delta))
+    rotation_deg = float(np.max(np.abs(rotation_delta)))
     if translation_mm < 1e-6:
         raise TrajectoryPlanningError(
             "Pure orientation segments are not supported because xArm Cartesian speed is expressed in mm/s"
@@ -144,8 +146,13 @@ def _sample_segment(
     )
     samples = [np.asarray(start_angles_deg, dtype=float)]
     reference = samples[0]
+    # Segment endpoints are validated by the caller. Their deltas are fixed
+    # for every sample; retain the original multiply-then-add arithmetic and
+    # sequential IK reference chain while avoiding repeated conversions,
+    # slicing and wrapped-angle calculations.
+    pose_delta = np.concatenate((translation_delta, rotation_delta))
     for alpha in np.linspace(0.0, 1.0, sample_count + 1, dtype=float)[1:]:
-        pose = interpolate_pose_mm_deg(start_pose, target_pose, float(alpha))
+        pose = (start_pose + float(alpha) * pose_delta).tolist()
         angles = _solve_ik(arm, pose, reference, config.joint_count)
         joint_step = np.abs(angles - reference)
         if float(np.max(joint_step)) > config.max_joint_step_deg:
@@ -323,9 +330,13 @@ def plan_cartesian_route_speeds_endpoint(
         # can legitimately move a joint far more than max_joint_step_deg, and a
         # flipped branch merely yields a conservative speed estimate that the
         # controller preflight and runtime limits still guard.
+        distance = float(np.linalg.norm(target[:3] - pose[:3]))
+        if distance < 1e-6:
+            raise TrajectoryPlanningError(
+                "Pure orientation segments are not supported because xArm Cartesian speed is expressed in mm/s"
+            )
         end_angles = _solve_ik(arm, target.tolist(), angles, config.joint_count)
         samples = np.vstack([angles, end_angles])
-        distance = float(np.linalg.norm(target[:3] - pose[:3]))
         rotation = float(np.max(np.abs(wrapped_delta_deg(target[3:], pose[3:]))))
         plan = _plan_segment(
             samples,
@@ -384,4 +395,3 @@ def preflight_cartesian_route(
                 )
     finally:
         arm.set_only_check_type(0)
-

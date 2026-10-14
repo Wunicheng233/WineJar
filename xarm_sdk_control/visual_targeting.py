@@ -14,7 +14,6 @@ from typing import Any
 import cv2
 import numpy as np
 
-from xarm_sdk_control.geometry import undirected_axis_delta_deg
 from xarm_sdk_control.task_timing import TaskTimeline
 
 
@@ -80,12 +79,24 @@ def run_scan(
     """
     if timeline is not None:
         timeline.mark(f"{timeline_prefix}.capture_started")
-    if camera is not None:
-        frame_dir = camera.capture(capture_root)
-    else:
-        frame_dir = capture_rgbd(capture_root, serial)
+    try:
+        if camera is not None:
+            frame_dir = camera.capture(capture_root)
+        else:
+            frame_dir = capture_rgbd(capture_root, serial)
+    except Exception as exc:
+        if timeline is not None:
+            timeline.mark(
+                f"{timeline_prefix}.capture_failed",
+                error=f"{type(exc).__name__}: {exc}",
+                capture_diagnostics=getattr(camera, "last_capture_diagnostics", None),
+            )
+        raise
     if timeline is not None:
-        timeline.mark(f"{timeline_prefix}.capture_complete", frame_dir=str(frame_dir))
+        timeline.mark(
+            f"{timeline_prefix}.capture_complete", frame_dir=str(frame_dir),
+            capture_diagnostics=getattr(camera, "last_capture_diagnostics", None),
+        )
     vision_result = run_vision(
         frame_dir,
         vision_env,

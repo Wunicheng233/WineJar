@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import pytest
+import numpy as np
+
+from xarm_sdk_control import trajectory_speed_planner as planner
 
 from xarm_sdk_control.trajectory_speed_planner import (
     CartesianSegmentRequest,
@@ -234,3 +237,77 @@ def test_dense_planner_rejects_interior_flips_while_endpoint_succeeds() -> None:
         config=JointConstraintConfig(max_translation_step_mm=5.0),
     )
     assert len(plans) == 1
+
+
+def test_optimized_sampling_preserves_each_ik_pose_reference_and_result():
+    """Compare against the existing scalar interpolation API, including wraps."""
+    rng = np.random.default_rng(20260920)
+    pairs = [
+        (np.array([0, 0, 0, 170, -170, 0.]), np.array([20, 0, 0, -170, 170, 180.])),
+        (np.zeros(6), np.array([1e-6, 0, 0, 0, 0, 0.])),
+        (np.zeros(6), np.array([20, 0, 0, -180, 180, 360.])),
+    ]
+    pairs += [(rng.uniform(-600, 600, 6), rng.uniform(-600, 600, 6)) for _ in range(100)]
+
+    class TraceArm:
+        def __init__(self):
+            self.calls = []
+        def get_inverse_kinematics(self, pose, **kwargs):
+            self.calls.append((pose, kwargs))
+            return 0, [*(np.asarray(pose) * .01).tolist(), 0.0]
+
+    for start, target in pairs:
+        for count in (6, 7):
+            # Verify both a six-joint chain with an extra SDK value and a
+            # seven-joint configuration supported by the generic planner.
+            start_angles = np.r_[start * .01, 0.0][:count]
+            config = JointConstraintConfig(joint_count=count, max_translation_step_mm=7.3, max_rotation_step_deg=1.7)
+            arm = TraceArm()
+            samples, distance, rotation, sample_count = planner._sample_segment(
+                arm, start, target, start_angles, config
+            )
+            reference_arm = TraceArm()
+            expected = [start_angles]
+            for alpha in np.linspace(0., 1., sample_count + 1)[1:]:
+                pose = interpolate_pose_mm_deg(start, target, float(alpha))
+                expected.append(planner._solve_ik(reference_arm, pose, expected[-1], count))
+            assert arm.calls == reference_arm.calls
+            assert np.array_equal(samples, np.vstack(expected))
+            assert distance == float(np.linalg.norm(target[:3] - start[:3]))
+            assert rotation == float(np.max(np.abs(planner.wrapped_delta_deg(target[3:], start[3:]))))
+
+
+@pytest.mark.parametrize("failure", ["api", "invalid", "jump"])
+def test_sampling_preserves_early_failure_boundary(failure):
+    class Arm:
+        def __init__(self):
+            self.calls = []
+        def get_inverse_kinematics(self, pose, **kwargs):
+            self.calls.append((pose, kwargs))
+            if len(self.calls) == 3:
+                if failure == "api":
+                    return -1, []
+                if failure == "invalid":
+                    return 0, [float("nan")] * 6
+                return 0, [90., 0, 0, 0, 0, 0]
+            return 0, [pose[0] * .01, 0, 0, 0, 0, 0]
+    arm = Arm()
+    with pytest.raises(TrajectoryPlanningError):
+        planner._sample_segment(arm, np.zeros(6), np.array([100., 0, 0, 0, 0, 0]),
+                                np.zeros(6), JointConstraintConfig())
+    assert len(arm.calls) == 3
+    assert [call[0][0] for call in arm.calls] == [10., 20., pytest.approx(30.)]
+
+
+@pytest.mark.parametrize("translation", [0.0, 0.5e-6])
+def test_endpoint_rejects_unsupported_orientation_before_ik(translation):
+    class NoIKArm:
+        def get_inverse_kinematics(self, *_args, **_kwargs):
+            pytest.fail("Unsupported zero-distance segment reached IK")
+
+    with pytest.raises(TrajectoryPlanningError, match="Pure orientation"):
+        plan_cartesian_route_speeds_endpoint(
+            NoIKArm(), [0.] * 6, [0.] * 6,
+            [CartesianSegmentRequest("rotate", [translation, 0, 0, 0, 0, 30], 50, 100)],
+            180., 1000.,
+        )

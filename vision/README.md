@@ -65,6 +65,24 @@ The script writes:
 - `annotated.png`
 - `mask_*.png`
 
+## Offline three-camera jar masks
+
+For the fixed-camera neck experiment, process an existing capture without opening
+cameras or connecting to the robot:
+
+```bash
+conda activate winejar-vision
+HF_HUB_OFFLINE=1 python vision/scripts/04_segment_multiview_jar.py \
+  --capture <three-camera-capture-directory>
+```
+
+The models are loaded once for all three images. Each camera gets `mask.png` and
+`overlay.png`, with provenance in `segmentation.json`. The masks identify the jar;
+they do not measure neck height or guarantee accurate rim boundaries. The geometry
+stage in `xarm_sdk_control/scripts/31_estimate_mouth_height.py` checks those edges
+against calibrated multiview projections. See the
+[localization and recalibration guide](../docs/multiview-neck-localization.md).
+
 ## Persistent inference service
 
 For robot cycle-time tests, activate the vision environment and start the
@@ -96,3 +114,25 @@ the final safe return in its `result.json` timeline.
 
 Stop the service with `Ctrl+C` after experiments. Its Unix socket is removed on
 clean shutdown.
+
+## Experimental SAM2 precision comparison
+
+The offline script and persistent service accept `--sam2-precision bfloat16` for
+CUDA devices that support BF16. The default remains `float32`. Only SAM2 uses
+mixed precision; GroundingDINO and the RGB-D geometry retain their existing
+precision. Results record `sam2.precision`, and service ready/ping responses
+report `sam2_precision`.
+
+This option changes some mask pixels and is not yet validated for live picks.
+Compare saved frames without changing their existing results:
+
+```bash
+conda activate winejar-vision
+HF_HUB_OFFLINE=1 python vision/scripts/05_benchmark_inference.py \
+  --manifest docs/benchmarks/vision-round4-manifest.json \
+  --output /tmp/winejar-vision-comparison.json
+```
+
+The output path must be new. The manifest references local, Git-ignored RGB-D
+data; copy those inputs separately when reproducing on another machine.
+See the [round-four results and experiment plan](../docs/optimization-round4-20260919.md).

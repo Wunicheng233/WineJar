@@ -3,10 +3,12 @@ type: dual_vacuum_cup
 cup_count: 2
 
 # Tool frame is centered between the two cups and aligned with the flange axis.
-tcp_offset_mm_deg: [0.0, 0.0, 113.0, 0.0, 0.0, 0.0]
+# 2026-10-13: user measured flange mounting face to uncompressed cup contact plane.
+# Nominal measurement; contact verification is still pending.
+tcp_offset_mm_deg: [0.0, 0.0, 116.0, 0.0, 0.0, 0.0]
 
-# Camera-clear reset pose with the 113 mm TCP active. Z=300 mm keeps the
-# complete direct route at or below the overhead-camera height boundary.
+# Historical reset pose taught with TCP Z=113 mm in the previous layout.
+# NOT revalidated after base relocation and TCP update; re-teach before motion.
 home_pose_mm_deg: [215.194, -2.409, 300.000, 178.467, 0.581, -0.014]
 
 vacuum_io:

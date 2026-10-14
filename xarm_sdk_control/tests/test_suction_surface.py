@@ -1,8 +1,10 @@
 import cv2
 import numpy as np
+import pytest
 
 from xarm_sdk_control.suction_surface import (
     SurfaceProfile,
+    _cup_score_maps,
     analyze_suction_surface,
     masked_center_camera_point,
 )
@@ -78,3 +80,48 @@ def test_masked_center_camera_point_uses_central_surface_depth() -> None:
     point = masked_center_camera_point(depth, mask, camera_matrix)
 
     assert np.allclose(point, (0.01, -0.01, 0.50), atol=1e-4)
+
+
+def test_batch_scores_preserve_each_hard_gate_and_its_boundary() -> None:
+    # First six centres are feasible (including equality at every threshold).
+    # The remaining five each violate exactly one constraint.
+    maps = {"distance_px": np.full((1, 11), 20.0)}
+    filtered = {
+        "valid_fraction": np.ones((1, 11)),
+        "defect_fraction": np.zeros((1, 11)),
+        "roughness_mm": np.zeros((1, 11)),
+        "tilt_deg": np.zeros((1, 11)),
+    }
+    maps["distance_px"][0, 1] = 7.0  # radius 2 + margin 5
+    filtered["valid_fraction"][0, 2] = PROFILE.min_valid_depth_fraction
+    filtered["defect_fraction"][0, 3] = PROFILE.max_defect_fraction
+    filtered["roughness_mm"][0, 4] = PROFILE.max_roughness_mm
+    filtered["tilt_deg"][0, 5] = PROFILE.max_tilt_deg
+    maps["distance_px"][0, 6] = 6.99
+    filtered["valid_fraction"][0, 7] = PROFILE.min_valid_depth_fraction - .001
+    filtered["defect_fraction"][0, 8] = PROFILE.max_defect_fraction + .001
+    filtered["roughness_mm"][0, 9] = PROFILE.max_roughness_mm + .001
+    filtered["tilt_deg"][0, 10] = PROFILE.max_tilt_deg + .001
+    scores, _ = _cup_score_maps(maps, filtered, PROFILE, 2.0, 1.0)
+    assert np.all(np.isfinite(scores[0, :6]))
+    assert np.all(np.isneginf(scores[0, 6:]))
+    assert scores[0, 0] == pytest.approx(1.0)
+
+
+def test_out_of_image_cups_do_not_wrap_around_to_valid_pixels() -> None:
+    color, depth, mask, matrix = synthetic_surface()
+    mask[:] = 255
+    analysis = analyze_suction_surface(
+        color, depth, mask, matrix, PROFILE, cup_spacing_mm=1000.0,
+    )
+    assert analysis.candidates == []
+
+
+def test_top_k_preserves_full_ranking_with_non_default_search() -> None:
+    args = (*synthetic_surface(True), PROFILE)
+    options = dict(grid_step_px=9, angle_step_deg=22.5, preferred_angle_deg=137.0)
+    full = analyze_suction_surface(*args, max_candidates=100000, **options)
+    top = analyze_suction_surface(*args, max_candidates=7, **options)
+    assert len(full.candidates) > 7
+    assert top.candidates == full.candidates[:7]
+    assert all(a.score >= b.score for a, b in zip(full.candidates, full.candidates[1:]))

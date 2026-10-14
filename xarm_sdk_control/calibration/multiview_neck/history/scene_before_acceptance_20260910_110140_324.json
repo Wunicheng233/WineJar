@@ -1,0 +1,54 @@
+{
+  "status": "calibration_required",
+  "scene_id": "fixed_cameras_20260910_side_b_current_recapture",
+  "approved_rig_fingerprint": null,
+  "absolute_accuracy_validated": false,
+  "reported_on": "2026-09-10",
+  "updated_on": "2026-09-10",
+  "reason": "Separate current B viewpoint from pre-sample-30 geometry. Fixed background shift and two live B checks show mismatch; physical cause not established. User requests 12-pose recapture at current mounting.",
+  "historical_replay_allowed": true,
+  "previous_scene_status_path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/scene_before_B_recapture_104633.json",
+  "invalidated_geometry_fingerprints": [
+    "ecd4c174a2131e7f367715c3d6db7ae712447e889ad9e5a52881180b20f11c5e"
+  ],
+  "candidate_pair_extrinsics": {
+    "side_b": "/home/wunicheng/Git/WineJar/xarm_sdk_control/calibration/multiview_neck/overhead_from_side_b_charuco_extrinsics_20260910_104633_474.json"
+  },
+  "retained_A_evidence": {
+    "candidate": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/camera_bump_20260910/post_bump_pair.json",
+    "summary": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/camera_bump_20260910/independent_A_summary.json",
+    "current_recheck": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/stationary_validation/20260910_104101_009/validation.json",
+    "source_scene_id": "fixed_cameras_20260910_overhead_bumped_after_sample_9",
+    "assessment": "A current recheck remains consistent. Originals retained; explicit provenance handling needed before use under new scene."
+  },
+  "B_viewpoint_diagnostic": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/background_motion.json",
+  "required_before_new_scene_measurement": [
+    "capture 12 current B poses and verify consistency",
+    "independent B multi-pose validation",
+    "resolve A provenance for new scene with retained current-check evidence",
+    "explicit acceptance policy and new rig",
+    "new empty background capture",
+    "new workcell support plane",
+    "independent absolute accuracy measurement"
+  ],
+  "B_leave_out_diagnostic": {
+    "report": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/calibration_validation/20260910_105031_114/validation.json",
+    "pose_average_rmse_px": 0.7987362830548379,
+    "stereo_rmse_px": 0.7911888347919371,
+    "sample_count": 12,
+    "solver_rejected_indices": [],
+    "accepted_for_capture": false
+  },
+  "independent_validation_diagnostics": {
+    "side_b_summary": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/B_review_20260910/independent_B_summary.json",
+    "side_b_distinct_poses": 5,
+    "side_b_frame_pairs": 25,
+    "acceptance_policy_applied": false
+  },
+  "prepared_rig_candidate": {
+    "path": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/three_camera_rig_candidate.json",
+    "preflight": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/preflight.json",
+    "readme": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/multiview_neck/current_rig_20260910/README.md",
+    "live_capture_enabled": false
+  }
+}

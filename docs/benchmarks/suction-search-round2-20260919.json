@@ -1,0 +1,378 @@
+{
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "opencv": "4.13.0",
+  "opencv_threads": 1,
+  "repeats": 7,
+  "baseline_sha256": "70324638a9cb80de893f85700190c629ab2a4c1dd7f2ad7018997057783660b4",
+  "current_sha256": "89d392930372a95b8bb3c792c5a6780feb34f87501c82444be5fb543e5cdfb1a",
+  "frame_dir": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/suction_surface/evaluation/20260903_150240_907",
+  "cases": [
+    {
+      "name": "flat",
+      "options": {},
+      "candidate_count": 9712,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.5282855809998637,
+          0.4392340460001378,
+          0.427550409000105,
+          0.4291697189999013,
+          0.4288454489999367,
+          0.4298326329999327,
+          0.4263690370000859
+        ],
+        "after": [
+          0.01517723200004184,
+          0.014239965000115262,
+          0.014171118999911414,
+          0.013435835000109364,
+          0.01436792799995601,
+          0.01378586400005588,
+          0.014274083999907816
+        ]
+      },
+      "median_seconds": {
+        "before": 0.4291697189999013,
+        "after": 0.014239965000115262
+      },
+      "reduction_percent": 96.6819735014626,
+      "input_sha256": [
+        "9d21c44f4ee2175c962a03cceaaec5433533a2155f13a15b4b4244cf8478f390",
+        "10ea946bdfac6b3304b2380e681eb0f6e006cd6b80bd47e234884d7278c24460",
+        "303cc1d1db10cfcd22420a278faeee8d072dc344612b31245bcd6c30042c7a6f",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "crack",
+      "options": {},
+      "candidate_count": 8115,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.3819272670000373,
+          0.3917719490000309,
+          0.3899276160000227,
+          0.3941046750001078,
+          0.39942654800006494,
+          0.3916052940001009,
+          0.39630868099993677
+        ],
+        "after": [
+          0.014224627999965378,
+          0.013631890999931784,
+          0.014152134000141814,
+          0.013395941999988281,
+          0.014259648999995989,
+          0.013386120999939521,
+          0.014154444000041622
+        ]
+      },
+      "median_seconds": {
+        "before": 0.3917719490000309,
+        "after": 0.014152134000141814
+      },
+      "reduction_percent": 96.38766020990934,
+      "input_sha256": [
+        "8b34d52a572f73f7bccb789e96d44035be94f9571bd43ac76a1cb262cf167f54",
+        "10ea946bdfac6b3304b2380e681eb0f6e006cd6b80bd47e234884d7278c24460",
+        "303cc1d1db10cfcd22420a278faeee8d072dc344612b31245bcd6c30042c7a6f",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "depth_hole",
+      "options": {},
+      "candidate_count": 6657,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.3165814169999521,
+          0.34608877899995605,
+          0.34795129000008274,
+          0.3176221250000708,
+          0.34861881700021513,
+          0.35191295000004175,
+          0.3509834110000156
+        ],
+        "after": [
+          0.014730253000152516,
+          0.013303323999934946,
+          0.013967691000061677,
+          0.013495970000121815,
+          0.013620783999840569,
+          0.013358632000063153,
+          0.01367370499997378
+        ]
+      },
+      "median_seconds": {
+        "before": 0.34795129000008274,
+        "after": 0.013620783999840569
+      },
+      "reduction_percent": 96.08543368244523,
+      "input_sha256": [
+        "9d21c44f4ee2175c962a03cceaaec5433533a2155f13a15b4b4244cf8478f390",
+        "2f3cb0b12d62799a0accefc4482214f7d81c2aa40e35bd3d3088a3ce5c756503",
+        "303cc1d1db10cfcd22420a278faeee8d072dc344612b31245bcd6c30042c7a6f",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "no_feasible",
+      "options": {
+        "cup_spacing_mm": 1000.0
+      },
+      "candidate_count": 0,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.059586165999917284,
+          0.0595211790000576,
+          0.06001275800008443,
+          0.05977050799992867,
+          0.06037176300014835,
+          0.058746807000034096,
+          0.059790960999862364
+        ],
+        "after": [
+          0.01341249400002198,
+          0.012469744000100036,
+          0.013157609000018056,
+          0.012388542000053349,
+          0.013090176999867253,
+          0.01234894100002748,
+          0.013142892999894684
+        ]
+      },
+      "median_seconds": {
+        "before": 0.05977050799992867,
+        "after": 0.013090176999867253
+      },
+      "reduction_percent": 78.09927096506712,
+      "input_sha256": [
+        "9d21c44f4ee2175c962a03cceaaec5433533a2155f13a15b4b4244cf8478f390",
+        "10ea946bdfac6b3304b2380e681eb0f6e006cd6b80bd47e234884d7278c24460",
+        "303cc1d1db10cfcd22420a278faeee8d072dc344612b31245bcd6c30042c7a6f",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "non_default",
+      "options": {
+        "grid_step_px": 9,
+        "angle_step_deg": 22.5,
+        "preferred_angle_deg": 137.0
+      },
+      "candidate_count": 1586,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.08620147400006317,
+          0.07823626300000797,
+          0.07762358299987682,
+          0.07867034199989575,
+          0.07888290400001097,
+          0.07956225899988567,
+          0.09318706800013388
+        ],
+        "after": [
+          0.013098549000005733,
+          0.012330593000115186,
+          0.012600281000004543,
+          0.012479983000048378,
+          0.01273192000007839,
+          0.012623494999843388,
+          0.014070508000031623
+        ]
+      },
+      "median_seconds": {
+        "before": 0.07888290400001097,
+        "after": 0.012623494999843388
+      },
+      "reduction_percent": 83.99717256879686,
+      "input_sha256": [
+        "8b34d52a572f73f7bccb789e96d44035be94f9571bd43ac76a1cb262cf167f54",
+        "10ea946bdfac6b3304b2380e681eb0f6e006cd6b80bd47e234884d7278c24460",
+        "303cc1d1db10cfcd22420a278faeee8d072dc344612b31245bcd6c30042c7a6f",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "image_edges",
+      "options": {},
+      "candidate_count": 25388,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.8884380989998135,
+          0.9874048750000384,
+          0.9718056100000467,
+          0.9822674330000609,
+          1.0758573170001,
+          0.9769040849998873,
+          1.0698294080000323
+        ],
+        "after": [
+          0.015290093999965393,
+          0.016482977000123356,
+          0.015539522999915789,
+          0.016262498000060077,
+          0.015607830000135436,
+          0.018568794999964666,
+          0.0156862189999174
+        ]
+      },
+      "median_seconds": {
+        "before": 0.9822674330000609,
+        "after": 0.0156862189999174
+      },
+      "reduction_percent": 98.40306025905713,
+      "input_sha256": [
+        "9d21c44f4ee2175c962a03cceaaec5433533a2155f13a15b4b4244cf8478f390",
+        "10ea946bdfac6b3304b2380e681eb0f6e006cd6b80bd47e234884d7278c24460",
+        "fcb02c1247622996dd8b3edea4e8de4cd31ec3bb66b3c0ecbb2c6ae376ebe249",
+        "42d6dcdb4786028cf5231b24166c00995b2cd67232b3723df9e47b53cf45d63e"
+      ],
+      "profile": {
+        "edge_margin_mm": 5.0,
+        "dark_contrast": 15,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.0,
+        "max_tilt_deg": 15.0,
+        "min_valid_depth_fraction": 0.9
+      }
+    },
+    {
+      "name": "lotus",
+      "options": {},
+      "candidate_count": 8493,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.4920507819999784,
+          0.49725202600006924,
+          0.4907170280000628,
+          0.4990144710000095,
+          0.4963242460000856,
+          0.49340133999999125,
+          0.48820361900015996
+        ],
+        "after": [
+          0.026428299999906812,
+          0.025899564999917857,
+          0.026328528000021834,
+          0.02652725900020414,
+          0.02562655200017616,
+          0.026228026000126192,
+          0.02567641700011336
+        ]
+      },
+      "median_seconds": {
+        "before": 0.49340133999999125,
+        "after": 0.026228026000126192
+      },
+      "reduction_percent": 94.68424102777536,
+      "input_sha256": [
+        "0140774a67f059232065856d0cddb9b0dc32832de91e8193bc501ac3eee25627",
+        "311514377c6680a8482534ae75ac292daa79ec8c09423bfc17da550e5dcd1ebd",
+        "05e5d702be01048997bdf57ad113d2d0775b0f4e35102474d44aac59d324a92f",
+        "7a3eebc42acf3c0e24af4cc8367f8c913a5180f3665953de11a7a363e186347e"
+      ],
+      "profile": {
+        "edge_margin_mm": 8.0,
+        "dark_contrast": 18,
+        "max_defect_fraction": 0.12,
+        "max_roughness_mm": 2.5,
+        "max_tilt_deg": 25.0,
+        "min_valid_depth_fraction": 0.7
+      }
+    },
+    {
+      "name": "ceramic",
+      "options": {},
+      "candidate_count": 1254,
+      "exact_match": true,
+      "seconds": {
+        "before": [
+          0.0986862029999429,
+          0.09773447400016266,
+          0.09825288100000762,
+          0.09767392399999153,
+          0.0976741659999334,
+          0.10757770400005029,
+          0.09970399000008001
+        ],
+        "after": [
+          0.033898130999887144,
+          0.03401400699999613,
+          0.034109808000039266,
+          0.03391678299999512,
+          0.033644443999946816,
+          0.033652545999984795,
+          0.033780137999883664
+        ]
+      },
+      "median_seconds": {
+        "before": 0.09825288100000762,
+        "after": 0.033898130999887144
+      },
+      "reduction_percent": 65.4990971716295,
+      "input_sha256": [
+        "0140774a67f059232065856d0cddb9b0dc32832de91e8193bc501ac3eee25627",
+        "311514377c6680a8482534ae75ac292daa79ec8c09423bfc17da550e5dcd1ebd",
+        "9897625d6302447a9232f1f9e652f44458f08727d9365af824273d7c73c653d3",
+        "7a3eebc42acf3c0e24af4cc8367f8c913a5180f3665953de11a7a363e186347e"
+      ],
+      "profile": {
+        "edge_margin_mm": 6.0,
+        "dark_contrast": 18,
+        "max_defect_fraction": 0.1,
+        "max_roughness_mm": 1.2,
+        "max_tilt_deg": 18.0,
+        "min_valid_depth_fraction": 0.8
+      }
+    }
+  ]
+}

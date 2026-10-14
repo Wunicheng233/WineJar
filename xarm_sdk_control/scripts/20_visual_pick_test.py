@@ -402,7 +402,7 @@ def main() -> int:
                         f"{cycle_name}.suction_failed",
                         attempt=attempt,
                         offset_mm=[offset_x_mm, offset_y_mm],
-                        elapsed_seconds=exc.elapsed_seconds,
+                        suction_wait_seconds=exc.elapsed_seconds,
                         timeout_seconds=exc.timeout_seconds,
                         last_value=exc.last_value,
                     )

@@ -177,6 +177,7 @@ class LeafPickOutcome:
             "source_point_m": list(map(float, self.source_point_m)),
             "route": final.get("route"),
             "joint_speed_planning_seconds": final.get("joint_speed_planning_seconds"),
+            "planning_diagnostics": final.get("planning_diagnostics"),
             "joint_speed_plan": final.get("joint_speed_plan"),
             "controller_preflight": final.get("controller_preflight"),
             "pick_attempts_used": len(self.attempts),
@@ -410,6 +411,7 @@ def run_leaf_pick_with_retry(
         timeline.mark(
             f"{cycle_name}.route_planned",
             planning_seconds=planning_seconds,
+            planning_diagnostics=preflight_result.get("planning_diagnostics"),
             segment_count=len(plans),
         )
         failure_injected = bool(
@@ -425,6 +427,7 @@ def run_leaf_pick_with_retry(
             "route": route,
             "safety": safety,
             "joint_speed_planning_seconds": planning_seconds,
+            "planning_diagnostics": preflight_result.get("planning_diagnostics"),
                 "joint_speed_plan": [plan.to_dict() for plan in plans],
                 "controller_preflight": {
                     "checks_run": 1,

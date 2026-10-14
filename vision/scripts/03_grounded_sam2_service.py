@@ -35,6 +35,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sam2-model-id", default=OFFLINE.DEFAULT_SAM2_MODEL_ID)
     parser.add_argument("--sam2-config", default=OFFLINE.DEFAULT_SAM2_CONFIG)
     parser.add_argument("--sam2-checkpoint", type=Path, default=OFFLINE.DEFAULT_SAM2_CHECKPOINT)
+    parser.add_argument("--sam2-precision", choices=("float32", "bfloat16"), default="float32")
     parser.add_argument("--cpu", action="store_true")
     parser.add_argument("--allow-model-download", action="store_true")
     return parser.parse_args()
@@ -77,6 +78,7 @@ def main() -> int:
         checkpoint=checkpoint,
         model_id=args.sam2_model_id,
     )
+    OFFLINE.sam2_precision_context(sam2_predictor, args.sam2_precision)
     loading_seconds = time.monotonic() - started_loading
 
     server = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
@@ -91,6 +93,7 @@ def main() -> int:
                     "status": "ready",
                     "socket": str(socket_path),
                     "device": str(device),
+                    "sam2_precision": args.sam2_precision,
                     "model_loading_seconds": loading_seconds,
                 }
             ),
@@ -113,6 +116,7 @@ def main() -> int:
                                     "request_id": request_id,
                                     "status": "ready",
                                     "device": str(device),
+                                    "sam2_precision": args.sam2_precision,
                                     "model_loading_seconds": loading_seconds,
                                 },
                             )
@@ -141,6 +145,7 @@ def main() -> int:
                             box_threshold=float(request.get("box_threshold", 0.45)),
                             text_threshold=float(request.get("text_threshold", 0.15)),
                             output_min_score=float(request.get("output_min_score", 0.45)),
+                            sam2_precision=args.sam2_precision,
                         )
                         write_response(
                             connection,
@@ -150,6 +155,7 @@ def main() -> int:
                                 "frame_dir": str(frame_dir),
                                 "detection_count": len(result.get("detections", [])),
                                 "timing_seconds": result.get("timing_seconds", {}),
+                                "sam2_precision": args.sam2_precision,
                             },
                         )
                     except Exception as exc:

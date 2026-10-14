@@ -626,11 +626,16 @@ def main() -> int:
                 angles_code, leg_start_angles = arm.get_servo_angle(is_radian=False)
                 require_code(f"get joint angles for {material} route planning", (angles_code, leg_start_angles))
                 planning_started = time.perf_counter()
-                plans = plan_route_motion_profile(arm, leg_start_pose, leg_start_angles, route, args)
+                preflight_result = {}
+                plans = plan_route_motion_profile(
+                    arm, leg_start_pose, leg_start_angles, route, args,
+                    preflight_result=preflight_result,
+                )
                 planning_seconds = time.perf_counter() - planning_started
                 timeline.mark(
                     f"{cycle_name}.route_planned",
                     planning_seconds=planning_seconds,
+                    planning_diagnostics=preflight_result.get("planning_diagnostics"),
                     segment_count=len(plans),
                 )
                 records.append(
@@ -642,6 +647,7 @@ def main() -> int:
                         "route": route,
                         "safety": safety,
                         "joint_speed_planning_seconds": planning_seconds,
+                        "planning_diagnostics": preflight_result.get("planning_diagnostics"),
                         "joint_speed_plan": [plan.to_dict() for plan in plans],
                         "controller_preflight": {"checks_run": 1, "passed": True},
                     }

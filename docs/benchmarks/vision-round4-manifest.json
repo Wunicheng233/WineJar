@@ -1,0 +1,26 @@
+[
+  {
+    "frame_dir": "xarm_sdk_control/data/complete_loading/20260830_175757_904/scan_3/captures/20260830_175758_501",
+    "text_prompt": "white paper.",
+    "box_threshold": 0.45,
+    "text_threshold": 0.15
+  },
+  {
+    "frame_dir": "xarm_sdk_control/data/complete_loading/20260830_175757_904/scan_4/captures/20260830_175821_103",
+    "text_prompt": "ceramic disk.",
+    "box_threshold": 0.45,
+    "text_threshold": 0.15
+  },
+  {
+    "frame_dir": "xarm_sdk_control/data/complete_loading/20260830_175757_904/scan_5/captures/20260830_175859_798",
+    "text_prompt": "bamboo leaf.",
+    "box_threshold": 0.2,
+    "text_threshold": 0.15
+  },
+  {
+    "frame_dir": "xarm_sdk_control/data/complete_loading/20260830_175757_904/scan_shell_after_ceramic/captures/20260830_175840_686",
+    "text_prompt": "bamboo leaf.",
+    "box_threshold": 0.2,
+    "text_threshold": 0.15
+  }
+]

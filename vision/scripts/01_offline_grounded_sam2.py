@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import time
+from contextlib import nullcontext
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -174,21 +175,39 @@ def infer_sam2_masks(
     predictor: Any,
     image_pil: Image.Image,
     detections: list[dict[str, Any]],
+    precision: str = "float32",
 ) -> list[np.ndarray]:
+    context = sam2_precision_context(predictor, precision)
     if not detections:
         return []
 
     image_rgb = np.asarray(image_pil).copy()
-    predictor.set_image(image_rgb)
     boxes = np.array([det["box_xyxy"] for det in detections], dtype=np.float32)
-    masks, scores, _ = predictor.predict(
-        box=boxes,
-        multimask_output=False,
-    )
+    with context:
+        predictor.set_image(image_rgb)
+        masks, scores, _ = predictor.predict(
+            box=boxes,
+            multimask_output=False,
+        )
     masks = np.asarray(masks)
     if masks.ndim == 4:
         masks = masks[:, 0]
     return [(mask > 0).astype(np.uint8) for mask in masks]
+
+
+def sam2_precision_context(predictor: Any, precision: str):
+    """Opt-in CUDA mixed precision; leave detector and geometric calculations unchanged."""
+    if precision == "float32":
+        return nullcontext()
+    if precision != "bfloat16":
+        raise ValueError(f"Unsupported SAM2 precision: {precision}")
+    device = torch.device(predictor.device)
+    if device.type != "cuda":
+        raise ValueError("SAM2 bfloat16 requires a CUDA predictor")
+    with torch.cuda.device(device):
+        if not torch.cuda.is_bf16_supported():
+            raise ValueError("This CUDA device does not support SAM2 bfloat16")
+    return torch.autocast("cuda", dtype=torch.bfloat16)
 
 
 def mask_geometry(
@@ -328,6 +347,7 @@ def process_saved_frame(
     box_threshold: float,
     text_threshold: float,
     output_min_score: float,
+    sam2_precision: str = "float32",
 ) -> dict[str, Any]:
     started_total = time.monotonic()
     metadata, color_bgr, depth_raw, image_pil = load_frame(frame_dir)
@@ -351,7 +371,7 @@ def process_saved_frame(
     print(f"Detections: {len(raw_detections)}")
 
     started_sam2 = time.monotonic()
-    masks = infer_sam2_masks(sam2_predictor, image_pil, raw_detections)
+    masks = infer_sam2_masks(sam2_predictor, image_pil, raw_detections, precision=sam2_precision)
     sam2_seconds = time.monotonic() - started_sam2
 
     started_postprocess = time.monotonic()
@@ -402,6 +422,7 @@ def process_saved_frame(
             "model_id": sam2_model_id,
             "config": sam2_config,
             "checkpoint": str(sam2_checkpoint) if sam2_checkpoint else None,
+            "precision": sam2_precision,
         },
         "device": str(device),
         "coordinate_convention": metadata["stream"]["coordinate_convention"],
@@ -435,6 +456,8 @@ def main() -> int:
     parser.add_argument("--sam2-model-id", default=DEFAULT_SAM2_MODEL_ID)
     parser.add_argument("--sam2-config", default=DEFAULT_SAM2_CONFIG)
     parser.add_argument("--sam2-checkpoint", type=Path, default=DEFAULT_SAM2_CHECKPOINT)
+    parser.add_argument("--sam2-precision", choices=("float32", "bfloat16"), default="float32",
+                        help="Experimental CUDA SAM2 acceleration; default preserves existing precision.")
     parser.add_argument("--box-threshold", type=float, default=0.45)
     parser.add_argument("--text-threshold", type=float, default=0.20)
     parser.add_argument(
@@ -482,6 +505,7 @@ def main() -> int:
         box_threshold=args.box_threshold,
         text_threshold=args.text_threshold,
         output_min_score=args.output_min_score,
+        sam2_precision=args.sam2_precision,
     )
     return 0
 

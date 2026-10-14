@@ -1,0 +1,26 @@
+{
+  "description": "Offline regression fixture only. Cameras moved after this capture; do not reuse for live positioning.",
+  "rig": "../calibration/multiview_neck/three_camera_rig_20260908.json",
+  "workcell_frame": "../calibration/multiview_neck/workcell_frames/20260908_152730_017/workcell_frame.json",
+  "capture": "../data/multiview_neck/jar_capture_20260908/20260908_152937_039",
+  "masks": "../data/multiview_neck/jar_masks/20260908_160714_206061",
+  "background_capture": "../data/multiview_neck/workcell_empty_20260908/20260908_152501_628",
+  "rois": {
+    "overhead": [190, 130, 300, 290],
+    "side_a": [270, 145, 240, 330],
+    "side_b": [220, 40, 310, 420]
+  },
+  "parameters": {
+    "minimum_height_mm": 30,
+    "maximum_height_mm": 600,
+    "profile_window_mm": 26,
+    "edge_search_px": 1.5,
+    "maximum_edge_fit_error_px": 1.2,
+    "maximum_tangent_radius_error_mm": 4,
+    "maximum_neck_spread_mm": 5,
+    "maximum_rim_rmse_px": 2,
+    "maximum_depth_disagreement_mm": 8,
+    "bootstrap_samples": 20,
+    "random_seed": 7
+  }
+}

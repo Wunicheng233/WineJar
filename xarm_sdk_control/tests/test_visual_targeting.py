@@ -4,9 +4,35 @@ import json
 
 import cv2
 import numpy as np
+import pytest
 
 from xarm_sdk_control import visual_targeting
 from xarm_sdk_control.geometry import undirected_axis_delta_deg
+
+
+@pytest.mark.parametrize("failed", [False, True])
+def test_scan_records_capture_diagnostics_on_success_and_failure(monkeypatch, tmp_path, failed):
+    from types import SimpleNamespace
+    from xarm_sdk_control.task_timing import TaskTimeline
+
+    diagnostics = {"status": "failed" if failed else "success", "restart_count": 1}
+    error = RuntimeError("camera read timeout")
+    def capture(_):
+        if failed:
+            raise error
+        return tmp_path
+    camera = SimpleNamespace(capture=capture, last_capture_diagnostics=diagnostics)
+    timeline = TaskTimeline()
+    monkeypatch.setattr(visual_targeting, "run_vision", lambda *_args, **_kwargs: {"detections": []})
+    if failed:
+        with pytest.raises(RuntimeError) as caught:
+            visual_targeting.run_scan(tmp_path, np.eye(4), "test", .35, camera=camera, timeline=timeline)
+        assert caught.value is error
+    else:
+        visual_targeting.run_scan(tmp_path, np.eye(4), "test", .35, camera=camera, timeline=timeline)
+    event = timeline.events[1]
+    assert event["name"] == ("scan.capture_failed" if failed else "scan.capture_complete")
+    assert event["capture_diagnostics"] == diagnostics
 
 
 def test_run_vision_passes_custom_text_prompt(tmp_path, monkeypatch) -> None:

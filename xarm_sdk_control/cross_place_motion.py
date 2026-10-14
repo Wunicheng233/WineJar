@@ -220,6 +220,23 @@ def _stationary_step_plan(
     )
 
 
+class _TimedIK:
+    """Measure the existing IK calls without caching or changing their inputs."""
+
+    def __init__(self, arm: Any) -> None:
+        self.arm = arm
+        self.calls = 0
+        self.seconds = 0.0
+
+    def get_inverse_kinematics(self, *args: Any, **kwargs: Any) -> Any:
+        started = time.perf_counter()
+        self.calls += 1
+        try:
+            return self.arm.get_inverse_kinematics(*args, **kwargs)
+        finally:
+            self.seconds += time.perf_counter() - started
+
+
 def plan_route_motion_profile(
     arm: Any,
     start_pose: list[float],
@@ -264,19 +281,36 @@ def plan_route_motion_profile(
         previous_pose = request.target_pose_mm_deg
 
     motion_requests = [requests[index] for index in motion_indices]
-    motion_plans: list[SegmentSpeedPlan] | None = None
-    last_error: TrajectoryPlanningError | None = None
-    for attempt in range(1, 4):
+    diagnostics: dict[str, Any] = {"estimation_attempts": [], "controller_preflight_seconds": 0.0}
+    if preflight_result is not None:
+        preflight_result["planning_diagnostics"] = diagnostics
+
+    def estimate(planner: Callable[..., list[SegmentSpeedPlan]], method: str) -> list[SegmentSpeedPlan]:
+        timed_arm = _TimedIK(arm)
+        started = time.perf_counter()
+        record: dict[str, Any] = {"method": method, "status": "failed", "error": None}
         try:
-            motion_plans = plan_cartesian_route_speeds(
-                arm,
-                start_pose,
-                start_angles,
-                motion_requests,
+            result = planner(
+                timed_arm, start_pose, start_angles, motion_requests,
                 joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
                 joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
                 config=config,
             )
+            record["status"] = "passed"
+            return result
+        except Exception as exc:
+            record["error"] = str(exc)
+            raise
+        finally:
+            record.update(seconds=time.perf_counter() - started,
+                          ik_calls=timed_arm.calls, ik_seconds=timed_arm.seconds)
+            diagnostics["estimation_attempts"].append(record)
+
+    motion_plans: list[SegmentSpeedPlan] | None = None
+    last_error: TrajectoryPlanningError | None = None
+    for attempt in range(1, 4):
+        try:
+            motion_plans = estimate(plan_cartesian_route_speeds, "dense")
             break
         except TrajectoryPlanningError as exc:
             # The xArm IK occasionally flips its J4/J6 branch near the roll
@@ -297,19 +331,12 @@ def plan_route_motion_profile(
             "WARNING: dense joint-aware estimation failed repeatedly; "
             "falling back to endpoint interpolation."
         )
-        motion_plans = plan_cartesian_route_speeds_endpoint(
-            arm,
-            start_pose,
-            start_angles,
-            motion_requests,
-            joint_velocity_limit_deg_s=float(arm.joint_speed_limit[1]),
-            joint_acceleration_limit_deg_s2=float(arm.joint_acc_limit[1]),
-            config=config,
-        )
+        motion_plans = estimate(plan_cartesian_route_speeds_endpoint, "endpoint")
     blend_radii = route_blend_radii(route, args.blend_radius_mm)
     preflight_status = "skipped"
     preflight_error: str | None = None
     if run_controller_preflight:
+        preflight_started = time.perf_counter()
         try:
             preflight_cartesian_route(
                 arm,
@@ -326,6 +353,8 @@ def plan_route_motion_profile(
             preflight_status = "warned"
             preflight_error = str(exc)
             print(f"WARNING: controller preflight rejected the route ({exc}); continuing per operator policy.")
+        finally:
+            diagnostics["controller_preflight_seconds"] = time.perf_counter() - preflight_started
     else:
         print("WARNING: controller no-motion preflight skipped for this route.")
     if preflight_result is not None:
@@ -477,7 +506,7 @@ def execute_route(
                         f"{cycle_name}.suction_loss_advisory",
                         label=label,
                         motion=motion,
-                        elapsed_seconds=outcome.elapsed_seconds,
+                        suction_wait_seconds=outcome.elapsed_seconds,
                         timeout_seconds=outcome.timeout_seconds,
                         last_value=outcome.last_value,
                     )
@@ -489,7 +518,7 @@ def execute_route(
                 timeline.mark(
                     f"{cycle_name}.suction_lost",
                     label=label,
-                    elapsed_seconds=outcome.elapsed_seconds,
+                    suction_wait_seconds=outcome.elapsed_seconds,
                     timeout_seconds=outcome.timeout_seconds,
                     last_value=outcome.last_value,
                 )
@@ -512,14 +541,14 @@ def execute_route(
                 if ok:
                     timeline.mark(
                         f"{cycle_name}.suction_confirmed",
-                        elapsed_seconds=outcome.elapsed_seconds,
+                        suction_wait_seconds=outcome.elapsed_seconds,
                         debounce_seconds=suction_sensor.config.debounce_seconds,
                         timeout_seconds=outcome.timeout_seconds,
                     )
                 else:
                     timeline.mark(
                         f"{cycle_name}.suction_failed",
-                        elapsed_seconds=outcome.elapsed_seconds,
+                        suction_wait_seconds=outcome.elapsed_seconds,
                         timeout_seconds=outcome.timeout_seconds,
                         last_value=outcome.last_value,
                     )

@@ -5,12 +5,24 @@ from __future__ import annotations
 import json
 import threading
 import time
+from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
 
 import cv2
 import numpy as np
 import pyrealsense2 as rs
+
+
+@contextmanager
+def _capture_stage(timing: dict[str, float] | None, name: str):
+    """Accumulate disjoint stages, including time spent in a failed attempt."""
+    started = time.perf_counter() if timing is not None else None
+    try:
+        yield
+    finally:
+        if timing is not None:
+            timing[name] = timing.get(name, 0.0) + time.perf_counter() - started
 
 
 def camera_info(device: rs.device) -> dict[str, str]:
@@ -49,11 +61,12 @@ def make_depth_preview(depth_raw: np.ndarray, depth_scale_m: float) -> np.ndarra
     valid = depth_m > 0
     normalized = np.zeros(depth_raw.shape, dtype=np.uint8)
     if np.any(valid):
-        near_m, far_m = np.percentile(depth_m[valid], [2, 98])
+        depth_m = depth_m[valid]
+        near_m, far_m = np.percentile(depth_m, [2, 98])
         if far_m > near_m:
-            clipped = np.clip(depth_m, near_m, far_m)
+            np.clip(depth_m, near_m, far_m, out=depth_m)
             normalized[valid] = np.round(
-                255.0 * (far_m - clipped[valid]) / (far_m - near_m)
+                255.0 * (far_m - depth_m) / (far_m - near_m)
             ).astype(np.uint8)
     preview = cv2.applyColorMap(normalized, cv2.COLORMAP_TURBO)
     preview[~valid] = 0
@@ -101,6 +114,7 @@ class RealSenseCaptureSession:
         self._recording_stop = threading.Event()
         self._recording_error: BaseException | None = None
         self._recording_path: Path | None = None
+        self.last_capture_diagnostics: dict | None = None
 
     def start(self) -> "RealSenseCaptureSession":
         if self.pipeline is not None:
@@ -150,19 +164,43 @@ class RealSenseCaptureSession:
         raise RuntimeError(f"RealSense {serial} did not re-enumerate after hardware reset")
 
     def capture(self, output_root: Path) -> Path:
-        if self.pipeline is None or self.profile is None or self.align_to_color is None or self.info is None:
-            raise RuntimeError("RealSense session has not been started")
-        if self._recording_thread is None:
-            try:
-                color, depth_raw, timestamp, intrinsics = self._read_frame_arrays()
-            except RuntimeError as exc:
-                print(f"RealSense frame capture failed ({exc}); restarting the stream once.")
-                self._restart_pipeline()
-                color, depth_raw, timestamp, intrinsics = self._read_frame_arrays()
-        else:
-            color, depth_raw, timestamp, intrinsics = self._next_recorded_frame()
-
-        return self._save_frame(output_root, color, depth_raw, timestamp, intrinsics)
+        timing: dict[str, float] = {}
+        diagnostics = {
+            "mode": "direct" if self._recording_thread is None else "recording",
+            "status": "running", "read_attempts": 0, "restart_count": 0,
+            "timing_seconds": timing,
+        }
+        self.last_capture_diagnostics = diagnostics
+        started = time.perf_counter()
+        try:
+            if self.pipeline is None or self.profile is None or self.align_to_color is None or self.info is None:
+                raise RuntimeError("RealSense session has not been started")
+            if self._recording_thread is None:
+                try:
+                    diagnostics["read_attempts"] += 1
+                    frame = self._read_frame_arrays(timing)
+                except RuntimeError as exc:
+                    diagnostics["first_read_error"] = f"{type(exc).__name__}: {exc}"
+                    diagnostics["restart_count"] += 1
+                    print(f"RealSense frame capture failed ({exc}); restarting the stream once.")
+                    with _capture_stage(timing, "stream_recovery"):
+                        self._restart_pipeline()
+                    diagnostics["read_attempts"] += 1
+                    frame = self._read_frame_arrays(timing)
+            else:
+                diagnostics["read_attempts"] += 1
+                with _capture_stage(timing, "recorded_frame_wait_and_copy"):
+                    frame = self._next_recorded_frame()
+            output_dir = self._save_frame(output_root, *frame, timing=timing)
+            diagnostics["status"] = "success"
+            diagnostics["frame_dir"] = str(output_dir)
+            return output_dir
+        except Exception as exc:
+            diagnostics["status"] = "failed"
+            diagnostics["error"] = f"{type(exc).__name__}: {exc}"
+            raise
+        finally:
+            diagnostics["total_seconds"] = time.perf_counter() - started
 
     def _restart_pipeline(self) -> None:
         if self._recording_thread is not None:
@@ -181,19 +219,23 @@ class RealSenseCaptureSession:
                 time.sleep(0.5)
         raise RuntimeError(f"RealSense stream did not recover within 12 seconds: {last_error}")
 
-    def _read_frame_arrays(self) -> tuple[np.ndarray, np.ndarray, datetime, dict]:
+    def _read_frame_arrays(self, timing: dict[str, float] | None = None) -> tuple[np.ndarray, np.ndarray, datetime, dict]:
         assert self.pipeline is not None and self.align_to_color is not None
-        frames = self.align_to_color.process(self.pipeline.wait_for_frames(1000))
-        color_frame = frames.get_color_frame()
-        depth_frame = frames.get_depth_frame()
-        if not color_frame or not depth_frame:
-            raise RuntimeError("Synchronized aligned color/depth frames were not received")
-        return (
-            np.asanyarray(color_frame.get_data()).copy(),
-            np.asanyarray(depth_frame.get_data()).copy(),
-            datetime.now().astimezone(),
-            intrinsics_to_dict(color_frame.profile.as_video_stream_profile().intrinsics),
-        )
+        with _capture_stage(timing, "frame_wait"):
+            raw_frames = self.pipeline.wait_for_frames(1000)
+        with _capture_stage(timing, "alignment"):
+            frames = self.align_to_color.process(raw_frames)
+        with _capture_stage(timing, "frame_copy_and_intrinsics"):
+            color_frame = frames.get_color_frame()
+            depth_frame = frames.get_depth_frame()
+            if not color_frame or not depth_frame:
+                raise RuntimeError("Synchronized aligned color/depth frames were not received")
+            return (
+                np.asanyarray(color_frame.get_data()).copy(),
+                np.asanyarray(depth_frame.get_data()).copy(),
+                datetime.now().astimezone(),
+                intrinsics_to_dict(color_frame.profile.as_video_stream_profile().intrinsics),
+            )
 
     def _next_recorded_frame(self) -> tuple[np.ndarray, np.ndarray, datetime, dict]:
         with self._frame_condition:
@@ -216,6 +258,8 @@ class RealSenseCaptureSession:
         depth_raw: np.ndarray,
         timestamp: datetime,
         intrinsics: dict,
+        *,
+        timing: dict[str, float] | None = None,
     ) -> Path:
         assert self.profile is not None and self.info is not None
 
@@ -230,11 +274,17 @@ class RealSenseCaptureSession:
             "depth_preview": output_dir / "depth_preview.png",
             "metadata": output_dir / "frame.json",
         }
-        if not cv2.imwrite(str(paths["color_bgr"]), color):
-            raise RuntimeError("Failed to save color image")
-        if not cv2.imwrite(str(paths["depth_raw"]), depth_raw):
-            raise RuntimeError("Failed to save raw depth image")
-        cv2.imwrite(str(paths["depth_preview"]), make_depth_preview(depth_raw, depth_scale_m))
+        with _capture_stage(timing, "color_png_write"):
+            if not cv2.imwrite(str(paths["color_bgr"]), color):
+                raise RuntimeError("Failed to save color image")
+        with _capture_stage(timing, "depth_png_write"):
+            if not cv2.imwrite(str(paths["depth_raw"]), depth_raw):
+                raise RuntimeError("Failed to save raw depth image")
+        with _capture_stage(timing, "depth_preview_compute"):
+            preview = make_depth_preview(depth_raw, depth_scale_m)
+        with _capture_stage(timing, "preview_png_write"):
+            if not cv2.imwrite(str(paths["depth_preview"]), preview):
+                raise RuntimeError("Failed to save depth preview image")
         metadata = {
             "schema_version": 1,
             "frame_id": timestamp_id,
@@ -263,10 +313,11 @@ class RealSenseCaptureSession:
             },
             "files": {key: path.name for key, path in paths.items()},
         }
-        paths["metadata"].write_text(
-            json.dumps(metadata, ensure_ascii=True, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        with _capture_stage(timing, "metadata_write"):
+            paths["metadata"].write_text(
+                json.dumps(metadata, ensure_ascii=True, indent=2) + "\n",
+                encoding="utf-8",
+            )
         print(f"Saved RGB-D frame: {output_dir}")
         print(f"Color: {color.shape}, depth: {depth_raw.shape} ({depth_raw.dtype})")
         print(f"Depth scale: {depth_scale_m:.8f} m/unit")

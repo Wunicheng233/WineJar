@@ -4,7 +4,6 @@ import pytest
 
 from xarm_sdk_control.end_effector_config import load_end_effector_config
 from xarm_sdk_control.suction_sensor import (
-    SAMPLE_INTERVAL_SECONDS,
     SuctionNotConfirmedError,
     SuctionSensor,
     SuctionSensorConfig,

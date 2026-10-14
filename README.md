@@ -6,7 +6,17 @@
 
 ## 当前状态
 
-截至 2026-09-03，实机已经完成两条阶段性流程。
+截至 2026-09-09，实机已经完成两条阶段性流程；三相机坛口定位仍是独立离线实验。
+
+**三相机现场状态：相机位置已发生改变，需要重做两组相对外参和工位平面标定。**
+旧阵列只保留用于历史图像回放，不能用于现在的场景。新定位流程复用
+GroundingDINO + SAM2 提取酒坛，再用多视图几何联合拟合坛口中心、平面和外径。
+当前还不能可靠输出扎带可用的窄槽，也没有验证绝对毫米精度。
+标定系统已统一普通棋盘/ChArUco 采样，增加全画面内参数值检查、内外参绑定和
+独立验收。旧三台 RGB 内参未通过全画面检查；四参数模型仅生成待验证候选。
+新阵列默认不允许现场采集，须经过当前场景的多姿态独立验证并显式启用。
+复标步骤、算法、参数及本次对照结果见
+[三相机坛口定位与复标说明](docs/multiview-neck-localization.md)。
 
 固定全局相机上料流程：
 
@@ -172,16 +182,23 @@ python xarm_sdk_control/scripts/21_complete_loading.py \
 | `22_suction_sensor_check.py` | 只读 CI0 压力开关 |
 | `23_calibrate_camera_intrinsics.py` | 单台固定 RealSense 的普通棋盘内参标定；不连接机械臂 |
 | `24_calibrate_camera_pair_extrinsics.py` | 俯视与单台侧视相机的普通棋盘外参标定；输出 `T_俯视←侧视`，不连接机械臂 |
-| `25_create_multiview_camera_rig.py` | 将一组内参和两组俯视-侧视外参验证并固化为三相机阵列配置 |
+| `25_create_multiview_camera_rig.py` | 生成绑定内参的候选阵列；通过独立报告显式验收后才可用于静态采集 |
 | `26_capture_three_camera_frame.py` | 按三相机阵列配置保存一组近同步、对齐 RGB-D 帧；可使用显式曝光/增益/白平衡保证前景和空背景可比较 |
-| `27_segment_multiview_foreground.py` | 以固定空背景提取三路实心物体轮廓，并保存差分、掩码和覆盖图；支持每相机阈值缩放 |
-| `28_reconstruct_visual_hull.py` | 将三路轮廓投影回共同坐标系，重建局部体素视觉外壳 |
-| `29_fit_neck_from_visual_hull.py` | 从视觉外壳拟合坛口中心轴、半径曲线和候选捆扎平面 |
 | `30_calibrate_workcell_plane.py` | 用空工位 RGB-D 拟合传送面并建立坛口高度的 `Z=0` 基准 |
-| `31_estimate_mouth_height.py` | 三路 RGB-D 直接估计顶面高度，并由侧视高度-半径曲线给出窄颈范围 |
+| `31_estimate_mouth_height.py` | 离线联合拟合三视图坛口平面、中心与外径，检查坛肩边界及几何一致性 |
 | `32_calibrate_wrist_hand_eye.py` | 固定棋盘法完成腕部相机到机械臂法兰的手眼标定 |
 | `33_inspect_suction_surface.py` | 离线检查荷叶、竹壳、陶瓷片和白纸的双吸盘候选姿态 |
 | `34_wrist_guided_pick_test.py` | 腕部视觉选点、CI0 换点重试及可选的陶瓷片放置实验 |
+| `35_calibrate_camera_pair_charuco.py` | ChArUco 外参采集，检查静止、角点分布、单目残差及重复姿态；联合标定可选 |
+| `36_validate_charuco_extrinsics.py` | 离线留出验证，支持五折比较平均位姿与联合标定、回放独立静止样本 |
+| `37_preview_three_cameras.py` | 无需外参的三路 RGB 实时预览，支持单路放大与截图；标定前先关闭以释放相机 |
+| `38_check_stationary_charuco_pair.py` | 普通棋盘/ChArUco 新姿态独立检查；保存原图、时序和双向残差，不重拟合 |
+| `39_reprocess_chessboard_pair.py` | 重检测普通棋盘/ChArUco 原图，可更换内参重新求解；仅输出新候选 |
+| `40_evaluate_camera_intrinsics.py` | 离线五折比较 Brown4/Brown5，并检查全画面畸变反解，绝不自动启用 |
+
+三相机酒坛分割入口为 `vision/scripts/04_segment_multiview_jar.py`，复用已有模型，
+不打开相机、不连接机械臂。早期视觉外壳实验链（原脚本 `27`/`28`/`29` 及
+`visual_hull.py`、`neck_localization.py`）已删除，需要时可从 git 历史恢复。
 
 单物吸取示例：
 
@@ -203,9 +220,9 @@ conda activate winejar-xarm-sdk
 python -m pytest -q xarm_sdk_control/tests
 ```
 
-`xarm_sdk_control/data/` 中的 RGB-D、掩码、预览图和运行 JSON 都是可再生成的
-本地产物，不参与程序运行，也不会推送到 GitHub。需要复盘时保留相关任务的
-单个时间戳目录即可；`calibration/` 与 `config/` 不是实验产物，禁止随数据清理。
+`xarm_sdk_control/data/` 不会推送到 GitHub，但不能整目录删除：原始 RGB-D、
+标定样本和任务日志是复盘依据，离线定位配置也依赖对应数据。掩码、预览图等派生
+产物可在保留输入和参数后重算。`calibration/` 与 `config/` 必须保留。
 
 ## 已知限制与下一步
 

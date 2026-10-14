@@ -10,4 +10,5 @@ dependencies:
       - pyrealsense2
       - opencv-contrib-python<5
       - numpy
+      - scipy>=1.11,<2
       - pytest

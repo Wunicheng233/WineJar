@@ -75,7 +75,6 @@ def load_surface_profiles(path: Path = DEFAULT_PROFILE_PATH) -> dict[str, Surfac
 
 def _disk_kernel(radius_px: int) -> np.ndarray:
     radius = max(1, int(radius_px))
-    size = radius * 2 + 1
     y, x = np.ogrid[-radius : radius + 1, -radius : radius + 1]
     kernel = ((x * x + y * y) <= radius * radius).astype(np.float32)
     return kernel / float(np.sum(kernel))
@@ -157,54 +156,39 @@ def _surface_maps(
     }
 
 
-def _cup_score(
-    center_px: tuple[float, float],
+def _cup_score_maps(
     maps: dict[str, np.ndarray],
     filtered: dict[str, np.ndarray],
     profile: SurfaceProfile,
     radius_px: float,
     px_per_mm: float,
-) -> CupEvaluation | None:
-    x = int(round(center_px[0]))
-    y = int(round(center_px[1]))
-    height, width = maps["valid"].shape
-    if x < 0 or x >= width or y < 0 or y >= height:
-        return None
-    clearance_mm = max(0.0, (float(maps["distance_px"][y, x]) - radius_px) / px_per_mm)
-    valid_fraction = float(filtered["valid_fraction"][y, x])
-    defect_fraction = float(filtered["defect_fraction"][y, x])
-    roughness = float(filtered["roughness_mm"][y, x])
-    tilt = float(filtered["tilt_deg"][y, x])
-    if (
-        clearance_mm < profile.edge_margin_mm
-        or valid_fraction < profile.min_valid_depth_fraction
-        or defect_fraction > profile.max_defect_fraction
-        or roughness > profile.max_roughness_mm
-        or tilt > profile.max_tilt_deg
-    ):
-        return None
-    factors = np.array(
-        [
-            min(1.0, clearance_mm / max(profile.edge_margin_mm * 2.0, 1e-6)),
-            (valid_fraction - profile.min_valid_depth_fraction)
-            / max(1.0 - profile.min_valid_depth_fraction, 1e-6),
-            1.0 - defect_fraction / profile.max_defect_fraction,
-            1.0 - roughness / profile.max_roughness_mm,
-            1.0 - tilt / profile.max_tilt_deg,
-        ],
-        dtype=np.float64,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Score each image pixel once; rejected cup centres receive -inf."""
+    clearance = np.maximum(0.0, (maps["distance_px"].astype(np.float64) - radius_px) / px_per_mm)
+    valid_fraction = filtered["valid_fraction"].astype(np.float64)
+    defect_fraction = filtered["defect_fraction"].astype(np.float64)
+    roughness = filtered["roughness_mm"].astype(np.float64)
+    tilt = filtered["tilt_deg"].astype(np.float64)
+    allowed = (
+        (clearance >= profile.edge_margin_mm)
+        & (valid_fraction >= profile.min_valid_depth_fraction)
+        & (defect_fraction <= profile.max_defect_fraction)
+        & (roughness <= profile.max_roughness_mm)
+        & (tilt <= profile.max_tilt_deg)
     )
+    factors = np.column_stack((
+        np.minimum(1.0, clearance[allowed] / max(profile.edge_margin_mm * 2.0, 1e-6)),
+        (valid_fraction[allowed] - profile.min_valid_depth_fraction)
+        / max(1.0 - profile.min_valid_depth_fraction, 1e-6),
+        1.0 - defect_fraction[allowed] / profile.max_defect_fraction,
+        1.0 - roughness[allowed] / profile.max_roughness_mm,
+        1.0 - tilt[allowed] / profile.max_tilt_deg,
+    ))
     weights = np.array([0.20, 0.15, 0.25, 0.25, 0.15], dtype=np.float64)
-    score = float(np.dot(np.clip(factors, 0.0, 1.0), weights))
-    return CupEvaluation(
-        center_px=(float(center_px[0]), float(center_px[1])),
-        score=score,
-        clearance_mm=clearance_mm,
-        valid_depth_fraction=valid_fraction,
-        defect_fraction=defect_fraction,
-        roughness_mm=roughness,
-        tilt_deg=tilt,
-    )
+    scores = np.full(clearance.shape, -np.inf)
+    # Batched vector dot products retain the scalar five-factor reduction order.
+    scores[allowed] = (np.clip(factors, 0.0, 1.0)[:, None, :] @ weights).ravel()
+    return scores, clearance
 
 
 def analyze_suction_surface(
@@ -260,44 +244,71 @@ def analyze_suction_surface(
     candidates: list[SuctionCandidate] = []
     y_min, y_max = int(np.min(rows)), int(np.max(rows))
     x_min, x_max = int(np.min(columns)), int(np.max(columns))
-    for y in range(y_min, y_max + 1, grid_step_px):
-        for x in range(x_min, x_max + 1, grid_step_px):
-            if not mask[y, x]:
-                continue
-            for angle_deg in np.arange(0.0, 180.0, angle_step_deg):
-                angle_rad = np.radians(angle_deg)
-                offset = np.array([np.cos(angle_rad), np.sin(angle_rad)]) * spacing_px * 0.5
-                first_xy = np.array([x, y], dtype=np.float64) - offset
-                second_xy = np.array([x, y], dtype=np.float64) + offset
-                first = _cup_score(tuple(first_xy), maps, filtered, profile, radius_px, px_per_mm)
-                second = _cup_score(tuple(second_xy), maps, filtered, profile, radius_px, px_per_mm)
-                if first is None or second is None:
-                    continue
-                surface_score = min(first.score, second.score)
-                center_distance = np.linalg.norm(np.array([x, y]) - centroid)
-                centrality = float(np.exp(-center_distance / (0.35 * object_scale)))
-                angle_delta = abs((angle_deg - preferred_angle_deg + 90.0) % 180.0 - 90.0)
-                orientation = float(np.exp(-np.square(angle_delta / 25.0)))
-                # Surface checks above are hard gates. Among feasible poses, favor
-                # a balanced load near the object centre and the default horizontal yaw.
-                score = 0.40 * surface_score + 0.40 * centrality + 0.20 * orientation
-                z = float(np.median([depth[int(round(first_xy[1])), int(round(first_xy[0]))], depth[int(round(second_xy[1])), int(round(second_xy[0]))]]))
-                center_camera = (
-                    (x - matrix[0, 2]) * z / matrix[0, 0],
-                    (y - matrix[1, 2]) * z / matrix[1, 1],
-                    z,
-                )
-                candidates.append(
-                    SuctionCandidate(
-                        center_px=(float(x), float(y)),
-                        angle_deg=float(angle_deg),
-                        cup_centers_px=(tuple(first_xy), tuple(second_xy)),
-                        center_camera_m=tuple(map(float, center_camera)),
-                        score=float(score),
-                        cups=(first, second),
-                    )
-                )
-    candidates.sort(key=lambda item: item.score, reverse=True)
+    # Geometry and orientation preference depend on angle, not grid position.
+    orientations = []
+    for angle_deg in np.arange(0.0, 180.0, angle_step_deg):
+        angle_rad = np.radians(angle_deg)
+        offset = np.array([np.cos(angle_rad), np.sin(angle_rad)]) * spacing_px * 0.5
+        angle_delta = abs((angle_deg - preferred_angle_deg + 90.0) % 180.0 - 90.0)
+        orientation = float(np.exp(-np.square(angle_delta / 25.0)))
+        orientations.append((angle_deg, offset, orientation))
+    cup_scores, clearance = _cup_score_maps(maps, filtered, profile, radius_px, px_per_mm)
+    grid_x, grid_y = np.meshgrid(
+        np.arange(x_min, x_max + 1, grid_step_px),
+        np.arange(y_min, y_max + 1, grid_step_px),
+    )
+    inside = mask[grid_y, grid_x] > 0
+    centers = np.column_stack((grid_x[inside], grid_y[inside])).astype(np.float64)
+    delta = centers - centroid
+    distances = np.sqrt((delta[:, None, :] @ delta[:, :, None]).ravel())
+    centrality = np.exp(-distances / (0.35 * object_scale))
+    # Flatten in the original y / x / angle order; stable sorting preserves ties.
+    scores = np.full((len(centers), len(orientations)), -np.inf)
+    height, width = mask.shape
+    for angle_index, (_angle, offset, orientation) in enumerate(orientations):
+        first = np.rint(centers - offset).astype(np.intp)
+        second = np.rint(centers + offset).astype(np.intp)
+        in_bounds = (
+            (first[:, 0] >= 0) & (first[:, 0] < width)
+            & (first[:, 1] >= 0) & (first[:, 1] < height)
+            & (second[:, 0] >= 0) & (second[:, 0] < width)
+            & (second[:, 1] >= 0) & (second[:, 1] < height)
+        )
+        first, second = first[in_bounds], second[in_bounds]
+        surface = np.minimum(cup_scores[first[:, 1], first[:, 0]], cup_scores[second[:, 1], second[:, 0]])
+        scores[in_bounds, angle_index] = 0.40 * surface + 0.40 * centrality[in_bounds] + 0.20 * orientation
+    flat_scores = scores.ravel()
+    feasible = np.flatnonzero(np.isfinite(flat_scores))
+    selected = feasible[np.argsort(-flat_scores[feasible], kind="stable")[:max_candidates]]
+    for flat_index in selected:
+        center_index, angle_index = divmod(int(flat_index), len(orientations))
+        x, y = centers[center_index]
+        angle_deg, offset, _orientation = orientations[angle_index]
+        cup_centers = (centers[center_index] - offset, centers[center_index] + offset)
+        cups = []
+        cup_depths = []
+        for center in cup_centers:
+            cx, cy = np.rint(center).astype(np.intp)
+            cups.append(CupEvaluation(
+                center_px=tuple(map(float, center)),
+                score=float(cup_scores[cy, cx]),
+                clearance_mm=float(clearance[cy, cx]),
+                valid_depth_fraction=float(filtered["valid_fraction"][cy, cx]),
+                defect_fraction=float(filtered["defect_fraction"][cy, cx]),
+                roughness_mm=float(filtered["roughness_mm"][cy, cx]),
+                tilt_deg=float(filtered["tilt_deg"][cy, cx]),
+            ))
+            cup_depths.append(depth[cy, cx])
+        z = float(np.median(cup_depths))
+        candidates.append(SuctionCandidate(
+            center_px=(float(x), float(y)),
+            angle_deg=float(angle_deg),
+            cup_centers_px=(cups[0].center_px, cups[1].center_px),
+            center_camera_m=(float((x - matrix[0, 2]) * z / matrix[0, 0]),
+                             float((y - matrix[1, 2]) * z / matrix[1, 1]), z),
+            score=float(flat_scores[flat_index]),
+            cups=(cups[0], cups[1]),
+        ))
     return SurfaceAnalysis(
         candidates=candidates[:max_candidates],
         object_mask=mask,

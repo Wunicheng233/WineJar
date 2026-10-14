@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "source": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/complete_loading/20260830_175757_904/result.json",
+      "status": "success",
+      "run_mode": true,
+      "total_seconds": 81.26605739300066,
+      "productive_cycle_seconds": 77.44233031600015,
+      "phase_seconds": {
+        "setup": 3.8237270770005125,
+        "planning": 12.740094978998968,
+        "capture": 5.067133210995962,
+        "vision": 2.2884416330016393,
+        "motion": 51.740507442995295,
+        "vacuum": 4.809237830999336,
+        "suction": 0.21226004700292833,
+        "other": 0.5846551720060233
+      },
+      "timestamp_mismatches": [
+        {
+          "index": 15,
+          "name": "material_01_paper.attempt_01.suction_confirmed",
+          "recorded_seconds": 0.05286534100014251,
+          "reconstructed_seconds": 16.74738191600045
+        },
+        {
+          "index": 35,
+          "name": "material_02_ceramic.attempt_01.suction_confirmed",
+          "recorded_seconds": 0.053256429000612115,
+          "reconstructed_seconds": 31.316539508999995
+        },
+        {
+          "index": 55,
+          "name": "material_03_shell_1.attempt_01.suction_confirmed",
+          "recorded_seconds": 0.052812069003266515,
+          "reconstructed_seconds": 55.43417913799931
+        },
+        {
+          "index": 75,
+          "name": "material_04_shell_2.attempt_01.suction_confirmed",
+          "recorded_seconds": 0.0530687009995745,
+          "reconstructed_seconds": 69.77196737600025
+        }
+      ],
+      "warnings": [
+        "4 个事件累计时间不一致；报告使用 delta_seconds 累加，原日志未修改。",
+        "部分规划事件缺少 IK/重试诊断，不能据此判定规划长等待的原因。"
+      ],
+      "completed_cycles": 4,
+      "pick_attempts_by_cycle": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "performance_parameters": {
+        "transport_clearance_mm": 100.0,
+        "approach_clearance_mm": 25.0,
+        "precontact_clearance_mm": 5.0,
+        "precision_lift_mm": 20.0,
+        "release_clearance_mm": 0.0,
+        "transit_speed_mm_s": 250.0,
+        "loaded_transit_speed_mm_s": 180.0,
+        "vertical_speed_mm_s": 170.0,
+        "loaded_vertical_speed_mm_s": 100.0,
+        "precision_speed_mm_s": 50.0,
+        "contact_speed_mm_s": 15.0,
+        "acceleration_mm_s2": 400.0,
+        "loaded_acceleration_mm_s2": 200.0,
+        "precision_acceleration_mm_s2": 160.0,
+        "blend_radius_mm": 10.0,
+        "vacuum_settle_seconds": 0.9,
+        "release_settle_seconds": 0.3,
+        "min_score": 0.35,
+        "second_scan_min_score": 0.1
+      },
+      "intervals": [
+        {
+          "name": "program_started",
+          "phase": "setup",
+          "seconds": 2.1119994926266372e-06,
+          "end_seconds": 2.1119994926266372e-06
+        },
+        {
+          "name": "camera_session_ready",
+          "phase": "setup",
+          "seconds": 3.129043441000249,
+          "end_seconds": 3.1290455529997416
+        },
+        {
+          "name": "reset_started",
+          "phase": "setup",
+          "seconds": 3.1879000744083896e-05,
+          "end_seconds": 3.1290774320004857
+        },
+        {
+          "name": "reset_complete",
+          "phase": "setup",
+          "seconds": 0.6946312580002996,
+          "end_seconds": 3.8237086900007853
+        },
+        {
+          "name": "productive_cycle_started",
+          "phase": "setup",
+          "seconds": 1.8386999727226794e-05,
+          "end_seconds": 3.8237270770005125
+        },
+        {
+          "name": "material_01_paper.pick_started",
+          "phase": "other",
+          "seconds": 0.5835646519990405,
+          "end_seconds": 4.407291728999553
+        },
+        {
+          "name": "scan_3.capture_started",
+          "phase": "other",
+          "seconds": 6.829300036770292e-05,
+          "end_seconds": 4.407360021999921
+        },
+        {
+          "name": "scan_3.capture_complete",
+          "phase": "capture",
+          "seconds": 0.07347335499798646,
+          "end_seconds": 4.480833376997907
+        },
+        {
+          "name": "scan_3.vision_complete",
+          "phase": "vision",
+          "seconds": 0.5421480300028634,
+          "end_seconds": 5.022981407000771,
+          "inference_timing_seconds": {
+            "grounding_dino": 0.3887632170008146,
+            "sam2": 0.11269464299766696,
+            "postprocess": 0.02230640699781361,
+            "total": 0.5405177490029018
+          }
+        },
+        {
+          "name": "material_01_paper.attempt_01.route_planned",
+          "phase": "planning",
+          "seconds": 7.377394456998445,
+          "end_seconds": 12.400375863999216,
+          "planning_seconds": 7.376309172999754
+        },
+        {
+          "name": "material_01_paper.attempt_01.vacuum_path_prepared",
+          "phase": "vacuum",
+          "seconds": 0.0015348250017268583,
+          "end_seconds": 12.401910689000943
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_01",
+          "phase": "motion",
+          "seconds": 0.0005804559987154789,
+          "end_seconds": 12.402491144999658,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_02",
+          "phase": "motion",
+          "seconds": 0.0007175339997047558,
+          "end_seconds": 12.403208678999363,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_03",
+          "phase": "motion",
+          "seconds": 3.3907328780005628,
+          "end_seconds": 15.793941556999926,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.vacuum_acquired",
+          "phase": "vacuum",
+          "seconds": 0.900495157999103,
+          "end_seconds": 16.69443671499903
+        },
+        {
+          "name": "material_01_paper.attempt_01.suction_confirmed",
+          "phase": "suction",
+          "seconds": 0.05294520100142108,
+          "end_seconds": 16.74738191600045
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_04",
+          "phase": "motion",
+          "seconds": 1.1150460039971222,
+          "end_seconds": 17.86242791999757,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_05",
+          "phase": "motion",
+          "seconds": 2.377427659001114,
+          "end_seconds": 20.239855578998686,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_06",
+          "phase": "motion",
+          "seconds": 2.982173176998913,
+          "end_seconds": 23.2220287559976,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_07",
+          "phase": "motion",
+          "seconds": 1.8721685790005722,
+          "end_seconds": 25.09419733499817,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.vacuum_released",
+          "phase": "vacuum",
+          "seconds": 0.3007005809995462,
+          "end_seconds": 25.394897915997717
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_08",
+          "phase": "motion",
+          "seconds": 0.0008311810015584342,
+          "end_seconds": 25.395729096999275,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_01_paper.attempt_01.move_09",
+          "phase": "motion",
+          "seconds": 1.6192532409986597,
+          "end_seconds": 27.014982337997935,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_01_paper.attempt_01.cycle_complete",
+          "phase": "other",
+          "seconds": 2.713300273171626e-05,
+          "end_seconds": 27.015009471000667
+        },
+        {
+          "name": "material_01_paper.cycle_complete",
+          "phase": "other",
+          "seconds": 3.5400000342633575e-05,
+          "end_seconds": 27.01504487100101
+        },
+        {
+          "name": "material_02_ceramic.pick_started",
+          "phase": "other",
+          "seconds": 1.646999953663908e-05,
+          "end_seconds": 27.015061341000546
+        },
+        {
+          "name": "scan_4.capture_started",
+          "phase": "other",
+          "seconds": 6.236300032469444e-05,
+          "end_seconds": 27.01512370400087
+        },
+        {
+          "name": "scan_4.capture_complete",
+          "phase": "capture",
+          "seconds": 0.04709399799685343,
+          "end_seconds": 27.062217701997724
+        },
+        {
+          "name": "scan_4.vision_complete",
+          "phase": "vision",
+          "seconds": 0.5488761220003653,
+          "end_seconds": 27.61109382399809,
+          "inference_timing_seconds": {
+            "grounding_dino": 0.39238454299993464,
+            "sam2": 0.11887050400036969,
+            "postprocess": 0.020476890000281855,
+            "total": 0.5474237319976964
+          }
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.route_planned",
+          "phase": "planning",
+          "seconds": 0.1709269380007754,
+          "end_seconds": 27.782020761998865,
+          "planning_seconds": 0.16985044900138746
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.vacuum_path_prepared",
+          "phase": "vacuum",
+          "seconds": 0.0012061550005455501,
+          "end_seconds": 27.78322691699941
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_01",
+          "phase": "motion",
+          "seconds": 0.00043865599946002476,
+          "end_seconds": 27.78366557299887,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_02",
+          "phase": "motion",
+          "seconds": 0.0006307260009634774,
+          "end_seconds": 27.784296298999834,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_03",
+          "phase": "motion",
+          "seconds": 2.5783674439990136,
+          "end_seconds": 30.362663742998848,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.vacuum_acquired",
+          "phase": "vacuum",
+          "seconds": 0.9005593940019025,
+          "end_seconds": 31.26322313700075
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.suction_confirmed",
+          "phase": "suction",
+          "seconds": 0.05331637199924444,
+          "end_seconds": 31.316539508999995
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_04",
+          "phase": "motion",
+          "seconds": 1.4176722739975958,
+          "end_seconds": 32.73421178299759,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_05",
+          "phase": "motion",
+          "seconds": 2.430612132000533,
+          "end_seconds": 35.164823914998124,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_06",
+          "phase": "motion",
+          "seconds": 2.786078945002373,
+          "end_seconds": 37.9509028600005,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_07",
+          "phase": "motion",
+          "seconds": 1.8735370569993393,
+          "end_seconds": 39.824439916999836,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.vacuum_released",
+          "phase": "vacuum",
+          "seconds": 0.30052722099935636,
+          "end_seconds": 40.12496713799919
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_08",
+          "phase": "motion",
+          "seconds": 0.0007049119994917419,
+          "end_seconds": 40.125672049998684,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.move_09",
+          "phase": "motion",
+          "seconds": 1.6189507090020925,
+          "end_seconds": 41.74462275900078,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_02_ceramic.attempt_01.cycle_complete",
+          "phase": "other",
+          "seconds": 3.167599788866937e-05,
+          "end_seconds": 41.744654434998665
+        },
+        {
+          "name": "material_02_ceramic.cycle_complete",
+          "phase": "other",
+          "seconds": 3.681399903143756e-05,
+          "end_seconds": 41.7446912489977
+        },
+        {
+          "name": "material_03_shell_1.pick_started",
+          "phase": "other",
+          "seconds": 1.549900116515346e-05,
+          "end_seconds": 41.74470674799886
+        },
+        {
+          "name": "scan_shell_after_ceramic.capture_started",
+          "phase": "other",
+          "seconds": 6.692800161545165e-05,
+          "end_seconds": 41.74477367600048
+        },
+        {
+          "name": "scan_shell_after_ceramic.capture_complete",
+          "phase": "capture",
+          "seconds": 4.900883086000249,
+          "end_seconds": 46.645656762000726
+        },
+        {
+          "name": "scan_shell_after_ceramic.vision_complete",
+          "phase": "vision",
+          "seconds": 0.6049194369988982,
+          "end_seconds": 47.250576198999624,
+          "inference_timing_seconds": {
+            "grounding_dino": 0.39487045900023077,
+            "sam2": 0.1423557640009676,
+            "postprocess": 0.05015527399882558,
+            "total": 0.6035011950007174
+          }
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.route_planned",
+          "phase": "planning",
+          "seconds": 5.003669894998893,
+          "end_seconds": 52.25424609399852,
+          "planning_seconds": 5.002232232000097
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.vacuum_path_prepared",
+          "phase": "vacuum",
+          "seconds": 0.0008134810013871174,
+          "end_seconds": 52.255059574999905
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_01",
+          "phase": "motion",
+          "seconds": 0.00037901699761277996,
+          "end_seconds": 52.25543859199752,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_02",
+          "phase": "motion",
+          "seconds": 0.000527597003383562,
+          "end_seconds": 52.2559661890009,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_03",
+          "phase": "motion",
+          "seconds": 2.2249301039992133,
+          "end_seconds": 54.480896293000114,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.vacuum_acquired",
+          "phase": "vacuum",
+          "seconds": 0.900423505998333,
+          "end_seconds": 55.38131979899845
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.suction_confirmed",
+          "phase": "suction",
+          "seconds": 0.05285933900086093,
+          "end_seconds": 55.43417913799931
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_04",
+          "phase": "motion",
+          "seconds": 1.012957083999936,
+          "end_seconds": 56.447136221999244,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_05",
+          "phase": "motion",
+          "seconds": 2.3838712200013106,
+          "end_seconds": 58.831007442000555,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_06",
+          "phase": "motion",
+          "seconds": 3.139995309000369,
+          "end_seconds": 61.971002751000924,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_07",
+          "phase": "motion",
+          "seconds": 1.871018058998743,
+          "end_seconds": 63.84202080999967,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.vacuum_released",
+          "phase": "vacuum",
+          "seconds": 0.30076522099989234,
+          "end_seconds": 64.14278603099956
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_08",
+          "phase": "motion",
+          "seconds": 0.0010020740010077134,
+          "end_seconds": 64.14378810500057,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.move_09",
+          "phase": "motion",
+          "seconds": 1.5688858189969324,
+          "end_seconds": 65.7126739239975,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_03_shell_1.attempt_01.cycle_complete",
+          "phase": "other",
+          "seconds": 2.1987001673551276e-05,
+          "end_seconds": 65.71269591099917
+        },
+        {
+          "name": "material_03_shell_1.cycle_complete",
+          "phase": "other",
+          "seconds": 3.7429999792948365e-05,
+          "end_seconds": 65.71273334099897
+        },
+        {
+          "name": "material_04_shell_2.pick_started",
+          "phase": "other",
+          "seconds": 1.2369000614853576e-05,
+          "end_seconds": 65.71274570999958
+        },
+        {
+          "name": "scan_5.capture_started",
+          "phase": "other",
+          "seconds": 5.236099968897179e-05,
+          "end_seconds": 65.71279807099927
+        },
+        {
+          "name": "scan_5.capture_complete",
+          "phase": "capture",
+          "seconds": 0.04568277200087323,
+          "end_seconds": 65.75848084300014
+        },
+        {
+          "name": "scan_5.vision_complete",
+          "phase": "vision",
+          "seconds": 0.5924980439995124,
+          "end_seconds": 66.35097888699966,
+          "inference_timing_seconds": {
+            "grounding_dino": 0.3964377250013058,
+            "sam2": 0.13640316699820687,
+            "postprocess": 0.038023303997761104,
+            "total": 0.5909218640008476
+          }
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.route_planned",
+          "phase": "planning",
+          "seconds": 0.1881036890008545,
+          "end_seconds": 66.53908257600051,
+          "planning_seconds": 0.1868831899992074
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.vacuum_path_prepared",
+          "phase": "vacuum",
+          "seconds": 0.001030313997034682,
+          "end_seconds": 66.54011288999754
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_01",
+          "phase": "motion",
+          "seconds": 0.00045215000136522576,
+          "end_seconds": 66.54056503999891,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_02",
+          "phase": "motion",
+          "seconds": 0.0006523529991682153,
+          "end_seconds": 66.54121739299808,
+          "waited_for_completion": false
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_03",
+          "phase": "motion",
+          "seconds": 2.277014532002795,
+          "end_seconds": 68.81823192500087,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.vacuum_acquired",
+          "phase": "vacuum",
+          "seconds": 0.9005963159979729,
+          "end_seconds": 69.71882824099885
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.suction_confirmed",
+          "phase": "suction",
+          "seconds": 0.05313913500140188,
+          "end_seconds": 69.77196737600025
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_04",
+          "phase": "motion",
+          "seconds": 1.0115965580007469,
+          "end_seconds": 70.783563934001,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_05",
+          "phase": "motion",
+          "seconds": 2.4823801949969493,
+          "end_seconds": 73.26594412899794,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_06",
+          "phase": "motion",
+          "seconds": 3.0892005500027153,
+          "end_seconds": 76.35514467900066,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_07",
+          "phase": "motion",
+          "seconds": 1.8749329049969674,
+          "end_seconds": 78.23007758399763,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.vacuum_released",
+          "phase": "vacuum",
+          "seconds": 0.300585659002536,
+          "end_seconds": 78.53066324300016
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_08",
+          "phase": "motion",
+          "seconds": 0.8604752969986293,
+          "end_seconds": 79.39113853999879,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.move_09",
+          "phase": "motion",
+          "seconds": 1.8743130559996644,
+          "end_seconds": 81.26545159599846,
+          "waited_for_completion": true
+        },
+        {
+          "name": "material_04_shell_2.attempt_01.cycle_complete",
+          "phase": "other",
+          "seconds": 2.0406001567607746e-05,
+          "end_seconds": 81.26547200200002
+        },
+        {
+          "name": "material_04_shell_2.cycle_complete",
+          "phase": "other",
+          "seconds": 3.405499955988489e-05,
+          "end_seconds": 81.26550605699958
+        },
+        {
+          "name": "task_complete",
+          "phase": "other",
+          "seconds": 0.0005513360010809265,
+          "end_seconds": 81.26605739300066
+        }
+      ],
+      "source_sha256": "dbcb0a1c51639e69e734fe94365eabfa098bec4ea3e8f751afb089779787628f"
+    }
+  ]
+}

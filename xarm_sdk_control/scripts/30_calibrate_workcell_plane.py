@@ -17,7 +17,7 @@ REPO_ROOT = ROOT.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from xarm_sdk_control.multiview_rig import load_fixed_camera_rig  # noqa: E402
+from xarm_sdk_control.multiview_rig import load_fixed_camera_rig, rig_geometry_fingerprint  # noqa: E402
 from xarm_sdk_control.run_output import new_timestamped_run_dir  # noqa: E402
 from xarm_sdk_control.workcell_frame import (  # noqa: E402
     build_workcell_frame,
@@ -68,6 +68,8 @@ def main() -> int:
         capture_metadata = json.loads((capture_dir / "capture.json").read_text(encoding="utf-8"))
         if capture_metadata.get("type") != "fixed_multiview_rgbd_capture":
             raise ValueError("capture.json has an unexpected type")
+        if capture_metadata.get('rig_geometry_fingerprint', rig_geometry_fingerprint(rig)) != rig_geometry_fingerprint(rig):
+            raise ValueError('Capture and selected rig have different calibration geometry')
         if frame_metadata.get("camera", {}).get("serial") != camera.serial:
             raise ValueError("Capture camera serial does not match the rig")
         color = cv2.imread(str(camera_dir / "color.png"))
@@ -126,6 +128,7 @@ def main() -> int:
         "type": "fixed_workcell_support_plane",
         "status": "ok",
         "rig_path": str(args.rig.expanduser().resolve()),
+        "rig_geometry_fingerprint": rig_geometry_fingerprint(rig),
         "capture_dir": str(capture_dir),
         "reference_frame": rig.reference_camera_id,
         "fitting_camera": {"camera_id": camera_id, "serial": camera.serial},

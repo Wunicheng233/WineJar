@@ -82,7 +82,7 @@ def test_installed_end_effector_profile_matches_dual_cup_hardware() -> None:
 
     assert tool.kind == "dual_vacuum_cup"
     assert tool.cup_count == 2
-    assert tool.tcp_offset_mm_deg == (0.0, 0.0, 113.0, 0.0, 0.0, 0.0)
+    assert tool.tcp_offset_mm_deg == (0.0, 0.0, 116.0, 0.0, 0.0, 0.0)
     assert tool.max_compression_mm == 20.0
     assert tool.home_pose_mm_deg == (215.194, -2.409, 300.0, 178.467, 0.581, -0.014)
     assert tool.vacuum_io.pump_channel == 0

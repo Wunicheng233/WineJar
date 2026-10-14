@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import pytest
+
 from conftest import (
     RecordingArm,
     RecordingTimeline,
@@ -647,6 +649,42 @@ def make_sensor_for_test(arm, clock=None):
         clock = AdvancingClock()
     config = SuctionSensorConfig(input_channel=0, success_value=0, debounce_seconds=0.05, timeout_seconds=2.0)
     return SuctionSensor(arm, config, clock=clock, sleep=lambda s: clock.advance(s))
+
+
+@pytest.mark.parametrize("outcome", ["confirmed", "failed", "lost", "loss_advisory"])
+def test_suction_events_preserve_real_timeline_fields(outcome) -> None:
+    from itertools import count
+    from xarm_sdk_control.suction_sensor import SuctionNotConfirmedError
+    from xarm_sdk_control.task_timing import TaskTimeline
+
+    arm = SuctionFakeArm([0] if outcome == "confirmed" else [1])
+    if outcome in {"lost", "loss_advisory"}:
+        arm = SuctionCounterArm(8)
+    ticks = count(100.0)
+    timeline = TaskTimeline(clock=lambda: next(ticks))
+    timeline.mark("productive_cycle_started")
+    route = [("contact", [500.0, 60.0, -28.0, 178.0, 0.0, 0.0], "contact", "acquire")]
+    if outcome in {"lost", "loss_advisory"}:
+        route.append(("lift", [500.0, 60.0, 20.0, 178.0, 0.0, 0.0], "loaded_precision", None))
+
+    def execute():
+        MOTION.execute_route(
+            arm, RecordingVacuum(), route, motion_args(), {"value": False}, timeline, "pick",
+            suction_sensor=make_sensor_for_test(arm),
+            advisory_suction_loss_motions=frozenset({"loaded_precision"})
+            if outcome == "loss_advisory" else frozenset(),
+        )
+
+    if outcome in {"failed", "lost"}:
+        with pytest.raises(SuctionNotConfirmedError):
+            execute()
+    else:
+        execute()
+    event = timeline.events[-1]
+    assert event["name"] == f"pick.suction_{outcome}"
+    assert event["suction_wait_seconds"] > 0
+    assert [e["elapsed_seconds"] for e in timeline.events] == list(range(1, len(timeline.events) + 1))
+    assert timeline.to_dict()["total_seconds"] == len(timeline.events)
 
 
 def test_execute_route_confirms_suction_on_acquire() -> None:

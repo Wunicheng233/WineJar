@@ -1,0 +1,131 @@
+{
+  "schema_version": 2,
+  "type": "fixed_multiview_camera_rig",
+  "reference_camera_id": "overhead",
+  "scene_id": "fixed_cameras_20260910_side_b_current_recapture",
+  "calibration_status": "candidate",
+  "pair_fingerprints": [
+    "2ad618dde91e426cb1382ede0195851a9ffd70d2d25e5c1983ffecf460238106",
+    "d7c2d19dd3a5ecd242a69772ae52c0c735d94fdc8a049f044e2c834b8bed960e"
+  ],
+  "coordinate_convention": {
+    "units": "metres",
+    "reference_frame": "reference camera optical frame",
+    "camera_axes": "+x right, +y down, +z forward",
+    "transform": "p_reference = T_reference_from_camera @ p_camera_homogeneous"
+  },
+  "cameras": [
+    {
+      "camera_id": "overhead",
+      "serial": "013222073103",
+      "intrinsics_path": "../../data/multiview_neck/intrinsic_evaluation/20260909_195835_286/overhead_brown4.json",
+      "image_size_px": [
+        640,
+        480
+      ],
+      "intrinsics_fingerprint": "2ce25f185989a5a5fd61259a5b4ec0039675274d4b33225c8ae9336a1e7410b3",
+      "transform_reference_from_camera": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_id": "side_a",
+      "serial": "142122070566",
+      "intrinsics_path": "../../data/multiview_neck/intrinsic_evaluation/20260909_195835_286/side_a_brown4.json",
+      "image_size_px": [
+        640,
+        480
+      ],
+      "intrinsics_fingerprint": "e488be5bb00425d1c413e55a095e06e4d5899c16dd082ada5eed2e8986184abd",
+      "transform_reference_from_camera": [
+        [
+          -0.9981593516623967,
+          0.05964140872729296,
+          -0.010991408186705529,
+          0.04310610428588387
+        ],
+        [
+          -0.0025834270088330017,
+          0.1392589349246215,
+          0.9902526318816568,
+          -0.634920580216775
+        ],
+        [
+          0.0605907137587335,
+          0.9884583205217524,
+          -0.13884852897140543,
+          0.7722587525726875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_id": "side_b",
+      "serial": "011422070041",
+      "intrinsics_path": "../../data/multiview_neck/intrinsic_evaluation/20260909_195835_286/side_b_brown4.json",
+      "image_size_px": [
+        640,
+        480
+      ],
+      "intrinsics_fingerprint": "abd5eb56b092a3031fada9c8119ca22984deb7df932060ed0cb78c81fc1a1e4a",
+      "transform_reference_from_camera": [
+        [
+          0.05763711081337397,
+          0.04775849403540767,
+          -0.9971946097450373,
+          0.6218710055316584
+        ],
+        [
+          -0.9946769358697855,
+          0.08820661347955344,
+          -0.05326712482538283,
+          0.009819788189074434
+        ],
+        [
+          0.08541520184241819,
+          0.9949566420633308,
+          0.05258824686448812,
+          0.6340590866369398
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "source_extrinsics_paths": [
+    "../../data/multiview_neck/current_rig_20260910/overhead_from_side_a_current_scene.json",
+    "overhead_from_side_b_charuco_extrinsics_20260910_104633_474.json"
+  ]
+}

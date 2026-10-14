@@ -26,8 +26,8 @@ REPO_ROOT = ROOT.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from xarm_sdk_control.multiview_rig import FixedCameraModel, load_fixed_camera_rig  # noqa: E402
-from xarm_sdk_control.realsense_capture import camera_info, make_depth_preview, choose_device  # noqa: E402
+from xarm_sdk_control.multiview_rig import FixedCameraModel, load_fixed_camera_rig, assert_rig_valid_for_live_capture, rig_geometry_fingerprint  # noqa: E402
+from xarm_sdk_control.realsense_capture import camera_info, make_depth_preview, choose_device, intrinsics_to_dict  # noqa: E402
 from xarm_sdk_control.run_output import new_timestamped_run_dir  # noqa: E402
 
 
@@ -161,6 +161,7 @@ def save_camera_frame(
         "schema_version": 1,
         "camera_id": stream.camera.camera_id,
         "camera": stream.info,
+        "native_color_intrinsics": intrinsics_to_dict(stream.profile.get_stream(rs.stream.color).as_video_stream_profile().intrinsics),
         "stream": {
             "width": stream.camera.image_size_px[0],
             "height": stream.camera.image_size_px[1],
@@ -211,6 +212,7 @@ def main() -> int:
         parser.error("Use either --lock-color or explicit --color-* controls, not both")
     try:
         rig = load_fixed_camera_rig(args.rig)
+        assert_rig_valid_for_live_capture(rig)
     except (OSError, ValueError, KeyError) as exc:
         print(f"ERROR: invalid rig: {exc}")
         return 2
@@ -262,6 +264,7 @@ def main() -> int:
         "type": "fixed_multiview_rgbd_capture",
         "captured_at": datetime.now().astimezone().isoformat(timespec="milliseconds"),
         "rig_path": str(args.rig.expanduser().resolve()),
+        "rig_geometry_fingerprint": rig_geometry_fingerprint(rig),
         "reference_camera_id": rig.reference_camera_id,
         "camera_ids": list(rig.cameras),
         "host_capture_skew_ms": (max(host_times) - min(host_times)) / 1_000_000.0 if host_times else None,

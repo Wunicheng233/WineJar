@@ -283,14 +283,14 @@ def test_suction_failure_then_success_recovers_and_retries(monkeypatch, tmp_path
     calls = patch_retry_io(monkeypatch, tmp_path, [LIFTED], [SOURCE])
     arm = RecordingArm()
     sensor_arm = SuctionErrorArm(4)
-    sensor = SuctionSensor(
+    _sensor = SuctionSensor(
         sensor_arm,
         SuctionSensorConfig(input_channel=0, success_value=0, debounce_seconds=0.05, timeout_seconds=2.0),
         clock=lambda: sensor_arm.reads * 0.02,
         sleep=lambda _s: None,
     )
 
-    real_execute = RETRY.execute_route
+    _real_execute = RETRY.execute_route
 
     def fake_execute(*args, **kwargs):
         # First attempt: sensor never confirms (reads fail) -> real path raises.

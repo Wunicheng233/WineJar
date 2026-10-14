@@ -42,7 +42,6 @@ from xarm_sdk_control.cross_place_motion import (  # noqa: E402
     DEFAULT_MOTION_PROFILE,
     build_cycle_route,
     choose_second_source_leaf,
-    execute_route,
     offset_detection,
     offset_point_mm,
     plan_route_motion_profile,
@@ -55,6 +54,7 @@ from xarm_sdk_control.cross_place_retry import (  # noqa: E402
     AllPickAttemptsFailedError,
     run_leaf_pick_with_retry,
 )
+from xarm_sdk_control.geometry import undirected_axis_delta_deg  # noqa: E402
 from xarm_sdk_control.suction_sensor import SuctionSensor  # noqa: E402
 from xarm_sdk_control.vacuum_control import VacuumController  # noqa: E402
 from xarm_sdk_control.visual_targeting import (  # noqa: E402
@@ -66,7 +66,6 @@ from xarm_sdk_control.visual_targeting import (  # noqa: E402
     run_scan,
     select_ceramic,
     select_leaf_waypoints,
-    undirected_axis_delta_deg,
 )
 
 

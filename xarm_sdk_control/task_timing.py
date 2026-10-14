@@ -19,6 +19,9 @@ class TaskTimeline:
         self.last_event_at = self.started_at
 
     def mark(self, name: str, **details: Any) -> dict[str, Any]:
+        reserved = {"elapsed_seconds", "delta_seconds"}.intersection(details)
+        if reserved:
+            raise ValueError(f"Timeline timing fields are reserved: {', '.join(sorted(reserved))}")
         now = self.clock()
         event = {
             "name": name,
