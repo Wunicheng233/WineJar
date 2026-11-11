@@ -1,0 +1,86 @@
+[
+  {
+    "half_range_mm": 0,
+    "calibration_session": 13,
+    "cycle": 0,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.4866275787353516,
+    "band_margin_mm": -0.5212674140930176,
+    "mouth_bore_margin_mm": 1.5242414474487305
+  },
+  {
+    "half_range_mm": 0.1,
+    "calibration_session": 13,
+    "cycle": 28,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.4559848308563232,
+    "band_margin_mm": -0.5219868421554565,
+    "mouth_bore_margin_mm": 1.6104724407196045
+  },
+  {
+    "half_range_mm": 0.25,
+    "calibration_session": 13,
+    "cycle": 28,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.4163966178894043,
+    "band_margin_mm": -0.523065984249115,
+    "mouth_bore_margin_mm": 1.7338991165161133
+  },
+  {
+    "half_range_mm": 0.5,
+    "calibration_session": 13,
+    "cycle": 28,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.3683199882507324,
+    "band_margin_mm": -0.5248645544052124,
+    "mouth_bore_margin_mm": 1.9061962366104126
+  },
+  {
+    "half_range_mm": 1.0,
+    "calibration_session": 13,
+    "cycle": 28,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.343461751937866,
+    "band_margin_mm": -0.528461754322052,
+    "mouth_bore_margin_mm": 1.8712562322616577
+  },
+  {
+    "half_range_mm": 2.0,
+    "calibration_session": 13,
+    "cycle": 28,
+    "prediction": {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "condition": "clean"
+    },
+    "center_mm": 2.57474422454834,
+    "band_margin_mm": -0.5356560349464417,
+    "mouth_bore_margin_mm": 1.0165210962295532
+  }
+]

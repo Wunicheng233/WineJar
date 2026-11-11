@@ -1,0 +1,6 @@
+{
+  "preprocessing": {
+    "condition": "local3",
+    "kind": "frozen_active_stereo_observations"
+  }
+}

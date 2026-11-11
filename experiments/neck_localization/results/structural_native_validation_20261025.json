@@ -1,0 +1,992 @@
+{
+  "records": 288,
+  "fit_groups": 123,
+  "fit_points": 245214,
+  "checks": [
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p4",
+      "n": 767,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p8",
+      "n": 767,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_1p2",
+      "n": 767,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p4",
+      "n": 492,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p8",
+      "n": 492,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_000",
+      "method": "native_1p2",
+      "n": 492,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p4",
+      "n": 489,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p8",
+      "n": 489,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_000",
+      "method": "native_1p2",
+      "n": 489,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p4",
+      "n": 528,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p8",
+      "n": 528,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_000",
+      "method": "native_1p2",
+      "n": 528,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_0p4",
+      "n": 1019,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_0p8",
+      "n": 1019,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_1p2",
+      "n": 1019,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p4",
+      "n": 1062,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p8",
+      "n": 1062,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_1p2",
+      "n": 1062,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p4",
+      "n": 1184,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p8",
+      "n": 1184,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_002",
+      "method": "native_1p2",
+      "n": 1184,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p4",
+      "n": 652,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p8",
+      "n": 652,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_002",
+      "method": "native_1p2",
+      "n": 652,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p4",
+      "n": 1129,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p8",
+      "n": 1129,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_1p2",
+      "n": 1129,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p4",
+      "n": 688,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p8",
+      "n": 688,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_003",
+      "method": "native_1p2",
+      "n": 688,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p4",
+      "n": 696,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p8",
+      "n": 696,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_003",
+      "method": "native_1p2",
+      "n": 696,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_0p4",
+      "n": 831,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_0p8",
+      "n": 831,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_1p2",
+      "n": 831,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p4",
+      "n": 1116,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p8",
+      "n": 1116,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_1p2",
+      "n": 1116,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p4",
+      "n": 707,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p8",
+      "n": 707,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_005",
+      "method": "native_1p2",
+      "n": 707,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p4",
+      "n": 720,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p8",
+      "n": 720,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_005",
+      "method": "native_1p2",
+      "n": 720,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p4",
+      "n": 636,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p8",
+      "n": 636,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_005",
+      "method": "native_1p2",
+      "n": 636,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p4",
+      "n": 1044,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p8",
+      "n": 1044,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_1p2",
+      "n": 1044,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p4",
+      "n": 765,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p8",
+      "n": 765,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_nominal_006",
+      "method": "native_1p2",
+      "n": 765,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p4",
+      "n": 963,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p8",
+      "n": 963,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_narrow",
+      "case": "structural_test_nominal_006",
+      "method": "native_1p2",
+      "n": 963,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p4",
+      "n": 714,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p8",
+      "n": 714,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_006",
+      "method": "native_1p2",
+      "n": 714,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p4",
+      "n": 1099,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p8",
+      "n": 1099,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_1p2",
+      "n": 1099,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p4",
+      "n": 1056,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p8",
+      "n": 1056,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_phase",
+      "case": "structural_test_nominal_007",
+      "method": "native_1p2",
+      "n": 1056,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_0p4",
+      "n": 999,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_0p8",
+      "n": 999,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_1p2",
+      "n": 999,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_0p4",
+      "n": 1711,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_0p8",
+      "n": 1711,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_1p2",
+      "n": 1711,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_0p4",
+      "n": 1011,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_0p8",
+      "n": 1011,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_1p2",
+      "n": 1011,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_0p4",
+      "n": 335,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_0p8",
+      "n": 335,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_1p2",
+      "n": 335,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_0p4",
+      "n": 1182,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_0p8",
+      "n": 1182,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "far",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_1p2",
+      "n": 1182,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p4",
+      "n": 4213,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_0p8",
+      "n": 4213,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_000",
+      "method": "native_1p2",
+      "n": 4213,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_0p4",
+      "n": 2845,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_0p8",
+      "n": 2845,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_001",
+      "method": "native_1p2",
+      "n": 2845,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p4",
+      "n": 4140,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_0p8",
+      "n": 4140,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_002",
+      "method": "native_1p2",
+      "n": 4140,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p4",
+      "n": 4428,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_0p8",
+      "n": 4428,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_003",
+      "method": "native_1p2",
+      "n": 4428,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_0p4",
+      "n": 3568,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_0p8",
+      "n": 3568,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_004",
+      "method": "native_1p2",
+      "n": 3568,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p4",
+      "n": 4451,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_0p8",
+      "n": 4451,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_005",
+      "method": "native_1p2",
+      "n": 4451,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p4",
+      "n": 4257,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_0p8",
+      "n": 4257,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_006",
+      "method": "native_1p2",
+      "n": 4257,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p4",
+      "n": 3495,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_0p8",
+      "n": 3495,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_nominal_007",
+      "method": "native_1p2",
+      "n": 3495,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_0p4",
+      "n": 3345,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_0p8",
+      "n": 3345,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_000",
+      "method": "native_1p2",
+      "n": 3345,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_0p4",
+      "n": 5183,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_0p8",
+      "n": 5183,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_001",
+      "method": "native_1p2",
+      "n": 5183,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_0p4",
+      "n": 4926,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_0p8",
+      "n": 4926,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_002",
+      "method": "native_1p2",
+      "n": 4926,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_0p4",
+      "n": 5625,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_0p8",
+      "n": 5625,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_raw",
+      "case": "structural_test_stress_002",
+      "method": "native_1p2",
+      "n": 5625,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_phase",
+      "case": "structural_test_stress_002",
+      "method": "native_0p4",
+      "n": 4694,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_phase",
+      "case": "structural_test_stress_002",
+      "method": "native_0p8",
+      "n": 4694,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_phase",
+      "case": "structural_test_stress_002",
+      "method": "native_1p2",
+      "n": 4694,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_0p4",
+      "n": 2973,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_0p8",
+      "n": 2973,
+      "maximum_error_m": 1.1102230246251565e-16
+    },
+    {
+      "layout": "close",
+      "mode": "native_ideal_z16",
+      "case": "structural_test_stress_003",
+      "method": "native_1p2",
+      "n": 2973,
+      "maximum_error_m": 1.1102230246251565e-16
+    }
+  ],
+  "scope": "native geometry, not mesh/true target points"
+}

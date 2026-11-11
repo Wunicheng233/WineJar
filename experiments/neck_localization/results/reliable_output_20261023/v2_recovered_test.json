@@ -1,0 +1,27 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "stress_014",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "task_validated_output",
+  "large_neck_view": true,
+  "point_cloud_view": false,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": false,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "ground_truth_overlay": true,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "6877882e86f7c13d01646be4893711ebe263f9f9b30a7b0fe9259676d712c00c",
+  "raw_rgb_sha256": {
+    "cam_a": "d96a69b35a64fd94323ca987b649c8df4274ddd7dc83f93125e7dfcecce19688",
+    "cam_b": "955a5acb332a94e9b2c77ab951d216397626ee5df7fedf51615855c2aa9e0ecf",
+    "cam_c": "cfa6ccd629a5e1cd201db0b4c1e47e7415999144997e180fa757bd511fa7c30f"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "seed": 2026102823,
+  "source_bundle": "experiments/neck_localization/results/three_station_tying_20261028_v5",
+  "calibration_protocol": "experiments/neck_localization/configs/cross_station_20261028_v1.json",
+  "user_update": "Factory likely uses preset run/stop timing; for this stage assume small random stop-position error. No encoder assumed installed. No runtime body/carrier reobservation.",
+  "stop_half_ranges_m": [
+    0,
+    0.0001,
+    0.00025,
+    0.0005,
+    0.001,
+    0.002
+  ],
+  "distribution_controls": [
+    "uniform_bound",
+    "normal_same_standard_deviation"
+  ],
+  "calibration_sessions": 24,
+  "cycles_per_session": 64,
+  "position_error_direction_W": [
+    1,
+    0,
+    0
+  ],
+  "transverse_vertical_or_rotation_error": false,
+  "strategies": [
+    "exact_reference_tcp_diagnostic",
+    "nominal_reference_tcp_timer",
+    "calibrated_reference_tcp_timer"
+  ],
+  "all_stop_ranges_and_distribution_shapes_are_assumptions": true,
+  "normal_std_rule": "sigma = uniform_half_range / sqrt(3); unlike uniform, normal has unbounded support",
+  "final_fastening_success": null
+}

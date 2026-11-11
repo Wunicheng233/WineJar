@@ -1,0 +1,5 @@
+# Downloaded upstream repositories, isolated environments and model artifacts.
+# Our adapters, protocols and reports are maintained outside this directory.
+*/
+*.zip
+*.tar*

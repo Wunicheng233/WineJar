@@ -1,0 +1,1388 @@
+{
+  "summary": {
+    "far": {
+      "native_outer_neck_pixels_total": 13208,
+      "zero_neck_cameras": 0,
+      "perfect_circle_gate_fails_observed": 4,
+      "perfect_circle_gate_fails_ideal": 2
+    },
+    "close": {
+      "native_outer_neck_pixels_total": 36951,
+      "zero_neck_cameras": 0,
+      "perfect_circle_gate_fails_observed": 12,
+      "perfect_circle_gate_fails_ideal": 12
+    }
+  },
+  "rows": [
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 263,
+      "visible_azimuth_coverage_deg": 149.833720960363,
+      "projected_axis_span_pixels": 4.734717428060767,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 263,
+      "visible_azimuth_coverage_deg": 150.04219856352896,
+      "projected_axis_span_pixels": 4.701486930406387,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 261,
+      "visible_azimuth_coverage_deg": 154.43736074081286,
+      "projected_axis_span_pixels": 4.703791485006756,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 380,
+      "visible_azimuth_coverage_deg": 167.64573296758195,
+      "projected_axis_span_pixels": 6.817026831820307,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 400,
+      "visible_azimuth_coverage_deg": 167.0787755683723,
+      "projected_axis_span_pixels": 7.041839521887095,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 400,
+      "visible_azimuth_coverage_deg": 176.59271995743273,
+      "projected_axis_span_pixels": 7.027583178366626,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 298,
+      "visible_azimuth_coverage_deg": 160.83317809887023,
+      "projected_axis_span_pixels": 5.2391901069755455,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 309,
+      "visible_azimuth_coverage_deg": 161.8635790251946,
+      "projected_axis_span_pixels": 5.388451554516797,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 311,
+      "visible_azimuth_coverage_deg": 165.81747192079317,
+      "projected_axis_span_pixels": 5.363863495617888,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 398,
+      "visible_azimuth_coverage_deg": 164.54445987823178,
+      "projected_axis_span_pixels": 6.613747155296478,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 403,
+      "visible_azimuth_coverage_deg": 166.8291328799359,
+      "projected_axis_span_pixels": 6.663715372878132,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 402,
+      "visible_azimuth_coverage_deg": 161.42998867742298,
+      "projected_axis_span_pixels": 6.695982946476443,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 313,
+      "visible_azimuth_coverage_deg": 171.99745506964032,
+      "projected_axis_span_pixels": 5.4323344490702175,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 323,
+      "visible_azimuth_coverage_deg": 165.6800376452924,
+      "projected_axis_span_pixels": 5.563507305916388,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 328,
+      "visible_azimuth_coverage_deg": 165.3438297751274,
+      "projected_axis_span_pixels": 5.5909124683097255,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 432,
+      "visible_azimuth_coverage_deg": 151.13211502049296,
+      "projected_axis_span_pixels": 7.235331643132595,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 436,
+      "visible_azimuth_coverage_deg": 150.03024673355029,
+      "projected_axis_span_pixels": 7.265208294003637,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 426,
+      "visible_azimuth_coverage_deg": 157.74884751347042,
+      "projected_axis_span_pixels": 7.145427925957138,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 282,
+      "visible_azimuth_coverage_deg": 154.09231331469704,
+      "projected_axis_span_pixels": 4.718685334525395,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 279,
+      "visible_azimuth_coverage_deg": 152.76879778161725,
+      "projected_axis_span_pixels": 4.720076943243018,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 278,
+      "visible_azimuth_coverage_deg": 151.7465698333052,
+      "projected_axis_span_pixels": 4.715907362767948,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 431,
+      "visible_azimuth_coverage_deg": 165.97632969062744,
+      "projected_axis_span_pixels": 7.011619338726855,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 432,
+      "visible_azimuth_coverage_deg": 160.58973975746437,
+      "projected_axis_span_pixels": 7.059513448625914,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 439,
+      "visible_azimuth_coverage_deg": 170.88840987246985,
+      "projected_axis_span_pixels": 6.966238089262281,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_000",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 177,
+      "visible_azimuth_coverage_deg": 164.79999027124597,
+      "projected_axis_span_pixels": 3.2333196882808233,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_000",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 146,
+      "visible_azimuth_coverage_deg": 147.89414502742432,
+      "projected_axis_span_pixels": 3.0462228049840143,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_000",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 188,
+      "visible_azimuth_coverage_deg": 151.19025333634164,
+      "projected_axis_span_pixels": 3.3447302129478733,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_001",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 629,
+      "visible_azimuth_coverage_deg": 166.55531435447222,
+      "projected_axis_span_pixels": 9.66489382586233,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_001",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 562,
+      "visible_azimuth_coverage_deg": 165.73043325724296,
+      "projected_axis_span_pixels": 9.096939014893373,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_001",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 606,
+      "visible_azimuth_coverage_deg": 161.43369990775764,
+      "projected_axis_span_pixels": 9.484343008311011,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_002",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 219,
+      "visible_azimuth_coverage_deg": 166.42747915410808,
+      "projected_axis_span_pixels": 3.321491781165058,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_002",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 218,
+      "visible_azimuth_coverage_deg": 159.52594777947235,
+      "projected_axis_span_pixels": 3.315939797322888,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_002",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 205,
+      "visible_azimuth_coverage_deg": 168.28492800081168,
+      "projected_axis_span_pixels": 3.2693119952525556,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_003",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 645,
+      "visible_azimuth_coverage_deg": 164.40303008138417,
+      "projected_axis_span_pixels": 9.34707207479,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_003",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 497,
+      "visible_azimuth_coverage_deg": 170.05429981186424,
+      "projected_axis_span_pixels": 8.56123837312044,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_003",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 629,
+      "visible_azimuth_coverage_deg": 161.09639851395673,
+      "projected_axis_span_pixels": 9.226323303449641,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 1006,
+      "visible_azimuth_coverage_deg": 145.72340016563876,
+      "projected_axis_span_pixels": 9.28649300883978,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 882,
+      "visible_azimuth_coverage_deg": 141.9515478465173,
+      "projected_axis_span_pixels": 9.078217393903591,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 967,
+      "visible_azimuth_coverage_deg": 148.79396919787277,
+      "projected_axis_span_pixels": 9.145426457879758,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 624,
+      "visible_azimuth_coverage_deg": 121.29561956251355,
+      "projected_axis_span_pixels": 11.592805515915959,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 1125,
+      "visible_azimuth_coverage_deg": 157.61403463852287,
+      "projected_axis_span_pixels": 12.721205659657016,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 758,
+      "visible_azimuth_coverage_deg": 129.17879932138416,
+      "projected_axis_span_pixels": 12.108869228333845,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 525,
+      "visible_azimuth_coverage_deg": 113.67170380935131,
+      "projected_axis_span_pixels": 9.320363190696849,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 900,
+      "visible_azimuth_coverage_deg": 139.40553729827212,
+      "projected_axis_span_pixels": 10.063670128515323,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_002",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 931,
+      "visible_azimuth_coverage_deg": 147.59356811093627,
+      "projected_axis_span_pixels": 9.999170398048308,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 1353,
+      "visible_azimuth_coverage_deg": 156.34101799595354,
+      "projected_axis_span_pixels": 12.905697173240021,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 1416,
+      "visible_azimuth_coverage_deg": 161.72690173031842,
+      "projected_axis_span_pixels": 13.09612786918462,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_003",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 1497,
+      "visible_azimuth_coverage_deg": 161.7723349666399,
+      "projected_axis_span_pixels": 13.230165203759762,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 709,
+      "visible_azimuth_coverage_deg": 132.1016202226508,
+      "projected_axis_span_pixels": 9.147564395400618,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 963,
+      "visible_azimuth_coverage_deg": 149.6443209414695,
+      "projected_axis_span_pixels": 9.788510667923683,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_004",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 939,
+      "visible_azimuth_coverage_deg": 148.5717428579383,
+      "projected_axis_span_pixels": 9.729358168214027,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 1362,
+      "visible_azimuth_coverage_deg": 146.2169544375069,
+      "projected_axis_span_pixels": 13.357718286743443,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 1514,
+      "visible_azimuth_coverage_deg": 147.0247202561114,
+      "projected_axis_span_pixels": 13.631818313056906,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_005",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 1172,
+      "visible_azimuth_coverage_deg": 146.14960037880377,
+      "projected_axis_span_pixels": 12.805895474490278,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 959,
+      "visible_azimuth_coverage_deg": 147.30193623499508,
+      "projected_axis_span_pixels": 9.398460154325413,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 763,
+      "visible_azimuth_coverage_deg": 131.60916383495027,
+      "projected_axis_span_pixels": 9.2827077923537,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_006",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 663,
+      "visible_azimuth_coverage_deg": 126.29813490687195,
+      "projected_axis_span_pixels": 9.186706394347173,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 989,
+      "visible_azimuth_coverage_deg": 136.7174035041695,
+      "projected_axis_span_pixels": 12.626591476059684,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 1250,
+      "visible_azimuth_coverage_deg": 152.8802771765027,
+      "projected_axis_span_pixels": 13.021045143968832,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_007",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 931,
+      "visible_azimuth_coverage_deg": 134.30562931079385,
+      "projected_axis_span_pixels": 12.351048995549064,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_000",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 247,
+      "visible_azimuth_coverage_deg": 95.39926712183168,
+      "projected_axis_span_pixels": 5.512636543107036,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_000",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 53,
+      "visible_azimuth_coverage_deg": 56.05495755695289,
+      "projected_axis_span_pixels": 4.861955536453293,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_000",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 629,
+      "visible_azimuth_coverage_deg": 147.76843577230113,
+      "projected_axis_span_pixels": 6.200688613899367,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_001",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 2624,
+      "visible_azimuth_coverage_deg": 159.36707184067205,
+      "projected_axis_span_pixels": 19.057805870379227,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_001",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 1448,
+      "visible_azimuth_coverage_deg": 143.79299560635337,
+      "projected_axis_span_pixels": 16.300410897558265,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_001",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 2218,
+      "visible_azimuth_coverage_deg": 158.66597215338385,
+      "projected_axis_span_pixels": 18.043041581950156,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_002",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 584,
+      "visible_azimuth_coverage_deg": 125.7201837967142,
+      "projected_axis_span_pixels": 6.248677518235235,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_002",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 766,
+      "visible_azimuth_coverage_deg": 141.60383436402276,
+      "projected_axis_span_pixels": 6.363640921036947,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_002",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 179,
+      "visible_azimuth_coverage_deg": 78.14741039841338,
+      "projected_axis_span_pixels": 5.732605461357032,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_003",
+      "camera": "cam_a",
+      "visible_native_outer_neck_pixels": 1851,
+      "visible_azimuth_coverage_deg": 162.82378883806504,
+      "projected_axis_span_pixels": 16.74938390283437,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_003",
+      "camera": "cam_b",
+      "visible_native_outer_neck_pixels": 558,
+      "visible_azimuth_coverage_deg": 106.9697657160923,
+      "projected_axis_span_pixels": 13.38403161696997,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_003",
+      "camera": "cam_c",
+      "visible_native_outer_neck_pixels": 1596,
+      "visible_azimuth_coverage_deg": 154.327321606221,
+      "projected_axis_span_pixels": 16.037308245107017,
+      "scope": "true outer profile +/-1mm and true neck interval; evaluation ONLY, not estimator selection"
+    }
+  ],
+  "perfect_circle_gate_diagnostic": [
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_000",
+      "mask": "observed_RGB",
+      "rms_pixels": 1.59488409295208,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        2.6397822850451482,
+        2.7573690640842807,
+        -0.0018107270201425107,
+        -0.35466415987876965,
+        0.6373722874563685,
+        0.3979492101387416
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_000",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.2798380189809872,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        -0.052149167343145675,
+        -0.21354949024794223,
+        0.49106839887031123,
+        0.18247398087419242,
+        0.3816136826592356,
+        0.03819753795221459
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_001",
+      "mask": "observed_RGB",
+      "rms_pixels": 0.9180034464694636,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.5714930463791386,
+        0.1084294585519956,
+        1.0746607630310814,
+        1.3272329749319807,
+        0.7972291116452057,
+        1.0798163431979289
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_001",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.2791794547735982,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.37686717007727566,
+        0.10480614562456458,
+        -0.4540571815498424,
+        -0.23758794610648692,
+        -0.18886819850717984,
+        0.1278540695634547
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_002",
+      "mask": "observed_RGB",
+      "rms_pixels": 0.8732798313432782,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        -0.24665382112587908,
+        0.09661567700015894,
+        0.049814121774280684,
+        1.3259355458234445,
+        0.894882970864046,
+        1.3943210665118533
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_002",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.2431497257799756,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        -0.4284864244005625,
+        -0.040632221073239716,
+        -0.1274878000875787,
+        0.07370398084344743,
+        0.28976594172809206,
+        0.2526448587393588
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_003",
+      "mask": "observed_RGB",
+      "rms_pixels": 1.5712789480838683,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.9102957686285118,
+        1.1268734927488588,
+        2.5125083767290137,
+        0.37066305199582017,
+        0.8792758903540263,
+        2.3434605626082368
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_003",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.2984577324366885,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.298477963396067,
+        0.36568513485610765,
+        0.39415786221616145,
+        0.2057963193743717,
+        -0.32935941357118276,
+        -0.07387304716132803
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_004",
+      "mask": "observed_RGB",
+      "rms_pixels": 1.4588552849449419,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.43422911729630426,
+        0.295102000948092,
+        2.399082391475673,
+        0.7807297489063119,
+        0.6529055964041757,
+        2.3879889776687397
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_004",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.3168556845498601,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.43422911729630426,
+        -0.12017201000853861,
+        -0.09790370635016643,
+        0.4116291150191955,
+        -0.025656528345848528,
+        0.4687291213447225
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_005",
+      "mask": "observed_RGB",
+      "rms_pixels": 2.638162632068515,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        1.84443720693283,
+        3.5314478263923865,
+        2.0512364203604005,
+        -0.07296256465780271,
+        3.651466208586611,
+        2.887947405702204
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_005",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.3233349905878227,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        -0.2327548387746674,
+        -0.43240142376737367,
+        -0.024127198781798143,
+        0.19361199023660447,
+        0.4254671430797998,
+        -0.4087019406077843
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_006",
+      "mask": "observed_RGB",
+      "rms_pixels": 1.1537027793528223,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.8572083527411685,
+        1.1963430366743208,
+        2.05700667209813,
+        0.8325570958217607,
+        0.8492730791477356,
+        0.4176664545851586
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_006",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.29852495673202667,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        -0.4843495189810484,
+        -0.2034523404422544,
+        0.12711119451387276,
+        -0.14245806715484832,
+        0.1985461582954713,
+        -0.42760198051507814
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_007",
+      "mask": "observed_RGB",
+      "rms_pixels": 1.7078978168151484,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        1.836255717420026,
+        1.145836693520778,
+        2.0791259329570306,
+        0.8712126813731262,
+        1.1809838575124223,
+        2.517978132377368
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_nominal_007",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.3184917185036298,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.38440176725873704,
+        0.042752783596029076,
+        -0.40341041184785803,
+        0.33464061415395463,
+        -0.40921332136690586,
+        0.12980556976799562
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_000",
+      "mask": "observed_RGB",
+      "rms_pixels": 3.8445800246158606,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        0.16581058041073488,
+        0.49964152094543124,
+        -6.223967954290462,
+        -6.6615481282393345,
+        2.258140309597735,
+        0.44095394012208544
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_000",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 3.737392477754471,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        0.16581058041073488,
+        -0.6581274792350371,
+        -6.223967954290462,
+        -6.6615481282393345,
+        -0.3182663550021516,
+        -0.36427494498505963
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_001",
+      "mask": "observed_RGB",
+      "rms_pixels": 0.8960452827492276,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.8815746956883572,
+        0.8318599643347966,
+        1.5406182126712658,
+        -0.34049507201973483,
+        0.01533433738381973,
+        0.926575110228318
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_001",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 0.2636678000892139,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.26314939137671445,
+        0.16371992866959317,
+        0.03723827128328594,
+        -0.34049507201973483,
+        0.01533433738381973,
+        -0.4511249392096488
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_002",
+      "mask": "observed_RGB",
+      "rms_pixels": 2.0742476199962514,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        1.207089946873407,
+        0.5881463972334144,
+        0.7084540623446118,
+        0.6275322216394787,
+        -3.351530404422181,
+        -3.4472564323711863
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_002",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 2.307976416499874,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -0.23575317903407722,
+        -0.07439154464952935,
+        -0.3558109270469459,
+        0.11578003824320143,
+        -4.3323390782022555,
+        -3.6041987805610303
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_003",
+      "mask": "observed_RGB",
+      "rms_pixels": 2.156624434906812,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        0.6526827844952436,
+        2.4605742945134104,
+        -3.301417803690215,
+        -3.0068014735177333,
+        0.9749743311448669,
+        0.7314119778644681
+      ]
+    },
+    {
+      "layout": "far",
+      "case": "structural_test_stress_003",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 1.8304904799997408,
+      "true_circle_would_fail": false,
+      "errors_pixels": [
+        0.012756953754433198,
+        -0.016530342164108314,
+        -3.301417803690215,
+        -3.0068014735177333,
+        -0.40266576486976646,
+        -0.0371760442710638
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_000",
+      "mask": "observed_RGB",
+      "rms_pixels": 11.937308177860496,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -11.839820432588935,
+        -10.76380855608518,
+        -15.367091140584826,
+        -11.629426085531945,
+        -7.888040829605416,
+        -12.85856941342519
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_000",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 12.528246039590108,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -14.064160488027545,
+        -11.716633707801906,
+        -15.367091140584826,
+        -11.629426085531945,
+        -7.901858254451406,
+        -13.14652700221253
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_001",
+      "mask": "observed_RGB",
+      "rms_pixels": 23.20086009146066,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -18.15972075152976,
+        -25.860851894956387,
+        -15.888577082292375,
+        -25.106481445631196,
+        -31.628599286550397,
+        -18.65394731111448
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_001",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 23.56021790396392,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -19.15875446833062,
+        -25.860851894956387,
+        -15.888577082292375,
+        -25.610884106274707,
+        -31.628599286550397,
+        -19.645078603781847
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_002",
+      "mask": "observed_RGB",
+      "rms_pixels": 18.151085341125068,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -16.97612316810231,
+        -20.724960345806945,
+        -13.150766586845931,
+        -23.860388521468565,
+        -20.89107475908344,
+        -8.964421253167238
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_002",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 18.505091318039373,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -17.306967582515654,
+        -21.283205954337255,
+        -14.132599946045342,
+        -23.860388521468565,
+        -20.89107475908344,
+        -9.830509616335757
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_003",
+      "mask": "observed_RGB",
+      "rms_pixels": 12.769054996315306,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -11.729341733411808,
+        -10.590838166099536,
+        -10.757623468865756,
+        -15.781002009942227,
+        -15.086951764999187,
+        -11.66904802195873
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_003",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 12.927267251514344,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -12.726755126820738,
+        -10.590838166099536,
+        -10.757623468865756,
+        -15.781002009942227,
+        -15.086951764999187,
+        -11.66904802195873
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_004",
+      "mask": "observed_RGB",
+      "rms_pixels": 21.30278412454978,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -19.742794108852905,
+        -23.185453331078083,
+        -16.292392997325102,
+        -24.95094351762978,
+        -25.217648474181406,
+        -16.47989856717089
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_004",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 21.469120197020946,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -19.742794108852905,
+        -23.185453331078083,
+        -16.292392997325102,
+        -25.206424809964567,
+        -25.803150752354107,
+        -16.47989856717089
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_005",
+      "mask": "observed_RGB",
+      "rms_pixels": 17.009315480041927,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -12.951464298571683,
+        -23.612172857519358,
+        -18.865238881187828,
+        -13.981694634611346,
+        -16.638488362487696,
+        -13.50560721250893
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_005",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 17.68739232784502,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -13.88169280963102,
+        -24.275675801066008,
+        -19.445033163926794,
+        -13.981694634611346,
+        -18.413438774844217,
+        -13.50560721250893
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_006",
+      "mask": "observed_RGB",
+      "rms_pixels": 17.253214362352526,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -13.288120212743305,
+        -13.95751219273915,
+        -21.404801479285485,
+        -15.491654486613971,
+        -17.203059639378246,
+        -20.507364617246466
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_006",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 17.765158799164787,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -13.288120212743305,
+        -13.95751219273915,
+        -21.404801479285485,
+        -16.452635140158957,
+        -18.190772625463126,
+        -21.50488268799342
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_007",
+      "mask": "observed_RGB",
+      "rms_pixels": 20.350075090023815,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -18.261025770370928,
+        -25.550819754980434,
+        -20.408049998279083,
+        -18.91748070252242,
+        -20.949260429061944,
+        -16.888244174358967
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_nominal_007",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 20.894062229809915,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -19.244289409648864,
+        -26.078058607170284,
+        -20.408049998279083,
+        -19.675623529471814,
+        -21.91190876850191,
+        -16.888244174358967
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_000",
+      "mask": "observed_RGB",
+      "rms_pixels": 33.364069590175,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -45.22327098598368,
+        -22.194671251623795,
+        -32.48314875701188,
+        -38.976425517539056,
+        -18.737314795924064,
+        -34.86854602665396
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_000",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 33.58113650522916,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -45.48762736252857,
+        -22.19515124964616,
+        -32.93056034588113,
+        -38.976425517539056,
+        -18.737314795924064,
+        -35.35161771758878
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_001",
+      "mask": "observed_RGB",
+      "rms_pixels": 16.860146247231146,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -23.34444138065902,
+        1.121828032014309,
+        -20.39886677525541,
+        -9.687121526652785,
+        -2.075525778934116,
+        -25.398894678979985
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_001",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 16.949792228909118,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -23.34444138065902,
+        0.3894921975006582,
+        -20.39886677525541,
+        -9.802786922246119,
+        -2.2682829305612495,
+        -25.715843121732064
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_002",
+      "mask": "observed_RGB",
+      "rms_pixels": 19.70491895869959,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -15.214758101015036,
+        -23.285231064245497,
+        -17.67881892894759,
+        -12.103269375854408,
+        -25.775685201117664,
+        -20.798952409476748
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_002",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 19.70491895869959,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -15.214758101015036,
+        -23.285231064245497,
+        -17.67881892894759,
+        -12.103269375854408,
+        -25.775685201117664,
+        -20.798952409476748
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_003",
+      "mask": "observed_RGB",
+      "rms_pixels": 24.52898249127564,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -31.964271940791036,
+        -10.005077272387442,
+        -29.791360768073837,
+        -19.09779136405823,
+        -11.787747879520989,
+        -33.12110851017489
+      ]
+    },
+    {
+      "layout": "close",
+      "case": "structural_test_stress_003",
+      "mask": "ideal_silhouette",
+      "rms_pixels": 24.56758547835134,
+      "true_circle_would_fail": true,
+      "errors_pixels": [
+        -31.964271940791036,
+        -10.270814502412469,
+        -29.791360768073837,
+        -19.09779136405823,
+        -12.038878096707533,
+        -33.12110851017489
+      ]
+    }
+  ]
+}

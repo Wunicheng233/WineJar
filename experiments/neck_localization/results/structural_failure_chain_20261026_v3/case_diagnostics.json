@@ -1,0 +1,3170 @@
+[
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_000",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1360,
+    "ideal_valid": 1360,
+    "ideal_outer_neck_count": 544,
+    "ideal_outer_neck_fraction": 0.4,
+    "near_target_points": 176,
+    "radial_measured_minus_ideal_mm": {
+      "n": 544,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 176,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 236,
+        "bias": {
+          "n": 236,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 140,
+        "bias": {
+          "n": 140,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 168,
+        "bias": {
+          "n": 168,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 10.700000000000154,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_001",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1337,
+    "ideal_valid": 1337,
+    "ideal_outer_neck_count": 895,
+    "ideal_outer_neck_fraction": 0.6694091249065071,
+    "near_target_points": 196,
+    "radial_measured_minus_ideal_mm": {
+      "n": 895,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 196,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 250,
+        "bias": {
+          "n": 250,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 310,
+        "bias": {
+          "n": 310,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 335,
+        "bias": {
+          "n": 335,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 9.90000000000014,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_002",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1355,
+    "ideal_valid": 1355,
+    "ideal_outer_neck_count": 645,
+    "ideal_outer_neck_fraction": 0.47601476014760147,
+    "near_target_points": 191,
+    "radial_measured_minus_ideal_mm": {
+      "n": 645,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 191,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 185,
+        "bias": {
+          "n": 185,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 218,
+        "bias": {
+          "n": 218,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 242,
+        "bias": {
+          "n": 242,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 12.500000000000178,
+    "original_solver_success": true,
+    "original_solver_nfev": 4
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_003",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1352,
+    "ideal_valid": 1352,
+    "ideal_outer_neck_count": 851,
+    "ideal_outer_neck_fraction": 0.6294378698224852,
+    "near_target_points": 204,
+    "radial_measured_minus_ideal_mm": {
+      "n": 851,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 204,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 324,
+        "bias": {
+          "n": 324,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 267,
+        "bias": {
+          "n": 267,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 260,
+        "bias": {
+          "n": 260,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 10.200000000000145,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_004",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1320,
+    "ideal_valid": 1320,
+    "ideal_outer_neck_count": 193,
+    "ideal_outer_neck_fraction": 0.1462121212121212,
+    "near_target_points": 42,
+    "radial_measured_minus_ideal_mm": {
+      "n": 193,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 42,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 124,
+        "bias": {
+          "n": 124,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 41,
+        "bias": {
+          "n": 41,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 28,
+        "bias": {
+          "n": 28,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 2.6000000000000365,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1342,
+    "ideal_valid": 1342,
+    "ideal_outer_neck_count": 796,
+    "ideal_outer_neck_fraction": 0.5931445603576752,
+    "near_target_points": 155,
+    "radial_measured_minus_ideal_mm": {
+      "n": 796,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 155,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 337,
+        "bias": {
+          "n": 337,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 287,
+        "bias": {
+          "n": 287,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 172,
+        "bias": {
+          "n": 172,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 15.400000000000219,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_006",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1385,
+    "ideal_valid": 1385,
+    "ideal_outer_neck_count": 614,
+    "ideal_outer_neck_fraction": 0.4433212996389892,
+    "near_target_points": 212,
+    "radial_measured_minus_ideal_mm": {
+      "n": 614,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 212,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 234,
+        "bias": {
+          "n": 234,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 179,
+        "bias": {
+          "n": 179,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 201,
+        "bias": {
+          "n": 201,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 10.500000000000147,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_007",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1349,
+    "ideal_valid": 1349,
+    "ideal_outer_neck_count": 920,
+    "ideal_outer_neck_fraction": 0.6819866567828021,
+    "near_target_points": 195,
+    "radial_measured_minus_ideal_mm": {
+      "n": 920,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 195,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 344,
+        "bias": {
+          "n": 344,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 274,
+        "bias": {
+          "n": 274,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 302,
+        "bias": {
+          "n": 302,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 10.70000000000015,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_000",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1344,
+    "ideal_valid": 1344,
+    "ideal_outer_neck_count": 415,
+    "ideal_outer_neck_fraction": 0.3087797619047619,
+    "near_target_points": 201,
+    "radial_measured_minus_ideal_mm": {
+      "n": 415,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 201,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 124,
+        "bias": {
+          "n": 124,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 135,
+        "bias": {
+          "n": 135,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 156,
+        "bias": {
+          "n": 156,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 5.600000000000079,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_001",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1351,
+    "ideal_valid": 1351,
+    "ideal_outer_neck_count": 903,
+    "ideal_outer_neck_fraction": 0.6683937823834197,
+    "near_target_points": 151,
+    "radial_measured_minus_ideal_mm": {
+      "n": 903,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 151,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 320,
+        "bias": {
+          "n": 320,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 276,
+        "bias": {
+          "n": 276,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 307,
+        "bias": {
+          "n": 307,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 20.100000000000286,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_002",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1369,
+    "ideal_valid": 1369,
+    "ideal_outer_neck_count": 418,
+    "ideal_outer_neck_fraction": 0.30533235938641345,
+    "near_target_points": 196,
+    "radial_measured_minus_ideal_mm": {
+      "n": 418,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 196,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 165,
+        "bias": {
+          "n": 165,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 75,
+        "bias": {
+          "n": 75,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 178,
+        "bias": {
+          "n": 178,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 3.700000000000053,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1366,
+    "ideal_valid": 1366,
+    "ideal_outer_neck_count": 1221,
+    "ideal_outer_neck_fraction": 0.8938506588579795,
+    "near_target_points": 203,
+    "radial_measured_minus_ideal_mm": {
+      "n": 1221,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 203,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 461,
+        "bias": {
+          "n": 461,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 370,
+        "bias": {
+          "n": 370,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 390,
+        "bias": {
+          "n": 390,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 12.200000000000173,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_000",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1066,
+    "ideal_valid": 1066,
+    "ideal_outer_neck_count": 606,
+    "ideal_outer_neck_fraction": 0.5684803001876173,
+    "near_target_points": 217,
+    "radial_measured_minus_ideal_mm": {
+      "n": 606,
+      "mean": -0.8197457984383218,
+      "median": -0.8121999318168491,
+      "p95_abs": 3.958702613193614,
+      "rms": 2.012279432485228
+    },
+    "near_target_radial_bias_mm": {
+      "n": 217,
+      "mean": -0.6649922251022999,
+      "median": -0.8061170065064189,
+      "p95_abs": 2.9232022520498346,
+      "rms": 1.5794396430317095
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 264,
+        "bias": {
+          "n": 264,
+          "mean": -1.1105399554178927,
+          "median": -0.9522219497816131,
+          "p95_abs": 4.581614464036509,
+          "rms": 2.0728571169843653
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 158,
+        "bias": {
+          "n": 158,
+          "mean": -1.1147625092968163,
+          "median": -1.0941105913880023,
+          "p95_abs": 3.5816679809958356,
+          "rms": 1.8504234152707935
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 184,
+        "bias": {
+          "n": 184,
+          "mean": -0.14918983236088262,
+          "median": 0.08611327832010574,
+          "p95_abs": 3.7043003217431743,
+          "rms": 2.056954921712839
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 0.8999999999999971,
+    "original_solver_success": true,
+    "original_solver_nfev": 4
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_001",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1354,
+    "ideal_valid": 1354,
+    "ideal_outer_neck_count": 1071,
+    "ideal_outer_neck_fraction": 0.7909896602658789,
+    "near_target_points": 262,
+    "radial_measured_minus_ideal_mm": {
+      "n": 1071,
+      "mean": 0.15881030901748,
+      "median": 0.5793332108360048,
+      "p95_abs": 4.985490815406429,
+      "rms": 2.6973864110251697
+    },
+    "near_target_radial_bias_mm": {
+      "n": 262,
+      "mean": 0.732703651740906,
+      "median": 0.7953297438649791,
+      "p95_abs": 3.9970976242633554,
+      "rms": 2.2478817176205736
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 314,
+        "bias": {
+          "n": 314,
+          "mean": -0.15446390852435088,
+          "median": -0.28155324073367893,
+          "p95_abs": 3.4656145566510754,
+          "rms": 1.9338748185454373
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 338,
+        "bias": {
+          "n": 338,
+          "mean": -1.6789942007671834,
+          "median": -1.3842779588534668,
+          "p95_abs": 7.030618716531301,
+          "rms": 3.368785694754418
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 419,
+        "bias": {
+          "n": 419,
+          "mean": 1.8761039333977931,
+          "median": 2.151424301858725,
+          "p95_abs": 4.19631142720041,
+          "rms": 2.5768826194847274
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.40000000000002,
+    "original_solver_success": true,
+    "original_solver_nfev": 82
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_002",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1366,
+    "ideal_valid": 1366,
+    "ideal_outer_neck_count": 822,
+    "ideal_outer_neck_fraction": 0.6017569546120058,
+    "near_target_points": 249,
+    "radial_measured_minus_ideal_mm": {
+      "n": 822,
+      "mean": 0.4648742982346979,
+      "median": 0.40192786790590773,
+      "p95_abs": 4.1527298538129305,
+      "rms": 2.1690965837644285
+    },
+    "near_target_radial_bias_mm": {
+      "n": 249,
+      "mean": 0.5685932153542829,
+      "median": 0.3215516435108938,
+      "p95_abs": 3.730801497528769,
+      "rms": 1.8567441609717519
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 192,
+        "bias": {
+          "n": 192,
+          "mean": 0.842786713848557,
+          "median": 1.1244334033501353,
+          "p95_abs": 4.214699158948953,
+          "rms": 2.174870179330649
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 295,
+        "bias": {
+          "n": 295,
+          "mean": -0.5122511912283788,
+          "median": -0.5047473971806227,
+          "p95_abs": 2.881430859501172,
+          "rms": 1.4964828646719666
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 335,
+        "bias": {
+          "n": 335,
+          "mean": 1.1087335089623,
+          "median": 1.2124897868107851,
+          "p95_abs": 4.381418310516861,
+          "rms": 2.619491228978889
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 5.000000000000071,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1375,
+    "ideal_valid": 1375,
+    "ideal_outer_neck_count": 972,
+    "ideal_outer_neck_fraction": 0.7069090909090909,
+    "near_target_points": 249,
+    "radial_measured_minus_ideal_mm": {
+      "n": 972,
+      "mean": -1.7242102591072799,
+      "median": -1.5983115527947227,
+      "p95_abs": 6.056908259705595,
+      "rms": 2.9022498225252087
+    },
+    "near_target_radial_bias_mm": {
+      "n": 249,
+      "mean": -1.3866829224825508,
+      "median": -1.7231450606159129,
+      "p95_abs": 3.7476113117500374,
+      "rms": 2.149783776257421
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 347,
+        "bias": {
+          "n": 347,
+          "mean": -0.6921033402698861,
+          "median": -0.6363078959352038,
+          "p95_abs": 4.055009990932991,
+          "rms": 2.127521169780531
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 368,
+        "bias": {
+          "n": 368,
+          "mean": -2.344465791610298,
+          "median": -1.9463077282609582,
+          "p95_abs": 6.371216725888734,
+          "rms": 3.1720665487981576
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 257,
+        "bias": {
+          "n": 257,
+          "mean": -2.2296073987005296,
+          "median": -2.382682167644397,
+          "p95_abs": 6.420354273787335,
+          "rms": 3.367126536361992
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 2.10000000000003,
+    "original_solver_success": true,
+    "original_solver_nfev": 7
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_004",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1340,
+    "ideal_valid": 1340,
+    "ideal_outer_neck_count": 210,
+    "ideal_outer_neck_fraction": 0.15671641791044777,
+    "near_target_points": 47,
+    "radial_measured_minus_ideal_mm": {
+      "n": 210,
+      "mean": 0.09070809167836334,
+      "median": 0.297302894486986,
+      "p95_abs": 3.3096667583297985,
+      "rms": 1.8041399501195265
+    },
+    "near_target_radial_bias_mm": {
+      "n": 47,
+      "mean": -1.5099776173931652,
+      "median": -1.5336238915953473,
+      "p95_abs": 4.081351009113043,
+      "rms": 2.355614280383509
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 139,
+        "bias": {
+          "n": 139,
+          "mean": -0.5452297524834977,
+          "median": -0.5213121983587854,
+          "p95_abs": 3.7137342077156803,
+          "rms": 1.8643444059296566
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 39,
+        "bias": {
+          "n": 39,
+          "mean": 1.3810236400687206,
+          "median": 1.4447301318814496,
+          "p95_abs": 2.6187234802615045,
+          "rms": 1.7351903026701476
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 32,
+        "bias": {
+          "n": 32,
+          "mean": 1.2804910276556993,
+          "median": 1.3036909528453933,
+          "p95_abs": 2.6057104241790987,
+          "rms": 1.610274069858168
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.0000000000000147,
+    "original_solver_success": true,
+    "original_solver_nfev": 8
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1231,
+    "ideal_valid": 1231,
+    "ideal_outer_neck_count": 698,
+    "ideal_outer_neck_fraction": 0.5670186839967506,
+    "near_target_points": 159,
+    "radial_measured_minus_ideal_mm": {
+      "n": 698,
+      "mean": 0.7338314433047477,
+      "median": 0.3869782626282472,
+      "p95_abs": 4.403376008647301,
+      "rms": 2.2302485677405284
+    },
+    "near_target_radial_bias_mm": {
+      "n": 159,
+      "mean": 1.2807042615754216,
+      "median": 0.7708525281744585,
+      "p95_abs": 4.585245326836859,
+      "rms": 2.3175017882161693
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 263,
+        "bias": {
+          "n": 263,
+          "mean": -0.5276122262791825,
+          "median": -0.6179995241543068,
+          "p95_abs": 3.05755370950179,
+          "rms": 1.664820454328357
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 212,
+        "bias": {
+          "n": 212,
+          "mean": 0.2514151893565647,
+          "median": 0.25861951959751295,
+          "p95_abs": 3.6615842413000257,
+          "rms": 1.5757772766302338
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 223,
+        "bias": {
+          "n": 223,
+          "mean": 2.680162972172857,
+          "median": 3.0952495384395533,
+          "p95_abs": 4.833171327122419,
+          "rms": 3.1526972022889
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 3.600000000000051,
+    "original_solver_success": true,
+    "original_solver_nfev": 10
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_006",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1335,
+    "ideal_valid": 1335,
+    "ideal_outer_neck_count": 732,
+    "ideal_outer_neck_fraction": 0.5483146067415731,
+    "near_target_points": 237,
+    "radial_measured_minus_ideal_mm": {
+      "n": 732,
+      "mean": -0.5009746384760814,
+      "median": -0.19163324222651923,
+      "p95_abs": 4.26933569343676,
+      "rms": 2.165323812383813
+    },
+    "near_target_radial_bias_mm": {
+      "n": 237,
+      "mean": -0.5232270067468413,
+      "median": -0.574183698445907,
+      "p95_abs": 3.3603590563387242,
+      "rms": 1.8237158739104227
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 258,
+        "bias": {
+          "n": 258,
+          "mean": 1.2381048762046656,
+          "median": 1.0470696476233599,
+          "p95_abs": 3.204354150562808,
+          "rms": 1.6788929969842203
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 236,
+        "bias": {
+          "n": 236,
+          "mean": -2.1700422940129167,
+          "median": -2.0144759140989414,
+          "p95_abs": 5.1780300675128945,
+          "rms": 2.8215314365201563
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 238,
+        "bias": {
+          "n": 238,
+          "mean": -0.7311534119254074,
+          "median": -0.6654715460191909,
+          "p95_abs": 3.6257779359885323,
+          "rms": 1.8630077395827733
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.3000000000000187,
+    "original_solver_success": true,
+    "original_solver_nfev": 20
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_007",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1342,
+    "ideal_valid": 1342,
+    "ideal_outer_neck_count": 1066,
+    "ideal_outer_neck_fraction": 0.7943368107302533,
+    "near_target_points": 256,
+    "radial_measured_minus_ideal_mm": {
+      "n": 1066,
+      "mean": -0.46301791430689354,
+      "median": -0.39596139143527154,
+      "p95_abs": 4.935183472228058,
+      "rms": 2.395355954490537
+    },
+    "near_target_radial_bias_mm": {
+      "n": 256,
+      "mean": 0.24488410900091506,
+      "median": 0.08219085069693222,
+      "p95_abs": 3.9772633551652454,
+      "rms": 1.9778154373363026
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 386,
+        "bias": {
+          "n": 386,
+          "mean": -1.2738941080691888,
+          "median": -1.0181192799901062,
+          "p95_abs": 4.998563335037918,
+          "rms": 2.4346341917596277
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 361,
+        "bias": {
+          "n": 361,
+          "mean": -0.2676369096217632,
+          "median": -0.003305681231637436,
+          "p95_abs": 3.1338722960144665,
+          "rms": 1.734508049940661
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 319,
+        "bias": {
+          "n": 319,
+          "mean": 0.2970625499592944,
+          "median": 0.1689283339287968,
+          "p95_abs": 5.248328353221059,
+          "rms": 2.932015488565722
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.1000000000000154,
+    "original_solver_success": true,
+    "original_solver_nfev": 21
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_000",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1349,
+    "ideal_valid": 1349,
+    "ideal_outer_neck_count": 428,
+    "ideal_outer_neck_fraction": 0.3172720533728688,
+    "near_target_points": 199,
+    "radial_measured_minus_ideal_mm": {
+      "n": 428,
+      "mean": 2.4737907744879766,
+      "median": 3.0721360849134065,
+      "p95_abs": 6.901765573475255,
+      "rms": 4.1528905585674645
+    },
+    "near_target_radial_bias_mm": {
+      "n": 199,
+      "mean": 2.528826323330946,
+      "median": 3.582418665984889,
+      "p95_abs": 6.9142713009465595,
+      "rms": 4.205819474024175
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 120,
+        "bias": {
+          "n": 120,
+          "mean": 2.4251049150699,
+          "median": 2.0864166185089204,
+          "p95_abs": 6.156665154699977,
+          "rms": 3.1925730343730145
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 141,
+        "bias": {
+          "n": 141,
+          "mean": -1.2351244579741003,
+          "median": -1.2993224307267326,
+          "p95_abs": 4.011099068374811,
+          "rms": 2.0807771059615905
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 167,
+        "bias": {
+          "n": 167,
+          "mean": 5.640253953573738,
+          "median": 5.6112080069014425,
+          "p95_abs": 7.623313628471318,
+          "rms": 5.763773393062094
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 3.400000000000048,
+    "original_solver_success": true,
+    "original_solver_nfev": 11
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_001",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1343,
+    "ideal_valid": 1343,
+    "ideal_outer_neck_count": 1137,
+    "ideal_outer_neck_fraction": 0.8466120625465376,
+    "near_target_points": 277,
+    "radial_measured_minus_ideal_mm": {
+      "n": 1137,
+      "mean": -0.7677133228339938,
+      "median": -0.5956308559574808,
+      "p95_abs": 5.4312522964454075,
+      "rms": 2.6950347019384293
+    },
+    "near_target_radial_bias_mm": {
+      "n": 277,
+      "mean": -0.650586279726404,
+      "median": -0.46384060261478055,
+      "p95_abs": 5.687527992711107,
+      "rms": 2.6686746584614394
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 372,
+        "bias": {
+          "n": 372,
+          "mean": -2.4191804519046687,
+          "median": -2.325283033211086,
+          "p95_abs": 7.262087140200239,
+          "rms": 3.6355290651870393
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 356,
+        "bias": {
+          "n": 356,
+          "mean": 1.1172983431310035,
+          "median": 1.2754559001797112,
+          "p95_abs": 4.342737774397774,
+          "rms": 2.3226386358621287
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 409,
+        "bias": {
+          "n": 409,
+          "mean": -0.906389071169564,
+          "median": -0.7442519347827385,
+          "p95_abs": 3.8011853211634166,
+          "rms": 1.8639718763370516
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 3.0000000000000426,
+    "original_solver_success": true,
+    "original_solver_nfev": 4
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_002",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1337,
+    "ideal_valid": 1337,
+    "ideal_outer_neck_count": 105,
+    "ideal_outer_neck_fraction": 0.07853403141361257,
+    "near_target_points": 49,
+    "radial_measured_minus_ideal_mm": {
+      "n": 105,
+      "mean": 1.3955588391399152,
+      "median": 1.586504410681627,
+      "p95_abs": 5.217078621346471,
+      "rms": 2.8855879868965477
+    },
+    "near_target_radial_bias_mm": {
+      "n": 49,
+      "mean": 1.725711967997457,
+      "median": 1.586504410681627,
+      "p95_abs": 5.439347839910183,
+      "rms": 3.1769122189835737
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 30,
+        "bias": {
+          "n": 30,
+          "mean": 1.5577993756742667,
+          "median": 1.8643343743911807,
+          "p95_abs": 2.929894842214596,
+          "rms": 1.9371690957616245
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 42,
+        "bias": {
+          "n": 42,
+          "mean": 3.4217887525199764,
+          "median": 3.9321699915248516,
+          "p95_abs": 5.607026987210508,
+          "rms": 3.91301564540107
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 33,
+        "bias": {
+          "n": 33,
+          "mean": -1.3307706292841177,
+          "median": -1.7178549999688215,
+          "p95_abs": 3.2222744860954853,
+          "rms": 1.8959696445203693
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.4000000000000192,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1376,
+    "ideal_valid": 1376,
+    "ideal_outer_neck_count": 1048,
+    "ideal_outer_neck_fraction": 0.7616279069767442,
+    "near_target_points": 261,
+    "radial_measured_minus_ideal_mm": {
+      "n": 1048,
+      "mean": -0.6348826007840522,
+      "median": -0.3917687484740604,
+      "p95_abs": 5.646607555182717,
+      "rms": 2.8473409451532397
+    },
+    "near_target_radial_bias_mm": {
+      "n": 261,
+      "mean": 0.0819186227131937,
+      "median": 0.041000205959747404,
+      "p95_abs": 3.6962901453358086,
+      "rms": 2.067009990208983
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 434,
+        "bias": {
+          "n": 434,
+          "mean": -1.3916579733192187,
+          "median": -1.1454218886607528,
+          "p95_abs": 6.018124615080957,
+          "rms": 2.8175745561509835
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 264,
+        "bias": {
+          "n": 264,
+          "mean": 1.0347484623401535,
+          "median": 2.2239144951459267,
+          "p95_abs": 4.937405527115941,
+          "rms": 3.063626566038473
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 350,
+        "bias": {
+          "n": 350,
+          "mean": -0.9558599978827041,
+          "median": -0.6399628631114993,
+          "p95_abs": 5.72803883094575,
+          "rms": 2.711479716684888
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 0.9999999999999961,
+    "original_solver_success": true,
+    "original_solver_nfev": 7
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1348,
+    "ideal_valid": 1348,
+    "ideal_outer_neck_count": 505,
+    "ideal_outer_neck_fraction": 0.37462908011869434,
+    "near_target_points": 191,
+    "radial_measured_minus_ideal_mm": {
+      "n": 505,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 191,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 177,
+        "bias": {
+          "n": 177,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 159,
+        "bias": {
+          "n": 159,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 169,
+        "bias": {
+          "n": 169,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 9.70000000000014,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1350,
+    "ideal_valid": 1350,
+    "ideal_outer_neck_count": 448,
+    "ideal_outer_neck_fraction": 0.33185185185185184,
+    "near_target_points": 90,
+    "radial_measured_minus_ideal_mm": {
+      "n": 448,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 90,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 110,
+        "bias": {
+          "n": 110,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 197,
+        "bias": {
+          "n": 197,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 141,
+        "bias": {
+          "n": 141,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 5.400000000000077,
+    "original_solver_success": true,
+    "original_solver_nfev": 7
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1357,
+    "ideal_valid": 1357,
+    "ideal_outer_neck_count": 366,
+    "ideal_outer_neck_fraction": 0.2697126013264554,
+    "near_target_points": 128,
+    "radial_measured_minus_ideal_mm": {
+      "n": 366,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 128,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 81,
+        "bias": {
+          "n": 81,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 139,
+        "bias": {
+          "n": 139,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 146,
+        "bias": {
+          "n": 146,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 9.000000000000128,
+    "original_solver_success": true,
+    "original_solver_nfev": 4
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1355,
+    "ideal_valid": 1355,
+    "ideal_outer_neck_count": 746,
+    "ideal_outer_neck_fraction": 0.5505535055350553,
+    "near_target_points": 206,
+    "radial_measured_minus_ideal_mm": {
+      "n": 746,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 206,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 234,
+        "bias": {
+          "n": 234,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 248,
+        "bias": {
+          "n": 248,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 264,
+        "bias": {
+          "n": 264,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 8.50000000000012,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1364,
+    "ideal_valid": 1364,
+    "ideal_outer_neck_count": 461,
+    "ideal_outer_neck_fraction": 0.3379765395894428,
+    "near_target_points": 145,
+    "radial_measured_minus_ideal_mm": {
+      "n": 461,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 145,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 130,
+        "bias": {
+          "n": 130,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 166,
+        "bias": {
+          "n": 166,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 165,
+        "bias": {
+          "n": 165,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 5.600000000000079,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1346,
+    "ideal_valid": 1346,
+    "ideal_outer_neck_count": 985,
+    "ideal_outer_neck_fraction": 0.7317979197622585,
+    "near_target_points": 241,
+    "radial_measured_minus_ideal_mm": {
+      "n": 985,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 241,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 337,
+        "bias": {
+          "n": 337,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 362,
+        "bias": {
+          "n": 362,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 286,
+        "bias": {
+          "n": 286,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 13.800000000000194,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1353,
+    "ideal_valid": 1353,
+    "ideal_outer_neck_count": 393,
+    "ideal_outer_neck_fraction": 0.29046563192904656,
+    "near_target_points": 157,
+    "radial_measured_minus_ideal_mm": {
+      "n": 393,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 157,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 155,
+        "bias": {
+          "n": 155,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 130,
+        "bias": {
+          "n": 130,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 108,
+        "bias": {
+          "n": 108,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 8.50000000000012,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1353,
+    "ideal_valid": 1353,
+    "ideal_outer_neck_count": 609,
+    "ideal_outer_neck_fraction": 0.4501108647450111,
+    "near_target_points": 168,
+    "radial_measured_minus_ideal_mm": {
+      "n": 609,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 168,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 182,
+        "bias": {
+          "n": 182,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 237,
+        "bias": {
+          "n": 237,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 190,
+        "bias": {
+          "n": 190,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 6.900000000000099,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1342,
+    "ideal_valid": 1342,
+    "ideal_outer_neck_count": 150,
+    "ideal_outer_neck_fraction": 0.11177347242921014,
+    "near_target_points": 68,
+    "radial_measured_minus_ideal_mm": {
+      "n": 150,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 68,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 46,
+        "bias": {
+          "n": 46,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 6,
+        "bias": {
+          "n": 6,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 98,
+        "bias": {
+          "n": 98,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 3.800000000000055,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1385,
+    "ideal_valid": 1385,
+    "ideal_outer_neck_count": 896,
+    "ideal_outer_neck_fraction": 0.6469314079422382,
+    "near_target_points": 163,
+    "radial_measured_minus_ideal_mm": {
+      "n": 896,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 163,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 383,
+        "bias": {
+          "n": 383,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 217,
+        "bias": {
+          "n": 217,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 296,
+        "bias": {
+          "n": 296,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 18.90000000000027,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1356,
+    "ideal_valid": 1356,
+    "ideal_outer_neck_count": 193,
+    "ideal_outer_neck_fraction": 0.14233038348082597,
+    "near_target_points": 76,
+    "radial_measured_minus_ideal_mm": {
+      "n": 193,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 76,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 73,
+        "bias": {
+          "n": 73,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 98,
+        "bias": {
+          "n": 98,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 22,
+        "bias": {
+          "n": 22,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 1.4000000000000201,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition_name": "ideal_rgb",
+    "diagnostic_only": true,
+    "selected_train": 1365,
+    "ideal_valid": 1365,
+    "ideal_outer_neck_count": 923,
+    "ideal_outer_neck_fraction": 0.6761904761904762,
+    "near_target_points": 144,
+    "radial_measured_minus_ideal_mm": {
+      "n": 923,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "near_target_radial_bias_mm": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95_abs": 0.0,
+      "rms": 0.0
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 429,
+        "bias": {
+          "n": 429,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 141,
+        "bias": {
+          "n": 141,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 353,
+        "bias": {
+          "n": 353,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95_abs": 0.0,
+          "rms": 0.0
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": true,
+    "baseline_span_mm": 9.400000000000135,
+    "original_solver_success": true,
+    "original_solver_nfev": 1
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1358,
+    "ideal_valid": 1358,
+    "ideal_outer_neck_count": 486,
+    "ideal_outer_neck_fraction": 0.35787923416789397,
+    "near_target_points": 171,
+    "radial_measured_minus_ideal_mm": {
+      "n": 486,
+      "mean": 1.2115994048900594,
+      "median": 0.949072810479155,
+      "p95_abs": 3.9312459436544867,
+      "rms": 1.8198812307728107
+    },
+    "near_target_radial_bias_mm": {
+      "n": 171,
+      "mean": 1.0497740468342451,
+      "median": 0.8425282025118861,
+      "p95_abs": 3.0266241123057114,
+      "rms": 1.7550139834672727
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 168,
+        "bias": {
+          "n": 168,
+          "mean": 1.283831913240229,
+          "median": 0.9847248969820441,
+          "p95_abs": 4.327617724113026,
+          "rms": 2.0427472581684714
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 153,
+        "bias": {
+          "n": 153,
+          "mean": 1.046849495181843,
+          "median": 0.8712751561702845,
+          "p95_abs": 3.5718759705825383,
+          "rms": 1.5109825229570253
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 165,
+        "bias": {
+          "n": 165,
+          "mean": 1.290821676299324,
+          "median": 0.9942834941293199,
+          "p95_abs": 3.986972745214698,
+          "rms": 1.8410697128980327
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 9.30000000000013,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1360,
+    "ideal_valid": 1360,
+    "ideal_outer_neck_count": 477,
+    "ideal_outer_neck_fraction": 0.35073529411764703,
+    "near_target_points": 93,
+    "radial_measured_minus_ideal_mm": {
+      "n": 477,
+      "mean": 1.8889836938740345,
+      "median": 1.5640185807943894,
+      "p95_abs": 5.7183112046518785,
+      "rms": 2.5426147984886684
+    },
+    "near_target_radial_bias_mm": {
+      "n": 93,
+      "mean": 2.855515705022749,
+      "median": 2.0354863791750972,
+      "p95_abs": 8.041779992110362,
+      "rms": 3.645360248960616
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 117,
+        "bias": {
+          "n": 117,
+          "mean": 2.3775877159858467,
+          "median": 1.91827029265216,
+          "p95_abs": 6.015629541391927,
+          "rms": 2.935792133834432
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 213,
+        "bias": {
+          "n": 213,
+          "mean": 1.7715529040492386,
+          "median": 1.4020765903570407,
+          "p95_abs": 5.370091045656613,
+          "rms": 2.3465988818482475
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 147,
+        "bias": {
+          "n": 147,
+          "mean": 1.670249596225052,
+          "median": 1.2598907409117004,
+          "p95_abs": 5.1677434530788044,
+          "rms": 2.477729380647648
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 8.100000000000113,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1346,
+    "ideal_valid": 1346,
+    "ideal_outer_neck_count": 375,
+    "ideal_outer_neck_fraction": 0.2786032689450223,
+    "near_target_points": 127,
+    "radial_measured_minus_ideal_mm": {
+      "n": 375,
+      "mean": 1.7938197073987496,
+      "median": 1.3004019242007274,
+      "p95_abs": 5.520024518035773,
+      "rms": 2.4027274552490474
+    },
+    "near_target_radial_bias_mm": {
+      "n": 127,
+      "mean": 1.8620288617248066,
+      "median": 1.1800506978672303,
+      "p95_abs": 6.188314986789443,
+      "rms": 2.6651730098608346
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 76,
+        "bias": {
+          "n": 76,
+          "mean": 2.2010647899806046,
+          "median": 1.5497099879014726,
+          "p95_abs": 6.200518711827161,
+          "rms": 2.8051423844116607
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 139,
+        "bias": {
+          "n": 139,
+          "mean": 1.615652286655917,
+          "median": 1.101644206923794,
+          "p95_abs": 4.8151103321288735,
+          "rms": 2.3300185143422376
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 160,
+        "bias": {
+          "n": 160,
+          "mean": 1.755161239942705,
+          "median": 1.3345457028769339,
+          "p95_abs": 4.3110884784386805,
+          "rms": 2.253126311361089
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 9.80000000000014,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1355,
+    "ideal_valid": 1355,
+    "ideal_outer_neck_count": 645,
+    "ideal_outer_neck_fraction": 0.47601476014760147,
+    "near_target_points": 170,
+    "radial_measured_minus_ideal_mm": {
+      "n": 645,
+      "mean": 1.2621167781868714,
+      "median": 0.861085286698497,
+      "p95_abs": 4.428070044236591,
+      "rms": 2.1551630727355224
+    },
+    "near_target_radial_bias_mm": {
+      "n": 170,
+      "mean": 1.3108112598289623,
+      "median": 0.8585128272496227,
+      "p95_abs": 8.229744683963128,
+      "rms": 2.580545787311345
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 209,
+        "bias": {
+          "n": 209,
+          "mean": 1.2478111207069253,
+          "median": 0.9868606611023978,
+          "p95_abs": 3.9224074862471343,
+          "rms": 1.851746189709098
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 209,
+        "bias": {
+          "n": 209,
+          "mean": 1.2177326181981274,
+          "median": 0.8770708491398054,
+          "p95_abs": 4.55473591470517,
+          "rms": 2.2458613009696777
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 227,
+        "bias": {
+          "n": 227,
+          "mean": 1.3161527775302904,
+          "median": 0.7940920545952821,
+          "p95_abs": 5.38563077198739,
+          "rms": 2.323052807779946
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 8.200000000000117,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1369,
+    "ideal_valid": 1369,
+    "ideal_outer_neck_count": 423,
+    "ideal_outer_neck_fraction": 0.3089846603360117,
+    "near_target_points": 131,
+    "radial_measured_minus_ideal_mm": {
+      "n": 423,
+      "mean": 1.99655524555513,
+      "median": 1.7610195834965126,
+      "p95_abs": 4.307554180389508,
+      "rms": 2.3307092221027688
+    },
+    "near_target_radial_bias_mm": {
+      "n": 131,
+      "mean": 2.4190364428486344,
+      "median": 2.2196267005544073,
+      "p95_abs": 4.818257912853024,
+      "rms": 2.7118010005478537
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 122,
+        "bias": {
+          "n": 122,
+          "mean": 2.040531797766675,
+          "median": 1.893660421177895,
+          "p95_abs": 4.793709114804906,
+          "rms": 2.5613543978073117
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 152,
+        "bias": {
+          "n": 152,
+          "mean": 2.0682137831208056,
+          "median": 1.858759986332057,
+          "p95_abs": 4.159968419475479,
+          "rms": 2.345512137958659
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 149,
+        "bias": {
+          "n": 149,
+          "mean": 1.887446271865256,
+          "median": 1.696284936783023,
+          "p95_abs": 3.6978767883747246,
+          "rms": 2.1065900904595773
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 7.500000000000106,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1350,
+    "ideal_valid": 1350,
+    "ideal_outer_neck_count": 766,
+    "ideal_outer_neck_fraction": 0.5674074074074074,
+    "near_target_points": 190,
+    "radial_measured_minus_ideal_mm": {
+      "n": 766,
+      "mean": 0.9071318091787045,
+      "median": 0.678395590108611,
+      "p95_abs": 3.317006176718042,
+      "rms": 1.4305182112973882
+    },
+    "near_target_radial_bias_mm": {
+      "n": 190,
+      "mean": 0.5584927046497942,
+      "median": 0.5970805277657831,
+      "p95_abs": 1.7764384837807752,
+      "rms": 0.9945783915381099
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 266,
+        "bias": {
+          "n": 266,
+          "mean": 0.6904469073045495,
+          "median": 0.5918696436713518,
+          "p95_abs": 1.9843065398410324,
+          "rms": 0.9839352817216985
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 286,
+        "bias": {
+          "n": 286,
+          "mean": 0.9144172055020092,
+          "median": 0.6374105000567099,
+          "p95_abs": 3.3210703026027044,
+          "rms": 1.44087489447286
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 214,
+        "bias": {
+          "n": 214,
+          "mean": 1.1667325594126303,
+          "median": 0.8933130750634177,
+          "p95_abs": 4.122148956565991,
+          "rms": 1.8294529753100688
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 12.70000000000018,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1342,
+    "ideal_valid": 1342,
+    "ideal_outer_neck_count": 406,
+    "ideal_outer_neck_fraction": 0.3025335320417288,
+    "near_target_points": 171,
+    "radial_measured_minus_ideal_mm": {
+      "n": 406,
+      "mean": 1.6078397642584161,
+      "median": 0.9149095728991021,
+      "p95_abs": 6.9728608216982675,
+      "rms": 2.7886905697476014
+    },
+    "near_target_radial_bias_mm": {
+      "n": 171,
+      "mean": 1.6428329484323145,
+      "median": 0.8860705839521756,
+      "p95_abs": 7.37739886751843,
+      "rms": 3.0604815777113106
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 171,
+        "bias": {
+          "n": 171,
+          "mean": 1.8687546836318272,
+          "median": 1.3069081034894836,
+          "p95_abs": 6.803937784851225,
+          "rms": 2.5984291389602716
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 128,
+        "bias": {
+          "n": 128,
+          "mean": 1.5478905715850817,
+          "median": 0.6112391727312279,
+          "p95_abs": 8.534461926914192,
+          "rms": 3.1518193467562385
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 107,
+        "bias": {
+          "n": 107,
+          "mean": 1.262578506775553,
+          "median": 0.5517939314542346,
+          "p95_abs": 6.139740129387155,
+          "rms": 2.614245036480303
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 7.300000000000105,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1353,
+    "ideal_valid": 1353,
+    "ideal_outer_neck_count": 607,
+    "ideal_outer_neck_fraction": 0.44863266814486324,
+    "near_target_points": 159,
+    "radial_measured_minus_ideal_mm": {
+      "n": 607,
+      "mean": 1.2462417659384928,
+      "median": 0.9629959305252243,
+      "p95_abs": 4.139446877728449,
+      "rms": 2.01019138805446
+    },
+    "near_target_radial_bias_mm": {
+      "n": 159,
+      "mean": 1.6665391407825152,
+      "median": 1.145428282769565,
+      "p95_abs": 5.246126544307787,
+      "rms": 2.568697104234721
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 187,
+        "bias": {
+          "n": 187,
+          "mean": 1.1523902283861944,
+          "median": 0.8184575193309271,
+          "p95_abs": 4.13944687772845,
+          "rms": 1.9558652006631712
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 254,
+        "bias": {
+          "n": 254,
+          "mean": 1.0555825125777507,
+          "median": 0.8249183818751789,
+          "p95_abs": 3.6916151543528413,
+          "rms": 1.8888619838180465
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 166,
+        "bias": {
+          "n": 166,
+          "mean": 1.6436977169981812,
+          "median": 1.2822606093832256,
+          "p95_abs": 4.147458845586195,
+          "rms": 2.237731229588615
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 7.2000000000001005,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1329,
+    "ideal_valid": 1329,
+    "ideal_outer_neck_count": 155,
+    "ideal_outer_neck_fraction": 0.11662904439428141,
+    "near_target_points": 68,
+    "radial_measured_minus_ideal_mm": {
+      "n": 155,
+      "mean": 2.322369166733425,
+      "median": 2.0503401988441183,
+      "p95_abs": 4.427290842988438,
+      "rms": 2.580590074369631
+    },
+    "near_target_radial_bias_mm": {
+      "n": 68,
+      "mean": 2.554350472656687,
+      "median": 2.2936079143218393,
+      "p95_abs": 4.820556247928876,
+      "rms": 2.7753250745975366
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 44,
+        "bias": {
+          "n": 44,
+          "mean": 2.9841248815779142,
+          "median": 3.140747584777351,
+          "p95_abs": 5.060139090658891,
+          "rms": 3.2470380134932304
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 5,
+        "bias": {
+          "n": 5,
+          "mean": 2.8299125976503445,
+          "median": 2.7882822940560956,
+          "p95_abs": 3.6523261343946514,
+          "rms": 2.8976333781895223
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 106,
+        "bias": {
+          "n": 106,
+          "mean": 2.0237373874151032,
+          "median": 1.8164809408052562,
+          "p95_abs": 3.76715012236987,
+          "rms": 2.2283112769726756
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 7.200000000000103,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1362,
+    "ideal_valid": 1362,
+    "ideal_outer_neck_count": 966,
+    "ideal_outer_neck_fraction": 0.7092511013215859,
+    "near_target_points": 191,
+    "radial_measured_minus_ideal_mm": {
+      "n": 966,
+      "mean": 0.5022071696268244,
+      "median": 0.43949481592224515,
+      "p95_abs": 1.856413164976935,
+      "rms": 0.8895996722985264
+    },
+    "near_target_radial_bias_mm": {
+      "n": 191,
+      "mean": 0.25071726534624483,
+      "median": 0.2172920329865633,
+      "p95_abs": 1.2522405994307384,
+      "rms": 0.7131650861084874
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 423,
+        "bias": {
+          "n": 423,
+          "mean": 0.5228307121742359,
+          "median": 0.4521636756499845,
+          "p95_abs": 1.9460286813037058,
+          "rms": 0.8915097129966657
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 211,
+        "bias": {
+          "n": 211,
+          "mean": 0.643477452906882,
+          "median": 0.5889535118000424,
+          "p95_abs": 1.9751280556292308,
+          "rms": 1.0135175811595456
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 332,
+        "bias": {
+          "n": 332,
+          "mean": 0.38614756640499553,
+          "median": 0.2873584723491369,
+          "p95_abs": 1.475206013466302,
+          "rms": 0.7982311727191564
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": true,
+    "baseline_boundary": false,
+    "baseline_span_mm": 16.80000000000024,
+    "original_solver_success": true,
+    "original_solver_nfev": 2
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1354,
+    "ideal_valid": 1354,
+    "ideal_outer_neck_count": 212,
+    "ideal_outer_neck_fraction": 0.15657311669128507,
+    "near_target_points": 76,
+    "radial_measured_minus_ideal_mm": {
+      "n": 212,
+      "mean": 2.6656406902740613,
+      "median": 2.46008165750958,
+      "p95_abs": 4.68321103547009,
+      "rms": 2.897944883077309
+    },
+    "near_target_radial_bias_mm": {
+      "n": 76,
+      "mean": 3.2115189742211365,
+      "median": 3.2673343753419566,
+      "p95_abs": 4.573389597936149,
+      "rms": 3.3308568437194856
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 80,
+        "bias": {
+          "n": 80,
+          "mean": 2.56805534620214,
+          "median": 2.4208588310842707,
+          "p95_abs": 4.545230574828566,
+          "rms": 2.8272305731448157
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 102,
+        "bias": {
+          "n": 102,
+          "mean": 2.577171627092143,
+          "median": 2.411176675200828,
+          "p95_abs": 4.260925550001468,
+          "rms": 2.7858029581200747
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 30,
+        "bias": {
+          "n": 30,
+          "mean": 3.2266630892843717,
+          "median": 3.078091032221767,
+          "p95_abs": 4.994867208726663,
+          "rms": 3.4124482810589263
+        }
+      }
+    ],
+    "chosen_seed": "depth_plane",
+    "baseline_truth_pass": false,
+    "baseline_boundary": true,
+    "baseline_span_mm": 8.700000000000124,
+    "original_solver_success": true,
+    "original_solver_nfev": 3
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "selected_train": 1331,
+    "ideal_valid": 1331,
+    "ideal_outer_neck_count": 850,
+    "ideal_outer_neck_fraction": 0.6386175807663411,
+    "near_target_points": 135,
+    "radial_measured_minus_ideal_mm": {
+      "n": 850,
+      "mean": 1.429209665951879,
+      "median": 1.1054130628618033,
+      "p95_abs": 4.433657164167185,
+      "rms": 2.035217180556132
+    },
+    "near_target_radial_bias_mm": {
+      "n": 135,
+      "mean": 1.4915886491006214,
+      "median": 1.2906754357986898,
+      "p95_abs": 3.431333505293049,
+      "rms": 1.8525931000802112
+    },
+    "by_camera": [
+      {
+        "camera": "cam_a",
+        "outer_neck_points": 406,
+        "bias": {
+          "n": 406,
+          "mean": 1.4276028430163752,
+          "median": 1.1973206794651325,
+          "p95_abs": 4.130746893831391,
+          "rms": 1.9207429711952662
+        }
+      },
+      {
+        "camera": "cam_b",
+        "outer_neck_points": 122,
+        "bias": {
+          "n": 122,
+          "mean": 1.8583094250339922,
+          "median": 1.3847150685811407,
+          "p95_abs": 6.726271276418062,
+          "rms": 2.8346748257995222
+        }
+      },
+      {
+        "camera": "cam_c",
+        "outer_neck_points": 322,
+        "bias": {
+          "n": 322,
+          "mean": 1.2686574904978314,
+          "median": 1.0011300619558305,
+          "p95_abs": 3.717152170482858,
+          "rms": 1.7994470798470903
+        }
+      }
+    ],
+    "chosen_seed": "rgb_circle",
+    "baseline_truth_pass": false,
+    "baseline_boundary": false,
+    "baseline_span_mm": 9.600000000000138,
+    "original_solver_success": true,
+    "original_solver_nfev": 5
+  }
+]

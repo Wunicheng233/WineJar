@@ -1,0 +1,16 @@
+{
+  "source_viewer":"experiments/neck_localization/results/cross_station_20261028_v3/viewer",
+  "body_camera_file":"experiments/neck_localization/results/pose_transfer_20261028_v3/body/scenes/new8/confirmation_nominal_003/secondary_cameras.json",
+  "pose_pool_seed":2026102901,
+  "pool_poses":180,
+  "training_poses":18,
+  "holdout_poses":12,
+  "pixel_std":0.15,
+  "sessions":{"development":[2026102903,2026102907],"test":[2026102941,2026102943,2026102947,2026102951,2026102953,2026102957]},
+  "conditions":["ideal","image_only","random_pose","kinematic_1","kinematic_5","kinematic_bad_image","wrong_K"],
+  "methods":["park","pixel_huber","uncertain_fixed","uncertain_vce"],
+  "error_amplitudes_are_not_device_specifications":true,
+  "kinematic_scales":{"link_frame_translation_std_m":0.00005,"link_frame_rotation_std_deg":0.02,"joint_zero_std_deg":0.02,"joint_scale_std":0.0001},
+  "tool_model":{"mount_translation_std_m":0.0006,"mount_orientation_std_deg":0.15,"jig_measurement_std_m":0.0001,"jig_measurement_std_deg":0.03},
+  "no_hardware_training_default_change":true
+}

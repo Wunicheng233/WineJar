@@ -1,0 +1,6492 @@
+[
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.6432386339393066,
+    "axial_mm": -1.5685792321732197,
+    "tangent_mm": 2.127503153545067,
+    "xyz_mm": [
+      -2.136504322529653,
+      -0.05113892913857337,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929347,
+    "band_margin_mm": 0.3804277010709201,
+    "band_contained": true,
+    "elapsed_ms": 0.0015879995771683753,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009376759833909995
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743276990358908
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836975654776315
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0006240238724668915,
+    "overlap_fraction": 0.488,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00036728240398185033,
+      0.003557060896502495,
+      0.005525653759532789,
+      0.10305046777225907,
+      0.511891107511193,
+      0.7071390265170099
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404926933467989,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.5730671518906105,
+    "axial_mm": -1.557590335574543,
+    "tangent_mm": 0.22011953771080714,
+    "xyz_mm": [
+      -0.2290862470681887,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.39141659766959674,
+    "band_contained": true,
+    "elapsed_ms": 86.6648939991137,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404926933467989,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009849857860604674
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744270187316005
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783648462615436
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0006245498680526243,
+    "overlap_fraction": 0.4888888888888889,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0003680207990971808,
+      0.003584924866060066,
+      0.0055672744531765845,
+      0.10315895301692424,
+      0.5126048851887194,
+      0.7064074351558964
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4050098627010033,
+        -0.00034921155451414834,
+        0.6305917893136634
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.6495865888306218,
+    "axial_mm": -1.6438726691844787,
+    "tangent_mm": 0.137180762347148,
+    "xyz_mm": [
+      -0.14615701405373827,
+      -0.04362620963202214,
+      -1.6425196483226268
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.30513426405966104,
+    "band_contained": true,
+    "elapsed_ms": 440.20307299797423,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4050098627010033,
+        -0.00034921155451414834,
+        0.6305917893136634
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.3355212518440146,
+        0.9420026714757854,
+        0.007513753623059905,
+        -0.0023357930501389373
+      ],
+      [
+        0.20262822109364287,
+        -0.0643778487399912,
+        -0.9771372967029951,
+        0.2738095780191334
+      ],
+      [
+        -0.9199822245986332,
+        0.3293728275436416,
+        -0.21247646198686407,
+        0.786355892645472
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0006150402598887487,
+    "overlap_fraction": 0.4948888888888889,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0003608288291575863,
+      0.0037644019564647886,
+      0.005197119987481737,
+      0.09976079519382693,
+      0.5133852462814721,
+      0.7070910685372414
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4067358269391637,
+        -0.0002655481205610295,
+        0.6305825536052415
+      ],
+      "normal": [
+        0.029161233169424632,
+        0.018739792403616347,
+        0.9993990407543465
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.285976728491627,
+    "axial_mm": -1.6403473510761941,
+    "tangent_mm": 1.5921526845822906,
+    "xyz_mm": [
+      1.5798072241066663,
+      0.04003722432109673,
+      -1.6517553567445553
+    ],
+    "normal_deg": 1.5886663358426802,
+    "band_margin_mm": -0.1286869452257072,
+    "band_contained": false,
+    "elapsed_ms": 430.09398599679116,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4067358269391637,
+        -0.0002655481205610295,
+        0.6305825536052415
+      ],
+      "normal": [
+        0.029161233169424632,
+        0.018739792403616347,
+        0.9993990407543465
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.786229249822579,
+    "axial_mm": -1.7789688332378886,
+    "tangent_mm": 2.1443748093407358,
+    "xyz_mm": [
+      -2.0752159434556106,
+      -0.24289671289876588,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.14980166248884155,
+    "band_margin_mm": 0.9454181720343309,
+    "band_contained": true,
+    "elapsed_ms": 0.001581996912136674,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010371672079583713
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436403257576786
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835251097596143
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0009226094834672499,
+    "overlap_fraction": 0.284,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.0003804579221607838,
+      0.0012786160352020641,
+      0.002128965445151932,
+      0.11187821917450572,
+      0.5648956376090598,
+      0.6362459190012713
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.400626807825977,
+        0.002626559346076173,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.8595022118827558,
+    "axial_mm": -1.8505763090210778,
+    "tangent_mm": 0.18197747247059315,
+    "xyz_mm": [
+      0.03458692531488339,
+      -0.2428967128987672,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8738106962511413,
+    "band_contained": true,
+    "elapsed_ms": 131.7812170018442,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400626807825977,
+        0.002626559346076173,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000965397151855174
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739899577657968
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836796201063141
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0008829080465959921,
+    "overlap_fraction": 0.2791111111111111,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.000367616668116264,
+      0.0012341406135105276,
+      0.0021583403899566984,
+      0.11197532405843308,
+      0.5632044802000059,
+      0.6368603759688052
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.400392708490742,
+        0.0026762959671227985,
+        0.6364184882222714
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.5343978825396802,
+    "axial_mm": -1.507134231352255,
+    "tangent_mm": 0.2879640092589722,
+    "xyz_mm": [
+      -0.19951240992011066,
+      -0.19316009185214172,
+      -1.5090595876723345
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 1.2172527739199637,
+    "band_contained": true,
+    "elapsed_ms": 132.2167249963968,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400392708490742,
+        0.0026762959671227985,
+        0.6364184882222714
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.3815731149001541,
+        0.9243248378444859,
+        0.005054911389816249,
+        -0.0014309319366088936
+      ],
+      [
+        0.20416633507356619,
+        -0.07894634360130978,
+        -0.9757477043040437,
+        0.2725284102527208
+      ],
+      [
+        -0.9015087717865103,
+        0.3733511336205492,
+        -0.21883981679810652,
+        0.7893658583491341
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0008394742619205744,
+    "overlap_fraction": 0.2926666666666667,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00038523160646347106,
+      0.0013860070586347887,
+      0.0017712611901285426,
+      0.10798811642863042,
+      0.5651944503456744,
+      0.6380180230507321
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403209948254076,
+        0.0023751614965089886,
+        0.6366360499590513
+      ],
+      "normal": [
+        -0.0161922001876964,
+        0.03863278564297142,
+        0.9991222750627402
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.960538854694207,
+    "axial_mm": -1.3957264655830424,
+    "tangent_mm": 2.610888343729995,
+    "xyz_mm": [
+      2.6177273534138124,
+      -0.4942945624659516,
+      -1.2914978508924424
+    ],
+    "normal_deg": 1.048979582355843,
+    "band_margin_mm": 0.5295837369980205,
+    "band_contained": true,
+    "elapsed_ms": 574.51501799369,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403209948254076,
+        0.0023751614965089886,
+        0.6366360499590513
+      ],
+      "normal": [
+        -0.0161922001876964,
+        0.03863278564297142,
+        0.9991222750627402
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.7429885884766019,
+    "axial_mm": -1.3261222162499011,
+    "tangent_mm": 1.1311096706898527,
+    "xyz_mm": [
+      -1.3436831572017915,
+      -0.021671355224013415,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.07866631058740589,
+    "band_margin_mm": 0.20651477944697746,
+    "band_contained": true,
+    "elapsed_ms": 0.0019569997675716877,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0008501670510215609
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2742957413501987
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7838492513758636
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0013251032648785388,
+    "overlap_fraction": 0.41444444444444445,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.0002742362106504923,
+      0.0014166018639662039,
+      0.004151391297652721,
+      0.10531994422484936,
+      0.3233671213364171,
+      0.7975490717798428
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3971755448714474,
+        -0.006228306742546539,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.175290671127539,
+    "axial_mm": -1.0211426538222406,
+    "tangent_mm": 0.5818727027316997,
+    "xyz_mm": [
+      0.3857244729434939,
+      -0.021671355224069794,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5114943418746375,
+    "band_contained": true,
+    "elapsed_ms": 69.80036999448203,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3971755448714474,
+        -0.006228306742546539,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0012272314595526829
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27488496663518713
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783598861500807
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0012691442385873726,
+    "overlap_fraction": 0.4157777777777778,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.0002714598883198566,
+      0.0013941158352362636,
+      0.004421434291228238,
+      0.10691984140407014,
+      0.32567970163718946,
+      0.793914935840537
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3976800511841594,
+        -0.006080111583989243,
+        0.5680936170659474
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.865880181075937,
+    "axial_mm": -1.43154899243423,
+    "tangent_mm": 1.1967356986371356,
+    "xyz_mm": [
+      0.8902307856555325,
+      0.12652380333322624,
+      -1.6349280490569607
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.10108800326264825,
+    "band_contained": true,
+    "elapsed_ms": 93.18541800166713,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3976800511841594,
+        -0.006080111583989243,
+        0.5680936170659474
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.3193728642539676,
+        0.9471866104318769,
+        0.028956840241785024,
+        -0.009418607902167895
+      ],
+      [
+        0.22891615198870355,
+        -0.047461826647395546,
+        -0.9722884193334703,
+        0.2722790734540759
+      ],
+      [
+        -0.9195642277388248,
+        0.31715122580539407,
+        -0.2319843335943925,
+        0.792885156357996
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0010052390149787958,
+    "overlap_fraction": 0.45355555555555555,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00021729239531212543,
+      0.002775135895634262,
+      0.006210606718575248,
+      0.07712201783629678,
+      0.4383498905336231,
+      0.7351390232133468
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4042295428248366,
+        -0.0027401386246199916,
+        0.568564752773588
+      ],
+      "normal": [
+        0.22762339623591638,
+        0.07757755732857591,
+        0.9706540640645145
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 8.289781794513312,
+    "axial_mm": 0.516390125995986,
+    "tangent_mm": 8.273682580231018,
+    "xyz_mm": [
+      7.439722426332729,
+      3.466496762702478,
+      -1.163792341416392
+    ],
+    "normal_deg": 3.228606241059019,
+    "band_margin_mm": -1.677303563050848,
+    "band_contained": false,
+    "elapsed_ms": 332.9743649956072,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4042295428248366,
+        -0.0027401386246199916,
+        0.568564752773588
+      ],
+      "normal": [
+        0.22762339623591638,
+        0.07757755732857591,
+        0.9706540640645145
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.6487690037686016,
+    "axial_mm": 0.2521104694107609,
+    "tangent_mm": 2.6367437392622732,
+    "xyz_mm": [
+      -2.6277214139462934,
+      -0.31680983525361056,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082478,
+    "band_margin_mm": 1.1999379455818704,
+    "band_contained": true,
+    "elapsed_ms": 0.0019319995772093534,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0015533676348050071
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2745525455715119
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7826303402395905
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0025337357963922825,
+    "overlap_fraction": 0.5073333333333333,
+    "iterations": 17,
+    "information_eigenvalues": [
+      0.00017588829237032868,
+      0.005890748709475284,
+      0.007046583048936766,
+      0.13002655724158887,
+      0.3323158827262302,
+      0.7655351924301583
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3956723425661113,
+        -0.004277602057709794,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 0.6278734768966154,
+    "axial_mm": -0.15136227709713473,
+    "tangent_mm": 0.6093558599555886,
+    "xyz_mm": [
+      0.5321350364115851,
+      -0.3168098352537771,
+      -0.10338730241166161
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.3006861378954986,
+    "band_contained": true,
+    "elapsed_ms": 254.55808200058527,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3956723425661113,
+        -0.004277602057709794,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002096018923977913
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2752133195905031
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7822915257982214
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002433846084400208,
+    "overlap_fraction": 0.5102222222222222,
+    "iterations": 21,
+    "information_eigenvalues": [
+      0.0001819041016179426,
+      0.005907735593968913,
+      0.007072465726862144,
+      0.1315456485663771,
+      0.3368823975127859,
+      0.7611355087795103
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3963464435495494,
+        -0.004034996241566578,
+        0.6052918934737419
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 1.3867487121147055,
+    "axial_mm": -0.8229091860421747,
+    "tangent_mm": 1.11619553039743,
+    "xyz_mm": [
+      1.2062360198497046,
+      -0.07420401911056168,
+      -0.68011794456313
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 0.6291392289504588,
+    "band_contained": true,
+    "elapsed_ms": 311.56744500185596,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3963464435495494,
+        -0.004034996241566578,
+        0.6052918934737419
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.4939153866592578,
+        0.8693336854040433,
+        0.017508119346797493,
+        -0.00524225633078447
+      ],
+      [
+        0.2121226380566024,
+        -0.1009422137565134,
+        -0.972015769370972,
+        0.27185889864602103
+      ],
+      [
+        -0.8432387427325335,
+        0.48380741303101177,
+        -0.2342622672371636,
+        0.7939678644709702
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002299202396323106,
+    "overlap_fraction": 0.5184444444444445,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000182904229575884,
+      0.005921015171884594,
+      0.007260835892243534,
+      0.14209339813259794,
+      0.3460533631644976,
+      0.7408392544960852
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.402636021719377,
+        -0.0038438883990319205,
+        0.6060787998625532
+      ],
+      "normal": [
+        -0.09152296272133514,
+        -0.059509571857578485,
+        0.994023218115169
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 7.497486288211967,
+    "axial_mm": -0.8583852097744681,
+    "tangent_mm": 7.44818605256118,
+    "xyz_mm": [
+      7.4958141896774855,
+      0.11690382342409607,
+      0.10678844424816258
+    ],
+    "normal_deg": 2.0849338878089108,
+    "band_margin_mm": -1.3558313971946463,
+    "band_contained": false,
+    "elapsed_ms": 496.27540499932365,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402636021719377,
+        -0.0038438883990319205,
+        0.6060787998625532
+      ],
+      "normal": [
+        -0.09152296272133514,
+        -0.059509571857578485,
+        0.994023218115169
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.9289882781320438,
+    "axial_mm": -0.22636465321411284,
+    "tangent_mm": 1.9156604137858257,
+    "xyz_mm": [
+      -1.9064636766632503,
+      -0.1964324201778416,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.18210286182615532,
+    "band_margin_mm": 2.4633853103610748,
+    "band_contained": true,
+    "elapsed_ms": 0.002177999704144895,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0012454568207743155
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27444009857039364
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783164065507823
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002339118111618285,
+    "overlap_fraction": 0.4711111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00023902535812644852,
+      0.007461338233873634,
+      0.008762982588589607,
+      0.12524956513468455,
+      0.3633895718096973,
+      0.7484163903631216
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4005955831221826,
+        0.003022908502565499,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 0.6925120417380684,
+    "axial_mm": -0.2150044492838883,
+    "tangent_mm": 0.6582902207540076,
+    "xyz_mm": [
+      0.6270413871649616,
+      -0.1964324201778429,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.4747455142912984,
+    "band_contained": true,
+    "elapsed_ms": 439.75321399921086,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005955831221826,
+        0.003022908502565499,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0014521468040525967
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2746874537539282
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7830869540925891
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0023122645620781827,
+    "overlap_fraction": 0.472,
+    "iterations": 14,
+    "information_eigenvalues": [
+      0.00023693430487430482,
+      0.007433141240102239,
+      0.008756575727532401,
+      0.12576419558396168,
+      0.36501199886492486,
+      0.7467099617587494
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4008073057162957,
+        0.0031407374921263633,
+        0.5970335659286521
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 0.9526503634652738,
+    "axial_mm": -0.4406910991573581,
+    "tangent_mm": 0.8445910668092563,
+    "xyz_mm": [
+      0.8387639812781345,
+      -0.07860343061697872,
+      -0.44479118630680325
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.249058864417828,
+    "band_contained": true,
+    "elapsed_ms": 184.60998099908466,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4008073057162957,
+        0.0031407374921263633,
+        0.5970335659286521
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5578322200828901,
+        0.8299012882952275,
+        0.009330912244523978,
+        -0.0023666629234203873
+      ],
+      [
+        0.18389796855590104,
+        -0.11263128231582138,
+        -0.9764710601983584,
+        0.2734806250790567
+      ],
+      [
+        -0.8093236382303477,
+        0.5464229551636861,
+        -0.21544651928443492,
+        0.7871392689080327
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0022639868998459147,
+    "overlap_fraction": 0.47333333333333333,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00022940890005840073,
+      0.007117854239465504,
+      0.008660450141076692,
+      0.12127255999946784,
+      0.3773935514209832,
+      0.7400300683030784
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.402717655091763,
+        0.00378722942443755,
+        0.5973440528615516
+      ],
+      "normal": [
+        0.014489361260739374,
+        -0.0003981174178946315,
+        0.9998949444380532
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 2.8103663873374143,
+    "axial_mm": -0.12436374783263751,
+    "tangent_mm": 2.8076133795985823,
+    "xyz_mm": [
+      2.749113356745436,
+      0.5678885016942078,
+      -0.13430425340732466
+    ],
+    "normal_deg": 0.6134194217366074,
+    "band_margin_mm": 2.144520225818158,
+    "band_contained": true,
+    "elapsed_ms": 471.8069669979741,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402717655091763,
+        0.00378722942443755,
+        0.5973440528615516
+      ],
+      "normal": [
+        0.014489361260739374,
+        -0.0003981174178946315,
+        0.9998949444380532
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.741184179477161,
+    "axial_mm": -0.6798290834426058,
+    "tangent_mm": 2.655545729811758,
+    "xyz_mm": [
+      -2.5534328288627783,
+      -0.4984479923769397,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.24541081374380888,
+    "band_margin_mm": 1.9090164865443853,
+    "band_contained": true,
+    "elapsed_ms": 0.0016980047803372145,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009888059432146892
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743463713604325
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836089380235827
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0006170348216912807,
+    "overlap_fraction": 0.4706666666666667,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0003255548339243525,
+      0.0015342612358286223,
+      0.0021105396206689757,
+      0.10845277788636784,
+      0.5463011154013058,
+      0.6516091778919996
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404837785589841,
+        0.002359822430385327,
+        0.6354176449122112
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.1348314173505831,
+    "axial_mm": -0.8009733186238958,
+    "tangent_mm": 0.8039179613981497,
+    "xyz_mm": [
+      -0.5420063205390235,
+      -0.4984479923771075,
+      -0.8634935397540122
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7878722513630947,
+    "band_contained": true,
+    "elapsed_ms": 93.52056200441439,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404837785589841,
+        0.002359822430385327,
+        0.6354176449122112
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000991330133515475
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27425539712796543
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836645179796825
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0006132202893021879,
+    "overlap_fraction": 0.4702222222222222,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00032750376775678695,
+      0.001542566233271456,
+      0.0021224868319522153,
+      0.10858122085504555,
+      0.5466614543861954,
+      0.651375738432305
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404775333455227,
+        0.0023979762894383075,
+        0.6354952066808294
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.093128291674531,
+    "axial_mm": -0.7219747906259182,
+    "tangent_mm": 0.820781252076301,
+    "xyz_mm": [
+      -0.6044584551530008,
+      -0.4602941333241269,
+      -0.7859317711358393
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.8668707793610728,
+    "band_contained": true,
+    "elapsed_ms": 93.73114200570853,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404775333455227,
+        0.0023979762894383075,
+        0.6354952066808294
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5237063468763844,
+        0.8518310743743912,
+        0.010746300366355273,
+        -0.0038828563303913684
+      ],
+      [
+        0.19143719919702948,
+        -0.10538510264164114,
+        -0.9758308146932076,
+        0.2728780350161015
+      ],
+      [
+        -0.8301105113206254,
+        0.5131060327762506,
+        -0.21826300218687655,
+        0.7892162392631031
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0006235547085535144,
+    "overlap_fraction": 0.48044444444444445,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0003183017254383788,
+      0.0015549027175752051,
+      0.002017037198542328,
+      0.10969675320579393,
+      0.5424162331998839,
+      0.6509917348061935
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4075285614846944,
+        0.0031405719291420454,
+        0.6355608708165249
+      ],
+      "normal": [
+        -0.041376582083317986,
+        -0.04898753432954093,
+        0.9979419822491759
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.283788582742903,
+    "axial_mm": -0.8626258003151318,
+    "tangent_mm": 2.1146080060610566,
+    "xyz_mm": [
+      2.148769574314535,
+      0.282301506379611,
+      -0.7202676354403081
+    ],
+    "normal_deg": 1.1234717402860224,
+    "band_margin_mm": 0.9491145977865211,
+    "band_contained": true,
+    "elapsed_ms": 477.3214679953526,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4075285614846944,
+        0.0031405719291420454,
+        0.6355608708165249
+      ],
+      "normal": [
+        -0.041376582083317986,
+        -0.04898753432954093,
+        0.9979419822491759
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 3.15668686517831,
+    "axial_mm": -2.6041466388685084,
+    "tangent_mm": 1.784122262643207,
+    "xyz_mm": [
+      -1.6979634577798386,
+      0.5693468849897959,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764792,
+    "band_margin_mm": 0.09320041261865722,
+    "band_contained": true,
+    "elapsed_ms": 0.0015229961718432605,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00131243872575304
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744645599208912
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7830479606697579
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0024274576933120025,
+    "overlap_fraction": 0.4657777777777778,
+    "iterations": 11,
+    "information_eigenvalues": [
+      0.00018156218671955683,
+      0.002579819600055553,
+      0.006533656715552941,
+      0.12450876819165428,
+      0.2843658596379286,
+      0.7949855392626364
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4022445746449086,
+        -0.0011125786999925868,
+        0.5635662852167012
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 2.833015985667188,
+    "axial_mm": -2.52595568807244,
+    "tangent_mm": 1.2827811336858357,
+    "xyz_mm": [
+      0.9717960250039681,
+      0.5693468849896839,
+      -2.5995069119709724
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.17139136341472552,
+    "band_contained": true,
+    "elapsed_ms": 137.50235000043176,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4022445746449086,
+        -0.0011125786999925868,
+        0.5635662852167012
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023133207570501177
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2757560948460967
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7823486756852746
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002224265183339255,
+    "overlap_fraction": 0.4726666666666667,
+    "iterations": 18,
+    "information_eigenvalues": [
+      0.0002017348531765874,
+      0.002864538812931131,
+      0.006974004083150101,
+      0.1294646587385606,
+      0.2951044891079613,
+      0.7830932819135675
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403564341334784,
+        -0.0007082581547894684,
+        0.5624466568970586
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 4.4756289850557796,
+    "axial_mm": -3.5768544134169207,
+    "tangent_mm": 2.690235550484628,
+    "xyz_mm": [
+      2.2915627148791806,
+      0.9736674301928023,
+      -3.7191352316134907
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": -0.8795073619297549,
+    "band_contained": false,
+    "elapsed_ms": 215.53384800063213,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403564341334784,
+        -0.0007082581547894684,
+        0.5624466568970586
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9399930309788247,
+        0.34029923648744964,
+        0.024688688853433265,
+        -0.00832538968063033
+      ],
+      [
+        0.1411818402105168,
+        -0.3220638479306178,
+        -0.9361317032612958,
+        0.25853043986791363
+      ],
+      [
+        -0.3106135697390158,
+        0.8834428716686681,
+        -0.3507818450145365,
+        0.8352630529778602
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024460701130238523,
+    "overlap_fraction": 0.6622222222222223,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00011382194062003493,
+      0.0038183448839081615,
+      0.01416852735143337,
+      0.07325772705640196,
+      0.5628600915778943,
+      0.6718963912964624
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.431554415359244,
+        -0.012289425374102887,
+        0.5617052517220753
+      ],
+      "normal": [
+        0.12682792402855791,
+        0.008064851810273435,
+        0.9918919476696465
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 32.394335864598176,
+    "axial_mm": -4.272210897916,
+    "tangent_mm": 32.1113875463537,
+    "xyz_mm": [
+      30.28163673933948,
+      -10.607499789120617,
+      -4.460540406596825
+    ],
+    "normal_deg": 6.539922979386059,
+    "band_margin_mm": -7.231731152207802,
+    "band_contained": false,
+    "elapsed_ms": 541.0145169953466,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.431554415359244,
+        -0.012289425374102887,
+        0.5617052517220753
+      ],
+      "normal": [
+        0.12682792402855791,
+        0.008064851810273435,
+        0.9918919476696465
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.3230059639851395,
+    "axial_mm": -1.2737772528939777,
+    "tangent_mm": 1.9426394978792125,
+    "xyz_mm": [
+      -1.9915541601367437,
+      0.027866408423973116,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.11221352100353,
+    "band_contained": true,
+    "elapsed_ms": 0.0016459962353110313,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010171554622381562
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743567244180455
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835597976428116
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0013629832324602426,
+    "overlap_fraction": 0.5,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.00031373463117906683,
+      0.01168377800466159,
+      0.024777148160109355,
+      0.11155941301213283,
+      0.4351598270652895,
+      0.7016185867321703
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4040840498874623,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.1983661051595926,
+    "axial_mm": -1.191680190049772,
+    "tangent_mm": 0.1264106270782321,
+    "xyz_mm": [
+      0.07754086692246531,
+      0.027866408423860792,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1943105838477357,
+    "band_contained": true,
+    "elapsed_ms": 79.0666310058441,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4040840498874623,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011165571649082648
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274420748747478
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835659508338423
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0013614710497526536,
+    "overlap_fraction": 0.5,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00031306656940097426,
+      0.011666547886156627,
+      0.024774787577881062,
+      0.11162053307350499,
+      0.43521959189198756,
+      0.7013213073587943
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404139166057455,
+        -0.002582526688540943,
+        0.6128117608370549
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.2712611194089913,
+    "axial_mm": -1.2539505606343955,
+    "tangent_mm": 0.20907612299276807,
+    "xyz_mm": [
+      0.13265703691534014,
+      0.11089912025627002,
+      -1.259447628686572
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1320402132631122,
+    "band_contained": true,
+    "elapsed_ms": 91.92620599787915,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404139166057455,
+        -0.002582526688540943,
+        0.6128117608370549
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5006307479424784,
+        0.8656560636839785,
+        0.0029040698534789325,
+        -0.00019626287075462942
+      ],
+      [
+        0.18404968491460455,
+        -0.10316133710333943,
+        -0.9774883385544226,
+        0.2737382635093386
+      ],
+      [
+        -0.8458691197208871,
+        0.48989521117705365,
+        -0.2109694631182441,
+        0.7857388759083896
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0013608033331470777,
+    "overlap_fraction": 0.5017777777777778,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00032331748062663647,
+      0.011765782088494197,
+      0.024649099410582402,
+      0.11287479757903869,
+      0.4384120457277689,
+      0.6975007473168693
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405048613164159,
+        -0.00252290635828709,
+        0.6130102365089947
+      ],
+      "normal": [
+        0.047487885695485635,
+        -0.015075918898023781,
+        0.9987580374552952
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.4969032774877042,
+    "axial_mm": -1.0199762431337245,
+    "tangent_mm": 1.095613018175781,
+    "xyz_mm": [
+      1.0421041436190492,
+      0.17051945051012274,
+      -1.0609719567468145
+    ],
+    "normal_deg": 0.6390144939738281,
+    "band_margin_mm": 1.2304990256263906,
+    "band_contained": true,
+    "elapsed_ms": 474.77539499959676,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405048613164159,
+        -0.00252290635828709,
+        0.6130102365089947
+      ],
+      "normal": [
+        0.047487885695485635,
+        -0.015075918898023781,
+        0.9987580374552952
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.52294025237908,
+    "axial_mm": -2.152349512788035,
+    "tangent_mm": 2.78899616289336,
+    "xyz_mm": [
+      -2.76382295637978,
+      0.17318548429581282,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397688,
+    "band_margin_mm": -0.3654292579895462,
+    "band_contained": false,
+    "elapsed_ms": 0.0018099963199347258,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0013056578159073712
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27446208357728064
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7830597145373109
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0024355315763878544,
+    "overlap_fraction": 0.4786666666666667,
+    "iterations": 10,
+    "information_eigenvalues": [
+      0.00022947923550568737,
+      0.0010032486305024868,
+      0.00353385305316033,
+      0.1258642422901161,
+      0.34417006418202345,
+      0.7754808536797548
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.406798322323057,
+        0.0024643206351193355,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.187241152580211,
+    "axial_mm": -2.172330666768993,
+    "tangent_mm": 0.2549575136280435,
+    "xyz_mm": [
+      -0.10785718297601221,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.38541041197050296,
+    "band_contained": false,
+    "elapsed_ms": 114.94850399321876,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.406798322323057,
+        0.0024643206351193355,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0017616445423639729
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2749510237884114
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7828592607628072
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002396298000806124,
+    "overlap_fraction": 0.47955555555555557,
+    "iterations": 14,
+    "information_eigenvalues": [
+      0.00023204811919584641,
+      0.0010504520514837056,
+      0.003753695979835591,
+      0.12668547406361472,
+      0.3453358108929622,
+      0.7723193991029114
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4072810710734647,
+        0.0027154277267499556,
+        0.5691390892030002
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.6754129742275228,
+    "axial_mm": -2.6072395350451867,
+    "tangent_mm": 0.6001138138406071,
+    "xyz_mm": [
+      0.37489156743175656,
+      0.42429257592637576,
+      -2.6148167632450425
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.8203192802466969,
+    "band_contained": false,
+    "elapsed_ms": 155.16824799851747,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4072810710734647,
+        0.0027154277267499556,
+        0.5691390892030002
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9474956776260315,
+        0.31874429450287395,
+        -0.02557372874361422,
+        0.010400229305804778
+      ],
+      [
+        0.08341810010274625,
+        -0.3235881596173316,
+        -0.9425137259110432,
+        0.25992338314347885
+      ],
+      [
+        -0.30869622844348976,
+        0.8908943695395841,
+        -0.33318742603440404,
+        0.8311008703150239
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002710634738394322,
+    "overlap_fraction": 0.6411111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00012239899449490148,
+      0.002533221021761892,
+      0.012726694052478692,
+      0.06094513675998741,
+      0.5762170358426513,
+      0.681948286548866
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.423207755461495,
+        -0.01247600309707688,
+        0.5690007745386607
+      ],
+      "normal": [
+        0.09180940957801001,
+        -0.06734923500667671,
+        0.9934964080745098
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 22.167306632106918,
+    "axial_mm": -3.2107545089200658,
+    "tangent_mm": 21.93354824932119,
+    "xyz_mm": [
+      16.30157595546189,
+      -14.76713824790046,
+      -2.7531314275844876
+    ],
+    "normal_deg": 7.697368666964552,
+    "band_margin_mm": -8.370954962976846,
+    "band_contained": false,
+    "elapsed_ms": 562.0052780068363,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.423207755461495,
+        -0.01247600309707688,
+        0.5690007745386607
+      ],
+      "normal": [
+        0.09180940957801001,
+        -0.06734923500667671,
+        0.9934964080745098
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.527535230560865,
+    "axial_mm": -0.9347328443601947,
+    "tangent_mm": 2.348341723727759,
+    "xyz_mm": [
+      -2.2732442956332477,
+      -0.14232148187376306,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086362,
+    "band_margin_mm": 2.069234472681691,
+    "band_contained": true,
+    "elapsed_ms": 0.0018369973986409605,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0012075259520189785
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27442624646696956
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7832298139719177
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0026457537673525867,
+    "overlap_fraction": 0.5077777777777778,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.000351470911118865,
+      0.004720312285241958,
+      0.010158802852467539,
+      0.10224342762952598,
+      0.3299673180927415,
+      0.793578528176707
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4003746743406205,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.119964739230623,
+    "axial_mm": -1.1066248053415908,
+    "tangent_mm": 0.17234429878183788,
+    "xyz_mm": [
+      0.18310189246051323,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.8973425117002949,
+    "band_contained": true,
+    "elapsed_ms": 89.80803399754222,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4003746743406205,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0017839714703586848
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27514851605672885
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7829335789019932
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0026042657862098617,
+    "overlap_fraction": 0.51,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00034561115020438827,
+      0.004616100072129788,
+      0.010221772475865103,
+      0.1036742229681408,
+      0.3321191525035127,
+      0.7896002930838466
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4010401458463653,
+        0.0035998067047314395,
+        0.5794100978875435
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.9424694024699947,
+    "axial_mm": -1.7956238864901328,
+    "tangent_mm": 0.740892865263399,
+    "xyz_mm": [
+      0.8485733982053212,
+      0.14396298609686786,
+      -1.7413745220441479
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.208343430551753,
+    "band_contained": true,
+    "elapsed_ms": 401.42450200073654,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4010401458463653,
+        0.0035998067047314395,
+        0.5794100978875435
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9732903095140732,
+        -0.2278895826549867,
+        0.027790493398565538,
+        -0.009949069489676297
+      ],
+      [
+        -0.017122712585133416,
+        -0.19277084566170405,
+        -0.9810943959561685,
+        0.2733987240303203
+      ],
+      [
+        0.2289383893533949,
+        0.954413819671639,
+        -0.19152408386431694,
+        0.7787982827337129
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.00292109461243262,
+    "overlap_fraction": 0.634,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0002242097975603116,
+      0.004053589747045285,
+      0.014825968043660117,
+      0.045030744104530576,
+      0.5867845321530969,
+      0.7716047253531314
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3972226818112623,
+        0.005460450014181266,
+        0.5817232360077569
+      ],
+      "normal": [
+        -0.028167436556779422,
+        -0.031216318066827734,
+        0.9991156774889334
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 3.6276261695763794,
+    "axial_mm": 0.7897298547694537,
+    "tangent_mm": 3.540621185989997,
+    "xyz_mm": [
+      -2.9688906368976475,
+      2.004606295546694,
+      0.5717635981692393
+    ],
+    "normal_deg": 3.2010887308130784,
+    "band_margin_mm": -0.5949224538989453,
+    "band_contained": false,
+    "elapsed_ms": 602.5063509950996,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3972226818112623,
+        0.005460450014181266,
+        0.5817232360077569
+      ],
+      "normal": [
+        -0.028167436556779422,
+        -0.031216318066827734,
+        0.9991156774889334
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.8606503857867414,
+    "axial_mm": -2.0741304425769647,
+    "tangent_mm": 1.9701024178649489,
+    "xyz_mm": [
+      -1.9715555507278104,
+      -0.15626327421595226,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.45769596336114843,
+    "band_margin_mm": 0.6839422517957224,
+    "band_contained": true,
+    "elapsed_ms": 0.0017470010789111257,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001162156846134882
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27440967796834065
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833084556990156
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0022894751035714756,
+    "overlap_fraction": 0.4713333333333333,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.00018111868346556634,
+      0.014777296818967636,
+      0.015148516436814167,
+      0.1260824247995208,
+      0.28135659377697575,
+      0.8094951375199286
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4033278858981184,
+        -0.004078442963872285,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.1095843930358296,
+    "axial_mm": -2.0501418326694294,
+    "tangent_mm": 0.4972572546270028,
+    "xyz_mm": [
+      0.3925009187812911,
+      -0.15626327421595312,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7079308617032576,
+    "band_contained": true,
+    "elapsed_ms": 127.89828899985878,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4033278858981184,
+        -0.004078442963872285,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0014752733166330037
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27493764250464664
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7829574481737567
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0022164503986129686,
+    "overlap_fraction": 0.47355555555555556,
+    "iterations": 10,
+    "information_eigenvalues": [
+      0.000188583782948409,
+      0.01489442846649666,
+      0.015331891500907848,
+      0.12775238101248818,
+      0.28426479011944733,
+      0.8058996959910918
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4038756959119087,
+        -0.004028127242886935,
+        0.5835193552858496
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.6834842090978808,
+    "axial_mm": -2.4909977508398637,
+    "tangent_mm": 0.9980068666038425,
+    "xyz_mm": [
+      0.9403109325716308,
+      -0.10594755323060315,
+      -2.511110902873148
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.2670749435328234,
+    "band_contained": true,
+    "elapsed_ms": 141.88823499716818,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4038756959119087,
+        -0.004028127242886935,
+        0.5835193552858496
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.4765016969010598,
+        0.8791149806225148,
+        0.010148088267533304,
+        -0.00253682182585373
+      ],
+      [
+        0.1994162039073419,
+        -0.09683212042258464,
+        -0.9751188225409514,
+        0.27279296417434884
+      ],
+      [
+        -0.8562589038775574,
+        0.46666946686015476,
+        -0.22145044192970792,
+        0.7890078887735259
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0020592566442988952,
+    "overlap_fraction": 0.47755555555555557,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00019545666997656142,
+      0.014991289634611228,
+      0.015739878560211643,
+      0.13461188455943743,
+      0.2881271496384585,
+      0.7954475136237145
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4071720089210715,
+        -0.0037465429215722107,
+        0.5842568888071453
+      ],
+      "normal": [
+        0.029515204915460887,
+        -0.04952755216140089,
+        0.9983365536008877
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 4.596238399650675,
+    "axial_mm": -1.7377172587822778,
+    "tangent_mm": 4.255084741218863,
+    "xyz_mm": [
+      4.236623941734408,
+      0.1756367680841209,
+      -1.7735773815774625
+    ],
+    "normal_deg": 1.2177195862919816,
+    "band_margin_mm": 0.32668691525576254,
+    "band_contained": true,
+    "elapsed_ms": 445.2439489978133,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4071720089210715,
+        -0.0037465429215722107,
+        0.5842568888071453
+      ],
+      "normal": [
+        0.029515204915460887,
+        -0.04952755216140089,
+        0.9983365536008877
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010030073027278575
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743515576033843
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835843217253886
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0007685768929827246,
+    "overlap_fraction": 0.30266666666666664,
+    "iterations": 7,
+    "scalar_information": 511.88755116214554,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4050598302698734,
+        -0.0003567242740207566,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 72.35475199559005,
+    "center_mm": 1.5592665471708742,
+    "axial_mm": -1.5568246989094638,
+    "tangent_mm": 0.08722970819415511,
+    "xyz_mm": [
+      -0.09618944518363648,
+      -0.0511389291386304,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.39218223433467614,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4050598302698734,
+        -0.0003567242740207566,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009330758629159259
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743260191021937
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837055392168527
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005426286654628099,
+    "overlap_fraction": 0.162,
+    "iterations": 6,
+    "scalar_information": 250.21650015286974,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4049175759147414,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 130.45049799984554,
+    "center_mm": 1.5744571133156917,
+    "axial_mm": -1.5576442457195578,
+    "tangent_mm": 0.22947680808118748,
+    "xyz_mm": [
+      -0.23844380031556867,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.391362687524582,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4049175759147414,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009866422799636944
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274345581204865
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836126884659069
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006373110009265815,
+    "overlap_fraction": 0.2,
+    "iterations": 6,
+    "scalar_information": 412.6462569943832,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4005240301473063,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 74.054734002857,
+    "center_mm": 1.8604306489191795,
+    "axial_mm": -1.8470879972715857,
+    "tangent_mm": 0.22241432007198217,
+    "xyz_mm": [
+      -0.0681907533559567,
+      -0.2428967128988782,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8772990080006337,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005240301473063,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009253802582729436
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743232087180679
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837188785945722
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.000579987005168872,
+    "overlap_fraction": 0.08666666666666667,
+    "iterations": 7,
+    "scalar_information": 166.51895932871332,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4003994111002345,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 195.59306400333298,
+    "center_mm": 1.8691516363675778,
+    "axial_mm": -1.8428583815442479,
+    "tangent_mm": 0.31241130790627464,
+    "xyz_mm": [
+      -0.1928098004277956,
+      -0.2428967128988782,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8815286237279715,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4003994111002345,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001168318077641751
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744119280095038
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7832977759671295
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014848519276702212,
+    "overlap_fraction": 0.254,
+    "iterations": 9,
+    "scalar_information": 406.67052423053997,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.397822726872107,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 99.56157900160179,
+    "center_mm": 1.5163840462835632,
+    "axial_mm": -0.907012659290141,
+    "tangent_mm": 1.2152154589663255,
+    "xyz_mm": [
+      1.0329064736032123,
+      -0.021671355224125305,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.6256243364067375,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397822726872107,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0008463562925703486
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2742943496863132
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783855856853761
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0009477867639229962,
+    "overlap_fraction": 0.11711111111111111,
+    "iterations": 7,
+    "scalar_information": 202.3044936177934,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3971677930364,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 152.4757450024481,
+    "center_mm": 1.1727694179206447,
+    "axial_mm": -1.0225096833295282,
+    "tangent_mm": 0.5743361864859948,
+    "xyz_mm": [
+      0.37797263789629554,
+      -0.021671355224180816,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5101273123673499,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3971677930364,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011761107836213574
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274414773854398
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7832842682762668
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017053015650259724,
+    "overlap_fraction": 0.2591111111111111,
+    "iterations": 7,
+    "scalar_information": 435.86351357010005,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.394904927649034,
+        -0.004277602057709683,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 88.919692003401,
+    "center_mm": 0.4079387555252909,
+    "axial_mm": -0.05337333071035416,
+    "tangent_mm": 0.4044320905027274,
+    "xyz_mm": [
+      -0.23527988066573968,
+      -0.31680983525366607,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.3986750842822788,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.394904927649034,
+        -0.004277602057709683,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009702204907345734
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27433958407560655
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836411536040631
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.001405864873463833,
+    "overlap_fraction": 0.14022222222222222,
+    "iterations": 9,
+    "scalar_information": 211.06724093706515,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3944861061444094,
+        -0.004277602057709794,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 234.9792829991202,
+    "center_mm": 0.7341021919679993,
+    "axial_mm": 0.00010475141846542511,
+    "tangent_mm": 0.7341021844943397,
+    "xyz_mm": [
+      -0.6541013852903177,
+      -0.3168098352537771,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.4519436635741676,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3944861061444094,
+        -0.004277602057709794,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010938568750767314
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743847352687926
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834268452414159
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013084993632152483,
+    "overlap_fraction": 0.24244444444444443,
+    "iterations": 6,
+    "scalar_information": 435.42137731811795,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.400287198902277,
+        0.003022908502565388,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 84.99850199586945,
+    "center_mm": 0.43351403319874793,
+    "axial_mm": -0.2163872401363749,
+    "tangent_mm": 0.37564741352285114,
+    "xyz_mm": [
+      0.3186571672593175,
+      -0.19643242017795393,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.4733627234388122,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400287198902277,
+        0.003022908502565388,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009587611293104625
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27433539919229566
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836610169881054
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0009750184053164379,
+    "overlap_fraction": 0.12911111111111112,
+    "iterations": 6,
+    "scalar_information": 207.4051186664894,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4000123874834536,
+        0.003022908502565388,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 152.6438299988513,
+    "center_mm": 0.2971775166300818,
+    "axial_mm": -0.21761949098314065,
+    "tangent_mm": 0.2023764648734168,
+    "xyz_mm": [
+      0.04384574843596667,
+      -0.19643242017795393,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.472130472592046,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4000123874834536,
+        0.003022908502565388,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010038178117144406
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743518535959275
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835829168084236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005453453793942953,
+    "overlap_fraction": 0.33355555555555555,
+    "iterations": 6,
+    "scalar_information": 612.6939936249021,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4048683226941607,
+        0.002359822430385327,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 60.76043500070227,
+    "center_mm": 1.1205678263459542,
+    "axial_mm": -0.8028125079417261,
+    "tangent_mm": 0.7817699984867752,
+    "xyz_mm": [
+      -0.5114692162191403,
+      -0.4984479923771075,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.786033062045265,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048683226941607,
+        0.002359822430385327,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009485254607221527
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743316611935482
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783678759252144
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005028620692709146,
+    "overlap_fraction": 0.17266666666666666,
+    "iterations": 7,
+    "scalar_information": 279.42565662126833,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4047558471358808,
+        0.0023598224303854934,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 156.84155099734198,
+    "center_mm": 1.176171150779709,
+    "axial_mm": -0.7960383278123377,
+    "tangent_mm": 0.8658530802510334,
+    "xyz_mm": [
+      -0.6239447744991189,
+      -0.498447992376941,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7928072421746533,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4047558471358808,
+        0.0023598224303854934,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001365633772225864
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744839864014748
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7829557536437178
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0020191733835242813,
+    "overlap_fraction": 0.2882222222222222,
+    "iterations": 10,
+    "scalar_information": 436.08575746262136,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4023527838717254,
+        -0.0011125786999926423,
+        0.563566285216701
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 106.51114899519598,
+    "center_mm": 2.871933739624433,
+    "axial_mm": -2.5227864953477983,
+    "tangent_mm": 1.372425482014945,
+    "xyz_mm": [
+      1.080005251820726,
+      0.5693468849896284,
+      -2.5995069119710834
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.17456055613936725,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4023527838717254,
+        -0.0011125786999926423,
+        0.563566285216701
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009325734818692177
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27432583563594454
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837064100321885
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016588528362214297,
+    "overlap_fraction": 0.14066666666666666,
+    "iterations": 7,
+    "scalar_information": 211.83057212288924,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4014718537421045,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 148.4406720046536,
+    "center_mm": 2.668561965762163,
+    "axial_mm": -2.548586858588094,
+    "tangent_mm": 0.7911561093390423,
+    "xyz_mm": [
+      0.19907512219985435,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.14876019289907144,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4014718537421045,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010781663568272734
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743790051948792
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834540428118805
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006783588743796353,
+    "overlap_fraction": 0.28844444444444445,
+    "iterations": 6,
+    "scalar_information": 502.82738634755987,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4042081580924295,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 82.08098999602953,
+    "center_mm": 1.212737021842022,
+    "axial_mm": -1.1867558540625829,
+    "tangent_mm": 0.24968305307819083,
+    "xyz_mm": [
+      0.20164907188968684,
+      0.027866408423860792,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1992349198349246,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4042081580924295,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009822624069833047
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743439817041021
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836202804333687
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005749993491376016,
+    "overlap_fraction": 0.16355555555555557,
+    "iterations": 7,
+    "scalar_information": 234.59830416839355,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.404013070524143,
+        -0.0026655594003734077,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 180.0302580013522,
+    "center_mm": 1.1958728148435416,
+    "axial_mm": -1.1944964924306942,
+    "tangent_mm": 0.05735781422425466,
+    "xyz_mm": [
+      0.006561503603119689,
+      0.02786640842380528,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1914942814668137,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404013070524143,
+        -0.0026655594003734077,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001261459434054965
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744459426193567
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7831363269592677
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018659628159150225,
+    "overlap_fraction": 0.2897777777777778,
+    "iterations": 9,
+    "scalar_information": 442.92096302227014,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.406708414088288,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 103.84719399735332,
+    "center_mm": 2.1935135851133047,
+    "axial_mm": -2.1716542761689874,
+    "tangent_mm": 0.3089005549907212,
+    "xyz_mm": [
+      -0.1977654177447441,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3847340213704972,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.406708414088288,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009222274571835421
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27432205733587717
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837243435848565
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014545776357054035,
+    "overlap_fraction": 0.1431111111111111,
+    "iterations": 6,
+    "scalar_information": 210.87256796741192,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.406018349272808,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 126.32448200020008,
+    "center_mm": 2.3580994912533018,
+    "axial_mm": -2.166462834519768,
+    "tangent_mm": 0.9311670082716929,
+    "xyz_mm": [
+      -0.8878302332249177,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.37954257972127803,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.406018349272808,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010670200158545673
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743749346245753
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834733636137309
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0019053503165206709,
+    "overlap_fraction": 0.30844444444444447,
+    "iterations": 8,
+    "scalar_information": 452.292405411206,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.400088857526394,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 74.34261399612296,
+    "center_mm": 1.1096598889977116,
+    "axial_mm": -1.0866237106598915,
+    "tangent_mm": 0.22493105762020052,
+    "xyz_mm": [
+      -0.10271492176583408,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9173436063819944,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400088857526394,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000839323955178657
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27429178152301875
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7838680465398313
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013905105028667085,
+    "overlap_fraction": 0.148,
+    "iterations": 35,
+    "scalar_information": 235.3598062906249,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3996256787849766,
+        0.0033135222367606408,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 683.7376660041627,
+    "center_mm": 1.2413824358867713,
+    "axial_mm": -1.0542110554189208,
+    "tangent_mm": 0.6554917259284814,
+    "xyz_mm": [
+      -0.5658936631833811,
+      -0.1423214818739309,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9497562616229653,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3996256787849766,
+        0.0033135222367606408,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011337527613786693
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743993049836814
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833576906627276
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017781340837180364,
+    "overlap_fraction": 0.2511111111111111,
+    "iterations": 7,
+    "scalar_information": 388.47124400410394,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4032701063819095,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 118.26183899393072,
+    "center_mm": 2.0996018092571274,
+    "axial_mm": -2.050728134347321,
+    "tangent_mm": 0.4503797025090725,
+    "xyz_mm": [
+      0.3347214025724021,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7073445600253663,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4032701063819095,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0008912620454466271
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743107489714757
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837780182917266
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013941094362177095,
+    "overlap_fraction": 0.13733333333333334,
+    "iterations": 9,
+    "scalar_information": 186.85975099885496,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4027768323907943,
+        -0.004078442963872396,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 257.37128400214715,
+    "center_mm": 2.078804527470019,
+    "axial_mm": -2.0557334958956917,
+    "tangent_mm": 0.30884957063646645,
+    "xyz_mm": [
+      -0.15855258854280407,
+      -0.15626327421606415,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7023391984769954,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "双目坛身模板",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4027768323907943,
+        -0.004078442963872396,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "mujoco": "3.8.1",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0"
+  }
+}

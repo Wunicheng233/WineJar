@@ -1,0 +1,5 @@
+{
+  "preprocessing": {
+    "condition": "下游深度假设偏差3mm"
+  }
+}

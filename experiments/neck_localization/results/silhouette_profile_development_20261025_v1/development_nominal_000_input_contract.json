@@ -1,0 +1,16 @@
+{
+  "rgb_sha256": {
+    "cam_a": "25a3055180a5f2f4b80f0939733430b5912a262050486d5dbf490793668b88ed",
+    "cam_b": "ae0b848e1c694d1dc51049787d94e09c88d8f294c104709bd3898b00146d3a04",
+    "cam_c": "a2c7b86c75879bc4ced6a8f1066a95891758c552b937c397ce52739136b06439"
+  },
+  "primary_input_files": [
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/camera_true_parameters.json",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_a_rgb.png",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_b_rgb.png",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_c_rgb.png"
+  ],
+  "depth_files_read": false,
+  "gt_masks_read": false,
+  "target_truth_loaded_after_primary": true
+}

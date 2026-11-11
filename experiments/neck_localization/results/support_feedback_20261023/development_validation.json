@@ -1,0 +1,10 @@
+{
+  "fixed_balanced_geometry_matches_frozen_42_cases": true,
+  "max_error_differences_center_normal_diameter": [
+    1.1080025785759062e-13,
+    0.0,
+    5.551115123125783e-14
+  ],
+  "huber_max_objective_increment_mm2": -4.987890904972758e-05,
+  "old_sources_unchanged": true
+}

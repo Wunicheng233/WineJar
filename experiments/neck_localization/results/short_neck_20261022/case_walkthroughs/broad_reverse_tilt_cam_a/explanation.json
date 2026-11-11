@@ -1,0 +1,18 @@
+{
+  "case": "broad_reverse_tilt",
+  "camera_set": "cam_a",
+  "evidence": "rgb",
+  "method": "rim_guided_profile",
+  "accepted": true,
+  "truth_pass": false,
+  "center_mm": 6.0514230886275255,
+  "normal_deg": 2.437891686437174,
+  "diameter_mm": 7.481585140808503,
+  "reasons": [],
+  "observation_point_counts": {
+    "cam_a": 40778
+  },
+  "gt_used_only_in_plot": true,
+  "estimator_sha256": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+  "visualization_source_sha256": "f416691f3fde3a2a3caa0571680698310bc471baed7ef3f306dc61f73939a9dd"
+}

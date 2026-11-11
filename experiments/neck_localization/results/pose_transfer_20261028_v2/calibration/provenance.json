@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/pose_transfer_20261028_v1.json": "8ac9ea19d2df5741ad74acf60d62fb0a80a30814c904189f2b37e2a8853c01f2",
+    "/home/wunicheng/Git/WineJar/scripts/run_fixed_camera_calibration_study.py": "488545cbcfc9b645015f14b22c83d16aefe72c4f29e8ca772127992ba6451e1d",
+    "/home/wunicheng/Git/WineJar/neck_localization/fixed_camera_calibration.py": "b46d08ba259a77466f9649b07baa273ce518aecadb7fd6bd7c2a135d4c24da8c"
+  },
+  "opencv_version": "4.13.0",
+  "identified_corner_diagnostic": true,
+  "no_devices_or_calibration_change": true,
+  "robot_pose_candidates_not_IK_checked": true,
+  "all_error_amplitudes_assumed": true,
+  "training_and_holdout_robot_poses_separate": true
+}

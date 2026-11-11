@@ -1,0 +1,12 @@
+{
+  "no_hardware": true,
+  "independent_audit_jars": 12,
+  "layouts_are_paired": true,
+  "previously_viewed": true,
+  "supervised_demonstrations": 4,
+  "predicted_radius": false,
+  "threshold_center_mm": 4,
+  "threshold_axis_deg": 2,
+  "success_is_partial_pose_only": true,
+  "no_new_method_trained": true
+}

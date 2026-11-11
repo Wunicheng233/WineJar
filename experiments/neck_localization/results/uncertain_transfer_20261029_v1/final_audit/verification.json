@@ -1,0 +1,52 @@
+{
+  "protected_before.json": 40,
+  "confirmation_lock.json": 5,
+  "replay_tables": [
+    {
+      "path": "confirmation_baselines/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "confirmation_poe/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "confirmation_poe_block/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "confirmation_evaluation_baselines/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "confirmation_evaluation_poe/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "confirmation_evaluation_poe_block/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "partial_rendered_board/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "partial_rendered_board/summary.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "partial_rendered_evaluation/records.json",
+      "matches_at_1e_9": true
+    },
+    {
+      "path": "bounded_transport/records.json",
+      "matches_at_1e_9": true
+    }
+  ],
+  "replay_identical_RGB_frames": 30,
+  "passed": true,
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/audit_calibration_transfer.py": "884d82d1ec3caafd7965a173d44b9422c6ae37741a61cd21e6a09b6bb28e069c"
+  },
+  "truth_used_only_for_scoring": true
+}

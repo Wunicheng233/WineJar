@@ -1,0 +1,1628 @@
+[
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": -0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.5237645832563053,
+        0.5082826940402099,
+        0.6836076098651751,
+        -0.2804762942723418
+      ],
+      [
+        0.8420208421575871,
+        0.18727071347914206,
+        0.5058958205453397,
+        -0.3466158676514566
+      ],
+      [
+        0.1291184057312454,
+        0.8405821689830452,
+        -0.5260703892913785,
+        0.9189260376632905
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024961489426947557,
+    "overlap_fraction": 0.30189834660134723,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.2044532735149736e-05,
+      0.00025373106110381156,
+      0.000718441297390943,
+      0.009477987025140543,
+      0.32797964271774993,
+      0.8994183608769941
+    ],
+    "rotation_scale_m": 0.14060482547833258,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.5494736043846364,
+        0.04899664954916236,
+        0.35461508660207597
+      ],
+      "normal": [
+        0.8932713740956894,
+        0.24315022204909456,
+        -0.3780796499927958
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 280.2960421424841,
+    "axial_mm": -232.5817764866901,
+    "tangent_mm": 156.43397484893285,
+    "xyz_mm": [
+      149.03821940529926,
+      52.91882923881869,
+      -231.41537958664682
+    ],
+    "normal_deg": 112.49007976827149,
+    "band_margin_mm": -276.82170401298555,
+    "band_contained": false,
+    "elapsed_ms": 326.5765179967275,
+    "source_points": 1633,
+    "target_points": 3895,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 278.60657970765885,
+    "transport_only_normal_deg": 112.29169136262969
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": -2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.05280541979069576,
+        0.6173386816657982,
+        0.7849232699823993,
+        -0.32792994667239583
+      ],
+      [
+        0.9935090030643776,
+        -0.11178339813977799,
+        0.02107920136888606,
+        -0.14409608615571162
+      ],
+      [
+        0.10075439678125479,
+        0.7787152393651083,
+        -0.6192343074392663,
+        0.958497831346522
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024850583843380033,
+    "overlap_fraction": 0.3306797305572566,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.516006846422668e-05,
+      0.0001549394749437702,
+      0.0019923402657195436,
+      0.014125626440035656,
+      0.4120534303183202,
+      1.1787908546197747
+    ],
+    "rotation_scale_m": 0.14073973429155728,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.5535086808552485,
+        0.060294361780352634,
+        0.4351543959854886
+      ],
+      "normal": [
+        0.9366565181220085,
+        0.33632469354197875,
+        0.09777662079173047
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 225.34475045201862,
+    "axial_mm": -152.78573498576188,
+    "tangent_mm": 165.6405015119886,
+    "xyz_mm": [
+      154.57329587591096,
+      64.21654147000896,
+      -150.87607020323418
+    ],
+    "normal_deg": 84.97963545377385,
+    "band_margin_mm": -200.36168150099715,
+    "band_contained": false,
+    "elapsed_ms": 337.2601549999672,
+    "source_points": 1633,
+    "target_points": 3898,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 223.99141267409016,
+    "transport_only_normal_deg": 84.73838247405052
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.034887181963153595,
+        0.7499197821451496,
+        0.6606082083065891,
+        -0.2742260357007906
+      ],
+      [
+        0.994698998877069,
+        -0.0900344327600053,
+        0.04967597558721791,
+        -0.15545095926070163
+      ],
+      [
+        0.09673048210170145,
+        0.6553732686530296,
+        -0.7490855041765367,
+        1.008948114241494
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024932879655509737,
+    "overlap_fraction": 0.33190447030006126,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.841352528561859e-05,
+      0.00015987832924785016,
+      0.002325123499768713,
+      0.014143827233439245,
+      0.4073637598357136,
+      1.2051426920721124
+    ],
+    "rotation_scale_m": 0.14066875824112726,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.566090950833708,
+        0.030856817034467188,
+        0.4351392551432098
+      ],
+      "normal": [
+        0.9824014618059593,
+        0.16001120349470183,
+        0.09635238760763183
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 224.93882469057704,
+    "axial_mm": -150.998226304451,
+    "tangent_mm": 166.7243548678116,
+    "xyz_mm": [
+      163.15556585437108,
+      34.778996724123516,
+      -150.89121104551302
+    ],
+    "normal_deg": 84.44349813466107,
+    "band_margin_mm": -198.54302391951688,
+    "band_contained": false,
+    "elapsed_ms": 313.3906549992389,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 223.56122295866618,
+    "transport_only_normal_deg": 84.27706069922876
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": -2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9879630849275303,
+        0.041992241836323864,
+        -0.1488811420094481,
+        0.05730679507334985
+      ],
+      [
+        -0.13049927700976263,
+        0.7430328053695826,
+        -0.6564085532993439,
+        0.15710346114012624
+      ],
+      [
+        0.08305950590032989,
+        0.6679363006830575,
+        0.7395689397949501,
+        0.4371533119316236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0021570642586441306,
+    "overlap_fraction": 0.12917063870352716,
+    "iterations": 35,
+    "information_eigenvalues": [
+      1.0675370349977987e-05,
+      0.00018037969415448532,
+      0.0013692259453562316,
+      0.005642218744668195,
+      0.027778964715096364,
+      2.0215148644824943
+    ],
+    "rotation_scale_m": 0.12980807051745866,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.2413464615723355,
+        0.05848344122084842,
+        0.46312147796403863
+      ],
+      "normal": [
+        -0.8324128147428647,
+        0.3328127353538096,
+        0.44308530672792173
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 196.34413256463515,
+    "axial_mm": -103.30549256646259,
+    "tangent_mm": 166.97003802526837,
+    "xyz_mm": [
+      -155.92631704756954,
+      60.16536680583069,
+      -103.0443141646335
+    ],
+    "normal_deg": 63.908116649086516,
+    "band_margin_mm": -148.53203295624166,
+    "band_contained": false,
+    "elapsed_ms": 362.40566999913426,
+    "source_points": 2098,
+    "target_points": 3770,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 195.05933292156527,
+    "transport_only_normal_deg": 63.99889912046304
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": -0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9788399328432734,
+        0.16464966514749818,
+        0.12150256638521353,
+        -0.04117464200528216
+      ],
+      [
+        -0.02678495473186184,
+        0.6917603423519679,
+        -0.7216302342260198,
+        0.18290452123489512
+      ],
+      [
+        -0.20286683334490271,
+        0.7031060492670399,
+        0.6815327808790326,
+        0.4560864796245374
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002159918828037041,
+    "overlap_fraction": 0.1325071496663489,
+    "iterations": 35,
+    "information_eigenvalues": [
+      2.3749865467702657e-05,
+      7.110853013572334e-05,
+      0.0013219006104430771,
+      0.006377823006412464,
+      0.036949163696657863,
+      1.7714859453182557
+    ],
+    "rotation_scale_m": 0.1295306709805937,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.2774794432636916,
+        0.09982627852782744,
+        0.47665177800288555
+      ],
+      "normal": [
+        -0.6538912976839617,
+        0.5495800974177992,
+        0.5199883530767077
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 181.7381287153418,
+    "axial_mm": -86.02796239070474,
+    "tangent_mm": 160.08727968160878,
+    "xyz_mm": [
+      -121.29333535621312,
+      101.50820411280971,
+      -89.51401412578657
+    ],
+    "normal_deg": 57.57082687563511,
+    "band_margin_mm": -128.4295345944537,
+    "band_contained": false,
+    "elapsed_ms": 384.37540599989006,
+    "source_points": 2098,
+    "target_points": 3810,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 180.3558120211179,
+    "transport_only_normal_deg": 57.84439650141128
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9960488873580908,
+        0.06788214135384892,
+        0.05725931258690301,
+        -0.01688561707393524
+      ],
+      [
+        0.01671789140642342,
+        0.489909672316382,
+        -0.8716128871682536,
+        0.23945979815622676
+      ],
+      [
+        -0.08721884027910268,
+        0.8691263014407465,
+        0.48683913774911025,
+        0.5310096944748985
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002219111164186578,
+    "overlap_fraction": 0.1544327931363203,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.675839454823285e-05,
+      7.107011920067062e-05,
+      0.0013341278065660887,
+      0.008868290484671273,
+      0.036212386896295454,
+      1.7769520504627312
+    ],
+    "rotation_scale_m": 0.128961935160831,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.296539052343073,
+        0.0754981118450074,
+        0.5110415989217956
+      ],
+      "normal": [
+        -0.5616539031317153,
+        0.41814888289285895,
+        0.7139302520781453
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 140.18786358099447,
+    "axial_mm": -52.83071359819981,
+    "tangent_mm": 129.85204194046585,
+    "xyz_mm": [
+      -103.23372627683192,
+      77.18003742998968,
+      -55.12419320687656
+    ],
+    "normal_deg": 43.64932833003532,
+    "band_margin_mm": -87.06009699356407,
+    "band_contained": false,
+    "elapsed_ms": 393.08491699921433,
+    "source_points": 2098,
+    "target_points": 3796,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 139.09599116683023,
+    "transport_only_normal_deg": 43.87361131373155
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8244141879127052,
+        0.24904706203670468,
+        0.508248765526413,
+        -0.21956535423917334
+      ],
+      [
+        0.2999116272152094,
+        0.5693276680999724,
+        -0.7654534748741919,
+        0.17479324781229597
+      ],
+      [
+        -0.4799940235350457,
+        0.7834804191725124,
+        0.3946696975242767,
+        0.5265137755211602
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.00210220984417568,
+    "overlap_fraction": 0.05997876857749469,
+    "iterations": 35,
+    "information_eigenvalues": [
+      4.482688608765682e-06,
+      8.273294631914351e-05,
+      0.00046866117351266375,
+      0.007057252943961833,
+      0.017881369145182353,
+      1.3143696927103612
+    ],
+    "rotation_scale_m": 0.13335161386604058,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3580597010148234,
+        0.11915602970979133,
+        0.547379695408023
+      ],
+      "normal": [
+        -0.2209736504246243,
+        0.7084909881954111,
+        0.6702321728057421
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 133.06969092261932,
+    "axial_mm": -50.773361705482905,
+    "tangent_mm": 123.00247307825008,
+    "xyz_mm": [
+      -41.908840720194185,
+      115.936688787048,
+      -50.098661706935886
+    ],
+    "normal_deg": 48.221848886034884,
+    "band_margin_mm": -89.1060636763198,
+    "band_contained": false,
+    "elapsed_ms": 380.20096800028114,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 133.18827811323715,
+    "transport_only_normal_deg": 48.15417262177446
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": -0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.16709425077744142,
+        0.9664399610072772,
+        0.19512384048438974,
+        -0.0881699907654975
+      ],
+      [
+        0.7745569040085974,
+        0.25112415825189793,
+        -0.58051551193305,
+        0.09278589789922775
+      ],
+      [
+        -0.6100336989132163,
+        0.054133713252720636,
+        -0.7905241471832032,
+        1.02821682802039
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0019835830717786413,
+    "overlap_fraction": 0.17679012345679013,
+    "iterations": 35,
+    "information_eigenvalues": [
+      2.206615462745828e-05,
+      5.730722236111432e-05,
+      0.001050366695819165,
+      0.0064467320116493015,
+      0.04697001066491591,
+      1.5660757382919726
+    ],
+    "rotation_scale_m": 0.1356300153168513,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.5139041458787945,
+        -0.033104426864625114,
+        0.5759655141701399
+      ],
+      "normal": [
+        0.5581486533142627,
+        -0.13597224150679377,
+        0.8185240560564443
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 128.27581245579168,
+    "axial_mm": -43.44838192892177,
+    "tangent_mm": 120.69350508188909,
+    "xyz_mm": [
+      121.26393834909477,
+      -29.143634642169097,
+      -30.006497248165175
+    ],
+    "normal_deg": 41.65088314419193,
+    "band_margin_mm": -79.80251300500923,
+    "band_contained": false,
+    "elapsed_ms": 212.16418699623318,
+    "source_points": 2025,
+    "target_points": 3804,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 128.77406001468398,
+    "transport_only_normal_deg": 41.50395353637945
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": -2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.43431984261561535,
+        0.8989555023874122,
+        -0.056967350629485686,
+        0.0175370460253971
+      ],
+      [
+        0.7526308513258257,
+        0.32742356270932743,
+        -0.5712622972114413,
+        0.08815736858755018
+      ],
+      [
+        -0.494886932483481,
+        -0.29098593661915473,
+        -0.8187881952904326,
+        1.0434453823428802
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002016290601445601,
+    "overlap_fraction": 0.174320987654321,
+    "iterations": 35,
+    "information_eigenvalues": [
+      2.3460089212951153e-05,
+      4.347529844120679e-05,
+      0.0009524942931864875,
+      0.007454138119807504,
+      0.04450496559505983,
+      1.2734242278518106
+    ],
+    "rotation_scale_m": 0.1360773110379028,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4931499023851074,
+        -0.07276215088278304,
+        0.5754317522221879
+      ],
+      "normal": [
+        0.4736077358848217,
+        -0.3318515045189982,
+        0.8158249147081317
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 126.77662335685658,
+    "axial_mm": -39.14753376872837,
+    "tangent_mm": 120.58102184669254,
+    "xyz_mm": [
+      102.00969485540723,
+      -68.80135866032703,
+      -30.540259196117137
+    ],
+    "normal_deg": 39.91112850326358,
+    "band_margin_mm": -74.20527593272638,
+    "band_contained": false,
+    "elapsed_ms": 243.74850699678063,
+    "source_points": 2025,
+    "target_points": 3808,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 127.08648951362333,
+    "transport_only_normal_deg": 39.77077795455701
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.1937891889060059,
+        0.9670024409838444,
+        0.16538448958242866,
+        -0.07495468708859679
+      ],
+      [
+        0.7620095856410916,
+        0.25454504434082076,
+        -0.5954395114473193,
+        0.09968159051145058
+      ],
+      [
+        -0.6178892632618277,
+        0.010634826412205388,
+        -0.7861932070508741,
+        1.0261757242329304
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.001961849176726372,
+    "overlap_fraction": 0.1797530864197531,
+    "iterations": 35,
+    "information_eigenvalues": [
+      2.4478594159844638e-05,
+      4.848444206442208e-05,
+      0.0010691656125343604,
+      0.006706088501274756,
+      0.04727600189053486,
+      1.5340653198792915
+    ],
+    "rotation_scale_m": 0.1359877960823979,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.5105637425531957,
+        -0.0365072255566289,
+        0.5778174381437579
+      ],
+      "normal": [
+        0.5361646365297952,
+        -0.15358343640233363,
+        0.8300238614628637
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 124.59158623855069,
+    "axial_mm": -40.85732182973797,
+    "tangent_mm": 117.7019227300023,
+    "xyz_mm": [
+      116.92353502349562,
+      -32.54643333417288,
+      -28.15457327454718
+    ],
+    "normal_deg": 40.31907161734361,
+    "band_margin_mm": -76.22224730485905,
+    "band_contained": false,
+    "elapsed_ms": 200.35182900028303,
+    "source_points": 2025,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 125.07563933615009,
+    "transport_only_normal_deg": 40.17210221883464
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.4730746404216678,
+        0.8777449208282899,
+        -0.07592258260919019,
+        0.027259112174292464
+      ],
+      [
+        0.7288640234874527,
+        0.34150480059688343,
+        -0.5934068641623254,
+        0.09742719175400576
+      ],
+      [
+        -0.49493193456837214,
+        -0.33606297792143436,
+        -0.8013139553352276,
+        1.0329450301311132
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0020168897844966014,
+    "overlap_fraction": 0.1797530864197531,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.310349955674599e-05,
+      4.259214710520518e-05,
+      0.0009601380411670581,
+      0.007505766665971934,
+      0.047238394385914345,
+      1.2512752204984614
+    ],
+    "rotation_scale_m": 0.1358875551856532,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4915089606013874,
+        -0.07342213351224161,
+        0.5793166522701492
+      ],
+      "normal": [
+        0.4467743795656165,
+        -0.33122289864351984,
+        0.8310740311054984
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 121.74696166100065,
+    "axial_mm": -34.541709620040095,
+    "tangent_mm": 116.74413462872555,
+    "xyz_mm": [
+      96.36875307168768,
+      -69.4613412897856,
+      -26.655359148155867
+    ],
+    "normal_deg": 38.23064327491303,
+    "band_margin_mm": -68.3138132441152,
+    "band_contained": false,
+    "elapsed_ms": 211.53905400569784,
+    "source_points": 2025,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 122.04216280288642,
+    "transport_only_normal_deg": 38.09097821918022
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 0.5,
+    "method": "rigid",
+    "accepted": false,
+    "reason": "insufficient_overlap",
+    "transform": [
+      [
+        0.6876533171211864,
+        0.4252778848317405,
+        0.5884484991273832,
+        -0.2370003375024251
+      ],
+      [
+        0.6892316826520998,
+        -0.12758672883539893,
+        -0.713218980575838,
+        0.15567957530026189
+      ],
+      [
+        -0.22823804038937937,
+        0.8960247470344352,
+        -0.38085042946160963,
+        0.8610072501994431
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.484417481311855,
+        0.07356400772841129,
+        0.5531981328345181
+      ],
+      "normal": [
+        0.5219801096679588,
+        0.36481708549861386,
+        0.771002762147661
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 118.18671526787061,
+    "axial_mm": -36.44847746308265,
+    "tangent_mm": 112.42601192087122,
+    "xyz_mm": [
+      82.98209633251741,
+      77.48618741806762,
+      -32.83233335420466
+    ],
+    "normal_deg": 41.08907044593892,
+    "band_margin_mm": -67.2902921829683,
+    "band_contained": false,
+    "elapsed_ms": 102.40648600301938,
+    "source_points": 1633,
+    "target_points": 3897,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 117.71224848519637,
+    "transport_only_normal_deg": 40.7378789026108
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9382541994116171,
+        0.009793719136518657,
+        0.3458079529911659,
+        -0.14293976725501586
+      ],
+      [
+        0.2905464200455687,
+        -0.5648951119200522,
+        -0.7723187750712379,
+        0.1823260915875247
+      ],
+      [
+        0.1877813491408801,
+        0.8251045967598943,
+        -0.532860741020132,
+        0.9153703131863444
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0022796085431262838,
+    "overlap_fraction": 0.2167689161554192,
+    "iterations": 35,
+    "information_eigenvalues": [
+      5.748954242852629e-05,
+      0.00010405618194469551,
+      0.0015805727051409364,
+      0.03266717448039285,
+      0.2224233229213899,
+      1.3537821248381694
+    ],
+    "rotation_scale_m": 0.14066875824112726,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.489521737994194,
+        0.01820744643823667,
+        0.5664762151804792
+      ],
+      "normal": [
+        0.5292735922360902,
+        0.10990935781941526,
+        0.8413022035066999
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 91.4837997323414,
+    "axial_mm": -19.931049847038928,
+    "tangent_mm": 89.28627478768503,
+    "xyz_mm": [
+      86.58635301485695,
+      22.129626127893,
+      -19.554251008243597
+    ],
+    "normal_deg": 32.98696803943834,
+    "band_margin_mm": -44.99954879131727,
+    "band_contained": false,
+    "elapsed_ms": 393.45707000029506,
+    "source_points": 1956,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 91.07547187384446,
+    "transport_only_normal_deg": 32.76910839319637
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.07323980732316367,
+        0.9201965272379858,
+        0.3845442521770632,
+        -0.15831280095909117
+      ],
+      [
+        0.5286186785882908,
+        0.36277897597402486,
+        -0.7674331939907253,
+        0.17798306538273098
+      ],
+      [
+        -0.8456939300189136,
+        0.147070615183281,
+        -0.5130029345713105,
+        0.912185417806948
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0023020150133263653,
+    "overlap_fraction": 0.22443762781186094,
+    "iterations": 35,
+    "information_eigenvalues": [
+      5.612100025020207e-05,
+      0.00034151899570879966,
+      0.001328056207193565,
+      0.03537339107817982,
+      0.1614354595713905,
+      1.6065895907801153
+    ],
+    "rotation_scale_m": 0.14084246314097265,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4811994474892454,
+        0.025844822979067456,
+        0.5693130912165971
+      ],
+      "normal": [
+        0.47713675367146674,
+        0.1173221173122308,
+        0.8709627082058274
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 86.7631877118571,
+    "axial_mm": -17.613453549589597,
+    "tangent_mm": 84.95655946411321,
+    "xyz_mm": [
+      79.76406250990786,
+      29.767002668723784,
+      -16.717374972125665
+    ],
+    "normal_deg": 29.837275168096095,
+    "band_margin_mm": -40.27053483324679,
+    "band_contained": false,
+    "elapsed_ms": 268.65626300423173,
+    "source_points": 1956,
+    "target_points": 3897,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 86.41648279420055,
+    "transport_only_normal_deg": 29.600452312599852
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9074063274448239,
+        0.39540753775150805,
+        0.1423609356613917,
+        -0.06151483199681868
+      ],
+      [
+        0.3550012533715659,
+        -0.5398974711747309,
+        -0.763206938335697,
+        0.17216504403550112
+      ],
+      [
+        -0.22491746712453084,
+        0.7430771155865453,
+        -0.6302765530097604,
+        0.9655830825787216
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0025386075888446003,
+    "overlap_fraction": 0.30267639902676396,
+    "iterations": 35,
+    "information_eigenvalues": [
+      7.102986657425852e-05,
+      9.907292597401824e-05,
+      0.0005964790628545214,
+      0.03205907445296059,
+      0.22854682872267434,
+      1.403889874266094
+    ],
+    "rotation_scale_m": 0.13335161386604058,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4756328632034035,
+        -0.016343448429691897,
+        0.5878348813629495
+      ],
+      "normal": [
+        0.4730786690284407,
+        -0.1040123066443864,
+        0.8748588531739238
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 78.74508806966048,
+    "axial_mm": -9.221717910504792,
+    "tangent_mm": 78.20325321799382,
+    "xyz_mm": [
+      75.66432146838586,
+      -19.56278935243524,
+      -9.643475752009412
+    ],
+    "normal_deg": 28.669561531725424,
+    "band_margin_mm": -32.99811014633609,
+    "band_contained": false,
+    "elapsed_ms": 412.87967399694026,
+    "source_points": 2055,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 78.58006587558948,
+    "transport_only_normal_deg": 28.850050281088887
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": -2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9460013070796448,
+        0.26902600591004683,
+        0.18084948202218112,
+        -0.08036386796823954
+      ],
+      [
+        0.3042511555381005,
+        -0.5443553868840868,
+        -0.7817342560768372,
+        0.17926068414684798
+      ],
+      [
+        -0.11186045484144219,
+        0.7945452919213375,
+        -0.5968123806761232,
+        0.9548067714979553
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002548599207326594,
+    "overlap_fraction": 0.33041362530413626,
+    "iterations": 35,
+    "information_eigenvalues": [
+      5.885539125746352e-05,
+      0.00010100148144074813,
+      0.0005718064745259392,
+      0.0343877876839199,
+      0.257535082185673,
+      1.3457241639912902
+    ],
+    "rotation_scale_m": 0.1333028315208335,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4689510230654386,
+        -0.008343507306415678,
+        0.5897508121795559
+      ],
+      "normal": [
+        0.4604673394640146,
+        -0.052062241169093894,
+        0.8861486062345204
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 74.29574005987435,
+    "axial_mm": -7.35150319816649,
+    "tangent_mm": 73.93113276402414,
+    "xyz_mm": [
+      72.98248133042051,
+      -11.56284822915902,
+      -7.727544935402952
+    ],
+    "normal_deg": 27.325177314748817,
+    "band_margin_mm": -29.98590908115532,
+    "band_contained": false,
+    "elapsed_ms": 384.7874229977606,
+    "source_points": 2055,
+    "target_points": 3536,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 74.15104359993606,
+    "transport_only_normal_deg": 27.50720701858126
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": -0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.16212926774814268,
+        0.94108845715847,
+        0.29676020006487125,
+        -0.1233076538285516
+      ],
+      [
+        0.4826215163910147,
+        0.33793956762807986,
+        -0.808005767645123,
+        0.19465797158536446
+      ],
+      [
+        -0.8606919149474387,
+        0.012221474315229134,
+        -0.5089794328945659,
+        0.9108195664587623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002431688862864915,
+    "overlap_fraction": 0.3098159509202454,
+    "iterations": 35,
+    "information_eigenvalues": [
+      7.561314967137915e-05,
+      0.00022398095894785494,
+      0.001530046274238491,
+      0.044941682273998924,
+      0.2211734244165176,
+      1.4826401008115506
+    ],
+    "rotation_scale_m": 0.14060482547833258,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.470579056042339,
+        0.012974831384391698,
+        0.5758113838234663
+      ],
+      "normal": [
+        0.41678883752299417,
+        0.04830625106348314,
+        0.9077188832587008
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 72.87024919553252,
+    "axial_mm": -10.474133879244366,
+    "tangent_mm": 72.11356139658248,
+    "xyz_mm": [
+      70.1436710630019,
+      16.897011074048027,
+      -10.219082365256483
+    ],
+    "normal_deg": 24.831948670382133,
+    "band_margin_mm": -29.132264015696872,
+    "band_contained": false,
+    "elapsed_ms": 257.53166900540236,
+    "source_points": 1956,
+    "target_points": 3895,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 72.61830384224798,
+    "transport_only_normal_deg": 24.63658509474861
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8903968837543612,
+        -0.4543063036994389,
+        -0.028269627154843574,
+        0.006322140174025219
+      ],
+      [
+        0.03893835191513465,
+        0.13789922589705222,
+        -0.989680558689079,
+        0.27270368549233626
+      ],
+      [
+        0.4535164761622814,
+        0.8801077126783665,
+        0.1404749797415869,
+        0.659598030782167
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0022303315922592025,
+    "overlap_fraction": 0.18589132507149667,
+    "iterations": 35,
+    "information_eigenvalues": [
+      4.220558630552719e-05,
+      0.00035503594817009313,
+      0.0008764126509552682,
+      0.017111921028230222,
+      0.032549749332122506,
+      1.9506988749577812
+    ],
+    "rotation_scale_m": 0.12958290317027016,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.335617944097653,
+        0.025455256047381275,
+        0.5570297141961871
+      ],
+      "normal": [
+        -0.3626028463498633,
+        0.17062663623407218,
+        0.9161908790347255
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 71.62717251909763,
+    "axial_mm": -9.216880038393805,
+    "tangent_mm": 71.03168986754034,
+    "xyz_mm": [
+      -65.65483452225163,
+      27.137181632363546,
+      -9.136077932485055
+    ],
+    "normal_deg": 23.858351885936386,
+    "band_margin_mm": -28.027677632439776,
+    "band_contained": false,
+    "elapsed_ms": 297.5477209984092,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 71.40648040959104,
+    "transport_only_normal_deg": 23.91145338438374
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": -0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8483778864078526,
+        -0.5288785233447618,
+        0.023290972474543266,
+        -0.016714699689293407
+      ],
+      [
+        0.08008025339386055,
+        0.08471916965654218,
+        -0.993181662793409,
+        0.2686399469560762
+      ],
+      [
+        0.5232992593827362,
+        0.8444585068772599,
+        0.11422659625546487,
+        0.6658678313588751
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002737243187592307,
+    "overlap_fraction": 0.15439093484419264,
+    "iterations": 35,
+    "information_eigenvalues": [
+      5.6321321025614916e-05,
+      0.0003779082302296364,
+      0.0010610824913369924,
+      0.020334476065452738,
+      0.0328172191940322,
+      1.9839877221446292
+    ],
+    "rotation_scale_m": 0.12500437415972268,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.339701796238762,
+        0.03261794422711117,
+        0.5685803946827981
+      ],
+      "normal": [
+        -0.28512476759484245,
+        0.17979870132583697,
+        0.941475593897967
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 71.52932081750589,
+    "axial_mm": -1.9962533401074027,
+    "tangent_mm": 71.50145949010965,
+    "xyz_mm": [
+      -64.70438326727113,
+      30.326809076287596,
+      -3.173511283447117
+    ],
+    "normal_deg": 18.65911613893415,
+    "band_margin_mm": -17.794383437060564,
+    "band_contained": false,
+    "elapsed_ms": 311.59119400399504,
+    "source_points": 2118,
+    "target_points": 3660,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 70.70097523712155,
+    "transport_only_normal_deg": 19.335472302075697
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 0.5,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9573931338932372,
+        -0.04752219250920849,
+        0.2848508879979194,
+        -0.12343122446563168
+      ],
+      [
+        0.21760364585629102,
+        -0.5297650487501171,
+        -0.819754625746532,
+        0.19706754721631944
+      ],
+      [
+        0.18986058170177264,
+        0.8468120419206995,
+        -0.49685241790088974,
+        0.9082889602847442
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0025969693366170413,
+    "overlap_fraction": 0.3635036496350365,
+    "iterations": 35,
+    "information_eigenvalues": [
+      6.55225318189117e-05,
+      0.00011068589389188567,
+      0.0005014892606010743,
+      0.03671167334784182,
+      0.2900710840098869,
+      1.2519958137477554
+    ],
+    "rotation_scale_m": 0.1332456265602675,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.46612114523926,
+        0.014003907914575175,
+        0.5917091721495313
+      ],
+      "normal": [
+        0.4200222847262314,
+        0.09165478401106963,
+        0.9028735686137017
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 68.74929193285408,
+    "axial_mm": -5.511091573434447,
+    "tangent_mm": 68.52804543351586,
+    "xyz_mm": [
+      67.65260350424197,
+      10.784566991831834,
+      -5.769184965427554
+    ],
+    "normal_deg": 25.263542079656574,
+    "band_margin_mm": -26.365584992176053,
+    "band_contained": false,
+    "elapsed_ms": 380.28779700107407,
+    "source_points": 2055,
+    "target_points": 3567,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "transport_only_center_mm": 68.67036029252272,
+    "transport_only_normal_deg": 25.437424161525843
+  }
+]

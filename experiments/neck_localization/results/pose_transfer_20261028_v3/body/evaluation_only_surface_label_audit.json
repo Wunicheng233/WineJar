@@ -1,0 +1,332 @@
+[
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_000",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 48749,
+      "jar_interior": 3289
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_000",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 48748,
+      "jar_interior": 2658
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_000",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 48750,
+      "jar_interior": 1882
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_001",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 25463,
+      "jar_interior": 5207
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_001",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 25463,
+      "jar_interior": 6065
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_001",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 25464,
+      "jar_interior": 4708
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_003",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 27588,
+      "jar_interior": 3857
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_003",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 27588,
+      "jar_interior": 4500
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_003",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 27584,
+      "jar_interior": 5793
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 32602,
+      "jar_interior": 5331
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 32605,
+      "jar_interior": 3748
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "new8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 32609,
+      "jar_interior": 4189
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_000",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 64174,
+      "jar_interior": 883
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_000",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 64174,
+      "jar_interior": 1243
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_000",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 64178,
+      "jar_interior": 606
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_006",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 74769,
+      "jar_interior": 624
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_006",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 74769,
+      "jar_interior": 1438
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_nominal_006",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 74770,
+      "jar_interior": 1727
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_000",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 16636,
+      "jar_interior": 4586
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_000",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 16678,
+      "jar_interior": 5141
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_000",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 16569,
+      "jar_interior": 2043
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 38685,
+      "jar_interior": 3940
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 38686,
+      "jar_interior": 2364
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old12",
+    "case": "structural_test_stress_002",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 38687,
+      "jar_interior": 6989
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 32125,
+      "jar_interior": 4230
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 32125,
+      "jar_interior": 4730
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_002",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 32130,
+      "jar_interior": 4782
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 72070,
+      "jar_interior": 340
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 72070,
+      "jar_interior": 63
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_004",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 72073,
+      "jar_interior": 485
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "camera": "cam_a",
+    "counts": {
+      "jar_surface": 21240,
+      "jar_interior": 4854
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "camera": "cam_b",
+    "counts": {
+      "jar_surface": 21240,
+      "jar_interior": 5761
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  },
+  {
+    "cohort": "old8",
+    "case": "confirmation_nominal_005",
+    "camera": "cam_c",
+    "counts": {
+      "jar_surface": 21237,
+      "jar_interior": 4879
+    },
+    "diagnostic_geom_labels_not_estimator_input": true
+  }
+]

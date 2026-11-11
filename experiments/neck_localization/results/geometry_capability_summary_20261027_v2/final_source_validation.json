@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "records": 488,
+  "directories": {
+    "geometry_fs_audit_20261027_v1": {
+      "validation_passed": true,
+      "records": 96,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_simsense_audit_20261027_v1": {
+      "validation_passed": true,
+      "records": 112,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_ideal_control_20261027_v1": {
+      "validation_passed": true,
+      "records": 56,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_fs_confirmation_20261027_v1": {
+      "validation_passed": true,
+      "records": 32,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_simsense_confirmation_20261027_v1": {
+      "validation_passed": true,
+      "records": 32,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_fs_sam2_audit_20261027_v1": {
+      "validation_passed": true,
+      "records": 48,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_simsense_sam2_audit_20261027_v1": {
+      "validation_passed": true,
+      "records": 48,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_fs_sam2_confirmation_20261027_v1": {
+      "validation_passed": true,
+      "records": 32,
+      "errors": 0,
+      "current_source_changes": []
+    },
+    "geometry_simsense_sam2_confirmation_20261027_v1": {
+      "validation_passed": true,
+      "records": 32,
+      "errors": 0,
+      "current_source_changes": []
+    }
+  }
+}

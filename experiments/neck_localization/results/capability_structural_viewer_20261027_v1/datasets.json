@@ -1,0 +1,86 @@
+[
+  {
+    "condition": "close/foundation_stereo/clean",
+    "label": "近·FS净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo/shared_noise",
+    "label": "近·FS噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo_confirm/clean",
+    "label": "近·FS新8坛净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo_confirm/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo_confirm/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo_confirm/shared_noise",
+    "label": "近·FS新8坛噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo_confirm/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/foundation_stereo_confirm/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense/clean",
+    "label": "近·传统双目净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense/shared_noise",
+    "label": "近·传统双目噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_confirm/clean",
+    "label": "近·双目新8净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense_confirm/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense_confirm/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_confirm/shared_noise",
+    "label": "近·双目新8噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense_confirm/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/close/simsense_confirm/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "far/foundation_stereo/clean",
+    "label": "远·FS净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/foundation_stereo/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/foundation_stereo/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "far/foundation_stereo/shared_noise",
+    "label": "远·FS噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/foundation_stereo/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/foundation_stereo/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "far/simsense/clean",
+    "label": "远·传统双目净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/simsense/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/simsense/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "far/simsense/shared_noise",
+    "label": "远·传统双目噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/simsense/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_20261027_v1/far/simsense/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  }
+]

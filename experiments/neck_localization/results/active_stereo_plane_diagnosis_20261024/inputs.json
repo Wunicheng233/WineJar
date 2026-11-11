@@ -1,0 +1,34 @@
+{
+  "input_folder": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_planes_20261024_v2",
+  "roi": [
+    160,
+    320,
+    300,
+    550
+  ],
+  "file_sha256": {
+    "plane_0.60_tilt_0.npz": "005d7f0a7b3f33c174ee608e18a83e66cd6244c2738cf6e6eca2a0e02688e50b",
+    "plane_0.60_tilt_0_ir_0.png": "3804fc57a9723c853e11ca39df89194a8e6b94b9ec0e3dba5484975dbc7df5e4",
+    "plane_0.60_tilt_0_ir_1.png": "0a5ccfc09569656c03c90c7e99775c7fe7de9dd014697c1f337ab578a2aad8c2",
+    "plane_0.60_tilt_20.npz": "f1448af907be506dd2fb878ae6daeae57e976b9f48a400b1b3117a7ef6b00e88",
+    "plane_0.60_tilt_20_ir_0.png": "4dc377824310a6456a1ebd261efc4332caf31e3aef52972414170835f51aa336",
+    "plane_0.60_tilt_20_ir_1.png": "84113f74d47cf8e994c691a4e2445030e8fc35e2711b16e34b710f8eb4d1803f",
+    "plane_0.80_tilt_0.npz": "168f9aaef778de8cfc1fa45be5f8f0e65fc62f6fb8b98069cd85d919682e2fb2",
+    "plane_0.80_tilt_0_ir_0.png": "0201b19aa44224048adf5f58ca9caadbf9e6b289a47d55b137b8a708ea6b1bc1",
+    "plane_0.80_tilt_0_ir_1.png": "db593f4a51888bbdae8d56fdabe96f9d6f05958e083d1562cd7f757e60fd08aa",
+    "plane_0.80_tilt_20.npz": "ec398cdc6138f89bc3e5ef7e5748a5e78c314ec7f3694d3e661f193db3a8e064",
+    "plane_0.80_tilt_20_ir_0.png": "4042667652e56336b3bbec7c958f66266106fea063dc3217b7032891f8231696",
+    "plane_0.80_tilt_20_ir_1.png": "dd0ff1f96f865f87e0d92e30e4c48ea0f50153423b603e324cb33fc92594c082",
+    "plane_1.00_tilt_0.npz": "890809db8e7953583f3edd32938a55e8fd22f13052f35c8958e7fa1cbf31e911",
+    "plane_1.00_tilt_0_ir_0.png": "3ac43bc4e230883f469a26dfcd8bb0263562773bde3126a67f5735e570b65f18",
+    "plane_1.00_tilt_0_ir_1.png": "ce53bc30c7db2397868c6168a3854a9764e2fb4584fc5dc02c903afb1da04450",
+    "plane_1.00_tilt_20.npz": "2c7e5a81fb303b4ab85095f1c377bcd5376ab95a2914cae6d107dbf86d5dd4a7",
+    "plane_1.00_tilt_20_ir_0.png": "46a3dd9d1ff5b787018ebc09f89bdcccb3a291f15acb560b16cd7cbaccb1552c",
+    "plane_1.00_tilt_20_ir_1.png": "2924254699adaa57f0e356dd5c47e92f7620bd57dc9b502b3a64e15f189e9b78",
+    "records.json": "0e05933721c6367f7d7a4f0af03697d1599a288baf73dc5b8884fd606531784b",
+    "sensor.json": "e951ccea8f550ec972b5d008dddbe425bb9a3cb448802e8164f7fc748188046b",
+    "validation.json": "cbabd0886c5980cb5cd2afeb3fb950b17284c6cc6d29a59f165397e982555631"
+  },
+  "script_sha256": "b267d3b9da063845ea0cf9841da2901069088436395b96ba51d75428297adf85",
+  "scope": "Known-plane oracle diagnostic only; no estimator receives truth; no real D435i accuracy claim"
+}

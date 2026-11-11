@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "protected_input_source_hashes": 502,
+  "calibration_records": 768,
+  "body_records": 3696,
+  "ideal_eye_to_hand_and_gauge_controls": true,
+  "one_axis_calibration_degeneracy_detected": true,
+  "nominal_controls_identical": true,
+  "minimum_observed_body_to_true_neck_axial_gap_mm": 18.136370102167575,
+  "gl_routes": 46,
+  "gl_method_paths": 272,
+  "old_viewer_sources_unchanged": true,
+  "no_hardware_training_real_calibration_or_physical_fastening": true,
+  "verification_script_sha256": "e80a22e4371ee565ea73557f5434786785e6e6847a77f50cf59b576e6ed88009"
+}

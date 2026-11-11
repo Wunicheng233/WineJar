@@ -1,0 +1,2082 @@
+[
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.1102230246251565e-16,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 2.220446049250313e-16,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 7.806255641895632e-18,
+      "normal": 2.498001805406602e-16,
+      "radius_m": 5.551115123125783e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 6.245004513516506e-17,
+      "radius_m": 4.163336342344337e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 6.938893903907228e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.168404344971009e-18,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 6.5052130349130266e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.8971048610392245e-12,
+      "normal": 3.500065515193995e-11,
+      "radius_m": 1.9055104716336757e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.168404344971009e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-19,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.903127820947816e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.3010426069826053e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.119968255444917e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 5.204170427930421e-18,
+      "normal": 7.632783294297951e-17,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.0357660829594124e-18,
+      "normal": 6.591949208711867e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.4120809556372738e-12,
+      "normal": 1.4564599526423194e-11,
+      "radius_m": 2.1505505709562556e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.4333302733881013e-11,
+      "normal": 2.1068811972835277e-10,
+      "radius_m": 1.8883845875894423e-11
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.3010426069826053e-18,
+      "normal": 3.469446951953614e-18,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.774989439624509e-13,
+      "normal": 6.028372245836522e-12,
+      "radius_m": 1.8436641102681506e-14
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 3.469446951953614e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 6.5052130349130266e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 6.505213034913027e-19,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-19,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.3010426069826053e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 2.5153490401663703e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.6020852139652106e-18,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 5.08804109955463e-12,
+      "normal": 8.961213715519278e-11,
+      "radius_m": 5.430517147075875e-13
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.876022766635678e-18,
+      "normal": 1.1102230246251565e-16,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.9082292130055976e-12,
+      "normal": 1.4271875348192964e-11,
+      "radius_m": 8.578901478095702e-13
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 5.963111948670274e-19,
+      "normal": 3.469446951953614e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 6.288372600415926e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-19,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.168404344971009e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.2150280781497713e-11,
+      "normal": 1.8446619232115324e-11,
+      "radius_m": 1.3548884236769254e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-18,
+      "normal": 5.551115123125783e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.7455592526971486e-11,
+      "normal": 6.483627523756752e-11,
+      "radius_m": 3.743810816914106e-13
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 4.85722573273506e-17,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 5.551115123125783e-17,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 0.0,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 3.469446951953614e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 5.551115123125783e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.588729148238599e-12,
+      "normal": 1.3690380426534254e-11,
+      "radius_m": 1.684249961719786e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.0842021724855044e-18,
+      "normal": 4.163336342344337e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 1.1102230246251565e-16,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.656295322589486e-18,
+      "normal": 3.469446951953614e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.8189256484623115e-18,
+      "normal": 1.0408340855860843e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 1.0408340855860843e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.83248988100604e-12,
+      "normal": 6.00850571554068e-11,
+      "radius_m": 1.8685053504441385e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 1.1275702593849246e-17,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.951563910473908e-18,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 1.734723475976807e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 5.941913627793838e-12,
+      "normal": 7.871665819170204e-11,
+      "radius_m": 2.8038751875847368e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.3010426069826053e-18,
+      "normal": 0.0,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 6.2950755719271e-12,
+      "normal": 1.0674408579269823e-10,
+      "radius_m": 6.99199725895383e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 5.551115123125783e-17,
+      "radius_m": 6.245004513516506e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-19,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 4.85722573273506e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 7.29294402646019e-12,
+      "normal": 1.4273829340716304e-10,
+      "radius_m": 5.4414805994440485e-14
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.0357660829594124e-18,
+      "normal": 2.0816681711721685e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.3852447794681098e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 2.2551405187698492e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-18,
+      "normal": 3.469446951953614e-18,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.8189256484623115e-18,
+      "normal": 4.85722573273506e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 5.551115123125783e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.9873299934333204e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 9.215718466126788e-19,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.469446951953614e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.857492020780228e-12,
+      "normal": 5.847030997395419e-11,
+      "radius_m": 1.260450077644748e-13
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-19,
+      "normal": 1.0408340855860843e-17,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.1373124664260104e-12,
+      "normal": 2.7980298633600853e-11,
+      "radius_m": 1.1275771982788285e-12
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 8.673617379884035e-19,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 4.336808689942018e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.5178830414797062e-18,
+      "normal": 2.7755575615628914e-17,
+      "radius_m": 6.938893903907228e-18
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.2526065174565133e-18,
+      "normal": 3.469446951953614e-18,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 2.0816681711721685e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 3.686287386450715e-18,
+      "normal": 1.3877787807814457e-17,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 2.6020852139652106e-18,
+      "normal": 8.673617379884035e-19,
+      "radius_m": 1.3877787807814457e-17
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 0.0,
+      "normal": 0.0,
+      "radius_m": 0.0
+    },
+    "numerical_tolerance": 1e-09
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "matched": true,
+    "absolute_differences": {
+      "center_m": 1.734723475976807e-18,
+      "normal": 6.938893903907228e-18,
+      "radius_m": 2.7755575615628914e-17
+    },
+    "numerical_tolerance": 1e-09
+  }
+]

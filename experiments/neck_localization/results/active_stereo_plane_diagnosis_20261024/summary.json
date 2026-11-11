@@ -1,0 +1,290 @@
+[
+  {
+    "case": "plane_0.60_tilt_0",
+    "true_disparity_px": {
+      "mean": 35.96419143676758,
+      "median": 35.96418762207031,
+      "rms": 35.964237213134766,
+      "p95_abs": 36.05673599243164,
+      "maximum_abs": 36.084442138671875
+    },
+    "observed_disparity_px": {
+      "mean": 35.99485778808594,
+      "median": 35.99513626098633,
+      "rms": 35.9948616027832,
+      "p95_abs": 36.015724182128906,
+      "maximum_abs": 36.056880950927734
+    },
+    "native_disparity_error_px": {
+      "mean": 0.03067028895020485,
+      "median": 0.0301971435546875,
+      "rms": 0.05926050618290901,
+      "p95_abs": 0.11108437180519104,
+      "maximum_abs": 0.14434051513671875
+    },
+    "native_optical_z_error_mm": {
+      "mean": -0.5127167701721191,
+      "median": -0.503242015838623,
+      "rms": 0.9892749190330505,
+      "p95_abs": 1.856518030166626,
+      "maximum_abs": 2.4136900901794434
+    },
+    "native_plane_error_mm": {
+      "mean": -0.5112765629153166,
+      "median": -0.5031904811646504,
+      "rms": 0.9877469558054451,
+      "p95_abs": 1.8519108843098762,
+      "maximum_abs": 2.4056241708129145
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": 0.01860825022160425,
+      "median": 0.015869945287704468,
+      "rms": 0.046628854269746334,
+      "p95_abs": 0.0942123784276191,
+      "maximum_abs": 0.18454832211136818
+    },
+    "photometric_ssd_optimum_delta_px": 0.0,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9999171393244768
+  },
+  {
+    "case": "plane_0.60_tilt_20",
+    "true_disparity_px": {
+      "mean": 35.518985748291016,
+      "median": 35.51898956298828,
+      "rms": 35.58919906616211,
+      "p95_abs": 39.001808166503906,
+      "maximum_abs": 39.42509460449219
+    },
+    "observed_disparity_px": {
+      "mean": 35.51976776123047,
+      "median": 35.71438980102539,
+      "rms": 35.58942413330078,
+      "p95_abs": 39.00138473510742,
+      "maximum_abs": 39.55729293823242
+    },
+    "native_disparity_error_px": {
+      "mean": 0.0007846386288292706,
+      "median": -0.0001354217529296875,
+      "rms": 0.13941843807697296,
+      "p95_abs": 0.23579885065555573,
+      "maximum_abs": 0.3603706359863281
+    },
+    "native_optical_z_error_mm": {
+      "mean": -0.033248420804739,
+      "median": 0.0022649765014648438,
+      "rms": 2.4237124919891357,
+      "p95_abs": 4.167175769805908,
+      "maximum_abs": 6.469607353210449
+    },
+    "native_plane_error_mm": {
+      "mean": -0.01678877821003777,
+      "median": 0.002629254518792909,
+      "rms": 2.2425624829186424,
+      "p95_abs": 3.800639120830502,
+      "maximum_abs": 5.881324193083519
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": 0.0005929809685825603,
+      "median": -0.0009070597589015961,
+      "rms": 0.0933757991143747,
+      "p95_abs": 0.18220000602304898,
+      "maximum_abs": 0.4209260940551758
+    },
+    "photometric_ssd_optimum_delta_px": 0.0,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9995519541618823
+  },
+  {
+    "case": "plane_0.80_tilt_0",
+    "true_disparity_px": {
+      "mean": 26.97138214111328,
+      "median": 26.97138214111328,
+      "rms": 26.971418380737305,
+      "p95_abs": 27.040790557861328,
+      "maximum_abs": 27.06157112121582
+    },
+    "observed_disparity_px": {
+      "mean": 26.995712280273438,
+      "median": 26.995899200439453,
+      "rms": 26.995712280273438,
+      "p95_abs": 27.01371192932129,
+      "maximum_abs": 27.049083709716797
+    },
+    "native_disparity_error_px": {
+      "mean": 0.024329710751771927,
+      "median": 0.02302837371826172,
+      "rms": 0.046211179345846176,
+      "p95_abs": 0.08542481064796448,
+      "maximum_abs": 0.12461471557617188
+    },
+    "native_optical_z_error_mm": {
+      "mean": -0.7229583859443665,
+      "median": -0.6821751594543457,
+      "rms": 1.3714271783828735,
+      "p95_abs": 2.537036418914795,
+      "maximum_abs": 3.702819347381592
+    },
+    "native_plane_error_mm": {
+      "mean": -0.7209897910235828,
+      "median": -0.6821671414961039,
+      "rms": 1.3693249030034516,
+      "p95_abs": 2.5313045226374666,
+      "maximum_abs": 3.6904364413160584
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": 0.014163295378885232,
+      "median": 0.012846160680055618,
+      "rms": 0.040011874074352624,
+      "p95_abs": 0.0797905542422085,
+      "maximum_abs": 0.16868454217910767
+    },
+    "photometric_ssd_optimum_delta_px": 0.0,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9999173350584813
+  },
+  {
+    "case": "plane_0.80_tilt_20",
+    "true_disparity_px": {
+      "mean": 26.69734764099121,
+      "median": 26.69734764099121,
+      "rms": 26.7501220703125,
+      "p95_abs": 29.31514549255371,
+      "maximum_abs": 29.633291244506836
+    },
+    "observed_disparity_px": {
+      "mean": 26.684289932250977,
+      "median": 26.8561954498291,
+      "rms": 26.738374710083008,
+      "p95_abs": 29.166275024414062,
+      "maximum_abs": 29.89885139465332
+    },
+    "native_disparity_error_px": {
+      "mean": -0.013056693598628044,
+      "median": -0.017027854919433594,
+      "rms": 0.15273559093475342,
+      "p95_abs": 0.25470170378685,
+      "maximum_abs": 0.38189697265625
+    },
+    "native_optical_z_error_mm": {
+      "mean": 0.47722187638282776,
+      "median": 0.5186498165130615,
+      "rms": 4.6965227127075195,
+      "p95_abs": 7.949448108673096,
+      "maximum_abs": 12.614727020263672
+    },
+    "native_plane_error_mm": {
+      "mean": 0.4197649004670632,
+      "median": 0.48524293101593385,
+      "rms": 4.348971582472471,
+      "p95_abs": 7.282338462066586,
+      "maximum_abs": 10.842623087865878
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": -0.010521408693506965,
+      "median": -0.011225417256355286,
+      "rms": 0.096771421377824,
+      "p95_abs": 0.18758632764220226,
+      "maximum_abs": 0.41597966849803925
+    },
+    "photometric_ssd_optimum_delta_px": 0.0,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9994788887228845
+  },
+  {
+    "case": "plane_1.00_tilt_0",
+    "true_disparity_px": {
+      "mean": 21.576265335083008,
+      "median": 21.576263427734375,
+      "rms": 21.5762939453125,
+      "p95_abs": 21.63178825378418,
+      "maximum_abs": 21.64841079711914
+    },
+    "observed_disparity_px": {
+      "mean": 21.886959075927734,
+      "median": 21.920787811279297,
+      "rms": 21.887189865112305,
+      "p95_abs": 21.96258544921875,
+      "maximum_abs": 22.020000457763672
+    },
+    "native_disparity_error_px": {
+      "mean": 0.31069257855415344,
+      "median": 0.3324108123779297,
+      "rms": 0.3227604627609253,
+      "p95_abs": 0.3929215371608734,
+      "maximum_abs": 0.44957733154296875
+    },
+    "native_optical_z_error_mm": {
+      "mean": -14.175837516784668,
+      "median": -15.149563789367676,
+      "rms": 14.727442741394043,
+      "p95_abs": 17.93837547302246,
+      "maximum_abs": 20.503402709960938
+    },
+    "native_plane_error_mm": {
+      "mean": -14.176114207560412,
+      "median": -15.158222086345875,
+      "rms": 14.726821700100583,
+      "p95_abs": 17.909532222460932,
+      "maximum_abs": 20.454625112213964
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": 0.06656853920358699,
+      "median": 0.07251426577568054,
+      "rms": 0.2985365872138341,
+      "p95_abs": 0.23091562390327453,
+      "maximum_abs": 19.572539016604424
+    },
+    "photometric_ssd_optimum_delta_px": 0.0050000000000000044,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9990827920369135
+  },
+  {
+    "case": "plane_1.00_tilt_20",
+    "true_disparity_px": {
+      "mean": 21.385831832885742,
+      "median": 21.385833740234375,
+      "rms": 21.42810821533203,
+      "p95_abs": 23.48281478881836,
+      "maximum_abs": 23.73766326904297
+    },
+    "observed_disparity_px": {
+      "mean": 21.356931686401367,
+      "median": 21.159526824951172,
+      "rms": 21.400354385375977,
+      "p95_abs": 23.225923538208008,
+      "maximum_abs": 23.97058868408203
+    },
+    "native_disparity_error_px": {
+      "mean": -0.028902264311909676,
+      "median": -0.04457855224609375,
+      "rms": 0.16693007946014404,
+      "p95_abs": 0.2623615562915802,
+      "maximum_abs": 0.3748283386230469
+    },
+    "native_optical_z_error_mm": {
+      "mean": 1.5017658472061157,
+      "median": 2.1450817584991455,
+      "rms": 8.037567138671875,
+      "p95_abs": 12.930279731750488,
+      "maximum_abs": 21.688819885253906
+    },
+    "native_plane_error_mm": {
+      "mean": 1.3651844075698512,
+      "median": 2.0040433169207796,
+      "rms": 7.43046912696308,
+      "p95_abs": 11.76482061847938,
+      "maximum_abs": 18.516466978768293
+    },
+    "cpu_census_no_sgm_disparity_error_px": {
+      "mean": -0.014813257848538342,
+      "median": -0.018749255686998367,
+      "rms": 0.24242558093728067,
+      "p95_abs": 0.18712096363306013,
+      "maximum_abs": 19.759106151759624
+    },
+    "photometric_ssd_optimum_delta_px": 0.0,
+    "photometric_ncc_optimum_delta_px": 0.0,
+    "photometric_peak_ncc": 0.9994354642954777
+  }
+]

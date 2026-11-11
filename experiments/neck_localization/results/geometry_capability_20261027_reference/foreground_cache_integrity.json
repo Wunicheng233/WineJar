@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "same_source_model_protocol_and_official_SAM2_source": true,
+  "no_ground_truth_read": true,
+  "checked_images": 72,
+  "checks": [
+    {
+      "manifest": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_foreground_sam2_development_20261027_v1/manifest.json",
+      "manifest_sha256": "ba2dbaf71321180255daf60ec033f3e19fbd819fffe26e3a8ba6137c95e1806a",
+      "images": 12,
+      "all_images_validated": true
+    },
+    {
+      "manifest": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_foreground_sam2_audit_20261027_v1/manifest.json",
+      "manifest_sha256": "3363ee435f01cee8500965b43306dd0f4f75474f22ff8d62eb66cce7b2f97878",
+      "images": 36,
+      "all_images_validated": true
+    },
+    {
+      "manifest": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_foreground_sam2_confirmation_20261027_v1/manifest.json",
+      "manifest_sha256": "470e18cd7eef7fce5d58b0fe6d33524023c39a77e5081c68e7e1b5c6b93c8fbe",
+      "images": 24,
+      "all_images_validated": true
+    }
+  ]
+}

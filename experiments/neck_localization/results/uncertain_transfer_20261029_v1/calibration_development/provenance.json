@@ -1,0 +1,30 @@
+{
+  "input_and_source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/ideal/observations.npz": "313841be6eed972ab766afda62f492980d368b2685abe216d2dc96dbd5d4201d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/image_only/observations.npz": "114e8ea4558508ee8aeb1c2834d30e7527a2a3498a3ddbf5e9fa5413ce82fe8e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/kinematic_1/observations.npz": "d7e10a4384af2cf875c8a9f3734666d73b068cbd73fd30fae8389d4d1e52d99d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/kinematic_5/observations.npz": "842fc86315c6c87610e5344e742b1d63894bb76ada863e49ac3ccdc4421b4ce9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/kinematic_bad_image/observations.npz": "ec76c3c89591d6044b19b0f0f1c94d8bdee18fce62e9566645558e073fb43138",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/random_pose/observations.npz": "c80eb7e645db17dd92dd080ebf3fc6d5d065ae5fd7a714a086af8b724c0e753f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102903/wrong_K/observations.npz": "6a3989325a92928c3f6a44b03fc8773b28dce1b9deb8f0e8ca3d4df8063b71d0",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/ideal/observations.npz": "070a2e337bf3937911ba37df8c20b3562c2ba93907f1b41738b23d32ec548311",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/image_only/observations.npz": "dd97dd8e7b182c4860199c5046be7ad2e899bf77ad9ea7935dd84b5582739c8d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/kinematic_1/observations.npz": "91c6a1af3fbdb6133edfa33cfffc10313f058ec343034e59de615adebf6e63db",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/kinematic_5/observations.npz": "6efe40924c8f72b3dad9cf06613257670da39a566025cb628a1b843a50a6e4fa",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/kinematic_bad_image/observations.npz": "6b59846ebbf7bf8dcefb1973b375f28c113a188fc201c3626bdd81b18a2d21c0",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/random_pose/observations.npz": "fb01e05372279f8a5aaa1b00a12d1a05a3f796955a6bfd6594890c8d817518dd",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/measurements/development/2026102907/wrong_K/observations.npz": "6ad38426dd172467bca3b5c2afc373a3f7170a2e70ec690292e10f940d5ca3e9",
+    "/home/wunicheng/Git/WineJar/scripts/run_uncertain_handeye.py": "77e9dccb3f23d82a8938a21ccfecac556eb4146f46b3242250c575759617ccd1",
+    "/home/wunicheng/Git/WineJar/neck_localization/uncertain_handeye.py": "02efcb3a67c8f23fcc801984886153a32a9e1b6dcc4e9435f445549cb2ebc3fe",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/protocol.json": "74b2a5be756665d0a0ba8e11f1b53a9de1493855c25ed190f3fabd1860c9aadc"
+  },
+  "opencv_version": "4.13.0",
+  "truth_not_read": true,
+  "methods_frozen_for_this_run": [
+    "park",
+    "pixel_huber",
+    "uncertain_fixed",
+    "uncertain_vce"
+  ],
+  "fitted_robot_poses_not_used_for_holdout_pose_predictions": true
+}

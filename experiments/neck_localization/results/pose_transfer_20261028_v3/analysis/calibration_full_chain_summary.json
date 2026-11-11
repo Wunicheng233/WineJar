@@ -1,0 +1,1922 @@
+[
+  {
+    "layout": "diverse",
+    "condition": "ideal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 1.4859603857405773e-07,
+      "p95": 2.746739207101641e-07,
+      "max": 3.1468286995175416e-07
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.705788635201186e-07,
+      "p95": 2.89628227485055e-07,
+      "max": 3.228527072430822e-07
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.705788635201186e-07,
+      "p95": 2.89628227485055e-07,
+      "max": 3.228527072430822e-07
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 5.997848839339203e-07,
+      "p95": 1.096219793871338e-06,
+      "max": 1.1904155480761323e-06
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.1315547913526972e-06,
+      "p95": 1.8017103341747493e-06,
+      "max": 1.8399094992469762e-06
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "ideal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 1.486314171198621e-07,
+      "p95": 2.747168978992591e-07,
+      "max": 3.147211284377783e-07
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.7051415432797882e-07,
+      "p95": 2.8963335161271607e-07,
+      "max": 3.228211461383444e-07
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.7051415432797882e-07,
+      "p95": 2.8963335161271607e-07,
+      "max": 3.228211461383444e-07
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 5.996387385943442e-07,
+      "p95": 1.0954611648323724e-06,
+      "max": 1.190363666765546e-06
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.1316073695054638e-06,
+      "p95": 1.8007726800362543e-06,
+      "max": 1.8397992043545576e-06
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "ideal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 2.0845690065356786e-13,
+      "p95": 3.249394303693999e-13,
+      "max": 3.684292229658849e-13
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.649287431271057e-13,
+      "p95": 3.287366651139883e-13,
+      "max": 3.4088283119750627e-13
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.649287431271057e-13,
+      "p95": 3.287366651139883e-13,
+      "max": 3.4088283119750627e-13
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.687182478907819e-13,
+      "p95": 3.898851734061304e-13,
+      "max": 4.2298805164398465e-13
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.658684476731618e-13,
+      "p95": 8.32377427891061e-13,
+      "max": 1.0114613123884174e-12
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "ideal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 2.0845690065356786e-13,
+      "p95": 3.249394303693999e-13,
+      "max": 3.684292229658849e-13
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.649287431271057e-13,
+      "p95": 3.287366651139883e-13,
+      "max": 3.4088283119750627e-13
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.649287431271057e-13,
+      "p95": 3.287366651139883e-13,
+      "max": 3.4088283119750627e-13
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.687182478907819e-13,
+      "p95": 3.898851734061304e-13,
+      "max": 4.2298805164398465e-13
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.658684476731618e-13,
+      "p95": 8.32377427891061e-13,
+      "max": 1.0114613123884174e-12
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "nominal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.3495711811516915,
+      "p95": 0.48649082898384016,
+      "max": 0.5366142600232295
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.36324326943492835,
+      "p95": 0.6193442119794352,
+      "max": 0.7056771144024792
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.36324326943492835,
+      "p95": 0.6193442119794352,
+      "max": 0.7056771144024792
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.4755811850723775,
+      "p95": 2.6431913448162296,
+      "max": 2.9444727823546404
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.6898512176087133,
+      "p95": 4.277027789829308,
+      "max": 4.693570952841484
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "nominal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.3498780991032141,
+      "p95": 0.48645175411025143,
+      "max": 0.5368256712262424
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.3636496359744005,
+      "p95": 0.6199697290799461,
+      "max": 0.706486693239258
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.3636496359744005,
+      "p95": 0.6199697290799461,
+      "max": 0.706486693239258
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.4750126347425845,
+      "p95": 2.6441569790102815,
+      "max": 2.949265623045705
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.686616984669925,
+      "p95": 4.283854208623521,
+      "max": 4.700768354323619
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "nominal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.15890787400168718,
+      "p95": 0.16153950446971715,
+      "max": 0.1620632807481954
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16577522539859207,
+      "p95": 0.1683510498282348,
+      "max": 0.16932468552795849
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.16577522539859207,
+      "p95": 0.1683510498282348,
+      "max": 0.16932468552795849
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.11768860611091889,
+      "p95": 0.19042151919456668,
+      "max": 0.19241752899907827
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.18608276364113713,
+      "p95": 0.2739777128578999,
+      "max": 0.2922174722681595
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "nominal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.15890787726121108,
+      "p95": 0.16153971411043597,
+      "max": 0.1620632810095734
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.1657734026928075,
+      "p95": 0.168336832916859,
+      "max": 0.16930350815722847
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.1657734026928075,
+      "p95": 0.168336832916859,
+      "max": 0.16930350815722847
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.11767470284016598,
+      "p95": 0.1902230911604931,
+      "max": 0.19238087852343225
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.1868076727214061,
+      "p95": 0.27391127140666754,
+      "max": 0.2921217880061778
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "one_bad_image",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.851892982505753,
+      "p95": 0.962465670859211,
+      "max": 0.9812025956478926
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.45582038976325434,
+      "p95": 0.6585452518792472,
+      "max": 0.739192863266286
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.45582038976325434,
+      "p95": 0.6585452518792472,
+      "max": 0.739192863266286
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.5363808332796247,
+      "p95": 2.4971374808108022,
+      "max": 2.8079843329681173
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.79023978900105,
+      "p95": 4.285651788973079,
+      "max": 4.739768657262439
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "one_bad_image",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.8520237406691983,
+      "p95": 0.962630345101915,
+      "max": 0.9812489522875011
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.45583250202428205,
+      "p95": 0.6591884685379125,
+      "max": 0.7399503575831285
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.45583250202428205,
+      "p95": 0.6591884685379125,
+      "max": 0.7399503575831285
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.5331346335465308,
+      "p95": 2.4983070840859356,
+      "max": 2.812958057744751
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.78734319001433,
+      "p95": 4.285897280272105,
+      "max": 4.747565801014312
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "one_bad_image",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.775535914923424,
+      "p95": 0.8089479696559104,
+      "max": 0.8151258958971541
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.410393911014742,
+      "p95": 0.5462022829832658,
+      "max": 0.5528317816587267
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.410393911014742,
+      "p95": 0.5462022829832658,
+      "max": 0.5528317816587267
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.400104678326576,
+      "p95": 2.1135255242077537,
+      "max": 2.3274893195292505
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.6368638669434867,
+      "p95": 2.445933484427949,
+      "max": 2.730675622318165
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "one_bad_image",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.8318418729904291,
+      "p95": 0.8486409680314355,
+      "max": 0.849516206646174
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17896620288052018,
+      "p95": 0.1879591007571914,
+      "max": 0.18974597372202273
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.17896620288052018,
+      "p95": 0.1879591007571914,
+      "max": 0.18974597372202273
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.2643210075948479,
+      "p95": 0.3544215031457083,
+      "max": 0.35527523871988553
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.33023191553541026,
+      "p95": 0.392830544830714,
+      "max": 0.40811147210947696
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_scale",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.3549478320747569,
+      "p95": 0.49245200372140024,
+      "max": 0.5424223792060258
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.4043022267713754,
+      "p95": 0.6019604065248605,
+      "max": 0.6673993141514095
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4043022267713754,
+      "p95": 0.6019604065248605,
+      "max": 0.6673993141514095
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.8460745747221226,
+      "p95": 2.717770652693752,
+      "max": 2.864365425824081
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.8892464346170916,
+      "p95": 4.359823901063205,
+      "max": 4.59770687650056
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_scale",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.3546584168167108,
+      "p95": 0.4927153334291055,
+      "max": 0.5427093113337352
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.4039059183679842,
+      "p95": 0.602613187489897,
+      "max": 0.6682252061617785
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4039059183679842,
+      "p95": 0.602613187489897,
+      "max": 0.6682252061617785
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.8407817210981952,
+      "p95": 2.7192571514131916,
+      "max": 2.8659762140159764
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.883065557488905,
+      "p95": 4.358958013055967,
+      "max": 4.601940763875988
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_scale",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.16797664693652054,
+      "p95": 0.17089412798584538,
+      "max": 0.17090050626650627
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17807932724178127,
+      "p95": 0.19394747856444364,
+      "max": 0.20162705027979808
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.17807932724178127,
+      "p95": 0.19394747856444364,
+      "max": 0.20162705027979808
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.6043299986478186,
+      "p95": 0.6715626606359342,
+      "max": 0.6719428808687469
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.5913679019675104,
+      "p95": 0.6891283609661847,
+      "max": 0.6895285721233173
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_scale",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.16797680647178925,
+      "p95": 0.17089422636988716,
+      "max": 0.17090065365139498
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.1780519978738933,
+      "p95": 0.19392502584733207,
+      "max": 0.2016270546005701
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.1780519978738933,
+      "p95": 0.19392502584733207,
+      "max": 0.2016270546005701
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.6053467050882662,
+      "p95": 0.6716747135497697,
+      "max": 0.6725014304836243
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.5910070142530655,
+      "p95": 0.6915523229383521,
+      "max": 0.6919685926149265
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "wrong_focal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.50712089349004,
+      "p95": 0.8941009907743376,
+      "max": 0.9026410767433324
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.6052878604627393,
+      "p95": 1.0073742362106533,
+      "max": 1.0203671287463356
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.6052878604627393,
+      "p95": 1.0073742362106533,
+      "max": 1.0203671287463356
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.2429381041253826,
+      "p95": 4.7179013641311345,
+      "max": 4.844214892649789
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.3259420523894114,
+      "p95": 7.947067869354559,
+      "max": 7.9922732746237015
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "wrong_focal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.5067723257303521,
+      "p95": 0.8936986509923261,
+      "max": 0.901984551631851
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.605159694130652,
+      "p95": 1.0075079877067379,
+      "max": 1.0203144775641078
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.605159694130652,
+      "p95": 1.0075079877067379,
+      "max": 1.0203144775641078
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.246776205561888,
+      "p95": 4.722641819217705,
+      "max": 4.85098301366418
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.324457433541271,
+      "p95": 7.952670982848278,
+      "max": 7.991941355330609
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "wrong_focal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.167111061793349,
+      "p95": 0.17075877538950038,
+      "max": 0.17133272953584952
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17221535487147074,
+      "p95": 0.1855213781155526,
+      "max": 0.1869524116363602
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.17221535487147074,
+      "p95": 0.1855213781155526,
+      "max": 0.1869524116363602
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.8497604708885524,
+      "p95": 0.9404458558121115,
+      "max": 0.9566580490756759
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.9383620146372479,
+      "p95": 1.04905101165849,
+      "max": 1.099808752787614
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "wrong_focal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.16711132940069315,
+      "p95": 0.1707590534272285,
+      "max": 0.17133312048013508
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17230379667512513,
+      "p95": 0.1855079743278424,
+      "max": 0.1869578337754448
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.17230379667512513,
+      "p95": 0.1855079743278424,
+      "max": 0.1869578337754448
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.8512328874400561,
+      "p95": 0.9405056162265977,
+      "max": 0.95674999400002
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.9394961640181085,
+      "p95": 1.0490151139878385,
+      "max": 1.0998088042938914
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "robot_pose_dependence",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.4553727261208189,
+      "p95": 0.5655875618630805,
+      "max": 0.5890987436699856
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.5484175197804291,
+      "p95": 0.7260945834475292,
+      "max": 0.7602365395229144
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5484175197804291,
+      "p95": 0.7260945834475292,
+      "max": 0.7602365395229144
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.3403081739227094,
+      "p95": 3.3885939806850804,
+      "max": 3.857428803003382
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.057463656399151,
+      "p95": 4.953377794445263,
+      "max": 5.409685841849568
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "robot_pose_dependence",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.45535861046624876,
+      "p95": 0.5653463444858704,
+      "max": 0.589165633835236
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.5481940649896752,
+      "p95": 0.7266425914423578,
+      "max": 0.7611966588623108
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5481940649896752,
+      "p95": 0.7266425914423578,
+      "max": 0.7611966588623108
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.3381095602750026,
+      "p95": 3.3893471500953165,
+      "max": 3.861282724641574
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.0588940244433385,
+      "p95": 4.960574166216784,
+      "max": 5.417695834586142
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "robot_pose_dependence",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.3107777681832061,
+      "p95": 0.38979533544097944,
+      "max": 0.3991276343155187
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.40813241493241686,
+      "p95": 0.45625612716512665,
+      "max": 0.45657502978156883
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.40813241493241686,
+      "p95": 0.45625612716512665,
+      "max": 0.45657502978156883
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.4642910547572212,
+      "p95": 1.8142491276932027,
+      "max": 1.974330283523981
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.7824305771376014,
+      "p95": 3.1211337825278402,
+      "max": 3.485908273937071
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "robot_pose_dependence",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.3115288219132376,
+      "p95": 0.3904574255431143,
+      "max": 0.3999859677581959
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.4170913529579626,
+      "p95": 0.45687415628468214,
+      "max": 0.4580078342559823
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4170913529579626,
+      "p95": 0.45687415628468214,
+      "max": 0.4580078342559823
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.4252214497684128,
+      "p95": 1.8197483928326685,
+      "max": 1.978541118000522
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.8313666797120958,
+      "p95": 3.1705867071120424,
+      "max": 3.4967879230858956
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_warp",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 0.33351496093037963,
+      "p95": 0.6024715696740354,
+      "max": 0.6561778896874186
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.3357886688589792,
+      "p95": 0.7582309436911628,
+      "max": 0.8648713997912093
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.3357886688589792,
+      "p95": 0.7582309436911628,
+      "max": 0.8648713997912093
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.4144233508859785,
+      "p95": 3.2056475417847783,
+      "max": 3.6123134227580636
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.3507320894373125,
+      "p95": 5.339893485876074,
+      "max": 5.946374014785899
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_warp",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 0.3334372918001176,
+      "p95": 0.6024843236882476,
+      "max": 0.6564091195792308
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.3354262808693521,
+      "p95": 0.7587993032141243,
+      "max": 0.8656955712994595
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.3354262808693521,
+      "p95": 0.7587993032141243,
+      "max": 0.8656955712994595
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.413361728067338,
+      "p95": 3.2065732392961603,
+      "max": 3.616631048182846
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 2.355306719203198,
+      "p95": 5.340292357887482,
+      "max": 5.953634842712555
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_warp",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.16156665655085023,
+      "p95": 0.16415163467577318,
+      "max": 0.16428385736180695
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16804536771867296,
+      "p95": 0.17004823572457242,
+      "max": 0.17027461154352264
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.16804536771867296,
+      "p95": 0.17004823572457242,
+      "max": 0.17027461154352264
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.12952988422506995,
+      "p95": 0.2059410487196452,
+      "max": 0.2098482213688022
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.25841849253567045,
+      "p95": 0.3392585782039328,
+      "max": 0.3521573564234538
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "board_warp",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.16156670329597317,
+      "p95": 0.16415193889402194,
+      "max": 0.16428432131247103
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16806009574320213,
+      "p95": 0.1700371248771036,
+      "max": 0.17025851338360962
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.16806009574320213,
+      "p95": 0.1700371248771036,
+      "max": 0.17025851338360962
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 0.1293678443699271,
+      "p95": 0.20573038723290438,
+      "max": 0.2097619678457144
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 0.2580651487031862,
+      "p95": 0.33884411248389174,
+      "max": 0.3518157817235411
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "gauge_relabel",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 1.485962717695867e-07,
+      "p95": 2.746737529966494e-07,
+      "max": 3.1468274868337567e-07
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.705788277724119e-07,
+      "p95": 2.896280919054477e-07,
+      "max": 3.228526147461928e-07
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.705788277724119e-07,
+      "p95": 2.896280919054477e-07,
+      "max": 3.228526147461928e-07
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 5.997848500681242e-07,
+      "p95": 1.0962194797242585e-06,
+      "max": 1.1904151351947784e-06
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.1315537084514327e-06,
+      "p95": 1.801710276794236e-06,
+      "max": 1.8399096122145766e-06
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "gauge_relabel",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 1.4863144696989146e-07,
+      "p95": 2.7471679206180617e-07,
+      "max": 3.147209383065272e-07
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.7051398905560803e-07,
+      "p95": 2.89633196074123e-07,
+      "max": 3.228208846977519e-07
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.7051398905560803e-07,
+      "p95": 2.89633196074123e-07,
+      "max": 3.228208846977519e-07
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 5.996381021781921e-07,
+      "p95": 1.0954607372382178e-06,
+      "max": 1.1903629561535234e-06
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.1316063769956e-06,
+      "p95": 1.8007718479861715e-06,
+      "max": 1.8397978068955455e-06
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "gauge_relabel",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 1.6631737172624816e-13,
+      "p95": 3.9099335895698364e-13,
+      "max": 4.761748895036223e-13
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.641948048563103e-13,
+      "p95": 3.1782582756099953e-13,
+      "max": 3.8032483230764346e-13
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.641948048563103e-13,
+      "p95": 3.1782582756099953e-13,
+      "max": 3.8032483230764346e-13
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.8242616773858184e-13,
+      "p95": 3.9344842457287905e-13,
+      "max": 4.528924144620228e-13
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 5.266906650368654e-13,
+      "p95": 1.4333205773895436e-12,
+      "max": 1.661861468429693e-12
+    }
+  },
+  {
+    "layout": "diverse",
+    "condition": "gauge_relabel",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 1.6631737172624816e-13,
+      "p95": 3.9099335895698364e-13,
+      "max": 4.761748895036223e-13
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.641948048563103e-13,
+      "p95": 3.1782582756099953e-13,
+      "max": 3.8032483230764346e-13
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.641948048563103e-13,
+      "p95": 3.1782582756099953e-13,
+      "max": 3.8032483230764346e-13
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.8242616773858184e-13,
+      "p95": 3.9344842457287905e-13,
+      "max": 4.528924144620228e-13
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 5.266906650368654e-13,
+      "p95": 1.4333205773895436e-12,
+      "max": 1.661861468429693e-12
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "ideal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 5.012926221642936e-07,
+      "p95": 1.111302776358105e-06,
+      "max": 1.1282470702191299e-06
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 4.924043620490631e-07,
+      "p95": 1.2057590730683406e-06,
+      "max": 1.220470463789833e-06
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 2.3106112672774883e-06,
+      "p95": 8.040037320368817e-06,
+      "max": 8.065744246838696e-06
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.0991237177178534e-05,
+      "p95": 4.628539526954282e-05,
+      "max": 5.398193677951134e-05
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.6546777229194816e-05,
+      "p95": 8.654436124119668e-05,
+      "max": 0.00010178636650797641
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "ideal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 5.012901771075628e-07,
+      "p95": 1.111299449649891e-06,
+      "max": 1.1282377017896794e-06
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 4.924014841338492e-07,
+      "p95": 1.2057554025627134e-06,
+      "max": 1.220459635336448e-06
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 2.310581132376338e-06,
+      "p95": 8.039977568876302e-06,
+      "max": 8.065668094129359e-06
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.099108698866005e-05,
+      "p95": 4.6285033155442105e-05,
+      "max": 5.398143550173979e-05
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.6546527496369227e-05,
+      "p95": 8.654367049449882e-05,
+      "max": 0.00010178538628750948
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "ideal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 1.4207241140895608e-12,
+      "p95": 6.007219939639835e-12,
+      "max": 6.6687959589663116e-12
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.6566971085514024e-12,
+      "p95": 1.1223794204107298e-11,
+      "max": 1.4220451795121141e-11
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.0293262923537166e-12,
+      "p95": 6.048712005129138e-12,
+      "max": 6.197183633027661e-12
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 3.2537930731055966e-12,
+      "p95": 8.60496034799922e-12,
+      "max": 9.500519059592189e-12
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.0449156125699953e-11,
+      "p95": 2.891272490583317e-11,
+      "max": 3.136681227225312e-11
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "ideal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 1.4207241140895608e-12,
+      "p95": 6.007219939639835e-12,
+      "max": 6.6687959589663116e-12
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.6566971085514024e-12,
+      "p95": 1.1223794204107298e-11,
+      "max": 1.4220451795121141e-11
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.0293262923537166e-12,
+      "p95": 6.048712005129138e-12,
+      "max": 6.197183633027661e-12
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 3.2537930731055966e-12,
+      "p95": 8.60496034799922e-12,
+      "max": 9.500519059592189e-12
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.0449156125699953e-11,
+      "p95": 2.891272490583317e-11,
+      "max": 3.136681227225312e-11
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "nominal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 8.814765527640168,
+      "p95": 11.263475708039843,
+      "max": 11.572683280389317
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.28328656402283,
+      "p95": 13.069394123552483,
+      "max": 13.087233937187568
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.817046302933846,
+      "p95": 111.36057700274877,
+      "max": 127.47399643740931
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 247.78638713433696,
+      "p95": 471.9011532594386,
+      "max": 529.4633685768496
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.3374351750874,
+      "p95": 770.3068581324942,
+      "max": 826.053002393663
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "nominal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 8.814593961625654,
+      "p95": 11.26335730405265,
+      "max": 11.572612896995992
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.283051604894077,
+      "p95": 13.068762871736975,
+      "max": 13.086308573683437
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.8167583536401,
+      "p95": 111.35815891409814,
+      "max": 127.47229800479272
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 247.78567039654237,
+      "p95": 471.8963852822236,
+      "max": 529.4569336376802
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.3377714795374,
+      "p95": 770.2983955141551,
+      "max": 826.0418155439348
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "nominal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.1587907419874156,
+      "p95": 0.16157149647774302,
+      "max": 0.1619194694874084
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.1647955921333567,
+      "p95": 0.16838505608460388,
+      "max": 0.1687719652849622
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4619772987352795,
+      "p95": 0.6629907817966019,
+      "max": 0.6663932634812134
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.1346248917920656,
+      "p95": 3.314850514252084,
+      "max": 3.540482271865423
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.3290908350411677,
+      "p95": 6.200546047067911,
+      "max": 6.7374476303466055
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "nominal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.15879074665796739,
+      "p95": 0.16157165556896097,
+      "max": 0.16191947000624282
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16479295003677746,
+      "p95": 0.16837775159639806,
+      "max": 0.16876208371323112
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.46092489403535386,
+      "p95": 0.6630163768883713,
+      "max": 0.6662760168875438
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.1313687393843077,
+      "p95": 3.3141005677924142,
+      "max": 3.539564555451976
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.321998490281193,
+      "p95": 6.202066425155593,
+      "max": 6.736072927527136
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "one_bad_image",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 8.915324055441054,
+      "p95": 11.075665883721475,
+      "max": 11.297054813872458
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.198458556393351,
+      "p95": 13.1133168471749,
+      "max": 13.132331318548488
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 49.85359991271507,
+      "p95": 111.66375292839838,
+      "max": 126.59534592035999
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 251.35363562972594,
+      "p95": 469.1826208118171,
+      "max": 523.8409850388741
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.31705782093184,
+      "p95": 777.0690008473891,
+      "max": 832.0054654019065
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "one_bad_image",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 8.915156724194883,
+      "p95": 11.07554978004938,
+      "max": 11.296986296723334
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.198228445972614,
+      "p95": 13.11268485061828,
+      "max": 13.131405443347097
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 49.85330222839171,
+      "p95": 111.6612991336872,
+      "max": 126.59357481938687
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 251.35289656639605,
+      "p95": 469.17764270534065,
+      "max": 523.834240622972
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.31751277371814,
+      "p95": 777.0602328118106,
+      "max": 831.9938273523774
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "one_bad_image",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.7735782624998103,
+      "p95": 0.8097061350663988,
+      "max": 0.8163862635894769
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.40463572829930694,
+      "p95": 0.5807997782898698,
+      "max": 0.5895072566453523
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 3.4408139758008174,
+      "p95": 5.538659488220486,
+      "max": 6.078830249672302
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 17.733503538424202,
+      "p95": 30.590483082291357,
+      "max": 36.14655769925419
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 17.052578125463405,
+      "p95": 34.71501850944777,
+      "max": 35.50535487971821
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "one_bad_image",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.8309231724780741,
+      "p95": 2.6760737312668614,
+      "max": 3.6597908585238046
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17891194506913102,
+      "p95": 3.497876176122351,
+      "max": 5.275955401631606
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.7904063694714698,
+      "p95": 72.43020615864322,
+      "max": 110.79202166645368
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 3.5014340444486933,
+      "p95": 318.10504142960235,
+      "max": 485.57681289541125
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.817231782658009,
+      "p95": 491.8582243711674,
+      "max": 752.931214701701
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_scale",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 8.788875148879995,
+      "p95": 11.227227676756907,
+      "max": 11.533831920671249
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.24400606577721,
+      "p95": 13.039118289396393,
+      "max": 13.04896476634369
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.80456024388488,
+      "p95": 110.471449252128,
+      "max": 126.29687465112312
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 244.69665555490732,
+      "p95": 466.32213297848784,
+      "max": 522.829964604435
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 436.1203270807814,
+      "p95": 759.6764537016688,
+      "max": 813.5141602872443
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_scale",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 8.788704992872713,
+      "p95": 11.227111104037728,
+      "max": 11.53376232971137
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.243774153545186,
+      "p95": 13.038490593893288,
+      "max": 13.04804412234822
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.804273378557156,
+      "p95": 110.46904728505068,
+      "max": 126.29519067949634
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 244.69591887737693,
+      "p95": 466.3174261126381,
+      "max": 522.82361395302
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 436.1206205703506,
+      "p95": 759.6680940991697,
+      "max": 813.503114430945
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_scale",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.16821896330603314,
+      "p95": 0.17062927278611603,
+      "max": 0.17068932238025622
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17723642804502207,
+      "p95": 0.19337290128898804,
+      "max": 0.20040802084362
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4479316884680795,
+      "p95": 0.7728196331371969,
+      "max": 0.8733679020899912
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.0005554992876604,
+      "p95": 3.055543805874936,
+      "max": 3.2569012130402073
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.31916367761072,
+      "p95": 5.30311863487626,
+      "max": 5.761941438501936
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_scale",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.16821912718189747,
+      "p95": 0.17062938734085004,
+      "max": 0.1706894965033666
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17721865940841947,
+      "p95": 0.1933737285223411,
+      "max": 0.20040802137752384
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4456937266411701,
+      "p95": 0.7728205688893536,
+      "max": 0.8733679756907461
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.0028691119840913,
+      "p95": 3.055431316484156,
+      "max": 3.2567280357847843
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.304908845877691,
+      "p95": 5.302740950402493,
+      "max": 5.7619464359002395
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "wrong_focal",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 10.318122545445748,
+      "p95": 15.194921652899342,
+      "max": 16.367160079861556
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 12.689638893032452,
+      "p95": 17.064030956273108,
+      "max": 17.38556120966879
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 40.506398247767265,
+      "p95": 192.21288687439986,
+      "max": 236.2306254307787
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 171.91686619737357,
+      "p95": 787.6166088489392,
+      "max": 985.3251988241557
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 281.2560503369539,
+      "p95": 1286.8961309292413,
+      "max": 1545.3077841940249
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "wrong_focal",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 10.317611030117671,
+      "p95": 15.194824915879908,
+      "max": 16.366975927687168
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 12.689332158467716,
+      "p95": 17.063575200509334,
+      "max": 17.385461753376774
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 40.506648227440536,
+      "p95": 192.2104411149076,
+      "max": 236.2295007307839
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 171.91778390960707,
+      "p95": 787.6064099092611,
+      "max": 985.321872391714
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 281.25806636555023,
+      "p95": 1286.8776509493846,
+      "max": 1545.302416943542
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "wrong_focal",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.16687403304084175,
+      "p95": 0.17156017295729767,
+      "max": 0.1722756817093398
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.17315364712283116,
+      "p95": 0.18582933078363356,
+      "max": 0.18764337746838197
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5057995202228989,
+      "p95": 0.7808565876731511,
+      "max": 0.8574160865201887
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.517038673315284,
+      "p95": 4.656079627485714,
+      "max": 5.126975530703441
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.140205321306778,
+      "p95": 8.252972895897749,
+      "max": 9.442254156137592
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "wrong_focal",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.16687421388330023,
+      "p95": 4.819879269213525,
+      "max": 7.3224348677501805
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.1768411490547477,
+      "p95": 6.341100293619268,
+      "max": 9.654500590683096
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5405852584872595,
+      "p95": 128.00815843581427,
+      "max": 196.47394282919421
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 3.1739629195273165,
+      "p95": 628.0466307991842,
+      "max": 963.4649070777449
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.5895970513128255,
+      "p95": 1009.5950744753987,
+      "max": 1548.138899084444
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "robot_pose_dependence",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 8.814535306521682,
+      "p95": 11.258316821360422,
+      "max": 11.567748477753714
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.279991354620343,
+      "p95": 13.065818367496771,
+      "max": 13.082019911224622
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.940709923788305,
+      "p95": 111.3793242962993,
+      "max": 127.60965523965237
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 248.12209525918843,
+      "p95": 473.3645870722373,
+      "max": 531.1653566056323
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.1796928342402,
+      "p95": 771.87973033936,
+      "max": 827.1580126835605
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "robot_pose_dependence",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 8.81436372340334,
+      "p95": 11.258198388028939,
+      "max": 11.56767805837377
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.279756364376897,
+      "p95": 13.06518712982291,
+      "max": 13.081094582346152
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 51.94042236560607,
+      "p95": 111.3769044182728,
+      "max": 127.60795749926716
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 248.12139336112995,
+      "p95": 473.35982328657275,
+      "max": 531.1589287129112
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 440.18004702520454,
+      "p95": 771.8712774937109,
+      "max": 827.1468399583318
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "robot_pose_dependence",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.16034931938665814,
+      "p95": 0.1633452510248807,
+      "max": 0.1643999590672353
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16541333922852972,
+      "p95": 0.17274972383891038,
+      "max": 0.1739822301913842
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5752353558768346,
+      "p95": 0.8454386112660766,
+      "max": 0.8809203861518855
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.763569960351475,
+      "p95": 3.418221518025741,
+      "max": 3.455961111366432
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.76489225123014,
+      "p95": 5.759075758577958,
+      "max": 5.881382038459391
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "robot_pose_dependence",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.1603494299482624,
+      "p95": 0.16334547595472762,
+      "max": 0.16440030055419003
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16541602217732787,
+      "p95": 0.17274296044341156,
+      "max": 0.17398007203727087
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.5754934211863879,
+      "p95": 0.8450437279404718,
+      "max": 0.8803644921598424
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.7656485061750216,
+      "p95": 3.4219378238854006,
+      "max": 3.459973143513419
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.7675988804708105,
+      "p95": 5.77377032896905,
+      "max": 5.897770771832709
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_warp",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 8.909094956737796,
+      "p95": 11.032323605098064,
+      "max": 11.197064028020598
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.338640758967038,
+      "p95": 13.12677754387257,
+      "max": 13.397955488450975
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 50.369147488366664,
+      "p95": 118.62283265601053,
+      "max": 137.49709114636235
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 261.27761710559764,
+      "p95": 493.19898772370624,
+      "max": 570.8538540113994
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 464.4233657339979,
+      "p95": 804.3497775853278,
+      "max": 901.3475685066521
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_warp",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 8.908923724842687,
+      "p95": 11.032206062219773,
+      "max": 11.19699999324583
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 10.338405915242857,
+      "p95": 13.126168744168451,
+      "max": 13.397059335727658
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 50.3688858344366,
+      "p95": 118.62035636563408,
+      "max": 137.49529029318882
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 261.27683821753993,
+      "p95": 493.188754440873,
+      "max": 570.8470284685105
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 464.42340988476593,
+      "p95": 804.3412881045278,
+      "max": 901.3359389296585
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_warp",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 0.15905511144415388,
+      "p95": 0.16193448020465728,
+      "max": 0.16211283470593987
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16487276413814317,
+      "p95": 0.16849857325860954,
+      "max": 0.16898112645801283
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.4636242808006198,
+      "p95": 0.6612401018960573,
+      "max": 0.66131110926526
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.1544882027552004,
+      "p95": 3.357485971588335,
+      "max": 3.602431034919813
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 3.411683641789903,
+      "p95": 6.329172590384917,
+      "max": 6.868837300059823
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "board_warp",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 0.15905512065661068,
+      "p95": 2.6325874883730345,
+      "max": 3.96311721014198
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 0.16488338955986095,
+      "p95": 3.602527036253386,
+      "max": 5.451364056939438
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 0.567142396381956,
+      "p95": 77.60463697492798,
+      "max": 119.03565247247604
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.7541575389564503,
+      "p95": 345.70306756086177,
+      "max": 529.9118135832579
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 4.285683807883191,
+      "p95": 537.9603122856845,
+      "max": 823.9336915774797
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "gauge_relabel",
+    "method": "park",
+    "training_pixel_rms": {
+      "median": 5.012926287719585e-07,
+      "p95": 1.111302772682583e-06,
+      "max": 1.1282470467520982e-06
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 4.92404408049844e-07,
+      "p95": 1.20575926263971e-06,
+      "max": 1.2204705119732094e-06
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 2.3106105748938535e-06,
+      "p95": 8.040037121869182e-06,
+      "max": 8.065744367933716e-06
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.0991234625206117e-05,
+      "p95": 4.628539521018266e-05,
+      "max": 5.398193829100373e-05
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.654677438966009e-05,
+      "p95": 8.65443619163191e-05,
+      "max": 0.0001017863694116798
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "gauge_relabel",
+    "method": "horaud",
+    "training_pixel_rms": {
+      "median": 5.012900884995919e-07,
+      "p95": 1.1112994132183464e-06,
+      "max": 1.1282376459693302e-06
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 4.924014474504777e-07,
+      "p95": 1.205755342013855e-06,
+      "max": 1.2204597185716636e-06
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 2.310580252819365e-06,
+      "p95": 8.039976928240707e-06,
+      "max": 8.06566806691996e-06
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 1.0991083040914657e-05,
+      "p95": 4.628503133704352e-05,
+      "max": 5.3981436235094635e-05
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 1.6546525003088563e-05,
+      "p95": 8.654366783669107e-05,
+      "max": 0.0001017853872987497
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "gauge_relabel",
+    "method": "pixel_ls",
+    "training_pixel_rms": {
+      "median": 2.048517771356626e-12,
+      "p95": 6.090991295765987e-12,
+      "max": 7.165997113075331e-12
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.7163008882814272e-12,
+      "p95": 5.27089453675363e-12,
+      "max": 5.785906628476043e-12
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.3617436989607258e-12,
+      "p95": 5.6708507224283494e-12,
+      "max": 7.22506296435879e-12
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.7335897271238986e-12,
+      "p95": 1.0972153873707717e-11,
+      "max": 1.481670124682826e-11
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 8.506717081108329e-12,
+      "p95": 3.555637430129817e-11,
+      "max": 4.3787737001397196e-11
+    }
+  },
+  {
+    "layout": "small_rotation",
+    "condition": "gauge_relabel",
+    "method": "pixel_huber",
+    "training_pixel_rms": {
+      "median": 2.048517771356626e-12,
+      "p95": 6.090991295765987e-12,
+      "max": 7.165997113075331e-12
+    },
+    "same_family_holdout_pixel_rms": {
+      "median": 1.7163008882814272e-12,
+      "p95": 5.27089453675363e-12,
+      "max": 5.785906628476043e-12
+    },
+    "diverse_holdout_pixel_rms": {
+      "median": 1.3617436989607258e-12,
+      "p95": 5.6708507224283494e-12,
+      "max": 7.22506296435879e-12
+    },
+    "camera_only_exact_tool_diagnostic": {
+      "median": 2.7335897271238986e-12,
+      "p95": 1.0972153873707717e-11,
+      "max": 1.481670124682826e-11
+    },
+    "joint_calibration_exact_board_to_gun_jig": {
+      "median": 8.506717081108329e-12,
+      "p95": 3.555637430129817e-11,
+      "max": 4.3787737001397196e-11
+    }
+  }
+]

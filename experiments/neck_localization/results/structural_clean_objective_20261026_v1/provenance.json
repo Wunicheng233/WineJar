@@ -1,0 +1,6 @@
+{
+  "source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1",
+  "diagnostic_only": true,
+  "same_points_and_basis_and_weights": true,
+  "script_sha256": "3753872007cd069ca9ee376a3e553313c4a8a497df48be32981e74aef335291b"
+}

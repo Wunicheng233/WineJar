@@ -1,0 +1,156 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "detected_corners": 16,
+      "used": false
+    },
+    {
+      "frame": 1,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 2,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 3,
+      "detected_corners": 26,
+      "used": false
+    },
+    {
+      "frame": 4,
+      "detected_corners": 6,
+      "used": false
+    },
+    {
+      "frame": 5,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 6,
+      "detected_corners": 33,
+      "used": false
+    },
+    {
+      "frame": 7,
+      "detected_corners": 9,
+      "used": false
+    },
+    {
+      "frame": 8,
+      "detected_corners": 15,
+      "used": false
+    },
+    {
+      "frame": 9,
+      "detected_corners": 14,
+      "used": false
+    },
+    {
+      "frame": 10,
+      "detected_corners": 10,
+      "used": false
+    },
+    {
+      "frame": 11,
+      "detected_corners": 21,
+      "used": false
+    },
+    {
+      "frame": 12,
+      "detected_corners": 14,
+      "used": false
+    },
+    {
+      "frame": 13,
+      "detected_corners": 21,
+      "used": false
+    },
+    {
+      "frame": 14,
+      "detected_corners": 17,
+      "used": false
+    },
+    {
+      "frame": 15,
+      "detected_corners": 3,
+      "used": false
+    },
+    {
+      "frame": 16,
+      "detected_corners": 3,
+      "used": false
+    },
+    {
+      "frame": 17,
+      "detected_corners": 20,
+      "used": false
+    },
+    {
+      "frame": 18,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 19,
+      "detected_corners": 34,
+      "used": false
+    },
+    {
+      "frame": 20,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 21,
+      "detected_corners": 10,
+      "used": false
+    },
+    {
+      "frame": 22,
+      "detected_corners": 14,
+      "used": false
+    },
+    {
+      "frame": 23,
+      "detected_corners": 0,
+      "used": false
+    },
+    {
+      "frame": 24,
+      "detected_corners": 2,
+      "used": false
+    },
+    {
+      "frame": 25,
+      "detected_corners": 3,
+      "used": false
+    },
+    {
+      "frame": 26,
+      "detected_corners": 1,
+      "used": false
+    },
+    {
+      "frame": 27,
+      "detected_corners": 9,
+      "used": false
+    },
+    {
+      "frame": 28,
+      "detected_corners": 29,
+      "used": false
+    },
+    {
+      "frame": 29,
+      "detected_corners": 17,
+      "used": false
+    }
+  ],
+  "complete": 0,
+  "only_images_used_for_extraction": true
+}

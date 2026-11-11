@@ -1,0 +1,22 @@
+{
+  "zero_control_matches_all_12_frozen_predictions": true,
+  "limited_rechecks": [
+    {
+      "case": "nominal_002",
+      "condition": "common_p2",
+      "geometry_and_diagnostics_exact": true
+    },
+    {
+      "case": "nominal_001",
+      "condition": "only_a_p2",
+      "geometry_and_diagnostics_exact": true
+    },
+    {
+      "case": "stress_003",
+      "condition": "common_p1",
+      "geometry_and_diagnostics_exact": true
+    }
+  ],
+  "full_108_rerun": false,
+  "timing_excluded": true
+}

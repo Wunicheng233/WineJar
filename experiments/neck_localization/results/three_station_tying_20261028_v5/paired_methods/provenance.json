@@ -1,0 +1,25 @@
+{
+  "input_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_development_fs12_20261028_v1/records.json.gz": "b861b60b061d1ba4098dd65b9098a8d29f186802733d2deb9305414d3e5365c8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_000/evaluation_only/target.json": "4d61bca024032298f172e9be546dd4d987deab9aac4c834c111c2026fec698e4",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_006/evaluation_only/target.json": "a6e8786f85b5d5a8dbc0e7d7f827c6aa165174b69aa96e635604af83b761c6f8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_000/evaluation_only/target.json": "3715512981fe9744692c966ca6fa4725e55450d8138ba55e2780352e47844889",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_002/evaluation_only/target.json": "3b7b5314e6d76712d83469f30091a632b67da3cc955c9b8c5e9d5b5621ca793e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_development_ss12_20261028_v1/records.json.gz": "a8843597e0643da00e952836c398838356abb93dee76f0bb4667babf1647ff51",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_development_fs8_20261028_v1/records.json.gz": "a6d9fc9fa70a0b4ddf27e370e58dc591ba2e42e4dda385ca768ffa2640c7910e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_002/evaluation_only/target.json": "9706915ffd737bfb1781feafe1d96f3f018cc5e31752e33528e19f69b81ee5e2",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_004/evaluation_only/target.json": "8d8c7753b566f3c97c6e1faf4977bf6ed1fb1561f7adf5370885f27f4966f8d8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_005/evaluation_only/target.json": "c28a0184575862188f0da4fcf22858cc24824ae3c938513c5576704da1aba003",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_development_ss8_20261028_v1/records.json.gz": "3fbe337a87eb5003eb39aafc5ba2dab6f7e62df6abc90a07f20e0d8aef48b8ad",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_locked_fs8_20261028_v1/records.json.gz": "e9dc069e19457223f633d217c9b9f0882c078d3ffc67a994d4db3a64b557a5aa",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_000/evaluation_only/target.json": "bb47f4439f007f864d114fe680aeaa13ab56877be02ea4c237222e489e5b94e3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/evaluation_only/target.json": "c88f1266e43868867b6e31dea2d757494f76529cfae759bf65483952ad24a986",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/evaluation_only/target.json": "9fc393028fe8cc9c9f7c18275e04a84af48b6943f08e79fe10d6fecaac184cce",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_004/evaluation_only/target.json": "f17b737e7435b361fc089554b6122ce61fce6ecf256efb41865ffd3a56f50eab",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_locked_ss8_20261028_v1/records.json.gz": "df4da674bcb571c3a6e41c4225f39b5434091800a1ae34e5f2fe5c9ae6db7428"
+  },
+  "inputs_unchanged": true,
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/audit_filtered_tying_methods.py": "ef345bba769f08f7d10adb947a578c303f76ddd3b7d132ff9e4e9d71b6f467b6"
+  }
+}

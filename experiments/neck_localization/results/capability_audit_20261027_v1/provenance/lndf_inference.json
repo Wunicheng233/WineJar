@@ -1,0 +1,175 @@
+{
+  "method": "official pretrained L-NDF functional-frame transfer",
+  "upstream_url": "https://github.com/elchun/lndf_robot",
+  "upstream_commit": "5418659b02839cee00d7a7703dfda8ba93b232f8",
+  "weights": "/home/wunicheng/Git/WineJar/experiments/neck_localization/external_baselines/lndf/weights/lndf_weights.pth",
+  "weights_sha256": "739f5a88d6fd3ec5560f9a100c3c246a008f0a05bcdc62cb408d8fff681e873f",
+  "upstream_network_sha256": {
+    "src/ndf_robot/model/conv_occupancy_net/REF_config.py": "722ef31f2e2da7c21d612a0d666e247a43f302a0e6c790312c08bb1670f18075",
+    "src/ndf_robot/model/conv_occupancy_net/REF_conv_occ.py": "688a731d8003c3e196c7ad241d2bc7606ec4deac22a490633b0ab4d8dae11fd0",
+    "src/ndf_robot/model/conv_occupancy_net/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ndf_robot/model/conv_occupancy_net/common.py": "c4db4213786e7ed5c504c601b253c6b5306fe54d4417b0a19761237e7b44ae7c",
+    "src/ndf_robot/model/conv_occupancy_net/conv_occupancy_net.py": "446a44f4e0709883101e95f8fdabb91fa95ec8e2aef045ddb0bbdc52f0d51e6b",
+    "src/ndf_robot/model/conv_occupancy_net/decoder.py": "8f232490b11f4750569e95224f2e94af520d71ec3f7d34ab620d502bb9946e09",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/__init__.py": "231f065fbb2931c9cbb61e780d03d64009af850b6054bd1b455deb2368b1ec49",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/pointnet.py": "2de7db035a29f8d2ba92a2a8e35b9e8d579d0b2ed34dec1a4b0eadd39307ad2d",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/pointnetpp.py": "346b2c3ddcb7cf600547971a2893ffcf38bc3571f8a6ffefc197e5b7564afb8f",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/unet.py": "8141f475b81fd4f7c9cec8ad5ef3ff669183298a98fbab9ff44fde7ba663c03e",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/unet3d.py": "73463e68d81c8d553c2dd912caa5254b1f07c7e6a03b8a3ed730fb4e01ac7a18",
+    "src/ndf_robot/model/conv_occupancy_net/encoder/voxels.py": "193dd376e580842fe7d7495d65f1c767eaeb27fc091063617f13efdaa10e08d7",
+    "src/ndf_robot/model/conv_occupancy_net/layers.py": "a065c669d281b56e767927ea28dbf09a1b8fc8ef5de405e934e999de9f31beab"
+  },
+  "upstream_optimizer_sha256": "23dc35fa955387bade013614f503d17ad95a38392811cc60686bbde43d46d619",
+  "adapter_sha256": "d1f60cdc49296a1ca7b6f2fb283d369b74f255c170d25d656561e359b3765c6d",
+  "script_sha256": "6a309d3846ad543f5f47292742bd81d425a7c371a9123d6bf5e1c99c15e41df7",
+  "compatibility": [
+    "public ConvONet and strict checkpoint loading, latent_dim128/acts_last/scaling10/grid32",
+    "public optimizer_lite Demo/process_demos/optimize_transform_implicit bodies unchanged",
+    "torch_scatter forward mean/max via PyTorch scatter_add/scatter_reduce; unused KDTree via scipy",
+    "ROS/trimesh 7D transform via scipy; exact upstream torch rotation math and Healpix grid",
+    "plotting disabled; model parameter gradients disabled while preserving query gradients",
+    "observed input extent maps to .08 m; points and demo/query poses transformed together",
+    "optional upper station crop uses observed z995 minus fixed70mm, same restoration ROI prior",
+    "L1 default or exact official bottle cos_loss; all optimizer iteration bodies unchanged",
+    "task collar query dimensions from four supervised development jars only; no test labels in inference"
+  ],
+  "demonstrations": [
+    {
+      "case": "development_nominal_000",
+      "input": {
+        "camera": "cam_a",
+        "points": 60749,
+        "input_sha256": {
+          "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+          "cam_a_rgb.png": "5ab563ac05f19e6a685a095bd1ea56471c38a8d3aba740bac776bf05b5630ffa",
+          "cam_a_depth_z_m.npz": "dc39dac3f06b6421314fdb2af9700444e35b185f1ab351e32b4471ab53baa948"
+        },
+        "mask_sha256": "9e2a319c1048bd11a1d7441e69609917d00eb9484512b6ba00dff31e731c00bc",
+        "crop": null,
+        "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+      },
+      "target_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_000/evaluation_only/target.json",
+      "target_sha256": "733da2727787ee01ba845c08be552e999e7fe82228fb84d1db56d9d20ae2d08b",
+      "label_use": "supervised development demonstration, not audit truth",
+      "observed_center_m": [
+        0.09122548843317828,
+        -0.10312481420868674,
+        0.47771974583654686
+      ],
+      "observed_scale": 0.18940290033988424
+    },
+    {
+      "case": "development_nominal_001",
+      "input": {
+        "camera": "cam_a",
+        "points": 50844,
+        "input_sha256": {
+          "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+          "cam_a_rgb.png": "8deaa6de6973e3a2716098dd5ee349f8b3e17e5c76c0fa71647b21ac4a14aa8a",
+          "cam_a_depth_z_m.npz": "77c2f8da765dae003bbee995ded03a42d78bec9902d6a5d616e54cd476c33593"
+        },
+        "mask_sha256": "bc36211978f9b5ae1f6dd530af6f9f8f4a9bae06f46b5b65f467d5bbfdeeb868",
+        "crop": null,
+        "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+      },
+      "target_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_001/evaluation_only/target.json",
+      "target_sha256": "6ea9e9548e2f9e3382e7948e44cc325b5cb56af8ba96b81d40dec070e4cf5898",
+      "label_use": "supervised development demonstration, not audit truth",
+      "observed_center_m": [
+        0.08236878646333462,
+        -0.09343929297049093,
+        0.4557927556614612
+      ],
+      "observed_scale": 0.2109199493113759
+    },
+    {
+      "case": "development_stress_000",
+      "input": {
+        "camera": "cam_a",
+        "points": 54881,
+        "input_sha256": {
+          "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+          "cam_a_rgb.png": "6f28d98548a9d4c64390bea25cfebe0be324c2de10ec3bd414d6be1d6a8f85a5",
+          "cam_a_depth_z_m.npz": "515ab2b4cbe6c1a7c1121a9472c08a990b97bfb4ca456d8a870e059a784ecf7d"
+        },
+        "mask_sha256": "33d52a92ff4b666835108be18602e5e395e56b66364b16b43486304761a9d462",
+        "crop": null,
+        "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+      },
+      "target_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_000/evaluation_only/target.json",
+      "target_sha256": "40da4fee63f455a83b6043347149f7bf7b33c5497aed9c10ef6e662f5e96fd3e",
+      "label_use": "supervised development demonstration, not audit truth",
+      "observed_center_m": [
+        0.08491583284769542,
+        -0.09644823169872428,
+        0.47259890842061997
+      ],
+      "observed_scale": 0.2116384534386528
+    },
+    {
+      "case": "development_stress_001",
+      "input": {
+        "camera": "cam_a",
+        "points": 58970,
+        "input_sha256": {
+          "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+          "cam_a_rgb.png": "bbd1d2829a150a52b86b343e2fc0f07e6286e076c32653976b7e865627ddeb1e",
+          "cam_a_depth_z_m.npz": "5d0ef77b3b9befc09530b842c63f62859c345b50a48281552c034bcf3a6b5307"
+        },
+        "mask_sha256": "b2f084cbcd5552307fc08e36a7939e613b388c60fc4a12bd02f80042178ace68",
+        "crop": null,
+        "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+      },
+      "target_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_001/evaluation_only/target.json",
+      "target_sha256": "5a98ee831d865d676e1c4f6bb30cca9e9c4a3a6336de2b9175d59d9071bef32e",
+      "label_use": "supervised development demonstration, not audit truth",
+      "observed_center_m": [
+        0.08298331777773997,
+        -0.09373887000244122,
+        0.48253749349328506
+      ],
+      "observed_scale": 0.2070835872099612
+    }
+  ],
+  "demo_condition": "ideal_rgb",
+  "demonstration_descriptor_ms": 423.61790700010715,
+  "seed": 2026102707,
+  "case_seeds": {
+    "structural_test_nominal_000": 2026102708,
+    "structural_test_nominal_001": 2026102709,
+    "structural_test_nominal_002": 2026102710,
+    "structural_test_nominal_003": 2026102711,
+    "structural_test_nominal_004": 2026102712,
+    "structural_test_nominal_005": 2026102713,
+    "structural_test_nominal_006": 2026102714,
+    "structural_test_nominal_007": 2026102715,
+    "structural_test_stress_000": 2026102716,
+    "structural_test_stress_001": 2026102717,
+    "structural_test_stress_002": 2026102718,
+    "structural_test_stress_003": 2026102719
+  },
+  "paired_random_initialization_rule": "same case seed across raw/ideal and far/close",
+  "device": "cuda:0",
+  "torch_version": "2.13.0+cu130",
+  "iterations": 500,
+  "initializations": 20,
+  "query_points": 1000,
+  "cos_loss": true,
+  "upper_window_mm": 0,
+  "query_radius_model_m": 0.01068581859326552,
+  "query_half_height_model_m": 0.00031350265239100283,
+  "predicts_radius": false,
+  "inference_reads_audit_truth": false,
+  "no_hardware": true,
+  "normalized_using_observed_input_extent": true,
+  "conditions": [
+    "stereo_raw",
+    "ideal_rgb"
+  ],
+  "layouts": [
+    "far",
+    "close"
+  ],
+  "source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1",
+  "development": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3"
+}

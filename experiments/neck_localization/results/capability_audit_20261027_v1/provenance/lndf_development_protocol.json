@@ -1,0 +1,38 @@
+{
+  "status": "frozen_before_48_audit_predictions",
+  "seed": 2026102707,
+  "development_cases": 4,
+  "development_is_supervised_and_not_independent_accuracy_evidence": true,
+  "audit_cases": 12,
+  "audit_layouts": [
+    "far",
+    "close"
+  ],
+  "audit_conditions": [
+    "stereo_raw",
+    "ideal_rgb"
+  ],
+  "camera": "cam_a",
+  "demo_condition": "ideal_rgb",
+  "iterations": 500,
+  "initializations": 20,
+  "query_points": 1000,
+  "query_geometry": "collar radius median supervised development radius times observed normalization scale; halfheight median 1.5mm times scale",
+  "candidates": [
+    {
+      "name": "official_bottle_cosine_full",
+      "cos_loss": true,
+      "upper_window_mm": 0
+    },
+    {
+      "name": "official_bottle_cosine_upper70",
+      "cos_loss": true,
+      "upper_window_mm": 70
+    }
+  ],
+  "selection": "development stereo_raw only: maximize center<=4mm and unsigned axis<=2deg count, then minimize median(center_mm/4+axis_deg/2); ideal input reported as paired control; tie choose full foreground",
+  "no_audit_truth_in_selection": true,
+  "official_config": "experiments/neck_localization/external_baselines/lndf/upstream/src/ndf_robot/eval/eval_configs/lndf_shelf_bottle_grasp.yml",
+  "official_config_sha256": "b320c8b3ed7468d3c35ba2d71a6f77e1b1423a9afbac5690752fe14573b56fa7",
+  "earlier_L1_full_development_negative": "capability_lndf_gpu_development_probe_20261027_v1"
+}

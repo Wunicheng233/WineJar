@@ -1,0 +1,31 @@
+{
+  "scene_source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/short_neck_heldout_20261022_v1",
+  "split": "diagnostic",
+  "scene_manifest_sha256": "b989a446403b8876d66ba88fa27a74b70d3f225c5089215d585e08bee0de395c",
+  "scene_config_sha256": "7f0dffab78cea00a99822cc16dbc8eee6b8327a61ffab9ed5a854a12f318d85e",
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "evidence": [
+    "exterior_diagnostic"
+  ],
+  "seed": 4101,
+  "elapsed_s": 0.6919505700002446,
+  "source_sha256": {
+    "depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5"
+  },
+  "limitations": [
+    "true camera parameters; no virtual calibration or sensor noise",
+    "mouth plane is an axis proxy; no independent local neck-axis recovery",
+    "planar crown and circular neck are synthetic model assumptions",
+    "RGB extraction assumes declared grey/clay jar and blue background",
+    "no uncertainty estimate; plane residual is not absolute accuracy",
+    "4 mm center is historical goal; 2 deg normal and 2 mm diameter are provisional analysis thresholds",
+    "small scene family, no real-world accuracy claim"
+  ]
+}

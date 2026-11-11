@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "protected_original_files": 40,
+  "locked_candidate_files": 5,
+  "calibration_observation_sets": 24,
+  "confirmation_calibrations": 96,
+  "source_and_calibration_unchanged": true,
+  "ideal_controls_passed": true,
+  "actual_GL_routes": 44,
+  "actual_tool_FK_matched_recorded_position_and_rotation_at_1e_7": true,
+  "no_hardware_contact_force_training_default_change": true
+}

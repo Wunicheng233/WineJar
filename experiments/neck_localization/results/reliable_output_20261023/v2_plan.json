@@ -1,0 +1,8 @@
+{
+  "seed": 2026102347,
+  "test_config_sha256": "6b42bc1200c90ab13befac97ecfc74913d83291d288f1e506c80f444e613b448",
+  "scope": "three-camera primary condition only; 32 nominal+16 stress; frozen v1 and original region references",
+  "development": "all previously viewed scenes INCLUDING first 48-case test, which is now development for v2 only",
+  "change": "Task-range-validated alternative when internal core is too narrow; do not weaken same 0.4mm residual/heldout checks",
+  "policy": "lock before implementing v2; freeze after development; do not tune v2 after new test"
+}

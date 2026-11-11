@@ -1,0 +1,46 @@
+{
+  "compared": [
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v2/calibration/records.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/calibration/records.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    },
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v3/body/records.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/body/records.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    },
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v3/body/partial_view_ablation/records.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/body/partial_view_ablation/records.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    },
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v3/charuco/result.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/charuco/result.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    },
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v3/charuco/gradient_refinement.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/charuco/gradient_refinement.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    },
+    {
+      "source": "experiments/neck_localization/results/pose_transfer_20261028_v3/combined_chain/records.json",
+      "replay": "experiments/neck_localization/results/pose_transfer_20261028_replay_v1/combined_chain/records.json",
+      "numerical_equal_at_1e_10": true,
+      "difference_count": 0
+    }
+  ],
+  "excluded_key_names": [
+    "elapsed_ms",
+    "input_measurements_sha256",
+    "script_sha256"
+  ],
+  "difference_examples": []
+}

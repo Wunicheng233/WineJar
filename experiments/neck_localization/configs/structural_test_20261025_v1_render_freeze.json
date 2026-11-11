@@ -1,0 +1,74 @@
+{
+  "sources": {
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_support_feedback.py": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "scripts/run_reliable_output.py": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+    "neck_localization/task_validated_output.py": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+    "scripts/run_task_validated_output.py": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+    "neck_localization/active_stereo.py": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+    "scripts/run_active_stereo_stage1.py": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+    "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97"
+  },
+  "config_sha256": "06d364f4e9b060e04a7ba4bbc75fbef2c6c22f8c785f313f5f6f9349c71c826b",
+  "renderer_sources": {
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_support_feedback.py": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "scripts/run_reliable_output.py": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+    "neck_localization/task_validated_output.py": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+    "scripts/run_task_validated_output.py": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+    "neck_localization/active_stereo.py": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+    "scripts/run_active_stereo_stage1.py": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+    "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97"
+  },
+  "settings": {
+    "model": "D435",
+    "seed": 2026102451,
+    "samples_per_pixel": 32,
+    "path_depth": 4,
+    "denoiser": "optix",
+    "depth_unit_m": 0.001,
+    "ir_speckle_noise": 1.0,
+    "ir_thermal_noise": 1.0,
+    "spatial_magnitude": 2,
+    "spatial_alpha": 0.5,
+    "spatial_delta": 20
+  },
+  "test_config_sha256": "06d364f4e9b060e04a7ba4bbc75fbef2c6c22f8c785f313f5f6f9349c71c826b",
+  "estimator_development": "only old four development jars; no new twelve observations rendered/opened",
+  "modes": [
+    "ideal_rgb",
+    "stereo_raw",
+    "default7",
+    "local3",
+    "narrow5",
+    "phase_calibrated"
+  ],
+  "methods": [
+    "baseline",
+    "portfolio_plain",
+    "portfolio_robust",
+    "portfolio",
+    "portfolio_single",
+    "portfolio_anisotropic",
+    "portfolio_fixed"
+  ],
+  "models": {
+    "phase": "b795095dd18bd745717cf06d860aa81d832b44ee274001578a824763c3f2d407"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "condition": "body_0",
+    "label": "理想坛身对照",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_0/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_0/records.json",
+    "method": "observed_subset_axis"
+  },
+  {
+    "condition": "body_1",
+    "label": "双目坛身模板",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_1/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_1/records.json",
+    "method": "observed_subset_axis"
+  },
+  {
+    "condition": "body_2",
+    "label": "下游深度假设偏差3mm",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_2/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_2/records.json",
+    "method": "observed_subset_axis"
+  },
+  {
+    "condition": "body_3",
+    "label": "窄可见区域压力对照",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_3/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/condition_3/records.json",
+    "method": "observed_subset_axis"
+  },
+  {
+    "condition": "body_active",
+    "label": "主动双目两例",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/active_stereo/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/viewer/active_stereo/records.json",
+    "method": "reciprocal_axis"
+  }
+]

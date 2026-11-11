@@ -1,0 +1,830 @@
+[
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "frozen_baseline",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5735402875674664,
+      "p95": 2.0991822857306515,
+      "max": 2.9922236609799735
+    },
+    "normal_deg": {
+      "median": 0.08580202713559025,
+      "p95": 1.0265169360763051,
+      "max": 1.1832560130422072
+    },
+    "diameter_mm": {
+      "median": 0.03660967473147897,
+      "p95": 0.6391008265983447,
+      "max": 1.210845510052183
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5778913192754165,
+      "p95": 2.0257137370955083,
+      "max": 2.6601256269180262
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.05994698851025104,
+      "p95": 0.5915523587423158,
+      "max": 1.0898303610443472
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_and_depth",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5778913192754165,
+      "p95": 2.0257137370955083,
+      "max": 2.6601256269180262
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.05994698851025104,
+      "p95": 0.5915523587423158,
+      "max": 1.0898303610443472
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_depth_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.008556396637706607,
+      "p95": 0.36043687316041334,
+      "max": 0.7398597181343308
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.01244138844030962,
+      "p95": 0.036639621784396975,
+      "max": 0.05661886568200658
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_outer_support",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5169187634671963,
+      "p95": 2.2507137370954853,
+      "max": 2.610125626918061
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.012665423669712406,
+      "p95": 0.44089240605853236,
+      "max": 0.9545834178008861
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.008556396637706607,
+      "p95": 0.36043687316041334,
+      "max": 0.7398597181343308
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.01244138844030962,
+      "p95": 0.036639621784396975,
+      "max": 0.05661886568200658
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_depth_same_pixels",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5735402875674664,
+      "p95": 2.0991822857306515,
+      "max": 2.9922236609799735
+    },
+    "normal_deg": {
+      "median": 0.08580202713559025,
+      "p95": 1.0265169360763051,
+      "max": 1.1832560130422072
+    },
+    "diameter_mm": {
+      "median": 0.03660967473147897,
+      "p95": 0.6391008265983447,
+      "max": 1.210845510052183
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "readout_axis_weights",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5735402875674664,
+      "p95": 2.066201002156548,
+      "max": 3.0406971010186576
+    },
+    "normal_deg": {
+      "median": 0.08580202713559025,
+      "p95": 1.0265169360763051,
+      "max": 1.1832560130422072
+    },
+    "diameter_mm": {
+      "median": 0.0393895809443906,
+      "p95": 0.6955866424578835,
+      "max": 1.3521402824825808
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "ideal_rgb",
+    "intervention": "readout_replay",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.5735402875674664,
+      "p95": 2.0991822857306515,
+      "max": 2.9922236609799735
+    },
+    "normal_deg": {
+      "median": 0.08580202713559025,
+      "p95": 1.0265169360763051,
+      "max": 1.1832560130422072
+    },
+    "diameter_mm": {
+      "median": 0.03660967473147897,
+      "p95": 0.6391008265983447,
+      "max": 1.210845510052183
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "frozen_baseline",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 0,
+    "center_mm": {
+      "median": 15.333214526775405,
+      "p95": 22.683241527951466,
+      "max": 23.177443527806638
+    },
+    "normal_deg": {
+      "median": 11.415349299976956,
+      "p95": 17.238589577468346,
+      "max": 18.685748788908707
+    },
+    "diameter_mm": {
+      "median": 12.899564075111641,
+      "p95": 32.214834323059875,
+      "max": 35.42973640087647
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 1,
+    "center_mm": {
+      "median": 6.212410956521125,
+      "p95": 9.819410491706263,
+      "max": 10.129882393680026
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 6.285502140726977,
+      "p95": 10.405941197676468,
+      "max": 10.925987565067311
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_and_depth",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 1.1878474148237201,
+      "p95": 2.6290676181129187,
+      "max": 2.7680093412504276
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.12097586459141468,
+      "p95": 0.7031831542828957,
+      "max": 1.2487354240990067
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_depth_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.008556396637706593,
+      "p95": 0.36043687316041334,
+      "max": 0.7398597181343308
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.012371137491334894,
+      "p95": 0.028980467510924392,
+      "max": 0.03262844138617049
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_outer_support",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 1,
+    "center_mm": {
+      "median": 5.7976352100675435,
+      "p95": 19.513100433596627,
+      "max": 25.434878435353053
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 3.1329683498871677,
+      "p95": 102.26003181649722,
+      "max": 211.4030316011212
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 2,
+    "center_mm": {
+      "median": 3.5657477511089604,
+      "p95": 6.87615312380946,
+      "max": 7.793751862635752
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 2.9353582293125333,
+      "p95": 6.29351131953817,
+      "max": 6.312399155058546
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "oracle_depth_same_pixels",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 3,
+    "center_mm": {
+      "median": 13.634635895826278,
+      "p95": 22.774430196654905,
+      "max": 22.85460087706114
+    },
+    "normal_deg": {
+      "median": 11.415349299976956,
+      "p95": 17.238589577468346,
+      "max": 18.685748788908707
+    },
+    "diameter_mm": {
+      "median": 11.720064550554785,
+      "p95": 19.42728199093641,
+      "max": 21.01609886804283
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "readout_axis_weights",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 0,
+    "center_mm": {
+      "median": 15.265766698741249,
+      "p95": 22.73638367087366,
+      "max": 23.29553717874484
+    },
+    "normal_deg": {
+      "median": 11.415349299976956,
+      "p95": 17.238589577468346,
+      "max": 18.685748788908707
+    },
+    "diameter_mm": {
+      "median": 12.803422824546287,
+      "p95": 31.172751377041788,
+      "max": 33.0918735001907
+    }
+  },
+  {
+    "layout": "far",
+    "condition": "stereo_raw",
+    "intervention": "readout_replay",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 0,
+    "center_mm": {
+      "median": 15.333214526775405,
+      "p95": 22.683241527951466,
+      "max": 23.177443527806638
+    },
+    "normal_deg": {
+      "median": 11.415349299976956,
+      "p95": 17.238589577468346,
+      "max": 18.685748788908707
+    },
+    "diameter_mm": {
+      "median": 12.899564075111641,
+      "p95": 32.214834323059875,
+      "max": 35.42973640087647
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "frozen_baseline",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 10,
+    "center_mm": {
+      "median": 1.6010947805422302,
+      "p95": 2.2738057336312107,
+      "max": 2.543872577132559
+    },
+    "normal_deg": {
+      "median": 0.4881948808852412,
+      "p95": 2.3206046444408,
+      "max": 2.345975950343036
+    },
+    "diameter_mm": {
+      "median": 0.11955420685087065,
+      "p95": 0.7079263145021384,
+      "max": 0.8966726560186156
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 1.8735595530090117,
+      "p95": 2.7853948946380123,
+      "max": 2.8557887409505986
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.07138903684689862,
+      "p95": 0.5586152186000604,
+      "max": 0.907826306144735
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_and_depth",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 1.8735595530090117,
+      "p95": 2.7853948946380123,
+      "max": 2.8557887409505986
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.07138903684689862,
+      "p95": 0.5586152186000604,
+      "max": 0.907826306144735
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_depth_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.0499999999999757,
+      "p95": 0.3411105622146756,
+      "max": 0.40758659795791724
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.013068091545026528,
+      "p95": 0.03786335582746448,
+      "max": 0.05515702239911047
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_outer_support",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 9,
+    "center_mm": {
+      "median": 1.9311103674154815,
+      "p95": 5.615693775785785,
+      "max": 5.627799929473253
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.0655406214264756,
+      "p95": 0.532167882233928,
+      "max": 0.7951951487789877
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_axis_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.0499999999999757,
+      "p95": 0.3411105622146756,
+      "max": 0.40758659795791724
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.013068091545026528,
+      "p95": 0.03786335582746448,
+      "max": 0.05515702239911047
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "oracle_depth_same_pixels",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 10,
+    "center_mm": {
+      "median": 1.6010947805422302,
+      "p95": 2.2738057336312107,
+      "max": 2.543872577132559
+    },
+    "normal_deg": {
+      "median": 0.4881948808852412,
+      "p95": 2.3206046444408,
+      "max": 2.345975950343036
+    },
+    "diameter_mm": {
+      "median": 0.11955420685087065,
+      "p95": 0.7079263145021384,
+      "max": 0.8966726560186156
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "readout_axis_weights",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 10,
+    "center_mm": {
+      "median": 1.632393377753758,
+      "p95": 2.296290473494717,
+      "max": 2.593838665718129
+    },
+    "normal_deg": {
+      "median": 0.4881948808852412,
+      "p95": 2.3206046444408,
+      "max": 2.345975950343036
+    },
+    "diameter_mm": {
+      "median": 0.08615601395840777,
+      "p95": 0.7340284023088365,
+      "max": 0.9212408970045438
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "ideal_rgb",
+    "intervention": "readout_replay",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 10,
+    "center_mm": {
+      "median": 1.6010947805422302,
+      "p95": 2.2738057336312107,
+      "max": 2.543872577132559
+    },
+    "normal_deg": {
+      "median": 0.4881948808852412,
+      "p95": 2.3206046444408,
+      "max": 2.345975950343036
+    },
+    "diameter_mm": {
+      "median": 0.11955420685087065,
+      "p95": 0.7079263145021384,
+      "max": 0.8966726560186156
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "frozen_baseline",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 5,
+    "center_mm": {
+      "median": 1.4863916109620143,
+      "p95": 2.2990925546005556,
+      "max": 2.348499770981567
+    },
+    "normal_deg": {
+      "median": 0.39890116467656334,
+      "p95": 1.1715543424423736,
+      "max": 1.5067652717052205
+    },
+    "diameter_mm": {
+      "median": 2.3307049486198315,
+      "p95": 7.396939474809324,
+      "max": 8.619336267891505
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 6,
+    "center_mm": {
+      "median": 1.3623384640028333,
+      "p95": 1.9258415627874772,
+      "max": 2.0241080601629
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 2.230054668727256,
+      "p95": 7.0206008982771655,
+      "max": 7.942344650832781
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_and_depth",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.858391056514485,
+      "p95": 2.104526526831898,
+      "max": 2.2028157638717847
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.046929422584995883,
+      "p95": 0.23891135552722637,
+      "max": 0.250729195352864
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_depth_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 0.06992985906719626,
+      "p95": 0.3361105622146827,
+      "max": 0.4575865979579348
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 0.013166969867146883,
+      "p95": 0.020644368206362833,
+      "max": 0.02490774867412726
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_outer_support",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 1,
+    "center_mm": {
+      "median": 9.665840353978886,
+      "p95": 11.126110238879571,
+      "max": 11.134511302703054
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 2.1453640528697817,
+      "p95": 5.491520734817001,
+      "max": 6.379515269359981
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_axis_outer_support_search",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 5,
+    "center_mm": {
+      "median": 1.306390976346315,
+      "p95": 2.463639032937161,
+      "max": 2.856248137364331
+    },
+    "normal_deg": {
+      "median": 4.2688682312579694e-07,
+      "p95": 1.2074182697257333e-06,
+      "max": 1.2074182697257333e-06
+    },
+    "diameter_mm": {
+      "median": 2.2840345235269552,
+      "p95": 5.345662027074206,
+      "max": 6.716286333710006
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "oracle_depth_same_pixels",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 12,
+    "center_mm": {
+      "median": 1.3901323586153516,
+      "p95": 2.267142714592659,
+      "max": 2.299894173467359
+    },
+    "normal_deg": {
+      "median": 0.39890116467656334,
+      "p95": 1.1715543424423736,
+      "max": 1.5067652717052205
+    },
+    "diameter_mm": {
+      "median": 0.1335362687382574,
+      "p95": 1.0377054801318593,
+      "max": 1.472199394997764
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "readout_axis_weights",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 5,
+    "center_mm": {
+      "median": 1.461515308569535,
+      "p95": 2.2506245306906267,
+      "max": 2.299894173467359
+    },
+    "normal_deg": {
+      "median": 0.39890116467656334,
+      "p95": 1.1715543424423736,
+      "max": 1.5067652717052205
+    },
+    "diameter_mm": {
+      "median": 2.35614588765215,
+      "p95": 7.414334046152966,
+      "max": 8.65812845784987
+    }
+  },
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "intervention": "readout_replay",
+    "n": 12,
+    "solved": 12,
+    "geometric_pass": 5,
+    "center_mm": {
+      "median": 1.4863916109620143,
+      "p95": 2.2990925546005556,
+      "max": 2.348499770981567
+    },
+    "normal_deg": {
+      "median": 0.39890116467656334,
+      "p95": 1.1715543424423736,
+      "max": 1.5067652717052205
+    },
+    "diameter_mm": {
+      "median": 2.3307049486198315,
+      "p95": 7.396939474809324,
+      "max": 8.619336267891505
+    }
+  }
+]

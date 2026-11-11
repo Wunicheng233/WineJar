@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "checked_branches": [
+    {
+      "layout": "close",
+      "method": "SimSense / noise",
+      "display_points": 6000,
+      "center_mm": 1.4854887212400418,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "FoundationStereo / noise",
+      "display_points": 6000,
+      "center_mm": 2.128056089207154,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "SimSense / clean",
+      "display_points": 6000,
+      "center_mm": 1.5040744786313915,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "FoundationStereo / clean",
+      "display_points": 6000,
+      "center_mm": 2.305249007820782,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "P2P input / raw",
+      "display_points": 6000,
+      "center_mm": 1.3951247175823491,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "P2P restored / raw",
+      "display_points": 6000,
+      "center_mm": 1.3046363774480136,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "P2P input / ideal",
+      "display_points": 6000,
+      "center_mm": 1.627947773031069,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "P2P restored / ideal",
+      "display_points": 6000,
+      "center_mm": 8.903447918506803,
+      "radius_predicted": true
+    },
+    {
+      "layout": "close",
+      "method": "L-NDF / raw",
+      "display_points": 6000,
+      "center_mm": 151.96775392636658,
+      "radius_predicted": false
+    },
+    {
+      "layout": "close",
+      "method": "L-NDF / ideal",
+      "display_points": 6000,
+      "center_mm": 131.8124940610327,
+      "radius_predicted": false
+    },
+    {
+      "layout": "close",
+      "method": "Ideal IR / control",
+      "display_points": 6000,
+      "center_mm": 1.4795125002974643,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "SimSense / noise",
+      "display_points": 6000,
+      "center_mm": 3.9372058351671377,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "FoundationStereo / noise",
+      "display_points": 6000,
+      "center_mm": 15.180799330214672,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "SimSense / clean",
+      "display_points": 6000,
+      "center_mm": 4.264309875628907,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "FoundationStereo / clean",
+      "display_points": 6000,
+      "center_mm": 15.255850195118663,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "P2P input / raw",
+      "display_points": 6000,
+      "center_mm": null,
+      "radius_predicted": false
+    },
+    {
+      "layout": "far",
+      "method": "P2P restored / raw",
+      "display_points": 6000,
+      "center_mm": 4.290335686130347,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "P2P input / ideal",
+      "display_points": 6000,
+      "center_mm": 0.9400163573027854,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "P2P restored / ideal",
+      "display_points": 6000,
+      "center_mm": 0.5268108952791064,
+      "radius_predicted": true
+    },
+    {
+      "layout": "far",
+      "method": "L-NDF / raw",
+      "display_points": 6000,
+      "center_mm": 168.74894501237986,
+      "radius_predicted": false
+    },
+    {
+      "layout": "far",
+      "method": "L-NDF / ideal",
+      "display_points": 6000,
+      "center_mm": 36.92817456787917,
+      "radius_predicted": false
+    },
+    {
+      "layout": "far",
+      "method": "Ideal IR / control",
+      "display_points": 6000,
+      "center_mm": 1.1790699006402674,
+      "radius_predicted": true
+    }
+  ],
+  "no_inference": true,
+  "pose_only_never_fabricates_radius": true,
+  "native_tk_window_visible": true,
+  "interaction_checks": [
+    "method",
+    "layout",
+    "backend",
+    "pose_only",
+    "next_case",
+    "truth_toggle"
+  ],
+  "display_source_sha256": {
+    "neck_localization/capability_viewer.py": "7623cd4fd15421ffd7ff083f045c0fd233f71ec7ea95703c5c278e8127e0006b",
+    "scripts/view_capability_audit.py": "dd78dcca6a3650d8e53eb1c7d285ad1a209ade1dc85ea2f6a2702903eda99a01"
+  },
+  "preview_sha256": {
+    "foundation.png": "fe3a4ccf95cdcbf00e8595864d546b6f7183d32a1629e71e17a7118d2d4d94b6",
+    "p2p_ideal.png": "b27923d875fe4387f49651254884c15ccc832b551d2881264dcfe19ae166400d",
+    "lndf.png": "bd465c414c00b4a27584efc55dccb1fa286d3028fb9f5f6e3aed2d0c66026fb7",
+    "actual_ir.png": "d1ec83f668d11b9ca19c802a2ea8a8183a855b77ce724a41633e84527ef21af5"
+  },
+  "core_tests": {
+    "run": 98,
+    "passed": 96,
+    "skipped": 2,
+    "failures": 0
+  }
+}

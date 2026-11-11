@@ -1,0 +1,34 @@
+{
+  "case": "nominal_014",
+  "source_records_sha256": "4c8f6ad5202da6b6c1d8b16ed54a28f1dc136f9e113577ae5521541b84f88ff8",
+  "same_viewpoint_for_all_camera_sets": true,
+  "truth_for_display_only": true,
+  "no_estimator_rerun": true,
+  "method": "region_equal_trust",
+  "results": [
+    {
+      "camera_set": "cam_a",
+      "accepted": true,
+      "center_mm": 1.665147174328509,
+      "normal_deg": 0.7544291067097103,
+      "reasons": [],
+      "observation_points_before_display_thinning": 33673
+    },
+    {
+      "camera_set": "cam_a,cam_b",
+      "accepted": true,
+      "center_mm": 1.0792907635801947,
+      "normal_deg": 0.135515829420041,
+      "reasons": [],
+      "observation_points_before_display_thinning": 67323
+    },
+    {
+      "camera_set": "all",
+      "accepted": true,
+      "center_mm": 1.1510476827361555,
+      "normal_deg": 0.03021550132638162,
+      "reasons": [],
+      "observation_points_before_display_thinning": 100790
+    }
+  ]
+}

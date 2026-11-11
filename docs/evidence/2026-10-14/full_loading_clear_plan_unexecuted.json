@@ -1,0 +1,297 @@
+{
+  "material": "clear",
+  "start_pose": [
+    365.453827,
+    -123.818871,
+    284.064087,
+    178.45756,
+    1.119502,
+    -0.049905
+  ],
+  "tcp": [
+    0.0,
+    0.0,
+    116.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "source": null,
+  "destination": null,
+  "source_pixel": null,
+  "destination_pixel": null,
+  "extra_compression_mm": 0,
+  "placement_yaw_delta": 0,
+  "steps": [
+    {
+      "label": "level",
+      "pose": [
+        365.453827,
+        -123.818871,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "speed": 30,
+      "event": null
+    },
+    {
+      "label": "observation",
+      "pose": [
+        419.163,
+        -267.385,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "speed": 40,
+      "event": null
+    }
+  ],
+  "checks": [
+    {
+      "label": "level",
+      "pose": [
+        365.453827,
+        -123.818871,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 3.810940917503558e-05
+    },
+    {
+      "label": "observation",
+      "pose": [
+        368.8106503125,
+        -132.7917540625,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.2180225120464971
+    },
+    {
+      "label": "observation",
+      "pose": [
+        372.167473625,
+        -141.764637125,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.239397589054052
+    },
+    {
+      "label": "observation",
+      "pose": [
+        375.52429693749997,
+        -150.7375201875,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.2596089725817645
+    },
+    {
+      "label": "observation",
+      "pose": [
+        378.88112025,
+        -159.71040325,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.2788419315108754
+    },
+    {
+      "label": "observation",
+      "pose": [
+        382.2379435625,
+        -168.6832863125,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.2972194092464395
+    },
+    {
+      "label": "observation",
+      "pose": [
+        385.594766875,
+        -177.656169375,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.3185646041763732
+    },
+    {
+      "label": "observation",
+      "pose": [
+        388.9515901875,
+        -186.62905243749998,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.3618099469063125
+    },
+    {
+      "label": "observation",
+      "pose": [
+        392.30841350000003,
+        -195.6019355,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.4056256104319473
+    },
+    {
+      "label": "observation",
+      "pose": [
+        395.6652368125,
+        -204.5748185625,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.4501379532529128
+    },
+    {
+      "label": "observation",
+      "pose": [
+        399.022060125,
+        -213.547701625,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.4954835791526335
+    },
+    {
+      "label": "observation",
+      "pose": [
+        402.3788834375,
+        -222.5205846875,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.5418127522928344
+    },
+    {
+      "label": "observation",
+      "pose": [
+        405.73570675,
+        -231.49346774999998,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.5893235481594274
+    },
+    {
+      "label": "observation",
+      "pose": [
+        409.09253006250003,
+        -240.4663508125,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.63815940072503
+    },
+    {
+      "label": "observation",
+      "pose": [
+        412.449353375,
+        -249.43923387499999,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.6886549892589358
+    },
+    {
+      "label": "observation",
+      "pose": [
+        415.8061766875,
+        -258.4121169375,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.7409742383012343
+    },
+    {
+      "label": "observation",
+      "pose": [
+        419.163,
+        -267.385,
+        284.064,
+        178.45756,
+        1.119502,
+        -0.049905
+      ],
+      "tcp_limit": false,
+      "joint_limit": false,
+      "joint_step": 1.7954381667429118
+    }
+  ],
+  "inputs": {
+    "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/recommissioning/2026-10-14/new_global_camera_candidate.json": "e779a012f39124738c868e4f57866801788c6211029117d58958af514d63c906"
+  },
+  "passed": true
+}

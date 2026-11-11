@@ -1,0 +1,9 @@
+{
+  "all_48_original_fields_unchanged": true,
+  "all_13_frozen_source_hashes_unchanged": true,
+  "three_mm_summaries_equal_previous_width_sweep": true,
+  "default_band_width_m": 0.003,
+  "new_unseen_scenes_generated": false,
+  "legacy_rows_filtered": false,
+  "band_tests": "6 passed in 0.05s"
+}

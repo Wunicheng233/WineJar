@@ -1,0 +1,10 @@
+{
+  "scripts/run_depth_bias_stage1.py": "0a40863738fe543c3011660f67eaa3ab0c6db577bad6b08bdceda62e5e8d4060",
+  "scripts/report_depth_bias_stage1.py": "0939871002a90dabde6849cf5a3428158bf485bb987e7f3309e7a387fcc141f5",
+  "neck_localization/depth_perturbation.py": "2d5b458999aaf9871c1b57aa2dd3536b561248a0a23966c1abd575e052c6c07d",
+  "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+  "neck_localization/inspection_viewer.py": "dbe24e5df8f993818850e534d70650b3156613061c4f063cc5ff95edccc4b67f",
+  "scripts/view_neck_localization.py": "8d265727082e6c623cd67258c46d5b105d104cfebac112b03e800e7e28748405",
+  "tests/neck_localization/test_depth_perturbation.py": "be093013aa22b4ef7133f272e9e75f1cdaa85839c887bd56651afe06183a23a6",
+  "experiments/neck_localization/configs/depth_bias_stage1_v1.json": "5e74ec9e2f1efad77e59d8d0e265f7e178fa31f785e9ecb5e6553063f7e0b5d8"
+}

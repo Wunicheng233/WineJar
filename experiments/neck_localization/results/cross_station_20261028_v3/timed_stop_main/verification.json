@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "zero_stop_retains_visual_error": true,
+  "zero_stop_has_no_cycle_dependence": true,
+  "bounded_stop_lipschitz_checks": true,
+  "previous_inputs_unchanged": true,
+  "no_encoder_or_runtime_observation": true,
+  "conditional_only_not_measured_probability": true,
+  "groups": 144,
+  "validator_sha256": "8c6488e3ccec0f6b4742c2ca5abd61716188a73bf67685d1e8b72a4ed1dacb5f",
+  "samples_sha256": "130d7a6bf919ea95d4f2e61fc5210b433aa18861d8ed7e269be60cc082002920"
+}

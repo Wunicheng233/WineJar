@@ -1,0 +1,110 @@
+[
+  {
+    "group": "nominal",
+    "method": "fixed_equal_trust",
+    "camera_set": "cam_a",
+    "total": 24,
+    "success": 23,
+    "rejected": 1,
+    "false_accepted": 0
+  },
+  {
+    "group": "nominal",
+    "method": "fixed_equal_trust",
+    "camera_set": "cam_a,cam_b",
+    "total": 24,
+    "success": 24,
+    "rejected": 0,
+    "false_accepted": 0
+  },
+  {
+    "group": "nominal",
+    "method": "fixed_equal_trust",
+    "camera_set": "all",
+    "total": 24,
+    "success": 23,
+    "rejected": 1,
+    "false_accepted": 0
+  },
+  {
+    "group": "nominal",
+    "method": "region_equal_trust",
+    "camera_set": "cam_a",
+    "total": 24,
+    "success": 19,
+    "rejected": 5,
+    "false_accepted": 0
+  },
+  {
+    "group": "nominal",
+    "method": "region_equal_trust",
+    "camera_set": "cam_a,cam_b",
+    "total": 24,
+    "success": 22,
+    "rejected": 2,
+    "false_accepted": 0
+  },
+  {
+    "group": "nominal",
+    "method": "region_equal_trust",
+    "camera_set": "all",
+    "total": 24,
+    "success": 23,
+    "rejected": 1,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "fixed_equal_trust",
+    "camera_set": "cam_a",
+    "total": 12,
+    "success": 5,
+    "rejected": 7,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "fixed_equal_trust",
+    "camera_set": "cam_a,cam_b",
+    "total": 12,
+    "success": 9,
+    "rejected": 3,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "fixed_equal_trust",
+    "camera_set": "all",
+    "total": 12,
+    "success": 11,
+    "rejected": 1,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "region_equal_trust",
+    "camera_set": "cam_a",
+    "total": 12,
+    "success": 3,
+    "rejected": 9,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "region_equal_trust",
+    "camera_set": "cam_a,cam_b",
+    "total": 12,
+    "success": 8,
+    "rejected": 4,
+    "false_accepted": 0
+  },
+  {
+    "group": "stress",
+    "method": "region_equal_trust",
+    "camera_set": "all",
+    "total": 12,
+    "success": 11,
+    "rejected": 1,
+    "false_accepted": 0
+  }
+]

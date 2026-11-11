@@ -1,0 +1,355 @@
+{
+  "total": 28,
+  "retained": 11,
+  "excluded": 17,
+  "entries": [
+    {
+      "jar_id": "old12/structural_test_nominal_000",
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_000/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.72729952029512,
+      "total_mouth_tilt_deg": 1.9543176641850513,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_001",
+      "cohort": "old12",
+      "case": "structural_test_nominal_001",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_001/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 13.226557843150905,
+      "total_mouth_tilt_deg": 6.123712191016663,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_002",
+      "cohort": "old12",
+      "case": "structural_test_nominal_002",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_002/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.019052390634986,
+      "total_mouth_tilt_deg": 5.59417056076797,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_003",
+      "cohort": "old12",
+      "case": "structural_test_nominal_003",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_003/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 12.310451152413481,
+      "total_mouth_tilt_deg": 1.0130682904363137,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_004",
+      "cohort": "old12",
+      "case": "structural_test_nominal_004",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_004/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.520280563731163,
+      "total_mouth_tilt_deg": 4.284947680204196,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_005",
+      "cohort": "old12",
+      "case": "structural_test_nominal_005",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_005/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 13.513196815862997,
+      "total_mouth_tilt_deg": 3.4779717332374696,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_006",
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_006/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.715112752971919,
+      "total_mouth_tilt_deg": 2.7596784801204826,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_nominal_007",
+      "cohort": "old12",
+      "case": "structural_test_nominal_007",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_007/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 13.18482680408431,
+      "total_mouth_tilt_deg": 3.2406478395292626,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_stress_000",
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_000/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 6.2,
+      "total_mouth_tilt_deg": 11.675533826644704,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_stress_001",
+      "cohort": "old12",
+      "case": "structural_test_stress_001",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_001/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 17.64921896137009,
+      "total_mouth_tilt_deg": 9.949001458472594,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_stress_002",
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_002/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 6.2,
+      "total_mouth_tilt_deg": 8.10503836384584,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old12/structural_test_stress_003",
+      "cohort": "old12",
+      "case": "structural_test_stress_003",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_003/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 17.412496274728824,
+      "total_mouth_tilt_deg": 11.853379897965153,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_000",
+      "cohort": "old8",
+      "case": "confirmation_nominal_000",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_000/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 11.541713675942255,
+      "total_mouth_tilt_deg": 3.4134278222809598,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_001",
+      "cohort": "old8",
+      "case": "confirmation_nominal_001",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_001/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.024536363677875,
+      "total_mouth_tilt_deg": 3.6373100325285606,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_002",
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_002/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.73494098738861,
+      "total_mouth_tilt_deg": 0.35228380634362805,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_003",
+      "cohort": "old8",
+      "case": "confirmation_nominal_003",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_003/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.318956912116322,
+      "total_mouth_tilt_deg": 1.2027076884561831,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_004",
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_004/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.612240065245015,
+      "total_mouth_tilt_deg": 4.648985979147573,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_005",
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_005/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 9.580312653952921,
+      "total_mouth_tilt_deg": 4.192209468089812,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_006",
+      "cohort": "old8",
+      "case": "confirmation_nominal_006",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_006/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 11.316145827967773,
+      "total_mouth_tilt_deg": 4.840190231337381,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "old8/confirmation_nominal_007",
+      "cohort": "old8",
+      "case": "confirmation_nominal_007",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_007/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.339412937520581,
+      "total_mouth_tilt_deg": 1.0758146483386368,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_000",
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_000/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.74124603536541,
+      "total_mouth_tilt_deg": 2.310365499791286,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_001",
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 8.0679372085711,
+      "total_mouth_tilt_deg": 1.3723747657085856,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_002",
+      "cohort": "new8",
+      "case": "confirmation_nominal_002",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_002/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 10.475981648532361,
+      "total_mouth_tilt_deg": 1.9367567622426738,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_003",
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 9.524589391647197,
+      "total_mouth_tilt_deg": 4.02652715449576,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_004",
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_004/model_manifest.json",
+      "retained": true,
+      "reasons": [],
+      "physical_neck_length_mm": 9.351958762323589,
+      "total_mouth_tilt_deg": 3.391253780292116,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_005",
+      "cohort": "new8",
+      "case": "confirmation_nominal_005",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_005/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 12.367320381014515,
+      "total_mouth_tilt_deg": 3.5800419159124113,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_006",
+      "cohort": "new8",
+      "case": "confirmation_nominal_006",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_006/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 13.540741433140521,
+      "total_mouth_tilt_deg": 4.374497316146311,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    },
+    {
+      "jar_id": "new8/confirmation_nominal_007",
+      "cohort": "new8",
+      "case": "confirmation_nominal_007",
+      "source_model": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_007/model_manifest.json",
+      "retained": false,
+      "reasons": [
+        "physical_neck_length_outside_6_to_10_mm"
+      ],
+      "physical_neck_length_mm": 11.381687137784224,
+      "total_mouth_tilt_deg": 0.2430798427689176,
+      "criterion": "model_physical_neck_not_observed_near_min_or_fit_pool"
+    }
+  ],
+  "rule": {
+    "physical_neck_min_m": 0.006,
+    "physical_neck_max_m": 0.01,
+    "mouth_tilt_max_deg": 15
+  },
+  "no_source_case_deleted_or_rescaled": true
+}

@@ -1,0 +1,2354 @@
+[
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "ea2adaf612005e4cc820558d76988936978c904bc8f8acdfc99c140f8fa03497",
+          "e942d349f4ef3eff123d75d9d8ea5dfaa346455b34c93a2bfd9e2f0ddc53f60e"
+        ],
+        "prediction_sha256": "95270fb6f9c9625fda8c90244b322ebdec932a0c27e3307da523ebd46b4e5a4f",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_000/cam_a/clean.npz",
+      "prediction_sha256": "95270fb6f9c9625fda8c90244b322ebdec932a0c27e3307da523ebd46b4e5a4f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 108139,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 108139,
+      "native_quantized_valid": 108139,
+      "aligned_valid": 138863,
+      "foreground_sha256": "9cb8982d3f40364f739208e2bab2553811e63d798114f147b67fac76bb7fd870",
+      "ordinary_RGB_sha256": "4fa04822a0be501f31729bc7302e5ecb3345dc5217ab3c99d2d035ffaf693061"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "9e2753be87a55e69bf053bad234bef3960c8e39cf7628afff5eff48f30a4be99",
+          "2c3e70176197e6138c88cef9c8ee13528c7bad9d25fa591eac63144e2a8d2c4d"
+        ],
+        "prediction_sha256": "75123ec5c6d697572989d5a80fd3ed987d509d7246f0019bc9b68dff08a5e31d",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_000/cam_b/clean.npz",
+      "prediction_sha256": "75123ec5c6d697572989d5a80fd3ed987d509d7246f0019bc9b68dff08a5e31d",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 108936,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 108936,
+      "native_quantized_valid": 108936,
+      "aligned_valid": 140144,
+      "foreground_sha256": "765d0c81dc8ddd50859d27a756a13c45a7f866354ea07efcc97c0e39d8c5b3d4",
+      "ordinary_RGB_sha256": "9543666a211732f34e044b883d1f66900afec0e0ff2b6bf43ef165926acbc87e"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "10c92d7cd3b16994915402c802f99204b8399cf2f9b40bbcf9f32c416ddc7661",
+          "7ac8ad2bccf80f79de6269cbef1e63bef35d2b6053a160f5464877c989f92bce"
+        ],
+        "prediction_sha256": "0c89a5ea2e2e2a44293e6f20a58fb86a1e41bfb20c59f1d2b95d1ffcebf503ef",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_000/cam_c/clean.npz",
+      "prediction_sha256": "0c89a5ea2e2e2a44293e6f20a58fb86a1e41bfb20c59f1d2b95d1ffcebf503ef",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 99523,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 99523,
+      "native_quantized_valid": 99523,
+      "aligned_valid": 137174,
+      "foreground_sha256": "71c70cf8b851585823ded913d9836ed6277d0b5c55f88aab18117e65f8ab2069",
+      "ordinary_RGB_sha256": "0bb91009ab7c7f7573bcb63d766b6406d599e0500bac791a3909585db840d962"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "734291f5391aab937672fdab053efc10feffff6270a912e6bd48fee2292a8168",
+          "d99ca30fa435ba4347c5e5ab52cfb27605c10e98b27b575b2915986aff85f355"
+        ],
+        "prediction_sha256": "c14f010ec1f42ed8f53cb46afeff4230e18518d908ae15a0d75add6b3ca2c845",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_001/cam_a/clean.npz",
+      "prediction_sha256": "c14f010ec1f42ed8f53cb46afeff4230e18518d908ae15a0d75add6b3ca2c845",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 87657,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 87657,
+      "native_quantized_valid": 87657,
+      "aligned_valid": 98816,
+      "foreground_sha256": "8568f23128e11012d02642c18593968c8c9f6ecefe26acca451eafcf26cb63ec",
+      "ordinary_RGB_sha256": "189790500a58fa54195783cc9219fbb4cff459426fb19cd975de3c1c97096fe3"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7973f63d9f9b9d4797bffa924d10a0cea6565caf2226aaa594f3bca64c9a1d00",
+          "531c10ee6b67e591ba9da5b684934307f3eeba9419e8fc0b33b03e8bcfca213d"
+        ],
+        "prediction_sha256": "dd4cbcb429b1e48c350f691f6ea6753e92262a7fd556d515fb9a157266691651",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_001/cam_b/clean.npz",
+      "prediction_sha256": "dd4cbcb429b1e48c350f691f6ea6753e92262a7fd556d515fb9a157266691651",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 87174,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 87174,
+      "native_quantized_valid": 87174,
+      "aligned_valid": 98003,
+      "foreground_sha256": "6225f6cb31492451e1504e8436c54e0f5fb8b906a5fa5a8cf8735c7833687d55",
+      "ordinary_RGB_sha256": "96f84cb323e505cdc0974bbd99122c03e390a72f4c37bb84c338c51bfe076783"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "f6c35f9e7291660e5442206b8d96ab5d4cdfda3a25da33969a4bc52875139caf",
+          "dc14a235948a47f3f707dee6006c051e06e83001651d8ec47c8d94b3ab76711e"
+        ],
+        "prediction_sha256": "4573f9c816e868f90051be5647af2082821fa0c5cdf42ba5e9c45d37cb1146ff",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_001/cam_c/clean.npz",
+      "prediction_sha256": "4573f9c816e868f90051be5647af2082821fa0c5cdf42ba5e9c45d37cb1146ff",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 78839,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 78839,
+      "native_quantized_valid": 78839,
+      "aligned_valid": 94839,
+      "foreground_sha256": "552be2ef9dbe97528144253ee125fced72e67da8153f7886769d93943787b276",
+      "ordinary_RGB_sha256": "f84e80e9c3e7c64110251b21d5d4c51619f3c81142da2cc45b705c8413cbe2cf"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_004/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "79c28a8aa337af19b37af864a70a74a890a1d5924ca569cc4f221bd02f93da12",
+          "b5ae154960946cd7bbfba12b7978627b41797367b39717c25f37ca7a2010ca20"
+        ],
+        "prediction_sha256": "d2dec18a4a1e7069383dfc75848f0566db2ef509cf5cc754181bbbc62b0f2e25",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_004/cam_a/clean.npz",
+      "prediction_sha256": "d2dec18a4a1e7069383dfc75848f0566db2ef509cf5cc754181bbbc62b0f2e25",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 85238,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 85238,
+      "native_quantized_valid": 85238,
+      "aligned_valid": 94155,
+      "foreground_sha256": "b0491808de8b918c4a95e0e2d85735640fbc34751e6d79498f430f3d18c4839d",
+      "ordinary_RGB_sha256": "126d1464c14ccf97cb245ea022ada41380004de24781470536a1df9cba510753"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_004/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "90273fd481ec9f8212e2a709cc12546fe2491f822956305240fae947e386efcd",
+          "ed398bd28f076bb3c4297e6ef12832c6dd28e1a6dfa01c5a6a108f759ee099e4"
+        ],
+        "prediction_sha256": "a82b0d3ab4c616db620a9aff4c85b88ffd7605e12627dcf9fb577b3771f7d5a2",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_004/cam_b/clean.npz",
+      "prediction_sha256": "a82b0d3ab4c616db620a9aff4c85b88ffd7605e12627dcf9fb577b3771f7d5a2",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 85169,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 85169,
+      "native_quantized_valid": 85169,
+      "aligned_valid": 94154,
+      "foreground_sha256": "0bb8b54f98cc05b17e40acb395f16e469c806eba697853cc1a8730629009f456",
+      "ordinary_RGB_sha256": "879eda0e7836f12e533e57e178fbf13970ccc6a28d52f1ade7589f52477c080a"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_004/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a367af84016fb42ef7de0ee462900d112fedc1ed8e59d00f28314d9568ae6526",
+          "ba7dbf591f8ec393d1c05190369cb0a627ccaffa330b805556a4625c87169063"
+        ],
+        "prediction_sha256": "171da36729de1c8e85ad517e10273fe6c4558ce960b42c87805c74c204f25b9b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_004/cam_c/clean.npz",
+      "prediction_sha256": "171da36729de1c8e85ad517e10273fe6c4558ce960b42c87805c74c204f25b9b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 76961,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 76961,
+      "native_quantized_valid": 76961,
+      "aligned_valid": 91239,
+      "foreground_sha256": "6b7917f1917d53054548d11000de96db1578651c7a9f7ffbe71b9e0b2fa892dd",
+      "ordinary_RGB_sha256": "bf7e3f11289e64ff7ead0d510845f5df692b5a6399fa9ed6c382ab84bb5c7459"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_002/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "bce24b1b6f12dea9576a144f27bd5bf3915d572536f8c86f379a8a67f79ddadf",
+          "b538078e0de2e95cfe34aa578f06bb8149a0c3be7fd4bfcfb3b08efe4b47298d"
+        ],
+        "prediction_sha256": "04cfb80a46db83d6585480fdfd603e3d00602e8b462cff2633f1f3a8b14c8a82",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_002/cam_a/clean.npz",
+      "prediction_sha256": "04cfb80a46db83d6585480fdfd603e3d00602e8b462cff2633f1f3a8b14c8a82",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96828,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96828,
+      "native_quantized_valid": 96828,
+      "aligned_valid": 116886,
+      "foreground_sha256": "f78358238899a95d4be120a390d7868c1214f52ef58fe94b33fe82e043055ed6",
+      "ordinary_RGB_sha256": "f69a28d2fcab6de2dbc41fe1a9f0ec3a269c547dffb6b7222c2c074efa1fb872"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_002/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "65c28b39a6354ff77eac19cd2e4dd23e56062c975a5b54ff4e404260574f2205",
+          "833f3d93a07e04a2114f8f167e9a68df3a59019253a70ab5e11dddf0c4c417a3"
+        ],
+        "prediction_sha256": "ace8c93762d401a655d43b203c859572e067f97666a8069587ddf06f54c19956",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_002/cam_b/clean.npz",
+      "prediction_sha256": "ace8c93762d401a655d43b203c859572e067f97666a8069587ddf06f54c19956",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96462,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96462,
+      "native_quantized_valid": 96462,
+      "aligned_valid": 116195,
+      "foreground_sha256": "814e47ff7505b2cab606a2354aa5a3e6180c05c5c75f924b29a6d7e25a8c1698",
+      "ordinary_RGB_sha256": "4eb15057bf679cb6681725afdfc4ab328becb7909f9bed2b943fe5e4399fc95b"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_002/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "10e24ac4e4f14191552bfd210fdbceabf4cd7fcfd2ff485cbd3d257abf88297f",
+          "74955c324b77994ebbb0ccf80308837f2c4404756b9b2cd72c0d131c714f1978"
+        ],
+        "prediction_sha256": "f520bab9ff685b18018918fd7052e229c1a618c1bd9317a4d45fff8d4795d4f4",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_002/cam_c/clean.npz",
+      "prediction_sha256": "f520bab9ff685b18018918fd7052e229c1a618c1bd9317a4d45fff8d4795d4f4",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 87618,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 87618,
+      "native_quantized_valid": 87618,
+      "aligned_valid": 113015,
+      "foreground_sha256": "9ad288cb459777d60745cde62d94ec8df7a6c0b3b65d0b395ca56d9cfd5ecb39",
+      "ordinary_RGB_sha256": "43f7a4382943cf0d3ebd44f3833fe869f87c2959b9f31e4e91f3928c70566c81"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_003/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a82f02fb001db790e5016b5928003c591eeef84f613bd6a93c0d67b60c6e4096",
+          "49738c46688e9dcb5ec441e0cbe729820f50d8cabe8b37c93dc05b6de8f754fc"
+        ],
+        "prediction_sha256": "1d02192d0ea7be19c23a0a108b86ac67b8c422b243770ad73bfe2771e39302ae",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_003/cam_a/clean.npz",
+      "prediction_sha256": "1d02192d0ea7be19c23a0a108b86ac67b8c422b243770ad73bfe2771e39302ae",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 113333,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 113333,
+      "native_quantized_valid": 113333,
+      "aligned_valid": 148795,
+      "foreground_sha256": "aa0d585375eabcd552214d5f9e34b340ba7de5c46ead27650d9a9540e3d04041",
+      "ordinary_RGB_sha256": "0dd38e11fea796bbcb3678feabb3e3dd47167bbf47af8f723da0dc0d9d459104"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_003/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "38cd5e4548597244286a8e7163ac148864c678a58d99ac6c61ed164756be4af2",
+          "3ff4123c581973a2cec96d5b7b2f1bc38ce27ddcf3859906b739eacf3f6b8348"
+        ],
+        "prediction_sha256": "893751e34c1d6fb0b15ef433fcba240a4b92f4634f9cf71ed51a8ad176b44e03",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_003/cam_b/clean.npz",
+      "prediction_sha256": "893751e34c1d6fb0b15ef433fcba240a4b92f4634f9cf71ed51a8ad176b44e03",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 113587,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 113587,
+      "native_quantized_valid": 113587,
+      "aligned_valid": 148984,
+      "foreground_sha256": "418fa31aa867794d77a395df452da88c039778ab320ab8684ffa3b18b94c8eb9",
+      "ordinary_RGB_sha256": "b3ce452120cb44792a22fbd3fb3c43072966fae5c7df069e385b8e17cd3f9edf"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_003/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "d0f22b8b53e266a090d1e43284571cac83ee5d06a617475b4568f8eb31cd82c4",
+          "a376d7b1cbc61193ff0b819f874a4c72e1a88816e006c16fce6f2a49b0f4b816"
+        ],
+        "prediction_sha256": "ad87ceb2797f2e3335c25f0b5c58bb7a4443cdea695ba6b68661c8f7ad402669",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_003/cam_c/clean.npz",
+      "prediction_sha256": "ad87ceb2797f2e3335c25f0b5c58bb7a4443cdea695ba6b68661c8f7ad402669",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 103944,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 103944,
+      "native_quantized_valid": 103944,
+      "aligned_valid": 145869,
+      "foreground_sha256": "80e241fcb5195eae25e926fef94dab2167e0bce92419be2ee9ecfc6aff74404b",
+      "ordinary_RGB_sha256": "22edb0e5c5216e767bed13d283c63ced395e27ffa7d864c3047ee25c2ac9c86f"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_005/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "6cdda0593dcd88cc54e0bb67026665a4d4ad86b090c4c563ed342cc38632c46d",
+          "1b6aa0ee2d703ec57d9f7ee40987bf83d18b8092c22893b61f170e15d59c4ea7"
+        ],
+        "prediction_sha256": "bb172d8eec883acba3648870ed44462eec20571fc5499d7ab60da83b2317273a",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_005/cam_a/clean.npz",
+      "prediction_sha256": "bb172d8eec883acba3648870ed44462eec20571fc5499d7ab60da83b2317273a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96017,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96017,
+      "native_quantized_valid": 96017,
+      "aligned_valid": 115445,
+      "foreground_sha256": "41db2af4adce4a0fe371becf201801f2b37d26b18d341817cc583329b72acffa",
+      "ordinary_RGB_sha256": "457274db75283894ea253caa7c505d5fabae62a495d6e2e20981c8b748c3b5d2"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_005/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7b3e9fb67b7524899f475871ebd76403a647db296804bb522ae13df459e9c3c4",
+          "dbcf299447f6f43f61c1e34fa806be12a4834b0e29c978f8ee07de686a515ca9"
+        ],
+        "prediction_sha256": "4db3768a7123066160970489d40d52c5f422b35828abdf642cf38a9760abd427",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_005/cam_b/clean.npz",
+      "prediction_sha256": "4db3768a7123066160970489d40d52c5f422b35828abdf642cf38a9760abd427",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96331,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96331,
+      "native_quantized_valid": 96331,
+      "aligned_valid": 116081,
+      "foreground_sha256": "6747942fdafbba8bde004082e167b3df53aa4c96a43e9ebc1d0ec17de80ae4b9",
+      "ordinary_RGB_sha256": "abdba86645e9aff86a15359303c3b1ff09e135d34e1e6126dfedbc8220aff29c"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_005/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "37fc715e114d0dc8e422534b225773fac6793063c77b8521cb757baa740f7810",
+          "4a0eb336fee071d9bfa8cb991257d0da530fba5cbf43ce00135885b710d29a47"
+        ],
+        "prediction_sha256": "8fb176a97180cd4656d4921d9d5ceed4acc3c75fa5b6a26d8001e8870f051a6b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_005/cam_c/clean.npz",
+      "prediction_sha256": "8fb176a97180cd4656d4921d9d5ceed4acc3c75fa5b6a26d8001e8870f051a6b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 88059,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 88059,
+      "native_quantized_valid": 88059,
+      "aligned_valid": 113862,
+      "foreground_sha256": "e768e2f40e409d583839bd5413862abc9dcd6fd02f3830a7a835c0668ab6e3b4",
+      "ordinary_RGB_sha256": "5b6ce3ec2dc4112312916cb46b3b3bff6858c46301fffa78b70f433bda894cde"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_007/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "4b96fa2d4d266726b8faa98a7ffc1c0c8b1a74e6bdd480db2dc555c2ff787a76",
+          "fb1dd14cd6a5fca6ab88a6083cd229f68a55167211e7e174e4006a4eb2549668"
+        ],
+        "prediction_sha256": "54ca04096eadd2fd53855deac80923ad997cf5c8faa3d1030acc847f591551dc",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_007/cam_a/clean.npz",
+      "prediction_sha256": "54ca04096eadd2fd53855deac80923ad997cf5c8faa3d1030acc847f591551dc",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96451,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96451,
+      "native_quantized_valid": 96451,
+      "aligned_valid": 115352,
+      "foreground_sha256": "f168b1e4dbb884fd3184d0db4ba55e3cdba9df9c74e48030ed23496d001db781",
+      "ordinary_RGB_sha256": "e0a00aeb07f60c5e2aa2807e28148721ee4bd729cc5966d3dbb34b92d3b0cc96"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_007/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "f6ab33659ec75d72c5202e0626f89c1dcfbed6ecda622c9ef69f2bf0e2ca20ea",
+          "a12701fec39c5929fff3910a0ee9b69504e4e352c40e4df10332d08a76d943c2"
+        ],
+        "prediction_sha256": "7f94917b95e5af91b64d6b0e61578d19ba17e56af5ae4e55691b17ce629ccaa2",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_007/cam_b/clean.npz",
+      "prediction_sha256": "7f94917b95e5af91b64d6b0e61578d19ba17e56af5ae4e55691b17ce629ccaa2",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 96729,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 96729,
+      "native_quantized_valid": 96729,
+      "aligned_valid": 115698,
+      "foreground_sha256": "0ba162a157013788cbac780c5e9f6ae388a818520257691cadda17aa1cff01f9",
+      "ordinary_RGB_sha256": "539237cbe0e69f86b77916e07ad67c682688bdf3f865eeaeee4160af15819639"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_007/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "ca2c1abe641939a50923d483855d5ccf62b691b69d4251be17753020d3af1512",
+          "b16121e6415128d08d5a692e5918bbed4fce99b80235ea064f922aee61e0b646"
+        ],
+        "prediction_sha256": "c24136dd6e17c8b8a39e532d8695963d8fefad11118bd11f01fccb274710fd10",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_007/cam_c/clean.npz",
+      "prediction_sha256": "c24136dd6e17c8b8a39e532d8695963d8fefad11118bd11f01fccb274710fd10",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 87764,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 87764,
+      "native_quantized_valid": 87764,
+      "aligned_valid": 113757,
+      "foreground_sha256": "6150181ee57edf9ecc7f29415f8e74a5283693ca0d9141f42c7d06b8ae013026",
+      "ordinary_RGB_sha256": "f30d567afe42425839dcd7332e2758de5908b3757ef8f0afe326973af43d0a67"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "5bec17de895bade392c5f18a440241cf7f69e1f260e0474b502526628472f426",
+          "827337c8098c50a1b01ec99ae6bcc38ccc44f28303f9bdf89be5fb7633a83035"
+        ],
+        "prediction_sha256": "f165191ebcfe8d30ffe2c0d554cdbb18d28736ec5f9f968fb08d1c80f39cc3c6",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_000/cam_a/clean.npz",
+      "prediction_sha256": "f165191ebcfe8d30ffe2c0d554cdbb18d28736ec5f9f968fb08d1c80f39cc3c6",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 89599,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 89599,
+      "native_quantized_valid": 89599,
+      "aligned_valid": 101577,
+      "foreground_sha256": "59136e8e225d663f532e2194d5ec190f38714a1b5945652b206ec455abf2c452",
+      "ordinary_RGB_sha256": "d456e312aeaa23af68e992eb76eff4f8ab569d020505ea140e51ecc09a50c5af"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a8189ca350caee5b39480bc63017330b08eea1e9dc27a61497efe2db8fd90096",
+          "7a5ef0fd9e442bfdcaffc7a087ecf7ce9077d5374cb5804b29e861ba90cd3511"
+        ],
+        "prediction_sha256": "d6fa74fdddb281830c21b61e1b026a7ed52c54e21dd907a8f4c96847789c46f0",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_000/cam_b/clean.npz",
+      "prediction_sha256": "d6fa74fdddb281830c21b61e1b026a7ed52c54e21dd907a8f4c96847789c46f0",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 91094,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 91094,
+      "native_quantized_valid": 91094,
+      "aligned_valid": 104457,
+      "foreground_sha256": "7a561c461775e4563daf9b9e11b578f48507617a49261175e9d03627fc59b170",
+      "ordinary_RGB_sha256": "6d584338a6a258971ebaa0f2f3d7cd89bae332810e91440d04cd51c89e7130b9"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "5b0b6e00d0e674968e486c1420a4693093803f93dc15497022013ac6898cc6b5",
+          "515fcfa604583da23be72ca56c3500d927d61385dab68b609f6325a1758e70d4"
+        ],
+        "prediction_sha256": "d095ceacb5390212941377421e853ceb4136d636e96e05bae84321015ce16d6e",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_000/cam_c/clean.npz",
+      "prediction_sha256": "d095ceacb5390212941377421e853ceb4136d636e96e05bae84321015ce16d6e",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 78646,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 78646,
+      "native_quantized_valid": 78646,
+      "aligned_valid": 95825,
+      "foreground_sha256": "ec03bf6290c59667f1a245a2534d505eeee6461638f94c93a9cae7d66df81918",
+      "ordinary_RGB_sha256": "1dc745b27c5cccefd6e01e7834bf326a59f72f8302edb8ef372ea0be7a636f44"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_006/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "65d78b6cc21c8230d12f9de5b404462c0f1f47dac0c396e0a79cd4d550a9914c",
+          "2c826684dad4a018175ad74908850bb447774d30514e576f54fbc77db78458b2"
+        ],
+        "prediction_sha256": "20aa72464abb700b52e3a939b5a23da743492973c58ebcdcf5a43cbf255b7e11",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_006/cam_a/clean.npz",
+      "prediction_sha256": "20aa72464abb700b52e3a939b5a23da743492973c58ebcdcf5a43cbf255b7e11",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 116915,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 116915,
+      "native_quantized_valid": 116915,
+      "aligned_valid": 155320,
+      "foreground_sha256": "8fe0353404c3cbe763141c1ecf352ef996ed1de2261d62b20a0ffdf1a1c3258b",
+      "ordinary_RGB_sha256": "667a5fcec8c04935fa624b730c192b59d951c3c2b81c9982a1d9e42143851886"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_006/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "193beb75cdbe573ed62a69c1603a7698214166cc7809a09ae9b0a658239e2d7a",
+          "2defca49bce78a84bdac53013f66781dc7e978dee7578387af91b703c2788ace"
+        ],
+        "prediction_sha256": "9cc490b3af8e9f117f31101b2112528e78fd9768679bf6597df41b9ac1c9254c",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_006/cam_b/clean.npz",
+      "prediction_sha256": "9cc490b3af8e9f117f31101b2112528e78fd9768679bf6597df41b9ac1c9254c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 117702,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 117702,
+      "native_quantized_valid": 117702,
+      "aligned_valid": 156302,
+      "foreground_sha256": "1c366539d2ae7e83b81879fd7004458e741a4dbeac4c5c19633630457dea4215",
+      "ordinary_RGB_sha256": "4c05203a5ae8d1ea34c10a6750654f63d5db3ecfcc086d4b888babb3f8964012"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_nominal_006/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "5c11b75b7244ec721bffdb335e9ca1c13efb582ad2a54d808bfd7e1a4f03ee13",
+          "ee32fc8c0de0f65acaa1be7695b2bcfd621e7d62c369833cf58abba62ba3f4fe"
+        ],
+        "prediction_sha256": "271f71afbe05b977cb935286b1a7905a65db2eb1a6cd3c32f404d72a9f542139",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_nominal_006/cam_c/clean.npz",
+      "prediction_sha256": "271f71afbe05b977cb935286b1a7905a65db2eb1a6cd3c32f404d72a9f542139",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 108501,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 108501,
+      "native_quantized_valid": 108501,
+      "aligned_valid": 154605,
+      "foreground_sha256": "a1ac14d009340b6a7ab21c307a7f3f913d06ca0a0a0c44e6c278470aa32bcad4",
+      "ordinary_RGB_sha256": "a1cf41b0b1b6f9677a2c429d0cff9735d12d2ce77cd487bc7639cf7ee98bfcf4"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_003/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7c0534d3dd3e864899d8ea153bc965de718afef785472a73a88d816168f76bf0",
+          "75765a7faefcaf91881b7bcf2bf7a554e942c4c82087621c05f461b151d7f20f"
+        ],
+        "prediction_sha256": "bd52e5bcbc19ba6ec6980cc7c906fcaf97eafb91ca436c779d8f6023e9f89af7",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_003/cam_a/clean.npz",
+      "prediction_sha256": "bd52e5bcbc19ba6ec6980cc7c906fcaf97eafb91ca436c779d8f6023e9f89af7",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 81109,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 81109,
+      "native_quantized_valid": 81109,
+      "aligned_valid": 86201,
+      "foreground_sha256": "cc3d2a2b7ae9d465e1235d0cc7a0286b951a415e8985f43edc93876abacaaea7",
+      "ordinary_RGB_sha256": "888d6f4e6a30710c4585b99d98d9db64d3ae9ce4a7ab6b249659da60cf0c1ba1"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_003/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "8d22873a3d22b612cc421b2b3e107e173b19384945105e1cc8e8e05eff0fdca7",
+          "908d4cc86c7450ebd226fac4dd2d79bc04239583c98583d29301d95caf4f30e6"
+        ],
+        "prediction_sha256": "4760a23f250f423835b8f18e3f63b129c3bcaa3ca95974f1813967d90ad1c70f",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_003/cam_b/clean.npz",
+      "prediction_sha256": "4760a23f250f423835b8f18e3f63b129c3bcaa3ca95974f1813967d90ad1c70f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 84043,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 84043,
+      "native_quantized_valid": 84043,
+      "aligned_valid": 91999,
+      "foreground_sha256": "637a3ba157aa6e8037dcd44eabf94a0bb4175165ac6fab2083174aa2282cadd3",
+      "ordinary_RGB_sha256": "56947cae8549bf121fa4fa48a216544fd00ea0225ef735d4c6c408bdb89930a4"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_003/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "957830da18dd71c5493e5f8e8f3bbc1ef669d96931816f31334a07fea7256c5f",
+          "e673772a416570e80f5303c36eae4bc711f159e4f3dbadea83f357909aabcadb"
+        ],
+        "prediction_sha256": "9cbd153671fe970f92409d3b4dc75b6789c79a9830833a65522a9ac6e684ad23",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_003/cam_c/clean.npz",
+      "prediction_sha256": "9cbd153671fe970f92409d3b4dc75b6789c79a9830833a65522a9ac6e684ad23",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 75481,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 75481,
+      "native_quantized_valid": 75481,
+      "aligned_valid": 88632,
+      "foreground_sha256": "4a41b10119644ef90772620cbfb983bdc096615e12f225e3e3555cc43f6c5912",
+      "ordinary_RGB_sha256": "4d6fb298c970d2b99eb2d7dd173ec42d4a0bfa22224e893f9031978c8a382742"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "d6f52781f6d72d79374377fe15d57a6fdc219b158e39ea4fe755bf39057f01db",
+          "f37ee1188dc35439b1b0f12f6f4237d145827e6b5a62583a54cbe5adb6aacf02"
+        ],
+        "prediction_sha256": "1d2820697ba77484e903704cf641e784807b6623399b3ee4215eb7d68923bbd1",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_000/cam_a/clean.npz",
+      "prediction_sha256": "1d2820697ba77484e903704cf641e784807b6623399b3ee4215eb7d68923bbd1",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 64288,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 64288,
+      "native_quantized_valid": 64288,
+      "aligned_valid": 67577,
+      "foreground_sha256": "9e2a319c1048bd11a1d7441e69609917d00eb9484512b6ba00dff31e731c00bc",
+      "ordinary_RGB_sha256": "5ab563ac05f19e6a685a095bd1ea56471c38a8d3aba740bac776bf05b5630ffa"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a603ebb3154a98ec17abbaed6b6952fd7d1dda76634bb4fceff238e1a27f1af9",
+          "92c15ae107655bfd741713bbbe8bbb1b8f3d142d46d16608fba4d3384f8d3ee5"
+        ],
+        "prediction_sha256": "ee9ed8f24c975507b9c2279f98cedf49455378bc00b90ab4f93aa80f56d0c135",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_000/cam_b/clean.npz",
+      "prediction_sha256": "ee9ed8f24c975507b9c2279f98cedf49455378bc00b90ab4f93aa80f56d0c135",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 63944,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 63944,
+      "native_quantized_valid": 63944,
+      "aligned_valid": 67755,
+      "foreground_sha256": "cb7d9c19ab5b46b61294b092d58cfbae2508ac4673ee55a9adbe4d5612ce00fe",
+      "ordinary_RGB_sha256": "fb2f6a1448ff6e865b7e2761592c3472adbb8b5410d5b1a9a139c649fb63a2f1"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "2861ebc07bca84f9c2dcc4f1c0a196fa88f695a8365f44bf3b7e9bc0c69ed362",
+          "23e12a7cb8dba1bddc965b027aaab87b5b1d8a018b72e1a0d2cec00708e9616e"
+        ],
+        "prediction_sha256": "1cdc3c82c89fca3c180fa3014d4a240688f2f93f3e28bf9e75da808bfd77a75d",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_000/cam_c/clean.npz",
+      "prediction_sha256": "1cdc3c82c89fca3c180fa3014d4a240688f2f93f3e28bf9e75da808bfd77a75d",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 58269,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 58269,
+      "native_quantized_valid": 58269,
+      "aligned_valid": 69246,
+      "foreground_sha256": "b79e681ea0073fefa4cc7c06dd99bb24d98067d3eb4761a841e11263da4a497a",
+      "ordinary_RGB_sha256": "8e644b20614a5e04840be5b4ba6f5e8131be194492a7bbe775e4a8ca65611190"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_002/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7a5030aefc7faa70ce54cbc54684ffe6f19ab94912eb8952bcddd32b0e08b137",
+          "6100fb1b5b054c2d4c92e0362a41cbdd011b716cc55b1a273a0254c20b2fe5d8"
+        ],
+        "prediction_sha256": "c81f7c56f62d9bd4d54d82dde7b2652db042a813e4948d8afae379dead5a105e",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_002/cam_a/clean.npz",
+      "prediction_sha256": "c81f7c56f62d9bd4d54d82dde7b2652db042a813e4948d8afae379dead5a105e",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 101845,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 101845,
+      "native_quantized_valid": 101845,
+      "aligned_valid": 125947,
+      "foreground_sha256": "d9e7a2c12fca396fc48d710a89525ad1f8199be6b79a1327f5168d2fd7d344f0",
+      "ordinary_RGB_sha256": "d6aac1a6cc2f9598debf394fe8dcacf9c89e2fe7fbf2f33802c83a1ae87c9d72"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_002/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "791c06a1966f923cc0c4b6afda9863eb2ea6f4321f4bbc7c8d9bdfe37ec722f8",
+          "6b81f36941e32df4def8a4929a06cd18b28d6392fbb51b9dc60b6c02a2d1e00e"
+        ],
+        "prediction_sha256": "a64eaf8f4668995c969b0bd4ebdac739f59702b741d21e06b75c3b26ed52b70f",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_002/cam_b/clean.npz",
+      "prediction_sha256": "a64eaf8f4668995c969b0bd4ebdac739f59702b741d21e06b75c3b26ed52b70f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 102083,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 102083,
+      "native_quantized_valid": 102083,
+      "aligned_valid": 126224,
+      "foreground_sha256": "a192be591f122136f29d61ede812836f1e533cbdd5ab100ab5c40269caa93c52",
+      "ordinary_RGB_sha256": "975b4b3155e091e64841f22c1d7fcbc579bdf30a457da6795e04589027a66bd3"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_002/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7c0463a5fffbecf370ff23e9476b6791d65473eef75ef5f6ce7c283adfddbe55",
+          "27d149f517c1085b27bd83f42202c2fde38a855656a92bc088d8fee88a35a82d"
+        ],
+        "prediction_sha256": "0c1052b781a05c78738978df41d7f88f6de72a3a17afcbc2a64c7aa5cd6f70e7",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_002/cam_c/clean.npz",
+      "prediction_sha256": "0c1052b781a05c78738978df41d7f88f6de72a3a17afcbc2a64c7aa5cd6f70e7",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 93484,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 93484,
+      "native_quantized_valid": 93484,
+      "aligned_valid": 124935,
+      "foreground_sha256": "3d4469017bef325de144d602683b9fcc82a6fc4638e5d8678160fe301990f4f9",
+      "ordinary_RGB_sha256": "b6868998202561a886bf23921dec147bd7c409c8332aa1c6bb66c4027a7eaf88"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "8fe590c2f4b07e13f27698ee5005249da097ddbd90539f87902f2626629b31a0",
+          "fee0d866ad14c70594a58a8ae3070293bb6cfcd548e880e40709b82873134920"
+        ],
+        "prediction_sha256": "573cd81938b16b44cdb69116bbadd194ee7d31a8f8ad4d83671118a92f71d568",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_001/cam_a/clean.npz",
+      "prediction_sha256": "573cd81938b16b44cdb69116bbadd194ee7d31a8f8ad4d83671118a92f71d568",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 59030,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 59030,
+      "native_quantized_valid": 59030,
+      "aligned_valid": 57188,
+      "foreground_sha256": "bc36211978f9b5ae1f6dd530af6f9f8f4a9bae06f46b5b65f467d5bbfdeeb868",
+      "ordinary_RGB_sha256": "8deaa6de6973e3a2716098dd5ee349f8b3e17e5c76c0fa71647b21ac4a14aa8a"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "030068d2f9cdbd16cae0de928f191405c9ab50fd251b2211b5f2f79b4c154419",
+          "bfa3983a3fbe45ae92a7623bc4cd6c24c3776d5e9e589fc436f5293da590e24b"
+        ],
+        "prediction_sha256": "f3e67932be10f3c3dbaaedf47715b7dae720e93d97e7e2c867df28cee14dad1d",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_001/cam_b/clean.npz",
+      "prediction_sha256": "f3e67932be10f3c3dbaaedf47715b7dae720e93d97e7e2c867df28cee14dad1d",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 58655,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 58655,
+      "native_quantized_valid": 58655,
+      "aligned_valid": 57313,
+      "foreground_sha256": "524f0563a37f61724ee056f4b2b8e7609e4bad4f5d98f90f83d2e6f2db265592",
+      "ordinary_RGB_sha256": "1e4c994b6a0b5bf2aa6add502943f285732c0dc48e5317b8417b3eb7dfb1ba53"
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_nominal_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "c75db96e4ce3ced55f45abd0c771bba51f01039063895867c3b4909f17fbaf51",
+          "f95709dd5e670ed85b7bcd0f740ea672ece15abfaebaf8d06d4c4bc49601ba85"
+        ],
+        "prediction_sha256": "5f6f1e18a4e99e1263e7dffcd671feece1371d57b6ded6483955b628bff9423d",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_nominal_001/cam_c/clean.npz",
+      "prediction_sha256": "5f6f1e18a4e99e1263e7dffcd671feece1371d57b6ded6483955b628bff9423d",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 53095,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 53095,
+      "native_quantized_valid": 53095,
+      "aligned_valid": 58970,
+      "foreground_sha256": "144c0652512d88005e4247d2eadc4a2f90d85d2cc71372acfe328f5199d40551",
+      "ordinary_RGB_sha256": "5b7a72395df98f0b20655200f0e85d81d23decc4d3f3977180fcb5f3923074b6"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "18c7a670115fede714c8b6faff4a6575b9e63d283881c18ef833a7fcc3dccb8b",
+          "4bfe2710b8d317f325bc07e21f4d172c9f60834ca86c140d96160f5a095c36e2"
+        ],
+        "prediction_sha256": "04d6485503ffa98f83dfbc591f449f019bfb836acf8f2532fa8ffdc0a9a4d499",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_001/cam_a/clean.npz",
+      "prediction_sha256": "04d6485503ffa98f83dfbc591f449f019bfb836acf8f2532fa8ffdc0a9a4d499",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 99395,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 99395,
+      "native_quantized_valid": 99395,
+      "aligned_valid": 122071,
+      "foreground_sha256": "470aba9e17b1888a3333abb738656911587415431d617b7ebb06e5bce11bfde6",
+      "ordinary_RGB_sha256": "09a7ad29b310504ed351ed5d40001cec89a7d27b8e8b37ec33ce5b429d59a8c9"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "79f96df8b4b72513d317b36a0dcdf2d996bf0e471d92c12d6d1502a2cd194d69",
+          "84fce3432578b7573fd7e528ddd71e48f22f844fa3d9a973fe31deef431b09c3"
+        ],
+        "prediction_sha256": "199b601f3e488d328279e3ede807024a9eb348ea6ca5930532c130ad23d353de",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_001/cam_b/clean.npz",
+      "prediction_sha256": "199b601f3e488d328279e3ede807024a9eb348ea6ca5930532c130ad23d353de",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 102351,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 102351,
+      "native_quantized_valid": 102351,
+      "aligned_valid": 127860,
+      "foreground_sha256": "66f60a6eaa38db100ac7743a2656c7d0ccc27647fb9d301606f338dd5905b110",
+      "ordinary_RGB_sha256": "b5e94787524b56ba50623bc34743df75fd8aeb7752cde849f48c6e9263e64bd0"
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/structural_test_stress_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a3e252605345bc771bcb10c86286ad00986c253486880478599d5aecf76c1bc2",
+          "c8838161a35e53741b7af93f38cc1907f214d41dd4c114e90d0e1a0b106fc42d"
+        ],
+        "prediction_sha256": "42a11e45b6f618f3523c931c6282c92782af9482564ef493d5eb9c498cd01ce5",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/close/structural_test_stress_001/cam_c/clean.npz",
+      "prediction_sha256": "42a11e45b6f618f3523c931c6282c92782af9482564ef493d5eb9c498cd01ce5",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 91967,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 91967,
+      "native_quantized_valid": 91967,
+      "aligned_valid": 121591,
+      "foreground_sha256": "6e303de0db098d9ffac28f29d1c8e7b4c260cabfd043d48e5af4d81056db7d3c",
+      "ordinary_RGB_sha256": "76748c19a05cfe516cd1812945f153d79d205613850d26e513a7c4ca85b764b5"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "0b513c55707e395e6bdda205ce85b27cf7516b535e6286b47ffed1060035272e",
+          "586b03a79cdc260c9b692db439b1c65fac003d39ea3f45481ff629e09e8dc5ad"
+        ],
+        "prediction_sha256": "ea97c232d5630d06715a40cbdbb3ced64237a19df974fd4a7fcd8b4608eb6d40",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_000/cam_a/clean.npz",
+      "prediction_sha256": "ea97c232d5630d06715a40cbdbb3ced64237a19df974fd4a7fcd8b4608eb6d40",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61565,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61565,
+      "native_quantized_valid": 61565,
+      "aligned_valid": 62261,
+      "foreground_sha256": "33d52a92ff4b666835108be18602e5e395e56b66364b16b43486304761a9d462",
+      "ordinary_RGB_sha256": "6f28d98548a9d4c64390bea25cfebe0be324c2de10ec3bd414d6be1d6a8f85a5"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "0d02fd24ea2e0e47981f4c183d2b6d42a95cd76ef8acdb660b37ab4a15ba2902",
+          "b95913d86484ad461a43f2f25e0c24520a99332f455da0e40685da2c7aa7baa2"
+        ],
+        "prediction_sha256": "4522a40ea9735aab80a1078d2a1229ef7b952c9dd47e9a38ce7c7f55d11f2d58",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_000/cam_b/clean.npz",
+      "prediction_sha256": "4522a40ea9735aab80a1078d2a1229ef7b952c9dd47e9a38ce7c7f55d11f2d58",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61573,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61573,
+      "native_quantized_valid": 61573,
+      "aligned_valid": 63174,
+      "foreground_sha256": "98bc90f00e4c5c162adaa781613d52c8f3d5de8a044455033abd3fa992662caa",
+      "ordinary_RGB_sha256": "8515b6ff4b15e43fea1ccef5d19054da17c6c326b41b83bb01f89cd9a707db60"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "579efa7b08abcfd6af3d7839d5f40e0945ef100deedbaead17d6b85142734736",
+          "66bb93aef3a3a8b9d6762cf28fa10846660e324c08d185fb377b6a6dbff46c11"
+        ],
+        "prediction_sha256": "45d45af6570bc2ab292e5f0f0d24c3d9191bf79ecd4604f633dfc3b122a25f42",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_000/cam_c/clean.npz",
+      "prediction_sha256": "45d45af6570bc2ab292e5f0f0d24c3d9191bf79ecd4604f633dfc3b122a25f42",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 55850,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 55850,
+      "native_quantized_valid": 55850,
+      "aligned_valid": 64454,
+      "foreground_sha256": "3892868a2061434207e14546d5a91a865bc3144d7a0ed172baf3e753d2204dd6",
+      "ordinary_RGB_sha256": "e74690e3ec73e51c64f154d5e225cab117293dbc4592b2d82e70af2d273c7194"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7cb2c9501f30ebb4e8d33f71ed63a09e831df2f7768635d77c2e10dcd40ad3de",
+          "f2b40ad6f273e153af77042c45732c52c99c515149deb658242f1f92ec89b034"
+        ],
+        "prediction_sha256": "b2fd7ada4600d9a63022820ff598c17e4716c53dc3ee79495dae937f0a8a43e3",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_001/cam_a/clean.npz",
+      "prediction_sha256": "b2fd7ada4600d9a63022820ff598c17e4716c53dc3ee79495dae937f0a8a43e3",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 63811,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 63811,
+      "native_quantized_valid": 63811,
+      "aligned_valid": 66745,
+      "foreground_sha256": "b2f084cbcd5552307fc08e36a7939e613b388c60fc4a12bd02f80042178ace68",
+      "ordinary_RGB_sha256": "bbd1d2829a150a52b86b343e2fc0f07e6286e076c32653976b7e865627ddeb1e"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "33c14733b5b69ab73b9996edb9b1eb27cf1e44e00a4361cf70a6e4546bc84c2e",
+          "2cf38b074eec2d0ff45ebd5d943d0e935d96bd638bdf4d909b591d900bf5a181"
+        ],
+        "prediction_sha256": "1a1de1baeff676163e7095235c315a6a0460cab506fed189c4393e5df64e1c4c",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_001/cam_b/clean.npz",
+      "prediction_sha256": "1a1de1baeff676163e7095235c315a6a0460cab506fed189c4393e5df64e1c4c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62967,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62967,
+      "native_quantized_valid": 62967,
+      "aligned_valid": 65957,
+      "foreground_sha256": "172dc2d07aafc7c8f741a61f542368a7d2ed9fb6c2f248dd7f4702955d5b1ca3",
+      "ordinary_RGB_sha256": "972a6816b760627b496af39f3e302bc095b1425dd4df58e59d8336def338c7c6"
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "development/development_stress_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "f4ea88ff4a61cc723748e5e236a3d3b09c07b0976fe15550250eb98f7327cf75",
+          "8c3dd10047414c221d2aad0bd7d70cfd1c954206298bce1f00b6d21ff3ac2be7"
+        ],
+        "prediction_sha256": "0a444163db505a361092bda05e3d82ee0fb6d379e50f4eb5b89eb2b9c41ba1de",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/development/development_stress_001/cam_c/clean.npz",
+      "prediction_sha256": "0a444163db505a361092bda05e3d82ee0fb6d379e50f4eb5b89eb2b9c41ba1de",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 57470,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 57470,
+      "native_quantized_valid": 57470,
+      "aligned_valid": 67685,
+      "foreground_sha256": "7f254bd9fc6cdc09eaeec096c9d15c045784806f45062cbf9829f8bb357d1274",
+      "ordinary_RGB_sha256": "360f9210c6eb680694aed649c15d41d29d559b104e439dbab2d97c7abf03953e"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "8f803fcaaf50e7f22344a2d30745e3ffd05bd3309006fbbe22d389871d20312c",
+          "604af997da14cde746b861b20a8a22267474a5295474a87ddb07c9271307b82f"
+        ],
+        "prediction_sha256": "4bef10d315f2de9ed6cdfa4729ed861338633a7c26a3c2c98d3cca2dc89653e9",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_001/cam_a/clean.npz",
+      "prediction_sha256": "4bef10d315f2de9ed6cdfa4729ed861338633a7c26a3c2c98d3cca2dc89653e9",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 59430,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 59430,
+      "native_quantized_valid": 59430,
+      "aligned_valid": 58046,
+      "foreground_sha256": "af3b81112e060cc68bb4ad46c1ee87d1f31efd518620ad025ca70b08f42fb7e8",
+      "ordinary_RGB_sha256": "6a84646a65f990a9d071cab2b68af6141647df66374ef503c120671233c1f2b6"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "cdcb6040777edba98f5a2da0b5fea089b9398d8493ec1bf03eee1384b4d7ebfc",
+          "3dce4c9ed675e3234a9d86124c12a157c32c58cf90c541c984fd0e758953d906"
+        ],
+        "prediction_sha256": "71d552dbeeff4908a51666725f5bf4a1367d8f2300a49d29ce06059a4051a17b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_001/cam_b/clean.npz",
+      "prediction_sha256": "71d552dbeeff4908a51666725f5bf4a1367d8f2300a49d29ce06059a4051a17b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 58788,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 58788,
+      "native_quantized_valid": 58788,
+      "aligned_valid": 57635,
+      "foreground_sha256": "0b1d23d2356f708fbcc4db5b12f593e07b17e33ae927a8a7fae3227b51748c72",
+      "ordinary_RGB_sha256": "53904324890a807325fb6c06549a7837bfc89a0e812b6555eea2d32a607809ec"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a0be17b8dfdff912692d1b2982d4c530e82f031b566e3aa97dc62de9fcf02e2e",
+          "ccfa45e9ae9ab06ab19b52e075a6d8dd65f464eb37640f6cf34eb3e52a53c7ae"
+        ],
+        "prediction_sha256": "b8036e4caf7043f8cf8a9f6cd881f469f6edcb94040957661708d019067bc2a4",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_001/cam_c/clean.npz",
+      "prediction_sha256": "b8036e4caf7043f8cf8a9f6cd881f469f6edcb94040957661708d019067bc2a4",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 53482,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 53482,
+      "native_quantized_valid": 53482,
+      "aligned_valid": 59725,
+      "foreground_sha256": "25e7b43e746a97eff093206c093bc2b60f37dfe1a9833b34785d86a3ba49bca8",
+      "ordinary_RGB_sha256": "2d65693747c0462faba7a69a29fe2d2c912599bf574c923c1265112b1a39115a"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_002/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "994c42106e35b38becb4ac1870906f5a77026bc4e6c1fd85c8a791f4bfd4db2b",
+          "039495c1e358975e168082687ead1942f2573e562bdf878d500b9c12fb250b12"
+        ],
+        "prediction_sha256": "cf629a279dc17080b0da886e0361f74a9bb108a6d9c51178b1bdaf8dd764e3d0",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_002/cam_a/clean.npz",
+      "prediction_sha256": "cf629a279dc17080b0da886e0361f74a9bb108a6d9c51178b1bdaf8dd764e3d0",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62091,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62091,
+      "native_quantized_valid": 62091,
+      "aligned_valid": 63330,
+      "foreground_sha256": "2700da95b37c7a048044f0ee483e48a0acd399c9484010b761b1414120af42aa",
+      "ordinary_RGB_sha256": "5e7ad86cccebb889d286426110614905e81b38c4a084627c27b93b1403f23df4"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_002/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7c00da982640dcc7c96535d7a461827c2e453f72164d7a635cdb7720cf9c6b95",
+          "1eb0325f77d81b60d63e7ef0e45dbb137a022b589a4f921b99f659baf161e474"
+        ],
+        "prediction_sha256": "b95d155f1382dbbbd173fe1151cf2167e1291016a2f9ccad3da2686519f12e07",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_002/cam_b/clean.npz",
+      "prediction_sha256": "b95d155f1382dbbbd173fe1151cf2167e1291016a2f9ccad3da2686519f12e07",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61532,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61532,
+      "native_quantized_valid": 61532,
+      "aligned_valid": 63079,
+      "foreground_sha256": "0ad646dc7e151b3692060cd95f0786e9a357fc9dc2674b93ea76e249d10bb798",
+      "ordinary_RGB_sha256": "ebd45602739dfa52b30d3a977c3d78f395f41e2348e8cac02325094253bae611"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_002/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "caa96eb26233540735a08273c681cc925d5a3ee86a7afced56969787276866d9",
+          "caae69c44c7bdf0131b496e95bc8cb29e18e6b6674fa4930fe5db2c18ca09ff9"
+        ],
+        "prediction_sha256": "1a521a03343cae569b5222303def877ba2029167071c6fff49a60ac22bc17e4f",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_002/cam_c/clean.npz",
+      "prediction_sha256": "1a521a03343cae569b5222303def877ba2029167071c6fff49a60ac22bc17e4f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 56118,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 56118,
+      "native_quantized_valid": 56118,
+      "aligned_valid": 64968,
+      "foreground_sha256": "a8b48a42ef03ea687dde3e93bc974b185e19d17fe8c7070f206eae8eef1afa50",
+      "ordinary_RGB_sha256": "115e7c64fdeb784bdafd943b39bd5aa8d06bca741b14d332e2bdadca4def64a1"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_003/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "43f0b7e2078c920752c36250bb4d118b3b93bdac4f63d71501be982f7873ebb4",
+          "f8d59f2c97d6cf77a2a2456a9dae6bb612d1cb5ec99c86eaf0da3f36300f8826"
+        ],
+        "prediction_sha256": "6e40ea140d55b4d118a356ae7edcc3a1a6626b53788c5ed539d2257bbc345a05",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_003/cam_a/clean.npz",
+      "prediction_sha256": "6e40ea140d55b4d118a356ae7edcc3a1a6626b53788c5ed539d2257bbc345a05",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 67081,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 67081,
+      "native_quantized_valid": 67081,
+      "aligned_valid": 73195,
+      "foreground_sha256": "bd0e907b2d533075bffcc10658eec8a79dc04e1c46be7d7693572e363a1465b3",
+      "ordinary_RGB_sha256": "a5cf71d6c16954ad7db999c2c938c96c8935b5a439da0f70f14b5b91bb0e85b2"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_003/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "212d523e59a156eb05b0037dd12ca651db3991a78db5c6a678b412ff5e88cc42",
+          "4b69b523d8975fdc66a2d8c2deb39d58e370142023ab7f383243229c48792585"
+        ],
+        "prediction_sha256": "ac24c87e0a414e8c8fd6c64fd37c2ab1254ec1d1bdb3bcb44a39b2f7685be90f",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_003/cam_b/clean.npz",
+      "prediction_sha256": "ac24c87e0a414e8c8fd6c64fd37c2ab1254ec1d1bdb3bcb44a39b2f7685be90f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 66709,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 66709,
+      "native_quantized_valid": 66709,
+      "aligned_valid": 73326,
+      "foreground_sha256": "94ebcb9ec8288610c0e3ef6f4bf5bb8aab3e87d7982d757c09cca966e664628c",
+      "ordinary_RGB_sha256": "b5b69fde273739ebe147c465c0c1899950dbabb7b8adedd392ff9c671cea74ce"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_003/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "e790d71fac7c29d4f0eadeeefe47f7d9f6414b963f01b68e14d2736a1cbffaf8",
+          "6fca9d29f7a242a85b2075c1c0f12e088dc55ee97411b5a6defbeaf5d952cb03"
+        ],
+        "prediction_sha256": "218039c395c76623d918b5a93601137fe2f8ea528466f4998b0c8db329f07c8c",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_003/cam_c/clean.npz",
+      "prediction_sha256": "218039c395c76623d918b5a93601137fe2f8ea528466f4998b0c8db329f07c8c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61197,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61197,
+      "native_quantized_valid": 61197,
+      "aligned_valid": 75051,
+      "foreground_sha256": "9de2f79de00e3f91108cf36db7b06ebfee9eaa4a151b7da04cbe00f78d74e9e3",
+      "ordinary_RGB_sha256": "ba433af17eb2ca6314676e2a7b261d4a6fcaf696ca269e4544e3c11aa2f23984"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_004/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "1c7f59ee569607d06d9ebd8b0606221c557a621e0121b35b3128799ae9926776",
+          "eb8d2d1156e80d3a9a570c0d0bd1fabf1ebf68e4fcbc29819d46c9e29ac4c4df"
+        ],
+        "prediction_sha256": "0fd8e9378b98b0ffcc86a1bac74862079e13ebe46548710634936d67f3129a04",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_004/cam_a/clean.npz",
+      "prediction_sha256": "0fd8e9378b98b0ffcc86a1bac74862079e13ebe46548710634936d67f3129a04",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 58507,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 58507,
+      "native_quantized_valid": 58507,
+      "aligned_valid": 56226,
+      "foreground_sha256": "0804160ca99f103805e84f46c92dd81589317d010d82b16bba278b504db750ec",
+      "ordinary_RGB_sha256": "9f4b827dd3d7849b126d24f66fa42c350246a8638fa4f9a3d92a27fc78e2e145"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_004/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "6a06510b7f1c1df5511d46fbacb6e5f6088857832906d6aacbbab1fbfd99f2f1",
+          "01a30170b0f49a282d06cc88f189152ced7e17698ca7b958338d33670aea49f0"
+        ],
+        "prediction_sha256": "46888e478a047c791dbc95991f6b933cba1441f280549f19318e6016eaded543",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_004/cam_b/clean.npz",
+      "prediction_sha256": "46888e478a047c791dbc95991f6b933cba1441f280549f19318e6016eaded543",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 57996,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 57996,
+      "native_quantized_valid": 57996,
+      "aligned_valid": 56093,
+      "foreground_sha256": "b34a3a302bc42956c48a5ca49910900fd9e725a8f02323eebcd8c2db8fe70144",
+      "ordinary_RGB_sha256": "b2b7826765e334f2ca8e371b06658cd56d0261ab48e09b43a9e38c315c89024f"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_004/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "7388e6651ae472d057a92c27474b70a23b843d5dc3f1f0d8e58e00a91ec7101d",
+          "6b8ebf3867c4f3f5addf1c33f04d01732407b118632e1ec4f126228071bcfc48"
+        ],
+        "prediction_sha256": "0619f46067ff528c314137ba21a60bd3605b7d211d12d69e255383ab43aca3d9",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_004/cam_c/clean.npz",
+      "prediction_sha256": "0619f46067ff528c314137ba21a60bd3605b7d211d12d69e255383ab43aca3d9",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 52662,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 52662,
+      "native_quantized_valid": 52662,
+      "aligned_valid": 58110,
+      "foreground_sha256": "a8e6a9e6a008fc71a3d833bac1d9396e27242a469ce210377e918363b1ff7caf",
+      "ordinary_RGB_sha256": "0d32cddfd249cf8e643b85d8815486e2a3d37e87c83f29632e519bf925f8620f"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "3fc8315c3946ccfaa40aa12202e8e9f25003c435d31d7bf10ed5d687d52a0182",
+          "22b54b0c8c4f24de347d165c420808f43114f41646b8deb2f5ef25579fe8c3ca"
+        ],
+        "prediction_sha256": "40b51868685e7fba11d92541f62be8a0b7255e5484a94f31b005c34c643cdd42",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_000/cam_a/clean.npz",
+      "prediction_sha256": "40b51868685e7fba11d92541f62be8a0b7255e5484a94f31b005c34c643cdd42",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 65415,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 65415,
+      "native_quantized_valid": 65415,
+      "aligned_valid": 69879,
+      "foreground_sha256": "492bd9d9a793486aba988bc613cabeb5da0b9c44191931d4a370f5db13d93cd1",
+      "ordinary_RGB_sha256": "b1d2a1f65e52361bc7e02fccff22df2631bd802292d7d8414dc15f8ca35246c5"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "32ca38930f91e4f4b1e65ccf1fbd3fbdf7685a3aff64a1a8e7ec8b9e319a5c01",
+          "e338b64b51c1d7a9d6f3167dfa7bc4835837546e3314d4a3c47173db9e74a993"
+        ],
+        "prediction_sha256": "ad5d1737675c95723b119226a63461f270961717b803adf8bf2bd004564713e7",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_000/cam_b/clean.npz",
+      "prediction_sha256": "ad5d1737675c95723b119226a63461f270961717b803adf8bf2bd004564713e7",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 65141,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 65141,
+      "native_quantized_valid": 65141,
+      "aligned_valid": 70202,
+      "foreground_sha256": "e2938a2de9b1f78804e43b26ce7a3f0600d962619c1f82b6be702ade5b79d42c",
+      "ordinary_RGB_sha256": "8312900d19cf7cf04b7dab05968f2037dd9cef6bfe64ddb0925178e5132748aa"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "eeccf74af356837bc629669375e917ae61159dd9b42fa8bc952352c4074df95f",
+          "99a8257778d91c8dc1119e2e8e1b441f7c85c373e5e488fff89b8a7b3ae73d21"
+        ],
+        "prediction_sha256": "3d79d37bff60dc801766ada7e94514af07c2b82c35f74363827ad0fe559e5e71",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_000/cam_c/clean.npz",
+      "prediction_sha256": "3d79d37bff60dc801766ada7e94514af07c2b82c35f74363827ad0fe559e5e71",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 59719,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 59719,
+      "native_quantized_valid": 59719,
+      "aligned_valid": 72111,
+      "foreground_sha256": "5e8062b34f389f77d983e4de038b0dee835606d7c25abd43037cd8f4a6762715",
+      "ordinary_RGB_sha256": "733b8be96e0c0d7475839ddbdd509c39075540d90012e5a9403e31462d9f9e42"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_005/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "6b921427fd2f241cd711c8af46943f0b7740fd54b266b0f126cf4e943c8662dc",
+          "4390a1238cafe1ed89aab92cae1119f40f5c1340f4b1e101920fab2e4d1a8df2"
+        ],
+        "prediction_sha256": "216ccb09e582fdadd1a0335fe4060f922467ecd9ea541ac3ac295db2eb5b3a44",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_005/cam_a/clean.npz",
+      "prediction_sha256": "216ccb09e582fdadd1a0335fe4060f922467ecd9ea541ac3ac295db2eb5b3a44",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61647,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61647,
+      "native_quantized_valid": 61647,
+      "aligned_valid": 62437,
+      "foreground_sha256": "bf39eb5cb483ee7626b7e09a63264a63feba224b98139d84f2cd83cfc89eb2df",
+      "ordinary_RGB_sha256": "0e4ecc02bfa6faadad67fe7a16213b3d11f1cbe2d506d4ff2d5a5f0b7baa8e02"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_005/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "cfec1b7ce953a47e00926d60a33169c9f299c012315e29b2aeddfb1cb8947d55",
+          "e47212e8f15ca9a6ee5e48ae4d77b0da55a47909f80e1363c2a85a605447e4f1"
+        ],
+        "prediction_sha256": "2a744d990b0103f295f6909fe85900cff55cd499df4822cdb063d4fafa520317",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_005/cam_b/clean.npz",
+      "prediction_sha256": "2a744d990b0103f295f6909fe85900cff55cd499df4822cdb063d4fafa520317",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61223,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61223,
+      "native_quantized_valid": 61223,
+      "aligned_valid": 62467,
+      "foreground_sha256": "f58ea6d2b6c28b7705e018197fdca3c2c7b21a52666839e923b2679615aee783",
+      "ordinary_RGB_sha256": "dae9527914c4edbaa51dad908d5fa03b714b56c1afe20cecab6ebddf77d2d061"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_005/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "1858a7b6711efd91400dd37c146b9e6902b1eedc91b905c04a23e5da3a17f380",
+          "1f3784bbcc21628cd0e91323e2ecad2745daaf64a0a1ec1f5d4ac1363730378b"
+        ],
+        "prediction_sha256": "d8a8b56aa07dd2d04bee9f051fe2382e1ccf4ec9ed6fe3e2468ebb34122b0501",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_005/cam_c/clean.npz",
+      "prediction_sha256": "d8a8b56aa07dd2d04bee9f051fe2382e1ccf4ec9ed6fe3e2468ebb34122b0501",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 56073,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 56073,
+      "native_quantized_valid": 56073,
+      "aligned_valid": 64867,
+      "foreground_sha256": "2c71c99439a610fd1d256d3a97e50de36395acfd4290de09170eedf35a69916a",
+      "ordinary_RGB_sha256": "15258709fc6f0c3c6e97df0eacb3027ea8b6b1b5ce473ba97d31e4cfa4c92dad"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_006/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "3b7e18e33961231142efb5541af4289bd0d7511d69e50257a12527187e31de2b",
+          "9f929aaa7160d94a4a19caf3387127efafd6761eda71e04899c8e6abc847c16a"
+        ],
+        "prediction_sha256": "000a8424fc682f711ad3f21134a3d5af417f7210345752c75536a72f1b4acb5a",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_006/cam_a/clean.npz",
+      "prediction_sha256": "000a8424fc682f711ad3f21134a3d5af417f7210345752c75536a72f1b4acb5a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 68415,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 68415,
+      "native_quantized_valid": 68415,
+      "aligned_valid": 75740,
+      "foreground_sha256": "904a6923b3936b15216accf4bfa71c2e4735981247a4fa8dd14630907a45dd80",
+      "ordinary_RGB_sha256": "e04d8e64af77c905605b5c5e20d3ec668a0bce3d5ee65a1f130d2135e8f4c816"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_006/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a60ff6e46a6bb2f66c47718dc52cec4f973583b1008c6fef4f5a8d6840ce3e8e",
+          "fc694c19f383731b68b7dcf4c593b9e7133fe9efa106313f29e1497ffd1d02ac"
+        ],
+        "prediction_sha256": "fe91901c42ed35d8b07a3bedde63deeb25bb4adc8afa30f1fb948808d559b879",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_006/cam_b/clean.npz",
+      "prediction_sha256": "fe91901c42ed35d8b07a3bedde63deeb25bb4adc8afa30f1fb948808d559b879",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 68163,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 68163,
+      "native_quantized_valid": 68163,
+      "aligned_valid": 76113,
+      "foreground_sha256": "579625c5f93e825ca66c3cb178e6be041af6455bfb8448dad341730783896183",
+      "ordinary_RGB_sha256": "13f6d0ae77fb4611fd32fe51ff91f62538334cdba8b459b8a71bf31b39d26069"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_006/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "a0ab2883c529b996165c07b05c3fc8d71e9f782a063feb596271e5696287b2ae",
+          "c288c60198470cd5c3a0b0151ba33f68b136356a8d3f8b5dfdff53fc09082627"
+        ],
+        "prediction_sha256": "f30a346d793a4166dcccda00d346551f6132b9ee6f86c0080458c578f381a114",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_006/cam_c/clean.npz",
+      "prediction_sha256": "f30a346d793a4166dcccda00d346551f6132b9ee6f86c0080458c578f381a114",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62557,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62557,
+      "native_quantized_valid": 62557,
+      "aligned_valid": 77736,
+      "foreground_sha256": "54bba34a143cadda10e984ded662625b6a1e72b8903398aa0e68043735f4cdb2",
+      "ordinary_RGB_sha256": "345c56e82fd5aff4478391c742310921347ddd362d6a0a86cab966fc9970164c"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_007/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "efe68957aa8d12a49cc6ae91ad9c7559e662e2dd4b91549f0b6c9127d82b19db",
+          "c169f65647f912279e8a875e329eeb75ac82d4c0d19c3480e16fa81f2426b0b6"
+        ],
+        "prediction_sha256": "10de5726e85071afc9a2b85200d1fa0d8437822b9faf1f956afac2e72ff09c2b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_007/cam_a/clean.npz",
+      "prediction_sha256": "10de5726e85071afc9a2b85200d1fa0d8437822b9faf1f956afac2e72ff09c2b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62827,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62827,
+      "native_quantized_valid": 62827,
+      "aligned_valid": 64693,
+      "foreground_sha256": "25730acee0286668b0beed39aca647cd5693f0c804564baeb582ac5daaebd60a",
+      "ordinary_RGB_sha256": "8a678e171e8b4c4dfcba6701ac9188aea5d1571b918420e0f4456a043d0de182"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_007/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "97b81fab394bd0295eb99b7353e69332fbd26e5316f79e85ab0e3ff5922718f9",
+          "22dfd9dadd948b92a492861c4a3d8fe55dc1b8835d2154408a45a782b4476e63"
+        ],
+        "prediction_sha256": "14af2c3dacf6c494ec6f8612de0d9f83ee16a324a74be2fd5642d63a4dc00103",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_007/cam_b/clean.npz",
+      "prediction_sha256": "14af2c3dacf6c494ec6f8612de0d9f83ee16a324a74be2fd5642d63a4dc00103",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62354,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62354,
+      "native_quantized_valid": 62354,
+      "aligned_valid": 64624,
+      "foreground_sha256": "d175c068d22cc11e0298c5a7dab70cb3630f1c68e7f2a7f038d85381e782ecbb",
+      "ordinary_RGB_sha256": "18a18ff264f20175d7829cb16ad76f71c3f5cf39b756fb8dca0574f2636d10c4"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_nominal_007/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "d46b4273f9bc13c2f34c30a838f2a7710ba77a73525b25868cdbf2e9b05b23ea",
+          "e7d635572e54195a762e3848fc804771bc5e0a6f558ec0560be2a1fc42af8217"
+        ],
+        "prediction_sha256": "cae468cfc9c222752588d4ca3e27f42e30333198da1a10957cdca407124d452c",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_nominal_007/cam_c/clean.npz",
+      "prediction_sha256": "cae468cfc9c222752588d4ca3e27f42e30333198da1a10957cdca407124d452c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 56906,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 56906,
+      "native_quantized_valid": 56906,
+      "aligned_valid": 66530,
+      "foreground_sha256": "9e7a25801d4e3f06abcdeb3ac4859f886da7eeb5e04875c76e639b9cb3e6d4c2",
+      "ordinary_RGB_sha256": "912aed795284bdf110af97babede0647c7f9d9e8da4de4cd16e862e3c594b8b9"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_003/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "ac975890a7cc295c93a12b48087d12f3dfb4be36ae05fe14ffeef5a9c1cc00ae",
+          "408053ca9f6cf06ba0cceffe2d49b172f2b1aa36a82f585cec7c91b64c2580df"
+        ],
+        "prediction_sha256": "256b0513e357ffd356ba8eec0dd49db47066d1a3150db798db844e61a54e1d32",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_003/cam_a/clean.npz",
+      "prediction_sha256": "256b0513e357ffd356ba8eec0dd49db47066d1a3150db798db844e61a54e1d32",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 56721,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 56721,
+      "native_quantized_valid": 56721,
+      "aligned_valid": 52685,
+      "foreground_sha256": "bc3e90b1e7b409b687bcb3d77aa66676040a65f53f547e52aa5de773b61c7cd8",
+      "ordinary_RGB_sha256": "fa791f266d1e866ddb53fb50ade0c0693cb418cf416986f768f01c82d778dec5"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_003/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "cf50b22b4a02874d89b8c94215cc1a97a97b491ed8fdc2f63ae65afa9519af87",
+          "f24bc34fb66d974db050af0e1c759d5322cfb25fee212d5d3b5a26628c51968a"
+        ],
+        "prediction_sha256": "513f083df02dda37fd8129617e4421aff38fb682bd4d85e72549594c3f26ea3b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_003/cam_b/clean.npz",
+      "prediction_sha256": "513f083df02dda37fd8129617e4421aff38fb682bd4d85e72549594c3f26ea3b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 57162,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 57162,
+      "native_quantized_valid": 57162,
+      "aligned_valid": 54457,
+      "foreground_sha256": "94a8fda2917313fc15753e027eae63adf6895e2483d73812dd13502c525d3e45",
+      "ordinary_RGB_sha256": "4310716e291d4d487f5f0a7d4ab84b4c569a7beddf1086261a01dbeb6a71f4e1"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_003/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "6788d79d1a77523d19ae73cf9f977ed949b9c919f3aed8fe7d4e90ba54fdb67e",
+          "071be14a4543bcab7d7ea3cd1caa6f43c32a61610f00a17f413159e1366d72e2"
+        ],
+        "prediction_sha256": "3342c686c8973fd472243ecc4930083e270a3c93c8df12932af1a3a25afd8320",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_003/cam_c/clean.npz",
+      "prediction_sha256": "3342c686c8973fd472243ecc4930083e270a3c93c8df12932af1a3a25afd8320",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 51274,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 51274,
+      "native_quantized_valid": 51274,
+      "aligned_valid": 55399,
+      "foreground_sha256": "d5f65ff9dbbd79f83a79e1a44f5550fd59c91ac855dcbde73853b0c266789572",
+      "ordinary_RGB_sha256": "1f6fe37558ce83356e0c49d43b8616dcefbcd426547fc72084ae3581352a933b"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_000/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "dee66b1c1b9e84297776a7b68a983512c460f5a3a2601839da83760f6252c073",
+          "1fe852deec3e22a7a6931eba0740d6fa3173fb59d0343c8ff648021eec77fc4a"
+        ],
+        "prediction_sha256": "110cec8b3c36f2b294e786a74c0359bdd9be5096800097bbba82da8cd00818e3",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_000/cam_a/clean.npz",
+      "prediction_sha256": "110cec8b3c36f2b294e786a74c0359bdd9be5096800097bbba82da8cd00818e3",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61049,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61049,
+      "native_quantized_valid": 61049,
+      "aligned_valid": 61096,
+      "foreground_sha256": "5bf6a488602c244df3d2de48828dc65b048b26ee0213d20292a9943942a5574d",
+      "ordinary_RGB_sha256": "7e6fdb6e616f290f10d370c11efc5ef15f21570685ff3a784c43f6535c88f0fa"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_000/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "df0e5396ff9b16101be6d9c82dcde7a213ea1bcc4ee9e4cb310799fb852ef2fc",
+          "c2880f0ea98343bd44d25b53794b3ed62d5d3db2dfc48dc889cc2095d7d37599"
+        ],
+        "prediction_sha256": "c4e2c36fdcfe3b21e6933ad66f9938ee12adea98a079fbfcdf90bbd9673a3d60",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_000/cam_b/clean.npz",
+      "prediction_sha256": "c4e2c36fdcfe3b21e6933ad66f9938ee12adea98a079fbfcdf90bbd9673a3d60",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 61047,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 61047,
+      "native_quantized_valid": 61047,
+      "aligned_valid": 62004,
+      "foreground_sha256": "8e4c4764f236c0e69f3f0347430262d13849599e3779ec8f8389feb66c423dda",
+      "ordinary_RGB_sha256": "120b4fb2b0fd8eea8a301be14ca59b7a1e64f36ea598c168af5849e73224cae9"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_000/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "72f8c9ef49f88e936890b360e4ff3b313bfca02066904fd4bee9c8f25207125e",
+          "0926a7f00524bebfefc643cdb89a56f7ce5742026e44a87fca624a404b490593"
+        ],
+        "prediction_sha256": "b8f21580ec11bf98f94cf493eb7d9d60520864ab680b33d019a9883f3113b7e3",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_000/cam_c/clean.npz",
+      "prediction_sha256": "b8f21580ec11bf98f94cf493eb7d9d60520864ab680b33d019a9883f3113b7e3",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 54524,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 54524,
+      "native_quantized_valid": 54524,
+      "aligned_valid": 61797,
+      "foreground_sha256": "cd3c3ac0d0351937eced629e064d10b688b702d77df1d46686f132e71018682b",
+      "ordinary_RGB_sha256": "24c66d62560b0e6aefd0300fcefb25b01421b35f98bf5f557356556fb1ef593c"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_001/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "59d6c390c059eb89843af317babc16aae3f8f643d5dce6eb40dcdcba5256f05d",
+          "11760324ac1d73cfd5a92617a6a8de68e629ce78cbf80ba5e0f1c75061806721"
+        ],
+        "prediction_sha256": "08a20baee567173e654d2497c81da83b17259e0663d0ad9b58971ce8516ac46c",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_001/cam_a/clean.npz",
+      "prediction_sha256": "08a20baee567173e654d2497c81da83b17259e0663d0ad9b58971ce8516ac46c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62497,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62497,
+      "native_quantized_valid": 62497,
+      "aligned_valid": 64145,
+      "foreground_sha256": "2e73603063225a899c8768c047b5e86c3d78d321bbc025f7230a3409a8e0f0b9",
+      "ordinary_RGB_sha256": "50ece76b8c3bf316102cdb24dfcfa0205566e5fb63840da83783a3da91aab545"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_001/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "4d2129a836b45f63c9bcdbb189db3e67e2a8829859b0a7d47e93ce339cdbdc13",
+          "899508f5de9ea3a77417c678f00c89d0b24b6bd2fc002c0608da495540c469d2"
+        ],
+        "prediction_sha256": "0cc7b92ef32f11a5d2485964655bdc93adb80d6d1de5a127f92f61728cb18d41",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_001/cam_b/clean.npz",
+      "prediction_sha256": "0cc7b92ef32f11a5d2485964655bdc93adb80d6d1de5a127f92f61728cb18d41",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 62732,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 62732,
+      "native_quantized_valid": 62732,
+      "aligned_valid": 65509,
+      "foreground_sha256": "9a1c438cd96633f54c8e57285c92ab090c33d1f5ce4f58175b6bf2ec7bd95102",
+      "ordinary_RGB_sha256": "8bb9045ce197ed6998719485284890fba0d8b2dca09e7016dd09e42ab46bfeb2"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_001/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "4f83ea8ab9c386bef3db61e91cf34aeeef02cea7020562328ac6759f6fd5cd87",
+          "c0235be2627796a6bd0774f5e1b6d20c788c95bd7bddadb7225b628c2573f9ca"
+        ],
+        "prediction_sha256": "bea2e3ccf6eb9c48328b337f7eaddc2e482c053c2d1b22925db7195464c89a83",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_001/cam_c/clean.npz",
+      "prediction_sha256": "bea2e3ccf6eb9c48328b337f7eaddc2e482c053c2d1b22925db7195464c89a83",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 57028,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 57028,
+      "native_quantized_valid": 57028,
+      "aligned_valid": 66808,
+      "foreground_sha256": "e8a8cf3fa5697361274d7b8317c05427e6f7f50bb96d5830ac783c1b45ae3fc9",
+      "ordinary_RGB_sha256": "46cc4d04378c5002542e52b50758a2b0f94327b5f8b7ed3baff33600659ffdf5"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_a/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_002/cam_a/clean",
+        "status": "ok",
+        "input_sha256": [
+          "9c155dca730e7ba4ebc9f69595383c0e357ede0737d64815f6b00fe83e9b4a2f",
+          "6584794daaa1e58827274dae36634eed99f1f785240896c63f3c64a9932415c6"
+        ],
+        "prediction_sha256": "0f7721ba4cb7f09384280fc411a5ec0e48a91451632a4a5150d67a5b4312cf04",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_002/cam_a/clean.npz",
+      "prediction_sha256": "0f7721ba4cb7f09384280fc411a5ec0e48a91451632a4a5150d67a5b4312cf04",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 64317,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 64317,
+      "native_quantized_valid": 64317,
+      "aligned_valid": 67657,
+      "foreground_sha256": "2531b198c617c9366318cae0b17ce9f7c494327590c297010ef1918afd350806",
+      "ordinary_RGB_sha256": "594a3e76dcc83f98db3ec41bef8b8a3a73e2b332dcfb9a5c37b92b721d252509"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_b/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_002/cam_b/clean",
+        "status": "ok",
+        "input_sha256": [
+          "c4165e84be55c5f78bdd30f2ffa2bbfd8034cdee13d70612cc1e6647128acf5e",
+          "5dfd51e52f7c44fcda522d09fe51c1cf05f61fd447cd06221de5b5426fe02e55"
+        ],
+        "prediction_sha256": "871ac303720bc95ca6dd2015bc53e77fde0a2d8b488fe60e4bc12d211d16fc2b",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_002/cam_b/clean.npz",
+      "prediction_sha256": "871ac303720bc95ca6dd2015bc53e77fde0a2d8b488fe60e4bc12d211d16fc2b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 63815,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 63815,
+      "native_quantized_valid": 63815,
+      "aligned_valid": 67513,
+      "foreground_sha256": "a5fcd9327cb5b4a6f7932c1d7a3ac884b1b9be6a6a0a4adb5ab889d13fd761a6",
+      "ordinary_RGB_sha256": "783188c27086d5cb631ac14d1bef590da1b5b82d8d6501d7db278389d8e83cfa"
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_c/clean",
+    "status": "ok",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "far/structural_test_stress_002/cam_c/clean",
+        "status": "ok",
+        "input_sha256": [
+          "70ca452affd35fddc82a1b4ecf0c429fd6e026e441829c7b28c7c5ace7868395",
+          "8387e6ee467f6bf34e31617e553008a2b015ea7beb13b1d3e7420c78e69257f2"
+        ],
+        "prediction_sha256": "0e230fceb4e0e528900054ad7e5cfe8fb85ad34fba6e103c9545d10b436aa327",
+        "evaluation_only_oracle": true
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/predictions/far/structural_test_stress_002/cam_c/clean.npz",
+      "prediction_sha256": "0e230fceb4e0e528900054ad7e5cfe8fb85ad34fba6e103c9545d10b436aa327",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 58697,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 58697,
+      "native_quantized_valid": 58697,
+      "aligned_valid": 70070,
+      "foreground_sha256": "7f31ef97eb06259c5c68ea325818bfb755441915532a147276fc3c4cbdd8dd48",
+      "ordinary_RGB_sha256": "bcf80e32e000b8117e5133d48c1fce2b68afb24f331b76b50c8c3b0a539f314b"
+    }
+  }
+]

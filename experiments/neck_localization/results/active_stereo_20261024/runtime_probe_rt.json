@@ -1,0 +1,55 @@
+{
+  "versions": {
+    "sapien": "3.0.3",
+    "numpy": "2.2.6",
+    "pyrealsense2": "2.59.1.11053"
+  },
+  "sensor_source": "/home/wunicheng/anaconda3/envs/winejar-stereo/lib/python3.12/site-packages/sapien/sensor/stereodepth.py",
+  "ray_tracing": true,
+  "rgb_shape": [
+    480,
+    848,
+    3
+  ],
+  "depth_shape": [
+    480,
+    848
+  ],
+  "valid_roi_fraction": 0.5058,
+  "plane_expected_m": 0.8,
+  "plane_median_m": 0.7994774580001831,
+  "rgb_intrinsic": [
+    [
+      605.12158203125,
+      0.0,
+      424.5927734375
+    ],
+    [
+      0.0,
+      604.905517578125,
+      236.668975830078
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "ir_intrinsic": [
+    [
+      430.139801025391,
+      0.0,
+      425.162841796875
+    ],
+    [
+      0.0,
+      430.139801025391,
+      235.276519775391
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

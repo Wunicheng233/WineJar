@@ -1,0 +1,38 @@
+[
+  {
+    "layout": "development",
+    "condition": "ideal_rgb",
+    "total": 4,
+    "solved": 4,
+    "errors": 0,
+    "center_axis_pass": 0,
+    "full_metrology_pass": null,
+    "radius_not_predicted": true,
+    "center_mm_median": 53.565376215366854,
+    "center_mm_max": 91.15875429600037,
+    "axis_deg_median": 30.642492916636897,
+    "axis_deg_max": 41.92645892288933,
+    "directed_normal_deg_median": 80.13604763087513,
+    "directed_normal_deg_max": 140.91356835136577,
+    "elapsed_ms_median": 6580.478672999902,
+    "elapsed_ms_max": 6595.61977899989
+  },
+  {
+    "layout": "development",
+    "condition": "stereo_raw",
+    "total": 4,
+    "solved": 4,
+    "errors": 0,
+    "center_axis_pass": 0,
+    "full_metrology_pass": null,
+    "radius_not_predicted": true,
+    "center_mm_median": 80.87027899063415,
+    "center_mm_max": 90.19621468580836,
+    "axis_deg_median": 29.525813359786035,
+    "axis_deg_max": 36.97739364232097,
+    "directed_normal_deg_median": 89.32803559400566,
+    "directed_normal_deg_max": 156.58183811076023,
+    "elapsed_ms_median": 6780.068149500039,
+    "elapsed_ms_max": 8639.609630999985
+  }
+]

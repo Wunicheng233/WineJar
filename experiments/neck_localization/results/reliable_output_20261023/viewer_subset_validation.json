@@ -1,0 +1,6 @@
+{
+  "validated_new_training_subsets": 193,
+  "all_points_equal_original_saved_RGBD_unprojections": true,
+  "weight_colors_exact": true,
+  "GT_read": false
+}

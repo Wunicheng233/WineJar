@@ -1,0 +1,7058 @@
+[
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.576661584265206,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 20,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5869509279400251,
+      "p95": 2.682024359769951,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5688337158587515,
+      "p95": 0.7619413441420915,
+      "max": 0.8085721447388945
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7258231099434205,
+      "p95": 2.7405311997410142,
+      "max": 2.7559771827202906
+    },
+    "transport_only_mm": {
+      "median": 0.8618660345374156,
+      "p95": 1.0644405015273877,
+      "max": 1.1025391581493942
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7729540091769027,
+      "p95": 2.7196167788765764,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8450914270828331,
+      "p95": 1.108081691048291,
+      "max": 1.117144289477789
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.9943261449300924,
+      "p95": 2.8814496367801694,
+      "max": 3.116037705903469
+    },
+    "transport_only_mm": {
+      "median": 0.9910252252468537,
+      "p95": 1.52198291535983,
+      "max": 1.551269579074697
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5610220178436502,
+      "p95": 2.6646763439255725,
+      "max": 2.6854107750366674
+    },
+    "transport_only_mm": {
+      "median": 0.4712085421006984,
+      "p95": 0.7619413441420915,
+      "max": 0.8085721447388945
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.4112372139011606,
+      "p95": 3.2835648370867307,
+      "max": 3.5186594467990973
+    },
+    "transport_only_mm": {
+      "median": 1.9006347895373485,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.504122031608972,
+      "p95": 2.6612460226791965,
+      "max": 2.695508046077478
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5147139230419329,
+      "max": 0.5585721447388945
+    },
+    "band_contained": 20,
+    "fallback": 2,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7258231099434205,
+      "p95": 2.7405311997410142,
+      "max": 2.7559771827202906
+    },
+    "transport_only_mm": {
+      "median": 0.8618660345374156,
+      "p95": 1.0644405015273877,
+      "max": 1.1025391581493942
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7729540091769027,
+      "p95": 2.7196167788765764,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8450914270828331,
+      "p95": 1.108081691048291,
+      "max": 1.117144289477789
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.3161594764634867,
+      "p95": 3.1716217119105234,
+      "max": 3.355604990583878
+    },
+    "transport_only_mm": {
+      "median": 1.5964100900987415,
+      "p95": 1.808793166143932,
+      "max": 1.8205078316298788
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4612735224061084,
+      "p95": 2.6683920239366556,
+      "max": 2.7179535378679054
+    },
+    "transport_only_mm": {
+      "median": 0.40295660738337524,
+      "p95": 0.6047765376568366,
+      "max": 0.6234288578955578
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.549749017544915,
+      "p95": 3.403835141510807,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.929649791786792,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7258231099434205,
+      "p95": 2.7405311997410142,
+      "max": 2.7559771827202906
+    },
+    "transport_only_mm": {
+      "median": 0.8618660345374156,
+      "p95": 1.0644405015273877,
+      "max": 1.1025391581493942
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7729540091769027,
+      "p95": 2.7196167788765764,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8450914270828331,
+      "p95": 1.108081691048291,
+      "max": 1.117144289477789
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.560574773204012,
+      "p95": 3.452841638107643,
+      "max": 3.500010670043823
+    },
+    "transport_only_mm": {
+      "median": 1.9454608229863166,
+      "p95": 1.974161238668099,
+      "max": 1.9757443015716052
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5147262216383675,
+      "p95": 2.662120276372027,
+      "max": 2.7698339453793914
+    },
+    "transport_only_mm": {
+      "median": 0.4868860280247804,
+      "p95": 0.5141589915752481,
+      "max": 0.5166795753912916
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7258231099434205,
+      "p95": 2.7405311997410142,
+      "max": 2.7559771827202906
+    },
+    "transport_only_mm": {
+      "median": 0.8618660345374156,
+      "p95": 1.0644405015273877,
+      "max": 1.1025391581493942
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7729540091769027,
+      "p95": 2.7196167788765764,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8450914270828331,
+      "p95": 1.108081691048291,
+      "max": 1.117144289477789
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.576631318556286,
+      "p95": 3.4829722471079454,
+      "max": 3.514529342329169
+    },
+    "transport_only_mm": {
+      "median": 1.9800203014900366,
+      "p95": 1.9905343151556403,
+      "max": 1.991114249090588
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5222923667082289,
+      "p95": 2.6615629697779433,
+      "max": 2.775828096621626
+    },
+    "transport_only_mm": {
+      "median": 0.49519587165264234,
+      "p95": 0.5051869573097444,
+      "max": 0.5061103394997801
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.857741802185443,
+      "p95": 2.862462403900708,
+      "max": 3.5186594467990973
+    },
+    "transport_only_mm": {
+      "median": 0.8886931693137257,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7614289109245973,
+      "p95": 2.7386465603310057,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8568469935543988,
+      "p95": 1.0993303384136635,
+      "max": 1.117144289477789
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7479313043159679,
+      "p95": 2.716310590015475,
+      "max": 2.7952951440195184
+    },
+    "transport_only_mm": {
+      "median": 0.8165783759216334,
+      "p95": 1.0709388628718013,
+      "max": 1.1553309723759004
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.767149471586048,
+      "p95": 2.7296245309405682,
+      "max": 2.8789831472141314
+    },
+    "transport_only_mm": {
+      "median": 0.7912128789860082,
+      "p95": 1.1149535197785299,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 2,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7614289109245973,
+      "p95": 2.7386465603310057,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8568469935543988,
+      "p95": 1.0993303384136635,
+      "max": 1.117144289477789
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.6918685509740539,
+      "p95": 2.696897077992969,
+      "max": 2.893210358535153
+    },
+    "transport_only_mm": {
+      "median": 0.7294955283824507,
+      "p95": 1.1311422684213106,
+      "max": 1.2820313265195153
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8798837601776648,
+      "p95": 2.976495077223535,
+      "max": 3.490228452666069
+    },
+    "transport_only_mm": {
+      "median": 0.7337088397592604,
+      "p95": 1.9569639177633191,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7614289109245973,
+      "p95": 2.7386465603310057,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8568469935543988,
+      "p95": 1.0993303384136635,
+      "max": 1.117144289477789
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8530008385495584,
+      "p95": 2.936378580857919,
+      "max": 3.267906662291849
+    },
+    "transport_only_mm": {
+      "median": 0.873381484386897,
+      "p95": 1.6658239493928118,
+      "max": 1.723858202507506
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.2337088397592604,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7614289109245973,
+      "p95": 2.7386465603310057,
+      "max": 2.768844858457972
+    },
+    "transport_only_mm": {
+      "median": 0.8568469935543988,
+      "p95": 1.0993303384136635,
+      "max": 1.117144289477789
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9848282388440344,
+      "p95": 3.025791361543719,
+      "max": 3.406940814637575
+    },
+    "transport_only_mm": {
+      "median": 1.0811710102424021,
+      "p95": 1.8501969428312603,
+      "max": 1.8762122976757785
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.729561686705229,
+      "p95": 3.50423226352814,
+      "max": 3.7137891133736
+    },
+    "transport_only_mm": {
+      "median": 2.026670749678548,
+      "p95": 2.28946469358615,
+      "max": 2.308158967273764
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.840648738564921,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.614605201439078,
+      "max": 2.679391188892712
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9821958873590173,
+      "p95": 3.841803099973365,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4108474647459026,
+      "p95": 2.6252132016976297,
+      "max": 2.677823997821182
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.268875401691159,
+      "p95": 3.2183352119643107,
+      "max": 3.7137891133736
+    },
+    "transport_only_mm": {
+      "median": 1.1965185469017259,
+      "p95": 2.28946469358615,
+      "max": 2.308158967273764
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.0185243127141965,
+      "p95": 2.904705494824874,
+      "max": 3.1390267328842802
+    },
+    "transport_only_mm": {
+      "median": 1.1889591370366492,
+      "p95": 1.5023033466484255,
+      "max": 1.588911998910591
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.6038700532445285,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.03946469358615,
+      "max": 2.058158967273764
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.840648738564921,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.614605201439078,
+      "max": 2.679391188892712
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9821958873590173,
+      "p95": 3.841803099973365,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4108474647459026,
+      "p95": 2.6252132016976297,
+      "max": 2.677823997821182
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.2915551552736666,
+      "p95": 3.1769167042905546,
+      "max": 3.598581982895637
+    },
+    "transport_only_mm": {
+      "median": 1.5917140824798874,
+      "p95": 2.11578587743446,
+      "max": 2.1232635869095056
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.6042973676504024,
+      "p95": 2.7232140336570256,
+      "max": 2.7436853876740064
+    },
+    "transport_only_mm": {
+      "median": 0.47558365481465975,
+      "p95": 0.9009213386593702,
+      "max": 0.9355647995642364
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4360889204751028,
+      "p95": 2.6612460226791965,
+      "max": 2.7367615905476224
+    },
+    "transport_only_mm": {
+      "median": 0.45987692948386183,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.840648738564921,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.614605201439078,
+      "max": 2.679391188892712
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9821958873590173,
+      "p95": 3.841803099973365,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4108474647459026,
+      "p95": 2.6252132016976297,
+      "max": 2.677823997821182
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5687562159750827,
+      "p95": 3.4270514828862457,
+      "max": 3.5331049705101623
+    },
+    "transport_only_mm": {
+      "median": 1.9448262273621468,
+      "p95": 2.015646740193846,
+      "max": 2.0166572414742574
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5175033580428205,
+      "p95": 2.6668472586226155,
+      "max": 2.758290404113457
+    },
+    "transport_only_mm": {
+      "median": 0.486019647730055,
+      "p95": 0.5541785592782932,
+      "max": 0.5588601080492211
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.840648738564921,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.614605201439078,
+      "max": 2.679391188892712
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.9821958873590173,
+      "p95": 3.841803099973365,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4108474647459026,
+      "p95": 2.6252132016976297,
+      "max": 2.677823997821182
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5895552218238476,
+      "p95": 3.4733635637454574,
+      "max": 3.5266618464367636
+    },
+    "transport_only_mm": {
+      "median": 1.979787825865341,
+      "p95": 2.0057319741304185,
+      "max": 2.0061021577677973
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5231675577378299,
+      "p95": 2.663177514885573,
+      "max": 2.771417144317965
+    },
+    "transport_only_mm": {
+      "median": 0.49487848481200036,
+      "p95": 0.5198475910227411,
+      "max": 0.5215626138398137
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.5916823275690923,
+      "p95": 3.486949061022607,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.0314865535221562,
+      "p95": 2.513322244611958,
+      "max": 2.616317934547528
+    },
+    "band_contained": 40,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.8633953453779775,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.6278544741314054,
+      "max": 2.679391188892712
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.899010989802349,
+      "p95": 3.7122088948826555,
+      "max": 3.8866594025684296
+    },
+    "transport_only_mm": {
+      "median": 2.252780265130856,
+      "p95": 2.5389756393033784,
+      "max": 2.5800639383976733
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.5589380716020083,
+      "p95": 3.4841278511183718,
+      "max": 3.909994131677876
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.513322244611958,
+      "max": 2.616317934547528
+    },
+    "band_contained": 40,
+    "fallback": 13,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.8633953453779775,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.6278544741314054,
+      "max": 2.679391188892712
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.5760976511136087,
+      "p95": 3.3792807148939508,
+      "max": 3.8309215523647246
+    },
+    "transport_only_mm": {
+      "median": 1.9063101206643014,
+      "p95": 2.4106577956895663,
+      "max": 2.4930543476380223
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8955613128142086,
+      "p95": 2.8518034593371375,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 0.6889591370366492,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.8633953453779775,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.6278544741314054,
+      "max": 2.679391188892712
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9543785403680332,
+      "p95": 2.934546925766046,
+      "max": 3.6397052989710907
+    },
+    "transport_only_mm": {
+      "median": 0.8556006215651243,
+      "p95": 2.1579453060344487,
+      "max": 2.1896362875530855
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.932619870585767,
+      "p95": 3.0571691205823353,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 0.830152202776822,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.9838789006808453,
+      "p95": 3.8633953453779775,
+      "max": 3.9113618022850494
+    },
+    "transport_only_mm": {
+      "median": 2.4206489366560575,
+      "p95": 2.6278544741314054,
+      "max": 2.679391188892712
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9934864793927436,
+      "p95": 3.1129288723295714,
+      "max": 3.575003554322713
+    },
+    "transport_only_mm": {
+      "median": 1.0774781247536875,
+      "p95": 2.070803068222339,
+      "max": 2.0850093702824175
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.3316143672915595,
+      "p95": 2.6494937820642144,
+      "max": 2.710126856131141
+    },
+    "transport_only_mm": {
+      "median": 0.25725123422076734,
+      "p95": 0.35937107507395494,
+      "max": 0.4112705684487512
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.245677611351991,
+      "p95": 2.653038842036732,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.29193410941772235,
+      "max": 0.31125314121793934
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.255113621451272,
+      "p95": 2.655069062190435,
+      "max": 2.672715077622998
+    },
+    "transport_only_mm": {
+      "median": 0.09326718672486578,
+      "p95": 0.31794428383630263,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.837257308420278,
+      "p95": 2.8429864009769954,
+      "max": 2.962147638410221
+    },
+    "transport_only_mm": {
+      "median": 1.0010955257886405,
+      "p95": 1.1368884232737835,
+      "max": 1.1463246837750667
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.3316143672915595,
+      "p95": 2.6494937820642144,
+      "max": 2.710126856131141
+    },
+    "transport_only_mm": {
+      "median": 0.25725123422076734,
+      "p95": 0.35937107507395494,
+      "max": 0.4112705684487512
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4837595480373835,
+      "p95": 2.6612460226791965,
+      "max": 2.7683570033102396
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.245677611351991,
+      "p95": 2.653038842036732,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.29193410941772235,
+      "max": 0.31125314121793934
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.255113621451272,
+      "p95": 2.655069062190435,
+      "max": 2.672715077622998
+    },
+    "transport_only_mm": {
+      "median": 0.09326718672486578,
+      "p95": 0.31794428383630263,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.298288282890246,
+      "p95": 3.223607010679888,
+      "max": 3.270753953390835
+    },
+    "transport_only_mm": {
+      "median": 1.6004382103154562,
+      "p95": 1.6547553693095134,
+      "max": 1.6585298735100267
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4444864501211108,
+      "p95": 2.6543322413098647,
+      "max": 2.748232397710777
+    },
+    "transport_only_mm": {
+      "median": 0.40290049368830694,
+      "p95": 0.443748430029582,
+      "max": 0.4645082273795005
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.245677611351991,
+      "p95": 2.653038842036732,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.29193410941772235,
+      "max": 0.31125314121793934
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.255113621451272,
+      "p95": 2.655069062190435,
+      "max": 2.672715077622998
+    },
+    "transport_only_mm": {
+      "median": 0.09326718672486578,
+      "p95": 0.31794428383630263,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.540987719616723,
+      "p95": 3.46561002892387,
+      "max": 3.4835007037460617
+    },
+    "transport_only_mm": {
+      "median": 1.9460051635561428,
+      "p95": 1.9533453201769613,
+      "max": 1.9538553883121659
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5153257282030512,
+      "p95": 2.6601401236785382,
+      "max": 2.7748945166512735
+    },
+    "transport_only_mm": {
+      "median": 0.4868784450930145,
+      "p95": 0.49239843649048404,
+      "max": 0.4952038145107433
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.245677611351991,
+      "p95": 2.653038842036732,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.29193410941772235,
+      "max": 0.31125314121793934
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.255113621451272,
+      "p95": 2.655069062190435,
+      "max": 2.672715077622998
+    },
+    "transport_only_mm": {
+      "median": 0.09326718672486578,
+      "p95": 0.31794428383630263,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5702071755978815,
+      "p95": 3.4877685185116114,
+      "max": 3.5083873079107155
+    },
+    "transport_only_mm": {
+      "median": 1.9802197133819532,
+      "p95": 1.9829086816489858,
+      "max": 1.9830955382925757
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5221038543834593,
+      "p95": 2.660834682844024,
+      "max": 2.7777162100560497
+    },
+    "transport_only_mm": {
+      "median": 0.49519309374694587,
+      "p95": 0.4972152688133456,
+      "max": 0.4982429815534406
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2974066507670554,
+      "p95": 2.669126482388237,
+      "max": 2.7175809544542386
+    },
+    "transport_only_mm": {
+      "median": 0.19565686595704346,
+      "p95": 0.3403549116059977,
+      "max": 0.3963246837750667
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2524546142327044,
+      "p95": 2.670241855215641,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.3084625751677685,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2501988898936554,
+      "p95": 2.6692241157623955,
+      "max": 2.693727598094229
+    },
+    "transport_only_mm": {
+      "median": 0.11478955186107875,
+      "p95": 0.327079550150707,
+      "max": 0.39308175769424314
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.4568743550088943,
+      "p95": 2.672388561923898,
+      "max": 2.7790772521206466
+    },
+    "transport_only_mm": {
+      "median": 0.33345728314426637,
+      "p95": 0.5887742868347576,
+      "max": 0.6463246837750667
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2524546142327044,
+      "p95": 2.670241855215641,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.3084625751677685,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.4051929963290704,
+      "p95": 2.667028398659897,
+      "max": 2.751768462582115
+    },
+    "transport_only_mm": {
+      "median": 0.2553531808310794,
+      "p95": 0.5420388589356123,
+      "max": 0.6341194940401065
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9145049194363537,
+      "p95": 2.915774639597437,
+      "max": 3.2133108922453784
+    },
+    "transport_only_mm": {
+      "median": 0.9221867146955152,
+      "p95": 1.5887742868347576,
+      "max": 1.6463246837750667
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2524546142327044,
+      "p95": 2.670241855215641,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.3084625751677685,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.852432932273655,
+      "p95": 2.8622436492992187,
+      "max": 3.1502913508536614
+    },
+    "transport_only_mm": {
+      "median": 0.8671212301045482,
+      "p95": 1.4392457149752356,
+      "max": 1.4746613438615794
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2524546142327044,
+      "p95": 2.670241855215641,
+      "max": 2.6779895536166527
+    },
+    "transport_only_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.3084625751677685,
+      "max": 0.3225411368975024
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.011709745904956,
+      "p95": 2.98400936377396,
+      "max": 3.3445284180807646
+    },
+    "transport_only_mm": {
+      "median": 1.0783646893572114,
+      "p95": 1.7486273894716573,
+      "max": 1.7645033610413976
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 21,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5519075403901161,
+      "p95": 2.6612460226791965,
+      "max": 2.8474222411208787
+    },
+    "transport_only_mm": {
+      "median": 0.5445514610929454,
+      "p95": 0.7345030802529791,
+      "max": 0.7552195972715943
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.885162349893812,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981110521792196,
+      "max": 1.0024977668943151
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.735177020032694,
+      "p95": 2.8949668546617646,
+      "max": 2.9394988709678334
+    },
+    "transport_only_mm": {
+      "median": 0.9067328132750241,
+      "p95": 0.9809661766054694,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.8089484459317833,
+      "p95": 2.6669232811141295,
+      "max": 3.2133108922453784
+    },
+    "transport_only_mm": {
+      "median": 0.9953490565830485,
+      "p95": 1.4989587395807007,
+      "max": 1.5012488834471576
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.488438658397367,
+      "p95": 2.689563429779996,
+      "max": 2.8474222411208787
+    },
+    "transport_only_mm": {
+      "median": 0.4149100255079752,
+      "p95": 0.7345030802529791,
+      "max": 0.7552195972715943
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.510149706963375,
+      "p95": 3.349663426256089,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.8756244417235788,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4339454804071115,
+      "p95": 2.6579819093520025,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.33063528422440314,
+      "p95": 0.5,
+      "max": 0.5052195972715943
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.885162349893812,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981110521792196,
+      "max": 1.0024977668943151
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.735177020032694,
+      "p95": 2.8949668546617646,
+      "max": 2.9394988709678334
+    },
+    "transport_only_mm": {
+      "median": 0.9067328132750241,
+      "p95": 0.9809661766054694,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.203545992308684,
+      "p95": 3.082040359978404,
+      "max": 3.390942039479861
+    },
+    "transport_only_mm": {
+      "median": 1.5981396226332194,
+      "p95": 1.7995834958322803,
+      "max": 1.800499553378863
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4692482106146463,
+      "p95": 2.6492850410128828,
+      "max": 2.8048804282580293
+    },
+    "transport_only_mm": {
+      "median": 0.4000746981269394,
+      "p95": 0.5938012321011916,
+      "max": 0.6020878389086377
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.459920613832998,
+      "p95": 3.3613168719485693,
+      "max": 3.5186594467990973
+    },
+    "transport_only_mm": {
+      "median": 1.9481623418875609,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.885162349893812,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981110521792196,
+      "max": 1.0024977668943151
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.735177020032694,
+      "p95": 2.8949668546617646,
+      "max": 2.9394988709678334
+    },
+    "transport_only_mm": {
+      "median": 0.9067328132750241,
+      "p95": 0.9809661766054694,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5329453797981607,
+      "p95": 3.444944010437076,
+      "max": 3.50100232683578
+    },
+    "transport_only_mm": {
+      "median": 1.9456945435990838,
+      "p95": 1.9729166886259837,
+      "max": 1.9730404801863328
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5116602738921192,
+      "p95": 2.6578137465208895,
+      "max": 2.7826747783556254
+    },
+    "transport_only_mm": {
+      "median": 0.48649658082796476,
+      "p95": 0.5126758421758367,
+      "max": 0.5137956539065727
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.885162349893812,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981110521792196,
+      "max": 1.0024977668943151
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.735177020032694,
+      "p95": 2.8949668546617646,
+      "max": 2.9394988709678334
+    },
+    "transport_only_mm": {
+      "median": 0.9067328132750241,
+      "p95": 0.9809661766054694,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5623836069577868,
+      "p95": 3.4826806845645613,
+      "max": 3.5121770650754534
+    },
+    "transport_only_mm": {
+      "median": 1.9801059219125356,
+      "p95": 1.9900783908827862,
+      "max": 1.9901237402662804
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5196460203767308,
+      "p95": 2.659923199523986,
+      "max": 2.780570797250329
+    },
+    "transport_only_mm": {
+      "median": 0.49505320287757126,
+      "p95": 0.5046436253515442,
+      "max": 0.5050538534113187
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.871792815774041,
+      "p95": 2.95838146961966,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 0.9400874206464405,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.9275803538834557,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981018290581524,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.6852373180114986,
+      "p95": 2.89667224509813,
+      "max": 2.9880549599028816
+    },
+    "transport_only_mm": {
+      "median": 0.8368746237991799,
+      "p95": 1.052501425435475,
+      "max": 1.0611743688417083
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.6146568444772236,
+      "p95": 2.8249838227236856,
+      "max": 2.9621476384100265
+    },
+    "transport_only_mm": {
+      "median": 0.7383767235568106,
+      "p95": 0.9988527862130212,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.9275803538834557,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981018290581524,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.6269226592845731,
+      "p95": 2.814290845018734,
+      "max": 3.054989056093405
+    },
+    "transport_only_mm": {
+      "median": 0.6814027576908972,
+      "p95": 1.1946262116201538,
+      "max": 1.201998213515452
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8879542966669327,
+      "p95": 2.8340432543724967,
+      "max": 3.518012954596361
+    },
+    "transport_only_mm": {
+      "median": 0.7504710840650617,
+      "p95": 1.9966413822625961,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.9275803538834557,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981018290581524,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7936852104380465,
+      "p95": 2.8137369822194076,
+      "max": 3.325142934892198
+    },
+    "transport_only_mm": {
+      "median": 0.8672805432005286,
+      "p95": 1.6902408506231361,
+      "max": 1.6930762359674816
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.7345853832415674,
+      "p95": 2.9275803538834557,
+      "max": 2.961713692911159
+    },
+    "transport_only_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981018290581524,
+      "max": 1.0104391945431885
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9702884809025596,
+      "p95": 2.9363341469170687,
+      "max": 3.4298345125714325
+    },
+    "transport_only_mm": {
+      "median": 1.0784361055726506,
+      "p95": 1.8611424502793368,
+      "max": 1.862413485088871
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.3548917929319324,
+      "p95": 2.6488198665172655,
+      "max": 2.714063420689308
+    },
+    "transport_only_mm": {
+      "median": 0.2476243774530147,
+      "p95": 0.34366422352598525,
+      "max": 0.4227414260092317
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.651842240799443,
+      "max": 2.6711008416581064
+    },
+    "transport_only_mm": {
+      "median": 0.09281700938123905,
+      "p95": 0.33266907506716936,
+      "max": 0.3409798015214811
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2573735105393036,
+      "p95": 2.6539527292123646,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.08688163340026023,
+      "p95": 0.302229745146854,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.8508213676046046,
+      "p95": 2.8032626046193614,
+      "max": 2.943543516788273
+    },
+    "transport_only_mm": {
+      "median": 0.998617275060008,
+      "p95": 1.0955676503370686,
+      "max": 1.1700068159163894
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.3548917929319324,
+      "p95": 2.6488198665172655,
+      "max": 2.714063420689308
+    },
+    "transport_only_mm": {
+      "median": 0.2476243774530147,
+      "p95": 0.34366422352598525,
+      "max": 0.4227414260092317
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.509965568966887,
+      "p95": 2.6612460226791965,
+      "max": 2.7740503861339723
+    },
+    "transport_only_mm": {
+      "median": 0.49069702217586997,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.651842240799443,
+      "max": 2.6711008416581064
+    },
+    "transport_only_mm": {
+      "median": 0.09281700938123905,
+      "p95": 0.33266907506716936,
+      "max": 0.3409798015214811
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2573735105393036,
+      "p95": 2.6539527292123646,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.08688163340026023,
+      "p95": 0.302229745146854,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.3056461977321954,
+      "p95": 3.2051299164387883,
+      "max": 3.2607994775116405
+    },
+    "transport_only_mm": {
+      "median": 1.5994469100240032,
+      "p95": 1.6382270601348274,
+      "max": 1.6680027263665558
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.4542475078617685,
+      "p95": 2.6542371561953924,
+      "max": 2.7502823687551614
+    },
+    "transport_only_mm": {
+      "median": 0.3990497509812059,
+      "p95": 0.4374656894103941,
+      "max": 0.4690965704036927
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.651842240799443,
+      "max": 2.6711008416581064
+    },
+    "transport_only_mm": {
+      "median": 0.09281700938123905,
+      "p95": 0.33266907506716936,
+      "max": 0.3409798015214811
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2573735105393036,
+      "p95": 2.6539527292123646,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.08688163340026023,
+      "p95": 0.302229745146854,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5424854319945775,
+      "p95": 3.462966081602593,
+      "max": 3.4820036210880536
+    },
+    "transport_only_mm": {
+      "median": 1.9458712040572976,
+      "p95": 1.951111764883085,
+      "max": 1.955135503563048
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5167208649529362,
+      "p95": 2.660140916002533,
+      "max": 2.7752073005087508
+    },
+    "transport_only_mm": {
+      "median": 0.4863580744569197,
+      "p95": 0.4915494174878911,
+      "max": 0.4958238608653639
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.651842240799443,
+      "max": 2.6711008416581064
+    },
+    "transport_only_mm": {
+      "median": 0.09281700938123905,
+      "p95": 0.33266907506716936,
+      "max": 0.3409798015214811
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.2573735105393036,
+      "p95": 2.6539527292123646,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.08688163340026023,
+      "p95": 0.302229745146854,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5853869322500858,
+      "p95": 3.500560817718058,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.5243142562222718,
+      "p95": 2.6612460226791965,
+      "max": 2.7793622786333536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.5707815318102893,
+      "p95": 3.4872344743706156,
+      "max": 3.5073715787564144
+    },
+    "transport_only_mm": {
+      "median": 1.9801706391100993,
+      "p95": 1.982090448521526,
+      "max": 1.983564491404285
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.521986968840313,
+      "p95": 2.660835467876513,
+      "max": 2.7778320710133637
+    },
+    "transport_only_mm": {
+      "median": 0.4950024629198617,
+      "p95": 0.4969042420500195,
+      "max": 0.49847012724770756
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.306815125982785,
+      "p95": 2.669373215427294,
+      "max": 2.7092017522175507
+    },
+    "transport_only_mm": {
+      "median": 0.1813233447183613,
+      "p95": 0.34266381768505805,
+      "max": 0.42000681591638944
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.6706566696028973,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.09206301336958589,
+      "p95": 0.3351960316365324,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2923237958230493,
+      "p95": 2.66804128682052,
+      "max": 2.6823809968683254
+    },
+    "transport_only_mm": {
+      "median": 0.10533144769938718,
+      "p95": 0.2937985025705697,
+      "max": 0.4376598887837919
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.4681591462740242,
+      "p95": 2.6712836148021952,
+      "max": 2.7670078125213684
+    },
+    "transport_only_mm": {
+      "median": 0.3374964756288614,
+      "p95": 0.5752866641708474,
+      "max": 0.6700068159163894
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.6706566696028973,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.09206301336958589,
+      "p95": 0.3351960316365324,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.442233325833297,
+      "p95": 2.665534560686211,
+      "max": 2.735090091231125
+    },
+    "transport_only_mm": {
+      "median": 0.25427503824520414,
+      "p95": 0.5204586626733556,
+      "max": 0.6720109054662231
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9266106554178881,
+      "p95": 2.9101055408254264,
+      "max": 3.189445819558406
+    },
+    "transport_only_mm": {
+      "median": 0.9147550496196297,
+      "p95": 1.5752866641708474,
+      "max": 1.6700068159163894
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.6706566696028973,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.09206301336958589,
+      "p95": 0.3351960316365324,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.869924331818147,
+      "p95": 2.859502793087946,
+      "max": 3.1362308529527625
+    },
+    "transport_only_mm": {
+      "median": 0.8660773923841512,
+      "p95": 1.4309456394897524,
+      "max": 1.489234963640855
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.2639117542899436,
+      "p95": 2.6706566696028973,
+      "max": 2.674270769009267
+    },
+    "transport_only_mm": {
+      "median": 0.09206301336958589,
+      "p95": 0.3351960316365324,
+      "max": 0.3454828520184634
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.003164490499776,
+      "p95": 2.9824765481659714,
+      "max": 3.3373677907286305
+    },
+    "transport_only_mm": {
+      "median": 1.07789676210324,
+      "p95": 1.7449066659781647,
+      "max": 1.7710363630114179
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.848087395519128,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.805859115244672,
+      "p95": 7.7964073381164605,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 4.109311364052788,
+      "p95": 4.795774950475662,
+      "max": 4.8899698883464415
+    },
+    "transport_only_mm": {
+      "median": 6.87608878613033,
+      "p95": 7.791064977232626,
+      "max": 7.833565055022362
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 7.216759691232532,
+      "p95": 8.815448814957925,
+      "max": 8.826288055524577
+    },
+    "transport_only_mm": {
+      "median": 3.4050916672171416,
+      "p95": 4.860238654486924,
+      "max": 4.898728342732415
+    },
+    "band_contained": 17,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 7.354870668420877,
+      "p95": 8.054356708662816,
+      "max": 8.10299307674959
+    },
+    "transport_only_mm": {
+      "median": 3.3512257630062825,
+      "p95": 4.1017955416279275,
+      "max": 4.166782527511181
+    },
+    "band_contained": 17,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.848087395519128,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.805859115244672,
+      "p95": 7.7964073381164605,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 4.109311364052788,
+      "p95": 4.795774950475662,
+      "max": 4.8899698883464415
+    },
+    "transport_only_mm": {
+      "median": 6.87608878613033,
+      "p95": 7.791064977232626,
+      "max": 7.833565055022362
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 9.174604810905533,
+      "p95": 11.452816192833874,
+      "max": 11.71787588447903
+    },
+    "transport_only_mm": {
+      "median": 1.6042203110122149,
+      "p95": 3.1440954617947696,
+      "max": 3.159491337092966
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 9.4224840063634,
+      "p95": 10.228857684699598,
+      "max": 10.534192254937707
+    },
+    "transport_only_mm": {
+      "median": 1.3498095611235161,
+      "p95": 1.9407182166511714,
+      "max": 1.9667130110044724
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 22,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.848087395519128,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.805859115244672,
+      "p95": 7.7964073381164605,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 4.109311364052788,
+      "p95": 4.795774950475662,
+      "max": 4.8899698883464415
+    },
+    "transport_only_mm": {
+      "median": 6.87608878613033,
+      "p95": 7.791064977232626,
+      "max": 7.833565055022362
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.337540715162074,
+      "p95": 13.063759486098364,
+      "max": 13.419053312519194
+    },
+    "transport_only_mm": {
+      "median": 1.9465162582448938,
+      "p95": 2.154607494837131,
+      "max": 2.1566880185260766
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.607897251947769,
+      "p95": 11.62094351947023,
+      "max": 11.964716075875604
+    },
+    "transport_only_mm": {
+      "median": 0.4859625210245088,
+      "p95": 0.6946916508988069,
+      "max": 0.6982044609465503
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.3928599930117924,
+      "max": 2.461019765153422
+    },
+    "band_contained": 15,
+    "fallback": 13,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.8515954202407432
+    },
+    "band_contained": 16,
+    "fallback": 21,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.848087395519128,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.805859115244672,
+      "p95": 7.7964073381164605,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 4.109311364052788,
+      "p95": 4.795774950475662,
+      "max": 4.8899698883464415
+    },
+    "transport_only_mm": {
+      "median": 6.87608878613033,
+      "p95": 7.791064977232626,
+      "max": 7.833565055022362
+    },
+    "band_contained": 18,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.519373254793214,
+      "p95": 13.324945373323873,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 11.839912726725384,
+      "max": 12.188326111500219
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 10.452757932606351,
+      "p95": 13.229252427243674,
+      "max": 13.58754219523784
+    },
+    "transport_only_mm": {
+      "median": 1.9804069460897136,
+      "p95": 2.0566383891977607,
+      "max": 2.057400561242226
+    },
+    "band_contained": 15,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 10.729418864440184,
+      "p95": 11.759685239188967,
+      "max": 12.106407088461612
+    },
+    "transport_only_mm": {
+      "median": 0.4948575572069983,
+      "p95": 0.5713226839926322,
+      "max": 0.5726095550002214
+    },
+    "band_contained": 16,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 44,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.855505010810601,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.844639408393665,
+      "p95": 7.797073898258157,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 4.464938461552914,
+      "p95": 5.15697850817094,
+      "max": 5.313418938538195
+    },
+    "transport_only_mm": {
+      "median": 6.462116307405256,
+      "p95": 7.38499302778663,
+      "max": 7.456429821613958
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 44,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.855505010810601,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.844639408393665,
+      "p95": 7.797073898258157,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 5.375616389342136,
+      "p95": 6.135458738943169,
+      "max": 6.415001959503922
+    },
+    "transport_only_mm": {
+      "median": 5.406314005973172,
+      "p95": 6.362468981052028,
+      "max": 6.637965348371864
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 3.614406158473414,
+      "max": 3.9988193233665967
+    },
+    "band_contained": 32,
+    "fallback": 37,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.855505010810601,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.844639408393665,
+      "p95": 7.797073898258157,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 8.678034147323633,
+      "p95": 10.40313261635152,
+      "max": 10.659385879846829
+    },
+    "transport_only_mm": {
+      "median": 2.0766300940361786,
+      "p95": 3.662727976931438,
+      "max": 3.7838328262968703
+    },
+    "band_contained": 33,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 9.094414115602735,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 3.201932962513587,
+      "max": 3.398728342732415
+    },
+    "band_contained": 31,
+    "fallback": 19,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 4.121852496713615,
+      "p95": 4.855505010810601,
+      "max": 4.934779568101481
+    },
+    "transport_only_mm": {
+      "median": 6.844639408393665,
+      "p95": 7.797073898258157,
+      "max": 7.8584447106273565
+    },
+    "band_contained": 36,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 31,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 9.831736220444686,
+      "p95": 11.990817613583932,
+      "max": 12.328190665501642
+    },
+    "transport_only_mm": {
+      "median": 1.076446344300857,
+      "p95": 2.7453608172451274,
+      "max": 2.7996491979951488
+    },
+    "band_contained": 32,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.0875171825435945,
+      "p95": 2.8007468655282666,
+      "max": 3.1257320553189984
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.147520325902162,
+      "max": 2.1684426585115695
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9925014444484839,
+      "p95": 1.9750962421055207,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.8956023610008349,
+      "max": 0.9863356957121034
+    },
+    "band_contained": 20,
+    "fallback": 20,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1207250894534457,
+      "p95": 2.989035031778678,
+      "max": 3.0216266595900456
+    },
+    "transport_only_mm": {
+      "median": 1.875722085534326,
+      "p95": 2.3011935285559098,
+      "max": 2.336885317023139
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1561260409607734,
+      "p95": 3.0468600902235417,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.863964895304548,
+      "p95": 2.250984893609875,
+      "max": 2.351336695067541
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.7755751765223544,
+      "p95": 2.7767813170330906,
+      "max": 3.1257320553189984
+    },
+    "transport_only_mm": {
+      "median": 0.9962028155712215,
+      "p95": 2.147520325902162,
+      "max": 2.1684426585115695
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.3641898168693682,
+      "p95": 2.2821094975130736,
+      "max": 2.6103306134042192
+    },
+    "transport_only_mm": {
+      "median": 0.9210459427146933,
+      "p95": 1.3707685571526347,
+      "max": 1.375704112729636
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.813458024388629,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 1.1307790834216982,
+      "p95": 1.9315189248714721,
+      "max": 2.4481975307073536
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.9355728991302046,
+      "max": 0.9925926639912372
+    },
+    "band_contained": 20,
+    "fallback": 14,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1207250894534457,
+      "p95": 2.989035031778678,
+      "max": 3.0216266595900456
+    },
+    "transport_only_mm": {
+      "median": 1.875722085534326,
+      "p95": 2.3011935285559098,
+      "max": 2.336885317023139
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1561260409607734,
+      "p95": 3.0468600902235417,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.863964895304548,
+      "p95": 2.250984893609875,
+      "max": 2.351336695067541
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 1.9764794499502902,
+      "p95": 2.777251662571812,
+      "max": 3.2036114452233675
+    },
+    "transport_only_mm": {
+      "median": 1.5984811262284886,
+      "p95": 2.0590081303608647,
+      "max": 2.067377063404628
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9948869659464241,
+      "p95": 2.002430373302988,
+      "max": 2.3684434068239564
+    },
+    "transport_only_mm": {
+      "median": 0.41157759795377125,
+      "p95": 0.8483074228610539,
+      "max": 0.8502816450918544
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 9,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1207250894534457,
+      "p95": 2.989035031778678,
+      "max": 3.0216266595900456
+    },
+    "transport_only_mm": {
+      "median": 1.875722085534326,
+      "p95": 2.3011935285559098,
+      "max": 2.336885317023139
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1561260409607734,
+      "p95": 3.0468600902235417,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.863964895304548,
+      "p95": 2.250984893609875,
+      "max": 2.351336695067541
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1063783895666477,
+      "p95": 2.823037079778063,
+      "max": 3.2490116853895414
+    },
+    "transport_only_mm": {
+      "median": 1.9457406927335796,
+      "p95": 2.007974071670387,
+      "max": 2.0091050085681927
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9428931160428449,
+      "p95": 1.9290302884784785,
+      "max": 2.2468163363143416
+    },
+    "transport_only_mm": {
+      "median": 0.4880510267505096,
+      "p95": 0.5470685706568992,
+      "max": 0.5473353574448452
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1207250894534457,
+      "p95": 2.989035031778678,
+      "max": 3.0216266595900456
+    },
+    "transport_only_mm": {
+      "median": 1.875722085534326,
+      "p95": 2.3011935285559098,
+      "max": 2.336885317023139
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1561260409607734,
+      "p95": 3.0468600902235417,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.863964895304548,
+      "p95": 2.250984893609875,
+      "max": 2.351336695067541
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1559124089156505,
+      "p95": 2.8371597030323152,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.9476285370735759,
+      "p95": 1.9251652636013352,
+      "max": 2.2291845558051535
+    },
+    "transport_only_mm": {
+      "median": 0.5,
+      "p95": 0.5,
+      "max": 0.5
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": false,
+    "total": 22,
+    "center_mm": {
+      "median": 2.1377305382348997,
+      "p95": 2.8311416071735565,
+      "max": 3.2535257497583365
+    },
+    "transport_only_mm": {
+      "median": 1.9801228280311132,
+      "p95": 2.0029211945723198,
+      "max": 2.0033354981883478
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 0.5,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 22,
+    "center_mm": {
+      "median": 0.945090142682095,
+      "p95": 1.9263618077451679,
+      "max": 2.2355981966282013
+    },
+    "transport_only_mm": {
+      "median": 0.4956226533640481,
+      "p95": 0.5172429417257948,
+      "max": 0.5173406754995967
+    },
+    "band_contained": 20,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.038836050519015,
+      "p95": 2.80077268647317,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.8596173430820695,
+      "p95": 2.1556506908703614,
+      "max": 2.336885317023139
+    },
+    "band_contained": 40,
+    "fallback": 15,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.12925080515147,
+      "p95": 3.0181675518666675,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.8675961241441374,
+      "p95": 2.2993829377776263,
+      "max": 2.351336695067541
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 0.5,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.074752564507867,
+      "p95": 2.941294284532213,
+      "max": 3.0193653849970725
+    },
+    "transport_only_mm": {
+      "median": 1.736551596715844,
+      "p95": 2.178789645154808,
+      "max": 2.3170685336688366
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.9628947856936376,
+      "p95": 2.80077268647317,
+      "max": 2.998565941434192
+    },
+    "transport_only_mm": {
+      "median": 1.681982447652274,
+      "p95": 2.1400309328762672,
+      "max": 2.336885317023139
+    },
+    "band_contained": 40,
+    "fallback": 11,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.12925080515147,
+      "p95": 3.0181675518666675,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.8675961241441374,
+      "p95": 2.2993829377776263,
+      "max": 2.351336695067541
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 1.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8532195871363362,
+      "p95": 2.7817246309603214,
+      "max": 3.049017563025005
+    },
+    "transport_only_mm": {
+      "median": 1.454890017506223,
+      "p95": 2.1120247463010138,
+      "max": 2.269508253618511
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.3037838890406337,
+      "p95": 2.7511832786046284,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 0.6430195370728242,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.12925080515147,
+      "p95": 3.0181675518666675,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.8675961241441374,
+      "p95": 2.2993829377776263,
+      "max": 2.351336695067541
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 3.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.3849322144480802,
+      "p95": 2.6654487715449884,
+      "max": 3.1755260795209286
+    },
+    "transport_only_mm": {
+      "median": 0.8671041114548427,
+      "p95": 2.043086440885005,
+      "max": 2.1036570206225043
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "bounded",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.6198426818685676,
+      "p95": 2.7511832786046284,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 0.929001770959446,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "full_visual",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 2.12925080515147,
+      "p95": 3.0181675518666675,
+      "max": 3.0775680714528098
+    },
+    "transport_only_mm": {
+      "median": 1.8675961241441374,
+      "p95": 2.2993829377776263,
+      "max": 2.351336695067541
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "nominal",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "transport_only_mm": {
+      "median": 1.25,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "prior_half_mm": 2.0,
+    "measurement_bound_mm": 5.0,
+    "method": "shrinkage",
+    "actual_stop_within_assumed_prior": true,
+    "total": 44,
+    "center_mm": {
+      "median": 1.5382100864213337,
+      "p95": 2.741279266691228,
+      "max": 3.2198621212031977
+    },
+    "transport_only_mm": {
+      "median": 1.0753389868480727,
+      "p95": 2.0193146114312093,
+      "max": 2.046466940279054
+    },
+    "band_contained": 40,
+    "fallback": 0,
+    "final_fastening_success": null
+  }
+]

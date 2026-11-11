@@ -1,0 +1,48 @@
+{
+  "sources": {
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_joint_profile.py": "d18a7231bfadf97125b45aabf421207a6bf35b7e1deddec1aff6d918a64f8350"
+  },
+  "split": "development",
+  "scenes": [
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/preparation_20261022_v5",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/short_neck_heldout_20261022_v1"
+  ],
+  "settings": {
+    "fit_depth_mm": 28.0,
+    "exclude_top_mm": 3.0,
+    "local_half_span_mm": 8.5,
+    "local_context_mm": 2.0,
+    "facing_cosine_min": 0.15,
+    "max_fit_points_per_camera": 2500,
+    "knot_spacing_mm": 1.5,
+    "smoothing_mm3": 0.0001,
+    "axis_shift_bound_mm": 20.0,
+    "normal_tangent_bound": 0.24,
+    "multistart_tangent": 0.06,
+    "max_nfev": 70,
+    "maximum_radial_rms_mm": 0.4,
+    "near_min_delta_mm": 1.0,
+    "support_bin_mm": 0.5,
+    "maximum_target_gap_mm": 2.5,
+    "endpoint_support_mm": 1.5,
+    "maximum_condition": 10000.0
+  },
+  "elapsed_s": 3.976022089000253,
+  "methods": [
+    "rim_guided_profile",
+    "spline_fixed_axis",
+    "joint_axis_spline"
+  ],
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "test_freeze_sha256": null,
+  "scope": "true cameras, ideal saved depth, ordinary RGB extraction; no layout search/no sensor noise/no learning"
+}

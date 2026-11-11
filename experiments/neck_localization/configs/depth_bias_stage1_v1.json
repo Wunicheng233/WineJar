@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-23",
+  "stage": "additive axial-depth bias only",
+  "scenes": "experiments/neck_localization/runs/reliable_output_v2_test_scenes",
+  "band_width_mm": 3,
+  "minimum_model_neck_length_m": 0.006,
+  "case_selection": "first 8 nominal and first 4 stress lexicographically among model neck length >=6 mm; no score-based selection",
+  "study_kind": "previously viewed synthetic scenes; paired sensitivity, not new unseen test",
+  "cases": [
+    {
+      "name": "nominal_000",
+      "group": "nominal",
+      "neck_length_m": 0.010403135444985813,
+      "neck_profile": "flat",
+      "manifest_sha256": "f55a379c1f1efde9813bd48df87964b454070f5cf86267dbbeeb8db2d30a322b"
+    },
+    {
+      "name": "nominal_001",
+      "group": "nominal",
+      "neck_length_m": 0.012216457735599174,
+      "neck_profile": "shallow",
+      "manifest_sha256": "af5039d26ba1d1597a3deca851568e23ac6d6de2e7852ddf94ea488aefec1d83"
+    },
+    {
+      "name": "nominal_002",
+      "group": "nominal",
+      "neck_length_m": 0.012413069490814603,
+      "neck_profile": "shallow",
+      "manifest_sha256": "aa06ce1a2ef68d62c7885c6f2d3f1d85baebfc195c10a43774a410d262a960a5"
+    },
+    {
+      "name": "nominal_003",
+      "group": "nominal",
+      "neck_length_m": 0.01377714402577164,
+      "neck_profile": "flat",
+      "manifest_sha256": "acfda6990da90aa42d65d5a3ee98e27c37083861f5137db8b4cff72765fd15a8"
+    },
+    {
+      "name": "nominal_004",
+      "group": "nominal",
+      "neck_length_m": 0.01096742856604386,
+      "neck_profile": "shallow",
+      "manifest_sha256": "559481517014cdffecffc5ca5c156cd32cef379c6244812b2d0eac0a895760ab"
+    },
+    {
+      "name": "nominal_005",
+      "group": "nominal",
+      "neck_length_m": 0.010083158323442289,
+      "neck_profile": "shallow",
+      "manifest_sha256": "1dcfb0dc8d2936d4a1c2ad29cd331e7b7c8e663e594e46444a79992fb5913183"
+    },
+    {
+      "name": "nominal_006",
+      "group": "nominal",
+      "neck_length_m": 0.010925995292820775,
+      "neck_profile": "shallow",
+      "manifest_sha256": "48eed1f907c1c4b470b8a2eb81f242973d90b92e8c7d791d0f3d3e971ead68e2"
+    },
+    {
+      "name": "nominal_007",
+      "group": "nominal",
+      "neck_length_m": 0.008246311633150552,
+      "neck_profile": "flat",
+      "manifest_sha256": "458ef507b2562427cbb31f184568ad1946bd1dbfa35e0d6c0b07bdedb533fdda"
+    },
+    {
+      "name": "stress_000",
+      "group": "stress",
+      "neck_length_m": 0.006325597537029293,
+      "neck_profile": "flat",
+      "manifest_sha256": "25e7980c8abb3ba09c9e2ad2f4a304f4a7395349277537903f7d46e719b1882a"
+    },
+    {
+      "name": "stress_001",
+      "group": "stress",
+      "neck_length_m": 0.020236061791769237,
+      "neck_profile": "flat",
+      "manifest_sha256": "75cf240dcea0404bc953e0cb37eff0dee522c079bf84e051abd77ea49d0b44b3"
+    },
+    {
+      "name": "stress_002",
+      "group": "stress",
+      "neck_length_m": 0.006143202254650787,
+      "neck_profile": "flat",
+      "manifest_sha256": "d5e7c308c95a54b8ca28871a109a9bf9d963703316913338102de076580d8e13"
+    },
+    {
+      "name": "stress_003",
+      "group": "stress",
+      "neck_length_m": 0.021825190699796257,
+      "neck_profile": "shallow",
+      "manifest_sha256": "a1d59d34d53ce9d9db3be22b4cdc95ea49eec4d18a0213f468d1c277669ef16e"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "zero",
+      "bias_by_camera_mm": {}
+    },
+    {
+      "name": "common_m4",
+      "bias_by_camera_mm": {
+        "cam_a": -4,
+        "cam_b": -4,
+        "cam_c": -4
+      }
+    },
+    {
+      "name": "common_m2",
+      "bias_by_camera_mm": {
+        "cam_a": -2,
+        "cam_b": -2,
+        "cam_c": -2
+      }
+    },
+    {
+      "name": "common_m1",
+      "bias_by_camera_mm": {
+        "cam_a": -1,
+        "cam_b": -1,
+        "cam_c": -1
+      }
+    },
+    {
+      "name": "common_p1",
+      "bias_by_camera_mm": {
+        "cam_a": 1,
+        "cam_b": 1,
+        "cam_c": 1
+      }
+    },
+    {
+      "name": "common_p2",
+      "bias_by_camera_mm": {
+        "cam_a": 2,
+        "cam_b": 2,
+        "cam_c": 2
+      }
+    },
+    {
+      "name": "common_p4",
+      "bias_by_camera_mm": {
+        "cam_a": 4,
+        "cam_b": 4,
+        "cam_c": 4
+      }
+    },
+    {
+      "name": "only_a_m2",
+      "bias_by_camera_mm": {
+        "cam_a": -2
+      }
+    },
+    {
+      "name": "only_a_p2",
+      "bias_by_camera_mm": {
+        "cam_a": 2
+      }
+    }
+  ],
+  "magnitude_basis": "assumed range scan; NOT measured device bias or probability distribution",
+  "randomness": "no random perturbations; frozen estimator seed 4101",
+  "held_fixed": [
+    "RGB",
+    "true K/extrinsics",
+    "layout",
+    "lighting",
+    "geometry",
+    "uniform camera trust",
+    "3 mm strap",
+    "stationary object"
+  ],
+  "source_urls": [
+    "https://cdrdv2-public.intel.com/841706/RealSense_DepthQualityTesting.pdf",
+    "https://www.realsenseai.com/wp-content/uploads/2019/07/White_Paper_on_Subpixel_Linearity_Improvement-1.pdf"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3",
+  "sources": {
+    "scripts/run_structural_study.py": "f4768aa6d1db3384cec84060ffe33f4986425b86ca67b08d15b7d60628fdae59",
+    "neck_localization/__init__.py": "ab77ecedfcb82db72288f038a2e263b5b101a07c071fed2da830d862b21d7f77",
+    "neck_localization/active_stereo.py": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+    "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+    "neck_localization/bias_compensation.py": "d2bfe63cba828f3cf1995f6f54ef2aabf512619d71c1179f1148e6ed05a75719",
+    "neck_localization/bias_profile.py": "40c42dcdf269379a664e377b28e7f767e8462eb952b5f2cab4ed87670871d890",
+    "neck_localization/calibration.py": "9078df749ecb120049cf5531151dea362efefa8fe2c93ee725fe8a42975b45f0",
+    "neck_localization/calibration_uncertainty.py": "0f18a3ad15a83264bdb936c00223d6ffabe66acf7a2481c6cd27897cc25a8c2d",
+    "neck_localization/depth_correction.py": "6d55c2c76476f96666c47f48e5d9db47772efdd286c627bceab08e08d1180c2d",
+    "neck_localization/depth_perturbation.py": "2d5b458999aaf9871c1b57aa2dd3536b561248a0a23966c1abd575e052c6c07d",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/estimators.py": "f4da9b03cec256706cd36438d2966939c2b3c2267953b3af0d6106b2987569d3",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/native_stereo.py": "3871478bcabbe46bb0e8789b4613aac163aa4fb6d83a58799f6f1cc5623ff8e5",
+    "neck_localization/observability.py": "b601e36afbb8e182738340a9aa479f543dc1ad5fa38c7a2604a51ef4b454f39c",
+    "neck_localization/perturbation.py": "1e3b4c37c36c5657b086465276474951453488447d711b4f74c3f4cbb086ba82",
+    "neck_localization/point_cloud_display.py": "894878461af94c7dff2bb23b028ae22027435439918320bec7de47b9ac253194",
+    "neck_localization/random_audit.py": "c20171a541bf81b3b67082dcf866d310153b91d3707503e8337d1245cd8e0cea",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "neck_localization/rendered_calibration.py": "7af29838ab061b590e45f9a939050c9014e45184251f1915a591f890c02a7036",
+    "neck_localization/rendering.py": "735669ed8503ee2606fd041abdce3cf14b4c8bcb74ef73f3c200a3f0b1a089b6",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/silhouette_profile.py": "5ba9c7fc229363a1d3cfdab3df49ab91a248931457432726daf1aba8fe069d19",
+    "neck_localization/stereo_robust.py": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+    "neck_localization/structural_localization.py": "d01407077e56fa6925431a9eafc8515681ff6aff4bc0abcfbef95b8f5586a202",
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/task_validated_output.py": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46"
+  },
+  "settings": {
+    "top_arc_height_pixels": 4.0,
+    "maximum_rim_pixel_rms": 1.2,
+    "rim_center_search_mm": 45.0,
+    "maximum_axis_slope": 0.5,
+    "radius_bounds_mm": [
+      25.0,
+      120.0
+    ],
+    "seed_tangents": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.15,
+        0.0
+      ],
+      [
+        -0.15,
+        0.0
+      ],
+      [
+        0.0,
+        0.15
+      ],
+      [
+        0.0,
+        -0.15
+      ]
+    ],
+    "seed": 2026102501
+  },
+  "modes": [
+    "stereo_raw"
+  ],
+  "methods": [
+    "rim_only",
+    "rim_seed"
+  ],
+  "no_hardware": true,
+  "true_K_T": true,
+  "truth": "evaluation only; rim-only mode is NOT a tying-circle prediction"
+}

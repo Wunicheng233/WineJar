@@ -1,0 +1,23 @@
+[
+  {
+    "run": "bias_compensation_development_20261024_v1",
+    "processed_frame_sets_exact": 216,
+    "fitted_subsets_match_actual_exported_depth": 216,
+    "max_point_error_m": 1.1102230246251565e-16,
+    "all_frozen_sources_unchanged": true
+  },
+  {
+    "run": "bias_compensation_test_20261024_v1",
+    "processed_frame_sets_exact": 256,
+    "fitted_subsets_match_actual_exported_depth": 254,
+    "max_point_error_m": 1.1102230246251565e-16,
+    "all_frozen_sources_unchanged": true
+  },
+  {
+    "run": "bias_compensation_stage2_test_20261024",
+    "processed_frame_sets_exact": 80,
+    "fitted_subsets_match_actual_exported_depth": 80,
+    "max_point_error_m": 1.1102230246251565e-16,
+    "all_frozen_sources_unchanged": true
+  }
+]

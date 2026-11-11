@@ -1,0 +1,28 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "nominal_000",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "task_validated_output",
+  "large_neck_view": true,
+  "finite_band_overlay": true,
+  "point_cloud_view": false,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": false,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "ground_truth_overlay": true,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "0793818b3a22d0803a8a5fe6d206b5f44fecc2abd4c7f85d40e2daf8e2cccfb1",
+  "raw_rgb_sha256": {
+    "cam_a": "dfb600645ca9e485f8dd5d7cde22fe0018ade3b4739a5c5a73e56126e7b7fb5e",
+    "cam_b": "5c58cbff1d88bd85887e1bb78254d59b27d59f3a87585d7563bba3d033714f8a",
+    "cam_c": "9ec738184e9a561f97d5d466012a8f03c034bf0fb0df822a6b60046859c7faa7"
+  }
+}

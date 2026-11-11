@@ -1,0 +1,38 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_000/scene.xml": "4c93603c3f14d8b52bab4f153b9bb4d8bb40ff194b12d7a2265794b6f4858d16",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/records.json.gz": "b8139ed5812286db3296d35b5b8ac4899f5ab6398a122e824137e5d27e1d085d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_000/evaluation_only/target.json": "bb47f4439f007f864d114fe680aeaa13ab56877be02ea4c237222e489e5b94e3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_001/scene.xml": "b8fbeb26350706699df8b3d92e5aa21bc80f679a4607bf7031d9a58236b9f4d5",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_001/evaluation_only/target.json": "c88f1266e43868867b6e31dea2d757494f76529cfae759bf65483952ad24a986",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_003/scene.xml": "8bb6024af360046eca05262069bd8d1e9834d524fec1661932c7bca14db2f5fb",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_003/evaluation_only/target.json": "9fc393028fe8cc9c9f7c18275e04a84af48b6943f08e79fe10d6fecaac184cce",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_004/scene.xml": "742e60c531265db7a25f3b7d7f5ac39adecb39ef4315dac30ac2f2e4796531d4",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/new8/fusion/clean/scenes/confirmation_nominal_004/evaluation_only/target.json": "f17b737e7435b361fc089554b6122ce61fce6ecf256efb41865ffd3a56f50eab",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_nominal_000/scene.xml": "f4e38254aa997c3960dfb0c5086f89b0758a0e7ef79516c8cb3ae516355c292b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/records.json.gz": "ddd9b932c9050c3afea6b493246283cd88378ec20a5b09b80ada540a34e1311c",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_nominal_000/evaluation_only/target.json": "4d61bca024032298f172e9be546dd4d987deab9aac4c834c111c2026fec698e4",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_nominal_006/scene.xml": "9d3565cb8a0c477eda07ad3b88e5c2865dbf8cebf7ad726aef6019181ccb9796",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_nominal_006/evaluation_only/target.json": "a6e8786f85b5d5a8dbc0e7d7f827c6aa165174b69aa96e635604af83b761c6f8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_stress_000/scene.xml": "152588bac350c386483dcd2055b442bdecc22fd583406fa8e009821223a8964f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_stress_000/evaluation_only/target.json": "3715512981fe9744692c966ca6fa4725e55450d8138ba55e2780352e47844889",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_stress_002/scene.xml": "e7d68f6c794958b259b8ba527f1d03ae852df1a4b011cbae55b539647c8104d3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old12/fusion/clean/scenes/structural_test_stress_002/evaluation_only/target.json": "3b7b5314e6d76712d83469f30091a632b67da3cc955c9b8c5e9d5b5621ca793e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_002/scene.xml": "14f17104dd3e89f9a47ee1c3397b70d3eb49c3f57c4b433ecc67f7395fb91fc5",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/records.json.gz": "fa0200e563bb72790af09f1654df7eab4a8f700876d021d0f5715abbec973c47",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_002/evaluation_only/target.json": "9706915ffd737bfb1781feafe1d96f3f018cc5e31752e33528e19f69b81ee5e2",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_004/scene.xml": "570a35ccbdf2e0b09caf2aaf3940e1969768f8a27ec3d445a6cb2caaa73c9d0a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_004/evaluation_only/target.json": "8d8c7753b566f3c97c6e1faf4977bf6ed1fb1561f7adf5370885f27f4966f8d8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_005/scene.xml": "ca2649c6d504bbe2160b7d25c5983daab9461bcf8b07df119f644b3e84cc2e80",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/viewer/old8/fusion/clean/scenes/confirmation_nominal_005/evaluation_only/target.json": "c28a0184575862188f0da4fcf22858cc24824ae3c938513c5576704da1aba003",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/cross_station_20261028_v3/band_controls.json": "07c8084e701dfe8dec209baec0a85cb851dfccb8047faadd3bdda17f7d1cb0d1",
+    "/home/wunicheng/Git/WineJar/experiments/factory_briefing_20261028/capture_assets.py": "8d181ec7836e243f1803a172649368060eecc9b166a7a31da4a5c05cd52255bc"
+  },
+  "renderer": "Existing TyingViewer / MuJoCo; free review cameras only",
+  "depth_preview_range_m": [
+    0.15,
+    0.9
+  ],
+  "depth_preview": "Turbo, black pixels are missing depth",
+  "no_new_estimation_training_or_hardware": true
+}

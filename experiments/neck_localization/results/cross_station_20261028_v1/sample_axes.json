@@ -1,0 +1,557 @@
+{
+  "scenarios": [
+    "zero",
+    "registration",
+    "survey_bias",
+    "encoder_scale",
+    "encoder_cyclic",
+    "encoder_quantization",
+    "stop_variation",
+    "tcp",
+    "combined",
+    "combined_survey_outlier"
+  ],
+  "strategies": [
+    "nominal_preset_distance",
+    "nominal_encoder_endpoints",
+    "wide_calibration_ls",
+    "wide_calibration_huber",
+    "narrow_calibration_ls"
+  ],
+  "sessions": 24,
+  "cycles": 16,
+  "predictions": [
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "clean",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "fs_visible"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "ss_sor"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius"
+    },
+    {
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "condition": "shared_noise",
+      "method": "pose_fs_radius_refit"
+    }
+  ],
+  "calibration_measurement_order": "scenario_major_then_session",
+  "independent_units": "24 hypothetical calibration sessions; paired counterfactual jar/cycle comparisons",
+  "runtime_s": 7.342333733999112,
+  "status": "ASSUMED_PARAMETER_SCAN_NOT_DEVICE_CHARACTERIZATION"
+}

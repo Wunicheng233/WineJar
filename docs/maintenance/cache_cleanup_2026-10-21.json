@@ -1,0 +1,33 @@
+{
+  "applied": true,
+  "reclaimed_bytes": 2883343,
+  "paths": [
+    ".pytest_cache",
+    ".ruff_cache",
+    "vision/scripts/__pycache__",
+    "vision/tests/__pycache__",
+    "xarm_sdk_control/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/camera_bump_20260910/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/current_rig_20260910/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/depth_geometry_check_20260910/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/exposure_refresh_20260910/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/exposure_refresh_20260910/rgb_diagnostic_02/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/jar_metric_validation_20260910/rgb_diagnostic_01/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/support_board_20260910/__pycache__",
+    "xarm_sdk_control/data/multiview_neck/support_diagnostics_20260910/__pycache__",
+    "xarm_sdk_control/data/optimization/20260919/__pycache__",
+    "xarm_sdk_control/data/optimization/20260919-round2/__pycache__",
+    "xarm_sdk_control/data/optimization/20260919-round3/__pycache__",
+    "xarm_sdk_control/data/optimization/20260919-round4/__pycache__",
+    "xarm_sdk_control/data/optimization/20260919-round6/__pycache__",
+    "xarm_sdk_control/data/optimization/20260920-round7/__pycache__",
+    "xarm_sdk_control/data/recommissioning/2026-10-13/__pycache__",
+    "xarm_sdk_control/data/recommissioning/2026-10-13/depth_check_01/__pycache__",
+    "xarm_sdk_control/data/recommissioning/2026-10-14/__pycache__",
+    "xarm_sdk_control/data/recommissioning/2026-10-14/board_visibility/__pycache__",
+    "xarm_sdk_control/experiments/__pycache__",
+    "xarm_sdk_control/experiments/recommissioning_20261014/__pycache__",
+    "xarm_sdk_control/scripts/__pycache__",
+    "xarm_sdk_control/tests/__pycache__"
+  ]
+}

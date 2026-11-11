@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "original_inputs_unchanged": true,
+  "independent_homogeneous_chain_replay": true,
+  "normal_independent_of_stop_position": true,
+  "maximum_center_or_band_replay_difference_mm": 2.3830770867760975e-07,
+  "diagnosis_script_sha256": "0574298681a403ce48f11b6d9fb1ceaa4bd7950302ab73a904a67cbd1dde4677",
+  "final_fastening_success": null
+}

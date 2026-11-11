@@ -1,0 +1,9 @@
+{
+  "preprocessing": {
+    "condition": "old12/fs/shared_noise"
+  },
+  "depth_display_range_m": [
+    0.2,
+    0.9
+  ]
+}

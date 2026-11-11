@@ -1,0 +1,9 @@
+{
+  "seed": 2026102467,
+  "n_per_case": 4096,
+  "source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/depth_bias_stage1_20261023_v1/zero/records.json.gz",
+  "scope": "posthoc covariance demonstration; no new estimator performance claim, no measured covariance",
+  "perturbation": "common isotropic world-translation only; normal fixed, no rotation or detector covariance",
+  "actual_input_translation_identity": "explicitly checked by extrinsic_shared_x5mm diagnostic",
+  "warning": "common term alone omits existing estimator bias; empirical coverage can be below95"
+}

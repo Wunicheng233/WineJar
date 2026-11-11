@@ -1,0 +1,988 @@
+{
+  "scope": "Saved inference inputs only; no hardware; no evaluation labels used in this audit",
+  "script_sha256": "a1fe46511a8cdb535d2a8ec0688b4030d8df752746e034b01f41b117e221e1a1",
+  "runs": [
+    {
+      "run": "active_stereo_adapted_test_20261025_v1",
+      "record_groups": 32,
+      "groups_with_fit_points": 32,
+      "missing_fit_points": 0,
+      "checked_fit_points": 53168,
+      "checked_fit_camera_groups": 93,
+      "checked_rgb_mask_groups": 96,
+      "max_roundtrip_m": 1.1189974934759746e-16,
+      "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+      "missing_fit_point_records": [],
+      "groups": [
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_000",
+          "fit_points": 2439,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_001",
+          "fit_points": 1316,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_002",
+          "fit_points": 1823,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_003",
+          "fit_points": 1959,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_000",
+          "fit_points": 2241,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_001",
+          "fit_points": 2332,
+          "max_roundtrip_m": 1.1189974934759746e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_002",
+          "fit_points": 2386,
+          "max_roundtrip_m": 1.1125245686377491e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_003",
+          "fit_points": 2353,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_000",
+          "fit_points": 2289,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_001",
+          "fit_points": 2445,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.4210854715202004e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_002",
+          "fit_points": 1826,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_003",
+          "fit_points": 1948,
+          "max_roundtrip_m": 1.1124231303363175e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_000",
+          "fit_points": 2139,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_001",
+          "fit_points": 2420,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_002",
+          "fit_points": 1923,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_003",
+          "fit_points": 3246,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": true
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_000",
+          "fit_points": 879,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.1368683772161603e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_001",
+          "fit_points": 1003,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_002",
+          "fit_points": 1461,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_003",
+          "fit_points": 1819,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_000",
+          "fit_points": 747,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.1368683772161603e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_001",
+          "fit_points": 1009,
+          "max_roundtrip_m": 1.1107649934270853e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_002",
+          "fit_points": 549,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_003",
+          "fit_points": 648,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_000",
+          "fit_points": 921,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_001",
+          "fit_points": 1327,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_002",
+          "fit_points": 1306,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_003",
+          "fit_points": 1614,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_000",
+          "fit_points": 485,
+          "max_roundtrip_m": 1.1102230246251565e-16,
+          "max_pixel_rounding_difference_px": 1.1368683772161603e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_001",
+          "fit_points": 2075,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_002",
+          "fit_points": 665,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_003",
+          "fit_points": 1575,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "run": "active_stereo_gp_adapted_test_20261025_v1",
+      "record_groups": 16,
+      "groups_with_fit_points": 16,
+      "missing_fit_points": 0,
+      "checked_fit_points": 16859,
+      "checked_fit_camera_groups": 44,
+      "checked_rgb_mask_groups": 48,
+      "max_roundtrip_m": 1.1188630228279524e-16,
+      "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+      "missing_fit_point_records": [],
+      "groups": [
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_nominal_000",
+          "fit_points": 829,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_nominal_001",
+          "fit_points": 1740,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_nominal_002",
+          "fit_points": 1544,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_nominal_003",
+          "fit_points": 1830,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_stress_000",
+          "fit_points": 752,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.4210854715202004e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_stress_001",
+          "fit_points": 903,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_stress_002",
+          "fit_points": 420,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp/test_stress_003",
+          "fit_points": 657,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.1368683772161603e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_nominal_000",
+          "fit_points": 1208,
+          "max_roundtrip_m": 1.1125245686377491e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_nominal_001",
+          "fit_points": 527,
+          "max_roundtrip_m": 1.1103585416259206e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_nominal_002",
+          "fit_points": 1277,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_nominal_003",
+          "fit_points": 1640,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_stress_000",
+          "fit_points": 479,
+          "max_roundtrip_m": 1.1102230246251565e-16,
+          "max_pixel_rounding_difference_px": 1.1368683772161603e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_stress_001",
+          "fit_points": 2002,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_stress_002",
+          "fit_points": 544,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_gp_spatial/test_stress_003",
+          "fit_points": 507,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "run": "active_stereo_board_calibrated_test_20261025_v1",
+      "record_groups": 32,
+      "groups_with_fit_points": 31,
+      "missing_fit_points": 1,
+      "checked_fit_points": 55703,
+      "checked_fit_camera_groups": 92,
+      "checked_rgb_mask_groups": 96,
+      "max_roundtrip_m": 1.1188630228279524e-16,
+      "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+      "missing_fit_point_records": [
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_000",
+          "reasons": [
+            "no_supported_near_upward_mouth_plane"
+          ],
+          "attempts": [
+            {
+              "depth_mm": 28.0,
+              "path": "continuous_feedback",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            },
+            {
+              "depth_mm": 42.0,
+              "path": "continuous_feedback",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            },
+            {
+              "depth_mm": 56.0,
+              "path": "continuous_feedback",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            },
+            {
+              "depth_mm": 28.0,
+              "path": "task_alternative_preparation",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            },
+            {
+              "depth_mm": 42.0,
+              "path": "task_alternative_preparation",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            },
+            {
+              "depth_mm": 56.0,
+              "path": "task_alternative_preparation",
+              "accepted": false,
+              "reasons": [
+                "no_supported_near_upward_mouth_plane"
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_000",
+          "fit_points": 2490,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_001",
+          "fit_points": 2374,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_002",
+          "fit_points": 1889,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_nominal_003",
+          "fit_points": 1941,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_000",
+          "fit_points": 2283,
+          "max_roundtrip_m": 1.1125245686377491e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_001",
+          "fit_points": 1062,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_002",
+          "fit_points": 2434,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_ir_registered/test_stress_003",
+          "fit_points": 2396,
+          "max_roundtrip_m": 1.1145513959121702e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_000",
+          "fit_points": 2378,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_001",
+          "fit_points": 2459,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_002",
+          "fit_points": 1881,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_nominal_003",
+          "fit_points": 2021,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_000",
+          "fit_points": 2391,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_001",
+          "fit_points": 2562,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_002",
+          "fit_points": 2930,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/ideal_rgb/test_stress_003",
+          "fit_points": 3533,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_000",
+          "fit_points": 1020,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_001",
+          "fit_points": 2260,
+          "max_roundtrip_m": 1.1188630228279524e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_002",
+          "fit_points": 1397,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_nominal_003",
+          "fit_points": 1881,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_001",
+          "fit_points": 1912,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_002",
+          "fit_points": 710,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_raw/test_stress_003",
+          "fit_points": 910,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 1.9895196601282805e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_000",
+          "fit_points": 971,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_001",
+          "fit_points": 549,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_002",
+          "fit_points": 1374,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_nominal_003",
+          "fit_points": 1641,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_000",
+          "fit_points": 519,
+          "max_roundtrip_m": 1.112930229387288e-16,
+          "max_pixel_rounding_difference_px": 1.7053025658242404e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_001",
+          "fit_points": 2105,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_002",
+          "fit_points": 795,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "key": "stereo_rgb_adapted/stereo_spatial/test_stress_003",
+          "fit_points": 635,
+          "max_roundtrip_m": 1.1123893155135927e-16,
+          "max_pixel_rounding_difference_px": 2.2737367544323206e-13,
+          "accepted": false
+        }
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "collection": "sources",
+      "path": "neck_localization/support_feedback.py",
+      "expected": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+      "actual": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/joint_profile.py",
+      "expected": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+      "actual": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/depth_profile.py",
+      "expected": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+      "actual": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/geometry.py",
+      "expected": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+      "actual": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/evaluation.py",
+      "expected": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+      "actual": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "scripts/run_depth_profile_baseline.py",
+      "expected": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+      "actual": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "scripts/run_support_feedback.py",
+      "expected": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+      "actual": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/jar_model.py",
+      "expected": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+      "actual": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/scene_preparation.py",
+      "expected": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+      "actual": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/reliable_output.py",
+      "expected": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+      "actual": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "scripts/run_reliable_output.py",
+      "expected": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+      "actual": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/task_validated_output.py",
+      "expected": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+      "actual": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "scripts/run_task_validated_output.py",
+      "expected": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+      "actual": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/active_stereo.py",
+      "expected": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+      "actual": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "scripts/run_active_stereo_stage1.py",
+      "expected": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+      "actual": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+      "passed": true
+    },
+    {
+      "collection": "sources",
+      "path": "neck_localization/band_geometry.py",
+      "expected": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+      "actual": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/support_feedback.py",
+      "expected": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+      "actual": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/joint_profile.py",
+      "expected": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+      "actual": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/depth_profile.py",
+      "expected": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+      "actual": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/geometry.py",
+      "expected": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+      "actual": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/evaluation.py",
+      "expected": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+      "actual": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/run_depth_profile_baseline.py",
+      "expected": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+      "actual": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/run_support_feedback.py",
+      "expected": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+      "actual": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/jar_model.py",
+      "expected": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+      "actual": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/scene_preparation.py",
+      "expected": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+      "actual": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/reliable_output.py",
+      "expected": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+      "actual": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/run_reliable_output.py",
+      "expected": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+      "actual": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/task_validated_output.py",
+      "expected": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+      "actual": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/run_task_validated_output.py",
+      "expected": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+      "actual": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/active_stereo.py",
+      "expected": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+      "actual": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/run_active_stereo_stage1.py",
+      "expected": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+      "actual": "16dc82a1440907e92b80f74b610aafd8c73bd2631924ca2cc978d35efdfef7e5",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/band_geometry.py",
+      "expected": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+      "actual": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "neck_localization/stereo_robust.py",
+      "expected": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+      "actual": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+      "passed": true
+    },
+    {
+      "collection": "evaluation_sources",
+      "path": "scripts/evaluate_active_stereo.py",
+      "expected": "03f3d946411b2d959b2a87cc4a3459918b4e8dae567f4c49c671f56ae58c63a5",
+      "actual": "03f3d946411b2d959b2a87cc4a3459918b4e8dae567f4c49c671f56ae58c63a5",
+      "passed": true
+    },
+    {
+      "collection": "gp_extra_sources",
+      "path": "neck_localization/depth_correction.py",
+      "expected": "6d55c2c76476f96666c47f48e5d9db47772efdd286c627bceab08e08d1180c2d",
+      "actual": "6d55c2c76476f96666c47f48e5d9db47772efdd286c627bceab08e08d1180c2d",
+      "passed": true
+    },
+    {
+      "collection": "gp_extra_sources",
+      "path": "scripts/apply_active_depth_correction.py",
+      "expected": "6ae810c232ee7aa973d70e67631935d7405ef60d5ffc265cd2e27697843cc86b",
+      "actual": "6ae810c232ee7aa973d70e67631935d7405ef60d5ffc265cd2e27697843cc86b",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "calibration_artifacts": {
+    "gp_model_sha256": "bf0f1699578616f153d6d00c038df21ae47680544d074565505d1c44caf7cf3a",
+    "gp_expected_sha256": "bf0f1699578616f153d6d00c038df21ae47680544d074565505d1c44caf7cf3a",
+    "board_estimates_sha256": "9f9d25bccbcc333a0d8dc14cfc2c94e9f82d8c1f2d4eb4a29134a10323c63bf7",
+    "board_expected_locked_sha256": "9f9d25bccbcc333a0d8dc14cfc2c94e9f82d8c1f2d4eb4a29134a10323c63bf7"
+  },
+  "full_reproduction": {
+    "completed": true,
+    "snapshot_only": true,
+    "rows": {
+      "observations": {
+        "original_rows": 32,
+        "reproduced_rows": 32,
+        "keys_equal": true,
+        "exact_equal_except_runtime": true,
+        "changed_rows": []
+      },
+      "adapted": {
+        "original_rows": 32,
+        "reproduced_rows": 32,
+        "keys_equal": true,
+        "exact_equal_except_runtime": true,
+        "changed_rows": []
+      },
+      "gp_adapted": {
+        "original_rows": 16,
+        "reproduced_rows": 16,
+        "keys_equal": true,
+        "exact_equal_except_runtime": true,
+        "changed_rows": []
+      },
+      "board_adapted": {
+        "original_rows": 32,
+        "reproduced_rows": 32,
+        "keys_equal": true,
+        "exact_equal_except_runtime": true,
+        "changed_rows": []
+      }
+    },
+    "observations": {
+      "observations": {
+        "camera_frames": 96,
+        "rgb_byte_equal": 96,
+        "depth_array_equal": 96,
+        "camera_metadata_groups_equal": 32,
+        "differences": []
+      },
+      "gp_observations": {
+        "camera_frames": 48,
+        "rgb_byte_equal": 48,
+        "depth_array_equal": 48,
+        "camera_metadata_groups_equal": 16,
+        "differences": []
+      }
+    }
+  },
+  "totals": {
+    "record_groups": 80,
+    "groups_with_fit_points": 79,
+    "checked_fit_points": 125730,
+    "checked_rgb_mask_groups": 240,
+    "max_roundtrip_m": 1.1189974934759746e-16,
+    "missing_fit_points": 1
+  },
+  "truth_separation": {
+    "mask": "All saved masks exactly regenerated from original RGB only; hashes and fit-mask inclusion checked",
+    "fit_cloud": "All saved training points exactly unproject from same saved depth/K/T at integer pixels; no direct mesh sample substitute",
+    "ideal_depth_conditions": [
+      "ideal_rgb",
+      "ideal_ir_registered"
+    ],
+    "ideal_depth_caveat": "Those explicitly labelled ideal diagnostics use rendered ideal depth by design; do not call them realistic sensor outputs",
+    "inference_source": "frozen evaluator opens target.json only after estimator and band proposal; observation loader RGB branch never loads diagnostic masks"
+  },
+  "passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "all_48_original_predictions_unchanged": true,
+  "all_13_frozen_sources_unchanged": true,
+  "all_48_audit_records_exactly_reproduced": true,
+  "artifact_byte_comparison": {
+    "summary.json": true,
+    "summary.csv": true,
+    "settings.json": true,
+    "cases.csv": true,
+    "band_margins.png": true,
+    "interval_diagnostic.png": true
+  },
+  "planner_timing_not_compared": true
+}

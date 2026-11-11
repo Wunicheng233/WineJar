@@ -1,0 +1,30 @@
+{
+  "stage": "ideal_depth_fixed_rig_support_weight_ablation",
+  "seed": 2026102317,
+  "test_config_sha256": "b9530f36a38d4531c32faad109c6baa6fdd404d868b2d49a0c55e8bba78ae523",
+  "test_config": "experiments/neck_localization/configs/support_feedback_test_v1.json",
+  "methods": [
+    "fixed",
+    "huber",
+    "region"
+  ],
+  "camera_weight_modes": [
+    "balanced",
+    "equal_trust"
+  ],
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "development": [
+    "preparation_20261022_v5",
+    "short_neck_heldout_20261022_v1",
+    "joint_profile_test_scenes_20261023_v1 (previously inspected; development now)"
+  ],
+  "evaluation": "Freeze source/settings after development and before generating/evaluating six new cases; no post-test tuning",
+  "no_truth_in_estimators": true,
+  "noise": "none; accurate cameras",
+  "camera_layout_search": false,
+  "scope": "Same photo-informed model family, no real-system claims"
+}

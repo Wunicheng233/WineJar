@@ -1,0 +1,8 @@
+{
+  "default_png_replay_exact": true,
+  "default_cases": 6,
+  "matcher_ablation_conditions": 24,
+  "all_photometric_optima_within_02px": true,
+  "no_rerender": true,
+  "no_real_camera_accuracy_claim": true
+}

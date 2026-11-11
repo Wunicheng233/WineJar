@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/run_simple_calibration_controls.py": "10dcbef3f976870d9eb996bf623e582a06894d71340cf0c0238e601b73c6594e",
+    "/home/wunicheng/Git/WineJar/neck_localization/block_handeye.py": "b420acfa3f05ace5ceee7c6df572bc59ac53241273e7bce06e3ada562f9feeae",
+    "/home/wunicheng/Git/WineJar/neck_localization/fixed_camera_calibration.py": "b46d08ba259a77466f9649b07baa273ce518aecadb7fd6bd7c2a135d4c24da8c"
+  },
+  "truth_not_read": true,
+  "supplementary_after_main_results": true,
+  "no_retuning_of_frozen_main_candidates": true
+}

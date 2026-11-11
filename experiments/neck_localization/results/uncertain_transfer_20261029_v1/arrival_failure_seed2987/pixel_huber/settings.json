@@ -1,0 +1,9 @@
+{
+  "preprocessing": {
+    "condition": "kinematic_bad_image"
+  },
+  "depth_display_range_m": [
+    0.2,
+    0.9
+  ]
+}

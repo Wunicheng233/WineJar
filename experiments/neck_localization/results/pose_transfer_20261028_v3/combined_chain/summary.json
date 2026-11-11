@@ -1,0 +1,706 @@
+[
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.261887964569506,
+      "p95": 3.481841418262565,
+      "max": 4.225578918532282
+    },
+    "normal_deg": {
+      "median": 0.3553543600854675,
+      "p95": 0.9783226121884838,
+      "max": 1.2871712214895055
+    },
+    "band_contained_fraction": 0.875,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.2593422835851467,
+      "p95": 3.4832099541537422,
+      "max": 4.2262925750970295
+    },
+    "normal_deg": {
+      "median": 0.3553543600854675,
+      "p95": 0.9783226121884838,
+      "max": 1.2871712214895055
+    },
+    "band_contained_fraction": 0.875,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.3738036746053717,
+      "p95": 4.704410565092838,
+      "max": 5.371473767459194
+    },
+    "normal_deg": {
+      "median": 0.3553543600854675,
+      "p95": 0.9783226121884838,
+      "max": 1.2871712214895055
+    },
+    "band_contained_fraction": 0.8522727272727273,
+    "center_over_4mm_fraction": 0.29545454545454547,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.35916515785747,
+      "p95": 4.704306724623069,
+      "max": 5.369310662019756
+    },
+    "normal_deg": {
+      "median": 0.3553543600854675,
+      "p95": 0.9783226121884838,
+      "max": 1.2871712214895055
+    },
+    "band_contained_fraction": 0.8522727272727273,
+    "center_over_4mm_fraction": 0.3068181818181818,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.9551023274652586,
+      "p95": 4.448277107511435,
+      "max": 4.90056579680677
+    },
+    "normal_deg": {
+      "median": 0.38237612654714803,
+      "p95": 1.0427952185986868,
+      "max": 1.4048534578676506
+    },
+    "band_contained_fraction": 0.6022727272727273,
+    "center_over_4mm_fraction": 0.19318181818181818,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.954560615961639,
+      "p95": 4.442980632061681,
+      "max": 4.898432067349767
+    },
+    "normal_deg": {
+      "median": 0.38237612654714803,
+      "p95": 1.0427952185986868,
+      "max": 1.4048534578676506
+    },
+    "band_contained_fraction": 0.6022727272727273,
+    "center_over_4mm_fraction": 0.19318181818181818,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 4.2076003562236775,
+      "p95": 6.029636784961658,
+      "max": 6.826337927485623
+    },
+    "normal_deg": {
+      "median": 0.38237612654714803,
+      "p95": 1.0427952185986868,
+      "max": 1.4048534578676506
+    },
+    "band_contained_fraction": 0.6022727272727273,
+    "center_over_4mm_fraction": 0.5795454545454546,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 4.252532381333434,
+      "p95": 6.027796542197935,
+      "max": 6.824182248758008
+    },
+    "normal_deg": {
+      "median": 0.38237612654714803,
+      "p95": 1.0427952185986868,
+      "max": 1.4048534578676506
+    },
+    "band_contained_fraction": 0.5965909090909091,
+    "center_over_4mm_fraction": 0.5738636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.3202122410552064,
+      "p95": 2.6488202841956827,
+      "max": 2.7020715828307384
+    },
+    "normal_deg": {
+      "median": 0.27526096472829464,
+      "p95": 1.065244501206235,
+      "max": 1.0951112705324744
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.3105354528203246,
+      "p95": 2.6465057468699107,
+      "max": 2.708578047003827
+    },
+    "normal_deg": {
+      "median": 0.27526096472829464,
+      "p95": 1.065244501206235,
+      "max": 1.0951112705324744
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.017643628126761,
+      "p95": 3.8549184918128048,
+      "max": 4.0400165308649365
+    },
+    "normal_deg": {
+      "median": 0.27526096472829464,
+      "p95": 1.065244501206235,
+      "max": 1.0951112705324744
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.014286530603357,
+      "p95": 3.8536495146162286,
+      "max": 4.0384991224957085
+    },
+    "normal_deg": {
+      "median": 0.27526096472829464,
+      "p95": 1.065244501206235,
+      "max": 1.0951112705324744
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.2992518754279279,
+      "p95": 2.6336203123905046,
+      "max": 2.7088609208088554
+    },
+    "normal_deg": {
+      "median": 0.29564590126548834,
+      "p95": 1.0651506823289492,
+      "max": 1.1457500030455212
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.2915082001738183,
+      "p95": 2.6312999933401815,
+      "max": 2.714074844512374
+    },
+    "normal_deg": {
+      "median": 0.29564590126548834,
+      "p95": 1.0651506823289492,
+      "max": 1.1457500030455212
+    },
+    "band_contained_fraction": 0.9090909090909091,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.9784549768946444,
+      "p95": 3.8031396154692914,
+      "max": 4.196047322261608
+    },
+    "normal_deg": {
+      "median": 0.29564590126548834,
+      "p95": 1.0651506823289492,
+      "max": 1.1457500030455212
+    },
+    "band_contained_fraction": 0.8977272727272727,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "nominal",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.9949008220222826,
+      "p95": 3.801712369971912,
+      "max": 4.194525860322443
+    },
+    "normal_deg": {
+      "median": 0.29564590126548834,
+      "p95": 1.0651506823289492,
+      "max": 1.1457500030455212
+    },
+    "band_contained_fraction": 0.8920454545454546,
+    "center_over_4mm_fraction": 0.011363636363636364,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.3875337155834995,
+      "p95": 3.919076928340399,
+      "max": 4.68575281467807
+    },
+    "normal_deg": {
+      "median": 0.36080792518318416,
+      "p95": 0.9761750927247801,
+      "max": 1.3501351194171185
+    },
+    "band_contained_fraction": 0.7727272727272727,
+    "center_over_4mm_fraction": 0.022727272727272728,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 2.382390975419992,
+      "p95": 3.906159293019709,
+      "max": 4.686638891915537
+    },
+    "normal_deg": {
+      "median": 0.36080792518318416,
+      "p95": 0.9761750927247801,
+      "max": 1.3501351194171185
+    },
+    "band_contained_fraction": 0.7727272727272727,
+    "center_over_4mm_fraction": 0.022727272727272728,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.7341291947160165,
+      "p95": 5.101328271748955,
+      "max": 5.844429970928675
+    },
+    "normal_deg": {
+      "median": 0.36080792518318416,
+      "p95": 0.9761750927247801,
+      "max": 1.3501351194171185
+    },
+    "band_contained_fraction": 0.7386363636363636,
+    "center_over_4mm_fraction": 0.4034090909090909,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.7220687124148943,
+      "p95": 5.099728682852959,
+      "max": 5.841915318535962
+    },
+    "normal_deg": {
+      "median": 0.36080792518318416,
+      "p95": 0.9761750927247801,
+      "max": 1.3501351194171185
+    },
+    "band_contained_fraction": 0.7386363636363636,
+    "center_over_4mm_fraction": 0.3977272727272727,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.237831712884222,
+      "p95": 5.173741009586584,
+      "max": 5.68523077205347
+    },
+    "normal_deg": {
+      "median": 0.4026400804860748,
+      "p95": 1.0486871804724973,
+      "max": 1.4439840308937817
+    },
+    "band_contained_fraction": 0.5340909090909091,
+    "center_over_4mm_fraction": 0.2556818181818182,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.2241293837752076,
+      "p95": 5.143238780792455,
+      "max": 5.676068781994498
+    },
+    "normal_deg": {
+      "median": 0.4026400804860748,
+      "p95": 1.0486871804724973,
+      "max": 1.4439840308937817
+    },
+    "band_contained_fraction": 0.5340909090909091,
+    "center_over_4mm_fraction": 0.26136363636363635,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 4.602582090951798,
+      "p95": 6.881906327351425,
+      "max": 7.702032089317481
+    },
+    "normal_deg": {
+      "median": 0.4026400804860748,
+      "p95": 1.0486871804724973,
+      "max": 1.4439840308937817
+    },
+    "band_contained_fraction": 0.5227272727272727,
+    "center_over_4mm_fraction": 0.6477272727272727,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "park",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 4.6497862859658285,
+      "p95": 6.89470156168853,
+      "max": 7.6993663778265695
+    },
+    "normal_deg": {
+      "median": 0.4026400804860748,
+      "p95": 1.0486871804724973,
+      "max": 1.4439840308937817
+    },
+    "band_contained_fraction": 0.5227272727272727,
+    "center_over_4mm_fraction": 0.6477272727272727,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.5164082273317996,
+      "p95": 2.7189299292804088,
+      "max": 2.8664691998297185
+    },
+    "normal_deg": {
+      "median": 0.2919469151876849,
+      "p95": 1.0381459296784847,
+      "max": 1.1211066300229393
+    },
+    "band_contained_fraction": 0.875,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.507042304786468,
+      "p95": 2.717547185599226,
+      "max": 2.86942283469549
+    },
+    "normal_deg": {
+      "median": 0.2919469151876849,
+      "p95": 1.0381459296784847,
+      "max": 1.1211066300229393
+    },
+    "band_contained_fraction": 0.875,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.1019269605880133,
+      "p95": 3.9309819046684735,
+      "max": 4.385538707218153
+    },
+    "normal_deg": {
+      "median": 0.2919469151876849,
+      "p95": 1.0381459296784847,
+      "max": 1.1211066300229393
+    },
+    "band_contained_fraction": 0.8181818181818182,
+    "center_over_4mm_fraction": 0.03977272727272727,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "exact_tool_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.1206732537389548,
+      "p95": 3.930198752420229,
+      "max": 4.382834249088393
+    },
+    "normal_deg": {
+      "median": 0.2919469151876849,
+      "p95": 1.0381459296784847,
+      "max": 1.1211066300229393
+    },
+    "band_contained_fraction": 0.8181818181818182,
+    "center_over_4mm_fraction": 0.03977272727272727,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.5972685489950824,
+      "p95": 2.7117086491165674,
+      "max": 3.03181882731694
+    },
+    "normal_deg": {
+      "median": 0.31504007295276704,
+      "p95": 1.034149824365609,
+      "max": 1.1774329925570504
+    },
+    "band_contained_fraction": 0.8863636363636364,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "ideal",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 1.5999461054543556,
+      "p95": 2.7085932853871926,
+      "max": 3.023807452824445
+    },
+    "normal_deg": {
+      "median": 0.31504007295276704,
+      "p95": 1.034149824365609,
+      "max": 1.1774329925570504
+    },
+    "band_contained_fraction": 0.8863636363636364,
+    "center_over_4mm_fraction": 0.0,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 0.5,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.133892847413997,
+      "p95": 4.059767277263642,
+      "max": 4.760776385036378
+    },
+    "normal_deg": {
+      "median": 0.31504007295276704,
+      "p95": 1.034149824365609,
+      "max": 1.1774329925570504
+    },
+    "band_contained_fraction": 0.8409090909090909,
+    "center_over_4mm_fraction": 0.06818181818181818,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  },
+  {
+    "calibration_condition": "one_bad_image",
+    "calibration_method": "pixel_huber",
+    "tool_policy": "joint_board_gun_jig_diagnostic",
+    "body_condition": "depth_bias_3mm",
+    "stop_half_amplitude_mm": 2.0,
+    "conditional_draws": 176,
+    "center_mm": {
+      "median": 3.1273096619974066,
+      "p95": 4.034715581641797,
+      "max": 4.758040033737491
+    },
+    "normal_deg": {
+      "median": 0.31504007295276704,
+      "p95": 1.034149824365609,
+      "max": 1.1774329925570504
+    },
+    "band_contained_fraction": 0.8352272727272727,
+    "center_over_4mm_fraction": 0.07386363636363637,
+    "independent_physical_trials": 0,
+    "final_fastening_success": null
+  }
+]

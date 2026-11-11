@@ -1,0 +1,11 @@
+{
+  "preprocessing": {
+    "kind": "saved_capability_predictions",
+    "condition": "近·SimSense净"
+  },
+  "depth_display_range_m": [
+    0.18,
+    0.85
+  ],
+  "observation_semantics": "same evaluator prepare_frame: native 1mm Z16, SDK raw RGB alignment, explicit RGB optical Z"
+}

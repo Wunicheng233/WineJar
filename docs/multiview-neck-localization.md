@@ -1,3 +1,5 @@
+> 当前任务状态（2026-10-21）：主线为[窄槽截面圆离线调研与MuJoCo研究](../experiments/neck_localization/README.md)，不操作实机。本文描述9月口沿算法，仅作历史对照；当前目标是口沿下实际扎带窄槽，不能混用。
+
 # 三相机坛口定位、离线验收与重新标定
 
 更新：2026-09-09。本文对应 `31_estimate_mouth_height.py` 的 schema 3，

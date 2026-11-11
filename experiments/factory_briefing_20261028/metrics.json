@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "cohort": "new8",
+      "case": "confirmation_nominal_000",
+      "center_max_mm": 1.2709093050692866,
+      "normal_max_deg": 0.49935575438784985,
+      "diameter_max_mm": 0.5585972874239536,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 1.1443792314384575
+    },
+    {
+      "id": 2,
+      "cohort": "new8",
+      "case": "confirmation_nominal_001",
+      "center_max_mm": 2.3142636401918097,
+      "normal_max_deg": 0.7739141099995029,
+      "diameter_max_mm": 1.8980731621237867,
+      "band_contained_all": false,
+      "minimum_band_margin_mm": -0.3804755015677137
+    },
+    {
+      "id": 3,
+      "cohort": "new8",
+      "case": "confirmation_nominal_003",
+      "center_max_mm": 1.138181514167911,
+      "normal_max_deg": 0.3304340282997608,
+      "diameter_max_mm": 0.49081546061185977,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 1.929277033608526
+    },
+    {
+      "id": 4,
+      "cohort": "new8",
+      "case": "confirmation_nominal_004",
+      "center_max_mm": 2.072944385841211,
+      "normal_max_deg": 0.45769596336114843,
+      "diameter_max_mm": 0.6382829326033179,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 0.7042366992566307
+    },
+    {
+      "id": 5,
+      "cohort": "old12",
+      "case": "structural_test_nominal_000",
+      "center_max_mm": 1.5622718028022018,
+      "normal_max_deg": 1.0745356376929347,
+      "diameter_max_mm": 0.21376398309591593,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 0.39194997480843746
+    },
+    {
+      "id": 6,
+      "cohort": "old12",
+      "case": "structural_test_nominal_006",
+      "center_max_mm": 1.8761013392212318,
+      "normal_max_deg": 0.18482315723677353,
+      "diameter_max_mm": 1.2166807772473476,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 0.8280164090889014
+    },
+    {
+      "id": 7,
+      "cohort": "old12",
+      "case": "structural_test_stress_000",
+      "center_max_mm": 1.4514873769631786,
+      "normal_max_deg": 0.07866631058740534,
+      "diameter_max_mm": 0.8606492894996376,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 0.40827388783807117
+    },
+    {
+      "id": 8,
+      "cohort": "old12",
+      "case": "structural_test_stress_002",
+      "center_max_mm": 0.9113912626598875,
+      "normal_max_deg": 0.1469720098008248,
+      "diameter_max_mm": 2.9139436827323313,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 1.4189890940072758
+    },
+    {
+      "id": 9,
+      "cohort": "old8",
+      "case": "confirmation_nominal_002",
+      "center_max_mm": 0.31074555018138594,
+      "normal_max_deg": 0.2945572961380299,
+      "diameter_max_mm": 0.9610296430646592,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 2.392323238044637
+    },
+    {
+      "id": 10,
+      "cohort": "old8",
+      "case": "confirmation_nominal_004",
+      "center_max_mm": 1.14033301730888,
+      "normal_max_deg": 0.24541081374380894,
+      "diameter_max_mm": 0.7118088855435079,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 1.788560447330339
+    },
+    {
+      "id": 11,
+      "cohort": "old8",
+      "case": "confirmation_nominal_005",
+      "center_max_mm": 2.678211741754151,
+      "normal_max_deg": 0.6181320072764798,
+      "diameter_max_mm": 1.8611320771044353,
+      "band_contained_all": true,
+      "minimum_band_margin_mm": 0.1517756897550952
+    }
+  ],
+  "n_models": 11,
+  "n_input_conditions": 2,
+  "n_results": 22,
+  "center_max_mm": 2.678211741754151,
+  "normal_max_deg": 1.0745356376929347,
+  "diameter_max_mm": 2.9139436827323313,
+  "band_contained_per_condition": {
+    "clean": 10,
+    "shared_noise": 10
+  },
+  "band_width_mm": 3,
+  "physical_neck_mm": [
+    6,
+    10
+  ],
+  "maximum_tilt_deg": 15,
+  "interpretation": "Already-seen synthetic models, optional candidate composition; not real fastening success."
+}

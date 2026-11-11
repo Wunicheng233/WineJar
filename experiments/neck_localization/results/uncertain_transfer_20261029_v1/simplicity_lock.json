@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "neck_localization/block_handeye.py": "b420acfa3f05ace5ceee7c6df572bc59ac53241273e7bce06e3ada562f9feeae",
+    "scripts/run_simple_calibration_controls.py": "10dcbef3f976870d9eb996bf623e582a06894d71340cf0c0238e601b73c6594e",
+    "neck_localization/fixed_camera_calibration.py": "b46d08ba259a77466f9649b07baa273ce518aecadb7fd6bd7c2a135d4c24da8c"
+  },
+  "posthoc_comparison": true,
+  "main_candidates_unchanged": true
+}

@@ -1,0 +1,15 @@
+{
+  "full_one_command_rebuild_executed": true,
+  "checks": [
+    {
+      "split": "development",
+      "n": 252,
+      "all_fields_identical_except_runtime_ms": true
+    },
+    {
+      "split": "test",
+      "n": 108,
+      "all_fields_identical_except_runtime_ms": true
+    }
+  ]
+}

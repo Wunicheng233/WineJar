@@ -1,0 +1,18 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "broad_reverse_tilt",
+  "camera_set": "all",
+  "rgb_result_overlay": false,
+  "ground_truth_overlay": false,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "e58e39d68c46f45e4e72dcb15bbdf3e0f4a13898683dd22ca502fa20b32d4f3a",
+  "raw_rgb_sha256": {
+    "cam_a": "ee42b020d3ae35a952751c9cff0c82dde9ba7d305f271e1eaac3308ee5623763",
+    "cam_b": "2ec75e07bf064183666eb45415e2a9eabd4b98a919c54eeed01070c5f1ff2d4d",
+    "cam_c": "8db9e9872d4472a4b587441f5080bd6004f334e8641dc2dca1f4cfcc7b704068"
+  }
+}

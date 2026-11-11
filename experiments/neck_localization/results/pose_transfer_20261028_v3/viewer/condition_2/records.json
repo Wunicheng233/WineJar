@@ -1,0 +1,6492 @@
+[
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.6432386339393066,
+    "axial_mm": -1.5685792321732197,
+    "tangent_mm": 2.127503153545067,
+    "xyz_mm": [
+      -2.136504322529653,
+      -0.05113892913857337,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929347,
+    "band_margin_mm": 0.3804277010709201,
+    "band_contained": true,
+    "elapsed_ms": 0.0016229969332925975,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00013185212850860134
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739371144142581
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855514600223958
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0007517808224501946,
+    "overlap_fraction": 0.49533333333333335,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.0004761043015547657,
+      0.004560046671058435,
+      0.0051054308864172965,
+      0.10872459600133881,
+      0.5406897260496001,
+      0.7234266488466794
+    ],
+    "rotation_scale_m": 0.14238486965704616,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4027513021315934,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.8643893610995903,
+    "axial_mm": -1.5701244454794805,
+    "tangent_mm": 2.395711927108156,
+    "xyz_mm": [
+      -2.4047175834636114,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3788824877646594,
+    "band_contained": true,
+    "elapsed_ms": 83.84744299837621,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4027513021315934,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000247148504425497
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2748464702995925
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7851323718614021
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0006970039264221998,
+    "overlap_fraction": 0.5026666666666667,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00047587906797762544,
+      0.004745533264961805,
+      0.0052625012969545375,
+      0.1089420130208043,
+      0.5425000738815327,
+      0.7199826643279176
+    ],
+    "rotation_scale_m": 0.14238486965704616,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403457983215596,
+        -0.0003204365961173883,
+        0.6298754289386653
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.9065208544902337,
+    "axial_mm": -2.3677897538754156,
+    "tangent_mm": 1.6856557059581405,
+    "xyz_mm": [
+      -1.6980364994609864,
+      -0.014851251235262111,
+      -2.358880023320742
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": -0.41878282063127564,
+    "band_contained": false,
+    "elapsed_ms": 98.03114000533242,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403457983215596,
+        -0.0003204365961173883,
+        0.6298754289386653
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5331926399364733,
+        0.8459424527021144,
+        0.009326062079247452,
+        -0.0037437160237860493
+      ],
+      [
+        0.192849022883209,
+        -0.11080329890518827,
+        -0.9749522466894059,
+        0.27328778056837033
+      ],
+      [
+        -0.8237201363876976,
+        0.5216358841836511,
+        -0.22221867887595545,
+        0.7920788721528378
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0007236875208979193,
+    "overlap_fraction": 0.5191111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005188059631995203,
+      0.0049356913530284,
+      0.00536629897139672,
+      0.11225889208040848,
+      0.5427566829845553,
+      0.7138034688078984
+    ],
+    "rotation_scale_m": 0.14238486965704616,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4072369440584893,
+        -0.00012791519048689664,
+        0.6297984250914748
+      ],
+      "normal": [
+        0.034901682266812964,
+        0.019374987150903883,
+        0.9992029235584977
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 3.208635697219176,
+    "axial_mm": -2.416506571795045,
+    "tangent_mm": 2.110885839153919,
+    "xyz_mm": [
+      2.080924343432322,
+      0.17767015439522957,
+      -2.4358838705113017
+    ],
+    "normal_deg": 1.8583779403750174,
+    "band_margin_mm": -1.1341873956130761,
+    "band_contained": false,
+    "elapsed_ms": 503.40295099886134,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4072369440584893,
+        -0.00012791519048689664,
+        0.6297984250914748
+      ],
+      "normal": [
+        0.034901682266812964,
+        0.019374987150903883,
+        0.9992029235584977
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.786229249822579,
+    "axial_mm": -1.7789688332378886,
+    "tangent_mm": 2.1443748093407358,
+    "xyz_mm": [
+      -2.0752159434556106,
+      -0.24289671289876588,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.14980166248884155,
+    "band_margin_mm": 0.9454181720343309,
+    "band_contained": true,
+    "elapsed_ms": 0.0016889971448108554,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00014162066535419043
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2740369848772495
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7850774287977436
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0011325015246888273,
+    "overlap_fraction": 0.298,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0005016983773919424,
+      0.0010950391101759703,
+      0.0023840452342578375,
+      0.1130143019673268,
+      0.6153797734692495,
+      0.6458282605849994
+    ],
+    "rotation_scale_m": 0.15093975723793626,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3988050893506863,
+        0.0026265593460760065,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.5788352792518268,
+    "axial_mm": -1.7887465222034162,
+    "tangent_mm": 1.8576267862030393,
+    "xyz_mm": [
+      -1.7871315499760065,
+      -0.24289671289893372,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.9356404830688029,
+    "band_contained": true,
+    "elapsed_ms": 111.45661999762524,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3988050893506863,
+        0.0026265593460760065,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0002038991111985508
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27406126002883935
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7850921286979117
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0011362458035684847,
+    "overlap_fraction": 0.2982222222222222,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.0005027243249404916,
+      0.0010868394291446975,
+      0.002379861764930963,
+      0.1129036340546493,
+      0.6156783705987998,
+      0.6455458090748024
+    ],
+    "rotation_scale_m": 0.15093975723793626,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3988275370806615,
+        0.0026854039002279,
+        0.6360575182753283
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.5777887116763267,
+    "axial_mm": -1.8142520344651556,
+    "tangent_mm": 1.83125208463634,
+    "xyz_mm": [
+      -1.764683820000723,
+      -0.18405215874704034,
+      -1.8700295346154583
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.9101349708070635,
+    "band_contained": true,
+    "elapsed_ms": 127.56853799510282,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3988275370806615,
+        0.0026854039002279,
+        0.6360575182753283
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.47612352198387625,
+        0.8793705350152348,
+        0.003722090902665433,
+        -0.001546479376665603
+      ],
+      [
+        0.18932464199377924,
+        -0.09837210154692587,
+        -0.9769744672053455,
+        0.2732316948042204
+      ],
+      [
+        -0.8587564100183451,
+        0.46586520774174545,
+        -0.21332378317511547,
+        0.7883558937691406
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0012066591823040442,
+    "overlap_fraction": 0.3051111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0004843758868889592,
+      0.001056138973191614,
+      0.0022223676689862625,
+      0.11261111751204582,
+      0.6123621255622883,
+      0.6467294881068001
+    ],
+    "rotation_scale_m": 0.15093975723793626,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4003081451612363,
+        0.002610436851456251,
+        0.6361876748793779
+      ],
+      "normal": [
+        -0.025843931233762694,
+        0.0368932299143285,
+        0.9989849752648301
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.7818383176118824,
+    "axial_mm": -1.737058821916749,
+    "tangent_mm": 0.39695647029761133,
+    "xyz_mm": [
+      -0.28407573942601516,
+      -0.2590192075186894,
+      -1.7398729305658778
+    ],
+    "normal_deg": 0.48988064615769394,
+    "band_margin_mm": 0.6850506151575753,
+    "band_contained": true,
+    "elapsed_ms": 566.9630479969783,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4003081451612363,
+        0.002610436851456251,
+        0.6361876748793779
+      ],
+      "normal": [
+        -0.025843931233762694,
+        0.0368932299143285,
+        0.9989849752648301
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.7429885884766019,
+    "axial_mm": -1.3261222162499011,
+    "tangent_mm": 1.1311096706898527,
+    "xyz_mm": [
+      -1.3436831572017915,
+      -0.021671355224013415,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.07866631058740589,
+    "band_margin_mm": 0.20651477944697746,
+    "band_contained": true,
+    "elapsed_ms": 0.001696003891993314,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.000256204628718934
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27389170170027394
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7857670096832254
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0013833973772867038,
+    "overlap_fraction": 0.41133333333333333,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0005338120509039275,
+      0.001452558019128281,
+      0.004834815625736637,
+      0.10562408223253254,
+      0.3369576104487059,
+      0.8087717957641494
+    ],
+    "rotation_scale_m": 0.14819392731232334,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3949249664440426,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 2.1703006851773643,
+    "axial_mm": -1.4180302424014624,
+    "tangent_mm": 1.642983656557845,
+    "xyz_mm": [
+      -1.864853954461232,
+      -0.021671355224180816,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.11460675329541581,
+    "band_contained": true,
+    "elapsed_ms": 89.78018399648136,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3949249664440426,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000610272783291288
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27513793525682484
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7852713949793464
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0012372547026405047,
+    "overlap_fraction": 0.4166666666666667,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000546091688018087,
+      0.0015645358557605142,
+      0.005332578104509062,
+      0.11074988108274615,
+      0.34723395784476646,
+      0.7981247865147263
+    ],
+    "rotation_scale_m": 0.14819392731232334,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3959969766552547,
+        -0.005838465501147137,
+        0.5675012770711965
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 2.3926707264610427,
+    "axial_mm": -2.284453970892602,
+    "tangent_mm": 0.711437460453578,
+    "xyz_mm": [
+      -0.792843743249172,
+      0.36816988617533253,
+      -2.227268043807906
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": -0.7518169751957239,
+    "band_contained": false,
+    "elapsed_ms": 453.5224350038334,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3959969766552547,
+        -0.005838465501147137,
+        0.5675012770711965
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.35590063154720647,
+        0.9340936011203875,
+        0.02835286247005051,
+        -0.009673863749646704
+      ],
+      [
+        0.2243153912367315,
+        -0.05593572948067156,
+        -0.9729099647047398,
+        0.2729789090640575
+      ],
+      [
+        -0.9072030344518316,
+        0.3526192543146378,
+        -0.22943913303527178,
+        0.793714125320942
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0010067267335283877,
+    "overlap_fraction": 0.44822222222222224,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005096919045470134,
+      0.0028712313101803932,
+      0.0068962992046805675,
+      0.09424596434032659,
+      0.4374488207903797,
+      0.7487677753919062
+    ],
+    "rotation_scale_m": 0.14819392731232334,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.402265571792093,
+        -0.002416315422564671,
+        0.5677415220932714
+      ],
+      "normal": [
+        0.22242591953169186,
+        0.08568516524467952,
+        0.971176998686374
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 6.9497222425455805,
+    "axial_mm": -0.6040065075265993,
+    "tangent_mm": 6.923425119649832,
+    "xyz_mm": [
+      5.4757513935892455,
+      3.7903199647577988,
+      -1.9870230217329254
+    ],
+    "normal_deg": 2.7917696183369123,
+    "band_margin_mm": -1.3919605999680515,
+    "band_contained": false,
+    "elapsed_ms": 367.277176999778,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402265571792093,
+        -0.002416315422564671,
+        0.5677415220932714
+      ],
+      "normal": [
+        0.22242591953169186,
+        0.08568516524467952,
+        0.971176998686374
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.6487690037686016,
+    "axial_mm": 0.2521104694107609,
+    "tangent_mm": 2.6367437392622732,
+    "xyz_mm": [
+      -2.6277214139462934,
+      -0.31680983525361056,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082478,
+    "band_margin_mm": 1.1999379455818704,
+    "band_contained": true,
+    "elapsed_ms": 0.0018369973986409605,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0005442276020861531
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27418401427862804
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7843795595268128
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0024983809663379555,
+    "overlap_fraction": 0.5064444444444445,
+    "iterations": 20,
+    "information_eigenvalues": [
+      0.0002982476425163623,
+      0.0054158123779523195,
+      0.006986850943211008,
+      0.1278334383434478,
+      0.3548147231311698,
+      0.7753346001421935
+    ],
+    "rotation_scale_m": 0.1469455333661101,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3936195525051795,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 1.556743109704285,
+    "axial_mm": 0.11075242871309214,
+    "tangent_mm": 1.5527984444691845,
+    "xyz_mm": [
+      -1.5206550245201456,
+      -0.31680983525361056,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.3412959862795413,
+    "band_contained": true,
+    "elapsed_ms": 325.5129870012752,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3936195525051795,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001212106792044025
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2752099940275389
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7840076595673672
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0024043996795661132,
+    "overlap_fraction": 0.5115555555555555,
+    "iterations": 24,
+    "information_eigenvalues": [
+      0.00031555195808101244,
+      0.005518147579040082,
+      0.00712235564879429,
+      0.13067460412356743,
+      0.3625274793236027,
+      0.767175728545987
+    ],
+    "rotation_scale_m": 0.1469455333661101,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3944489718819235,
+        -0.0039788721154108905,
+        0.6049413536286863
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 1.2411241205405765,
+    "axial_mm": -0.9310201542329009,
+    "tangent_mm": 0.8207256271128403,
+    "xyz_mm": [
+      -0.6912356477761783,
+      -0.018079892954873944,
+      -1.0306577896187497
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 0.5210282607597326,
+    "band_contained": true,
+    "elapsed_ms": 389.7634120003204,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3944489718819235,
+        -0.0039788721154108905,
+        0.6049413536286863
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9325770019082162,
+        0.3583719276258954,
+        0.043239993080282556,
+        -0.016582127950462225
+      ],
+      [
+        0.1197609118470398,
+        -0.19417412123127853,
+        -0.9736291566287583,
+        0.2713472954767261
+      ],
+      [
+        -0.34052526999541327,
+        0.9131626208588265,
+        -0.22400126865888692,
+        0.7928482052174632
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024871761637958365,
+    "overlap_fraction": 0.6055555555555555,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005489916920914851,
+      0.0038008539423689844,
+      0.009765803693306511,
+      0.057982676696592975,
+      0.6279888988457696,
+      0.6859105528169162
+    ],
+    "rotation_scale_m": 0.1469455333661101,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404542747003479,
+        -0.0013013157896269601,
+        0.606572775637578
+      ],
+      "normal": [
+        -0.02108863428973804,
+        -0.09774294543208596,
+        0.9949882341626227
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 9.789866245251071,
+    "axial_mm": -0.7648041691683927,
+    "tangent_mm": 9.759946499993172,
+    "xyz_mm": [
+      9.402539473779115,
+      2.6594764328290563,
+      0.60076421927302
+    ],
+    "normal_deg": 6.493124717124708,
+    "band_margin_mm": -5.677826671509857,
+    "band_contained": false,
+    "elapsed_ms": 702.5915739941411,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404542747003479,
+        -0.0013013157896269601,
+        0.606572775637578
+      ],
+      "normal": [
+        -0.02108863428973804,
+        -0.09774294543208596,
+        0.9949882341626227
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.9289882781320438,
+    "axial_mm": -0.22636465321411284,
+    "tangent_mm": 1.9156604137858257,
+    "xyz_mm": [
+      -1.9064636766632503,
+      -0.1964324201778416,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.18210286182615532,
+    "band_margin_mm": 2.4633853103610748,
+    "band_contained": true,
+    "elapsed_ms": 0.0018409991753287613,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0001517648554096654
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27404068946863946
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7850598451004144
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002331799552627602,
+    "overlap_fraction": 0.47155555555555556,
+    "iterations": 11,
+    "information_eigenvalues": [
+      0.0003651345048961206,
+      0.007518353191732001,
+      0.009084757671873571,
+      0.12322172375295211,
+      0.39244151358229495,
+      0.7560670788609829
+    ],
+    "rotation_scale_m": 0.14379874460408865,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.398370797737173,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.62455468033017,
+    "axial_mm": -0.22498035816819906,
+    "tangent_mm": 1.6089007886818785,
+    "xyz_mm": [
+      -1.597743997844514,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.464769605406988,
+    "band_contained": true,
+    "elapsed_ms": 160.70192200277233,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.398370797737173,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0005802900456756202
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27473492317394566
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7848559721742254
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0022665906251016755,
+    "overlap_fraction": 0.47355555555555556,
+    "iterations": 8,
+    "information_eigenvalues": [
+      0.00036511266007306685,
+      0.007421796666252661,
+      0.009218906402851366,
+      0.12460645256686625,
+      0.39639665204120667,
+      0.7513667206958687
+    ],
+    "rotation_scale_m": 0.14379874460408865,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3988798158019153,
+        0.0032276510373642955,
+        0.5966224197359942
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.3849267172393742,
+    "axial_mm": -0.8608379924054922,
+    "tangent_mm": 1.0848870738259866,
+    "xyz_mm": [
+      -1.0887259331022747,
+      0.008310114620953442,
+      -0.8559373789647218
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 1.8289119711696944,
+    "band_contained": true,
+    "elapsed_ms": 120.7836989997304,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3988798158019153,
+        0.0032276510373642955,
+        0.5966224197359942
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.3839067621594378,
+        0.9233717428505769,
+        0.0004716708009111708,
+        0.00016729927553204194
+      ],
+      [
+        0.1934712968907986,
+        -0.07993933033798786,
+        -0.977843832492953,
+        0.2743837025798167
+      ],
+      [
+        -0.9028756587967406,
+        0.37549211439150304,
+        -0.20933517808086888,
+        0.7861318138871692
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.00227695224230094,
+    "overlap_fraction": 0.47955555555555557,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00036149798886515454,
+      0.007358829604453038,
+      0.009735667168523218,
+      0.12255687514364151,
+      0.4085703879036373,
+      0.7439038289261966
+    ],
+    "rotation_scale_m": 0.14379874460408865,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.399730118638919,
+        0.0030189423122313173,
+        0.5967084706819579
+      ],
+      "normal": [
+        0.0038924856275796183,
+        -0.005277272912276498,
+        0.999978499241983
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 0.8305000274337202,
+    "axial_mm": -0.7700979197472201,
+    "tangent_mm": 0.31093325580969033,
+    "xyz_mm": [
+      -0.23842309609856116,
+      -0.20039861051202468,
+      -0.7698864330010213
+    ],
+    "normal_deg": 0.07007173049892304,
+    "band_margin_mm": 2.028985238204709,
+    "band_contained": true,
+    "elapsed_ms": 450.2331520052394,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399730118638919,
+        0.0030189423122313173,
+        0.5967084706819579
+      ],
+      "normal": [
+        0.0038924856275796183,
+        -0.005277272912276498,
+        0.999978499241983
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.741184179477161,
+    "axial_mm": -0.6798290834426058,
+    "tangent_mm": 2.655545729811758,
+    "xyz_mm": [
+      -2.5534328288627783,
+      -0.4984479923769397,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.24541081374380888,
+    "band_margin_mm": 1.9090164865443853,
+    "band_contained": true,
+    "elapsed_ms": 0.0017470010789111257,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00013191544312206316
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27393709129217825
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855515697704383
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0008336069760698226,
+    "overlap_fraction": 0.4737777777777778,
+    "iterations": 10,
+    "information_eigenvalues": [
+      0.00051080040481088,
+      0.0014266423380554756,
+      0.0021112030666210974,
+      0.11049388097655027,
+      0.58903604374362,
+      0.6643926852793607
+    ],
+    "rotation_scale_m": 0.1354452781668703,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4025580170261587,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.9927387108672394,
+    "axial_mm": -0.6636673728710871,
+    "tangent_mm": 2.9182238792987927,
+    "xyz_mm": [
+      -2.8217748842211954,
+      -0.4984479923769965,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.9251781971159039,
+    "band_contained": true,
+    "elapsed_ms": 169.1454320025514,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4025580170261587,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00014495349593611484
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27450219465794795
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.785352725723864
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0008259458360419999,
+    "overlap_fraction": 0.47688888888888886,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.0004975265597606301,
+      0.0014367600097936108,
+      0.0021214092721681043,
+      0.11033830103959462,
+      0.5891593810418667,
+      0.663173267387212
+    ],
+    "rotation_scale_m": 0.1354452781668703,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4029650141475587,
+        0.0024480049094092507,
+        0.6349056738467758
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.8091586490249263,
+    "axial_mm": -1.2032495851692295,
+    "tangent_mm": 2.5384173713520055,
+    "xyz_mm": [
+      -2.414777762821174,
+      -0.4102655133531837,
+      -1.375464605189447
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.3855959848177613,
+    "band_contained": true,
+    "elapsed_ms": 124.28226199699566,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4029650141475587,
+        0.0024480049094092507,
+        0.6349056738467758
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5021532467532626,
+        0.8647767183002358,
+        -0.0018287320833468268,
+        0.000943164614674383
+      ],
+      [
+        0.19000409462628212,
+        -0.11239292875223887,
+        -0.9753288028104891,
+        0.2729917385915418
+      ],
+      [
+        -0.8436471779129021,
+        0.4894170583994485,
+        -0.22074959149956838,
+        0.7919967206985262
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0008622855604417264,
+    "overlap_fraction": 0.48733333333333334,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005321547170436594,
+      0.0014905741847427456,
+      0.002139794675940042,
+      0.11194074766311014,
+      0.5872074000601634,
+      0.6622580926830385
+    ],
+    "rotation_scale_m": 0.1354452781668703,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405089331062725,
+        0.0008489133482537485,
+        0.6349295485947166
+      ],
+      "normal": [
+        -0.04664399079604618,
+        -0.05968656721534078,
+        0.9971267982642262
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.438991287216036,
+    "axial_mm": -1.2206636810727582,
+    "tangent_mm": 2.111553616848419,
+    "xyz_mm": [
+      -0.2904608476548276,
+      -2.009357074508686,
+      -1.3515898572485918
+    ],
+    "normal_deg": 0.8389079801245205,
+    "band_margin_mm": 0.8428671902968519,
+    "band_contained": true,
+    "elapsed_ms": 556.9195990028675,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405089331062725,
+        0.0008489133482537485,
+        0.6349295485947166
+      ],
+      "normal": [
+        -0.04664399079604618,
+        -0.05968656721534078,
+        0.9971267982642262
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 3.15668686517831,
+    "axial_mm": -2.6041466388685084,
+    "tangent_mm": 1.784122262643207,
+    "xyz_mm": [
+      -1.6979634577798386,
+      0.5693468849897959,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764792,
+    "band_margin_mm": 0.09320041261865722,
+    "band_contained": true,
+    "elapsed_ms": 0.0017700003809295595,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00018212909416783635
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274051778288629
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.785007212452461
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0024094316286906946,
+    "overlap_fraction": 0.48844444444444446,
+    "iterations": 11,
+    "information_eigenvalues": [
+      0.0005004161020700676,
+      0.002640287655445826,
+      0.007243730002389395,
+      0.14189788909286893,
+      0.32780994992000184,
+      0.7896958446044425
+    ],
+    "rotation_scale_m": 0.1414817180475405,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3999453016973855,
+        -0.0011125786999926423,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 2.9738505410753606,
+    "axial_mm": -2.593295963129411,
+    "tangent_mm": 1.4555421973515301,
+    "xyz_mm": [
+      -1.3274769225191108,
+      0.5693468849896284,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.1040510883577549,
+    "band_contained": true,
+    "elapsed_ms": 128.41949100402417,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3999453016973855,
+        -0.0011125786999926423,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0013225384907867913
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2755316461376659
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7843446155069003
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002179326701171044,
+    "overlap_fraction": 0.4928888888888889,
+    "iterations": 12,
+    "information_eigenvalues": [
+      0.0005243341976134193,
+      0.002903915580977115,
+      0.007732501034780385,
+      0.14594233549671895,
+      0.3351894846481064,
+      0.7789008711885045
+    ],
+    "rotation_scale_m": 0.1414817180475405,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401336207566762,
+        -0.000588192896803833,
+        0.5622548060721002
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 4.0615374378662885,
+    "axial_mm": -3.8254068200822573,
+    "tangent_mm": 1.3646790905035544,
+    "xyz_mm": [
+      0.06342894685751332,
+      1.0937326881784377,
+      -3.910986056571919
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": -1.1280597685950917,
+    "band_contained": false,
+    "elapsed_ms": 139.88506299938308,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401336207566762,
+        -0.000588192896803833,
+        0.5622548060721002
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.21983634501353447,
+        0.974321234081035,
+        0.048683818974071126,
+        -0.01726445923504647
+      ],
+      [
+        0.26717034156656494,
+        -0.012134952917546077,
+        -0.9635729092834103,
+        0.26929213570192434
+      ],
+      [
+        -0.9382387702489683,
+        0.22483521907499066,
+        -0.26297744060129175,
+        0.8054950121802273
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0018742179210213736,
+    "overlap_fraction": 0.5448888888888889,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0004501529479726748,
+      0.00406391029401942,
+      0.007458096537318781,
+      0.1073034695017107,
+      0.48275263754123726,
+      0.6971868791553506
+    ],
+    "rotation_scale_m": 0.1414817180475405,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.415043880043211,
+        0.00183634393555756,
+        0.5624267046746665
+      ],
+      "normal": [
+        0.11692964318324406,
+        0.05977655344432525,
+        0.9913396099235402
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 14.697014316481203,
+    "axial_mm": -3.0901090724834246,
+    "tangent_mm": 14.368488289970141,
+    "xyz_mm": [
+      13.771101423306398,
+      3.518269520539831,
+      -3.7390874540056407
+    ],
+    "normal_deg": 5.0517376988652,
+    "band_margin_mm": -4.633443281174579,
+    "band_contained": false,
+    "elapsed_ms": 299.8320030019386,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.415043880043211,
+        0.00183634393555756,
+        0.5624267046746665
+      ],
+      "normal": [
+        0.11692964318324406,
+        0.05977655344432525,
+        0.9913396099235402
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.3230059639851395,
+    "axial_mm": -1.2737772528939777,
+    "tangent_mm": 1.9426394978792125,
+    "xyz_mm": [
+      -1.9915541601367437,
+      0.027866408423973116,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.11221352100353,
+    "band_contained": true,
+    "elapsed_ms": 0.00169100530911237,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0001384164801059226
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27393471715629325
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855628385130411
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.001429757912828786,
+    "overlap_fraction": 0.49666666666666665,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0004145843731670257,
+      0.011804859294066423,
+      0.02457608192132789,
+      0.10926351704885945,
+      0.46251887897325267,
+      0.7167342133162875
+    ],
+    "rotation_scale_m": 0.13777557763471246,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401733388412321,
+        -0.0026655594003734077,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.568491003578009,
+    "axial_mm": -1.2849491797898756,
+    "tangent_mm": 2.2239720413751822,
+    "xyz_mm": [
+      -2.273120608218715,
+      0.02786640842380528,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1010415941076324,
+    "band_contained": true,
+    "elapsed_ms": 112.9614000019501,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401733388412321,
+        -0.0026655594003734077,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00013381152594331425
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27428386929529985
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854635575396204
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0014216485542279528,
+    "overlap_fraction": 0.49733333333333335,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0004181164079474459,
+      0.011764114882726226,
+      0.02435210380102135,
+      0.10974836527727996,
+      0.4646315535123966,
+      0.7142217598886035
+    ],
+    "rotation_scale_m": 0.13777557763471246,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.40201449551269,
+        -0.002511639330283222,
+        0.6125544939643472
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.5102962012413426,
+    "axial_mm": -1.5958156121577385,
+    "tangent_mm": 1.9377718002799855,
+    "xyz_mm": [
+      -1.9920135078499435,
+      0.18178647851399077,
+      -1.516714501394234
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 0.7901751617397691,
+    "band_contained": true,
+    "elapsed_ms": 112.99765200237744,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40201449551269,
+        -0.002511639330283222,
+        0.6125544939643472
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.44856370445114013,
+        0.8937378847495903,
+        -0.004816265399507763,
+        0.0022715240504019743
+      ],
+      [
+        0.17537434243738395,
+        -0.09330123192209223,
+        -0.9800707730243137,
+        0.2753420201208388
+      ],
+      [
+        -0.876375743082683,
+        0.43877952719463587,
+        -0.19859024007016643,
+        0.7820014851504491
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0014199516256667437,
+    "overlap_fraction": 0.49844444444444447,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0004368088093992953,
+      0.011685451953689543,
+      0.025068335191867807,
+      0.1072441036182622,
+      0.46763298357315336,
+      0.7147280056343661
+    ],
+    "rotation_scale_m": 0.13777557763471246,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4004993014510294,
+        -0.0027608065523647366,
+        0.6122234387513765
+      ],
+      "normal": [
+        0.031723238769860024,
+        -0.01802554215047599,
+        0.9993341362888251
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 3.9647569935065476,
+    "axial_mm": -1.9849457047213201,
+    "tangent_mm": 3.4320968178166913,
+    "xyz_mm": [
+      -3.5072075695103955,
+      -0.06738074356752366,
+      -1.8477697143649552
+    ],
+    "normal_deg": 0.773180113876889,
+    "band_margin_mm": 0.13535606836058434,
+    "band_contained": true,
+    "elapsed_ms": 577.5668260030216,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4004993014510294,
+        -0.0027608065523647366,
+        0.6122234387513765
+      ],
+      "normal": [
+        0.031723238769860024,
+        -0.01802554215047599,
+        0.9993341362888251
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.52294025237908,
+    "axial_mm": -2.152349512788035,
+    "tangent_mm": 2.78899616289336,
+    "xyz_mm": [
+      -2.76382295637978,
+      0.17318548429581282,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397688,
+    "band_margin_mm": -0.3654292579895462,
+    "band_contained": false,
+    "elapsed_ms": 0.0015039986465126276,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00021677408029516926
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27406443040936085
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7849471596590184
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0024552109591785363,
+    "overlap_fraction": 0.48,
+    "iterations": 8,
+    "information_eigenvalues": [
+      0.0005302166295916638,
+      0.0016715030403989621,
+      0.004055868858199781,
+      0.1264009942367179,
+      0.36643107846076545,
+      0.7872678897135803
+    ],
+    "rotation_scale_m": 0.1368619552533418,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4045833178266514,
+        0.0024643206351192245,
+        0.5695762013316242
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.188742239372711,
+    "axial_mm": -2.155666918179056,
+    "tangent_mm": 2.349718537831308,
+    "xyz_mm": [
+      -2.3228616793815604,
+      0.17318548429564457,
+      -2.1777046346209694
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.36874666338056583,
+    "band_contained": false,
+    "elapsed_ms": 102.25905499828514,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4045833178266514,
+        0.0024643206351192245,
+        0.5695762013316242
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009973999817372153
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2751646781548517
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7845768746844795
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002380798694576074,
+    "overlap_fraction": 0.4822222222222222,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005300108695744106,
+      0.0017496623529452337,
+      0.004422402286293192,
+      0.1283675799875341,
+      0.3702966267137132,
+      0.7802948309672036
+    ],
+    "rotation_scale_m": 0.1368619552533418,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4054801198066147,
+        0.0028544832606884037,
+        0.5685759252716428
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.528536333164025,
+    "axial_mm": -3.153531314981242,
+    "tangent_mm": 1.5829746997003147,
+    "xyz_mm": [
+      -1.426059699418225,
+      0.5633481098648239,
+      -3.1779806946024003
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -1.3666110601827521,
+    "band_contained": false,
+    "elapsed_ms": 405.3048640053021,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4054801198066147,
+        0.0028544832606884037,
+        0.5685759252716428
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9968528355797491,
+        0.06942782548150232,
+        0.03826488266707348,
+        -0.014369773333949386
+      ],
+      [
+        0.05881314341227748,
+        -0.32404778481824736,
+        -0.9442108066085432,
+        0.26098567231344105
+      ],
+      [
+        -0.05315485263437026,
+        0.9434896979847205,
+        -0.3271112218162522,
+        0.830694844665184
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024692171140275466,
+    "overlap_fraction": 0.6531111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000372361140037509,
+      0.0038829264782909473,
+      0.013378326716472997,
+      0.06773080217302077,
+      0.5923731111184543,
+      0.7035707021376372
+    ],
+    "rotation_scale_m": 0.1368619552533418,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4250874230049706,
+        -0.0006975349402159759,
+        0.5681332740180962
+      ],
+      "normal": [
+        0.11299720524445389,
+        -0.011925084974282787,
+        0.9935237410124123
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 18.777612728584412,
+    "axial_mm": -3.8243292451220086,
+    "tangent_mm": 18.384048672955576,
+    "xyz_mm": [
+      18.181243498937683,
+      -2.988670091039556,
+      -3.620631948148989
+    ],
+    "normal_deg": 7.1987164148878975,
+    "band_margin_mm": -8.489623330401443,
+    "band_contained": false,
+    "elapsed_ms": 551.2533389992313,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4250874230049706,
+        -0.0006975349402159759,
+        0.5681332740180962
+      ],
+      "normal": [
+        0.11299720524445389,
+        -0.011925084974282787,
+        0.9935237410124123
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.527535230560865,
+    "axial_mm": -0.9347328443601947,
+    "tangent_mm": 2.348341723727759,
+    "xyz_mm": [
+      -2.2732442956332477,
+      -0.14232148187376306,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086362,
+    "band_margin_mm": 2.069234472681691,
+    "band_contained": true,
+    "elapsed_ms": 0.0016620033420622349,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00017885082356126902
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27405058108579694
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.785012894928617
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002682476923326129,
+    "overlap_fraction": 0.5037777777777778,
+    "iterations": 8,
+    "information_eigenvalues": [
+      0.0005036306213557872,
+      0.004885468007452276,
+      0.010337053862711354,
+      0.10147957682603892,
+      0.34092380269074873,
+      0.8105562212383786
+    ],
+    "rotation_scale_m": 0.14324854360764672,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3982821460381447,
+        0.0033135222367608073,
+        0.5800557811620664
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.2060607265805667,
+    "axial_mm": -0.9601923541403649,
+    "tangent_mm": 1.9861355876202316,
+    "xyz_mm": [
+      -1.9094264100152358,
+      -0.14232148187376437,
+      -1.095691247521291
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 2.0437749629015207,
+    "band_contained": true,
+    "elapsed_ms": 101.00202100147726,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3982821460381447,
+        0.0033135222367608073,
+        0.5800557811620664
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011755097493958769
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27569361659212294
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7843438424784829
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002539716258583148,
+    "overlap_fraction": 0.508,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0005040861352237688,
+      0.004678857752357594,
+      0.010594529846112909,
+      0.10584576253977811,
+      0.3467449573804462,
+      0.8010949996243196
+    ],
+    "rotation_scale_m": 0.14324854360764672,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.399637178841208,
+        0.003693084942910668,
+        0.5785859702472724
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.635419703722617,
+    "axial_mm": -2.5189988272393955,
+    "tangent_mm": 0.7746495485933975,
+    "xyz_mm": [
+      -0.5543936069520861,
+      0.2372412242760964,
+      -2.565502162315214
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 0.4849684898024901,
+    "band_contained": true,
+    "elapsed_ms": 398.9209209976252,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399637178841208,
+        0.003693084942910668,
+        0.5785859702472724
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9855976082764413,
+        0.16370722179837946,
+        0.04239457619571596,
+        -0.015385217186315962
+      ],
+      [
+        0.07698505308969583,
+        -0.2111467507283108,
+        -0.9744179551186717,
+        0.2725742987258714
+      ],
+      [
+        -0.15056777929070758,
+        0.9636477547257258,
+        -0.2207087416744801,
+        0.7905918516553095
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002822263935475415,
+    "overlap_fraction": 0.6662222222222223,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0003450620056710574,
+      0.004099986627499693,
+      0.01742186712630931,
+      0.0526560715216083,
+      0.6497037989985117,
+      0.7303974106808597
+    ],
+    "rotation_scale_m": 0.14324854360764672,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403517628219999,
+        0.006852716750609309,
+        0.5798811867219464
+      ],
+      "normal": [
+        -0.016796721421352443,
+        -0.01729665991756408,
+        0.9997093056009781
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 4.920875848969108,
+    "axial_mm": -1.4802155175447527,
+    "tangent_mm": 4.692971461940416,
+    "xyz_mm": [
+      3.326055771839087,
+      3.3968730319747373,
+      -1.2702856876412039
+    ],
+    "normal_deg": 3.3247729791249103,
+    "band_margin_mm": -1.4037056925418843,
+    "band_contained": false,
+    "elapsed_ms": 502.8518679973786,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403517628219999,
+        0.006852716750609309,
+        0.5798811867219464
+      ],
+      "normal": [
+        -0.016796721421352443,
+        -0.01729665991756408,
+        0.9997093056009781
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.8606503857867414,
+    "axial_mm": -2.0741304425769647,
+    "tangent_mm": 1.9701024178649489,
+    "xyz_mm": [
+      -1.9715555507278104,
+      -0.15626327421595226,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.45769596336114843,
+    "band_margin_mm": 0.6839422517957224,
+    "band_contained": true,
+    "elapsed_ms": 0.002102002326864749,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        7.504610070881157e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27401267228475845
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7851928275617809
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.00224497304483371,
+    "overlap_fraction": 0.4691111111111111,
+    "iterations": 8,
+    "information_eigenvalues": [
+      0.0002753851725275063,
+      0.013797918896599096,
+      0.01557895485429259,
+      0.12779362493764534,
+      0.2902833276296613,
+      0.827149581235421
+    ],
+    "rotation_scale_m": 0.14944029623056476,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401116488013793,
+        -0.00407844296387234,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.757657613149602,
+    "axial_mm": -2.072581381758728,
+    "tangent_mm": 1.8190882131851223,
+    "xyz_mm": [
+      -1.818896965544159,
+      -0.15626327421600864,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.6854913126139589,
+    "band_contained": true,
+    "elapsed_ms": 125.08417000208283,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401116488013793,
+        -0.00407844296387234,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000586398870438834
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2746995243029984
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7847726537195638
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0021595013842526595,
+    "overlap_fraction": 0.4722222222222222,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0002869610439391741,
+      0.014049671563930787,
+      0.015824031492448994,
+      0.13017933713010219,
+      0.29508041404814667,
+      0.8211608843296216
+    ],
+    "rotation_scale_m": 0.14944029623056476,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401849212333974,
+        -0.003904872222879506,
+        0.5833781400565536
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.866165465448392,
+    "axial_mm": -2.659711829823624,
+    "tangent_mm": 1.0680999286701918,
+    "xyz_mm": [
+      -1.0861726453632592,
+      0.017307466776825785,
+      -2.652326132169147
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.09836086454906295,
+    "band_contained": true,
+    "elapsed_ms": 492.85748900001636,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401849212333974,
+        -0.003904872222879506,
+        0.5833781400565536
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.4886478306689102,
+        0.8724446299215038,
+        0.007979054060439,
+        -0.0024456837892573606
+      ],
+      [
+        0.19245045824127718,
+        -0.09886064087299237,
+        -0.9763141885729745,
+        0.27331488351607436
+      ],
+      [
+        -0.8509912565386861,
+        0.47860938290772453,
+        -0.21621040651966072,
+        0.7887405791433212
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0020477851213696005,
+    "overlap_fraction": 0.47644444444444445,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00029435651175002117,
+      0.014250169119864537,
+      0.01622135743228799,
+      0.13558027102236633,
+      0.2997242759831034,
+      0.813183110994441
+    ],
+    "rotation_scale_m": 0.14944029623056476,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.40423940409811,
+        -0.0033962260596540846,
+        0.5838609705262939
+      ],
+      "normal": [
+        0.02447697970221901,
+        -0.04861997902745051,
+        0.9985173884835594
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.585305496906627,
+    "axial_mm": -2.1831155075593904,
+    "tangent_mm": 1.3848506031299277,
+    "xyz_mm": [
+      1.304019118772981,
+      0.525953630002247,
+      -2.1694956624288553
+    ],
+    "normal_deg": 0.9902109478999858,
+    "band_margin_mm": 0.08889164502018528,
+    "band_contained": true,
+    "elapsed_ms": 488.3305809999001,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40423940409811,
+        -0.0033962260596540846,
+        0.5838609705262939
+      ],
+      "normal": [
+        0.02447697970221901,
+        -0.04861997902745051,
+        0.9985173884835594
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0001247329844310585
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27393971427878244
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855391198676848
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0008940809334456545,
+    "overlap_fraction": 0.3031111111111111,
+    "iterations": 7,
+    "scalar_information": 542.9608459513581,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4027657838761782,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 72.10400099575054,
+    "center_mm": 2.852242472375361,
+    "axial_mm": -1.5700410141668288,
+    "tangent_mm": 2.381230424603194,
+    "xyz_mm": [
+      -2.3902358388787626,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3789659190773113,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4027657838761782,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00019449731298111506
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27391423680552385
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7856600476924693
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006797405401171412,
+    "overlap_fraction": 0.15777777777777777,
+    "iterations": 6,
+    "scalar_information": 251.72575865378064,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.402623869458346,
+        -0.0003567242740208676,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 139.04732700029854,
+    "center_mm": 2.9721784398523763,
+    "axial_mm": -1.570858602551613,
+    "tangent_mm": 2.523142471029509,
+    "xyz_mm": [
+      -2.532150256711052,
+      -0.05113892913874142,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3781483306925271,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402623869458346,
+        -0.0003567242740208676,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -8.87948892005223e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739528386344413
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854768256297345
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0008591722887846554,
+    "overlap_fraction": 0.20422222222222222,
+    "iterations": 6,
+    "scalar_information": 458.584610060564,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.39833637862181,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 73.91732599353418,
+    "center_mm": 2.9232476131268603,
+    "axial_mm": -1.7728383097992175,
+    "tangent_mm": 2.324310851620355,
+    "xyz_mm": [
+      -2.255842278852338,
+      -0.2428967128988782,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.951548695473002,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.39833637862181,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -5.2444761333515594e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739661134617051
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854138171842301
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.000736944510858078,
+    "overlap_fraction": 0.09177777777777778,
+    "iterations": 5,
+    "scalar_information": 184.66209032433403,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3984103219584925,
+        0.0026265593460761175,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 137.88178699905984,
+    "center_mm": 2.866572031963588,
+    "axial_mm": -1.7753479735072362,
+    "tangent_mm": 2.2506387509770645,
+    "xyz_mm": [
+      -2.181898942169802,
+      -0.2428967128988227,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.9490390317649829,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3984103219584925,
+        0.0026265593460761175,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -7.100974246087221e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739593336528824
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854459972801553
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0015261864785367746,
+    "overlap_fraction": 0.25533333333333336,
+    "iterations": 6,
+    "scalar_information": 417.43968740614275,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.395301689405693,
+        -0.006228306742546595,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 67.0569650028483,
+    "center_mm": 1.8566256069483216,
+    "axial_mm": -1.3515954690155563,
+    "tangent_mm": 1.2728897566218536,
+    "xyz_mm": [
+      -1.4881309928109765,
+      -0.021671355224125305,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.18104152668132187,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.395301689405693,
+        -0.006228306742546595,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0003029784255446857
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2738746202177656
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.785848086268131
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0009584723781507025,
+    "overlap_fraction": 0.11688888888888889,
+    "iterations": 7,
+    "scalar_information": 203.4530545647267,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3948298193067545,
+        -0.006228306742546595,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 158.44097200169927,
+    "center_mm": 2.252582755920449,
+    "axial_mm": -1.4348093590137319,
+    "tangent_mm": 1.736505449331147,
+    "xyz_mm": [
+      -1.9600010917493194,
+      -0.021671355224125305,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.0978276366831463,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3948298193067545,
+        -0.006228306742546595,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -3.793090957409756e-06
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739838807312647
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853294855380578
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016128556615424955,
+    "overlap_fraction": 0.25666666666666665,
+    "iterations": 2,
+    "scalar_information": 452.8409857827072,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.392504770219877,
+        -0.004277602057709738,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 26.457631000084803,
+    "center_mm": 2.6564237651435016,
+    "axial_mm": 0.253095689388414,
+    "tangent_mm": 2.6443391976129274,
+    "xyz_mm": [
+      -2.6354373098227413,
+      -0.3168098352537216,
+      -0.10338730241166161
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.1989527256042192,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.392504770219877,
+        -0.004277602057709738,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00013303367178175683
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27393668292243734
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855535080813519
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013269359834802016,
+    "overlap_fraction": 0.12911111111111112,
+    "iterations": 35,
+    "scalar_information": 201.7252987473734,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.39224186936253,
+        -0.004277602057709794,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 953.8357390047167,
+    "center_mm": 2.917434067341916,
+    "axial_mm": 0.2866647241340154,
+    "tangent_mm": 2.9033161855410046,
+    "xyz_mm": [
+      -2.8983381671698893,
+      -0.3168098352537771,
+      -0.10338730241166161
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.165383690858618,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.39224186936253,
+        -0.004277602057709794,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -8.074091725918215e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739557798919439
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854628650666791
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014333591583454274,
+    "overlap_fraction": 0.2451111111111111,
+    "iterations": 8,
+    "scalar_information": 457.262292734071,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.397897835091981,
+        0.003022908502565388,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 108.67572599818232,
+    "center_mm": 2.091463130980574,
+    "axial_mm": -0.22710111655040727,
+    "tangent_mm": 2.079096705570144,
+    "xyz_mm": [
+      -2.070706643036768,
+      -0.19643242017795393,
+      -0.21864658935710768
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.46264884702478,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397897835091981,
+        0.003022908502565388,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00021523728287794528
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739066627051288
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7856959978621028
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0009905202712202296,
+    "overlap_fraction": 0.1228888888888889,
+    "iterations": 7,
+    "scalar_information": 211.01638930248856,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.397624242930713,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 182.67638700490352,
+    "center_mm": 2.362652939091817,
+    "axial_mm": -0.22832790026217956,
+    "tangent_mm": 2.351594199805967,
+    "xyz_mm": [
+      -2.3442988043047563,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.461422063313007,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397624242930713,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00019331759369711288
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27391466763123573
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7856580027951725
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0008094594004509213,
+    "overlap_fraction": 0.33111111111111113,
+    "iterations": 6,
+    "scalar_information": 664.3028123165753,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4024331129292706,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 59.777834998385515,
+    "center_mm": 3.110785835124743,
+    "axial_mm": -0.656144646474714,
+    "tangent_mm": 3.040799683457515,
+    "xyz_mm": [
+      -2.9466789811092298,
+      -0.498447992377052,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.932700923512277,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4024331129292706,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00025532702019400827
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27389202219712655
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7857654884575198
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006817832516428391,
+    "overlap_fraction": 0.16466666666666666,
+    "iterations": 6,
+    "scalar_information": 281.0245299090413,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.402306973513263,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 146.19501800189028,
+    "center_mm": 3.230523857822551,
+    "axial_mm": -0.6485475192541973,
+    "tangent_mm": 3.164754415626894,
+    "xyz_mm": [
+      -3.0728183971167056,
+      -0.498447992377052,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.9402980507327938,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402306973513263,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0001119870623961411
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27402616288064163
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7851287949790103
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0020669231431400285,
+    "overlap_fraction": 0.286,
+    "iterations": 6,
+    "scalar_information": 449.2140007594234,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.3998026189566297,
+        -0.0011125786999925868,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 64.09123699995689,
+    "center_mm": 3.0402239220745,
+    "axial_mm": -2.597474803670586,
+    "tangent_mm": 1.5799006742990231,
+    "xyz_mm": [
+      -1.4701596632749059,
+      0.5693468849896839,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.09987224781657952,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3998026189566297,
+        -0.0011125786999925868,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00013066441345291072
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739375481599731
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855494012654187
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018140910627919677,
+    "overlap_fraction": 0.1408888888888889,
+    "iterations": 8,
+    "scalar_information": 213.3971446471312,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3993090179481045,
+        -0.0011125786999926423,
+        0.563566285216701
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 162.99230299773626,
+    "center_mm": 3.3072568749557107,
+    "axial_mm": -2.611931211605076,
+    "tangent_mm": 2.0287344288459876,
+    "xyz_mm": [
+      -1.9637606718001521,
+      0.5693468849896284,
+      -2.5995069119710834
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.08541583988208959,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3993090179481045,
+        -0.0011125786999926423,
+        0.563566285216701
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -6.951797072098475e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27395987843809566
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.785443411478567
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0008396378142368459,
+    "overlap_fraction": 0.28155555555555556,
+    "iterations": 7,
+    "scalar_information": 519.1906883409813,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4018735415830332,
+        -0.0026655594003732967,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 94.74689399939962,
+    "center_mm": 2.4453259139459593,
+    "axial_mm": -1.2793882154486993,
+    "tangent_mm": 2.083934888518985,
+    "xyz_mm": [
+      -2.132967437506572,
+      0.027866408423916304,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1066025584488086,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4018735415830332,
+        -0.0026655594003732967,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00019631154538447216
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27391357425980023
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7856631924396889
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006359690258639965,
+    "overlap_fraction": 0.15755555555555556,
+    "iterations": 35,
+    "scalar_information": 238.02398259169792,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4016156184193287,
+        -0.00266555940037313,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 995.6495760052348,
+    "center_mm": 2.6732801205470804,
+    "axial_mm": -1.2896220297022314,
+    "tangent_mm": 2.3416450677715672,
+    "xyz_mm": [
+      -2.3908906012111153,
+      0.027866408424082837,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.0963687441952763,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4016156184193287,
+        -0.00266555940037313,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -1.0109453580600297e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739815740372397
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853404341705243
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018432660589911506,
+    "overlap_fraction": 0.292,
+    "iterations": 6,
+    "scalar_information": 455.2665528466795,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4041217919251623,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 69.32705999497557,
+    "center_mm": 3.539096620343593,
+    "axial_mm": -2.1521948026134474,
+    "tangent_mm": 2.809495047109196,
+    "xyz_mm": [
+      -2.7843875808706287,
+      0.17318548429564457,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.36527454781495755,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4041217919251623,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0002354557151675697
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27389927906683265
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7857310440108746
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013710184773438863,
+    "overlap_fraction": 0.14022222222222222,
+    "iterations": 9,
+    "scalar_information": 215.20617198450952,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4036633931390123,
+        0.00246432063511928,
+        0.5695762013316242
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 197.42853099887725,
+    "center_mm": 3.9099941316778093,
+    "axial_mm": -2.148746212717161,
+    "tangent_mm": 3.2666410612567405,
+    "xyz_mm": [
+      -3.242786367020578,
+      0.17318548429570008,
+      -2.1777046346209694
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.36182595791867067,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4036633931390123,
+        0.00246432063511928,
+        0.5695762013316242
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00012205979898852857
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739406905084982
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7855344862317345
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0020217815071727112,
+    "overlap_fraction": 0.30444444444444446,
+    "iterations": 7,
+    "scalar_information": 462.18283302764945,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.3976700344231348,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 66.00293300289195,
+    "center_mm": 2.7529890529650225,
+    "axial_mm": -0.9173575671083813,
+    "tangent_mm": 2.595650943369359,
+    "xyz_mm": [
+      -2.521538025025194,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 2.0866097499335043,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3976700344231348,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0002861390265433289
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2738807698553622
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7858188972551462
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.001580593517477132,
+    "overlap_fraction": 0.14777777777777779,
+    "iterations": 6,
+    "scalar_information": 235.54947688916099,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.397336264880148,
+        0.0033135222367606408,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 118.6682789993938,
+    "center_mm": 3.0616296350216246,
+    "axial_mm": -0.8940008018698662,
+    "tangent_mm": 2.9281971566646057,
+    "xyz_mm": [
+      -2.855307568011778,
+      -0.1423214818739309,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 2.1099665151720193,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397336264880148,
+        0.0033135222367606408,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        7.649350861804289e-06
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739880594356473
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853096514820556
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.001880399657712979,
+    "overlap_fraction": 0.25222222222222224,
+    "iterations": 4,
+    "scalar_information": 402.60223524637365,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.400979389718473,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 67.52584499918157,
+    "center_mm": 2.8499485610478255,
+    "axial_mm": -2.073972548834289,
+    "tangent_mm": 1.9546981013190694,
+    "xyz_mm": [
+      -1.9559952608640963,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.6841001455383982,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400979389718473,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00018645214199306993
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27391717484897626
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7856461023847767
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013410399665676567,
+    "overlap_fraction": 0.13555555555555557,
+    "iterations": 7,
+    "scalar_information": 190.36250168619046,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.400584548960574,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 207.1944089984754,
+    "center_mm": 3.134121779256359,
+    "axial_mm": -2.077979086342591,
+    "tangent_mm": 2.3462144496895116,
+    "xyz_mm": [
+      -2.3508360187629584,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.6800936080300964,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "下游深度假设偏差3mm",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400584548960574,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  }
+]

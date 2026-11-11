@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "datasets": 6,
+  "routes": [
+    {
+      "condition": "close/fs_old8/clean",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/clean",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/clean",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/clean",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/shared_noise",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/shared_noise",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/shared_noise",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_old8/shared_noise",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/clean",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/clean",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/clean",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/clean",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/shared_noise",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/shared_noise",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/shared_noise",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/fs_test8/shared_noise",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/clean",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/clean",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/clean",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/clean",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/shared_noise",
+      "method": "no_rgb_gate",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/shared_noise",
+      "method": "standard_sor",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/shared_noise",
+      "method": "task_surface",
+      "case": "confirmation_nominal_006"
+    },
+    {
+      "condition": "close/ss_test8/shared_noise",
+      "method": "visible_profile",
+      "case": "confirmation_nominal_006"
+    }
+  ],
+  "sources_unchanged": 477,
+  "actual_GL": true,
+  "mouse_callbacks_injected": true,
+  "all_windows_closed": true,
+  "no_estimation": true,
+  "no_hardware": true,
+  "default_viewer_bundle_unchanged": true
+}

@@ -1,0 +1,19 @@
+{
+  "frames": 30,
+  "board_translation_rounding_mm": {
+    "median": 0.00037948889063065715,
+    "p95": 0.0005312641380330807,
+    "max": 0.0005875345176333324
+  },
+  "board_rotation_rounding_deg": {
+    "median": 4.2337436005227404e-05,
+    "p95": 4.6920610597375136e-05,
+    "max": 4.8821577995158685e-05
+  },
+  "projected_corner_rounding_px": {
+    "median": 0.0002802654354266131,
+    "p95": 0.0005838310818869982,
+    "max": 0.0008916050960134586
+  },
+  "not_a_sensor_or_corner_extraction_accuracy_claim": true
+}

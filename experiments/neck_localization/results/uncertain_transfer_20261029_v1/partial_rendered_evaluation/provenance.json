@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/evaluate_uncertain_handeye.py": "1d561332bf799dc37094df312052c362275230513ee5b7bac25a35269c1c38a4",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/partial_rendered_board/records.json": "863e6e155eb09002141f010f6c3b2daff4129fe708b07710f347a606444daccf",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/confirmation_inputs/geometry.json": "ae0042562917ca33148cbe21e327cce63f74a1dc8f2736fee3c22df1dfec8765",
+    "/home/wunicheng/Git/WineJar/neck_localization/robot_error_model.py": "0e23e8a01093c5a0cee591e62def09698872a93b1b23b16a39ca34e7c4c5c87b"
+  },
+  "actual_forward_kinematics_evaluated_after_nominal_IK": true,
+  "truth_only_for_scoring": true,
+  "no_hardware_or_dynamics": true
+}

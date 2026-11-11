@@ -1,0 +1,850 @@
+[
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "ideal_rgb",
+    "stop_error_mm": -2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0011691451018479852
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2735583018528992
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7873494789460694
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014070695626230284,
+    "overlap_fraction": 0.14533333333333334,
+    "iterations": 8,
+    "scalar_information": 255.33463791382582,
+    "reciprocal": true,
+    "center_mm": 1.2826800642292964,
+    "axial_mm": -1.0482192959435102,
+    "tangent_mm": 0.7392593961411407,
+    "xyz_mm": [
+      -0.6515162569531441,
+      -0.14232148187381988,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9557480210983755,
+    "band_contained": true,
+    "transport_only_center_mm": 0.3782719613196761,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "stereo_raw",
+    "stop_error_mm": -2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0007822114982142396
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27369960745626837
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7866787774572711
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017472158479568333,
+    "overlap_fraction": 0.12333333333333334,
+    "iterations": 35,
+    "scalar_information": 221.0617813406967,
+    "reciprocal": true,
+    "center_mm": 1.1131834920887518,
+    "axial_mm": -1.1032995000476133,
+    "tangent_mm": 0.14801250032883856,
+    "xyz_mm": [
+      0.1355830850875428,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9006678169942723,
+    "band_contained": true,
+    "transport_only_center_mm": 0.40882738072101077,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "ideal_rgb",
+    "stop_error_mm": -0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.00042239888251786314
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2738310086534849
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7860550868427326
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014950647855384626,
+    "overlap_fraction": 0.146,
+    "iterations": 6,
+    "scalar_information": 255.13553407127552,
+    "reciprocal": true,
+    "center_mm": 1.2731200024170413,
+    "axial_mm": -1.0495509378011485,
+    "tangent_mm": 0.7206090268065594,
+    "xyz_mm": [
+      -0.6324870168290531,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.954416379240737,
+    "band_contained": true,
+    "transport_only_center_mm": 0.3592427211955851,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "stereo_raw",
+    "stop_error_mm": -0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -8.429957194254964e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27395448029469394
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7854690335539128
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018429540607054378,
+    "overlap_fraction": 0.12222222222222222,
+    "iterations": 7,
+    "scalar_information": 227.62542693286173,
+    "reciprocal": true,
+    "center_mm": 1.1062774966175761,
+    "axial_mm": -1.0976795543366396,
+    "tangent_mm": 0.13765716659065594,
+    "xyz_mm": [
+      0.05527373178271233,
+      -0.14232148187376437,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.906287762705246,
+    "band_contained": true,
+    "transport_only_center_mm": 0.3285180274161803,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "ideal_rgb",
+    "stop_error_mm": 0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        8.37803942351779e-05
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2740158619912227
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7851776877455003
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014038244908904153,
+    "overlap_fraction": 0.144,
+    "iterations": 5,
+    "scalar_information": 256.5023287079459,
+    "reciprocal": true,
+    "center_mm": 1.2586440232527871,
+    "axial_mm": -1.051627107307486,
+    "tangent_mm": 0.6915672089146878,
+    "xyz_mm": [
+      -0.6028184330069131,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9523402097343996,
+    "band_contained": true,
+    "transport_only_center_mm": 0.3295741373734451,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "stereo_raw",
+    "stop_error_mm": 0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0004740885924715256
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2741583999743128
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7845011368148269
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00179962794531922,
+    "overlap_fraction": 0.12066666666666667,
+    "iterations": 7,
+    "scalar_information": 220.14066566369007,
+    "reciprocal": true,
+    "center_mm": 1.1213078598385506,
+    "axial_mm": -1.1071876867468153,
+    "tangent_mm": 0.17738867734989774,
+    "xyz_mm": [
+      0.19114550070087333,
+      -0.14232148187381988,
+      -1.095691247521291
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.8967796302950701,
+    "band_contained": true,
+    "transport_only_center_mm": 0.4643897963343413,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "ideal_rgb",
+    "stop_error_mm": 2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0008203513359608853
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2742848528474505
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7839009332259096
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0015567131491313398,
+    "overlap_fraction": 0.14777777777777779,
+    "iterations": 9,
+    "scalar_information": 262.06345375451673,
+    "reciprocal": true,
+    "center_mm": 1.2594443669399742,
+    "axial_mm": -1.0515102929908289,
+    "tangent_mm": 0.6931999835193116,
+    "xyz_mm": [
+      -0.6044877164339546,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9524570240510568,
+    "band_contained": true,
+    "transport_only_center_mm": 0.33124342080048663,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_003",
+    "depth": "stereo_raw",
+    "stop_error_mm": 2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0012092920881682802
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27442689144825794
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7832267525935995
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017822887321914855,
+    "overlap_fraction": 0.12555555555555556,
+    "iterations": 8,
+    "scalar_information": 234.99091866730492,
+    "reciprocal": true,
+    "center_mm": 1.1205577065041485,
+    "axial_mm": -1.1068762157608965,
+    "tangent_mm": 0.17456980434392064,
+    "xyz_mm": [
+      0.18669456207609514,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.897091101280989,
+    "band_contained": true,
+    "transport_only_center_mm": 0.4599388577095631,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "ideal_rgb",
+    "stop_error_mm": -2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0010788763042660658
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2735912674231882
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7871930091632392
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013338775712293694,
+    "overlap_fraction": 0.14622222222222223,
+    "iterations": 35,
+    "scalar_information": 246.78299355641414,
+    "reciprocal": true,
+    "center_mm": 2.3855934527499354,
+    "axial_mm": -2.1659314002303485,
+    "tangent_mm": 0.9998986405129079,
+    "xyz_mm": [
+      -0.958470361660968,
+      0.17318548429564457,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.37901114543185827,
+    "band_contained": false,
+    "transport_only_center_mm": 0.1946474052809677,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "stereo_raw",
+    "stop_error_mm": -2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0006007890494288303
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2737658617395604
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7863643041074276
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017694603695496492,
+    "overlap_fraction": 0.12177777777777778,
+    "iterations": 9,
+    "scalar_information": 219.9683671882937,
+    "reciprocal": true,
+    "center_mm": 2.1846254115015102,
+    "axial_mm": -2.173247815709841,
+    "tangent_mm": 0.22267042931325756,
+    "xyz_mm": [
+      0.014053503380129229,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3863275609113509,
+    "band_contained": false,
+    "transport_only_center_mm": 0.7778764597601295,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "ideal_rgb",
+    "stop_error_mm": -0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        -0.0003273203159358728
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27386573071973147
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7858902799209238
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013793338011466323,
+    "overlap_fraction": 0.14666666666666667,
+    "iterations": 8,
+    "scalar_information": 246.21006660475993,
+    "reciprocal": true,
+    "center_mm": 2.3741636452753,
+    "axial_mm": -2.166148165893425,
+    "tangent_mm": 0.9718308175518278,
+    "xyz_mm": [
+      -0.9296571017993749,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3792279110949349,
+    "band_contained": false,
+    "transport_only_center_mm": 0.16583414541937458,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "stereo_raw",
+    "stop_error_mm": -0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00013380869253836955
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27403413199623355
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7850909698852813
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016045833615340975,
+    "overlap_fraction": 0.11733333333333333,
+    "iterations": 9,
+    "scalar_information": 219.77166363799472,
+    "reciprocal": true,
+    "center_mm": 2.184596244217072,
+    "axial_mm": -2.1732050605952034,
+    "tangent_mm": 0.22280151447137023,
+    "xyz_mm": [
+      0.008370342075902926,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3862848057967134,
+    "band_contained": false,
+    "transport_only_center_mm": 0.7721932984559032,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "ideal_rgb",
+    "stop_error_mm": 0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00015607010422534622
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2740422617171488
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7850523824847015
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014311126516386027,
+    "overlap_fraction": 0.14155555555555555,
+    "iterations": 8,
+    "scalar_information": 243.09555628270817,
+    "reciprocal": true,
+    "center_mm": 2.380747905688084,
+    "axial_mm": -2.1660226166539616,
+    "tangent_mm": 0.9880822914017457,
+    "xyz_mm": [
+      -0.9463455514859831,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.37910236185547147,
+    "band_contained": false,
+    "transport_only_center_mm": 0.1825225951059828,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "stereo_raw",
+    "stop_error_mm": 0.5,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0006956875083885388
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27423932643876436
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7841170225341703
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016244722516028539,
+    "overlap_fraction": 0.11733333333333333,
+    "iterations": 8,
+    "scalar_information": 222.67994941795445,
+    "reciprocal": true,
+    "center_mm": 2.1898162768243905,
+    "axial_mm": -2.174280659697112,
+    "tangent_mm": 0.2603822941602004,
+    "xyz_mm": [
+      0.1513427851738136,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3873604048986218,
+    "band_contained": false,
+    "transport_only_center_mm": 0.9151657415538139,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "ideal_rgb",
+    "stop_error_mm": 2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009353614007620438
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27432685376556054
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837015775200094
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0015378292302586961,
+    "overlap_fraction": 0.1468888888888889,
+    "iterations": 9,
+    "scalar_information": 251.10968330439243,
+    "reciprocal": true,
+    "center_mm": 2.3481709113760214,
+    "axial_mm": -2.1666638300224363,
+    "tangent_mm": 0.9052482956101064,
+    "xyz_mm": [
+      -0.8611131989533227,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.37974357522394625,
+    "band_contained": false,
+    "transport_only_center_mm": 0.09729024257332242,
+    "final_fastening_success": null
+  },
+  {
+    "case": "confirmation_nominal_001",
+    "depth": "stereo_raw",
+    "stop_error_mm": 2.0,
+    "camera_count": 1,
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0015167459931878452
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274539171589215
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7826938193205603
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0015559204712758715,
+    "overlap_fraction": 0.12311111111111112,
+    "iterations": 10,
+    "scalar_information": 243.60067947866997,
+    "reciprocal": true,
+    "center_mm": 2.2081162272874133,
+    "axial_mm": -2.1755610578579994,
+    "tangent_mm": 0.37777156687842584,
+    "xyz_mm": [
+      0.3215378447229966,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3886408030595095,
+    "band_contained": false,
+    "transport_only_center_mm": 1.085360801102997,
+    "final_fastening_success": null
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "world_z_bounds_m": [
+    0.4,
+    0.76
+  ],
+  "world_xy_radius_m": 0.28,
+  "plane_top_window_m": 0.035,
+  "plane_seed_top_m": 0.006,
+  "plane_tolerance_m": 0.00018,
+  "plane_trials": 450,
+  "profile_depth_m": 0.06,
+  "exclude_crown_m": 0.002,
+  "bin_width_m": 0.0005,
+  "near_min_delta_m": 0.001,
+  "radial_quantile": 0.85,
+  "min_bin_points": 8,
+  "maximum_gap_m": 0.0025
+}

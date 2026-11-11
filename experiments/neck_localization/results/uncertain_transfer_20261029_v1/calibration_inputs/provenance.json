@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/uncertain_transfer_20261029_v1.json": "5db6ed423f8ddc7b9d9ebd2afd3dbbb00c0d5c4c093ae34434f0165ec6f8354a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_003/scene.xml": "8bb6024af360046eca05262069bd8d1e9834d524fec1661932c7bca14db2f5fb",
+    "/home/wunicheng/Git/WineJar/scripts/prepare_uncertain_handeye.py": "9ecfc8623c0f483415b200511ddecaa4846cfadd188d6d67feb1db20a1bd579a",
+    "/home/wunicheng/Git/WineJar/neck_localization/robot_error_model.py": "0e23e8a01093c5a0cee591e62def09698872a93b1b23b16a39ca34e7c4c5c87b"
+  },
+  "no_estimator_reads_evaluation_only": true,
+  "no_devices_training_or_installs": true
+}

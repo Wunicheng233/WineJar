@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "stage": "configuration_locked_not_rendered",
+  "config": "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/engineering_target_surface_20261028_v1.json",
+  "config_sha256": "7e471f8ca3a3998c91ad3cef5cbf403ce6c39ffb9cdb55d7704d9909eedcabba",
+  "renderer_freeze": "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/engineering_target_surface_20261028_v1_render_freeze.json",
+  "renderer_freeze_sha256": "990b8992f3ed091de645f87a1a0adb08dbcd8465f8a4007cb799fba4207d9c39",
+  "template": "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/structural_close_test_20261025_v1.json",
+  "template_sha256": "877e126384ee137e01f01f0de8f3b71fc3b8f628cce324c5d60beee6e728cbcd",
+  "seed": 2026102809,
+  "cases": [
+    "confirmation_nominal_000",
+    "confirmation_nominal_001",
+    "confirmation_nominal_002",
+    "confirmation_nominal_003",
+    "confirmation_nominal_004",
+    "confirmation_nominal_005",
+    "confirmation_nominal_006",
+    "confirmation_nominal_007"
+  ],
+  "shape_family": "same circular cross-section family",
+  "nominal_count": 8,
+  "stress_count": 0,
+  "no_truth_read": true,
+  "no_hardware": true,
+  "no_rendering": true,
+  "no_inference": true,
+  "no_result_based_case_filtering": true,
+  "no_method_tuning": true,
+  "same_scene": true,
+  "same_sensor_settings": true,
+  "scalar_ranges": {
+    "height_m": [
+      0.57,
+      0.65
+    ],
+    "body_radius_m": [
+      0.165,
+      0.195
+    ],
+    "neck_radius_m": [
+      0.048,
+      0.057
+    ],
+    "neck_length_m": [
+      0.008,
+      0.014
+    ],
+    "tilt_magnitude_deg": [
+      0.0,
+      7.0
+    ],
+    "neck_offset_component_m": [
+      -0.005,
+      0.005
+    ],
+    "lip_above_neck_radius_m": [
+      0.008,
+      0.014
+    ],
+    "lip_height_m": [
+      0.005,
+      0.007
+    ],
+    "shallow_relief_m": [
+      0.0012,
+      0.0024
+    ]
+  },
+  "render_only_command": "/home/wunicheng/anaconda3/envs/winejar-stereo/bin/python /home/wunicheng/Git/WineJar/scripts/render_structural_inputs.py --config /home/wunicheng/Git/WineJar/experiments/neck_localization/configs/engineering_target_surface_20261028_v1.json --freeze /home/wunicheng/Git/WineJar/experiments/neck_localization/configs/engineering_target_surface_20261028_v1_render_freeze.json --output /home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1",
+  "rendering": "Existing render_structural_inputs.py exports geometry and all four saved depth references but invokes no estimator",
+  "expected_inputs": {
+    "cases": 8,
+    "cameras_per_case": 3,
+    "clean_IR_pairs": 24,
+    "RGB_frames": 24
+  },
+  "estimated_render_seconds": [
+    30,
+    90
+  ],
+  "estimated_output_megabytes": 200,
+  "estimate_basis": "prior 12-case close render took approximately 38 seconds and occupied 298 MiB; not a timing guarantee"
+}

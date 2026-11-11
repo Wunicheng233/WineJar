@@ -1,0 +1,42 @@
+{
+  "sources": {
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_support_feedback.py": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "scripts/run_reliable_output.py": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc"
+  },
+  "settings": {
+    "candidate_depths_mm": [
+      28.0,
+      42.0,
+      56.0
+    ],
+    "kernel_sigma_mm": 0.6,
+    "profile_grid_mm": 0.25,
+    "core_relief_mm": 0.3,
+    "core_taper_mm": 0.5,
+    "core_weight_floor": 0.001,
+    "damping": 0.5,
+    "maximum_iterations": 24,
+    "minimum_core_span_mm": 3.0,
+    "minimum_core_points": 60,
+    "minimum_coverage_deg": 90.0,
+    "core_rms_limit_mm": 0.4,
+    "target_rms_limit_mm": 0.4,
+    "heldout_mean_limit_mm": 0.2,
+    "position_tolerance_mm": 0.005,
+    "angle_tolerance_deg": 0.002,
+    "weight_tolerance": 0.015
+  },
+  "test_config_sha256": "e62576b399d3e075dc4cb59e15912ca361144e2a7a98fd7ecb7af882c14c72f4",
+  "development_records_sha256": "e6ff042029e87f9d1a8419fa2804ec896e33e8d9ce8b456c8d2a6a7c0ea63a97",
+  "plan_sha256": "e58951bef4d0e621f29ece89c269aacade9681616707983e318845a6afc54324",
+  "policy": "No tuning after test; no real-system claims"
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "original_objective": 476.6156518988873,
+    "oracle_axis_objective": 836.3257119026557,
+    "oracle_axis_within_bounds": true,
+    "jacobian_relative_error": 9.192453581954066e-10,
+    "original_nfev": 10,
+    "original_success": true,
+    "restarts": [
+      {
+        "start": "final_restart",
+        "success": true,
+        "nfev": 3,
+        "objective": 476.61564956758656,
+        "normal_deg": 11.946406545781498,
+        "x": [
+          -14.999999999999993,
+          1.684465306912458,
+          0.1625104488826119,
+          0.02361864694050776
+        ]
+      },
+      {
+        "start": "original_zero",
+        "success": true,
+        "nfev": 54,
+        "objective": 453.3894994834981,
+        "normal_deg": 13.804324629591571,
+        "x": [
+          -8.848180908332962,
+          9.384673662658898,
+          0.016945201699487735,
+          -0.21999999999999997
+        ]
+      },
+      {
+        "start": "oracle_true_axis",
+        "success": true,
+        "nfev": 24,
+        "objective": 457.46613187466244,
+        "normal_deg": 11.496094923616157,
+        "x": [
+          -6.285091070271831,
+          -5.540365116018302,
+          -0.05761781381563939,
+          0.21999999999999997
+        ]
+      },
+      {
+        "start": "random_0",
+        "success": true,
+        "nfev": 17,
+        "objective": 457.4661390801025,
+        "normal_deg": 11.496130099555423,
+        "x": [
+          -6.284422809967962,
+          -5.54062873819962,
+          -0.0576339437845488,
+          0.21999999999999997
+        ]
+      },
+      {
+        "start": "random_1",
+        "success": true,
+        "nfev": 13,
+        "objective": 445.3854719003183,
+        "normal_deg": 9.96696928289331,
+        "x": [
+          -1.10744602829557,
+          3.317099079367893,
+          -0.21999999999999997,
+          -0.02505161322172036
+        ]
+      },
+      {
+        "start": "random_2",
+        "success": true,
+        "nfev": 36,
+        "objective": 453.38951113139984,
+        "normal_deg": 13.808232966371776,
+        "x": [
+          -8.856288169218724,
+          9.38050069630956,
+          0.017207813249061458,
+          -0.21999999999999997
+        ]
+      }
+    ]
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "original_objective": 3928.276583804016,
+    "oracle_axis_objective": 4261.887428806833,
+    "oracle_axis_within_bounds": true,
+    "jacobian_relative_error": 9.38966912888223e-10,
+    "original_nfev": 7,
+    "original_success": true,
+    "restarts": [
+      {
+        "start": "final_restart",
+        "success": true,
+        "nfev": 2,
+        "objective": 3928.2765068314066,
+        "normal_deg": 0.9018033604612685,
+        "x": [
+          3.812401100540707,
+          0.24996661593090383,
+          -0.01382036631440577,
+          0.032030781940852744
+        ]
+      },
+      {
+        "start": "original_zero",
+        "success": true,
+        "nfev": 17,
+        "objective": 3928.2765926515676,
+        "normal_deg": 0.902772661971593,
+        "x": [
+          3.8122076164695065,
+          0.24793643589554434,
+          -0.013855860222296092,
+          0.032034217191293894
+        ]
+      },
+      {
+        "start": "oracle_true_axis",
+        "success": true,
+        "nfev": 10,
+        "objective": 3928.2766479136453,
+        "normal_deg": 0.9011121571742173,
+        "x": [
+          3.8119862675601293,
+          0.25271230762603136,
+          -0.013772101136914943,
+          0.032037867975713334
+        ]
+      },
+      {
+        "start": "random_0",
+        "success": true,
+        "nfev": 35,
+        "objective": 4001.806456912127,
+        "normal_deg": 11.809362139815905,
+        "x": [
+          -6.170118864959442,
+          -2.3814687736989546,
+          -0.06332731602746348,
+          0.21999999999979575
+        ]
+      },
+      {
+        "start": "random_1",
+        "success": true,
+        "nfev": 31,
+        "objective": 3591.3707755086984,
+        "normal_deg": 12.008881006929665,
+        "x": [
+          5.688073860368555,
+          -10.587905902135656,
+          -0.21999999999999997,
+          -0.0005434889903097726
+        ]
+      },
+      {
+        "start": "random_2",
+        "success": true,
+        "nfev": 14,
+        "objective": 3114.7295402420964,
+        "normal_deg": 17.80985437389401,
+        "x": [
+          14.999999999999998,
+          9.8546729124465,
+          0.20916289539260763,
+          -0.21711149774175584
+        ]
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "original_objective": 560.8843073812125,
+    "oracle_axis_objective": 673.2103174232731,
+    "oracle_axis_within_bounds": true,
+    "jacobian_relative_error": 7.611510325817853e-10,
+    "original_nfev": 3,
+    "original_success": true,
+    "restarts": [
+      {
+        "start": "final_restart",
+        "success": true,
+        "nfev": 2,
+        "objective": 560.8843073809519,
+        "normal_deg": 0.7659974185141359,
+        "x": [
+          0.2619707041872299,
+          0.017486947289475908,
+          -0.012250199187443637,
+          -0.00468965014131552
+        ]
+      },
+      {
+        "start": "original_zero",
+        "success": true,
+        "nfev": 5,
+        "objective": 560.8843073975903,
+        "normal_deg": 0.7659914551655336,
+        "x": [
+          0.2619669826486022,
+          0.01748796175205615,
+          -0.012250200872456214,
+          -0.004689468147676508
+        ]
+      },
+      {
+        "start": "oracle_true_axis",
+        "success": true,
+        "nfev": 6,
+        "objective": 560.8843073833202,
+        "normal_deg": 0.7659951613544896,
+        "x": [
+          0.2619692863624713,
+          0.01748732873008396,
+          -0.012250200186916109,
+          -0.0046895807474623226
+        ]
+      },
+      {
+        "start": "random_0",
+        "success": true,
+        "nfev": 50,
+        "objective": 1837.7279143433507,
+        "normal_deg": 9.273582347127475,
+        "x": [
+          -2.402189978893563,
+          0.2511401825208254,
+          -0.005426412666110875,
+          0.1663744813454689
+        ]
+      },
+      {
+        "start": "random_1",
+        "success": true,
+        "nfev": 7,
+        "objective": 560.8843073844778,
+        "normal_deg": 0.765994701486521,
+        "x": [
+          0.26196898199924956,
+          0.017487394956135598,
+          -0.01225020102270244,
+          -0.004689565720324977
+        ]
+      },
+      {
+        "start": "random_2",
+        "success": true,
+        "nfev": 48,
+        "objective": 1774.2220851799489,
+        "normal_deg": 11.765280097807057,
+        "x": [
+          3.2577951635466915,
+          0.7232340359370332,
+          0.02833991158960324,
+          -0.2029539654928126
+        ]
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition_name": "stereo_raw",
+    "diagnostic_only": true,
+    "original_objective": 964.7721073789562,
+    "oracle_axis_objective": 1060.0633421024063,
+    "oracle_axis_within_bounds": true,
+    "jacobian_relative_error": 9.789477148071783e-10,
+    "original_nfev": 5,
+    "original_success": true,
+    "restarts": [
+      {
+        "start": "final_restart",
+        "success": true,
+        "nfev": 2,
+        "objective": 964.7721072079596,
+        "normal_deg": 0.8972474463014932,
+        "x": [
+          0.5663543432516329,
+          0.5306331406766225,
+          0.016067702702099142,
+          -0.00870265704537618
+        ]
+      },
+      {
+        "start": "original_zero",
+        "success": true,
+        "nfev": 7,
+        "objective": 964.7721077107847,
+        "normal_deg": 0.8971458541133396,
+        "x": [
+          0.5663359050638926,
+          0.53058860514388,
+          0.016066095609240404,
+          -0.008701906427388151
+        ]
+      },
+      {
+        "start": "oracle_true_axis",
+        "success": true,
+        "nfev": 8,
+        "objective": 964.7721082075897,
+        "normal_deg": 0.8971089446909355,
+        "x": [
+          0.5663291602545837,
+          0.5305724589813072,
+          0.016065512754152245,
+          -0.008701631505463705
+        ]
+      },
+      {
+        "start": "random_0",
+        "success": true,
+        "nfev": 13,
+        "objective": 964.7721074600593,
+        "normal_deg": 0.8971720483881471,
+        "x": [
+          0.5663406396833089,
+          0.53060010159402,
+          0.016066510399050285,
+          -0.008702099047971206
+        ]
+      },
+      {
+        "start": "random_1",
+        "success": true,
+        "nfev": 13,
+        "objective": 964.7721075042822,
+        "normal_deg": 0.8971667184507716,
+        "x": [
+          0.566339672196738,
+          0.530597765243054,
+          0.016066426088212123,
+          -0.008702059659332557
+        ]
+      },
+      {
+        "start": "random_2",
+        "success": true,
+        "nfev": 110,
+        "objective": 1646.2074564018337,
+        "normal_deg": 12.396811172497056,
+        "x": [
+          4.398479467822372,
+          0.8371681372257735,
+          0.032080612387445674,
+          -0.21999999999999997
+        ]
+      }
+    ]
+  }
+]

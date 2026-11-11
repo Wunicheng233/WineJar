@@ -1,0 +1,6 @@
+{
+  "script_sha256": "3aa513358b7e1e381024584e9bed2b9c2005f3e0358be5328fb40439e4405a53",
+  "body_records_sha256": "4ef835c948d16ee4dc8826a58c90c72c710873e873f5bada59f218151971db2f",
+  "calibration_records_sha256": "afd278fdb2de33d4e699654cbb2953c7144511009d3ba18fa618d9e3188ed2cd",
+  "no_new_fitting_or_selection": true
+}

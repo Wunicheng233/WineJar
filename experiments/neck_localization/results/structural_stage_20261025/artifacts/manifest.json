@@ -1,0 +1,381 @@
+{
+  "items": [
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "scripts/run_structural_study.py",
+      "archive": "artifacts/frozen_sources/scripts/run_structural_study.py",
+      "sha256": "221ecb473819304e8fc828d4c64804e512268f88778bf2a20146cf1ff373f1da",
+      "bytes": 6303
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/__init__.py",
+      "archive": "artifacts/frozen_sources/neck_localization/__init__.py",
+      "sha256": "ab77ecedfcb82db72288f038a2e263b5b101a07c071fed2da830d862b21d7f77",
+      "bytes": 79
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/active_stereo.py",
+      "archive": "artifacts/frozen_sources/neck_localization/active_stereo.py",
+      "sha256": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+      "bytes": 19568
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/band_geometry.py",
+      "archive": "artifacts/frozen_sources/neck_localization/band_geometry.py",
+      "sha256": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+      "bytes": 4585
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/bias_compensation.py",
+      "archive": "artifacts/frozen_sources/neck_localization/bias_compensation.py",
+      "sha256": "d2bfe63cba828f3cf1995f6f54ef2aabf512619d71c1179f1148e6ed05a75719",
+      "bytes": 6506
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/bias_profile.py",
+      "archive": "artifacts/frozen_sources/neck_localization/bias_profile.py",
+      "sha256": "40c42dcdf269379a664e377b28e7f767e8462eb952b5f2cab4ed87670871d890",
+      "bytes": 5519
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/calibration.py",
+      "archive": "artifacts/frozen_sources/neck_localization/calibration.py",
+      "sha256": "9078df749ecb120049cf5531151dea362efefa8fe2c93ee725fe8a42975b45f0",
+      "bytes": 10108
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/calibration_uncertainty.py",
+      "archive": "artifacts/frozen_sources/neck_localization/calibration_uncertainty.py",
+      "sha256": "0f18a3ad15a83264bdb936c00223d6ffabe66acf7a2481c6cd27897cc25a8c2d",
+      "bytes": 1456
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/depth_correction.py",
+      "archive": "artifacts/frozen_sources/neck_localization/depth_correction.py",
+      "sha256": "6d55c2c76476f96666c47f48e5d9db47772efdd286c627bceab08e08d1180c2d",
+      "bytes": 15443
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/depth_perturbation.py",
+      "archive": "artifacts/frozen_sources/neck_localization/depth_perturbation.py",
+      "sha256": "2d5b458999aaf9871c1b57aa2dd3536b561248a0a23966c1abd575e052c6c07d",
+      "bytes": 1239
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/depth_profile.py",
+      "archive": "artifacts/frozen_sources/neck_localization/depth_profile.py",
+      "sha256": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+      "bytes": 9727
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/disparity_calibration.py",
+      "archive": "artifacts/frozen_sources/neck_localization/disparity_calibration.py",
+      "sha256": "fb5c25a65229651edc1e15a16b4adcc1ab58bcec0fd2a82350c312b7bfe715aa",
+      "bytes": 2967
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/estimators.py",
+      "archive": "artifacts/frozen_sources/neck_localization/estimators.py",
+      "sha256": "f4da9b03cec256706cd36438d2966939c2b3c2267953b3af0d6106b2987569d3",
+      "bytes": 23753
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/evaluation.py",
+      "archive": "artifacts/frozen_sources/neck_localization/evaluation.py",
+      "sha256": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+      "bytes": 3211
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/geometry.py",
+      "archive": "artifacts/frozen_sources/neck_localization/geometry.py",
+      "sha256": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+      "bytes": 2369
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/jar_model.py",
+      "archive": "artifacts/frozen_sources/neck_localization/jar_model.py",
+      "sha256": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+      "bytes": 18245
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/joint_profile.py",
+      "archive": "artifacts/frozen_sources/neck_localization/joint_profile.py",
+      "sha256": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+      "bytes": 16463
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/native_stereo.py",
+      "archive": "artifacts/frozen_sources/neck_localization/native_stereo.py",
+      "sha256": "3871478bcabbe46bb0e8789b4613aac163aa4fb6d83a58799f6f1cc5623ff8e5",
+      "bytes": 7641
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/observability.py",
+      "archive": "artifacts/frozen_sources/neck_localization/observability.py",
+      "sha256": "b601e36afbb8e182738340a9aa479f543dc1ad5fa38c7a2604a51ef4b454f39c",
+      "bytes": 1599
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/perturbation.py",
+      "archive": "artifacts/frozen_sources/neck_localization/perturbation.py",
+      "sha256": "1e3b4c37c36c5657b086465276474951453488447d711b4f74c3f4cbb086ba82",
+      "bytes": 3656
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/point_cloud_display.py",
+      "archive": "artifacts/frozen_sources/neck_localization/point_cloud_display.py",
+      "sha256": "894878461af94c7dff2bb23b028ae22027435439918320bec7de47b9ac253194",
+      "bytes": 2058
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/random_audit.py",
+      "archive": "artifacts/frozen_sources/neck_localization/random_audit.py",
+      "sha256": "c20171a541bf81b3b67082dcf866d310153b91d3707503e8337d1245cd8e0cea",
+      "bytes": 3220
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/ray_profile.py",
+      "archive": "artifacts/frozen_sources/neck_localization/ray_profile.py",
+      "sha256": "6acb228cd993f90a59429d0b3e1864b5d86d171da6e5bf90524bb03157c12a70",
+      "bytes": 11900
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/reliable_output.py",
+      "archive": "artifacts/frozen_sources/neck_localization/reliable_output.py",
+      "sha256": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+      "bytes": 12708
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/rendered_calibration.py",
+      "archive": "artifacts/frozen_sources/neck_localization/rendered_calibration.py",
+      "sha256": "7af29838ab061b590e45f9a939050c9014e45184251f1915a591f890c02a7036",
+      "bytes": 10364
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/rendering.py",
+      "archive": "artifacts/frozen_sources/neck_localization/rendering.py",
+      "sha256": "735669ed8503ee2606fd041abdce3cf14b4c8bcb74ef73f3c200a3f0b1a089b6",
+      "bytes": 10249
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/scene_preparation.py",
+      "archive": "artifacts/frozen_sources/neck_localization/scene_preparation.py",
+      "sha256": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+      "bytes": 14318
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/silhouette_profile.py",
+      "archive": "artifacts/frozen_sources/neck_localization/silhouette_profile.py",
+      "sha256": "5ba9c7fc229363a1d3cfdab3df49ab91a248931457432726daf1aba8fe069d19",
+      "bytes": 12680
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/stereo_robust.py",
+      "archive": "artifacts/frozen_sources/neck_localization/stereo_robust.py",
+      "sha256": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+      "bytes": 14776
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/structural_localization.py",
+      "archive": "artifacts/frozen_sources/neck_localization/structural_localization.py",
+      "sha256": "d01407077e56fa6925431a9eafc8515681ff6aff4bc0abcfbef95b8f5586a202",
+      "bytes": 10769
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/structure_portfolio.py",
+      "archive": "artifacts/frozen_sources/neck_localization/structure_portfolio.py",
+      "sha256": "992ed087505349042bf7b04254d11113247b4dd80ca98e211c2e43627776378a",
+      "bytes": 18653
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/support_feedback.py",
+      "archive": "artifacts/frozen_sources/neck_localization/support_feedback.py",
+      "sha256": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+      "bytes": 13353
+    },
+    {
+      "kind": "frozen_algorithm_source",
+      "original": "neck_localization/task_validated_output.py",
+      "archive": "artifacts/frozen_sources/neck_localization/task_validated_output.py",
+      "sha256": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+      "bytes": 8282
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/render_structural_inputs.py",
+      "archive": "artifacts/scaffolding/render_structural_inputs.py",
+      "sha256": "bd87df35ad914190ff0578a4424352b9b1424c9358cdfe7b0adfea871e6cfe80",
+      "bytes": 3452
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/run_structural_study_safe.py",
+      "archive": "artifacts/scaffolding/run_structural_study_safe.py",
+      "sha256": "c4ff9942baa0549f40b665c909a2b45e4352f8fb946df212319fa292348b1d35",
+      "bytes": 1952
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/rematch_structural_stereo.py",
+      "archive": "artifacts/scaffolding/rematch_structural_stereo.py",
+      "sha256": "f310d60d4f595d9842c8971846de7f545642302df9fe7c7719567b75f2f7dc8f",
+      "bytes": 6231
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/apply_disparity_calibration.py",
+      "archive": "artifacts/scaffolding/apply_disparity_calibration.py",
+      "sha256": "326432a4c96dc3f87c6c2caea93f5565f4dd98ff0d2b299ccf4cbef0baf6b982",
+      "bytes": 3285
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/reproduce_structural_stage.py",
+      "archive": "artifacts/scaffolding/reproduce_structural_stage.py",
+      "sha256": "98dcbf3ce4f988fd35e1e96f8108c279148c4e10691c1125b505f35dcf8376c7",
+      "bytes": 4625
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/report_structural_stage.py",
+      "archive": "artifacts/scaffolding/report_structural_stage.py",
+      "sha256": "4c5405ef2bd55da994f976f86d20f174d184039cdef585ab6419d632f0759d6c",
+      "bytes": 9618
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/validate_structural_stage.py",
+      "archive": "artifacts/scaffolding/validate_structural_stage.py",
+      "sha256": "2092da9073f3d5e4fa028a1ad9385790fa3fc6f969034fbb73c72365b4d47d18",
+      "bytes": 6152
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/evaluate_structural_native.py",
+      "archive": "artifacts/scaffolding/evaluate_structural_native.py",
+      "sha256": "a678c0223e42870e5fef53110113eabe836ad82d5ee4882e0955bf8c176bb470",
+      "bytes": 7333
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/view_structural_study.py",
+      "archive": "artifacts/scaffolding/view_structural_study.py",
+      "sha256": "7f6dead31f3502c925de2827ead4970e0c19ff6457b14b5f26cc784f1ecba826",
+      "bytes": 1358
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/export_structural_viewer.py",
+      "archive": "artifacts/scaffolding/export_structural_viewer.py",
+      "sha256": "2e14b8067aaedbede4a8817a85b09d43a9eb2c6bd050a5f52967fecf6ecbb942",
+      "bytes": 3854
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/verify_structural_viewer.py",
+      "archive": "artifacts/scaffolding/verify_structural_viewer.py",
+      "sha256": "74f2d47048ab3be3cd6ecd1a553090f0fdc3a0635f7f4bd1278307fa39cf9c88",
+      "bytes": 4021
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/validate_structural_render_replay.py",
+      "archive": "artifacts/scaffolding/validate_structural_render_replay.py",
+      "sha256": "80996d589ab34a7bba8e5536fe55eee29154c363a85048c6219792e9af6a64b3",
+      "bytes": 1926
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/validate_structural_native.py",
+      "archive": "artifacts/scaffolding/validate_structural_native.py",
+      "sha256": "6588b537e54ef3a7bf4b2a19def53e90bd2627d9688dc4f8a558deae97fc6ee8",
+      "bytes": 2014
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/diagnose_stereo_structure.py",
+      "archive": "artifacts/scaffolding/diagnose_stereo_structure.py",
+      "sha256": "299058a9eae6f07dafb29d74d489741634b1377de14d68d855c6dd080c218721",
+      "bytes": 6279
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/diagnose_structural_visibility.py",
+      "archive": "artifacts/scaffolding/diagnose_structural_visibility.py",
+      "sha256": "c106d66eb10aad53e066b6bf8a49bc6076efcf8754dc78904a370e9eeeadf3fa",
+      "bytes": 4107
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/fit_disparity_calibration.py",
+      "archive": "artifacts/scaffolding/fit_disparity_calibration.py",
+      "sha256": "70da78238228af0deb52cc8db81cdc16bf4aa3147a2dbc43041c01f91830dcf6",
+      "bytes": 2447
+    },
+    {
+      "kind": "final_scaffold_source",
+      "original": "scripts/diagnose_disparity_model.py",
+      "archive": "artifacts/scaffolding/diagnose_disparity_model.py",
+      "sha256": "207934f44a9b7c3351ca27d85724a7113f32d6075f124bc37f74daaa8be9154e",
+      "bytes": 4212
+    },
+    {
+      "kind": "ancillary_native_records",
+      "archive": "artifacts/native_records.json.gz",
+      "sha256": "5bb784ddfb6866f400bb26773f79f70e84d1fd59a3e2be44cd3be02355bd7a81",
+      "bytes": 7618906
+    },
+    {
+      "kind": "ancillary_native_records",
+      "archive": "artifacts/native_summary.json",
+      "sha256": "5573306b36858f9cd49f736223d5312faf6ad8104683102f40f5fee9dedb25b4",
+      "bytes": 26842
+    },
+    {
+      "kind": "all_624_main_records",
+      "archive": "artifacts/main_records.json.gz",
+      "sha256": "7d627794b9821fb420933f5709a1a70e5f5abc9dcb2198a861b4e0ea371ec2d9",
+      "bytes": 39959557
+    },
+    {
+      "kind": "locked_plane_model",
+      "archive": "artifacts/phase_model.json",
+      "sha256": "b795095dd18bd745717cf06d860aa81d832b44ee274001578a824763c3f2d407",
+      "bytes": 393
+    }
+  ],
+  "main_records": 624,
+  "native_records": 288,
+  "note": "Historical source snapshots, NOT alternate active modules. Do not overwrite current work to restore them. Raw observations/meshes remain in runs; viewer bundles link to them."
+}

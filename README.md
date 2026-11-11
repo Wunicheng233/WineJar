@@ -1,240 +1,170 @@
-# WineJar
+# WineJar：酒坛坛颈定位与扎口仿真
 
-基于 xArm6、Intel RealSense D435i、GroundingDINO 和 SAM2 的酒坛视觉上料项目。
-系统使用固定全局 RGB-D 相机识别物料，通过 Python SDK 驱动 xArm6，并以
-真空压力开关确认吸附状态。
+当前主线是估计**凸起口沿下实际扎带窄槽的截面圆**，再研究输送后如何把位姿传给机械臂。输出包括圆心、法向、半径及质量信息，目标不是坛口外沿。研究结果更新至2026-10-29；2026-11-11整理并同步跨设备资源。尚无实机扎口验收结果。
 
-## 当前状态
+## 给制作PPT的AI：先看这些资源
 
-截至 2026-09-09，实机已经完成两条阶段性流程；三相机坛口定位仍是独立离线实验。
+**先读[图片与数据使用说明](experiments/presentation_assets_20261111/README.md)。做PPT直接读PNG、CSV和报告即可，不必安装仿真环境或下载模型。**
 
-**三相机现场状态：相机位置已发生改变，需要重做两组相对外参和工位平面标定。**
-旧阵列只保留用于历史图像回放，不能用于现在的场景。新定位流程复用
-GroundingDINO + SAM2 提取酒坛，再用多视图几何联合拟合坛口中心、平面和外径。
-当前还不能可靠输出扎带可用的窄槽，也没有验证绝对毫米精度。
-标定系统已统一普通棋盘/ChArUco 采样，增加全画面内参数值检查、内外参绑定和
-独立验收。旧三台 RGB 内参未通过全画面检查；四参数模型仅生成待验证候选。
-新阵列默认不允许现场采集，须经过当前场景的多姿态独立验证并显式启用。
-复标步骤、算法、参数及本次对照结果见
-[三相机坛口定位与复标说明](docs/multiview-neck-localization.md)。
+| 想找什么 | 资源入口 |
+|---|---|
+| 同一酒坛的单／双／三机圆环、法向和点云 | [三种配置都成功](experiments/presentation_assets_20261111/camera_count/nominal_014_comparison.png)、[单机拒绝的例子](experiments/presentation_assets_20261111/camera_count/stress_010_comparison.png) |
+| 相机数量总体对照 | [36例统计图](experiments/presentation_assets_20261111/camera_count/all_36_cases.png)、[汇总CSV](experiments/presentation_assets_20261111/data/camera_count_summary.csv)、[全部216条CSV](experiments/presentation_assets_20261111/data/camera_count_records.csv) |
+| 给非技术听众的流程、坛型、相机输入和动作图 | [6张高清图及历史PPT](experiments/factory_briefing_20261028/output/)、[指标说明](experiments/factory_briefing_20261028/output/指标与讲解.md)、[指标JSON](experiments/factory_briefing_20261028/metrics.json)、[原画面素材](experiments/factory_briefing_20261028/assets/) |
+| FoundationStereo / SimSense和几何方法比较 | [最新汇总TSV](experiments/neck_localization/results/geometry_capability_summary_20261027_v2/summary.tsv)、[方法与结果](docs/research/neck_localization/geometry_capability_20261027.md) |
+| 三工位、有限带宽、输送误差和净空 | [三工位报告](docs/engineering/three_station_tying_20261028.md)、[跨工位报告](docs/engineering/cross_station_progress_20261028.md)、[定时停位汇总](experiments/neck_localization/results/cross_station_20261028_v3/timed_stop_main/summary.json) |
+| 相机—机器人标定六方法对照 | [报告](docs/engineering/uncertain_transfer_20261029.md)、[四主方法图](experiments/neck_localization/results/uncertain_transfer_20261029_v1/analysis/calibration_execution_comparison.png)、[主结果JSON](experiments/neck_localization/results/uncertain_transfer_20261029_v1/analysis/confirmation_summary.json)、[补充简化对照](experiments/neck_localization/results/uncertain_transfer_20261029_v1/final_audit_v2/simple_control_summary.json) |
+| 所有已上传结果的位置 | [109批次资源目录CSV](experiments/presentation_assets_20261111/data/result_catalog.csv)、[发布清单](experiments/presentation_assets_20261111/publication_manifest.json)、[全部文档索引](docs/README.md) |
 
-固定全局相机上料流程：
+单／双／三机图是从**10月23日保存结果重新导出**，不是11月新定位试验：早期区域反馈算法、理想深度、准确K/T，单机A、双机A+B、三机A+B+C，没有搜索最佳布置。不能与后来较真实传感器条件的成绩混成一张排行榜。
 
-1. 荷叶预先铺在固定酒坛坛口；
-2. 识别并放置白纸；
-3. 识别并放置陶瓷片；
-4. 重新识别已经露出的双层竹壳；
-5. 将两片竹壳交叉放置到陶瓷片上；
-6. 机械臂安全复位，气泵和电磁阀关闭。
+旧对照常规24例单/双/三机分别19/22/23成功，压力12例为3/8/11。成功要求接受且中心≤4 mm、法向≤2°、直径误差≤2 mm；后两项当时是研究分析阈值，**不是最终扎带成功率**。原36例包含后来工况以外的颈长。目前6–10 mm颈段、倾角≤15°和成熟算法条件下的完整相机数量对照尚未完成，不能声称三台必要或最优。
 
-最新完整实验的四种物料均在第一次尝试中通过压力确认，总时长约 81.3 秒。
-其中包含一次 RealSense USB 自动重连和一次较慢的保守轨迹估算，当前目标是
-先保证稳定性，再继续优化节拍。
+## 算法在哪里
 
-腕部相机荷叶实验流程：
+主定位使用三台RGB-D相机观测融合及局部几何拟合。一台RealSense本身也能产生点云，三台不是获得三维坐标的理论必需条件。
 
-1. 机械臂复位后同步采集腕部 RGB-D 与法兰位姿；
-2. 分割荷叶与陶瓷片，在荷叶上避开裂缝、叶脉、边缘和局部起伏；
-3. 用直径 `8 mm`、中心距 `48 mm` 的双吸盘执行 `13 mm` 压缩吸取；
-4. 由 CI0 检查吸附状态，失败时撤离并换用空间分离的候选点；
-5. 成功将荷叶抬升到 `Z=280 mm`，平移并放到陶瓷片上。
+| 环节 | 源码与说明 |
+|---|---|
+| 参数化酒坛、材质、相机场景 | [jar_model.py](neck_localization/jar_model.py)、[scene_preparation.py](neck_localization/scene_preparation.py)；[模型与理想闭环](docs/research/neck_localization/short_neck_baseline.md) |
+| 轴/剖面联合拟合、区域反馈 | [joint_profile.py](neck_localization/joint_profile.py)、[support_feedback.py](neck_localization/support_feedback.py)；[联合估计](docs/research/neck_localization/joint_profile_stage1.md)、[区域反馈对照](docs/research/neck_localization/support_feedback_stage1.md) |
+| 较真实深度、预训练前端和固定分割适配 | [active_stereo.py](neck_localization/active_stereo.py)、[foundation_stereo_baseline.py](neck_localization/foundation_stereo_baseline.py)、[masked_geometry_baseline.py](neck_localization/masked_geometry_baseline.py)；[能力审查](docs/research/neck_localization/capability_audit_20261027.md) |
+| 修正几何读出与常规旋转曲面基线 | [visible_profile_baseline.py](neck_localization/visible_profile_baseline.py)、[sor_baseline.py](neck_localization/sor_baseline.py)；[成熟方法复核](docs/research/neck_localization/geometry_capability_20261027.md) |
+| 3 mm带、工位变换、150 mm内径枪头及净空 | [band_geometry.py](neck_localization/band_geometry.py)、[station_tying.py](neck_localization/station_tying.py)、[tool_clearance.py](neck_localization/tool_clearance.py)、[tying_scene.py](neck_localization/tying_scene.py)；[工程报告](docs/engineering/three_station_tying_20261028.md) |
+| 标定与结构运动学偏差校正 | [fixed_camera_calibration.py](neck_localization/fixed_camera_calibration.py)、[uncertain_handeye.py](neck_localization/uncertain_handeye.py)、[poe_camera_calibration.py](neck_localization/poe_camera_calibration.py)、[block_handeye.py](neck_localization/block_handeye.py)；[六方法与失败](docs/engineering/uncertain_transfer_20261029.md) |
+| 原MuJoCo界面、实际观测点云 | [inspection_viewer.py](neck_localization/inspection_viewer.py)、[point_cloud_display.py](neck_localization/point_cloud_display.py)、[tying_viewer.py](neck_localization/tying_viewer.py) |
 
-最新放置实验的前两个候选点在抬升后失去真空，第三个候选点完成了放置，因此
-该方案已经验证可行，但成功率仍不足以用于无人值守生产。当前完整生产入口仍用
-`--skip-lotus`，腕部荷叶流程暂时作为独立实验保留。
+控制/上料和视觉服务仍在[xarm_sdk_control](xarm_sdk_control/README.md)、[vision](vision/README.md)。最近有证据的实机进展为2026-10-14三类物料分别吸起；不代表当前硬件状态、完整上料或扎口验收。
 
-动画仿真不属于本仓库，维护在
-[Wunicheng233/Winejar-mujoco](https://github.com/Wunicheng233/Winejar-mujoco)。
+## 换设备读取与看三维
 
-## 仓库结构
-
-```text
-.
-├── docs/                  设计与标定记录
-├── vision/                GroundingDINO + SAM2 独立推理环境和常驻服务
-├── xarm6/                 xArm 用户手册与开发者手册
-├── xarm_sdk_control/      实机控制、标定、任务脚本和单元测试
-│   ├── calibration/       当前全局相机外参，不可删除
-│   ├── config/            机器人、执行器、坛口教点和视觉补偿
-│   ├── scripts/           可直接运行的标定、诊断和任务入口
-│   ├── tests/             不连接实机的 pytest 测试
-│   └── data/              本地实验产物，已被 Git 忽略
-└── 项目策划.docx          原始项目策划
+```bash
+git clone https://github.com/Wunicheng233/WineJar.git
+cd WineJar
+# 已有克隆：先保留当地改动，再使用 git pull --ff-only
 ```
 
-## 当前硬件配置
+PNG、CSV、源码及报告可直接读。新两案例包包含真实文件与相对资产路径，不依赖原机`runs/`或独立机器人仓库。要开三维，再按已有环境或环境文件准备MuJoCo依赖：
 
-| 项目 | 当前值 |
+```bash
+# 可选；已有 winejar-stereo 时不用创建新环境
+conda env create -f experiments/neck_localization/environment.yml
+conda run --no-capture-output -n winejar-neck-sim \
+  python scripts/view_camera_count_comparison.py --point-cloud
+conda run --no-capture-output -n winejar-neck-sim \
+  python scripts/view_camera_count_comparison.py --case stress_010 --camera-set cam_a --point-cloud
+```
+
+左侧“参与估计的视图”切A、A+B、三机；红线为接受的圆/法向，青线为评估真值。读取保存结果，不重新定位，不连接设备。本机已有`winejar-stereo`可替换环境名。
+
+## 已上传什么，哪些仍需迁移
+
+此次同步包含维护源码、配置、测试、文档、选定图表/汇总及两案例查看包。[发布清单](experiments/presentation_assets_20261111/publication_manifest.json)列出具体历史文件。大批原始RGB-D/IR、逐点诊断、重复重放目录、第三方权重、临时PPT构建缓存及本机符号链接仍本地保留，未删除、未全部上传。
+
+完整实验入口见[研究README](experiments/neck_localization/README.md)、[RUNBOOK](docs/RUNBOOK.md)。除新两案例包外，历史查看束可能引用原机绝对路径或被忽略的`runs/`；**仅克隆不能运行所有旧查看命令**，需按报告重建或迁移输入。机器人资产另在[Winejar-mujoco](https://github.com/Wunicheng233/Winejar-mujoco)维护，本次没有修改或推送该独立仓库。
+
+历史图、理想仿真、主动双目仿真和最终工艺须分开。实机绝对精度、全链置信度、完整碰撞/接触、锁紧和剪断均未验收；不要把动画、算法接受率、标定残差或仿真整带包含率标为实机扎口成功率。
+
+## 接手与离线验证
+
+先读[AGENTS](AGENTS.md)、[HANDOFF](docs/HANDOFF.md)、[CURRENT_STATE](docs/CURRENT_STATE.md)、[RUNBOOK](docs/RUNBOOK.md)，再读[工程任务书](docs/engineering/neck_localization_handoff_20261027.md)。历史文档在[docs/archive](docs/archive/)，不是当前运行参数来源。
+
+```bash
+conda run -n winejar-stereo python -m unittest discover -s tests/neck_localization
+conda run -n winejar-xarm-sdk python -m pytest -q xarm_sdk_control/tests
+conda run -n winejar-vision python -m unittest discover -s vision/tests
+```
+
+控制与视觉环境分开验证；普通开发/PPT准备只做离线操作。数据与迁移规则见[DATA_MANAGEMENT](docs/DATA_MANAGEMENT.md)。
+
+<details>
+<summary>历史README快照（截至2026-10-25，保留原工作记录；以上文最新入口为准）</summary>
+
+# WineJar 酒坛视觉上料
+
+xArm6 + RealSense RGB-D + GroundingDINO/SAM2 + 双吸盘真空末端。
+当前主线是**扎带窄槽截面圆的方法调研与 MuJoCo 仿真**，本阶段不操作实机。
+研究入口与复现命令见[离线实验](experiments/neck_localization/README.md)，
+方法对比见[调研报告](docs/research/neck_localization/method_review.md)，
+模型修正与首轮理想深度结果见[短颈闭环](docs/research/neck_localization/short_neck_baseline.md)。
+实机上料记录保留，恢复工作暂停。
+
+2026-10-25最新研究见[成熟传感器模型、标定与补偿](docs/research/neck_localization/active_stereo_results_20261025.md)：
+主动双目成像、官方滤波、独立平面GP、实际棋盘标定和8新坛型对照已运行并完整复现。
+理想RGB深度8/8；主动双目条件尚未可靠输出，未宣称实机有效。新查看入口为`scripts/view_active_stereo.py`。
+
+此前[夜间不确定性调研与偏差补偿](docs/research/neck_localization/overnight_uncertainty_results_20261024.md)：
+完成显式偏差联合估计、两批独立仿真和模型失配反例；提供已验证的一键重建与MuJoCo点云查看。
+仿真中的固定偏差补偿不等于实机精度或通用标定误差处理，3 mm扎带与约6 mm颈段约束已记录。
+
+## 接手入口
+
+1. [Agent 交接](docs/HANDOFF.md)：阅读顺序、已完成事项、下一步和证据。
+2. [当前状态](docs/CURRENT_STATE.md)：2026-10-21 整理时核查的最后实机记录。
+3. [现场运行手册](docs/RUNBOOK.md)：环境、只读诊断、采图、标定和恢复流程。
+4. [代码结构](docs/ARCHITECTURE.md)、[数据管理](docs/DATA_MANAGEMENT.md)、[全部文档索引](docs/README.md)。
+
+**最后有证据的实机进展在 2026-10-14：白纸、陶瓷片、竹壳分别吸起并原位放回成功。
+搬动底座后的完整四步上料尚未执行；3–4 mm 绝对精度尚未验收。**
+2026-10-21 进行了仓库整理、文献调研及离线仿真，没有连接或移动机械臂。
+
+## 当前参数与边界
+
+| 项目 | 最后核实值 |
 |---|---|
-| 机器人 | UFACTORY xArm6，Python SDK 1.18.4 |
-| 相机 | Intel RealSense D435i；固定全局相机、三相机坛颈实验阵列及腕部相机 |
-| 末端 | 单弹簧双吸盘，双吸盘中点与法兰中心轴基本对齐 |
-| TCP | 法兰轴向下 `113 mm` |
-| 弹簧最大压缩 | `20 mm` |
-| CO0 | 真空泵，`1` 为启动 |
-| CO1 | 真空通路电磁阀，`1` 为吸取通路，`0` 为放气 |
-| CI0 | ZSE30A-01-N 压力开关，`0` 表示真空达到阈值 |
-| 坛口教点 | `(300, -200, 65) mm`，见 `xarm_sdk_control/config/jar_position.yaml` |
-| 基础视觉补偿 | `(-5, +44, 0) mm`，见 `xarm_sdk_control/config/visual_position_bias.json` |
-| 陶瓷片额外补偿 | `+8 mm X`，仅在完整上料脚本中应用 |
+| 机械臂 | xArm6，控制箱 `192.168.1.212` |
+| 全局 / 腕部相机 | `013222073103` / `011422070172` |
+| 末端名义 TCP | `[0, 0, 116, 0, 0, 0]` mm/deg，运行前读取控制器核对 |
+| 真空 IO | CO0 泵，CO1 吸取阀；1 启动/吸取，0 关闭/泄压 |
+| CI0 | 0 表示达到真空阈值；去抖 50 ms、等待最多 2 s |
+| 最近成功吸取 | 白纸/陶瓷额外下压 0 mm；叠放竹壳总共额外下压 8 mm |
+| 当前全局标定 | 10 月 14 日实验候选，尚未通过独立绝对精度验收 |
 
-当前完整上料流程保留其已经实机验证的分层下压参数。独立单物料和腕部相机测试
-考虑到左侧弹簧在大压缩量下可能卡滞，默认下压量为：白纸、陶瓷片、荷叶
-`13 mm`，竹壳 `11 mm`。这些值与当前双吸盘、相机位姿和料台高度绑定，移动
-硬件后必须重新验证；`20 mm` 是物理最大行程，不是推荐工作值。
+旧坛口教点、旧 home、旧 `(-5,+44,0)` 补偿和旧工位高度避让条件均不能直接用于新工位。
+已有配置中的新 `+10 mm Z` 补偿是待复核工作副本，最近三类成功试验没有应用它。
 
-## 环境安装
+## 目录
 
-控制与 RealSense 环境：
+```text
+AGENTS.md                       Agent 工作约定
+docs/                           当前文档、关键日志快照、历史归档
+tools/project_maintenance.py     离线盘点与保守清理工具
+neck_localization/              独立离线几何/渲染/扰动/评估模块
+scripts/run_short_neck_stage1.sh 当前短颈首轮闭环入口
+scripts/run_neck_simulation.py   保留的早期探索批次
+experiments/neck_localization/   配置、复现说明及小体积研究结果
+tests/neck_localization/         无设备的研究实现检查
+xarm_sdk_control/
+  scripts/                      通用控制、标定、诊断和历史任务入口
+  experiments/                  版本管理中的工位专用恢复代码
+  calibration/experimental/     明确标记的未验收标定候选
+  calibration/                  标定与历史配置，不能按日期自动视为已验收
+  config/                       机器人、末端、补偿和历史教点
+  tests/                        无实机离线测试
+  data/                         本地原始样本及任务产物，Git 忽略
+vision/                         独立视觉环境、推理脚本和服务
+xarm6/                          厂商手册
+```
+
+历史机器人仿真在独立仓库维护；本机 `mujoco_xarm6/` 是独立 Git 工作区，
+本轮只读核查，没有修改。新的圆环计量实验在本仓库受版本管理。
+
+## 安装与离线检查
 
 ```bash
 conda env create -f xarm_sdk_control/environment.yml
-conda activate winejar-xarm-sdk
-```
-
-视觉环境：
-
-```bash
 conda env create -f vision/environment.yml
-conda activate winejar-vision
-pip install -r vision/requirements-sam2.txt
+conda run -n winejar-vision pip install -r vision/requirements-sam2.txt
+
+conda run -n winejar-xarm-sdk python -m pytest -q xarm_sdk_control/tests
+conda run -n winejar-vision python -m unittest discover -s vision/tests
+python tools/project_maintenance.py audit
 ```
 
-模型权重保存在本机 `vision/models/`，不进入 Git。首次使用需要联网下载，之后
-可用 `HF_HUB_OFFLINE=1` 完全离线运行。
+模型权重与原始实验数据不在 Git 中。换机器须额外迁移它们；仅克隆仓库可以阅读
+关键实验快照、运行控制层测试，但不能重放所有视觉实验。
 
-## 启动视觉服务
+完整上料旧入口 `21_complete_loading.py` 仍保留，其默认 home、料区和补偿与旧工位绑定。
+当前恢复代码及使用限制见 [恢复实验说明](xarm_sdk_control/experiments/recommissioning_20261014/README.md)。
 
-在独立终端中启动常驻推理服务：
-
-```bash
-conda activate winejar-vision
-HF_HUB_OFFLINE=1 python -u vision/scripts/03_grounded_sam2_service.py
-```
-
-看到 `"status": "ready"` 后保持该终端运行。服务把 GroundingDINO 和 SAM2
-常驻显存，通过本地 Unix socket `/tmp/winejar_grounded_sam2.sock` 接收任务，
-不会连接或控制机械臂。
-
-## 完整实机流程
-
-现场布置：
-
-- 荷叶已经铺在固定酒坛坛口；
-- 两片竹壳叠放，白纸放在竹壳上方；
-- 陶瓷片单独放在相机视野内；
-- 竹壳料区必须位于机器人基坐标约
-  `X=[400,540] mm, Y=[50,180] mm`；
-- 相机、酒坛、机械臂底座和料台均不得移动。
-
-先在 UFactory 中释放急停并使能机械臂，然后在控制环境运行：
-
-```bash
-conda activate winejar-xarm-sdk
-python xarm_sdk_control/scripts/21_complete_loading.py \
-  --run --skip-lotus \
-  --require-vision-service --allow-validated-clipped-leaf \
-  --serial 014122072372 \
-  --min-x-mm 180 --max-x-mm 520 \
-  --min-y-mm -250 --max-y-mm 180 \
-  --min-z-mm -85 --max-z-mm 500
-```
-
-任务顺序为白纸、陶瓷片、竹壳 1、竹壳 2。竹壳放置角分别为 `+45` 和
-`-60` 度，用于补偿竹壳与吸盘之间的实际转动滑移。脚本开始时自动移动到
-相机安全复位位姿；中断后可用 `--start-material` 从某一物料继续，但必须由
-现场人员确认前序层确实已经放好。
-
-## 安全约束
-
-- 所有实机命令必须显式提供 X/Y/Z 工作空间边界。
-- 实验期间必须有人留在急停按钮旁，不得无人运行。
-- 当 `X > 300 mm` 时，TCP 高度不得超过 `Z=300 mm`，避免碰撞全局相机。
-- 接触、吸附确认和释放使用精确停止；只有空载安全接近段允许轨迹混合。
-- 吸附异常时优先保持真空并执行安全恢复，避免物料突然掉落。
-- 控制器错误 C1 表示控制箱急停被按下，必须先检查现场再解除。
-- 相机、TCP 或料台移动后，旧标定和人工偏差补偿均不再可信。
-
-## 压力确认和重试
-
-泵启动后，CI0 必须在 2 秒内连续 50 ms 保持为 `0`，才判定吸附成功。
-失败时任务会回到料堆、放气、撤离、重新扫描并换吸点，最多尝试 3 次。
-陶瓷片和竹壳在每个载荷运动段后继续检查压力。
-
-白纸存在少量稳定漏气：初次吸附确认仍为强制条件，但搬运途中一次压力丢失
-只记录为警告；该策略已经在现场验证成功。后续若更换吸盘或压力阈值，应重新
-评估这一例外。
-
-## 常用脚本
-
-| 脚本 | 用途 |
-|---|---|
-| `01_read_status.py` | 只读机械臂状态 |
-| `02_prepare_robot.py` | 准备并使能机械臂 |
-| `11_collect_global_camera_sample.py` | 采集固定相机标定样本 |
-| `12_solve_global_camera_calibration.py` | 求解固定相机外参 |
-| `13_capture_realsense_frame.py` | 保存一帧对齐 RGB-D |
-| `15_vacuum_io_check.py` | 检查 CO0/CO1，不移动机械臂 |
-| `18_calibrate_visual_position_bias.py` | 测量视觉系统偏差 |
-| `19_visual_cross_place_two_leaves.py` | 双竹壳交叉放置实验 |
-| `20_visual_pick_test.py` | 单物料吸起、悬停和放回测试 |
-| `21_complete_loading.py` | 当前完整上料生产入口 |
-| `22_suction_sensor_check.py` | 只读 CI0 压力开关 |
-| `23_calibrate_camera_intrinsics.py` | 单台固定 RealSense 的普通棋盘内参标定；不连接机械臂 |
-| `24_calibrate_camera_pair_extrinsics.py` | 俯视与单台侧视相机的普通棋盘外参标定；输出 `T_俯视←侧视`，不连接机械臂 |
-| `25_create_multiview_camera_rig.py` | 生成绑定内参的候选阵列；通过独立报告显式验收后才可用于静态采集 |
-| `26_capture_three_camera_frame.py` | 按三相机阵列配置保存一组近同步、对齐 RGB-D 帧；可使用显式曝光/增益/白平衡保证前景和空背景可比较 |
-| `30_calibrate_workcell_plane.py` | 用空工位 RGB-D 拟合传送面并建立坛口高度的 `Z=0` 基准 |
-| `31_estimate_mouth_height.py` | 离线联合拟合三视图坛口平面、中心与外径，检查坛肩边界及几何一致性 |
-| `32_calibrate_wrist_hand_eye.py` | 固定棋盘法完成腕部相机到机械臂法兰的手眼标定 |
-| `33_inspect_suction_surface.py` | 离线检查荷叶、竹壳、陶瓷片和白纸的双吸盘候选姿态 |
-| `34_wrist_guided_pick_test.py` | 腕部视觉选点、CI0 换点重试及可选的陶瓷片放置实验 |
-| `35_calibrate_camera_pair_charuco.py` | ChArUco 外参采集，检查静止、角点分布、单目残差及重复姿态；联合标定可选 |
-| `36_validate_charuco_extrinsics.py` | 离线留出验证，支持五折比较平均位姿与联合标定、回放独立静止样本 |
-| `37_preview_three_cameras.py` | 无需外参的三路 RGB 实时预览，支持单路放大与截图；标定前先关闭以释放相机 |
-| `38_check_stationary_charuco_pair.py` | 普通棋盘/ChArUco 新姿态独立检查；保存原图、时序和双向残差，不重拟合 |
-| `39_reprocess_chessboard_pair.py` | 重检测普通棋盘/ChArUco 原图，可更换内参重新求解；仅输出新候选 |
-| `40_evaluate_camera_intrinsics.py` | 离线五折比较 Brown4/Brown5，并检查全画面畸变反解，绝不自动启用 |
-
-三相机酒坛分割入口为 `vision/scripts/04_segment_multiview_jar.py`，复用已有模型，
-不打开相机、不连接机械臂。早期视觉外壳实验链（原脚本 `27`/`28`/`29` 及
-`visual_hull.py`、`neck_localization.py`）已删除，需要时可从 git 历史恢复。
-
-单物吸取示例：
-
-```bash
-python xarm_sdk_control/scripts/20_visual_pick_test.py --material ceramic
-python xarm_sdk_control/scripts/20_visual_pick_test.py --material paper
-python xarm_sdk_control/scripts/20_visual_pick_test.py --material bamboo
-```
-
-默认是 dry-run；需要实机运动时必须增加 `--run`、视觉服务要求和明确的工作
-空间边界。
-
-## 测试与数据
-
-测试不连接相机或机械臂：
-
-```bash
-conda activate winejar-xarm-sdk
-python -m pytest -q xarm_sdk_control/tests
-```
-
-`xarm_sdk_control/data/` 不会推送到 GitHub，但不能整目录删除：原始 RGB-D、
-标定样本和任务日志是复盘依据，离线定位配置也依赖对应数据。掩码、预览图等派生
-产物可在保留输入和参数后重算。`calibration/` 与 `config/` 必须保留。
-
-## 已知限制与下一步
-
-1. 荷叶吸取和放置已经跑通，但最新放置实验直到第三个候选点才成功，仍需统计成功率并优化供料状态。
-2. 完整流程稳定性已有一次完整复验，仍需要更多重复实验统计成功率。
-3. 当前 81 秒节拍包含保守轨迹估算和一次相机重连，仍有优化空间。
-4. 视觉补偿目前主要来自一次人工对齐，后续应增加多点校验并统计残差。
-5. 压力开关只能确认真空是否达到阈值，不能测量连续真空度。
-6. 腕部手眼标定在当前工作区域表现较好，但相机、安装支架或 TCP 改动后必须重新标定。
-
-完整的环境配置、标定、现场命令、参数依据、迁移和验收说明见
-[项目实施与复现指南（Word）](docs/WineJar项目实施与复现指南.docx)。对应的
-[Markdown 源版](docs/WineJar项目实施与复现指南.md) 便于版本维护和在线查看。
-更详细的代码模块说明见 [xarm_sdk_control/README.md](xarm_sdk_control/README.md)，
-视觉服务说明见 [vision/README.md](vision/README.md)。
+</details>

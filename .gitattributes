@@ -1,0 +1,15 @@
+# Preserve historical evidence bytes and their frozen SHA-256 values.
+experiments/neck_localization/results/** -text -whitespace
+docs/archive/** -text -whitespace
+experiments/presentation_assets_20261111/viewer/** -text
+
+# csv.writer uses CRLF by design; it is not trailing cell whitespace.
+*.csv -text whitespace=cr-at-eol
+*.tsv -text whitespace=cr-at-eol
+
+*.png binary
+*.npz binary
+*.json.gz binary
+*.pptx binary
+*.docx binary
+experiments/presentation_assets_20261111/viewer/**/assets/*.obj -diff

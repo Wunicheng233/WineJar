@@ -1,0 +1,40 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "nominal_006",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "bias_no_prior",
+  "large_neck_view": true,
+  "finite_band_overlay": true,
+  "sensor_perturbation": {
+    "name": "mixed_a2_bm2_c1",
+    "bias_by_camera_mm": {
+      "cam_a": 2.0,
+      "cam_b": -2.0,
+      "cam_c": 1.0
+    }
+  },
+  "depth_preprocessing": {
+    "kind": "estimated_bias_corrected_depth",
+    "raw_inputs": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/bias_compensation_raw_test_20261024_v1/mixed_a2_bm2_c1/scenes"
+  },
+  "point_cloud_view": true,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": false,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "ground_truth_overlay": true,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "11c641ca178c47e70439b7c40f9a0a3c976020dd88c99a9b9b14e99a1dd019aa",
+  "raw_rgb_sha256": {
+    "cam_a": "6e854b8bdddf1a486f4b702ddafcf55c39008e7b2ff6403e2a83fb21d0b1261c",
+    "cam_b": "14b4eef205d7d09b3bd323747e3018746ad6421dd5267be8892de3d13dac30d9",
+    "cam_c": "fd6873de5c6fe16d46d1cc29c3a9f2173d6aec419a2f3f97e8fa0d9750d2dd43"
+  }
+}

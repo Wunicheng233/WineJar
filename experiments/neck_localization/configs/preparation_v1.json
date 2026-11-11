@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "seed": 20261021,
+  "reference_dimensions": {
+    "height_m": {"value":0.60,"source":"user approximate total height"},
+    "mouth_outer_diameter_m": {"value":0.125,"source":"user approximate mouth outside diameter"},
+    "body_max_diameter_m": {"value":0.36,"source":"assumed from photograph proportions; not measured"},
+    "neck_min_diameter_m": {"value":0.105,"source":"synthetic assumption"},
+    "neck_length_m": {"value":0.04,"source":"synthetic assumption"}
+  },
+  "angular_segments":160,
+  "vertical_samples":180,
+  "jar": {
+    "height_m":0.60,
+    "body_radius_m":0.18,
+    "neck_radius_m":0.0525,
+    "lip_radius_m":0.0625,
+    "neck_length_m":0.04,
+    "neck_tilt_deg":[0,0],
+    "neck_offset_xy_m":[0,0],
+    "neck_profile":"shallow",
+    "near_min_delta_m":0.001
+  },
+  "scene": {
+    "resolution":[640,480],
+    "fovy_deg":50,
+    "nominal_target_world_m":[0,0,0.575],
+    "cameras":[
+      {"name":"cam_a","azimuth_deg":-50,"elevation_deg":10,"distance_m":0.80,"role":"primary side view"},
+      {"name":"cam_b","azimuth_deg":50,"elevation_deg":10,"distance_m":0.80,"role":"primary side view"},
+      {"name":"cam_c","azimuth_deg":180,"elevation_deg":8,"distance_m":0.80,"role":"third-view comparison"}
+    ]
+  },
+  "cases":[
+    {"name":"reference_shallow","material":"mottled_gray"},
+    {"name":"flat_neck","material":"plain_clay","jar":{"neck_profile":"flat"}},
+    {"name":"tilted_neck","material":"mottled_gray","jar":{"neck_tilt_deg":[12,-7],"neck_offset_xy_m":[0.010,-0.006]}},
+    {"name":"tall_broad_jar","material":"mottled_gray","jar":{"height_m":0.66,"body_radius_m":0.195,"neck_radius_m":0.056,"lip_radius_m":0.067,"neck_length_m":0.045}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-23",
+  "source": "user relayed confirmation from winery; no independent metrology by this project",
+  "strap_axial_width_m": 0.003,
+  "physical_neck_minimum_length_nominal_m": 0.006,
+  "neck_minimum_is_approximate": true,
+  "physical_neck_length_is_not_near_min_radius_threshold_interval": true,
+  "whole_neck_is_confirmed_usable_strap_clearance": null,
+  "measurement_tolerance_m": null,
+  "strap_radial_thickness_m": null,
+  "supersedes": "previous provisional 5 mm strap width; previous 4.5-7 mm stress range is not a factory distribution",
+  "use": "3 mm is the new band audit default; approximate 6 mm is a future scene/process prior, never estimator ground truth",
+  "legacy_scenes_and_predictions": "preserve unchanged; no silent filtering, clamping or rewriting of annotated neck bounds"
+}

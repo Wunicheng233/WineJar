@@ -1,0 +1,20 @@
+{
+  "fit_depth_mm": 28.0,
+  "exclude_top_mm": 3.0,
+  "local_half_span_mm": 8.5,
+  "local_context_mm": 2.0,
+  "facing_cosine_min": 0.15,
+  "max_fit_points_per_camera": 2500,
+  "knot_spacing_mm": 1.5,
+  "smoothing_mm3": 0.0001,
+  "axis_shift_bound_mm": 20.0,
+  "normal_tangent_bound": 0.24,
+  "multistart_tangent": 0.06,
+  "max_nfev": 70,
+  "maximum_radial_rms_mm": 0.4,
+  "near_min_delta_mm": 1.0,
+  "support_bin_mm": 0.5,
+  "maximum_target_gap_mm": 2.5,
+  "endpoint_support_mm": 1.5,
+  "maximum_condition": 10000.0
+}

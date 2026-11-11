@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-24",
+  "phase": "test",
+  "input_run": "experiments/neck_localization/runs/bias_compensation_raw_test_20261024_v1",
+  "cases": [
+    {
+      "name": "nominal_000",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_001",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_002",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_003",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_004",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_005",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_006",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_007",
+      "group": "nominal"
+    },
+    {
+      "name": "stress_000",
+      "group": "stress"
+    },
+    {
+      "name": "stress_001",
+      "group": "stress"
+    },
+    {
+      "name": "stress_002",
+      "group": "stress"
+    },
+    {
+      "name": "stress_003",
+      "group": "stress"
+    },
+    {
+      "name": "stress_004",
+      "group": "stress"
+    },
+    {
+      "name": "stress_005",
+      "group": "stress"
+    },
+    {
+      "name": "stress_006",
+      "group": "stress"
+    },
+    {
+      "name": "stress_007",
+      "group": "stress"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "zero",
+      "bias_by_camera_mm": {}
+    },
+    {
+      "name": "common_m3",
+      "bias_by_camera_mm": {
+        "cam_a": -3.0,
+        "cam_b": -3.0,
+        "cam_c": -3.0
+      }
+    },
+    {
+      "name": "common_m1p5",
+      "bias_by_camera_mm": {
+        "cam_a": -1.5,
+        "cam_b": -1.5,
+        "cam_c": -1.5
+      }
+    },
+    {
+      "name": "common_p1p5",
+      "bias_by_camera_mm": {
+        "cam_a": 1.5,
+        "cam_b": 1.5,
+        "cam_c": 1.5
+      }
+    },
+    {
+      "name": "common_p3",
+      "bias_by_camera_mm": {
+        "cam_a": 3.0,
+        "cam_b": 3.0,
+        "cam_c": 3.0
+      }
+    },
+    {
+      "name": "only_b_p3",
+      "bias_by_camera_mm": {
+        "cam_b": 3.0
+      }
+    },
+    {
+      "name": "only_c_m3",
+      "bias_by_camera_mm": {
+        "cam_c": -3.0
+      }
+    },
+    {
+      "name": "mixed_a2_bm2_c1",
+      "bias_by_camera_mm": {
+        "cam_a": 2.0,
+        "cam_b": -2.0,
+        "cam_c": 1.0
+      }
+    }
+  ],
+  "band_width_mm": 3,
+  "estimator_sources": {
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_support_feedback.py": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "scripts/run_reliable_output.py": "5457560b01f77e2a96ae1c679b92fabbfe0cb2ba7cfa1e42011d92cb427b92bc",
+    "neck_localization/task_validated_output.py": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+    "scripts/run_task_validated_output.py": "f43d25a871fdc2c533b13b9540f1c00622d4e3209c9b5e31a96b6bb508c07fe4",
+    "neck_localization/bias_profile.py": "40c42dcdf269379a664e377b28e7f767e8462eb952b5f2cab4ed87670871d890",
+    "neck_localization/bias_compensation.py": "d2bfe63cba828f3cf1995f6f54ef2aabf512619d71c1179f1148e6ed05a75719",
+    "neck_localization/depth_perturbation.py": "2d5b458999aaf9871c1b57aa2dd3536b561248a0a23966c1abd575e052c6c07d",
+    "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+    "scripts/run_bias_compensation.py": "1c71cadfd1460422bbae016494a265d54749d63a4706e02e069ea2a97441061e"
+  },
+  "methods": [
+    {
+      "name": "bias_no_prior",
+      "sigma_bias_mm": null
+    },
+    {
+      "name": "bias_weak_prior",
+      "sigma_bias_mm": 2.0
+    }
+  ],
+  "truth_policy": "no true jar dimensions, target or injected bias to estimator; bias values used only in evaluation",
+  "uncertainty": "not_calibrated",
+  "notes": "108 old inputs for development; no new unbiased test claim",
+  "geometry_config_sha256": "a19637608fb8eb67952c20c3589e5a6dc77642f9f1db10aa133c2bb93c9aa2f0",
+  "development_records_sha256": "54a6dfcf051cf8b50bc147906d56eb800ff5febe3822c715a7952f5e381ba15e",
+  "raw_plan_sha256": "8cdf2887f58aedb7f6770e35ae760abcf5f94d478238c3aa946b40dd2abe1cb9",
+  "primary_method": "bias_no_prior",
+  "selection_reason": "both variants 108/108 development, primary no prior avoids unsupported device calibration variance",
+  "freeze_policy": "No estimator/settings changes after lock; independent circular-section geometry and bias values/combinations only"
+}

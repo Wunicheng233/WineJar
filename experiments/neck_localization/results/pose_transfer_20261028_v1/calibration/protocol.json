@@ -1,0 +1,107 @@
+{
+  "seed": 2026102841,
+  "scope": "OFFLINE_CONDITIONAL_ENGINEERING_EXPERIMENT_NOT_FACTORY_CHARACTERIZATION",
+  "baseline": "experiments/neck_localization/results/cross_station_20261028_v3",
+  "calibration": {
+    "sessions": 8,
+    "training_poses": 18,
+    "holdout_poses": 8,
+    "layouts": [
+      "diverse",
+      "small_rotation",
+      "one_axis"
+    ],
+    "conditions": [
+      "ideal",
+      "nominal",
+      "one_bad_image",
+      "board_scale",
+      "wrong_focal",
+      "robot_pose_dependence",
+      "board_warp",
+      "gauge_relabel"
+    ],
+    "methods": [
+      "park",
+      "horaud",
+      "pixel_ls",
+      "pixel_huber"
+    ],
+    "assumed_pixel_std": 0.15,
+    "assumed_robot_translation_std_m": 5e-05,
+    "assumed_robot_rotation_std_deg": 0.01,
+    "assumed_bad_image_shift_px": [
+      4,
+      -3
+    ],
+    "assumed_board_scale_error": 0.002,
+    "assumed_focal_relative_error": 0.002,
+    "assumed_robot_pose_dependent_amplitude_m": 0.0005,
+    "assumed_board_warp_m": 0.0003,
+    "identified_corner_projection_diagnostic": true,
+    "board_corner_detection_and_robot_IK_not_validated": true
+  },
+  "body": {
+    "cohorts": [
+      "old12",
+      "old8",
+      "new8"
+    ],
+    "methods": [
+      "nominal",
+      "axis",
+      "translation",
+      "rigid"
+    ],
+    "conditions": [
+      "ideal",
+      "depth_bias_1mm",
+      "depth_bias_3mm",
+      "local_extrinsic_1mm",
+      "lower_strip",
+      "rotation_mismatch_1deg"
+    ],
+    "stop_errors_m": [
+      -0.002,
+      -0.0005,
+      0.0005,
+      0.002
+    ],
+    "body_height_roi_W_m": [
+      0.08,
+      0.4
+    ],
+    "lower_strip_roi_W_m": [
+      0.16,
+      0.22
+    ],
+    "resolution": [
+      640,
+      480
+    ],
+    "camera_positions_relative_station_m": [
+      [
+        0.62,
+        -0.35,
+        0.43
+      ],
+      [
+        0.62,
+        0.35,
+        0.43
+      ]
+    ],
+    "camera_target_relative_station_m": [
+      0,
+      0,
+      0.28
+    ],
+    "voxel_m": 0.003,
+    "maximum_template_points": 4500,
+    "body_mask": "fixed_workspace_roi_diagnostic_no_neck_or_target_gt_mask",
+    "depth_model": "MuJoCo_optical_Z_then_explicit_assumed_sensor_bias_not_SimSense",
+    "no_target_truth_in_registration": true
+  },
+  "runtime_second_body_observation_authorized_by_user_this_round": true,
+  "no_devices_training_or_existing_default_change": true
+}

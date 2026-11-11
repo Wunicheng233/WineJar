@@ -1,0 +1,8882 @@
+[
+  {
+    "scenario": "zero",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.744173345645603,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.455756610078132,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.5824829110466184,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.175521468590884,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.778277525813322,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.6586876752552631,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.841301088587736,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.044103387900975,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.4364136441613895,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.9873738061566835,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.64358625136181,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.789219788442413,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.5361070344385923,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.3281846778402127,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.000098301225469,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.725124349315462,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.6578633853979403,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.517867270012861,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.074745201208299,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.5867771665146995,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.9581264259346425,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.385056533602426,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.5755230353646246,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "zero",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9841967003419647,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 0,
+    "registration_translation": [
+      0.00019190594815303653,
+      0.0003038137875590834,
+      -0.00036125940226992636
+    ],
+    "registration_rotation_rad": [
+      0.0001417079024137578,
+      0.0003790744726288075,
+      -0.000500007043646548
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 6.083320503478713,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 1,
+    "registration_translation": [
+      -0.00017090344176769968,
+      -0.00030478131892321613,
+      0.00018449734293039376
+    ],
+    "registration_rotation_rad": [
+      0.0005298263634811936,
+      -0.00032273401362502833,
+      -0.0004470559841014145
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0106136432331143,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 2,
+    "registration_translation": [
+      0.00031037107370195083,
+      -0.00037504126450510933,
+      0.00041051093045379284
+    ],
+    "registration_rotation_rad": [
+      -0.0006031056230805517,
+      -0.0004492185207952921,
+      0.0005312426230771474
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.9667448584631704,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 3,
+    "registration_translation": [
+      0.0001385481894196845,
+      0.00015859253349727342,
+      0.0003421389113267387
+    ],
+    "registration_rotation_rad": [
+      -0.0005641599169853573,
+      0.00034810141407771853,
+      0.00037351402180805165
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.0326761755826506,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 4,
+    "registration_translation": [
+      0.00023185497160995583,
+      -0.00041862749465218583,
+      -0.00019183749366639624
+    ],
+    "registration_rotation_rad": [
+      -0.0005932153428300298,
+      0.0007579240353119861,
+      0.0008246018715921449
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.916634567031672,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 5,
+    "registration_translation": [
+      -0.00016356919623219325,
+      -0.00035570993332327176,
+      4.749832165725776e-07
+    ],
+    "registration_rotation_rad": [
+      0.0005144535455721481,
+      -0.00030789296064540376,
+      0.0006897856735221518
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.9656332063950338,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 6,
+    "registration_translation": [
+      -0.0002764941506793799,
+      -8.910323349298533e-06,
+      0.0004910755991429982
+    ],
+    "registration_rotation_rad": [
+      0.00010606922159841826,
+      0.0007028083020609137,
+      0.0007129927999927635
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.4750938163018952,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 7,
+    "registration_translation": [
+      0.00015304824427424612,
+      -0.00012655253149674572,
+      -0.0002488339454715499
+    ],
+    "registration_rotation_rad": [
+      0.0008333221546138785,
+      0.0005509513353466309,
+      0.0001222584311230969
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.092314869538056,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 8,
+    "registration_translation": [
+      0.0004202713597637665,
+      -0.0004836052376055903,
+      -0.0003423818524325547
+    ],
+    "registration_rotation_rad": [
+      0.0006818789523436431,
+      0.00026988766937911525,
+      -0.000864197073889943
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.29971811440396373,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 9,
+    "registration_translation": [
+      9.777235406061913e-05,
+      0.00019683572542775207,
+      1.6723174713448863e-05
+    ],
+    "registration_rotation_rad": [
+      0.0007949615386982936,
+      0.0003281858228991446,
+      -0.0005845488280488191
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.182113288169982,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 10,
+    "registration_translation": [
+      -0.0003585534160485695,
+      -0.0001790803523135115,
+      0.0001490637965083077
+    ],
+    "registration_rotation_rad": [
+      1.4785507916019847e-05,
+      -0.00037313253536850135,
+      0.0008271634681028922
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.5192555423446951,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 11,
+    "registration_translation": [
+      0.000227919218421622,
+      0.00039183159610624784,
+      -0.000484001479383543
+    ],
+    "registration_rotation_rad": [
+      0.0002728536738800103,
+      0.00033599090393453507,
+      -0.00043548282894140586
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.7925840281988967,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 12,
+    "registration_translation": [
+      -0.0003525524048657701,
+      0.0004486899706373778,
+      0.00040693664338447313
+    ],
+    "registration_rotation_rad": [
+      0.00025046699783501657,
+      0.00013419561483866792,
+      -0.0004225000725275917
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.737857833813815,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 13,
+    "registration_translation": [
+      -4.5932679226966426e-05,
+      -5.63969467104779e-05,
+      6.512375030630291e-05
+    ],
+    "registration_rotation_rad": [
+      0.0005450061106114122,
+      0.0005089997887899119,
+      5.77567873388605e-05
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.217243229198124,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 14,
+    "registration_translation": [
+      0.0002108931263663868,
+      0.00019290467951979417,
+      1.8821493352481066e-06
+    ],
+    "registration_rotation_rad": [
+      -0.0005985235049916534,
+      -0.000866702211444017,
+      -0.00043945793888429705
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.0460210678163415,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 15,
+    "registration_translation": [
+      -0.00018524618456891684,
+      5.8278749479749096e-05,
+      3.015977380645918e-05
+    ],
+    "registration_rotation_rad": [
+      0.0008319276866093281,
+      0.000529339014881842,
+      0.0006090307329682872
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.948922412381597,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 16,
+    "registration_translation": [
+      -0.00022050522047228284,
+      -0.00041043067629408214,
+      2.6036881148205015e-05
+    ],
+    "registration_rotation_rad": [
+      -0.0006696244785412666,
+      0.0006063142798693031,
+      0.0005889139616320722
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 6.099418680373408,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 17,
+    "registration_translation": [
+      -0.00036444249313420565,
+      0.00027814493712919507,
+      0.0001130708801973539
+    ],
+    "registration_rotation_rad": [
+      0.0007879549631964964,
+      5.463058330434129e-05,
+      -0.0005611477205294152
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.1995651827265132,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 18,
+    "registration_translation": [
+      5.346964397135556e-05,
+      5.9216239644312997e-05,
+      0.0001354491229900595
+    ],
+    "registration_rotation_rad": [
+      0.000394724240485717,
+      -0.00048159178025191106,
+      -0.0007997946089765141
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.345955191673448,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 19,
+    "registration_translation": [
+      0.0001586268355416407,
+      0.000422290570204412,
+      -0.0004129866541135031
+    ],
+    "registration_rotation_rad": [
+      -0.00020329694052668784,
+      -0.0006303987739447121,
+      0.00021386400306827615
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.000779136111737,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 20,
+    "registration_translation": [
+      -0.0004773601442722566,
+      -0.0003556381640605957,
+      -0.0004942570011837421
+    ],
+    "registration_rotation_rad": [
+      0.0004674587524790144,
+      -0.00047016253078013067,
+      -0.00018944999698351648
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.188837689979846,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 21,
+    "registration_translation": [
+      0.00011012406008135845,
+      -8.393397749933917e-05,
+      -0.00010775022010106994
+    ],
+    "registration_rotation_rad": [
+      6.86162096037508e-05,
+      -0.000280002649269856,
+      -2.5446214838404293e-06
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.4270738251614654,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 22,
+    "registration_translation": [
+      -0.00046100773465652977,
+      -0.00024327336358830387,
+      -0.0001260813463847479
+    ],
+    "registration_rotation_rad": [
+      -0.0007780491964975066,
+      0.0004168024633430315,
+      -3.163742316866882e-05
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.766166527003028,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "registration",
+    "session": 23,
+    "registration_translation": [
+      -0.0004442884415265002,
+      -0.000466828112585737,
+      -0.00026818728508254787
+    ],
+    "registration_rotation_rad": [
+      0.0005509900120033529,
+      0.0004673808692449679,
+      0.00030096678497759844
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.232218993528148,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.391409121070381e-05,
+      1.0239385867644968e-05,
+      6.322530607135732e-05
+    ],
+    "artifact_scale": -9.268893990557242e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.59666851430397,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.391247460744157e-05,
+      5.793739404089211e-05,
+      4.790519435299967e-05
+    ],
+    "artifact_scale": -1.9827583177371543e-06,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.6971162528404227,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      7.463526132355023e-05,
+      -4.252047528859113e-05,
+      5.633997986271944e-05
+    ],
+    "artifact_scale": 4.443971199657804e-06,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.751516218069126,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      8.401720165144894e-05,
+      -5.265864724453715e-05,
+      -2.8123813862968096e-05
+    ],
+    "artifact_scale": -3.032304128736647e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.7399791454519264,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.45841716955038e-05,
+      8.999833196501264e-05,
+      -4.17370796479192e-05
+    ],
+    "artifact_scale": 6.185463203887273e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.6961729438962598,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      7.306701394710753e-05,
+      7.978571010770623e-05,
+      4.839361847576511e-05
+    ],
+    "artifact_scale": 6.362973859031691e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.06409720309087606,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -6.448844955299602e-05,
+      -8.774997642998608e-05,
+      -9.205646348910312e-05
+    ],
+    "artifact_scale": 3.3373227585222275e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.9547581855393479,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.428930672094803e-06,
+      -1.3374090802241368e-05,
+      -2.6880079863205177e-05
+    ],
+    "artifact_scale": -7.72326968529416e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.8973568949118045,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      3.600569702448884e-05,
+      -7.088185435117611e-05,
+      7.580904278137246e-05
+    ],
+    "artifact_scale": 6.635174484254126e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.1498450464844807,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -6.345599246815503e-05,
+      -2.80713947400544e-05,
+      8.626855523182611e-05
+    ],
+    "artifact_scale": -2.396413816278946e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.6947184441213625,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -4.3538283252890356e-05,
+      -8.39111094177124e-05,
+      4.1737334441605056e-05
+    ],
+    "artifact_scale": 2.9824059444787188e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.9494734767914554,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -8.501357501092335e-05,
+      5.4209195897127495e-05,
+      -4.4568479072964795e-05
+    ],
+    "artifact_scale": -3.608032178738203e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.4121328200009313,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      2.5966071107116707e-05,
+      -5.8472420730603214e-05,
+      -5.510652868491959e-05
+    ],
+    "artifact_scale": 1.9776454794091623e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.654765856252898,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.923382324120065e-05,
+      -2.38534763599096e-05,
+      4.858538288315877e-05
+    ],
+    "artifact_scale": 5.754963370295254e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.367265559255623,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      9.239112585249512e-05,
+      9.109390288048703e-05,
+      6.728246084536204e-05
+    ],
+    "artifact_scale": 5.595257429084199e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.11166881817297,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      3.872722035777372e-05,
+      7.492782325425606e-05,
+      -9.171036900719732e-05
+    ],
+    "artifact_scale": -9.69482661614165e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.0416360854902456,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      7.907519045040863e-05,
+      -8.645220664364773e-05,
+      -7.013460506545842e-05
+    ],
+    "artifact_scale": 4.243916151987413e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.4467842670722715,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      6.2590017018451e-05,
+      -7.557265768871613e-07,
+      -9.277484413396149e-05
+    ],
+    "artifact_scale": -2.258850167148019e-06,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.453808253556177,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -8.701336498847605e-05,
+      -2.6911078466397134e-05,
+      -2.8312947493610574e-05
+    ],
+    "artifact_scale": -1.4653796851513422e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.8664238350659272,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -9.365866611568131e-07,
+      2.3316160817102438e-05,
+      1.993071316919366e-05
+    ],
+    "artifact_scale": -5.548773897149881e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.3590721542467226,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -7.355998354464844e-05,
+      -3.0465639966265237e-05,
+      -4.6065005788432003e-05
+    ],
+    "artifact_scale": 1.4434731946236434e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0775779325046484,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -1.098350221235136e-05,
+      4.2193178467158777e-05,
+      -4.5477608757688625e-05
+    ],
+    "artifact_scale": 6.49035319115214e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.456784499967882,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      -5.9308222204288974e-05,
+      -5.128757641269864e-05,
+      8.188792939089425e-05
+    ],
+    "artifact_scale": -2.7784603528429906e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.783259506401229,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "survey_bias",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      4.9378240400374683e-05,
+      -2.325081638544546e-06,
+      -4.833667752654183e-05
+    ],
+    "artifact_scale": 5.3979982598818066e-05,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.10379784398267,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.00012165284643137708,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0320944472669196,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0001114409942618283,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.5235311050995848,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 7.118821689843935e-05,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9724447366175637,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0002671768799477302,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.48511051210136,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0003852899072336873,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.052512795242417,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0002575722213986591,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9483960212965314,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.00011588041090153721,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.6332292924106486,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.00045698255616639547,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.1214431507502385,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -5.237531421124763e-05,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 6.079816497488468,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0004813578722819131,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.175661861743243,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.00011265228866823906,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.669962844087748,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0002456128899215935,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.2218783954466583,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.00025016761937748434,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.6610236291073317,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.00020437270859727295,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.746791455536277,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0003242267238748697,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.2320867785175085,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0002614220859323055,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.7992600671137122,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.00034499822159580215,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.0712055160329306,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0003999437596005974,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.839984712845564,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -8.17807600555309e-06,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9983662597088134,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.00047938181729266017,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.3332477532953933,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.00023368192933099198,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.5096729710998167,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0004665993112010587,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.532484744253944,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0004369655234069368,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.3737379895402824,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_scale",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": -0.0002034807588030235,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 6.265351918940801,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 7.38462996868753e-05,
+      "phase_rad": 5.708283617027399,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 7.280182181150137e-05,
+      "phase_rad": 5.230942566753113,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 9.745869733267732e-05,
+      "phase_rad": 4.07854696057744,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 4.01991549897381e-05,
+      "phase_rad": 4.654306806031586,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 7.174478521485173e-06,
+      "phase_rad": 4.100036817477942,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 9.314309013814669e-05,
+      "phase_rad": 4.274087298156398,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 4.969774737544366e-05,
+      "phase_rad": 3.7820774060185265,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 8.758705309113872e-05,
+      "phase_rad": 0.013393581897117628,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 9.929291430631502e-05,
+      "phase_rad": 3.784341846977732,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 9.801814378257804e-05,
+      "phase_rad": 4.2172198361441415,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 1.984901406047457e-07,
+      "phase_rad": 4.570476087310721,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 7.556119862242724e-05,
+      "phase_rad": 5.115177422298118,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 4.297317909490383e-05,
+      "phase_rad": 2.0966507397359595,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 8.341828099433778e-05,
+      "phase_rad": 3.6774889648365123,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 3.9491457953616874e-05,
+      "phase_rad": 2.9376622198042948,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 1.2384697949674284e-05,
+      "phase_rad": 4.950660916652242,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 5.145036081470116e-05,
+      "phase_rad": 4.799040753204854,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 6.597717580274337e-05,
+      "phase_rad": 3.740087055416397,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 6.449394512659352e-05,
+      "phase_rad": 2.54640930685436,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 4.108020266430547e-05,
+      "phase_rad": 0.4939236878000117,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 3.8611342405003704e-05,
+      "phase_rad": 1.1659009715776412,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 8.819811132927605e-05,
+      "phase_rad": 2.8745642123224164,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 1.8791590177882788e-05,
+      "phase_rad": 0.40152924175319027,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_cyclic",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 2.8541219835839972e-05,
+      "phase_rad": 4.562153755885827,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.286449407589395,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.20653982169576976,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.301690672327207,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.78619260522559,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.6762800693879965,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.6838427008728,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.970021767751465,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.2953536964807677,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.540890161820704,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.395155074071236,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0817597240713197,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.7269618282026553,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.636119058591872,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.1287453218923726,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.171158550483229,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.38590922779547,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.0445529427827087,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.4965245744630786,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.2682627536675287,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9950457308071377,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0905502313644653,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.355281647593398,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.115690293337062,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "encoder_quantization",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.3254684933543293,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.680797245252487,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.442229473597256,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.774703584003271,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.402936769304469,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.555736301862421,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.758875187772399,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.586840316909469,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.715803389073685,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.3605197611049242,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.61403189973956,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.3892723969372645,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.4850675128552435,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.829834541677781,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.222303993401519,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.55139587028287,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.9097229714222714,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.6796731820678477,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.352524412046778,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.558831380541146,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.714978525496039,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.57081837247778,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.37586602912246725,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.8446957236604216,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "stop_variation",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.3675759286257226,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tool_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 0,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.708635377857858,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00013816564260511467,
+      0.0002989395006540495,
+      -0.0002584150520886369
+    ],
+    "tool_rotation_rad": [
+      -0.002445178951012509,
+      -0.0005498351011950925,
+      0.003288961630691365
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 1,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.2641047074178842,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00025446305165796026,
+      0.00015380623196245192,
+      -0.00020264937738503818
+    ],
+    "tool_rotation_rad": [
+      0.00044542727002342477,
+      0.0009707355593383066,
+      0.0010904925540843552
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 2,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.325422255151823,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.0004821695520042183,
+      -0.0003573563676980597,
+      7.5619676408792415e-06
+    ],
+    "tool_rotation_rad": [
+      0.0031496710155265034,
+      -0.0017360394605300165,
+      0.0003402589049562759
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 3,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.236408933297563,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00022921151064745216,
+      0.0002046981716915196,
+      -0.0003028388428501792
+    ],
+    "tool_rotation_rad": [
+      -0.0034388758634254077,
+      -0.0004362857435522087,
+      0.0009659285361609072
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 4,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.423217150640292,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0001260988601117141,
+      0.00019972696324138672,
+      -0.00024475387168867627
+    ],
+    "tool_rotation_rad": [
+      0.001523637048423646,
+      -0.00029536069748876227,
+      -0.0002117456146692419
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 5,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.3138217472996645,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.0002664914825421506,
+      -6.611461703383737e-05,
+      0.0002357981730644425
+    ],
+    "tool_rotation_rad": [
+      0.0025687877320986715,
+      0.0014499195765189207,
+      -0.003401193538838868
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 6,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.642454968597242,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00016979199921683398,
+      1.0417298124553165e-05,
+      -0.00021726324215909078
+    ],
+    "tool_rotation_rad": [
+      -0.0001263077868181519,
+      -0.0022477232418252036,
+      0.002756601202069601
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 7,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.9183982967080286,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.0001417299009635229,
+      8.68556173404167e-05,
+      4.756738661934634e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0029634463575377292,
+      0.0003049442004051988,
+      -0.0005682794451377526
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 8,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.697735963636039,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -7.42185923251636e-05,
+      7.4714739576214e-05,
+      -0.000345165510862784
+    ],
+    "tool_rotation_rad": [
+      0.002261029667847088,
+      0.0017082518417481278,
+      0.0026532028581353014
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 9,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.440422527306285,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00033029482027838864,
+      -1.4348953285254317e-05,
+      0.00042521139373989257
+    ],
+    "tool_rotation_rad": [
+      -0.0009836535662712308,
+      -0.0014929146444358457,
+      0.0010974492023753174
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 10,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 3.4570604758542136,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00021335044590991181,
+      0.00042488880237205487,
+      0.00023231784927520138
+    ],
+    "tool_rotation_rad": [
+      1.4555301790903667e-05,
+      -7.312374615402709e-05,
+      3.709159720438968e-06
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 11,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.7775150240660049,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      8.376143931081148e-05,
+      -0.00018232106131253712,
+      -0.00040832608813920945
+    ],
+    "tool_rotation_rad": [
+      -0.0020983903084722164,
+      -0.0027524126546814055,
+      -0.0019954303557232268
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 12,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.5366482922014573,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0004908807035405049,
+      -0.0002817085364159364,
+      -0.00047281767156900835
+    ],
+    "tool_rotation_rad": [
+      -0.0025336971512351894,
+      -0.0030431451026595394,
+      -0.0023747282090623195
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 13,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.0727726577785597,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.0001562777478617884,
+      0.00017971643327932118,
+      -0.0001094641274445587
+    ],
+    "tool_rotation_rad": [
+      -0.0012324535051115634,
+      -0.0001819808255125114,
+      -0.0029121912079622604
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 14,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 0.8220634086920486,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00027110403822096284,
+      0.00016271633862203848,
+      -9.231308057831633e-05
+    ],
+    "tool_rotation_rad": [
+      0.0014953268500376687,
+      0.0006365871076336591,
+      -0.0005569978082968178
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 15,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.8149377334861478,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00010890618702560151,
+      0.00032714225704548374,
+      -0.0004724007985717639
+    ],
+    "tool_rotation_rad": [
+      0.0008602463935068143,
+      0.002993914720026499,
+      0.002996630806423693
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 16,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.562230219902774,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00028687346365776777,
+      -6.181706563823108e-05,
+      -0.0002755330611666045
+    ],
+    "tool_rotation_rad": [
+      -0.0006001338456111778,
+      -0.001967990290099549,
+      0.0002476993402131377
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 17,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0074195967920512,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0004453672471328889,
+      0.0002675002986333629,
+      0.0004875508626196926
+    ],
+    "tool_rotation_rad": [
+      -0.0024500917685665565,
+      -0.001290812835087865,
+      0.0013199209530618036
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 18,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 4.503491161166508,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.00036730792074877284,
+      0.00031316836228298915,
+      -0.0004697779626754005
+    ],
+    "tool_rotation_rad": [
+      0.0010018918825418248,
+      -0.0009815523867818083,
+      -0.0008032832997501843
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 19,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.3605846846004621,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      -0.0004690728722551988,
+      -8.78081885591312e-05,
+      0.00038329828929638564
+    ],
+    "tool_rotation_rad": [
+      -0.002010591005546846,
+      0.0033574360015976665,
+      0.0006318813036735794
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 20,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 5.798786351756504,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00010782823882404325,
+      -0.00033032529251729936,
+      -0.00010908646411626421
+    ],
+    "tool_rotation_rad": [
+      -0.0002567115871126452,
+      -0.0028161822442783297,
+      -0.0034606799635586672
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 21,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 1.0061470209259873,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.0003294959444447701,
+      0.0002696488749643965,
+      0.00015561502105591207
+    ],
+    "tool_rotation_rad": [
+      0.0020948236924248683,
+      -0.0028466672816050585,
+      -0.000781739333693381
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 22,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 6.137777921747133,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00025570488804040184,
+      6.203519519345379e-05,
+      0.00010733215117161899
+    ],
+    "tool_rotation_rad": [
+      0.002771089836943538,
+      -0.0005002018994009182,
+      0.0011638456905883703
+    ]
+  },
+  {
+    "scenario": "tcp",
+    "session": 23,
+    "registration_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registration_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "survey_bias": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "artifact_scale": 0.0,
+    "encoder": {
+      "scale_error": 0.0,
+      "cyclic_amplitude_m": 0.0,
+      "phase_rad": 2.8398939055007912,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 1e-12
+    },
+    "tool_translation": [
+      0.00032746854316929186,
+      3.800414538560049e-05,
+      0.0003423088453773733
+    ],
+    "tool_rotation_rad": [
+      -0.0021431184954286316,
+      -0.0016175652890695438,
+      0.0026707456509013957
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 0,
+    "registration_translation": [
+      -0.0004031493933648295,
+      -0.00022468629158877985,
+      -0.00047228109535216113
+    ],
+    "registration_rotation_rad": [
+      -0.0005030160434914241,
+      -0.00017756756485582138,
+      -0.00021197470179958353
+    ],
+    "survey_bias": [
+      5.905299930289836e-05,
+      -9.332659638343746e-05,
+      7.32345986981291e-06
+    ],
+    "artifact_scale": 9.245779742585529e-05,
+    "encoder": {
+      "scale_error": -0.00043448352127536466,
+      "cyclic_amplitude_m": 9.311529591531222e-05,
+      "phase_rad": 0.5044786741037689,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      7.210182884452076e-05,
+      8.767536580116309e-05,
+      0.0002862891564642046
+    ],
+    "tool_rotation_rad": [
+      -0.00021336733644268389,
+      0.002102017136773475,
+      -0.0025359474492174143
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 1,
+    "registration_translation": [
+      0.0003382423726169004,
+      -0.00023311389930956672,
+      6.99444678358524e-05
+    ],
+    "registration_rotation_rad": [
+      -0.0008225758748062283,
+      0.00031805948828473837,
+      0.0007840916329653
+    ],
+    "survey_bias": [
+      -6.321586927513223e-05,
+      -4.0398417013548694e-05,
+      1.2747313603334942e-05
+    ],
+    "artifact_scale": -1.0526999565339135e-05,
+    "encoder": {
+      "scale_error": -0.00045720156121992526,
+      "cyclic_amplitude_m": 7.441023349156739e-05,
+      "phase_rad": 0.2289564148499059,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0004416951350656463,
+      -0.00010262937487630252,
+      0.0001498980610981613
+    ],
+    "tool_rotation_rad": [
+      0.0013800457824750573,
+      0.0028322801480866132,
+      0.0024786655379287936
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 2,
+    "registration_translation": [
+      2.3041441998602586e-05,
+      0.00023409815655899346,
+      -0.0002826758525083748
+    ],
+    "registration_rotation_rad": [
+      0.0002211796134265442,
+      0.0006872514111788623,
+      -0.0003570931845726932
+    ],
+    "survey_bias": [
+      -7.275358749174103e-05,
+      4.8328183928309576e-05,
+      -4.346996387394631e-05
+    ],
+    "artifact_scale": 9.983028876295911e-05,
+    "encoder": {
+      "scale_error": 0.0004917493566934104,
+      "cyclic_amplitude_m": 6.80581350332549e-05,
+      "phase_rad": 2.4461217374548667,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      1.9775545553007534e-05,
+      0.00015715651823559375,
+      -0.00033467000697328243
+    ],
+    "tool_rotation_rad": [
+      -0.002719836941850848,
+      0.0027786474091109764,
+      0.0010996852439350171
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 3,
+    "registration_translation": [
+      0.0004372930657502108,
+      -0.00016977859994460331,
+      -0.00027822356907927125
+    ],
+    "registration_rotation_rad": [
+      -0.00035511923144785127,
+      0.0006025842287772631,
+      -0.0003095163873141678
+    ],
+    "survey_bias": [
+      2.0409334788638802e-05,
+      -6.77229943108405e-05,
+      -9.607472592731358e-06
+    ],
+    "artifact_scale": -6.838224910743361e-05,
+    "encoder": {
+      "scale_error": 0.0004779585533707123,
+      "cyclic_amplitude_m": 2.773326039059967e-05,
+      "phase_rad": 1.6206437829065978,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -7.604096797073423e-05,
+      1.4996380386606e-06,
+      -0.000366504678522144
+    ],
+    "tool_rotation_rad": [
+      -0.000708994167005871,
+      -0.0020870692879336366,
+      0.0014370573709378488
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 4,
+    "registration_translation": [
+      0.00016370807577702196,
+      0.0002872482484633866,
+      0.0002252317414865177
+    ],
+    "registration_rotation_rad": [
+      -0.000514685929803975,
+      0.0008272331193771851,
+      -0.0008431734224686274
+    ],
+    "survey_bias": [
+      -7.737374913859874e-05,
+      2.9580836543356282e-05,
+      -7.705564289092017e-05
+    ],
+    "artifact_scale": -6.0525589817052425e-05,
+    "encoder": {
+      "scale_error": -0.0003507791233930344,
+      "cyclic_amplitude_m": 6.891430092646538e-05,
+      "phase_rad": 0.6290529340097765,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00032605739541942825,
+      -0.0004379978391914119,
+      -0.00029962091538717785
+    ],
+    "tool_rotation_rad": [
+      -0.0012804901784955187,
+      2.151688139641359e-06,
+      -0.0009915494096572497
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 5,
+    "registration_translation": [
+      -0.000271539157990601,
+      0.0002923990718263194,
+      -3.440654979596281e-05
+    ],
+    "registration_rotation_rad": [
+      0.00010687628964020406,
+      0.0006357079818201563,
+      0.00046873024820618666
+    ],
+    "survey_bias": [
+      3.9747383086859236e-05,
+      -3.916551378323374e-05,
+      8.53363792387978e-05
+    ],
+    "artifact_scale": -8.00675237160867e-05,
+    "encoder": {
+      "scale_error": 3.50239397762967e-05,
+      "cyclic_amplitude_m": 3.11054842399635e-05,
+      "phase_rad": 1.9431061657259776,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00027334920097625917,
+      4.862596931612673e-05,
+      -2.900047036059772e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0015117934924258848,
+      -0.0005985803299940623,
+      -0.002370697775953936
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 6,
+    "registration_translation": [
+      -0.00020456161139333895,
+      0.00033732917519843045,
+      -0.0001443427863900708
+    ],
+    "registration_rotation_rad": [
+      -1.3485842326589842e-05,
+      0.0007995007624310934,
+      0.0008673752492033811
+    ],
+    "survey_bias": [
+      -8.870605328874762e-05,
+      1.309259715605533e-05,
+      3.224134456438193e-05
+    ],
+    "artifact_scale": 5.2882169561200285e-06,
+    "encoder": {
+      "scale_error": 0.0003061164935786875,
+      "cyclic_amplitude_m": 6.504822508499264e-06,
+      "phase_rad": 2.850008238148934,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00015764449462198584,
+      -0.00023175905941485498,
+      0.00020804948537871015
+    ],
+    "tool_rotation_rad": [
+      0.0027086306286029996,
+      -0.001161116265112526,
+      0.0034646405320052486
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 7,
+    "registration_translation": [
+      -0.0001948194415296338,
+      0.0004163789426386494,
+      -0.0004112917326287576
+    ],
+    "registration_rotation_rad": [
+      -0.0005498837522234002,
+      6.166490276901238e-05,
+      -0.00014994954308880865
+    ],
+    "survey_bias": [
+      2.3656769035934457e-05,
+      -5.873219128386076e-06,
+      7.386422130528578e-05
+    ],
+    "artifact_scale": 8.229362921494956e-05,
+    "encoder": {
+      "scale_error": 0.0004892952615722175,
+      "cyclic_amplitude_m": 6.789902172472779e-05,
+      "phase_rad": 2.9976249231668812,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00015838405427142432,
+      0.00010272045909376105,
+      0.00032770920603084584
+    ],
+    "tool_rotation_rad": [
+      0.00042633294187303136,
+      0.0012049307204914151,
+      0.0027154249653854588
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 8,
+    "registration_translation": [
+      -0.0003242769378996743,
+      -9.456925478020007e-05,
+      0.0002058628922529313
+    ],
+    "registration_rotation_rad": [
+      0.000657569983209179,
+      -0.0008005504305081351,
+      -0.0006150048837882153
+    ],
+    "survey_bias": [
+      -7.144650292564726e-07,
+      -1.0251321508071243e-05,
+      1.9280704866937182e-05
+    ],
+    "artifact_scale": -2.489794152712228e-05,
+    "encoder": {
+      "scale_error": 1.1521447940484264e-05,
+      "cyclic_amplitude_m": 1.7634707551075802e-05,
+      "phase_rad": 5.581980103478527,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0002826445753574134,
+      0.00031861520777189123,
+      0.00021170847959142968
+    ],
+    "tool_rotation_rad": [
+      -0.0018913345855421774,
+      -0.002084768178743355,
+      -0.002632712120535609
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 9,
+    "registration_translation": [
+      -0.00012732218514506833,
+      0.00033981178473261865,
+      -0.00038640898104861965
+    ],
+    "registration_rotation_rad": [
+      0.0007740413824294607,
+      -0.0007366606131549117,
+      -0.0008692821181124791
+    ],
+    "survey_bias": [
+      -7.37203222165189e-05,
+      -9.67790207041026e-05,
+      8.128745074409199e-05
+    ],
+    "artifact_scale": -6.356693962733813e-05,
+    "encoder": {
+      "scale_error": 0.000335707734871899,
+      "cyclic_amplitude_m": 1.5392475034132547e-06,
+      "phase_rad": 6.217446448466992,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00013686854562716767,
+      0.0004806274595389564,
+      -0.00030330455430945625
+    ],
+    "tool_rotation_rad": [
+      -0.003259928755812696,
+      -0.0013034872020712975,
+      -0.0032460994227569203
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 10,
+    "registration_translation": [
+      0.0003400552656799378,
+      0.0004064346837373667,
+      5.9840974307152294e-05
+    ],
+    "registration_rotation_rad": [
+      -0.00030545734117152124,
+      0.0007027730411249957,
+      -0.00039510914675973575
+    ],
+    "survey_bias": [
+      6.416099673865186e-05,
+      7.562639107571357e-05,
+      -4.130996678800245e-05
+    ],
+    "artifact_scale": -4.541369595835493e-05,
+    "encoder": {
+      "scale_error": -0.00044986996276862284,
+      "cyclic_amplitude_m": 5.988266842792566e-05,
+      "phase_rad": 4.011587808856122,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0004173834298280208,
+      -9.301317993637847e-05,
+      -0.00023202754098846214
+    ],
+    "tool_rotation_rad": [
+      -0.00044244285101947915,
+      0.0014852914570825915,
+      0.0006639438969004698
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 11,
+    "registration_translation": [
+      0.00047428033861783906,
+      0.00036087594507023835,
+      -0.00014408422738566786
+    ],
+    "registration_rotation_rad": [
+      -2.716613702537445e-06,
+      -0.00017254264381851464,
+      0.00021183512481887502
+    ],
+    "survey_bias": [
+      -8.788312461794778e-05,
+      4.63091234545024e-05,
+      1.9542626549222676e-06
+    ],
+    "artifact_scale": -7.169971626404094e-05,
+    "encoder": {
+      "scale_error": -0.00015764360768780782,
+      "cyclic_amplitude_m": 7.787927679901884e-05,
+      "phase_rad": 5.2364603058105,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00025655480038723743,
+      0.0001810499088422287,
+      0.00033233972869552684
+    ],
+    "tool_rotation_rad": [
+      0.000138926402399879,
+      0.0021206028343018976,
+      0.0034522572204430052
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 12,
+    "registration_translation": [
+      0.0002159283741611564,
+      0.00040437560015221265,
+      -0.00021647444705149576
+    ],
+    "registration_rotation_rad": [
+      -0.0003469771028969482,
+      -0.00015782559135052684,
+      -0.0006929534972346459
+    ],
+    "survey_bias": [
+      -4.722767493824276e-06,
+      7.471462304162326e-05,
+      2.1871406138075236e-05
+    ],
+    "artifact_scale": -2.1035344132518396e-07,
+    "encoder": {
+      "scale_error": 0.00011580053764457965,
+      "cyclic_amplitude_m": 8.277561676741955e-05,
+      "phase_rad": 0.31638520794589864,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.000397559308516578,
+      -0.00015118539367417873,
+      -8.880798515334865e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0013876563578814147,
+      0.001393939403802001,
+      0.002249282031541689
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 13,
+    "registration_translation": [
+      0.00032135646624675986,
+      -0.0004565973677612326,
+      -0.0004716158331119247
+    ],
+    "registration_rotation_rad": [
+      0.00019055495449339326,
+      0.00029136739926676874,
+      0.000592683803745145
+    ],
+    "survey_bias": [
+      6.274908004576412e-05,
+      -9.19094580629714e-05,
+      -2.8218364624482907e-06
+    ],
+    "artifact_scale": 9.334987985700909e-05,
+    "encoder": {
+      "scale_error": 3.982366811181826e-05,
+      "cyclic_amplitude_m": 5.107676173580356e-06,
+      "phase_rad": 2.854163390857366,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00012768989997888835,
+      0.00034460139656238454,
+      9.957047604127512e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0027982022305362143,
+      -0.0013911266090292777,
+      0.00019978462075920486
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 14,
+    "registration_translation": [
+      -0.000493248147362268,
+      0.0004213013637009131,
+      0.0002359463394786465
+    ],
+    "registration_rotation_rad": [
+      -0.0005375176642510053,
+      -0.0002990546493969533,
+      0.0008010117799775104
+    ],
+    "survey_bias": [
+      6.901388305939993e-05,
+      3.855889480042387e-05,
+      -1.4165209139070756e-05
+    ],
+    "artifact_scale": 3.9604020465795876e-05,
+    "encoder": {
+      "scale_error": -0.0001254382784248299,
+      "cyclic_amplitude_m": 3.3590592834536026e-06,
+      "phase_rad": 5.872794218938009,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0003683292673554026,
+      0.0002328757617627124,
+      -0.000197108189783471
+    ],
+    "tool_rotation_rad": [
+      0.0022688240860241535,
+      0.000999437771644446,
+      -0.0010869575157230167
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 15,
+    "registration_translation": [
+      -0.0002193026932716462,
+      0.00039655554461154476,
+      0.0001641110175137438
+    ],
+    "registration_rotation_rad": [
+      -2.3893966927928672e-05,
+      -0.0007894221721023934,
+      0.00036754454718677764
+    ],
+    "survey_bias": [
+      9.667529408177192e-05,
+      -9.273744777794855e-05,
+      9.814608069157665e-05
+    ],
+    "artifact_scale": -3.133093631694534e-05,
+    "encoder": {
+      "scale_error": 0.0003237516750301913,
+      "cyclic_amplitude_m": 7.593780150267119e-05,
+      "phase_rad": 6.127366310417821,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -6.819438470233774e-05,
+      -0.00021067028213530447,
+      -0.00018990999127737606
+    ],
+    "tool_rotation_rad": [
+      0.0001945262097336277,
+      -0.0009191159721791262,
+      0.0018178066509227247
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 16,
+    "registration_translation": [
+      0.0004630243836929585,
+      -0.00017933839956289744,
+      0.00038271499045067816
+    ],
+    "registration_rotation_rad": [
+      -0.0001383721273657718,
+      -0.0006691141310173598,
+      -0.00037796842234549247
+    ],
+    "survey_bias": [
+      -2.7411348034282958e-05,
+      -8.49830210577392e-05,
+      4.132266488534493e-05
+    ],
+    "artifact_scale": 2.2799735914119722e-05,
+    "encoder": {
+      "scale_error": -0.00026840349566118133,
+      "cyclic_amplitude_m": 3.0730026152454394e-05,
+      "phase_rad": 2.449840507270344,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -1.9695040574101652e-05,
+      -0.0003660417814479005,
+      0.00044741119512759056
+    ],
+    "tool_rotation_rad": [
+      -0.0023547557386804623,
+      0.0018787629511784736,
+      -0.0022140242451606225
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 17,
+    "registration_translation": [
+      -4.7358367131898785e-05,
+      0.0003371373268922537,
+      -3.8786622730427104e-05
+    ],
+    "registration_rotation_rad": [
+      -0.00023618866278604466,
+      0.00018535469112215922,
+      -0.00028008201870383326
+    ],
+    "survey_bias": [
+      -7.118845017035905e-05,
+      1.2949609409475005e-05,
+      2.8490499233948753e-05
+    ],
+    "artifact_scale": 2.1800016594221973e-05,
+    "encoder": {
+      "scale_error": 0.0003290062504217157,
+      "cyclic_amplitude_m": 9.069237819269772e-05,
+      "phase_rad": 0.4233234537025834,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00011106244282205146,
+      0.0002555074578817531,
+      -0.00025505354955006766
+    ],
+    "tool_rotation_rad": [
+      0.0011049363858083644,
+      0.0007045046864268603,
+      -0.0016958963563761288
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 18,
+    "registration_translation": [
+      -0.00021481005473276182,
+      -7.66393974393096e-05,
+      -5.302525233865585e-05
+    ],
+    "registration_rotation_rad": [
+      0.0007230928330957171,
+      -0.0008687468030974634,
+      0.00015595161310745094
+    ],
+    "survey_bias": [
+      4.381174699596049e-05,
+      -4.8217670849449704e-05,
+      -6.856880159946438e-05
+    ],
+    "artifact_scale": 5.488754968497862e-05,
+    "encoder": {
+      "scale_error": -0.0004266568395570556,
+      "cyclic_amplitude_m": 3.273775135384479e-05,
+      "phase_rad": 6.185569035273716,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0003337903858399346,
+      -0.00017318137419641632,
+      0.00022764692861626867
+    ],
+    "tool_rotation_rad": [
+      0.002789178632950013,
+      0.0026721870555920448,
+      -0.00047435840279669663
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 19,
+    "registration_translation": [
+      -0.0004161988778022332,
+      0.0003873976021679192,
+      -0.00035927500653290247
+    ],
+    "registration_rotation_rad": [
+      -0.0008642648803814857,
+      -0.00011766886802967487,
+      0.0004410761355098618
+    ],
+    "survey_bias": [
+      6.36268807447959e-05,
+      4.371847633964314e-05,
+      -3.477426989589716e-05
+    ],
+    "artifact_scale": -3.977985656145453e-05,
+    "encoder": {
+      "scale_error": -0.000498579957605072,
+      "cyclic_amplitude_m": 3.544129358252457e-05,
+      "phase_rad": 4.296131391109391,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      6.745110373806007e-05,
+      -0.00027740410192503165,
+      0.00026002559854862905
+    ],
+    "tool_rotation_rad": [
+      0.0005209211880126202,
+      -0.0026692813233000533,
+      -0.0002738706303923518
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 20,
+    "registration_translation": [
+      -1.2486782647284089e-06,
+      0.00025785119948140234,
+      0.00043780561826768985
+    ],
+    "registration_rotation_rad": [
+      6.321852858868796e-05,
+      0.0006014917094386422,
+      0.0003889139239072287
+    ],
+    "survey_bias": [
+      8.780051947189849e-05,
+      7.039780346956559e-05,
+      -6.884683902381844e-05
+    ],
+    "artifact_scale": 2.7229208763789534e-06,
+    "encoder": {
+      "scale_error": -0.00026243572410149154,
+      "cyclic_amplitude_m": 8.90174803205897e-05,
+      "phase_rad": 4.92781158501375,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0002998651288875554,
+      0.00018690569632646238,
+      9.509835999121508e-05
+    ],
+    "tool_rotation_rad": [
+      4.6677327809891266e-05,
+      -0.0030291057200555046,
+      -0.0029441610459778234
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 21,
+    "registration_translation": [
+      0.00045881671053754223,
+      0.0003492411898491787,
+      7.39427243576104e-05
+    ],
+    "registration_rotation_rad": [
+      7.422102850252392e-05,
+      -0.0006217973594965608,
+      0.00010585187649677653
+    ],
+    "survey_bias": [
+      3.372841783005232e-07,
+      3.1183448020172166e-05,
+      -1.7181092780939846e-05
+    ],
+    "artifact_scale": 6.234152458490953e-05,
+    "encoder": {
+      "scale_error": -0.00041829680633634033,
+      "cyclic_amplitude_m": 4.437199755218482e-05,
+      "phase_rad": 2.1853718917455156,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0003390641103207249,
+      -0.0002646504455555261,
+      0.00025341201222116885
+    ],
+    "tool_rotation_rad": [
+      -0.00022883373199902434,
+      -0.0005292774854076387,
+      0.001055479713360475
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 22,
+    "registration_translation": [
+      -6.943902807952762e-06,
+      -0.0004095025729721704,
+      -0.00047088024462541245
+    ],
+    "registration_rotation_rad": [
+      0.0006171934294641036,
+      -0.0008046985951120857,
+      -0.0001948047425749857
+    ],
+    "survey_bias": [
+      1.261707280266835e-05,
+      8.620609198917904e-05,
+      6.825335084148986e-05
+    ],
+    "artifact_scale": 2.9174811654571897e-05,
+    "encoder": {
+      "scale_error": 0.00015509411890929424,
+      "cyclic_amplitude_m": 4.428834673879271e-05,
+      "phase_rad": 2.514195787184731,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00042739220767146094,
+      -0.00016826207577622722,
+      0.00016774031757266106
+    ],
+    "tool_rotation_rad": [
+      0.0011356830132975278,
+      0.002929143490310197,
+      -0.0020935236584880947
+    ]
+  },
+  {
+    "scenario": "combined",
+    "session": 23,
+    "registration_translation": [
+      7.235638507200926e-05,
+      9.854913760687434e-05,
+      -0.00016223890902166316
+    ],
+    "registration_rotation_rad": [
+      0.0005924643496882425,
+      -8.383302291478684e-06,
+      0.0006294750958624813
+    ],
+    "survey_bias": [
+      -2.3174474119648705e-05,
+      8.669108448196124e-05,
+      8.438609766371158e-05
+    ],
+    "artifact_scale": -2.5150825442515943e-05,
+    "encoder": {
+      "scale_error": -0.0004845090908693419,
+      "cyclic_amplitude_m": 4.95752816106689e-05,
+      "phase_rad": 6.058089592657706,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0004218789705642173,
+      0.00022263019370151428,
+      4.091823252649518e-05
+    ],
+    "tool_rotation_rad": [
+      0.0024905838524750187,
+      -0.00037320148431078454,
+      -0.002963527961728145
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 0,
+    "registration_translation": [
+      -0.0002787304092017523,
+      0.00032041385060177063,
+      0.00014022351056657944
+    ],
+    "registration_rotation_rad": [
+      0.00013436213435206898,
+      0.00026892694578040663,
+      -0.0008269889476504337
+    ],
+    "survey_bias": [
+      -3.081676957944628e-05,
+      -8.417589729601863e-05,
+      7.149945580745489e-05
+    ],
+    "artifact_scale": -5.012429106435203e-05,
+    "encoder": {
+      "scale_error": 2.536202665530518e-05,
+      "cyclic_amplitude_m": 9.89847364239825e-05,
+      "phase_rad": 3.4901924174897236,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00018045501310589695,
+      6.622564216010008e-05,
+      0.00048690187051867486
+    ],
+    "tool_rotation_rad": [
+      -0.0005122413534332614,
+      -0.0016798528691861247,
+      -0.0011095973042414364
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 1,
+    "registration_translation": [
+      0.00037389300432838415,
+      -9.47613858417795e-06,
+      0.000153037967214828
+    ],
+    "registration_rotation_rad": [
+      0.0005270322146396969,
+      0.00021424275718985206,
+      -0.000507359742392196
+    ],
+    "survey_bias": [
+      8.8830126111487e-05,
+      -9.055545235885658e-05,
+      3.867184111743205e-05
+    ],
+    "artifact_scale": 9.929541846554506e-05,
+    "encoder": {
+      "scale_error": 0.0002353318869908495,
+      "cyclic_amplitude_m": 4.2826820983089345e-05,
+      "phase_rad": 2.239726841965426,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00014984680349256708,
+      -0.00017998299428157694,
+      0.00043909067163154714
+    ],
+    "tool_rotation_rad": [
+      0.0026472866071546234,
+      -0.00012615305638898457,
+      0.0012395527442028236
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 2,
+    "registration_translation": [
+      -0.0004956301383730263,
+      6.48819018484823e-05,
+      2.409905115504507e-05
+    ],
+    "registration_rotation_rad": [
+      0.00019378412141880615,
+      0.0007425742039160898,
+      0.000388615264491607
+    ],
+    "survey_bias": [
+      -1.8804263496510166e-05,
+      8.36591418376106e-05,
+      6.862539382992405e-05
+    ],
+    "artifact_scale": -5.918576783706153e-06,
+    "encoder": {
+      "scale_error": -0.00013892184046718293,
+      "cyclic_amplitude_m": 1.4098994315265922e-05,
+      "phase_rad": 3.6620336023811086,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00031127305047739764,
+      3.664494731096746e-05,
+      -0.00036465366550821456
+    ],
+    "tool_rotation_rad": [
+      0.0006054536545393297,
+      -0.001564564960462404,
+      0.0023540470193121107
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 3,
+    "registration_translation": [
+      0.00031790777574623085,
+      -0.00042972854756289595,
+      -0.0003940633030146663
+    ],
+    "registration_rotation_rad": [
+      -0.0007000846093349631,
+      -0.0007948227751652354,
+      -0.0007529321927237094
+    ],
+    "survey_bias": [
+      -6.852674627534488e-05,
+      -9.013768199173962e-05,
+      -8.686953318530828e-05
+    ],
+    "artifact_scale": -8.322734992333474e-05,
+    "encoder": {
+      "scale_error": 4.1682068630366606e-05,
+      "cyclic_amplitude_m": 3.9864700914430943e-05,
+      "phase_rad": 0.07978527411932347,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0001793169450887423,
+      -0.0001891840887436691,
+      -9.49910871313292e-05
+    ],
+    "tool_rotation_rad": [
+      0.0005894079788179472,
+      0.0032912019450110183,
+      0.003472903329952941
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 4,
+    "registration_translation": [
+      0.0004764823874220221,
+      -0.00014198553673854742,
+      -1.5727401874266246e-05
+    ],
+    "registration_rotation_rad": [
+      0.0006605381891344083,
+      3.8231089045914585e-06,
+      -0.00011708064927623562
+    ],
+    "survey_bias": [
+      5.389253042403675e-06,
+      -7.69993296433281e-05,
+      -9.99285814100839e-05
+    ],
+    "artifact_scale": -7.35122041619232e-05,
+    "encoder": {
+      "scale_error": -0.00017633560342812947,
+      "cyclic_amplitude_m": 2.365481391088491e-05,
+      "phase_rad": 4.099879637508486,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00047002082604286457,
+      -0.0003661137948219828,
+      2.391188299666647e-05
+    ],
+    "tool_rotation_rad": [
+      0.0007904268299129012,
+      -0.0008851480304074625,
+      -0.0009694772162613819
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 5,
+    "registration_translation": [
+      3.400141501352594e-06,
+      0.00025291885754303965,
+      -0.0004860304881013874
+    ],
+    "registration_rotation_rad": [
+      0.00045179396447220574,
+      -0.0006410526356503179,
+      0.0008344756075492468
+    ],
+    "survey_bias": [
+      9.459145424168837e-06,
+      5.985553888434559e-06,
+      -6.319201044648369e-05
+    ],
+    "artifact_scale": -9.372891894859678e-05,
+    "encoder": {
+      "scale_error": 8.180105961867478e-05,
+      "cyclic_amplitude_m": 6.318694134946176e-05,
+      "phase_rad": 5.614970236543734,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00031650076413937444,
+      -0.00020512735289314745,
+      -4.582204950559443e-05
+    ],
+    "tool_rotation_rad": [
+      0.001021899970905814,
+      -0.00044392857205728805,
+      0.002533348089911175
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 6,
+    "registration_translation": [
+      -0.00042792471678822165,
+      -0.0003525316899609723,
+      0.00016467111963591752
+    ],
+    "registration_rotation_rad": [
+      4.247878926918593e-05,
+      0.0006320913702504734,
+      7.829907623595443e-05
+    ],
+    "survey_bias": [
+      -7.182211668341727e-05,
+      7.13584828170677e-07,
+      8.112747403020154e-05
+    ],
+    "artifact_scale": -1.148550794658787e-05,
+    "encoder": {
+      "scale_error": -0.00037900272998058973,
+      "cyclic_amplitude_m": 7.397993088206101e-06,
+      "phase_rad": 5.23746899785635,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      7.9028872315001e-05,
+      0.00016265428165364483,
+      5.805756616390967e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0024171919690951947,
+      0.0019864337822037277,
+      0.0020707524916124182
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 7,
+    "registration_translation": [
+      7.862655285105292e-05,
+      -0.00039746942834230635,
+      0.0003825779939181755
+    ],
+    "registration_rotation_rad": [
+      0.00022850304967956644,
+      1.0499188716251124e-05,
+      -0.0006404399974638164
+    ],
+    "survey_bias": [
+      -4.910802525014575e-05,
+      -8.337792330155088e-05,
+      -4.546310491286676e-05
+    ],
+    "artifact_scale": 7.824792596163641e-05,
+    "encoder": {
+      "scale_error": 6.763480549022516e-05,
+      "cyclic_amplitude_m": 3.115803417814296e-05,
+      "phase_rad": 6.178493835445109,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00015582052548589854,
+      0.0004452698644580688,
+      0.000368464139210952
+    ],
+    "tool_rotation_rad": [
+      0.003293458331730378,
+      -0.0017228950296696403,
+      -0.003241611653170742
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 8,
+    "registration_translation": [
+      -0.00010094138427546883,
+      0.0001392759156460678,
+      0.0004037586636549687
+    ],
+    "registration_rotation_rad": [
+      0.00035146704832196183,
+      3.7710956536491334e-05,
+      0.0007737713735770307
+    ],
+    "survey_bias": [
+      -2.0700300169369526e-05,
+      7.060747828654475e-05,
+      -5.707672768428987e-05
+    ],
+    "artifact_scale": -1.4507541793187271e-05,
+    "encoder": {
+      "scale_error": -0.0002695368752735806,
+      "cyclic_amplitude_m": 5.449894166613334e-05,
+      "phase_rad": 2.820712395164328,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00041381397589011895,
+      -0.00047964618914486266,
+      -8.462383495690018e-05
+    ],
+    "tool_rotation_rad": [
+      0.0032286608070936835,
+      -0.00016830700453271665,
+      0.0006009463109881249
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 9,
+    "registration_translation": [
+      -0.0003452025547588128,
+      -0.00040271686195117185,
+      -0.0003875960053487396
+    ],
+    "registration_rotation_rad": [
+      0.00027485171190612823,
+      -0.00041014429764915633,
+      -0.0007609712966816635
+    ],
+    "survey_bias": [
+      -7.659859064441288e-05,
+      5.5312209453193134e-05,
+      -9.305403306182856e-05
+    ],
+    "artifact_scale": -4.262590707063787e-05,
+    "encoder": {
+      "scale_error": -0.0004366536235157442,
+      "cyclic_amplitude_m": 9.810146660387841e-05,
+      "phase_rad": 2.6306829727013317,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      7.03124808915212e-06,
+      -0.00027276894519224126,
+      -0.0002287044658137196
+    ],
+    "tool_rotation_rad": [
+      -0.0015485244211235541,
+      -0.0033995540528305346,
+      0.0017810984842179518
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 10,
+    "registration_translation": [
+      0.0004010100740363557,
+      -0.0003472695028770124,
+      0.0004495923315644642
+    ],
+    "registration_rotation_rad": [
+      -0.0007292581006845862,
+      -0.0006982036381888932,
+      -0.00019292194436670677
+    ],
+    "survey_bias": [
+      -6.045605773616672e-05,
+      -6.960806867278564e-05,
+      -9.670848863743518e-05
+    ],
+    "artifact_scale": -2.793368263840532e-05,
+    "encoder": {
+      "scale_error": -0.0004215241008957644,
+      "cyclic_amplitude_m": 8.437527445199068e-06,
+      "phase_rad": 1.904335790353752,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0004410397526278749,
+      0.0002483951490303257,
+      0.0002840967537550948
+    ],
+    "tool_rotation_rad": [
+      0.0024583508913488387,
+      0.0031100616031077975,
+      -0.0014803089333550793
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 11,
+    "registration_translation": [
+      0.00010639017082793767,
+      -0.00040214404261305225,
+      0.00034553053946578496
+    ],
+    "registration_rotation_rad": [
+      0.00022988668233035845,
+      -0.000324015253508425,
+      -0.00023011321495738723
+    ],
+    "survey_bias": [
+      2.3396875072518087e-05,
+      1.138752947945676e-06,
+      4.978815477917567e-05
+    ],
+    "artifact_scale": -7.754416772668607e-05,
+    "encoder": {
+      "scale_error": -0.00044652663154873306,
+      "cyclic_amplitude_m": 3.070723206460406e-05,
+      "phase_rad": 2.742061099479421,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00016534234222382015,
+      -0.00015259918767455649,
+      2.5528999848371425e-05
+    ],
+    "tool_rotation_rad": [
+      -0.0023138701836242057,
+      0.0004342129820795891,
+      -0.0026109705819032368
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 12,
+    "registration_translation": [
+      0.0003007548564388104,
+      -0.0002036376421477787,
+      0.00012133473336187084
+    ],
+    "registration_rotation_rad": [
+      7.930935987750646e-07,
+      -0.00035836270815006244,
+      0.000382971027260716
+    ],
+    "survey_bias": [
+      1.3959859180355672e-05,
+      -3.1441421103432844e-05,
+      -9.500621516507997e-05
+    ],
+    "artifact_scale": 4.846432093314034e-06,
+    "encoder": {
+      "scale_error": -0.00031187127051118,
+      "cyclic_amplitude_m": 4.988683482297899e-05,
+      "phase_rad": 4.017192901648395,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00020570686138184248,
+      0.00022486345769897532,
+      -0.0001361630948902547
+    ],
+    "tool_rotation_rad": [
+      0.0031692702784787926,
+      0.0014129284699034616,
+      -0.0010334964963923333
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 13,
+    "registration_translation": [
+      -0.00017524980533123845,
+      0.0003726993454438605,
+      -0.00043119561405373987
+    ],
+    "registration_rotation_rad": [
+      0.0008410949685330306,
+      -0.0006858417456643535,
+      -0.00031261462977337463
+    ],
+    "survey_bias": [
+      -9.233185292894622e-05,
+      -6.192520852415317e-05,
+      -7.206661527361629e-05
+    ],
+    "artifact_scale": 5.080243090552754e-05,
+    "encoder": {
+      "scale_error": 0.00044375329490606264,
+      "cyclic_amplitude_m": 1.3802133512498738e-05,
+      "phase_rad": 0.05188392524181619,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      7.986780909166247e-05,
+      -0.0003346817420402266,
+      0.00029912892964932195
+    ],
+    "tool_rotation_rad": [
+      -0.0002597269685661,
+      -0.001397227900708856,
+      0.0025574624161768143
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 14,
+    "registration_translation": [
+      -0.00031957432448351486,
+      -0.0002367415686610127,
+      0.00018468834093758512
+    ],
+    "registration_rotation_rad": [
+      0.0002262310067428057,
+      -0.00010842297383237599,
+      -0.0008481995975320505
+    ],
+    "survey_bias": [
+      4.9193111935828894e-05,
+      7.171559498283076e-06,
+      -5.162294178847633e-05
+    ],
+    "artifact_scale": -1.0729992006222332e-05,
+    "encoder": {
+      "scale_error": -0.000307426326140852,
+      "cyclic_amplitude_m": 4.615875711491558e-05,
+      "phase_rad": 1.230079292609737,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.00014980465290259515,
+      -0.0003605734114254812,
+      0.00012475756683804484
+    ],
+    "tool_rotation_rad": [
+      8.769215488165257e-06,
+      0.0032046398932406815,
+      0.002574974826785744
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 15,
+    "registration_translation": [
+      0.000246667526747579,
+      -0.0001670913805293828,
+      0.00044081840128422156
+    ],
+    "registration_rotation_rad": [
+      0.0006423382459315758,
+      0.0003700271250426548,
+      -0.0007454406749501605
+    ],
+    "survey_bias": [
+      -7.688433570649576e-05,
+      7.192667402471414e-05,
+      -9.241202345689377e-05
+    ],
+    "artifact_scale": -3.313526740897945e-05,
+    "encoder": {
+      "scale_error": 0.00048814316686589384,
+      "cyclic_amplitude_m": 1.9550451488972365e-05,
+      "phase_rad": 4.109126086870017,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00020491051457390585,
+      -1.174229610093669e-05,
+      0.00020119301739119478
+    ],
+    "tool_rotation_rad": [
+      0.0015294416611833861,
+      -0.002421057991278396,
+      -0.0010071314766819113
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 16,
+    "registration_translation": [
+      0.0004034474934671352,
+      0.00023479242112194667,
+      -0.00023577610540568585
+    ],
+    "registration_rotation_rad": [
+      0.0002582617376381814,
+      0.0008483745016374301,
+      0.000659889205061391
+    ],
+    "survey_bias": [
+      -5.682533222491129e-05,
+      8.618239146339712e-05,
+      6.6516394691833e-05
+    ],
+    "artifact_scale": 5.020165702622794e-05,
+    "encoder": {
+      "scale_error": -0.0001904958735877268,
+      "cyclic_amplitude_m": 7.107493624472516e-06,
+      "phase_rad": 5.2288178233731255,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -9.09885426638023e-05,
+      -0.0004443627165607672,
+      -0.0002877058099521581
+    ],
+    "tool_rotation_rad": [
+      -0.001006860252300428,
+      0.002213885185210185,
+      0.001064688798302993
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 17,
+    "registration_translation": [
+      0.0001788775406897444,
+      0.0003127595339786492,
+      0.0004253547931307032
+    ],
+    "registration_rotation_rad": [
+      -0.00042177281982885807,
+      -0.0008688091506281054,
+      -0.000540655732352139
+    ],
+    "survey_bias": [
+      -3.0598102927277426e-05,
+      -9.699096527552545e-05,
+      -1.1613072187867046e-05
+    ],
+    "artifact_scale": 5.5993359742442904e-05,
+    "encoder": {
+      "scale_error": -0.0003151324038681029,
+      "cyclic_amplitude_m": 7.698834903841634e-06,
+      "phase_rad": 3.337267738023575,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.0002887807619851224,
+      0.00012976038924679723,
+      0.00047385527897938465
+    ],
+    "tool_rotation_rad": [
+      0.0010126768865040216,
+      0.0015841410619400287,
+      0.0031889952074324046
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 18,
+    "registration_translation": [
+      0.0004970559808896136,
+      -0.00036290438351180147,
+      -0.00037089336911849425
+    ],
+    "registration_rotation_rad": [
+      0.00028044972631404975,
+      0.00034475463676181836,
+      0.0008671321661593986
+    ],
+    "survey_bias": [
+      -3.7992677139782984e-05,
+      -3.175877192131202e-05,
+      -2.3822447416163597e-05
+    ],
+    "artifact_scale": 9.682869855773348e-05,
+    "encoder": {
+      "scale_error": -5.669883724620839e-05,
+      "cyclic_amplitude_m": 4.40271860564586e-05,
+      "phase_rad": 4.045016620399278,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00042352311673791976,
+      -0.0001995842360934994,
+      -0.0001486904337670828
+    ],
+    "tool_rotation_rad": [
+      0.0015229429290288408,
+      -0.0013863176848152331,
+      -2.6562970767162962e-05
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 19,
+    "registration_translation": [
+      -0.0003578607075847278,
+      -0.0004182645214381373,
+      -0.00029046935902611446
+    ],
+    "registration_rotation_rad": [
+      -0.0006903947371779939,
+      -0.0001533676393192763,
+      -0.0005154641190157083
+    ],
+    "survey_bias": [
+      2.929523941226806e-05,
+      -5.4132401413934186e-05,
+      -2.705667322142509e-05
+    ],
+    "artifact_scale": -3.3873097911752435e-05,
+    "encoder": {
+      "scale_error": -6.628552894256888e-05,
+      "cyclic_amplitude_m": 5.418177883903147e-05,
+      "phase_rad": 1.6306656386249716,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      0.00024236135285105975,
+      0.0001932059801607383,
+      -0.00036364925595269894
+    ],
+    "tool_rotation_rad": [
+      0.0010585879495345182,
+      -0.001975465864834885,
+      0.0007471961757775715
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 20,
+    "registration_translation": [
+      -0.00027870312935998853,
+      0.00036109555802236716,
+      0.00019571406589681263
+    ],
+    "registration_rotation_rad": [
+      -0.00021309172012496448,
+      0.0003156432095847956,
+      0.0005741967154398943
+    ],
+    "survey_bias": [
+      9.089640997690711e-05,
+      1.5697704661057422e-05,
+      6.855373026312073e-05
+    ],
+    "artifact_scale": 7.542589311751422e-05,
+    "encoder": {
+      "scale_error": 7.605873326612255e-05,
+      "cyclic_amplitude_m": 9.16841031846557e-06,
+      "phase_rad": 1.0679734561253762,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0003509924499528639,
+      0.00037979420219434,
+      -0.00029805799829060676
+    ],
+    "tool_rotation_rad": [
+      0.0015872297663961984,
+      -0.0032056011161203514,
+      0.0033461535763574793
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 21,
+    "registration_translation": [
+      0.00012529391995375272,
+      -5.403175587641373e-05,
+      6.669740558342951e-05
+    ],
+    "registration_rotation_rad": [
+      0.00029419853040306383,
+      8.136921093232972e-05,
+      0.0005284857590782673
+    ],
+    "survey_bias": [
+      -9.834092243573925e-05,
+      6.309195182951e-05,
+      1.0732045897909349e-05
+    ],
+    "artifact_scale": 1.48856553597845e-05,
+    "encoder": {
+      "scale_error": -0.0001857887303315142,
+      "cyclic_amplitude_m": 3.618761267481294e-05,
+      "phase_rad": 2.9219135899421698,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -0.0001383669767965401,
+      -0.0003233125135431698,
+      -0.00022649241762294026
+    ],
+    "tool_rotation_rad": [
+      -0.0013091946336602437,
+      -0.0019266325695502715,
+      -0.0007834002189413363
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 22,
+    "registration_translation": [
+      -0.00011349120006350977,
+      -0.00040865287470860477,
+      -0.0003601751615265236
+    ],
+    "registration_rotation_rad": [
+      -0.000580901065848528,
+      0.00027706655232794984,
+      7.199946413132295e-05
+    ],
+    "survey_bias": [
+      -4.331189150378512e-05,
+      -9.51927631982004e-05,
+      -8.146073848422486e-05
+    ],
+    "artifact_scale": -5.906247508041085e-05,
+    "encoder": {
+      "scale_error": -0.0003159428250338893,
+      "cyclic_amplitude_m": 5.934390391784454e-05,
+      "phase_rad": 3.547832432013697,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -6.51040963839733e-05,
+      -0.0003671122253064139,
+      0.0003401640183314255
+    ],
+    "tool_rotation_rad": [
+      7.744561574780531e-05,
+      -0.0014616729329501598,
+      -0.0032603743447484983
+    ]
+  },
+  {
+    "scenario": "combined_survey_outlier",
+    "session": 23,
+    "registration_translation": [
+      0.0002801355789708644,
+      0.00022577466737946661,
+      0.00012951652067629417
+    ],
+    "registration_rotation_rad": [
+      0.00030470107902889817,
+      -0.0007635949582406391,
+      0.0008215203529150233
+    ],
+    "survey_bias": [
+      -6.492360289626286e-05,
+      8.774993944093184e-05,
+      -1.41630442513494e-06
+    ],
+    "artifact_scale": -8.449696981218564e-05,
+    "encoder": {
+      "scale_error": -6.687172609389779e-07,
+      "cyclic_amplitude_m": 3.982820734858854e-05,
+      "phase_rad": 4.308510108042951,
+      "cyclic_period_m": 0.12566370614359174,
+      "tick_m": 0.0001
+    },
+    "tool_translation": [
+      -3.066372361430447e-05,
+      0.0002959876312633425,
+      -0.0002564268713402067
+    ],
+    "tool_rotation_rad": [
+      -0.0028671373746666467,
+      0.0007081992300692867,
+      0.0022508148872783557
+    ]
+  }
+]

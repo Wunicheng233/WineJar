@@ -1,0 +1,9 @@
+{
+  "seed": 2026102981,
+  "condition": "kinematic_bad_image",
+  "all_cases_and_methods_exported": true,
+  "supplementary_simple_controls_included": true,
+  "static_arrival_only_no_validated_motion_or_collision": true,
+  "true_kinematic_geometry_used_only_for_rendering_and_scoring": true,
+  "source_script_sha256": "16265c63a092d65d70d64bdf3078e84237d4a6c2ad3ffee0769901ae89cc99d4"
+}

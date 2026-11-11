@@ -1,0 +1,6 @@
+{
+  "preprocessing": {
+    "condition": "stereo_raw",
+    "kind": "frozen_active_stereo_observations"
+  }
+}

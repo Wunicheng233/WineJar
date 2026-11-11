@@ -1,0 +1,72 @@
+[
+  {
+    "condition": "far/ideal_rgb",
+    "label": "远·理想",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/ideal_rgb/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/ideal_rgb/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "far/stereo_raw",
+    "label": "远·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/stereo_raw/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/stereo_raw/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "far/narrow5",
+    "label": "远·窄窗",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/narrow5/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/narrow5/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "far/local3",
+    "label": "远·小窗",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/local3/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/local3/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "far/phase_calibrated",
+    "label": "远·相位校正",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/phase_calibrated/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/far/phase_calibrated/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "close/ideal_rgb",
+    "label": "近·理想",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/ideal_rgb/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/ideal_rgb/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "close/stereo_raw",
+    "label": "近·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/stereo_raw/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/stereo_raw/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "close/narrow5",
+    "label": "近·窄窗",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/narrow5/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/narrow5/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "close/local3",
+    "label": "近·小窗",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/local3/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/local3/records.json.gz",
+    "method": "portfolio"
+  },
+  {
+    "condition": "close/phase_calibrated",
+    "label": "近·相位校正",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/phase_calibrated/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/structural_stage_20261025_viewer/close/phase_calibrated/records.json.gz",
+    "method": "portfolio"
+  }
+]

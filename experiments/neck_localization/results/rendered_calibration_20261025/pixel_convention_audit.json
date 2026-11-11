@@ -1,0 +1,29 @@
+{
+  "cam_a": {
+    "correct_integer_centre_rms_px": 0.11147792170609881,
+    "without_cx_cy_minus_half_rms_px": 0.7119988886899357,
+    "signed_mean_error_xy_px": [
+      0.0053758191186189,
+      0.00010909041358877934
+    ],
+    "sapien_model_matrix_assertion": "passed_every_capture"
+  },
+  "cam_b": {
+    "correct_integer_centre_rms_px": 0.11121570079710315,
+    "without_cx_cy_minus_half_rms_px": 0.7122813769558415,
+    "signed_mean_error_xy_px": [
+      0.004969779243147456,
+      5.439290253373588e-05
+    ],
+    "sapien_model_matrix_assertion": "passed_every_capture"
+  },
+  "cam_c": {
+    "correct_integer_centre_rms_px": 0.11136517824625833,
+    "without_cx_cy_minus_half_rms_px": 0.7120945071664059,
+    "signed_mean_error_xy_px": [
+      0.005302081760513554,
+      2.1534028740787732e-05
+    ],
+    "sapien_model_matrix_assertion": "passed_every_capture"
+  }
+}

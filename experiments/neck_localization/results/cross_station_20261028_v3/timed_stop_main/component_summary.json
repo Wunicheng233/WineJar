@@ -1,0 +1,4610 @@
+[
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.697467863559723,
+      "p95": 2.480620861053467,
+      "max": 2.530301332473755
+    },
+    "tangent_mm": {
+      "median": 0.3458392918109894,
+      "p95": 1.482719898223877,
+      "max": 1.6614173650741577
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.014554182067513466,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7972885370254517,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6188921332359314,
+      "p95": 2.895357847213745,
+      "max": 3.293884754180908
+    },
+    "tangent_mm": {
+      "median": 0.6925512850284576,
+      "p95": 1.6702395677566528,
+      "max": 2.552882194519043
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06933996826410294,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2270879745483398,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7192556858062744,
+      "p95": 2.544534206390381,
+      "max": 2.6796770095825195
+    },
+    "tangent_mm": {
+      "median": 0.33353060483932495,
+      "p95": 1.5211279392242432,
+      "max": 1.7786850929260254
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.001934991916641593,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8126429915428162,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6974700093269348,
+      "p95": 2.4828938961029055,
+      "max": 2.531315565109253
+    },
+    "tangent_mm": {
+      "median": 0.34648121893405914,
+      "p95": 1.515776515007019,
+      "max": 1.707467794418335
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.014713986776769161,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8150122761726379,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2326544523239136,
+      "p95": 2.486710262298584,
+      "max": 2.5484983921051025
+    },
+    "tangent_mm": {
+      "median": 0.3695366829633713,
+      "p95": 0.9151327788829803,
+      "max": 1.0113755464553833
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13315464556217194,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8034330010414124,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2326544523239136,
+      "p95": 2.486710262298584,
+      "max": 2.5484983921051025
+    },
+    "tangent_mm": {
+      "median": 0.3695366829633713,
+      "p95": 0.9151327788829803,
+      "max": 1.0113755464553833
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13315464556217194,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8034330010414124,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2326544523239136,
+      "p95": 2.486710262298584,
+      "max": 2.5484983921051025
+    },
+    "tangent_mm": {
+      "median": 0.3695366829633713,
+      "p95": 0.9151327788829803,
+      "max": 1.0113755464553833
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13315464556217194,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8034330010414124,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6178044080734253,
+      "p95": 2.895770919322967,
+      "max": 3.2948906421661377
+    },
+    "tangent_mm": {
+      "median": 0.6944304704666138,
+      "p95": 1.6652867436408985,
+      "max": 2.6310150623321533
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06948474049568176,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2456822395324707,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3040558099746704,
+      "p95": 2.7158428788185116,
+      "max": 3.254545211791992
+    },
+    "tangent_mm": {
+      "median": 0.6607916057109833,
+      "p95": 1.4608114600181576,
+      "max": 2.1982297897338867
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18793384730815887,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3040125370025635,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3040558099746704,
+      "p95": 2.7158428788185116,
+      "max": 3.254545211791992
+    },
+    "tangent_mm": {
+      "median": 0.6607916057109833,
+      "p95": 1.4608114600181576,
+      "max": 2.1982297897338867
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18793384730815887,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3040125370025635,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3040558099746704,
+      "p95": 2.7158428788185116,
+      "max": 3.254545211791992
+    },
+    "tangent_mm": {
+      "median": 0.6607916057109833,
+      "p95": 1.4608114600181576,
+      "max": 2.1982297897338867
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18793384730815887,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3040125370025635,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.714420735836029,
+      "p95": 2.5446165442466735,
+      "max": 2.680683135986328
+    },
+    "tangent_mm": {
+      "median": 0.34502696990966797,
+      "p95": 1.526291674375534,
+      "max": 1.8294953107833862
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.0020818235352635384,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8272905945777893,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2703917622566223,
+      "p95": 2.522419846057892,
+      "max": 2.69331431388855
+    },
+    "tangent_mm": {
+      "median": 0.38445816934108734,
+      "p95": 0.9752078920602798,
+      "max": 1.1911265850067139
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12051763385534286,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8369020819664001,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2703917622566223,
+      "p95": 2.522419846057892,
+      "max": 2.69331431388855
+    },
+    "tangent_mm": {
+      "median": 0.38445816934108734,
+      "p95": 0.9752078920602798,
+      "max": 1.1911265850067139
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12051763385534286,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8369020819664001,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2703917622566223,
+      "p95": 2.522419846057892,
+      "max": 2.69331431388855
+    },
+    "tangent_mm": {
+      "median": 0.38445816934108734,
+      "p95": 0.9752078920602798,
+      "max": 1.1911265850067139
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12051763385534286,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8369020819664001,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6975800395011902,
+      "p95": 2.486303210258484,
+      "max": 2.532836675643921
+    },
+    "tangent_mm": {
+      "median": 0.35049615800380707,
+      "p95": 1.569977658987045,
+      "max": 1.78481924533844
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.01493115071207285,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8471158146858215,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2326552271842957,
+      "p95": 2.4901198148727417,
+      "max": 2.552889108657837
+    },
+    "tangent_mm": {
+      "median": 0.3954571783542633,
+      "p95": 0.9921964943408964,
+      "max": 1.1584553718566895
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13337156176567078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8726358413696289,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2326552271842957,
+      "p95": 2.4901198148727417,
+      "max": 2.552889108657837
+    },
+    "tangent_mm": {
+      "median": 0.3954571783542633,
+      "p95": 0.9921964943408964,
+      "max": 1.1584553718566895
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13337156176567078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8726358413696289,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2326552271842957,
+      "p95": 2.4901198148727417,
+      "max": 2.552889108657837
+    },
+    "tangent_mm": {
+      "median": 0.3954571783542633,
+      "p95": 0.9921964943408964,
+      "max": 1.1584553718566895
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13337156176567078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8726358413696289,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6162303686141968,
+      "p95": 2.896390712261198,
+      "max": 3.2963998317718506
+    },
+    "tangent_mm": {
+      "median": 0.7008769512176514,
+      "p95": 1.6787901103496543,
+      "max": 2.7507073879241943
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06970169395208359,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2535303831100464,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3035253882408142,
+      "p95": 2.71687833070755,
+      "max": 3.2589011192321777
+    },
+    "tangent_mm": {
+      "median": 0.6748856902122498,
+      "p95": 1.4900393366813656,
+      "max": 2.341776132583618
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18815124034881592,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3183954954147339,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3035253882408142,
+      "p95": 2.71687833070755,
+      "max": 3.2589011192321777
+    },
+    "tangent_mm": {
+      "median": 0.6748856902122498,
+      "p95": 1.4900393366813656,
+      "max": 2.341776132583618
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18815124034881592,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3183954954147339,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3035253882408142,
+      "p95": 2.71687833070755,
+      "max": 3.2589011192321777
+    },
+    "tangent_mm": {
+      "median": 0.6748856902122498,
+      "p95": 1.4900393366813656,
+      "max": 2.341776132583618
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18815124034881592,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3183954954147339,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7115235924720764,
+      "p95": 2.543785071372986,
+      "max": 2.682192325592041
+    },
+    "tangent_mm": {
+      "median": 0.37271761894226074,
+      "p95": 1.5290848195552815,
+      "max": 1.9127612113952637
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.002298640785738826,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8658092021942139,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2703309655189514,
+      "p95": 2.5223640203475948,
+      "max": 2.6976699829101562
+    },
+    "tangent_mm": {
+      "median": 0.4322206974029541,
+      "p95": 1.0224394977092743,
+      "max": 1.3313320875167847
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.1207352727651596,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8912097811698914,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2703309655189514,
+      "p95": 2.5223640203475948,
+      "max": 2.6976699829101562
+    },
+    "tangent_mm": {
+      "median": 0.4322206974029541,
+      "p95": 1.0224394977092743,
+      "max": 1.3313320875167847
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.1207352727651596,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8912097811698914,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2703309655189514,
+      "p95": 2.5223640203475948,
+      "max": 2.6976699829101562
+    },
+    "tangent_mm": {
+      "median": 0.4322206974029541,
+      "p95": 1.0224394977092743,
+      "max": 1.3313320875167847
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.1207352727651596,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8912097811698914,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.697054147720337,
+      "p95": 2.4919856905937197,
+      "max": 2.535372018814087
+    },
+    "tangent_mm": {
+      "median": 0.4397480934858322,
+      "p95": 1.562077015638351,
+      "max": 1.932770848274231
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.015292702242732048,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.9740474820137024,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2336222529411316,
+      "p95": 2.495802164077759,
+      "max": 2.560206890106201
+    },
+    "tangent_mm": {
+      "median": 0.4969813674688339,
+      "p95": 1.142226618528366,
+      "max": 1.4037978649139404
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.1337336003780365,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0267102718353271,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2336222529411316,
+      "p95": 2.495802164077759,
+      "max": 2.560206890106201
+    },
+    "tangent_mm": {
+      "median": 0.4969813674688339,
+      "p95": 1.142226618528366,
+      "max": 1.4037978649139404
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.1337336003780365,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0267102718353271,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2336222529411316,
+      "p95": 2.495802164077759,
+      "max": 2.560206890106201
+    },
+    "tangent_mm": {
+      "median": 0.4969813674688339,
+      "p95": 1.142226618528366,
+      "max": 1.4037978649139404
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.1337336003780365,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0267102718353271,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6197105050086975,
+      "p95": 2.8962390065193175,
+      "max": 3.298915147781372
+    },
+    "tangent_mm": {
+      "median": 0.741584300994873,
+      "p95": 1.74452474117279,
+      "max": 2.9559407234191895
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.07006384432315826,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3289096355438232,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.302781343460083,
+      "p95": 2.719887721538543,
+      "max": 3.266160726547241
+    },
+    "tangent_mm": {
+      "median": 0.7205953598022461,
+      "p95": 1.5773698389530182,
+      "max": 2.581895112991333
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18851238489151,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4063435792922974,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.302781343460083,
+      "p95": 2.719887721538543,
+      "max": 3.266160726547241
+    },
+    "tangent_mm": {
+      "median": 0.7205953598022461,
+      "p95": 1.5773698389530182,
+      "max": 2.581895112991333
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18851238489151,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4063435792922974,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.302781343460083,
+      "p95": 2.719887721538543,
+      "max": 3.266160726547241
+    },
+    "tangent_mm": {
+      "median": 0.7205953598022461,
+      "p95": 1.5773698389530182,
+      "max": 2.581895112991333
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18851238489151,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4063435792922974,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7119959592819214,
+      "p95": 2.542539846897125,
+      "max": 2.6847074031829834
+    },
+    "tangent_mm": {
+      "median": 0.4600650668144226,
+      "p95": 1.5374531030654903,
+      "max": 2.0677523612976074
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.002660407219082117,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.9797292947769165,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2733505368232727,
+      "p95": 2.522412109375,
+      "max": 2.7049295902252197
+    },
+    "tangent_mm": {
+      "median": 0.5002466142177582,
+      "p95": 1.160018783807754,
+      "max": 1.565022349357605
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12109654396772385,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0334419012069702,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2733505368232727,
+      "p95": 2.522412109375,
+      "max": 2.7049295902252197
+    },
+    "tangent_mm": {
+      "median": 0.5002466142177582,
+      "p95": 1.160018783807754,
+      "max": 1.565022349357605
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12109654396772385,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0334419012069702,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2733505368232727,
+      "p95": 2.522412109375,
+      "max": 2.7049295902252197
+    },
+    "tangent_mm": {
+      "median": 0.5002466142177582,
+      "p95": 1.160018783807754,
+      "max": 1.565022349357605
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12109654396772385,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0334419012069702,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6988890171051025,
+      "p95": 2.503350389003754,
+      "max": 2.540442705154419
+    },
+    "tangent_mm": {
+      "median": 0.6737029552459717,
+      "p95": 1.6580867767333984,
+      "max": 2.2825217247009277
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.016015857458114624,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      1.287384033203125,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2443833947181702,
+      "p95": 2.5071669936180117,
+      "max": 2.5748424530029297
+    },
+    "tangent_mm": {
+      "median": 0.6532294154167175,
+      "p95": 1.484871447086333,
+      "max": 1.894901990890503
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.134456604719162,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3695772886276245,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2443833947181702,
+      "p95": 2.5071669936180117,
+      "max": 2.5748424530029297
+    },
+    "tangent_mm": {
+      "median": 0.6532294154167175,
+      "p95": 1.484871447086333,
+      "max": 1.894901990890503
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.134456604719162,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3695772886276245,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2443833947181702,
+      "p95": 2.5071669936180117,
+      "max": 2.5748424530029297
+    },
+    "tangent_mm": {
+      "median": 0.6532294154167175,
+      "p95": 1.484871447086333,
+      "max": 1.894901990890503
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.134456604719162,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3695772886276245,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.621547281742096,
+      "p95": 2.8961075663566582,
+      "max": 3.303945541381836
+    },
+    "tangent_mm": {
+      "median": 0.8481262922286987,
+      "p95": 1.935397124290465,
+      "max": 3.3831939697265625
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.07078679651021957,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.5920941829681396,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2973093390464783,
+      "p95": 2.7287276744842526,
+      "max": 3.280679702758789
+    },
+    "tangent_mm": {
+      "median": 0.8168436288833618,
+      "p95": 1.8213981270790098,
+      "max": 3.064487934112549
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1892351359128952,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6691510677337646,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2973093390464783,
+      "p95": 2.7287276744842526,
+      "max": 3.280679702758789
+    },
+    "tangent_mm": {
+      "median": 0.8168436288833618,
+      "p95": 1.8213981270790098,
+      "max": 3.064487934112549
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1892351359128952,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6691510677337646,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2973093390464783,
+      "p95": 2.7287276744842526,
+      "max": 3.280679702758789
+    },
+    "tangent_mm": {
+      "median": 0.8168436288833618,
+      "p95": 1.8213981270790098,
+      "max": 3.064487934112549
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1892351359128952,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6691510677337646,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7168576121330261,
+      "p95": 2.540768277645111,
+      "max": 2.6897380352020264
+    },
+    "tangent_mm": {
+      "median": 0.6747216582298279,
+      "p95": 1.6626697003841393,
+      "max": 2.4239468574523926
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.003383497940376401,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      1.299728512763977,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2816949486732483,
+      "p95": 2.523058116436004,
+      "max": 2.7194488048553467
+    },
+    "tangent_mm": {
+      "median": 0.6499247550964355,
+      "p95": 1.4895047247409818,
+      "max": 2.0324349403381348
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12182052433490753,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3682973384857178,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2816949486732483,
+      "p95": 2.523058116436004,
+      "max": 2.7194488048553467
+    },
+    "tangent_mm": {
+      "median": 0.6499247550964355,
+      "p95": 1.4895047247409818,
+      "max": 2.0324349403381348
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12182052433490753,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3682973384857178,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2816949486732483,
+      "p95": 2.523058116436004,
+      "max": 2.7194488048553467
+    },
+    "tangent_mm": {
+      "median": 0.6499247550964355,
+      "p95": 1.4895047247409818,
+      "max": 2.0324349403381348
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12182052433490753,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3682973384857178,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7240731120109558,
+      "p95": 2.5141218662261964,
+      "max": 2.550584316253662
+    },
+    "tangent_mm": {
+      "median": 1.0959889888763428,
+      "p95": 2.252950847148892,
+      "max": 3.107334852218628
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.017462732270359993,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      2.061094284057617,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2622759342193604,
+      "p95": 2.508662474155426,
+      "max": 2.6041135787963867
+    },
+    "tangent_mm": {
+      "median": 1.0097402930259705,
+      "p95": 2.2370987057685845,
+      "max": 2.8777854442596436
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13590304553508759,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.146117925643921,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2622759342193604,
+      "p95": 2.508662474155426,
+      "max": 2.6041135787963867
+    },
+    "tangent_mm": {
+      "median": 1.0097402930259705,
+      "p95": 2.2370987057685845,
+      "max": 2.8777854442596436
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13590304553508759,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.146117925643921,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2622759342193604,
+      "p95": 2.508662474155426,
+      "max": 2.6041135787963867
+    },
+    "tangent_mm": {
+      "median": 1.0097402930259705,
+      "p95": 2.2370987057685845,
+      "max": 2.8777854442596436
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13590304553508759,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.146117925643921,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.630797266960144,
+      "p95": 2.89586466550827,
+      "max": 3.3140063285827637
+    },
+    "tangent_mm": {
+      "median": 1.195396363735199,
+      "p95": 2.504788208007812,
+      "max": 4.280999183654785
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.0722336694598198,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      2.3436119556427,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2927082777023315,
+      "p95": 2.727786242961883,
+      "max": 3.309718132019043
+    },
+    "tangent_mm": {
+      "median": 1.1371209025382996,
+      "p95": 2.492756557464599,
+      "max": 4.0480756759643555
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.19068144261837006,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.397345542907715,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2927082777023315,
+      "p95": 2.727786242961883,
+      "max": 3.309718132019043
+    },
+    "tangent_mm": {
+      "median": 1.1371209025382996,
+      "p95": 2.492756557464599,
+      "max": 4.0480756759643555
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.19068144261837006,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.397345542907715,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2927082777023315,
+      "p95": 2.727786242961883,
+      "max": 3.309718132019043
+    },
+    "tangent_mm": {
+      "median": 1.1371209025382996,
+      "p95": 2.492756557464599,
+      "max": 4.0480756759643555
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.19068144261837006,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.397345542907715,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.72530996799469,
+      "p95": 2.5414641857147213,
+      "max": 2.699798822402954
+    },
+    "tangent_mm": {
+      "median": 1.1041548252105713,
+      "p95": 2.268823599815366,
+      "max": 3.246455192565918
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.004830292891710997,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      2.0852572917938232,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3075739741325378,
+      "p95": 2.5214967250823968,
+      "max": 2.7484869956970215
+    },
+    "tangent_mm": {
+      "median": 1.0169304013252258,
+      "p95": 2.2404937505722042,
+      "max": 2.9976308345794678
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12326715886592865,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.1453773975372314,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3075739741325378,
+      "p95": 2.5214967250823968,
+      "max": 2.7484869956970215
+    },
+    "tangent_mm": {
+      "median": 1.0169304013252258,
+      "p95": 2.2404937505722042,
+      "max": 2.9976308345794678
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12326715886592865,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.1453773975372314,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3075739741325378,
+      "p95": 2.5214967250823968,
+      "max": 2.7484869956970215
+    },
+    "tangent_mm": {
+      "median": 1.0169304013252258,
+      "p95": 2.2404937505722042,
+      "max": 2.9976308345794678
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12326715886592865,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.1453773975372314,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.697467863559723,
+      "p95": 2.480620861053467,
+      "max": 2.530301332473755
+    },
+    "tangent_mm": {
+      "median": 0.3458392918109894,
+      "p95": 1.482719898223877,
+      "max": 1.6614173650741577
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.014554182067513466,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7972885370254517,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2326539754867554,
+      "p95": 2.4844374656677246,
+      "max": 2.5455713272094727
+    },
+    "tangent_mm": {
+      "median": 0.36861833930015564,
+      "p95": 0.9105620980262756,
+      "max": 0.913402795791626
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13301002979278564,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.7842176556587219,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6188921332359314,
+      "p95": 2.895357847213745,
+      "max": 3.293884754180908
+    },
+    "tangent_mm": {
+      "median": 0.6925512850284576,
+      "p95": 1.6702395677566528,
+      "max": 2.552882194519043
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06933996826410294,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2270879745483398,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3052464127540588,
+      "p95": 2.715320110321045,
+      "max": 3.2516415119171143
+    },
+    "tangent_mm": {
+      "median": 0.6629482209682465,
+      "p95": 1.4479295015335083,
+      "max": 2.1028010845184326
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18778778612613678,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.311764121055603,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7192556858062744,
+      "p95": 2.544534206390381,
+      "max": 2.6796770095825195
+    },
+    "tangent_mm": {
+      "median": 0.33353060483932495,
+      "p95": 1.5211279392242432,
+      "max": 1.7786850929260254
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      -0.001934991916641593,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8126429915428162,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2730255126953125,
+      "p95": 2.521389961242676,
+      "max": 2.6904103755950928
+    },
+    "tangent_mm": {
+      "median": 0.38038505613803864,
+      "p95": 0.9625304341316223,
+      "max": 1.0976613759994507
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.12037692964076996,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8311250805854797,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6946390867233276,
+      "p95": 2.4826712369918824,
+      "max": 2.5318875312805176
+    },
+    "tangent_mm": {
+      "median": 0.346179723739624,
+      "p95": 1.512393361330032,
+      "max": 1.7354475259780884
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.01251151692122221,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8177679777145386,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2320175170898438,
+      "p95": 2.486487603187561,
+      "max": 2.550149917602539
+    },
+    "tangent_mm": {
+      "median": 0.36916929483413696,
+      "p95": 0.9169899016618728,
+      "max": 1.0981999635696411
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13095207512378693,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.801256537437439,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2320175170898438,
+      "p95": 2.486487603187561,
+      "max": 2.550149917602539
+    },
+    "tangent_mm": {
+      "median": 0.36916929483413696,
+      "p95": 0.9169899016618728,
+      "max": 1.0981999635696411
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13095207512378693,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.801256537437439,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2320175170898438,
+      "p95": 2.486487603187561,
+      "max": 2.550149917602539
+    },
+    "tangent_mm": {
+      "median": 0.36916929483413696,
+      "p95": 0.9169899016618728,
+      "max": 1.0981999635696411
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.13095207512378693,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.801256537437439,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6186662912368774,
+      "p95": 2.8959665179252623,
+      "max": 3.2951858043670654
+    },
+    "tangent_mm": {
+      "median": 0.6926928460597992,
+      "p95": 1.6625184893608076,
+      "max": 2.677089214324951
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06728290766477585,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2402832508087158,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3044400215148926,
+      "p95": 2.7157071352005,
+      "max": 3.255396842956543
+    },
+    "tangent_mm": {
+      "median": 0.6604576706886292,
+      "p95": 1.4541020035743712,
+      "max": 2.2538387775421143
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18573080003261566,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2989842891693115,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3044400215148926,
+      "p95": 2.7157071352005,
+      "max": 3.255396842956543
+    },
+    "tangent_mm": {
+      "median": 0.6604576706886292,
+      "p95": 1.4541020035743712,
+      "max": 2.2538387775421143
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18573080003261566,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2989842891693115,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3044400215148926,
+      "p95": 2.7157071352005,
+      "max": 3.255396842956543
+    },
+    "tangent_mm": {
+      "median": 0.6604576706886292,
+      "p95": 1.4541020035743712,
+      "max": 2.2538387775421143
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18573080003261566,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2989842891693115,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7141265273094177,
+      "p95": 2.544551062583923,
+      "max": 2.680978298187256
+    },
+    "tangent_mm": {
+      "median": 0.3468484878540039,
+      "p95": 1.5248293280601501,
+      "max": 1.8608245849609375
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      0.00012056282866979018,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8274126648902893,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2722086906433105,
+      "p95": 2.521420812606811,
+      "max": 2.6941659450531006
+    },
+    "tangent_mm": {
+      "median": 0.38826240599155426,
+      "p95": 0.976625370979309,
+      "max": 1.2609434127807617
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11831600964069366,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8407188057899475,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2722086906433105,
+      "p95": 2.521420812606811,
+      "max": 2.6941659450531006
+    },
+    "tangent_mm": {
+      "median": 0.38826240599155426,
+      "p95": 0.976625370979309,
+      "max": 1.2609434127807617
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11831600964069366,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8407188057899475,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2722086906433105,
+      "p95": 2.521420812606811,
+      "max": 2.6941659450531006
+    },
+    "tangent_mm": {
+      "median": 0.38826240599155426,
+      "p95": 0.976625370979309,
+      "max": 1.2609434127807617
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11831600964069366,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8407188057899475,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6948883533477783,
+      "p95": 2.485746443271637,
+      "max": 2.534266948699951
+    },
+    "tangent_mm": {
+      "median": 0.35889580845832825,
+      "p95": 1.5533151090145105,
+      "max": 1.8656233549118042
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.009425170719623566,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8445756435394287,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2310628294944763,
+      "p95": 2.4895630478858948,
+      "max": 2.5570175647735596
+    },
+    "tangent_mm": {
+      "median": 0.418724924325943,
+      "p95": 0.9833632826805114,
+      "max": 1.3757284879684448
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12786579132080078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8634328246116638,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2310628294944763,
+      "p95": 2.4895630478858948,
+      "max": 2.5570175647735596
+    },
+    "tangent_mm": {
+      "median": 0.418724924325943,
+      "p95": 0.9833632826805114,
+      "max": 1.3757284879684448
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12786579132080078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8634328246116638,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2310628294944763,
+      "p95": 2.4895630478858948,
+      "max": 2.5570175647735596
+    },
+    "tangent_mm": {
+      "median": 0.418724924325943,
+      "p95": 0.9833632826805114,
+      "max": 1.3757284879684448
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12786579132080078,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8634328246116638,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.617942214012146,
+      "p95": 2.8965505242347716,
+      "max": 3.297137498855591
+    },
+    "tangent_mm": {
+      "median": 0.6986677050590515,
+      "p95": 1.6715370059013361,
+      "max": 2.8692808151245117
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.06419599801301956,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.2517856359481812,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3041056394577026,
+      "p95": 2.716575729846954,
+      "max": 3.2610299587249756
+    },
+    "tangent_mm": {
+      "median": 0.6725062429904938,
+      "p95": 1.4835249125957488,
+      "max": 2.481323480606079
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18264493346214294,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.309170126914978,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3041056394577026,
+      "p95": 2.716575729846954,
+      "max": 3.2610299587249756
+    },
+    "tangent_mm": {
+      "median": 0.6725062429904938,
+      "p95": 1.4835249125957488,
+      "max": 2.481323480606079
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18264493346214294,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.309170126914978,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3041056394577026,
+      "p95": 2.716575729846954,
+      "max": 3.2610299587249756
+    },
+    "tangent_mm": {
+      "median": 0.6725062429904938,
+      "p95": 1.4835249125957488,
+      "max": 2.481323480606079
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.18264493346214294,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.309170126914978,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7109025716781616,
+      "p95": 2.543872392177582,
+      "max": 2.6829299926757812
+    },
+    "tangent_mm": {
+      "median": 0.379080593585968,
+      "p95": 1.5287714660167688,
+      "max": 2.000663995742798
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      0.003207034897059202,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8658999800682068,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2717480659484863,
+      "p95": 2.521167314052582,
+      "max": 2.699799060821533
+    },
+    "tangent_mm": {
+      "median": 0.43581315875053406,
+      "p95": 1.028399574756622,
+      "max": 1.505886197090149
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11522984504699707,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8953799605369568,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2717480659484863,
+      "p95": 2.521167314052582,
+      "max": 2.699799060821533
+    },
+    "tangent_mm": {
+      "median": 0.43581315875053406,
+      "p95": 1.028399574756622,
+      "max": 1.505886197090149
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11522984504699707,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8953799605369568,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2717480659484863,
+      "p95": 2.521167314052582,
+      "max": 2.699799060821533
+    },
+    "tangent_mm": {
+      "median": 0.43581315875053406,
+      "p95": 1.028399574756622,
+      "max": 1.505886197090149
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.11522984504699707,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      0.8953799605369568,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6957071423530579,
+      "p95": 2.490872025489807,
+      "max": 2.5382328033447266
+    },
+    "tangent_mm": {
+      "median": 0.45079144835472107,
+      "p95": 1.5633731782436358,
+      "max": 2.1227376461029053
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      -0.004281190689653158,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      0.9625502824783325,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2424330115318298,
+      "p95": 2.494688522815704,
+      "max": 2.5684638023376465
+    },
+    "tangent_mm": {
+      "median": 0.5029787421226501,
+      "p95": 1.128296530246734,
+      "max": 1.8387171030044556
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12272179126739502,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0026326179504395,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2424330115318298,
+      "p95": 2.494688522815704,
+      "max": 2.5684638023376465
+    },
+    "tangent_mm": {
+      "median": 0.5029787421226501,
+      "p95": 1.128296530246734,
+      "max": 1.8387171030044556
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12272179126739502,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0026326179504395,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2424330115318298,
+      "p95": 2.494688522815704,
+      "max": 2.5684638023376465
+    },
+    "tangent_mm": {
+      "median": 0.5029787421226501,
+      "p95": 1.128296530246734,
+      "max": 1.8387171030044556
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.12272179126739502,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0026326179504395,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6184614896774292,
+      "p95": 2.896080088615417,
+      "max": 3.3003902435302734
+    },
+    "tangent_mm": {
+      "median": 0.737054169178009,
+      "p95": 1.734860104322433,
+      "max": 3.202117681503296
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.05905209481716156,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3198992013931274,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3037576079368591,
+      "p95": 2.7192121028900145,
+      "max": 3.270418643951416
+    },
+    "tangent_mm": {
+      "median": 0.7128313779830933,
+      "p95": 1.5590109705924988,
+      "max": 2.8622827529907227
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1775006651878357,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3919329643249512,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3037576079368591,
+      "p95": 2.7192121028900145,
+      "max": 3.270418643951416
+    },
+    "tangent_mm": {
+      "median": 0.7128313779830933,
+      "p95": 1.5590109705924988,
+      "max": 2.8622827529907227
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1775006651878357,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3919329643249512,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3037576079368591,
+      "p95": 2.7192121028900145,
+      "max": 3.270418643951416
+    },
+    "tangent_mm": {
+      "median": 0.7128313779830933,
+      "p95": 1.5590109705924988,
+      "max": 2.8622827529907227
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1775006651878357,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3919329643249512,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.711870014667511,
+      "p95": 2.5424378633499147,
+      "max": 2.686182737350464
+    },
+    "tangent_mm": {
+      "median": 0.4659135788679123,
+      "p95": 1.5468103408813476,
+      "max": 2.2686591148376465
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      0.008350922726094723,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      0.9865535497665405,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2748051881790161,
+      "p95": 2.5212299466133112,
+      "max": 2.7091875076293945
+    },
+    "tangent_mm": {
+      "median": 0.5072059333324432,
+      "p95": 1.1574697613716123,
+      "max": 1.914154291152954
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.110085129737854,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0240285396575928,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2748051881790161,
+      "p95": 2.5212299466133112,
+      "max": 2.7091875076293945
+    },
+    "tangent_mm": {
+      "median": 0.5072059333324432,
+      "p95": 1.1574697613716123,
+      "max": 1.914154291152954
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.110085129737854,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0240285396575928,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2748051881790161,
+      "p95": 2.5212299466133112,
+      "max": 2.7091875076293945
+    },
+    "tangent_mm": {
+      "median": 0.5072059333324432,
+      "p95": 1.1574697613716123,
+      "max": 1.914154291152954
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.110085129737854,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.0240285396575928,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6978263854980469,
+      "p95": 2.501123189926147,
+      "max": 2.5461642742156982
+    },
+    "tangent_mm": {
+      "median": 0.6327760517597198,
+      "p95": 1.6878574550151824,
+      "max": 2.733607292175293
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      0.006006924901157618,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      1.362034797668457,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.243907392024994,
+      "p95": 2.504037010669708,
+      "max": 2.5913562774658203
+    },
+    "tangent_mm": {
+      "median": 0.6314761638641357,
+      "p95": 1.4918507814407345,
+      "max": 2.765350818634033
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.11243361234664917,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3954640626907349,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.243907392024994,
+      "p95": 2.504037010669708,
+      "max": 2.5913562774658203
+    },
+    "tangent_mm": {
+      "median": 0.6314761638641357,
+      "p95": 1.4918507814407345,
+      "max": 2.765350818634033
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.11243361234664917,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3954640626907349,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.243907392024994,
+      "p95": 2.504037010669708,
+      "max": 2.5913562774658203
+    },
+    "tangent_mm": {
+      "median": 0.6314761638641357,
+      "p95": 1.4918507814407345,
+      "max": 2.765350818634033
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.11243361234664917,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      1.3954640626907349,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6207441687583923,
+      "p95": 2.8959191560745237,
+      "max": 3.3068959712982178
+    },
+    "tangent_mm": {
+      "median": 0.8370929062366486,
+      "p95": 1.9479521155357349,
+      "max": 3.900101661682129
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.04876402020454407,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6276336908340454,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2998272776603699,
+      "p95": 2.7253772616386387,
+      "max": 3.2891957759857178
+    },
+    "tangent_mm": {
+      "median": 0.8084156215190887,
+      "p95": 1.8083959221839903,
+      "max": 3.6346092224121094
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.16721245646476746,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6815556287765503,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2998272776603699,
+      "p95": 2.7253772616386387,
+      "max": 3.2891957759857178
+    },
+    "tangent_mm": {
+      "median": 0.8084156215190887,
+      "p95": 1.8083959221839903,
+      "max": 3.6346092224121094
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.16721245646476746,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6815556287765503,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2998272776603699,
+      "p95": 2.7253772616386387,
+      "max": 3.2891957759857178
+    },
+    "tangent_mm": {
+      "median": 0.8084156215190887,
+      "p95": 1.8083959221839903,
+      "max": 3.6346092224121094
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.16721245646476746,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      1.6815556287765503,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.713553011417389,
+      "p95": 2.541912889480591,
+      "max": 2.692688465118408
+    },
+    "tangent_mm": {
+      "median": 0.6444289982318878,
+      "p95": 1.6935177803039547,
+      "max": 2.8897740840911865
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      0.018639160320162773,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      1.380827784538269,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2832871079444885,
+      "p95": 2.5212292194366457,
+      "max": 2.7279646396636963
+    },
+    "tangent_mm": {
+      "median": 0.6324241757392883,
+      "p95": 1.5094161450862877,
+      "max": 2.7662112712860107
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.09979704767465591,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4111907482147217,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2832871079444885,
+      "p95": 2.5212292194366457,
+      "max": 2.7279646396636963
+    },
+    "tangent_mm": {
+      "median": 0.6324241757392883,
+      "p95": 1.5094161450862877,
+      "max": 2.7662112712860107
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.09979704767465591,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4111907482147217,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2832871079444885,
+      "p95": 2.5212292194366457,
+      "max": 2.7279646396636963
+    },
+    "tangent_mm": {
+      "median": 0.6324241757392883,
+      "p95": 1.5094161450862877,
+      "max": 2.7662112712860107
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.09979704767465591,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      1.4111907482147217,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7220521569252014,
+      "p95": 2.512071394920349,
+      "max": 2.572190999984741
+    },
+    "tangent_mm": {
+      "median": 0.984176367521286,
+      "p95": 2.5087604641914365,
+      "max": 4.608520030975342
+    },
+    "normal_deg": {
+      "median": 0.5853494703769684,
+      "p95": 2.4303202629089355,
+      "max": 2.5048956871032715
+    },
+    "signed_xyz_mean_mm": [
+      0.026583131402730942,
+      -0.1346757709980011,
+      -1.638770341873169
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4089913368225098,
+      1.5177865028381348,
+      2.3655948638916016
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2587254643440247,
+      "p95": 2.507437145709991,
+      "max": 2.637141466140747
+    },
+    "tangent_mm": {
+      "median": 0.923151969909668,
+      "p95": 2.4662471413612352,
+      "max": 4.619400501251221
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.09185739606618881,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4208812713623047,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2587254643440247,
+      "p95": 2.507437145709991,
+      "max": 2.637141466140747
+    },
+    "tangent_mm": {
+      "median": 0.923151969909668,
+      "p95": 2.4662471413612352,
+      "max": 4.619400501251221
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.09185739606618881,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4208812713623047,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2587254643440247,
+      "p95": 2.507437145709991,
+      "max": 2.637141466140747
+    },
+    "tangent_mm": {
+      "median": 0.923151969909668,
+      "p95": 2.4662471413612352,
+      "max": 4.619400501251221
+    },
+    "normal_deg": {
+      "median": 0.3124956637620926,
+      "p95": 1.0412483215332031,
+      "max": 1.074535608291626
+    },
+    "signed_xyz_mean_mm": [
+      -0.09185739606618881,
+      -0.09155167639255524,
+      -1.3410428762435913
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4208812713623047,
+      0.498447984457016,
+      2.5311882495880127
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.6319884061813354,
+      "p95": 2.8946016192436215,
+      "max": 3.3199074268341064
+    },
+    "tangent_mm": {
+      "median": 1.1289897561073303,
+      "p95": 2.6967155575752253,
+      "max": 5.365437984466553
+    },
+    "normal_deg": {
+      "median": 0.5882289111614227,
+      "p95": 2.4127817153930664,
+      "max": 2.7475483417510986
+    },
+    "signed_xyz_mean_mm": [
+      -0.02818797156214714,
+      -0.08275309205055237,
+      -1.602240800857544
+    ],
+    "absolute_xyz_p95_mm": [
+      2.566524028778076,
+      1.5004914999008179,
+      2.849076509475708
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.2944300770759583,
+      "p95": 2.7291168928146354,
+      "max": 3.3267500400543213
+    },
+    "tangent_mm": {
+      "median": 1.077728271484375,
+      "p95": 2.652605259418487,
+      "max": 5.268334865570068
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1466364860534668,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.583280563354492,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.2944300770759583,
+      "p95": 2.7291168928146354,
+      "max": 3.3267500400543213
+    },
+    "tangent_mm": {
+      "median": 1.077728271484375,
+      "p95": 2.652605259418487,
+      "max": 5.268334865570068
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1466364860534668,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.583280563354492,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.2944300770759583,
+      "p95": 2.7291168928146354,
+      "max": 3.3267500400543213
+    },
+    "tangent_mm": {
+      "median": 1.077728271484375,
+      "p95": 2.652605259418487,
+      "max": 5.268334865570068
+    },
+    "normal_deg": {
+      "median": 0.3709491640329361,
+      "p95": 0.97059565782547,
+      "max": 1.3186149597167969
+    },
+    "signed_xyz_mean_mm": [
+      -0.1466364860534668,
+      -0.039607442915439606,
+      -1.3043068647384644
+    ],
+    "absolute_xyz_p95_mm": [
+      2.583280563354492,
+      0.9287050366401672,
+      2.7648346424102783
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "absolute_axial_mm": {
+      "median": 1.7241445183753967,
+      "p95": 2.5415509700775147,
+      "max": 2.705699920654297
+    },
+    "tangent_mm": {
+      "median": 1.0019875764846802,
+      "p95": 2.5326467394828787,
+      "max": 4.467262268066406
+    },
+    "normal_deg": {
+      "median": 0.586673766374588,
+      "p95": 2.4349899291992188,
+      "max": 2.531787633895874
+    },
+    "signed_xyz_mean_mm": [
+      0.03921528160572052,
+      -0.11036073416471481,
+      -1.6584463119506836
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4380807876586914,
+      1.5511473417282104,
+      2.4745848178863525
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "absolute_axial_mm": {
+      "median": 1.3062893152236938,
+      "p95": 2.5188483953475944,
+      "max": 2.765519142150879
+    },
+    "tangent_mm": {
+      "median": 0.9360098540782928,
+      "p95": 2.4916419267654413,
+      "max": 4.489253520965576
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.07922117412090302,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4474215507507324,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "absolute_axial_mm": {
+      "median": 1.3062893152236938,
+      "p95": 2.5188483953475944,
+      "max": 2.765519142150879
+    },
+    "tangent_mm": {
+      "median": 0.9360098540782928,
+      "p95": 2.4916419267654413,
+      "max": 4.489253520965576
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.07922117412090302,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4474215507507324,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "absolute_axial_mm": {
+      "median": 1.3062893152236938,
+      "p95": 2.5188483953475944,
+      "max": 2.765519142150879
+    },
+    "tangent_mm": {
+      "median": 0.9360098540782928,
+      "p95": 2.4916419267654413,
+      "max": 4.489253520965576
+    },
+    "normal_deg": {
+      "median": 0.31261007487773895,
+      "p95": 1.056321144104004,
+      "max": 1.1015607118606567
+    },
+    "signed_xyz_mean_mm": [
+      -0.07922117412090302,
+      -0.06720869243144989,
+      -1.360432744026184
+    ],
+    "absolute_xyz_p95_mm": [
+      2.4474215507507324,
+      0.5496368408203125,
+      2.5699286460876465
+    ],
+    "normal_sign": "G +Z towards mouth; oriented normals with angle in [0,180], not abs(dot)"
+  }
+]

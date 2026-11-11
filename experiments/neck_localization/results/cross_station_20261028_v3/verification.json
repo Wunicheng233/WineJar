@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "calibration_outlier_inputs_paired": true,
+  "nominal_strategies_identical_in_paired_outlier_control": true,
+  "previous_465_inputs_unchanged": true,
+  "numeric_replay": "bitwise_numeric_arrays_and_json_results_equal_to_paired_v2",
+  "final_fastening_not_validated": true,
+  "no_runtime_carrier_or_body_observation": true,
+  "verification_script_sha256": "33906d8790c8075a61effa898293d38e8b685e65e856d3d07edf470aa0f4116e"
+}

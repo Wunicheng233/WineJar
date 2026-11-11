@@ -1,0 +1,49 @@
+{
+  "source": "experiments/neck_localization/results/foundation_stereo_capability_eval_20261027_v1/records.jsonl",
+  "source_sha256": "de46592ab1336e3923bea0dd4b777b0bdd2274cafa47d339cc075685f05f458b",
+  "scope": "fixed previously viewed synthetic cases; candidates, not accepted outputs or physical accuracy",
+  "results": [
+    {
+      "condition": "clean",
+      "n": 12,
+      "center_le_3mm": 12,
+      "center_le_4mm": 12,
+      "normal_le_2deg": 12,
+      "full_circle_geometry": 11,
+      "maxima": {
+        "center_mm": 2.305249007820782,
+        "normal_deg": 1.4455621514611892,
+        "diameter_mm": 2.1260659694375406
+      },
+      "remaining_full_circle_cases": [
+        {
+          "case": "structural_test_stress_002",
+          "center_mm": 1.28544582087994,
+          "normal_deg": 0.3095077816601895,
+          "diameter_mm": 2.1260659694375406
+        }
+      ]
+    },
+    {
+      "condition": "shared_noise",
+      "n": 12,
+      "center_le_3mm": 12,
+      "center_le_4mm": 12,
+      "normal_le_2deg": 12,
+      "full_circle_geometry": 11,
+      "maxima": {
+        "center_mm": 2.128056089207154,
+        "normal_deg": 1.8216531717542999,
+        "diameter_mm": 3.0513714124339035
+      },
+      "remaining_full_circle_cases": [
+        {
+          "case": "structural_test_stress_002",
+          "center_mm": 1.7164220894978839,
+          "normal_deg": 0.6714254144088806,
+          "diameter_mm": 3.0513714124339035
+        }
+      ]
+    }
+  ]
+}

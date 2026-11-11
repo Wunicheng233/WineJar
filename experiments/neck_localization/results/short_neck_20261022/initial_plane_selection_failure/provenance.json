@@ -1,0 +1,25 @@
+{
+  "scene_source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/preparation_20261022_v5",
+  "split": "development",
+  "evidence": [
+    "mask_diagnostic",
+    "rgb"
+  ],
+  "seed": 4101,
+  "elapsed_s": 0.7053744590000406,
+  "source_sha256": {
+    "depth_profile.py": "071d469e49b4c89b976f6cbb2b3f691e855c0cf156e4c66c50da15a5107c62a2",
+    "geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "run_depth_profile_baseline.py": "64bfe77f0bd1ef80f32fd5313f4b1015db3ec584ca124e88a857c9dd25858879"
+  },
+  "limitations": [
+    "true camera parameters; no virtual calibration or sensor noise",
+    "mouth plane is an axis proxy; no independent local neck-axis recovery",
+    "planar crown and circular neck are synthetic model assumptions",
+    "RGB extraction assumes declared grey/clay jar and blue background",
+    "no uncertainty estimate; plane residual is not absolute accuracy",
+    "4 mm center is historical goal; 2 deg normal and 2 mm diameter are provisional analysis thresholds",
+    "small scene family, no real-world accuracy claim"
+  ]
+}

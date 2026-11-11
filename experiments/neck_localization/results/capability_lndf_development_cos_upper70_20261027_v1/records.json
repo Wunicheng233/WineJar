@@ -1,0 +1,714 @@
+[
+  {
+    "pair_id": "development/stereo_raw/development_nominal_000",
+    "layout": "development",
+    "condition": "stereo_raw",
+    "case": "development_nominal_000",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_000/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102708,
+    "status": "ok",
+    "center_m": [
+      0.025302072109624315,
+      -0.020311404251251088,
+      0.5912358899209673
+    ],
+    "normal": [
+      0.23665623366832733,
+      -0.19129936397075653,
+      0.9525728821754456
+    ],
+    "frame_world": [
+      [
+        0.970402181148529,
+        0.048070117831230164,
+        0.23665623366832733,
+        0.025302072109624315
+      ],
+      [
+        -0.001968239201232791,
+        0.9815282821655273,
+        -0.19129936397075653,
+        -0.020311404251251088
+      ],
+      [
+        -0.24148085713386536,
+        0.18517214059829712,
+        0.9525728821754456,
+        0.5912358899209673
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 10,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.04700134119302037,
+      -0.05507512013879028,
+      0.5758351675115319
+    ],
+    "observed_scale": 0.28645494524620635,
+    "input": {
+      "camera": "cam_a",
+      "points": 12171,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "5ab563ac05f19e6a685a095bd1ea56471c38a8d3aba740bac776bf05b5630ffa",
+        "cam_a_depth_z_m.npz": "ad350ad0786d97b04b0c07323bd63c8e88696733c9968601b3db6f18693d63cc"
+      },
+      "mask_sha256": "9e2a319c1048bd11a1d7441e69609917d00eb9484512b6ba00dff31e731c00bc",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6167674005243791,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1638.58837890625,
+    "prediction_sha256": "c5eaefa432aa2d40c599853d9845956c3ab69917f3194a5d859aeb41d9ff06a3",
+    "elapsed_ms": 8639.609630999985,
+    "evaluation_truth_sha256": "733da2727787ee01ba845c08be552e999e7fe82228fb84d1db56d9d20ae2d08b",
+    "center_mm": 34.537376989124844,
+    "axis_deg": 17.819112566976525,
+    "directed_normal_deg": 17.819112566976525,
+    "axial_offset_mm": -11.492784208552402,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/stereo_raw/development_nominal_001",
+    "layout": "development",
+    "condition": "stereo_raw",
+    "case": "development_nominal_001",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_001/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102709,
+    "status": "ok",
+    "center_m": [
+      0.056310597504288545,
+      -0.06502871663588461,
+      0.5234581429742098
+    ],
+    "normal": [
+      -0.46634578704833984,
+      0.3878255784511566,
+      -0.7950537800788879
+    ],
+    "frame_world": [
+      [
+        -0.13671378791332245,
+        0.8739731907844543,
+        -0.46634578704833984,
+        0.056310597504288545
+      ],
+      [
+        0.8563728928565979,
+        0.34090137481689453,
+        0.3878255784511566,
+        -0.06502871663588461
+      ],
+      [
+        0.4979274272918701,
+        -0.3463455140590668,
+        -0.7950537800788879,
+        0.5234581429742098
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 16,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.0458557153624458,
+      -0.05498921825279699,
+      0.5345051306033116
+    ],
+    "observed_scale": 0.27591846873925613,
+    "input": {
+      "camera": "cam_a",
+      "points": 13778,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "8deaa6de6973e3a2716098dd5ee349f8b3e17e5c76c0fa71647b21ac4a14aa8a",
+        "cam_a_depth_z_m.npz": "7c0d7542cd4c36b835f321174e08d5a255d0bd172c9a457c2db6fa56f98db51b"
+      },
+      "mask_sha256": "bc36211978f9b5ae1f6dd530af6f9f8f4a9bae06f46b5b65f467d5bbfdeeb868",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.575134045769803,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.7314453125,
+    "prediction_sha256": "0fe1e323e5a8019b64aaef9c719502a3258abce696d9dfe678e4f14db75504b7",
+    "elapsed_ms": 6884.184992999963,
+    "evaluation_truth_sha256": "6ea9e9548e2f9e3382e7948e44cc325b5cb56af8ba96b81d40dec070e4cf5898",
+    "center_mm": 90.19621468580836,
+    "axis_deg": 36.97739364232097,
+    "directed_normal_deg": 143.02260635767902,
+    "axial_offset_mm": -36.53317382529958,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/stereo_raw/development_stress_000",
+    "layout": "development",
+    "condition": "stereo_raw",
+    "case": "development_stress_000",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_000/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102710,
+    "status": "ok",
+    "center_m": [
+      0.03864647827989745,
+      -0.05734904172837426,
+      0.5564391288185719
+    ],
+    "normal": [
+      0.3579999506473541,
+      -0.3657050132751465,
+      0.8591234087944031
+    ],
+    "frame_world": [
+      [
+        0.7767857909202576,
+        -0.5181089639663696,
+        0.3579999506473541,
+        0.03864647827989745
+      ],
+      [
+        0.6272045373916626,
+        0.6876562833786011,
+        -0.3657050132751465,
+        -0.05734904172837426
+      ],
+      [
+        -0.0567060261964798,
+        0.5086140036582947,
+        0.8591234087944031,
+        0.5564391288185719
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 11,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.04794937398960956,
+      -0.05870242487891196,
+      0.5699080617416418
+    ],
+    "observed_scale": 0.26985361534910896,
+    "input": {
+      "camera": "cam_a",
+      "points": 11892,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "6f28d98548a9d4c64390bea25cfebe0be324c2de10ec3bd414d6be1d6a8f85a5",
+        "cam_a_depth_z_m.npz": "936753a41048281b2adc30d0c6d6ce41950b5c30be7b4320905865b20d48e127"
+      },
+      "mask_sha256": "33d52a92ff4b666835108be18602e5e395e56b66364b16b43486304761a9d462",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6120030117637318,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.7099609375,
+    "prediction_sha256": "b7a631603b67e02fbf721194022e7d5fc0f278fc3bae93fbc90b229267735c82",
+    "elapsed_ms": 6675.951306000115,
+    "evaluation_truth_sha256": "40da4fee63f455a83b6043347149f7bf7b33c5497aed9c10ef6e662f5e96fd3e",
+    "center_mm": 84.58682436185926,
+    "axis_deg": 35.63346483033228,
+    "directed_normal_deg": 35.63346483033228,
+    "axial_offset_mm": -48.95209187861299,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/stereo_raw/development_stress_001",
+    "layout": "development",
+    "condition": "stereo_raw",
+    "case": "development_stress_001",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_001/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102711,
+    "status": "ok",
+    "center_m": [
+      0.06811121052454858,
+      -0.010685431330753043,
+      0.5830422616340653
+    ],
+    "normal": [
+      -0.49522045254707336,
+      0.12150056660175323,
+      -0.8602274060249329
+    ],
+    "frame_world": [
+      [
+        -0.8566179275512695,
+        0.14477543532848358,
+        -0.49522045254707336,
+        0.06811121052454858
+      ],
+      [
+        0.09671639651060104,
+        0.9878674149513245,
+        0.12150056660175323,
+        -0.010685431330753043
+      ],
+      [
+        0.5068032145500183,
+        0.05618295073509216,
+        -0.8602274060249329,
+        0.5830422616340653
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 13,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.02185890111744604,
+      -0.025644739527492303,
+      0.5986528598982117
+    ],
+    "observed_scale": 0.41288117651108563,
+    "input": {
+      "camera": "cam_a",
+      "points": 8857,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "bbd1d2829a150a52b86b343e2fc0f07e6286e076c32653976b7e865627ddeb1e",
+        "cam_a_depth_z_m.npz": "f1168e3df3f11ba3dab28815dcb7aca8ee5c8eac004e61feb012677dfe2d0282"
+      },
+      "mask_sha256": "b2f084cbcd5552307fc08e36a7939e613b388c60fc4a12bd02f80042178ace68",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6386830023619731,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.67529296875,
+    "prediction_sha256": "c21b7ef927dfa55439cc326bbcaf926458a4c9c8da06a5737ec530f877480fb3",
+    "elapsed_ms": 6568.3336059998965,
+    "evaluation_truth_sha256": "5a98ee831d865d676e1c4f6bb30cca9e9c4a3a6336de2b9175d59d9071bef32e",
+    "center_mm": 77.15373361940902,
+    "axis_deg": 23.418161889239794,
+    "directed_normal_deg": 156.58183811076023,
+    "axial_offset_mm": -18.957811228235073,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/ideal_rgb/development_nominal_000",
+    "layout": "development",
+    "condition": "ideal_rgb",
+    "case": "development_nominal_000",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102708,
+    "status": "ok",
+    "center_m": [
+      0.0027429070201042682,
+      -0.013901395461698295,
+      0.5953345196488257
+    ],
+    "normal": [
+      -0.05762122943997383,
+      -0.28148242831230164,
+      0.9578334093093872
+    ],
+    "frame_world": [
+      [
+        0.9605770111083984,
+        -0.271971195936203,
+        -0.05762122943997383,
+        0.0027429070201042682
+      ],
+      [
+        0.24573871493339539,
+        0.9275649189949036,
+        -0.28148242831230164,
+        -0.013901395461698295
+      ],
+      [
+        0.13000240921974182,
+        0.2562260031700134,
+        0.9578334093093872,
+        0.5953345196488257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 14,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.0465855379610403,
+      -0.054605516389601705,
+      0.5752464316032815
+    ],
+    "observed_scale": 0.2734652305871752,
+    "input": {
+      "camera": "cam_a",
+      "points": 12313,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "5ab563ac05f19e6a685a095bd1ea56471c38a8d3aba740bac776bf05b5630ffa",
+        "cam_a_depth_z_m.npz": "dc39dac3f06b6421314fdb2af9700444e35b185f1ab351e32b4471ab53baa948"
+      },
+      "mask_sha256": "9e2a319c1048bd11a1d7441e69609917d00eb9484512b6ba00dff31e731c00bc",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6160964430616414,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.71484375,
+    "prediction_sha256": "cc92ebec0824785fd7dbc42e241cc0acec1794702e161176a2a4c95b9b6bd834",
+    "elapsed_ms": 6595.61977899989,
+    "evaluation_truth_sha256": "733da2727787ee01ba845c08be552e999e7fe82228fb84d1db56d9d20ae2d08b",
+    "center_mm": 17.051187882316945,
+    "axis_deg": 16.769099758419575,
+    "directed_normal_deg": 16.769099758419575,
+    "axial_offset_mm": -7.35985115555368,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/ideal_rgb/development_nominal_001",
+    "layout": "development",
+    "condition": "ideal_rgb",
+    "case": "development_nominal_001",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_001/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102709,
+    "status": "ok",
+    "center_m": [
+      0.08921813321567537,
+      -0.0019889422964172176,
+      0.5361730754165255
+    ],
+    "normal": [
+      -0.6555705666542053,
+      -0.08171521127223969,
+      -0.750698983669281
+    ],
+    "frame_world": [
+      [
+        -0.7228923439979553,
+        0.21829581260681152,
+        -0.6555705666542053,
+        0.08921813321567537
+      ],
+      [
+        0.3552972376346588,
+        0.9311732649803162,
+        -0.08171521127223969,
+        -0.0019889422964172176
+      ],
+      [
+        0.5926125645637512,
+        -0.2919939160346985,
+        -0.750698983669281,
+        0.5361730754165255
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 4,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.045690191940330714,
+      -0.054586592236531895,
+      0.5328623923707877
+    ],
+    "observed_scale": 0.26161609162754534,
+    "input": {
+      "camera": "cam_a",
+      "points": 14315,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "8deaa6de6973e3a2716098dd5ee349f8b3e17e5c76c0fa71647b21ac4a14aa8a",
+        "cam_a_depth_z_m.npz": "77c2f8da765dae003bbee995ded03a42d78bec9902d6a5d616e54cd476c33593"
+      },
+      "mask_sha256": "bc36211978f9b5ae1f6dd530af6f9f8f4a9bae06f46b5b65f467d5bbfdeeb868",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.572696236509926,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.73779296875,
+    "prediction_sha256": "9a553420c9f09255898a230ff7a0be1741874cb8238b77395894c27b4e44b181",
+    "elapsed_ms": 6556.540414999972,
+    "evaluation_truth_sha256": "6ea9e9548e2f9e3382e7948e44cc325b5cb56af8ba96b81d40dec070e4cf5898",
+    "center_mm": 91.15875429600037,
+    "axis_deg": 41.92645892288933,
+    "directed_normal_deg": 138.0735410771107,
+    "axial_offset_mm": -25.290585998879052,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/ideal_rgb/development_stress_000",
+    "layout": "development",
+    "condition": "ideal_rgb",
+    "case": "development_stress_000",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_000/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102710,
+    "status": "ok",
+    "center_m": [
+      0.004746405977249471,
+      -0.0248896131288035,
+      0.5878529848886599
+    ],
+    "normal": [
+      -0.17645378410816193,
+      -0.16362842917442322,
+      0.9706109166145325
+    ],
+    "frame_world": [
+      [
+        0.9120451807975769,
+        -0.37018197774887085,
+        -0.17645378410816193,
+        0.004746405977249471
+      ],
+      [
+        0.34367090463638306,
+        0.9247235655784607,
+        -0.16362842917442322,
+        -0.0248896131288035
+      ],
+      [
+        0.2237439602613449,
+        0.08859369158744812,
+        0.9706109166145325,
+        0.5878529848886599
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 7,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.04652822374011894,
+      -0.05733110052491115,
+      0.5702707673083892
+    ],
+    "observed_scale": 0.275683272941521,
+    "input": {
+      "camera": "cam_a",
+      "points": 11622,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "6f28d98548a9d4c64390bea25cfebe0be324c2de10ec3bd414d6be1d6a8f85a5",
+        "cam_a_depth_z_m.npz": "515ab2b4cbe6c1a7c1121a9472c08a990b97bfb4ca456d8a870e059a784ecf7d"
+      },
+      "mask_sha256": "33d52a92ff4b666835108be18602e5e395e56b66364b16b43486304761a9d462",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6129370084290536,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.70703125,
+    "prediction_sha256": "ec88e8aeaa5de9f017f6317b453ab9baa0c13b0df3d1ce18f1afa9c26441001d",
+    "elapsed_ms": 6570.351080999899,
+    "evaluation_truth_sha256": "40da4fee63f455a83b6043347149f7bf7b33c5497aed9c10ef6e662f5e96fd3e",
+    "center_mm": 30.066205215752888,
+    "axis_deg": 22.198554184639573,
+    "directed_normal_deg": 22.198554184639573,
+    "axial_offset_mm": -14.83919109310637,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  },
+  {
+    "pair_id": "development/ideal_rgb/development_stress_001",
+    "layout": "development",
+    "condition": "ideal_rgb",
+    "case": "development_stress_001",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_001/observations",
+    "config_sha256": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "split": "supervised_development_control",
+    "seed": 2026102711,
+    "status": "ok",
+    "center_m": [
+      0.0695567647725856,
+      0.004231535906026516,
+      0.5840337458966337
+    ],
+    "normal": [
+      -0.6902487874031067,
+      -0.06656322628259659,
+      -0.7205017805099487
+    ],
+    "frame_world": [
+      [
+        -0.7208912372589111,
+        0.06221006438136101,
+        -0.6902487874031067,
+        0.0695567647725856
+      ],
+      [
+        0.14887458086013794,
+        0.9866122603416443,
+        -0.06656322628259659,
+        0.004231535906026516
+      ],
+      [
+        0.6768679618835449,
+        -0.1507463902235031,
+        -0.7205017805099487,
+        0.5840337458966337
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 13,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.020116969770025434,
+      -0.02363860672879962,
+      0.5977287026218084
+    ],
+    "observed_scale": 0.38276152711338124,
+    "input": {
+      "camera": "cam_a",
+      "points": 8953,
+      "input_sha256": {
+        "camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+        "cam_a_rgb.png": "bbd1d2829a150a52b86b343e2fc0f07e6286e076c32653976b7e865627ddeb1e",
+        "cam_a_depth_z_m.npz": "5d0ef77b3b9befc09530b842c63f62859c345b50a48281552c034bcf3a6b5307"
+      },
+      "mask_sha256": "b2f084cbcd5552307fc08e36a7939e613b388c60fc4a12bd02f80042178ace68",
+      "crop": {
+        "rule": "fixed_station_and_z_ge_observed_z_p995_minus_window",
+        "observed_z_p995_m": 0.6376716151664624,
+        "upper_window_m": 0.07,
+        "world_z_bounds_m": [
+          0.4,
+          0.76
+        ],
+        "world_xy_radius_m": 0.28,
+        "evaluation_labels_read": false
+      },
+      "evidence": "RGB-only blue-background mask plus valid saved depth; optional observed upper station crop"
+    },
+    "peak_cuda_mib": 1646.67626953125,
+    "prediction_sha256": "924aa7ae2ce050f31c8fa5cf3391547db291bfee88808179afe2334bad83bc6a",
+    "elapsed_ms": 6590.606264999906,
+    "evaluation_truth_sha256": "5a98ee831d865d676e1c4f6bb30cca9e9c4a3a6336de2b9175d59d9071bef32e",
+    "center_mm": 77.06454721498082,
+    "axis_deg": 39.086431648634225,
+    "directed_normal_deg": 140.91356835136577,
+    "axial_offset_mm": -19.81368902873076,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  }
+]

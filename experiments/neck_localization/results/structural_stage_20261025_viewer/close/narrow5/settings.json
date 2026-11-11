@@ -1,0 +1,10 @@
+{
+  "preprocessing": {
+    "kind": "frozen_structural_study",
+    "condition": "close/narrow5"
+  },
+  "depth_display_range_m": [
+    0.18,
+    0.85
+  ]
+}

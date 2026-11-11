@@ -135,4 +135,4 @@ HF_HUB_OFFLINE=1 python vision/scripts/05_benchmark_inference.py \
 
 The output path must be new. The manifest references local, Git-ignored RGB-D
 data; copy those inputs separately when reproducing on another machine.
-See the [round-four results and experiment plan](../docs/optimization-round4-20260919.md).
+See the [round-four results and experiment plan](../docs/archive/optimization/optimization-round4-20260919.md).

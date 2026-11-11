@@ -1,0 +1,39 @@
+{
+  "input": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3",
+  "split": "four_previously_viewed_development_cases",
+  "settings": {
+    "world_z_bounds_m": [
+      0.4,
+      0.76
+    ],
+    "hull_xy_half_extent_m": 0.14,
+    "hull_xy_step_m": 0.004,
+    "hull_z_step_m": 0.002,
+    "origin_below_observed_hull_top_m": 0.02,
+    "contour_below_origin_mm": 35.0,
+    "contour_above_origin_mm": 13.0,
+    "maximum_candidate_radius_mm": 120.0,
+    "maximum_abs_vertical_contour_normal": 0.7,
+    "contour_smoothing_pixels": 1.0,
+    "knot_spacing_mm": 1.5,
+    "spline_second_difference_weight": 0.5,
+    "axis_xy_limit_mm": 30.0,
+    "axis_slope_limit": 0.4,
+    "maximum_evaluations": 150,
+    "near_minimum_delta_mm": 1.0,
+    "maximum_context_rms_mm": 1.0
+  },
+  "source_sha256": {
+    "neck_localization/silhouette_profile.py": "35c89f5cafc025cf6f663368f782f72560366950503e659ae7f0c541e08242aa",
+    "scripts/run_silhouette_profile.py": "bb58c183ce81d83314a5f67df6acc877131fad8326f604517b4446f6a0b91743"
+  },
+  "scope": "negative_or_positive_bounded_probe_not_a_frozen_final_test",
+  "oracles": "GT axis and optional GT world-Z neck region; never counted as primary results",
+  "limitations": [
+    "true camera calibration",
+    "blue-key mask",
+    "pixel-derived contour tangent",
+    "occluding lip edges need not be smooth SOR generators",
+    "no calibrated uncertainty"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "case": "tilted_flat",
+  "camera_set": "cam_a,cam_b",
+  "evidence": "rgb",
+  "method": "rim_guided_profile",
+  "accepted": false,
+  "truth_pass": false,
+  "center_mm": null,
+  "normal_deg": null,
+  "diameter_mm": null,
+  "reasons": [
+    "unsupported_gap_in_radius_profile"
+  ],
+  "observation_point_counts": {
+    "cam_a": 32272,
+    "cam_b": 32216
+  },
+  "gt_used_only_in_plot": true,
+  "estimator_sha256": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+  "visualization_source_sha256": "f416691f3fde3a2a3caa0571680698310bc471baed7ef3f306dc61f73939a9dd"
+}

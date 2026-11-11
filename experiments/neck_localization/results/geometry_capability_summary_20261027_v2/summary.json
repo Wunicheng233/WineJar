@@ -1,0 +1,2857 @@
+[
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 10,
+    "output_axis_pass_2deg": 10,
+    "candidate_pose_pass_3mm_2deg": 10,
+    "output_pose_pass_3mm_2deg": 10,
+    "candidate_pose_pass_4mm_2deg": 10,
+    "output_pose_pass_4mm_2deg": 10,
+    "full_circle_output": 9,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 9,
+    "output_axial_band_contained": 9,
+    "center_mm_max": 2.3699992705261606,
+    "normal_deg_max": 3.782071149443294,
+    "diameter_mm_max": 2.7466423424655635,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 11,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 10,
+    "center_mm_max": 2.369437495060697,
+    "normal_deg_max": 1.4455621514611892,
+    "diameter_mm_max": 2.200073596273805,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 11,
+    "output_center_pass_3mm": 11,
+    "candidate_center_pass_4mm": 11,
+    "output_center_pass_4mm": 11,
+    "candidate_axis_pass_2deg": 9,
+    "output_axis_pass_2deg": 9,
+    "candidate_pose_pass_3mm_2deg": 9,
+    "output_pose_pass_3mm_2deg": 9,
+    "candidate_pose_pass_4mm_2deg": 9,
+    "output_pose_pass_4mm_2deg": 9,
+    "full_circle_output": 8,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 8,
+    "output_axial_band_contained": 8,
+    "center_mm_max": 15.815348962270276,
+    "normal_deg_max": 11.76305743087626,
+    "diameter_mm_max": 3.4362385690793196,
+    "rejections": [],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 15.815348962270276,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 11,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 10,
+    "center_mm_max": 2.128056089207154,
+    "normal_deg_max": 1.1609803051433427,
+    "diameter_mm_max": 3.0513714124339035,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 5,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 2,
+    "output_center_pass_3mm": 2,
+    "candidate_center_pass_4mm": 5,
+    "output_center_pass_4mm": 4,
+    "candidate_axis_pass_2deg": 0,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 5,
+    "candidate_axial_band_contained": 3,
+    "output_axial_band_contained": 3,
+    "center_mm_max": 17.962901271322693,
+    "normal_deg_max": 15.231355158295347,
+    "diameter_mm_max": 32.65116777827265,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 16.5270661721394,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 13.889356105968282,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 15.408425935250696,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 17.962901271322693,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 11.450822466265329,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 16.199417488882457,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 9.45343448393802,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 1,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 3,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 1,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 1,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 1,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 1,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 19.459987482820555,
+    "normal_deg_max": 17.869686003920418,
+    "diameter_mm_max": 30.72674214943934,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 17.044200211560177,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 12.149733338627916,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 14.888916303741809,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 13.069552993044129,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "center_mm": 4.999868893285308,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 19.459987482820555,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 10.687205615405462,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 13.707917003673394,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 8.840657704080678,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 3,
+    "output_center_pass_3mm": 3,
+    "candidate_center_pass_4mm": 6,
+    "output_center_pass_4mm": 5,
+    "candidate_axis_pass_2deg": 2,
+    "output_axis_pass_2deg": 2,
+    "candidate_pose_pass_3mm_2deg": 1,
+    "output_pose_pass_3mm_2deg": 1,
+    "candidate_pose_pass_4mm_2deg": 2,
+    "output_pose_pass_4mm_2deg": 2,
+    "full_circle_output": 2,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 3,
+    "output_axial_band_contained": 3,
+    "center_mm_max": 16.755370777227125,
+    "normal_deg_max": 14.582590023102757,
+    "diameter_mm_max": 25.906219631714535,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 16.755370777227125,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 11.85736615207955,
+        "accepted": true
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 4.262328073887289,
+        "accepted": true
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 11.017692326776025,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 13.603260044842514,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 7.145566834533376,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 3,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 6,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 2,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 1,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 2,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 3,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 15.180799330214672,
+    "normal_deg_max": 13.188962694385806,
+    "diameter_mm_max": 25.433340363562817,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 15.180799330214672,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 9.48121326902508,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 10.28160698629293,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 11.11159444637073,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 5.920093184150566,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 11.753485768820214,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 11,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 11,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 11,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.30654392559165,
+    "normal_deg_max": 4.134444039780213,
+    "diameter_mm_max": 8.17076547946087,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 10,
+    "center_mm_max": 2.303014213718822,
+    "normal_deg_max": 1.4749357175527817,
+    "diameter_mm_max": 8.221864403077303,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.4476272566716437,
+    "normal_deg_max": 1.5079878641376026,
+    "diameter_mm_max": 8.038680305238632,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.2895441320314505,
+    "normal_deg_max": 1.5190252839996299,
+    "diameter_mm_max": 7.997039639531578,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 4,
+    "accepted": 1,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 2,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 1,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 28.16356213841857,
+    "normal_deg_max": 16.480054551311333,
+    "diameter_mm_max": 27.636574483207944,
+    "rejections": [
+      {
+        "case": "development_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "development_nominal_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "development_stress_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "development_nominal_000",
+        "center_mm": 7.765169209937178,
+        "accepted": false
+      },
+      {
+        "case": "development_nominal_001",
+        "center_mm": 4.1031370693605815,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_000",
+        "center_mm": 5.852362576296141,
+        "accepted": true
+      },
+      {
+        "case": "development_stress_001",
+        "center_mm": 28.16356213841857,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 4,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 1,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 17.857599215482377,
+    "normal_deg_max": 13.359522947517899,
+    "diameter_mm_max": 14.039561611707303,
+    "rejections": [
+      {
+        "case": "development_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_nominal_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_001",
+        "reasons": [
+          "spatial_block_depth_mismatch",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "development_nominal_000",
+        "center_mm": 7.469665929694947,
+        "accepted": false
+      },
+      {
+        "case": "development_nominal_001",
+        "center_mm": 17.857599215482377,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_000",
+        "center_mm": 12.51944478856449,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_001",
+        "center_mm": 11.742535837560316,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 4,
+    "accepted": 1,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 1,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 1,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 2,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 1,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 1,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 1,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 9.70841272262464,
+    "normal_deg_max": 7.242070656454993,
+    "diameter_mm_max": 6.355150598176554,
+    "rejections": [
+      {
+        "case": "development_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "development_nominal_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "development_stress_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "development_nominal_000",
+        "center_mm": 7.214238541267434,
+        "accepted": false
+      },
+      {
+        "case": "development_nominal_001",
+        "center_mm": 9.70841272262464,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_001",
+        "center_mm": 5.960792197527864,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 4,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 1,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 17.41317567836687,
+    "normal_deg_max": 14.78700916130946,
+    "diameter_mm_max": 21.588409960591804,
+    "rejections": [
+      {
+        "case": "development_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "spatial_block_depth_mismatch",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_nominal_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_000",
+        "reasons": [
+          "spatial_block_depth_mismatch",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "development_nominal_000",
+        "center_mm": 17.41317567836687,
+        "accepted": false
+      },
+      {
+        "case": "development_nominal_001",
+        "center_mm": 4.651406339415886,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_000",
+        "center_mm": 12.080768537029346,
+        "accepted": false
+      },
+      {
+        "case": "development_stress_001",
+        "center_mm": 16.310119952644353,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 0,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 22.800413758990132,
+    "normal_deg_max": 16.97474399302098,
+    "diameter_mm_max": 32.87861585997873,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_spatial_block_depth_mismatch",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 5.550369171373087,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "center_mm": 9.700839968332081,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 15.972561762459803,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 15.06071365842554,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "center_mm": 17.017395010214784,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "center_mm": 19.843132914326382,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 16.83390446842426,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "center_mm": 20.411702366527784,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 17.535398557601194,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 22.800413758990132,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 20.28110760924863,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 18.08762808297244,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 1,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 20.968499994221695,
+    "normal_deg_max": 20.948126479339873,
+    "diameter_mm_max": 29.877023431111578,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "no_valid_structural_candidate"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 4.26430987562891,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "center_mm": 18.4040032464623,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 14.970763997584324,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 14.920571328507652,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "center_mm": null,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "center_mm": 19.489122619634454,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 11.084432905086734,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "center_mm": 20.968499994221695,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 15.627627973872563,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 9.777816612743663,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 14.185533983801294,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 15.937320922387926,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 1,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 24.31226354251762,
+    "normal_deg_max": 16.976553794692045,
+    "diameter_mm_max": 25.489510088846284,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_spatial_block_depth_mismatch"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_spatial_block_depth_mismatch"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_spatial_block_depth_mismatch",
+          "sor_axis_parameter_hits_bound"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary",
+          "sor_spatial_block_depth_mismatch",
+          "sor_axis_parameter_hits_bound"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 6.716229255674077,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "center_mm": 9.662710401823007,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 15.901065638585315,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 15.776325562759025,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "center_mm": 15.99953752216249,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "center_mm": 19.459449260831367,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 14.265708586506507,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "center_mm": 7.598859440631443,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 18.601779854051536,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 18.841676860785693,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 24.31226354251762,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 21.298154346314636,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "simsense",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 0,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 0,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 0,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 0,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 0,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 0,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 27.173727099806968,
+    "normal_deg_max": 14.429156218321125,
+    "diameter_mm_max": 32.51288295300775,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "spatial_block_depth_mismatch",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "spatial_block_depth_mismatch",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "axis_parameter_hits_bound",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": [
+      {
+        "case": "structural_test_nominal_000",
+        "center_mm": 12.329808521020029,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "center_mm": 18.797576941600795,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "center_mm": 15.226039039983528,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "center_mm": 15.660801060993183,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "center_mm": 12.695564673140085,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "center_mm": 17.80284526733165,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "center_mm": 12.22021012246734,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "center_mm": 16.230067772593515,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_000",
+        "center_mm": 12.646839102868396,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_001",
+        "center_mm": 16.122716043745836,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_002",
+        "center_mm": 17.6017124480905,
+        "accepted": false
+      },
+      {
+        "case": "structural_test_stress_003",
+        "center_mm": 27.173727099806968,
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 10,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 10,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 10,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 10,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 10,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 10,
+    "full_circle_output": 10,
+    "common_band_accepted": 9,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 9,
+    "center_mm_max": 2.2430519249648193,
+    "normal_deg_max": 1.6375748929035205,
+    "diameter_mm_max": 1.6448366699071126,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 1,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 1,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 1,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 1,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 1,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 1,
+    "full_circle_output": 1,
+    "common_band_accepted": 1,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 1,
+    "center_mm_max": 2.6267614077263373,
+    "normal_deg_max": 2.236105512152164,
+    "diameter_mm_max": 1.335489878775256,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "near_minimum_touches_observed_boundary"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 4,
+    "accepted": 4,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 4,
+    "output_center_pass_3mm": 4,
+    "candidate_center_pass_4mm": 4,
+    "output_center_pass_4mm": 4,
+    "candidate_axis_pass_2deg": 4,
+    "output_axis_pass_2deg": 4,
+    "candidate_pose_pass_3mm_2deg": 4,
+    "output_pose_pass_3mm_2deg": 4,
+    "candidate_pose_pass_4mm_2deg": 4,
+    "output_pose_pass_4mm_2deg": 4,
+    "full_circle_output": 4,
+    "common_band_accepted": 4,
+    "candidate_axial_band_contained": 4,
+    "output_axial_band_contained": 4,
+    "center_mm_max": 0.8631140231505714,
+    "normal_deg_max": 0.3465034978854327,
+    "diameter_mm_max": 0.9129430500370711,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "development",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 4,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 4,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 4,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 4,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 4,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 4,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 4,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 0.7750553617023703,
+    "normal_deg_max": 0.3073672046646524,
+    "diameter_mm_max": 0.7869846933841462,
+    "rejections": [
+      {
+        "case": "development_nominal_000",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_nominal_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_000",
+        "reasons": [
+          "candidate_not_narrower_than_observed_lip",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "development_stress_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 11,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 11,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 11,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 11,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 11,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 11,
+    "full_circle_output": 11,
+    "common_band_accepted": 11,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.9669120570634697,
+    "normal_deg_max": 2.047907411019555,
+    "diameter_mm_max": 2.741967902773146,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "sor_near_minimum_touches_observed_boundary"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "ideal_native_oracle",
+    "scope": "opened_12",
+    "layout": "far",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 0,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 11,
+    "output_center_pass_3mm": 0,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 0,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 0,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 0,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 0,
+    "full_circle_output": 0,
+    "common_band_accepted": 0,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 0,
+    "center_mm_max": 3.0472885552366256,
+    "normal_deg_max": 1.4953973154092783,
+    "diameter_mm_max": 2.4522593607909093,
+    "rejections": [
+      {
+        "case": "structural_test_nominal_000",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_002",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_003",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_004",
+        "reasons": [
+          "near_minimum_touches_observed_boundary",
+          "insufficient_three_mm_band_span",
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_005",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_006",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_nominal_007",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_000",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_001",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_002",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      },
+      {
+        "case": "structural_test_stress_003",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 6,
+    "output_axis_pass_2deg": 6,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 6,
+    "candidate_pose_pass_4mm_2deg": 6,
+    "output_pose_pass_4mm_2deg": 6,
+    "full_circle_output": 6,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 2.6544229105701667,
+    "normal_deg_max": 3.892922503904827,
+    "diameter_mm_max": 3.9955644096827667,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 7,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 6,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 7,
+    "full_circle_output": 7,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 3.0891402909971326,
+    "normal_deg_max": 2.543165138133879,
+    "diameter_mm_max": 1.8910754970155597,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 7,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 6,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 7,
+    "full_circle_output": 7,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 6,
+    "center_mm_max": 3.462828429210208,
+    "normal_deg_max": 3.859203021781705,
+    "diameter_mm_max": 2.8213163357272837,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 7,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 6,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 7,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 6,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 5,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 6,
+    "full_circle_output": 6,
+    "common_band_accepted": 7,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 5,
+    "center_mm_max": 3.04839671600634,
+    "normal_deg_max": 2.511520015015121,
+    "diameter_mm_max": 1.6849704787368636,
+    "rejections": [
+      {
+        "case": "confirmation_nominal_004",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 8,
+    "output_axial_band_contained": 8,
+    "center_mm_max": 3.0973324067170878,
+    "normal_deg_max": 1.2777133431426457,
+    "diameter_mm_max": 4.423884310488805,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 6,
+    "center_mm_max": 3.266586716246222,
+    "normal_deg_max": 1.1147684855537507,
+    "diameter_mm_max": 4.249613424910647,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 7,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 7,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 2.9818504564615202,
+    "normal_deg_max": 2.186939714519288,
+    "diameter_mm_max": 4.459677787430796,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense",
+    "scope": "new_8_first_frozen_evaluation",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 6,
+    "center_mm_max": 3.065234692177098,
+    "normal_deg_max": 1.239365672685997,
+    "diameter_mm_max": 4.313728322926161,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 11,
+    "output_center_pass_3mm": 11,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 9,
+    "output_axis_pass_2deg": 9,
+    "candidate_pose_pass_3mm_2deg": 9,
+    "output_pose_pass_3mm_2deg": 9,
+    "candidate_pose_pass_4mm_2deg": 9,
+    "output_pose_pass_4mm_2deg": 9,
+    "full_circle_output": 9,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 9,
+    "output_axial_band_contained": 9,
+    "center_mm_max": 3.7792709800960225,
+    "normal_deg_max": 3.3012257688827895,
+    "diameter_mm_max": 3.786139958205481,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 11,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 9,
+    "output_axial_band_contained": 9,
+    "center_mm_max": 2.308609243518763,
+    "normal_deg_max": 1.2299393509233685,
+    "diameter_mm_max": 2.58200376534444,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 11,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 11,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 11,
+    "full_circle_output": 10,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 10,
+    "center_mm_max": 2.3716404117978107,
+    "normal_deg_max": 3.6358586272088456,
+    "diameter_mm_max": 2.409866899547683,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 11,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 10,
+    "output_axial_band_contained": 10,
+    "center_mm_max": 2.201620864482076,
+    "normal_deg_max": 1.4811253150886625,
+    "diameter_mm_max": 2.913943682732359,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 11,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 11,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 11,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.326839181227883,
+    "normal_deg_max": 3.8727479718236175,
+    "diameter_mm_max": 8.397519732063152,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 12,
+    "output_axial_band_contained": 12,
+    "center_mm_max": 2.3364117630759393,
+    "normal_deg_max": 1.3115383916686332,
+    "diameter_mm_max": 7.969578466927168,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 11,
+    "output_axis_pass_2deg": 11,
+    "candidate_pose_pass_3mm_2deg": 11,
+    "output_pose_pass_3mm_2deg": 11,
+    "candidate_pose_pass_4mm_2deg": 11,
+    "output_pose_pass_4mm_2deg": 11,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.0610501471875837,
+    "normal_deg_max": 2.707657526883827,
+    "diameter_mm_max": 8.425654910066942,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_12_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 12,
+    "accepted": 12,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 12,
+    "output_center_pass_3mm": 12,
+    "candidate_center_pass_4mm": 12,
+    "output_center_pass_4mm": 12,
+    "candidate_axis_pass_2deg": 12,
+    "output_axis_pass_2deg": 12,
+    "candidate_pose_pass_3mm_2deg": 12,
+    "output_pose_pass_3mm_2deg": 12,
+    "candidate_pose_pass_4mm_2deg": 12,
+    "output_pose_pass_4mm_2deg": 12,
+    "full_circle_output": 5,
+    "common_band_accepted": 12,
+    "candidate_axial_band_contained": 11,
+    "output_axial_band_contained": 11,
+    "center_mm_max": 2.3423068792367148,
+    "normal_deg_max": 1.6261880392616535,
+    "diameter_mm_max": 8.413277224453022,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 6,
+    "output_axis_pass_2deg": 6,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 6,
+    "candidate_pose_pass_4mm_2deg": 6,
+    "output_pose_pass_4mm_2deg": 6,
+    "full_circle_output": 6,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 2.5738828582471704,
+    "normal_deg_max": 3.6427748859447537,
+    "diameter_mm_max": 3.390029888381732,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 7,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 6,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 7,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 6,
+    "candidate_pose_pass_3mm_2deg": 6,
+    "output_pose_pass_3mm_2deg": 5,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 6,
+    "full_circle_output": 6,
+    "common_band_accepted": 7,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 5,
+    "center_mm_max": 3.1254142348642824,
+    "normal_deg_max": 2.504895655835624,
+    "diameter_mm_max": 1.8611320771044493,
+    "rejections": [
+      {
+        "case": "confirmation_nominal_006",
+        "reasons": [
+          "fitted_surface_projects_outside_rgb_foreground"
+        ]
+      }
+    ],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 7,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 7,
+    "full_circle_output": 6,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 2.518842922869333,
+    "normal_deg_max": 3.629285272012482,
+    "diameter_mm_max": 2.5637983911607627,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "foundation_stereo_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 7,
+    "output_axis_pass_2deg": 7,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 7,
+    "output_pose_pass_4mm_2deg": 7,
+    "full_circle_output": 7,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 7,
+    "output_axial_band_contained": 7,
+    "center_mm_max": 2.8899720193416423,
+    "normal_deg_max": 2.430320252404371,
+    "diameter_mm_max": 1.591163823254624,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 0,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 8,
+    "output_axial_band_contained": 8,
+    "center_mm_max": 3.000886389860508,
+    "normal_deg_max": 0.6460666029850618,
+    "diameter_mm_max": 4.335235738289617,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "clean",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 6,
+    "center_mm_max": 3.1898789964321876,
+    "normal_deg_max": 1.3870259222744448,
+    "diameter_mm_max": 4.293125255454166,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "standard_sor",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 8,
+    "output_center_pass_3mm": 8,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 8,
+    "output_pose_pass_3mm_2deg": 8,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 8,
+    "output_axial_band_contained": 8,
+    "center_mm_max": 2.94620563726738,
+    "normal_deg_max": 0.6241841590893137,
+    "diameter_mm_max": 4.395227225484355,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  },
+  {
+    "frontend": "simsense_sam",
+    "scope": "opened_8_paired",
+    "layout": "close",
+    "condition": "shared_noise",
+    "backend": "visible_profile",
+    "n": 8,
+    "accepted": 8,
+    "input_or_backend_errors": 0,
+    "candidate_center_pass_3mm": 7,
+    "output_center_pass_3mm": 7,
+    "candidate_center_pass_4mm": 8,
+    "output_center_pass_4mm": 8,
+    "candidate_axis_pass_2deg": 8,
+    "output_axis_pass_2deg": 8,
+    "candidate_pose_pass_3mm_2deg": 7,
+    "output_pose_pass_3mm_2deg": 7,
+    "candidate_pose_pass_4mm_2deg": 8,
+    "output_pose_pass_4mm_2deg": 8,
+    "full_circle_output": 1,
+    "common_band_accepted": 8,
+    "candidate_axial_band_contained": 6,
+    "output_axial_band_contained": 6,
+    "center_mm_max": 3.1061412141848583,
+    "normal_deg_max": 1.2784817075295514,
+    "diameter_mm_max": 4.377500441968607,
+    "rejections": [],
+    "outside_primary_center_4mm": []
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 85,
+    "mode": "natural_count",
+    "n": 1803,
+    "scaled_data_singular_values": [
+      207.89051103692208,
+      194.8236433294686,
+      143.39632630431305,
+      126.20687569508486,
+      26.496802337589905,
+      18.32090806240375,
+      10.33758643771217
+    ],
+    "scaled_data_condition": 20.11015939644522,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.013366453142233241,
+      -0.002090386834163488,
+      0.023565666457536442,
+      0.0029613887321075665,
+      0.5738641471955561,
+      0.5634864346214207,
+      0.593646221512128
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 85,
+    "mode": "equal_count_per_camera",
+    "n": 144,
+    "scaled_data_singular_values": [
+      64.62476250037773,
+      59.83326405116561,
+      40.651085434013005,
+      35.963571183025266,
+      7.831494379456956,
+      5.098271382890236,
+      3.038070009309886
+    ],
+    "scaled_data_condition": 21.271650193162465,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.03237637445036355,
+      0.002683934919786718,
+      0.028473593424751587,
+      0.0021692258487523213,
+      0.5267801182828266,
+      0.5350237239439927,
+      0.6590762001517949
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 45,
+    "mode": "natural_count",
+    "n": 1299,
+    "scaled_data_singular_values": [
+      171.4988857440473,
+      156.1557457824208,
+      127.16426464951881,
+      99.43642160429627,
+      17.147072956875636,
+      11.826029354000172,
+      3.7255136744506507
+    ],
+    "scaled_data_condition": 46.033621328563726,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.012971969545649092,
+      0.0004022769421255616,
+      0.02510360020438795,
+      0.002429596440747611,
+      0.5691862144212276,
+      0.5734188746499862,
+      0.5885688744788147
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 45,
+    "mode": "equal_count_per_camera",
+    "n": 144,
+    "scaled_data_singular_values": [
+      57.02734219822243,
+      52.33134596604616,
+      41.78518213846445,
+      35.54083589455385,
+      5.5432978889185565,
+      3.9071120267976833,
+      1.2621175242630707
+    ],
+    "scaled_data_condition": 45.18386053748817,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.005774494027971793,
+      0.003810697349137587,
+      -0.02666326763660347,
+      0.0006546069189370875,
+      -0.5936919338884348,
+      -0.5706374496673807,
+      -0.5666953009564066
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 20,
+    "mode": "natural_count",
+    "n": 631,
+    "scaled_data_singular_values": [
+      115.89738950544853,
+      100.63383388625512,
+      93.76409985277573,
+      59.03200082111954,
+      6.105077593772031,
+      4.123618344701262,
+      0.6555916661595128
+    ],
+    "scaled_data_condition": 176.78289015536294,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.015203831856450207,
+      0.0008348528123030066,
+      0.025459475553945322,
+      0.004289454869434198,
+      0.5629336615481433,
+      0.5739864383720137,
+      0.5939249308289006
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 20,
+    "mode": "equal_count_per_camera",
+    "n": 144,
+    "scaled_data_singular_values": [
+      59.42275081338525,
+      46.78634860876171,
+      44.381470495362905,
+      29.03459529806074,
+      2.90780937495413,
+      1.9960884476408025,
+      0.3503443618090363
+    ],
+    "scaled_data_condition": 169.61240793643788,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.013649192231019699,
+      0.0014811953539878853,
+      -0.026038522328431443,
+      -0.0043100942743125115,
+      -0.570836899441117,
+      -0.5717823483967641,
+      -0.5884939289002014
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 10,
+    "mode": "natural_count",
+    "n": 315,
+    "scaled_data_singular_values": [
+      75.00305955694265,
+      73.16419682292292,
+      62.824941643702076,
+      39.60669269614277,
+      2.196092887916477,
+      1.4716150394606486,
+      0.22456749808720963
+    ],
+    "scaled_data_condition": 333.988935156661,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.015327633629381242,
+      0.00028310977482202265,
+      -0.026004984983399756,
+      -0.005058984889968825,
+      -0.564221888487252,
+      -0.5735600751364529,
+      -0.5930814713725431
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 10,
+    "mode": "equal_count_per_camera",
+    "n": 144,
+    "scaled_data_singular_values": [
+      49.24855108869306,
+      48.09752731531272,
+      40.88369855279099,
+      26.326920529223347,
+      1.4416455944500663,
+      0.9971429491929047,
+      0.1371177648289268
+    ],
+    "scaled_data_condition": 359.16973376963506,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.0159620289499699,
+      -0.0002472248751448844,
+      0.026502181993948704,
+      0.004955092241106762,
+      0.5636252425313513,
+      0.5730789267768147,
+      0.594075217113046
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 5,
+    "mode": "natural_count",
+    "n": 159,
+    "scaled_data_singular_values": [
+      53.51355295616575,
+      51.71741648343673,
+      41.98652528224872,
+      26.0808474855078,
+      0.8047807935107638,
+      0.49919108530212153,
+      0.11370463523414212
+    ],
+    "scaled_data_condition": 470.6365122755983,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.026721691656126458,
+      -0.0027728231189243224,
+      -0.026044556575844924,
+      -0.005125893215823647,
+      -0.5418656495156179,
+      -0.5629385820363271,
+      -0.6229409600182354
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_000",
+    "half_angle_deg": 5,
+    "mode": "equal_count_per_camera",
+    "n": 144,
+    "scaled_data_singular_values": [
+      49.99065981329,
+      48.872558761371884,
+      40.8537564440637,
+      24.56284227748331,
+      0.6726955333723866,
+      0.48257826571567125,
+      0.1078611180648734
+    ],
+    "scaled_data_condition": 463.47247933423944,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.02380389985700664,
+      -0.0012155276411548385,
+      -0.026108998124528805,
+      -0.004547832085529301,
+      -0.54953604039599,
+      -0.5638015219137831,
+      -0.6155221510863804
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 85,
+    "mode": "natural_count",
+    "n": 1611,
+    "scaled_data_singular_values": [
+      176.6338343956778,
+      166.5024436907259,
+      121.01323518424674,
+      96.64059129859805,
+      23.911111250075866,
+      17.768849730954237,
+      9.202616376925755
+    ],
+    "scaled_data_condition": 19.193871303661194,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.008978158011716555,
+      0.006091850550927813,
+      0.019522697373344285,
+      -0.0035466501112804976,
+      0.5660456436211393,
+      0.5861523304733601,
+      0.5792290932040774
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 85,
+    "mode": "equal_count_per_camera",
+    "n": 138,
+    "scaled_data_singular_values": [
+      48.638058691164,
+      46.84851578045405,
+      30.596286662862255,
+      23.455582552633658,
+      6.791853729871053,
+      4.889871522944825,
+      2.7439133436467644
+    ],
+    "scaled_data_condition": 17.725799833941615,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.03352690700692515,
+      -0.005544245082749241,
+      -0.027054992449511393,
+      0.002789353020764297,
+      -0.5397598286831052,
+      -0.5456609785441425,
+      -0.6395458377477942
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 45,
+    "mode": "natural_count",
+    "n": 1167,
+    "scaled_data_singular_values": [
+      151.77725032048846,
+      136.9608391911303,
+      109.47403392844784,
+      75.96318009167777,
+      15.820839266490964,
+      11.36922624799732,
+      3.288610775878607
+    ],
+    "scaled_data_condition": 46.15239098337463,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.010774916533581303,
+      0.0011619922241590322,
+      0.020638947179992786,
+      -0.006609106537220709,
+      0.5795246734218789,
+      0.570718733345607,
+      0.5812436535752432
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 45,
+    "mode": "equal_count_per_camera",
+    "n": 138,
+    "scaled_data_singular_values": [
+      48.29885970415527,
+      47.03687723018634,
+      26.655859506027927,
+      25.51485245073147,
+      5.297771571935603,
+      3.8156740600082455,
+      1.1597060904986223
+    ],
+    "scaled_data_condition": 41.64750025878445,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.0057089225024459745,
+      0.0082769267562159,
+      0.024745874053202138,
+      -0.00464531233940127,
+      0.5728257282297063,
+      0.594782875617193,
+      0.5633551095255946
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 20,
+    "mode": "natural_count",
+    "n": 575,
+    "scaled_data_singular_values": [
+      112.8763788921057,
+      94.00432899833204,
+      86.72444034685088,
+      48.602950809294384,
+      5.780574016282374,
+      3.9289166271880336,
+      0.7117179012241002
+    ],
+    "scaled_data_condition": 158.59707715369672,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.010161408069940111,
+      0.004775502858198905,
+      0.022284870032279844,
+      -0.009511808384154979,
+      0.5794169353832345,
+      0.5757238023549816,
+      0.5762854924604793
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 20,
+    "mode": "equal_count_per_camera",
+    "n": 138,
+    "scaled_data_singular_values": [
+      53.84270624973938,
+      46.358409464941836,
+      40.08463873696217,
+      23.915607817630566,
+      2.917693154117989,
+      1.9707441539736876,
+      0.3231632416299937
+    ],
+    "scaled_data_condition": 166.61148086695664,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.01314731210147239,
+      0.004099955455355582,
+      0.021675342227397313,
+      -0.011372876694261815,
+      0.5778162145886709,
+      0.5670291895401721,
+      0.586359528047961
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 10,
+    "mode": "natural_count",
+    "n": 294,
+    "scaled_data_singular_values": [
+      78.67540017944413,
+      65.04831997733466,
+      59.23158560193142,
+      31.941934113839604,
+      2.139736424743134,
+      1.433300590453075,
+      0.20434053530927387
+    ],
+    "scaled_data_condition": 385.02101435903154,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.014451235448851288,
+      -0.0059369114808016585,
+      -0.023110044875271282,
+      0.011106535105431019,
+      -0.5744402364022878,
+      -0.5708511409667668,
+      -0.5858718931975744
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 10,
+    "mode": "equal_count_per_camera",
+    "n": 138,
+    "scaled_data_singular_values": [
+      52.93806130716622,
+      45.30163735417095,
+      40.57940039551884,
+      22.27053480016196,
+      1.4548209345154801,
+      1.0100046376759344,
+      0.1393830111581878
+    ],
+    "scaled_data_condition": 379.80282437065483,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.01348629271026869,
+      0.006806550370520269,
+      0.02351626088481274,
+      -0.010968828778546205,
+      0.5743115591785914,
+      0.5739538605012636,
+      0.5829593982943939
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 5,
+    "mode": "natural_count",
+    "n": 149,
+    "scaled_data_singular_values": [
+      55.156285442215136,
+      47.62342751240999,
+      43.13349758550676,
+      22.40099717172503,
+      0.7928228841724403,
+      0.5010561137447958,
+      0.1133796241940982
+    ],
+    "scaled_data_condition": 486.47440696920404,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.010879220167647207,
+      0.0039384147722764835,
+      0.023957950243595618,
+      -0.012012395445608812,
+      0.5846762919725359,
+      0.5710546371740615,
+      0.5754981193719536
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "nominal_002",
+    "half_angle_deg": 5,
+    "mode": "equal_count_per_camera",
+    "n": 138,
+    "scaled_data_singular_values": [
+      52.23036761272431,
+      46.264504244582085,
+      42.35992635797552,
+      21.913065103479898,
+      0.7472205545166414,
+      0.5002764418274306,
+      0.11177007887485531
+    ],
+    "scaled_data_condition": 467.3018766606102,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.010730943010735268,
+      0.0033629605379663884,
+      0.024113587228557064,
+      -0.012260990394642525,
+      0.5862159898838507,
+      0.5699211851965549,
+      0.5750499076190558
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 85,
+    "mode": "natural_count",
+    "n": 1566,
+    "scaled_data_singular_values": [
+      211.52454325587044,
+      198.8107542632312,
+      128.43940878141333,
+      117.28775446145126,
+      24.182286409758465,
+      17.118693837095684,
+      9.320416228653073
+    ],
+    "scaled_data_condition": 22.694752902300223,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.036432176622334674,
+      -0.0027937064005762735,
+      0.03897169968957835,
+      0.0012303360381730067,
+      0.5522262276983932,
+      0.5215510924371828,
+      0.6482092532718338
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 85,
+    "mode": "equal_count_per_camera",
+    "n": 123,
+    "scaled_data_singular_values": [
+      62.27461979950461,
+      54.07095304794059,
+      35.34222728687195,
+      32.733763789512075,
+      6.969020928204012,
+      4.632166978161,
+      2.595173031075331
+    ],
+    "scaled_data_condition": 23.996326662542657,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.030356124067763255,
+      -0.0017557047182476804,
+      -0.03824476510109632,
+      -0.007177943665160792,
+      -0.5283869247773718,
+      -0.557761631469543,
+      -0.6381774506235489
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 45,
+    "mode": "natural_count",
+    "n": 1115,
+    "scaled_data_singular_values": [
+      174.89725449911506,
+      162.95485177425684,
+      113.5620386076641,
+      88.3392049486476,
+      15.78262851497866,
+      10.988478088780894,
+      3.701311275482456
+    ],
+    "scaled_data_condition": 47.25278191478713,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.03248513147930699,
+      -0.003573585088830017,
+      0.03963003660850083,
+      0.0028640797787612797,
+      0.5563914770346645,
+      0.5357216830007033,
+      0.6330750394810187
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 45,
+    "mode": "equal_count_per_camera",
+    "n": 123,
+    "scaled_data_singular_values": [
+      59.145897444169535,
+      54.062298817283384,
+      37.898637489812636,
+      30.00356765466378,
+      5.223289125599641,
+      3.6987413271086638,
+      1.330120673673294
+    ],
+    "scaled_data_condition": 44.46656503791552,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.021016728500163426,
+      0.0062965612797251935,
+      -0.04226006942418387,
+      0.0017908898655925442,
+      -0.5939057426161362,
+      -0.5324729076996805,
+      -0.6012304891955969
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 20,
+    "mode": "natural_count",
+    "n": 538,
+    "scaled_data_singular_values": [
+      117.77454339899468,
+      109.9228949759755,
+      74.89789604169013,
+      54.47464536462035,
+      5.603410362875652,
+      3.83456229339292,
+      0.8870414911887472
+    ],
+    "scaled_data_condition": 132.77230498109168,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.03562724063106884,
+      -0.008292239683146074,
+      0.040655919230416886,
+      0.009916960582946879,
+      0.549313258756086,
+      0.5392792548024273,
+      0.6358801126823262
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 20,
+    "mode": "equal_count_per_camera",
+    "n": 123,
+    "scaled_data_singular_values": [
+      54.84039560875521,
+      53.32941663064838,
+      34.35946174573422,
+      27.159656168662067,
+      2.5075847512723257,
+      1.8768301049294045,
+      0.37371089381185957
+    ],
+    "scaled_data_condition": 146.74550974252298,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.035781467580304344,
+      0.0020607674063130715,
+      -0.04051585072121032,
+      -0.0074896003573369715,
+      -0.5446143395591639,
+      -0.5436955251790326,
+      -0.636245399660502
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 10,
+    "mode": "natural_count",
+    "n": 273,
+    "scaled_data_singular_values": [
+      87.0673252752914,
+      77.9483973670696,
+      54.556633067673445,
+      38.414370629719905,
+      2.0321843259195234,
+      1.3742293241071732,
+      0.4133207943841622
+    ],
+    "scaled_data_condition": 210.6531451073483,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.031722386297966004,
+      0.007469269918680604,
+      -0.04162750128115489,
+      -0.010163658091760041,
+      -0.5540337835507237,
+      -0.5477794068184411,
+      -0.6245686828170561
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 10,
+    "mode": "equal_count_per_camera",
+    "n": 123,
+    "scaled_data_singular_values": [
+      57.577806720934205,
+      53.74165030307329,
+      36.98944991247426,
+      27.302459768139666,
+      1.3488350692607851,
+      0.9596920662400665,
+      0.2924031147761418
+    ],
+    "scaled_data_condition": 196.91242606979296,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.029787302072530362,
+      0.0090252958693188,
+      -0.04159586026856821,
+      -0.010264975933795759,
+      -0.5585522704591271,
+      -0.5487611929998158,
+      -0.6197388075388534
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 5,
+    "mode": "natural_count",
+    "n": 136,
+    "scaled_data_singular_values": [
+      62.49746244559849,
+      54.39239090827522,
+      38.704671775542025,
+      26.849738380817737,
+      0.7385725333040359,
+      0.521137703204996,
+      0.2865779514688603
+    ],
+    "scaled_data_condition": 218.08189403709062,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.03772161992922492,
+      0.005901441901742133,
+      -0.04377605751502354,
+      -0.012121913181540708,
+      -0.6357827524008215,
+      -0.6398903463149516,
+      -0.4275507043909796
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_000",
+    "half_angle_deg": 5,
+    "mode": "equal_count_per_camera",
+    "n": 123,
+    "scaled_data_singular_values": [
+      57.93711286086532,
+      51.478819834831654,
+      36.38100829518624,
+      26.359052867465238,
+      0.7035933919284617,
+      0.499307634209302,
+      0.2697739472529315
+    ],
+    "scaled_data_condition": 214.76170494160178,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.04576921695386315,
+      0.010203964314465741,
+      -0.04376965001784042,
+      -0.011824999176671342,
+      -0.6518061976235691,
+      -0.6393135762595517,
+      -0.40270619187344747
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 85,
+    "mode": "natural_count",
+    "n": 2279,
+    "scaled_data_singular_values": [
+      194.1599657994595,
+      173.58842088827174,
+      115.29220060969604,
+      83.58713377563076,
+      27.435328137295485,
+      19.998729740465343,
+      11.007560945386523
+    ],
+    "scaled_data_condition": 17.638781812135743,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.010456209803297978,
+      0.010706898819230544,
+      0.020270247809895055,
+      0.0008426712975566353,
+      0.6057565571623728,
+      0.5863476438954991,
+      0.5372335347928495
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 85,
+    "mode": "equal_count_per_camera",
+    "n": 186,
+    "scaled_data_singular_values": [
+      51.41051390837151,
+      49.356646789658875,
+      21.41900743899373,
+      16.864652558188222,
+      7.685963251882259,
+      5.653808980367874,
+      3.174608292580037
+    ],
+    "scaled_data_condition": 16.19428577331336,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.029365039476375646,
+      0.0358940024593006,
+      0.01560610191201905,
+      -0.00638437185688907,
+      0.5536808855159772,
+      0.671174501890178,
+      0.4904357954409758
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 45,
+    "mode": "natural_count",
+    "n": 1653,
+    "scaled_data_singular_values": [
+      170.97275510966148,
+      143.5115046597682,
+      100.5888616888619,
+      59.56863866438121,
+      18.85494355221132,
+      12.898604429369259,
+      4.016372449953972
+    ],
+    "scaled_data_condition": 42.56894927949743,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.0014177036365333464,
+      0.00973112544058809,
+      0.02544390505682742,
+      0.0015031934548926486,
+      0.5957739270641543,
+      0.5702280320321794,
+      0.5649310247580831
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 45,
+    "mode": "equal_count_per_camera",
+    "n": 186,
+    "scaled_data_singular_values": [
+      53.93863711127156,
+      46.960839595644885,
+      21.003842536469076,
+      18.191247042012193,
+      6.09097721396049,
+      4.230971724851342,
+      1.2668994722172071
+    ],
+    "scaled_data_condition": 42.57530948124344,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.00951609132466071,
+      -0.015436543393759189,
+      -0.01898183607546645,
+      -0.0112794060847979,
+      -0.5654650443308695,
+      -0.5805407394401644,
+      -0.5851541297142885
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 20,
+    "mode": "natural_count",
+    "n": 804,
+    "scaled_data_singular_values": [
+      122.06036750827484,
+      97.89154364158615,
+      74.50635311167092,
+      40.75687379230867,
+      6.847980388553142,
+      4.493701883176908,
+      0.8060366676143828
+    ],
+    "scaled_data_condition": 151.4327727416365,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.0015978754849695807,
+      0.01276336839647544,
+      0.03064725612312948,
+      0.006296798638849422,
+      0.5925696399498606,
+      0.5706183889031174,
+      0.5675486898015345
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 20,
+    "mode": "equal_count_per_camera",
+    "n": 186,
+    "scaled_data_singular_values": [
+      58.23645269311457,
+      46.78409399593253,
+      32.1652781437191,
+      24.448500620941285,
+      3.2848862299678965,
+      2.1258509591941444,
+      0.3725955529963261
+    ],
+    "scaled_data_condition": 156.2993766962345,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.004680111191160454,
+      -0.016980949697839996,
+      -0.033975578082637424,
+      -0.003652045772541819,
+      -0.5812665603375999,
+      -0.5700368808014914,
+      -0.5794041826925529
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 10,
+    "mode": "natural_count",
+    "n": 412,
+    "scaled_data_singular_values": [
+      87.89384192647415,
+      69.66571511561389,
+      57.611584872382714,
+      30.028708485546034,
+      2.5635395635447997,
+      1.6486184487758386,
+      0.36972155568270415
+    ],
+    "scaled_data_condition": 237.7298282329658,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.009974758068074562,
+      -0.01279651133217951,
+      -0.03206109329158907,
+      -0.007890457970168813,
+      -0.5827039373358435,
+      -0.5589370831633443,
+      -0.5888056036989933
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 10,
+    "mode": "equal_count_per_camera",
+    "n": 186,
+    "scaled_data_singular_values": [
+      58.583660071912824,
+      46.8479382833307,
+      34.69788496202566,
+      23.205083715478406,
+      1.7143921600983618,
+      1.101253168494201,
+      0.23688961944857326
+    ],
+    "scaled_data_condition": 247.30361848814925,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      0.007746999373689659,
+      -0.01447596666869529,
+      -0.03271545966126289,
+      -0.008028266756571596,
+      -0.5832499570295212,
+      -0.5647768012814223,
+      -0.5826167937685413
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 5,
+    "mode": "natural_count",
+    "n": 204,
+    "scaled_data_singular_values": [
+      61.58021603757877,
+      48.80166043900195,
+      41.01252532155045,
+      13.595467478961659,
+      0.8849426274350966,
+      0.5722541303434188,
+      0.10459729462448662
+    ],
+    "scaled_data_condition": 588.7362217030287,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.005303259892481897,
+      0.01657280948751126,
+      0.025955961118748087,
+      0.00506830076271866,
+      0.5749899593042661,
+      0.5766797498585586,
+      0.579503952214592
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  },
+  {
+    "case": "stress_003",
+    "half_angle_deg": 5,
+    "mode": "equal_count_per_camera",
+    "n": 186,
+    "scaled_data_singular_values": [
+      57.805841847322405,
+      46.71055392259116,
+      40.55431215593242,
+      13.206725282711046,
+      0.8193172229731319,
+      0.539562575502936,
+      0.1037808050711674
+    ],
+    "scaled_data_condition": 556.9993584813898,
+    "parameter_scales": [
+      5.0,
+      5.0,
+      0.1,
+      0.1,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "weakest_scaled_direction": [
+      -0.006178138362656813,
+      0.016146824906622073,
+      0.025954135223907618,
+      0.005020470874421666,
+      0.57460007535898,
+      0.5746526469099823,
+      0.5819032369609148
+    ],
+    "information_semantics": "local weighted data Jacobian, profile nuisance projected, no priors; not calibrated uncertainty"
+  }
+]

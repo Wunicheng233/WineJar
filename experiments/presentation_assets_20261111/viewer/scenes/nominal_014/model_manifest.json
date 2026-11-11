@@ -1,0 +1,125 @@
+{
+  "name": "nominal_014",
+  "relative_dir": "nominal_014",
+  "jar_spec": {
+    "height_m": 0.6168557358887407,
+    "body_radius_m": 0.17559735497564363,
+    "neck_radius_m": 0.05356077747321599,
+    "lip_radius_m": 0.06637701822261215,
+    "neck_length_m": 0.008037897070092549,
+    "lip_height_m": 0.005165227402518525,
+    "body_profile": [
+      [
+        0.0,
+        0.6026177704080442
+      ],
+      [
+        0.025,
+        0.6426177704080442
+      ],
+      [
+        0.12,
+        0.713456926671039
+      ],
+      [
+        0.3,
+        0.8475548096023234
+      ],
+      [
+        0.52,
+        0.9320583212813528
+      ],
+      [
+        0.72,
+        1.0
+      ],
+      [
+        0.81,
+        0.9818512752473281
+      ],
+      [
+        0.89,
+        0.8462446357098286
+      ],
+      [
+        0.95,
+        0.5663986814845113
+      ]
+    ],
+    "neck_tilt_deg": [
+      -0.49363100262246257,
+      1.3664505908495357
+    ],
+    "neck_offset_xy_m": [
+      0.00029598525580892907,
+      0.003912420167761843
+    ],
+    "wall_thickness_m": 0.006,
+    "bottom_thickness_m": 0.01,
+    "neck_profile": "flat",
+    "shallow_relief_m": 0.002194338284355896,
+    "near_min_delta_m": 0.001
+  },
+  "material": "mottled_gray",
+  "mesh_vertices": 62722,
+  "mesh_triangles": 125440,
+  "bbox_min_m": [
+    -0.17559735497564363,
+    -0.17559735497564363,
+    0.0
+  ],
+  "bbox_max_m": [
+    0.17559735497564363,
+    0.17559735497564363,
+    0.618525978126092
+  ],
+  "geometry_diagnostics": {
+    "local_collar_blend_start_s_m": 0.5886526114161296,
+    "minimum_axial_jacobian": 0.8158297415128888,
+    "max_orientation_radius_over_axial_rate": 0.18605707264635868,
+    "minimum_axial_jacobian_limit": 0.2,
+    "check_scope": "local_swept_surface_regularity; not_a_global_self_intersection_proof"
+  },
+  "geometry_source": "photo-inspired synthetic parameterization; no metric single-view reconstruction",
+  "quality": {
+    "cam_a": {
+      "jar_pixels": 49696,
+      "jar_bbox_xyxy": [
+        208,
+        217,
+        431,
+        479
+      ],
+      "depth_on_jar_m": [
+        0.6476765871047974,
+        0.8582130074501038
+      ]
+    },
+    "cam_b": {
+      "jar_pixels": 49708,
+      "jar_bbox_xyxy": [
+        208,
+        217,
+        431,
+        479
+      ],
+      "depth_on_jar_m": [
+        0.6476766467094421,
+        0.8506456017494202
+      ]
+    },
+    "cam_c": {
+      "jar_pixels": 49930,
+      "jar_bbox_xyxy": [
+        207,
+        220,
+        432,
+        479
+      ],
+      "depth_on_jar_m": [
+        0.6433362364768982,
+        0.8463388085365295
+      ]
+    }
+  }
+}

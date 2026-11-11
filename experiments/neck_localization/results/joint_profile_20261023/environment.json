@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "scipy": "1.18.1",
+  "mujoco": "3.8.1",
+  "opencv": "5.0.0",
+  "OPENBLAS_NUM_THREADS": "1",
+  "environment": "embodied-sim"
+}

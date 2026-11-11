@@ -1,0 +1,36 @@
+{
+  "seed": 2026102327,
+  "config_sha256": "2251195ae62dfae57b3e39fe3bface6eda605c27418f5a041c60a24469e6273e",
+  "locked_sources": {
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "scripts/run_depth_profile_baseline.py": "91f081894a010a828f76c09738b4e902c40a2734d3f799b662dedc9e636bb9e5",
+    "scripts/run_support_feedback.py": "081586cfed9d82e1f9669e32f2ffcf2d299a8abfa69a18e0b347ec61da05ecec",
+    "neck_localization/jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "neck_localization/scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298",
+    "neck_localization/random_audit.py": "c20171a541bf81b3b67082dcf866d310153b91d3707503e8337d1245cd8e0cea",
+    "scripts/run_random_neck_audit.py": "0977c7f2aaabea5797306fa25a821f579793337c09f96e93bb33aa63b923f626"
+  },
+  "protocol": "Before scene generation/evaluation; no tuning after results; all sampled jars retained",
+  "modes": [
+    "fixed_equal_trust",
+    "region_equal_trust"
+  ],
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "assumptions": {
+    "nominal": "Assumed range around photo/user dimensions, NOT measured factory distribution",
+    "stress": "Deliberately short/long neck, stronger local tilt and wider size range; NOT factory frequency",
+    "neck": "Circular sections; single flat or shallow neck; no ellipticity/local dents/asymmetric rim",
+    "cameras": "Frozen artificial three-camera rig and ideal true K/T; no layout search/no noise",
+    "placement": "Body base position and orientation fixed; local geometry varies between jars",
+    "nominal_count": 24,
+    "stress_count": 12
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "condition": "close/fs_old8/clean",
+    "label": "近·fs_old8净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_old8/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_old8/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/fs_old8/shared_noise",
+    "label": "近·fs_old8噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_old8/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_old8/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/fs_test8/clean",
+    "label": "近·fs_test8净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_test8/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_test8/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/fs_test8/shared_noise",
+    "label": "近·fs_test8噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_test8/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/fs_test8/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/ss_test8/clean",
+    "label": "近·ss_test8净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/ss_test8/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/ss_test8/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/ss_test8/shared_noise",
+    "label": "近·ss_test8噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/ss_test8/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/task_surface_viewer_20261028_v1/close/ss_test8/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  }
+]

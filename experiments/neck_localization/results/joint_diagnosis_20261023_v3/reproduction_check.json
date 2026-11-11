@@ -1,0 +1,6 @@
+{
+  "identical_except_elapsed_s": true,
+  "cases": 4,
+  "multistart_runs": 120,
+  "frozen_estimator_unchanged": true
+}

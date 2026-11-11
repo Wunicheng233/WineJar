@@ -1,0 +1,13 @@
+group,method,camera_set,total,success,rejected,false_accepted
+nominal,fixed_equal_trust,cam_a,24,23,1,0
+nominal,fixed_equal_trust,"cam_a,cam_b",24,24,0,0
+nominal,fixed_equal_trust,all,24,23,1,0
+nominal,region_equal_trust,cam_a,24,19,5,0
+nominal,region_equal_trust,"cam_a,cam_b",24,22,2,0
+nominal,region_equal_trust,all,24,23,1,0
+stress,fixed_equal_trust,cam_a,12,5,7,0
+stress,fixed_equal_trust,"cam_a,cam_b",12,9,3,0
+stress,fixed_equal_trust,all,12,11,1,0
+stress,region_equal_trust,cam_a,12,3,9,0
+stress,region_equal_trust,"cam_a,cam_b",12,8,4,0
+stress,region_equal_trust,all,12,11,1,0

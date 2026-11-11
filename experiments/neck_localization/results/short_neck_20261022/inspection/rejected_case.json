@@ -1,0 +1,20 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "tilted_flat",
+  "camera_set": "cam_a,cam_b",
+  "rgb_result_overlay": false,
+  "ground_truth_overlay": false,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": false,
+  "reasons": [
+    "unsupported_gap_in_radius_profile"
+  ],
+  "records_sha256": "e58e39d68c46f45e4e72dcb15bbdf3e0f4a13898683dd22ca502fa20b32d4f3a",
+  "raw_rgb_sha256": {
+    "cam_a": "c8622c80ab83d24d6077696328458a6a8bd1bbf58175eb6ff62d045bd25bf90b",
+    "cam_b": "2fec61f484039af71b90d56cf8c9f9d2822172c899acc69887527906c8cf3cfe",
+    "cam_c": "2d8f8c33412ab24c7f10a7b4eef88057d0ba3114ea73d3dc4b49be20d46f8398"
+  }
+}

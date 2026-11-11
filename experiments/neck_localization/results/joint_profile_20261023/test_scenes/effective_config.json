@@ -1,0 +1,228 @@
+{
+  "schema": 2,
+  "seed": 2026102303,
+  "reference_dimensions": {
+    "height_m": {
+      "value": 0.6,
+      "source": "user approximate total height"
+    },
+    "mouth_outer_diameter_m": {
+      "value": 0.125,
+      "source": "user approximate mouth outside diameter"
+    },
+    "body_max_diameter_m": {
+      "value": 0.36,
+      "source": "assumed from photograph proportions; not measured"
+    },
+    "neck_min_diameter_m": {
+      "value": 0.105,
+      "source": "synthetic assumption"
+    },
+    "neck_length_m": {
+      "value": 0.01,
+      "source": "user approximate exposed neck length below raised lip, 2026-10-22"
+    },
+    "lip_height_m": {
+      "value": 0.006,
+      "source": "synthetic assumption; independent of exposed neck length"
+    }
+  },
+  "angular_segments": 160,
+  "vertical_samples": 180,
+  "jar": {
+    "height_m": 0.6,
+    "body_radius_m": 0.18,
+    "neck_radius_m": 0.0525,
+    "lip_radius_m": 0.0625,
+    "neck_length_m": 0.01,
+    "neck_tilt_deg": [
+      0,
+      0
+    ],
+    "neck_offset_xy_m": [
+      0,
+      0
+    ],
+    "neck_profile": "shallow",
+    "near_min_delta_m": 0.001,
+    "lip_height_m": 0.006,
+    "body_profile": [
+      [
+        0,
+        0.6
+      ],
+      [
+        0.025,
+        0.64
+      ],
+      [
+        0.12,
+        0.72
+      ],
+      [
+        0.3,
+        0.84
+      ],
+      [
+        0.52,
+        0.95
+      ],
+      [
+        0.72,
+        1.0
+      ],
+      [
+        0.81,
+        0.975
+      ],
+      [
+        0.89,
+        0.84
+      ],
+      [
+        0.95,
+        0.6
+      ]
+    ]
+  },
+  "scene": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fovy_deg": 50,
+    "nominal_target_world_m": [
+      0,
+      0,
+      0.59
+    ],
+    "cameras": [
+      {
+        "name": "cam_a",
+        "azimuth_deg": -50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_b",
+        "azimuth_deg": 50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_c",
+        "azimuth_deg": 180,
+        "elevation_deg": 8,
+        "distance_m": 0.8,
+        "role": "third-view comparison"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "test_compact_shallow",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.582,
+        "body_radius_m": 0.169,
+        "neck_radius_m": 0.0498,
+        "lip_radius_m": 0.0608,
+        "neck_length_m": 0.0105,
+        "lip_height_m": 0.0058,
+        "shallow_relief_m": 0.0017
+      }
+    },
+    {
+      "name": "test_reverse_collar",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.622,
+        "body_radius_m": 0.183,
+        "neck_radius_m": 0.0532,
+        "lip_radius_m": 0.0648,
+        "neck_length_m": 0.0098,
+        "lip_height_m": 0.0062,
+        "neck_tilt_deg": [
+          -5,
+          3
+        ],
+        "neck_offset_xy_m": [
+          0.003,
+          -0.002
+        ],
+        "shallow_relief_m": 0.0021
+      }
+    },
+    {
+      "name": "test_low_flat",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.591,
+        "body_radius_m": 0.177,
+        "neck_radius_m": 0.0518,
+        "lip_radius_m": 0.0632,
+        "neck_length_m": 0.0115,
+        "lip_height_m": 0.0057,
+        "neck_profile": "flat",
+        "neck_tilt_deg": [
+          2,
+          -3
+        ]
+      }
+    },
+    {
+      "name": "test_high_broad",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.651,
+        "body_radius_m": 0.194,
+        "neck_radius_m": 0.0563,
+        "lip_radius_m": 0.0685,
+        "neck_length_m": 0.0108,
+        "lip_height_m": 0.0068,
+        "shallow_relief_m": 0.0023,
+        "neck_tilt_deg": [
+          -3,
+          -4
+        ]
+      }
+    },
+    {
+      "name": "test_offset_upright",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.607,
+        "body_radius_m": 0.181,
+        "neck_radius_m": 0.0521,
+        "lip_radius_m": 0.0628,
+        "neck_length_m": 0.0088,
+        "lip_height_m": 0.0061,
+        "shallow_relief_m": 0.0015,
+        "neck_offset_xy_m": [
+          -0.004,
+          0.003
+        ]
+      }
+    },
+    {
+      "name": "test_oblique_flat",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.633,
+        "body_radius_m": 0.188,
+        "neck_radius_m": 0.0548,
+        "lip_radius_m": 0.0664,
+        "neck_length_m": 0.0125,
+        "lip_height_m": 0.0064,
+        "neck_profile": "flat",
+        "neck_tilt_deg": [
+          4,
+          -4
+        ]
+      }
+    }
+  ],
+  "dataset_split": "new_test_config_locked_before_joint_estimator_implementation"
+}

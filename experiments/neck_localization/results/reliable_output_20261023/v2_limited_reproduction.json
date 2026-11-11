@@ -1,0 +1,8 @@
+{
+  "repeated_cases": [
+    "stress_004",
+    "stress_008"
+  ],
+  "all_score_fields_except_runtime_identical": true,
+  "full_one_command_rebuild_executed": false
+}

@@ -1,0 +1,173 @@
+{
+  "groups": [
+    {
+      "frontend": "fs",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "physical_band_contained": 6,
+      "near_min_proxy_contained": 5,
+      "head_clearance_passed": 10,
+      "ik_passed": 11,
+      "sampled_kinematic_usable": 6,
+      "final_fastening_success": null,
+      "failures": [
+        "old12/structural_test_nominal_000",
+        "old12/structural_test_stress_000",
+        "old12/structural_test_stress_002",
+        "old8/confirmation_nominal_005",
+        "new8/confirmation_nominal_001"
+      ],
+      "original_center_mm": {
+        "median": 1.8360408100370167,
+        "p95": 2.6737835279085287,
+        "max": 2.9413322039294942
+      },
+      "original_normal_deg": {
+        "median": 0.5651240518409211,
+        "p95": 1.874540355358942,
+        "max": 2.504895655835624
+      },
+      "original_diameter_mm": {
+        "median": 0.7118088855435079,
+        "p95": 2.2215679212244375,
+        "max": 2.58200376534444
+      },
+      "planning_runtime_ms": {
+        "median": 0.7847180004318943,
+        "p95": 0.8834290001686895,
+        "max": 0.9654219993535662
+      },
+      "max_center_error_invariance_m": 5.659535340374333e-17
+    },
+    {
+      "frontend": "fs",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "physical_band_contained": 6,
+      "near_min_proxy_contained": 6,
+      "head_clearance_passed": 10,
+      "ik_passed": 11,
+      "sampled_kinematic_usable": 6,
+      "final_fastening_success": null,
+      "failures": [
+        "old12/structural_test_stress_000",
+        "old12/structural_test_stress_002",
+        "old8/confirmation_nominal_005",
+        "new8/confirmation_nominal_001",
+        "new8/confirmation_nominal_004"
+      ],
+      "original_center_mm": {
+        "median": 1.830149455072939,
+        "p95": 2.743513613749206,
+        "max": 2.8899720193416423
+      },
+      "original_normal_deg": {
+        "median": 0.6016236677708141,
+        "p95": 1.7890607502925682,
+        "max": 2.430320252404371
+      },
+      "original_diameter_mm": {
+        "median": 0.6768090956714573,
+        "p95": 2.406008422428059,
+        "max": 2.9139436827323313
+      },
+      "planning_runtime_ms": {
+        "median": 0.788393999755499,
+        "p95": 0.8398685004067374,
+        "max": 0.8421700003964361
+      },
+      "max_center_error_invariance_m": 4.90059381963448e-17
+    },
+    {
+      "frontend": "ss",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "physical_band_contained": 10,
+      "near_min_proxy_contained": 9,
+      "head_clearance_passed": 10,
+      "ik_passed": 11,
+      "sampled_kinematic_usable": 10,
+      "final_fastening_success": null,
+      "failures": [
+        "new8/confirmation_nominal_001"
+      ],
+      "original_center_mm": {
+        "median": 1.289680809639303,
+        "p95": 2.4962376909729804,
+        "max": 2.678211741754151
+      },
+      "original_normal_deg": {
+        "median": 0.269251187607657,
+        "p95": 0.909244378616597,
+        "max": 1.0745356376927566
+      },
+      "original_diameter_mm": {
+        "median": 3.5347803191429215,
+        "p95": 8.81427355807727,
+        "max": 9.231027384091387
+      },
+      "planning_runtime_ms": {
+        "median": 0.7958510013850173,
+        "p95": 0.830591500744049,
+        "max": 0.8370160012418637
+      },
+      "max_center_error_invariance_m": 1.214306433183765e-16
+    },
+    {
+      "frontend": "ss",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "physical_band_contained": 10,
+      "near_min_proxy_contained": 9,
+      "head_clearance_passed": 10,
+      "ik_passed": 11,
+      "sampled_kinematic_usable": 10,
+      "final_fastening_success": null,
+      "failures": [
+        "new8/confirmation_nominal_001"
+      ],
+      "original_center_mm": {
+        "median": 1.4514873769631786,
+        "p95": 2.4252016942728956,
+        "max": 2.5899047095649466
+      },
+      "original_normal_deg": {
+        "median": 0.3304340282997059,
+        "p95": 0.9075812163532713,
+        "max": 1.0412483227070237
+      },
+      "original_diameter_mm": {
+        "median": 3.4380185138675188,
+        "p95": 8.935972094693934,
+        "max": 9.446289279320924
+      },
+      "planning_runtime_ms": {
+        "median": 0.7824379990779562,
+        "p95": 0.8252344996435568,
+        "max": 0.8441059999313438
+      },
+      "max_center_error_invariance_m": 1.2685165418080402e-16
+    }
+  ],
+  "gun_geometry": {
+    "closed_inner_diameter_m": 0.15,
+    "open_tip_center_separation_m": 0.15299999999999997,
+    "open_tip_clearance_m": 0.14999999999999997,
+    "polygon_sagitta_m": 2.3040369740374876e-05,
+    "shared_rear_hinge_assumed": true
+  },
+  "physical_interval_assumption": "entire_model_neck_is_usable_per_user_factory_domain_not_measured_contact_groove",
+  "final_fastening_not_validated": true
+}

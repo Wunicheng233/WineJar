@@ -1,0 +1,8 @@
+{
+  "source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3",
+  "diagnostic_only": true,
+  "oracle_lip_radius_m": 0.09,
+  "oracle_radius_semantics": "broad permissive bound to isolate seed/region; not measured or claimed deployable",
+  "measured_points_never_replaced": true,
+  "core_solver_and_gates_unchanged": true
+}

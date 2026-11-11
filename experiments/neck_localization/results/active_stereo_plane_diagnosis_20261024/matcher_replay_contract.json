@@ -1,0 +1,9 @@
+{
+  "input": "saved pre-noise uint8 PNG IR pairs; same first-channel truncation as CUDA float2uint8",
+  "noise": "upstream gamma shape1333.33, scale1/1333.33; additive Gaussian sigma0.25 uint8 levels; off skips both",
+  "rng": "fresh matcher per condition, original seed, original six-case order",
+  "scope": "PNG replay, not a rerender; equality to saved original checked rather than assumed",
+  "max_disp": 128,
+  "source": "/home/wunicheng/anaconda3/envs/winejar-stereo/lib/python3.12/site-packages/sapien/sensor/simsense_component.py",
+  "source_sha256": "45a6e5d48484a63013f169cda0174b44b81b7396ca5aa1a68050c8c5889eb250"
+}

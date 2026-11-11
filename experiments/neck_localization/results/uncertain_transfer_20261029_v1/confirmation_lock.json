@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/neck_localization/poe_camera_calibration.py": "d629f739359a46e686eaa2a93c03d501f8374993681c4a613033e73fbe8d2275",
+    "/home/wunicheng/Git/WineJar/neck_localization/uncertain_handeye.py": "02efcb3a67c8f23fcc801984886153a32a9e1b6dcc4e9435f445549cb2ebc3fe",
+    "/home/wunicheng/Git/WineJar/scripts/run_poe_camera_calibration.py": "921d28e4c082f582fb0eeb7f45ca7f211e9ff460189f88ddb117fd94334b7a8d",
+    "/home/wunicheng/Git/WineJar/scripts/evaluate_uncertain_handeye.py": "1d561332bf799dc37094df312052c362275230513ee5b7bac25a35269c1c38a4",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/uncertain_transfer_20261029_v2.json": "ad0d4d8ecc59a59903f34f9e700414355e82b8733ebb1c09e34b78ea86fa8111"
+  },
+  "test_seeds": [
+    2026102981,
+    2026102983,
+    2026102987,
+    2026102991
+  ],
+  "note": "Frozen before viewing confirmation candidate results; old models, new calibration campaigns only"
+}

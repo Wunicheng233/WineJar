@@ -1,0 +1,1738 @@
+[
+  {
+    "condition": "ideal",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9261045819636822,
+      "p95": 2.9182718121967612,
+      "max": 3.387999177215477
+    },
+    "normal_deg": {
+      "median": 0.26552676241784645,
+      "p95": 0.9793019800451881,
+      "max": 1.2331328920023261
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.926118654233191,
+      "p95": 0.990545415009145,
+      "max": 0.9905454251166468
+    },
+    "band_margin_mm": {
+      "median": 0.5974519694948495,
+      "p95": 1.8468403641569913,
+      "max": 2.0757817316376
+    },
+    "band_contained": 15,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3480783820662092,
+      "p95": 2.6800200642559355,
+      "max": 2.786785427457829
+    },
+    "normal_deg": {
+      "median": 0.2453684872911981,
+      "p95": 1.040226761929574,
+      "max": 1.0709168558808422
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.10283836026758691,
+      "p95": 0.1144276889872662,
+      "max": 0.11442770415016093
+    },
+    "band_margin_mm": {
+      "median": 0.805055204739747,
+      "p95": 2.3034064611769107,
+      "max": 2.4106050538359605
+    },
+    "band_contained": 20,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9261046828063997,
+      "p95": 2.9182720539777556,
+      "max": 3.3879992782589947
+    },
+    "normal_deg": {
+      "median": 0.2655267852228556,
+      "p95": 0.9793019752867979,
+      "max": 1.2331328953018925
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9261188892242946,
+      "p95": 0.9905455374150334,
+      "max": 0.990545537415915
+    },
+    "band_margin_mm": {
+      "median": 0.5974517530807589,
+      "p95": 1.8468404742712745,
+      "max": 2.075781546995753
+    },
+    "band_contained": 15,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3480786031714456,
+      "p95": 2.680020065740066,
+      "max": 2.786785574603909
+    },
+    "normal_deg": {
+      "median": 0.24536850135445032,
+      "p95": 1.040226745578932,
+      "max": 1.070916891444497
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.1028382840342926,
+      "p95": 0.11442791329119147,
+      "max": 0.11442791329167065
+    },
+    "band_margin_mm": {
+      "median": 0.8050551560310747,
+      "p95": 2.3034063224120853,
+      "max": 2.410605124223119
+    },
+    "band_contained": 20,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9261046828063997,
+      "p95": 2.9182720539777556,
+      "max": 3.3879992782589947
+    },
+    "normal_deg": {
+      "median": 0.2655267852228556,
+      "p95": 0.9793019752867979,
+      "max": 1.2331328953018925
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9261188892242946,
+      "p95": 0.9905455374150334,
+      "max": 0.990545537415915
+    },
+    "band_margin_mm": {
+      "median": 0.5974517530807589,
+      "p95": 1.8468404742712745,
+      "max": 2.075781546995753
+    },
+    "band_contained": 15,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3480786031703267,
+      "p95": 2.680020065739954,
+      "max": 2.786785574603324
+    },
+    "normal_deg": {
+      "median": 0.24536850135448962,
+      "p95": 1.040226745578916,
+      "max": 1.0709168914445186
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.1028382840338171,
+      "p95": 0.11442791329048053,
+      "max": 0.11442791329054564
+    },
+    "band_margin_mm": {
+      "median": 0.805055156030738,
+      "p95": 2.3034063224122416,
+      "max": 2.410605124223006
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9261046828063997,
+      "p95": 2.9182720539777556,
+      "max": 3.3879992782589947
+    },
+    "normal_deg": {
+      "median": 0.2655267852228556,
+      "p95": 0.9793019752867979,
+      "max": 1.2331328953018925
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9261188892242946,
+      "p95": 0.9905455374150334,
+      "max": 0.990545537415915
+    },
+    "band_margin_mm": {
+      "median": 0.5974517530807589,
+      "p95": 1.8468404742712745,
+      "max": 2.075781546995753
+    },
+    "band_contained": 15,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3480786031707566,
+      "p95": 2.680020065740191,
+      "max": 2.786785574603591
+    },
+    "normal_deg": {
+      "median": 0.245368501354492,
+      "p95": 1.0402267455788963,
+      "max": 1.0709168914445073
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.10283828403394805,
+      "p95": 0.11442791329055689,
+      "max": 0.11442791329059772
+    },
+    "band_margin_mm": {
+      "median": 0.8050551560310826,
+      "p95": 2.303406322412139,
+      "max": 2.4106051242226623
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.814370310768913,
+      "p95": 5.165181139420507,
+      "max": 5.740059485473447
+    },
+    "normal_deg": {
+      "median": 0.29300467146880266,
+      "p95": 1.1204453013901348,
+      "max": 1.3423364884265168
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 2.9049311988031663,
+      "p95": 3.0884044753542574,
+      "max": 3.122041177656844
+    },
+    "band_margin_mm": {
+      "median": -0.9090698034320306,
+      "p95": 1.5831947801700477,
+      "max": 1.7204956163009477
+    },
+    "band_contained": 7,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.3076149121296945,
+      "p95": 3.047090297758128,
+      "max": 3.076012833427246
+    },
+    "normal_deg": {
+      "median": 0.3144147990021564,
+      "p95": 0.9849089520073712,
+      "max": 1.2882631207579684
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.4165075733165997,
+      "p95": 1.8462595790236263,
+      "max": 1.8476504576166586
+    },
+    "band_margin_mm": {
+      "median": 0.7034501685258998,
+      "p95": 2.2541454429262764,
+      "max": 2.321814672618306
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9144497618335539,
+      "p95": 2.851269989924739,
+      "max": 3.3868927704578065
+    },
+    "normal_deg": {
+      "median": 0.26644898138383744,
+      "p95": 0.9782508859595695,
+      "max": 1.2313116728572675
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9013042729528107,
+      "p95": 0.943114037274292,
+      "max": 0.9492134461965931
+    },
+    "band_margin_mm": {
+      "median": 0.6528497331413661,
+      "p95": 1.8571796039019788,
+      "max": 2.1300736454541256
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3319856068725424,
+      "p95": 2.668521131172681,
+      "max": 2.7876858950285897
+    },
+    "normal_deg": {
+      "median": 0.25346762553804963,
+      "p95": 1.0158340574561617,
+      "max": 1.0752822943203426
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.11008669509704955,
+      "p95": 0.13959413374386387,
+      "max": 0.1438360817656458
+    },
+    "band_margin_mm": {
+      "median": 0.808354250607067,
+      "p95": 2.327865481989856,
+      "max": 2.3832351191734236
+    },
+    "band_contained": 20,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9918701153089011,
+      "p95": 3.059741723576074,
+      "max": 3.313734580675122
+    },
+    "normal_deg": {
+      "median": 0.29452876088836627,
+      "p95": 1.0090567764922636,
+      "max": 1.2845165962133014
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.8603592705863612,
+      "p95": 1.0972889209912517,
+      "max": 1.107029223615062
+    },
+    "band_margin_mm": {
+      "median": 0.449124730340581,
+      "p95": 1.7635103674895405,
+      "max": 1.9113530439624216
+    },
+    "band_contained": 15,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.2977314842497811,
+      "p95": 2.6007616579250588,
+      "max": 2.7049945572088454
+    },
+    "normal_deg": {
+      "median": 0.26042128436511885,
+      "p95": 1.0061951558716622,
+      "max": 1.1300642988077958
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.15050004436735273,
+      "p95": 0.1995539576500147,
+      "max": 0.2072492289269847
+    },
+    "band_margin_mm": {
+      "median": 0.880416418638934,
+      "p95": 2.411088196437074,
+      "max": 2.465603730563367
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.924124532932499,
+      "p95": 2.8426431844974926,
+      "max": 3.386740286909026
+    },
+    "normal_deg": {
+      "median": 0.2643082419569416,
+      "p95": 0.9813367315427733,
+      "max": 1.236594345794532
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9061431329298377,
+      "p95": 0.9516693665977513,
+      "max": 0.9569548707402891
+    },
+    "band_margin_mm": {
+      "median": 0.6614681616169219,
+      "p95": 1.8625213098737194,
+      "max": 2.137051539406273
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "image_only",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3319621993938626,
+      "p95": 2.663557768094012,
+      "max": 2.789430338111717
+    },
+    "normal_deg": {
+      "median": 0.2538978105381713,
+      "p95": 1.015388705513555,
+      "max": 1.0783020452781635
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.12878529367731384,
+      "p95": 0.15118375968296544,
+      "max": 0.16144488505917992
+    },
+    "band_margin_mm": {
+      "median": 0.8089703152679681,
+      "p95": 2.326802400440017,
+      "max": 2.388258946579148
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 4.097532218702617,
+      "p95": 5.823045840502949,
+      "max": 6.3020411964467025
+    },
+    "normal_deg": {
+      "median": 0.29263523255043056,
+      "p95": 1.1499658532602037,
+      "max": 1.3547514558435574
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 3.2440784647517225,
+      "p95": 3.659793207355334,
+      "max": 3.712851806283189
+    },
+    "band_margin_mm": {
+      "median": -1.3050914009867398,
+      "p95": 1.3219590373568395,
+      "max": 1.4586809856314025
+    },
+    "band_contained": 6,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.5035283646777815,
+      "p95": 3.144864967583162,
+      "max": 3.1935210197037986
+    },
+    "normal_deg": {
+      "median": 0.3292621053999575,
+      "p95": 0.9720954058243726,
+      "max": 1.297926206856493
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.7547321573624295,
+      "p95": 2.010307464289635,
+      "max": 2.027400697293446
+    },
+    "band_margin_mm": {
+      "median": 0.6334848346761885,
+      "p95": 2.2118301819313273,
+      "max": 2.2768863149991447
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9969595790586903,
+      "p95": 2.7825816610118994,
+      "max": 2.9385744452575007
+    },
+    "normal_deg": {
+      "median": 0.34902812524937,
+      "p95": 0.910680058117234,
+      "max": 1.2926564671753034
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9505235144131927,
+      "p95": 1.6528967222899262,
+      "max": 1.6604772761984072
+    },
+    "band_margin_mm": {
+      "median": 0.8207549296997829,
+      "p95": 2.2485412097617603,
+      "max": 2.3948362950824027
+    },
+    "band_contained": 19,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.6635900062584936,
+      "p95": 2.55287399083339,
+      "max": 3.1356628756199116
+    },
+    "normal_deg": {
+      "median": 0.34769449005109293,
+      "p95": 0.9129285740533276,
+      "max": 1.1333752317586612
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.6382881897149819,
+      "p95": 0.9837691691137245,
+      "max": 0.9898915141374014
+    },
+    "band_margin_mm": {
+      "median": 0.8097379219354268,
+      "p95": 2.1605482742075344,
+      "max": 2.4169342855929887
+    },
+    "band_contained": 18,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9769802843564825,
+      "p95": 2.941099763050984,
+      "max": 2.990159104793278
+    },
+    "normal_deg": {
+      "median": 0.28636555708487454,
+      "p95": 0.982293611699386,
+      "max": 1.2881273301276905
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.909600562565006,
+      "p95": 1.2879640071020486,
+      "max": 1.2905601527812662
+    },
+    "band_margin_mm": {
+      "median": 0.6374432901484621,
+      "p95": 1.963036266813289,
+      "max": 2.112477125555481
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.4853519038931657,
+      "p95": 2.6137813906694416,
+      "max": 2.73211704070374
+    },
+    "normal_deg": {
+      "median": 0.3265634590569431,
+      "p95": 0.9452376016058734,
+      "max": 1.1487125806942196
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.43517707165654573,
+      "p95": 0.5372591825205735,
+      "max": 0.5411486984959386
+    },
+    "band_margin_mm": {
+      "median": 0.8190618245915813,
+      "p95": 2.365469695733738,
+      "max": 2.42982587423284
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.9578371566650075,
+      "p95": 2.900368030406887,
+      "max": 3.0338739440719085
+    },
+    "normal_deg": {
+      "median": 0.2866157544559958,
+      "p95": 0.9660521264010575,
+      "max": 1.278342098143867
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.8545516062128895,
+      "p95": 1.3093986096593508,
+      "max": 1.3121932964035679
+    },
+    "band_margin_mm": {
+      "median": 0.7011325188424615,
+      "p95": 1.9629706269761291,
+      "max": 2.2174774520668983
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "random_pose",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.5329841795382304,
+      "p95": 2.6490871039997748,
+      "max": 2.9009787586732574
+    },
+    "normal_deg": {
+      "median": 0.3299798694723608,
+      "p95": 0.942266201440644,
+      "max": 1.1263096355771924
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.4190906643536043,
+      "p95": 0.477324084222634,
+      "max": 0.4827936840571625
+    },
+    "band_margin_mm": {
+      "median": 0.7139526533135814,
+      "p95": 2.2547150027347844,
+      "max": 2.3385515534400354
+    },
+    "band_contained": 19,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 4.028065256712172,
+      "p95": 5.091792299391902,
+      "max": 5.684897004574841
+    },
+    "normal_deg": {
+      "median": 0.2901006894603573,
+      "p95": 1.1114250385331255,
+      "max": 1.32625395554905
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 2.9741671345408363,
+      "p95": 3.0355497570410495,
+      "max": 3.0683730522292634
+    },
+    "band_margin_mm": {
+      "median": -0.9398622098810223,
+      "p95": 1.3540134413523113,
+      "max": 1.5361933236727476
+    },
+    "band_contained": 6,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.295082390520683,
+      "p95": 3.010744264762956,
+      "max": 3.1022293835459998
+    },
+    "normal_deg": {
+      "median": 0.349034551141986,
+      "p95": 0.9665656622783191,
+      "max": 1.3304062050862304
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.404118939436577,
+      "p95": 1.8095015096231288,
+      "max": 1.8111896609748828
+    },
+    "band_margin_mm": {
+      "median": 0.6441435145713651,
+      "p95": 2.194181765547719,
+      "max": 2.2997897966041196
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.051552206483696,
+      "p95": 3.163342225552679,
+      "max": 3.411566129355993
+    },
+    "normal_deg": {
+      "median": 0.28538209160506045,
+      "p95": 0.9850860787623761,
+      "max": 1.2455922269756423
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.0429518151570427,
+      "p95": 1.1761823862132599,
+      "max": 1.1813955546843142
+    },
+    "band_margin_mm": {
+      "median": 0.3758420352698818,
+      "p95": 1.8473707725542647,
+      "max": 1.8858503591939078
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3778733091876778,
+      "p95": 2.698331132006145,
+      "max": 2.760004236588098
+    },
+    "normal_deg": {
+      "median": 0.2619630687941177,
+      "p95": 1.0039245204307756,
+      "max": 1.1187664557831156
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.21132641196666346,
+      "p95": 0.30380293946972653,
+      "max": 0.3223828583236055
+    },
+    "band_margin_mm": {
+      "median": 0.7931382105913035,
+      "p95": 2.3010387110822688,
+      "max": 2.423785562833345
+    },
+    "band_contained": 20,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.0901506807041184,
+      "p95": 3.2309689473894196,
+      "max": 3.2641281934192152
+    },
+    "normal_deg": {
+      "median": 0.2814481585323374,
+      "p95": 0.9976661434019818,
+      "max": 1.2688862956650588
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.8739471400765726,
+      "p95": 1.1927360177680484,
+      "max": 1.1944510561782549
+    },
+    "band_margin_mm": {
+      "median": 0.2890812216741043,
+      "p95": 1.7552360792960062,
+      "max": 1.8060853076184362
+    },
+    "band_contained": 14,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3221894544257413,
+      "p95": 2.6675507186943284,
+      "max": 2.686936570672829
+    },
+    "normal_deg": {
+      "median": 0.2774000983085672,
+      "p95": 0.9858354017055522,
+      "max": 1.1613257547507652
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.18406667014348344,
+      "p95": 0.2898196325527283,
+      "max": 0.300346328020753
+    },
+    "band_margin_mm": {
+      "median": 0.850475488961881,
+      "p95": 2.332768727046547,
+      "max": 2.50772127409701
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.02772189138632,
+      "p95": 3.0940658741282205,
+      "max": 3.410544588898066
+    },
+    "normal_deg": {
+      "median": 0.2856160684243695,
+      "p95": 0.9863726186957849,
+      "max": 1.2511722619628123
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.0097769183919876,
+      "p95": 1.103195518304502,
+      "max": 1.1053886563758728
+    },
+    "band_margin_mm": {
+      "median": 0.41217070698114533,
+      "p95": 1.8468825149695662,
+      "max": 1.9297452357401537
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_1",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.3686958836021732,
+      "p95": 2.705763234801188,
+      "max": 2.7646724147938504
+    },
+    "normal_deg": {
+      "median": 0.2641313380130826,
+      "p95": 1.001189153554704,
+      "max": 1.1244258736166697
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.2325818077471315,
+      "p95": 0.27816615670357275,
+      "max": 0.29425999872581543
+    },
+    "band_margin_mm": {
+      "median": 0.7897807910374695,
+      "p95": 2.29202696972602,
+      "max": 2.4232386879808394
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 1.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 4.468505984187743,
+      "p95": 5.476066392031301,
+      "max": 5.494966189081817
+    },
+    "normal_deg": {
+      "median": 0.2985178249799728,
+      "p95": 1.092563941356431,
+      "max": 1.2712725255774637
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 3.1962481478366285,
+      "p95": 3.8703469579283065,
+      "max": 4.035039092989905
+    },
+    "band_margin_mm": {
+      "median": -1.398220036385144,
+      "p95": 0.3670555392188029,
+      "max": 0.7861237177118144
+    },
+    "band_contained": 3,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.5475224058851387,
+      "p95": 3.046821214351545,
+      "max": 3.377987624751014
+    },
+    "normal_deg": {
+      "median": 0.4627720703820515,
+      "p95": 1.1402457832520367,
+      "max": 1.506799548633941
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.5028383342079734,
+      "p95": 2.1309631616898663,
+      "max": 2.1875027060273964
+    },
+    "band_margin_mm": {
+      "median": 0.6086188265338304,
+      "p95": 1.798581443807773,
+      "max": 2.2845295926746814
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.8530082789091527,
+      "p95": 4.422320858119125,
+      "max": 4.583201745829314
+    },
+    "normal_deg": {
+      "median": 0.37451654655497335,
+      "p95": 1.0262263901899957,
+      "max": 1.3257392036723175
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.923761658975622,
+      "p95": 2.7250368662095363,
+      "max": 2.813280139572219
+    },
+    "band_margin_mm": {
+      "median": -0.030833193876333112,
+      "p95": 1.550183801643164,
+      "max": 1.8902493863517706
+    },
+    "band_contained": 11,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.7755139143814063,
+      "p95": 2.6642769197904936,
+      "max": 3.0204687203119533
+    },
+    "normal_deg": {
+      "median": 0.3918801443417085,
+      "p95": 0.9996902379805426,
+      "max": 1.3209134280048547
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9125695679892603,
+      "p95": 1.2505039991237397,
+      "max": 1.3467922928460714
+    },
+    "band_margin_mm": {
+      "median": 0.7780652103174442,
+      "p95": 2.066835329815264,
+      "max": 2.5789897650472193
+    },
+    "band_contained": 19,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.4130402925865555,
+      "p95": 3.737325896505825,
+      "max": 3.9570706080832427
+    },
+    "normal_deg": {
+      "median": 0.38950569960891457,
+      "p95": 0.9702066825459967,
+      "max": 1.2189636202538559
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.1333634069801712,
+      "p95": 1.8120144698906482,
+      "max": 1.8201292453714648
+    },
+    "band_margin_mm": {
+      "median": 0.15432676767188325,
+      "p95": 1.6599205332669447,
+      "max": 1.9367985278276547
+    },
+    "band_contained": 12,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.653733085364022,
+      "p95": 2.7711682314846007,
+      "max": 2.9967077306068
+    },
+    "normal_deg": {
+      "median": 0.37011383423560706,
+      "p95": 0.9530305373197495,
+      "max": 1.2931937732277468
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.6450020878132715,
+      "p95": 1.332663706425025,
+      "max": 1.4462885766623046
+    },
+    "band_margin_mm": {
+      "median": 0.850793106576133,
+      "p95": 1.954979760142842,
+      "max": 2.722336817417855
+    },
+    "band_contained": 19,
+    "covariance_coverage95": 0.7727272727272727,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.45653575274628,
+      "p95": 3.681171131264079,
+      "max": 3.8967766478629833
+    },
+    "normal_deg": {
+      "median": 0.3784837269434769,
+      "p95": 0.9776179012099185,
+      "max": 1.2819226731254392
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.341861013455904,
+      "p95": 1.7662982317098062,
+      "max": 1.789506956801592
+    },
+    "band_margin_mm": {
+      "median": 0.20777578221900714,
+      "p95": 1.6650497797258543,
+      "max": 1.9567917247962832
+    },
+    "band_contained": 12,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.642132775959623,
+      "p95": 2.8231568763995853,
+      "max": 3.0166560253586874
+    },
+    "normal_deg": {
+      "median": 0.3801353159219957,
+      "p95": 0.9795079992556184,
+      "max": 1.2966551513248283
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.570863235010696,
+      "p95": 1.1514212923375708,
+      "max": 1.1782480715886867
+    },
+    "band_margin_mm": {
+      "median": 0.731632534217736,
+      "p95": 1.8570355059355772,
+      "max": 2.5768343344388263
+    },
+    "band_contained": 19,
+    "covariance_coverage95": 0.0,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 4.785118344742644,
+      "p95": 5.60564645037725,
+      "max": 5.846998398745337
+    },
+    "normal_deg": {
+      "median": 0.3640286338875939,
+      "p95": 1.085901892413231,
+      "max": 1.264820749166249
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 3.448168043031937,
+      "p95": 4.306824949026027,
+      "max": 4.445318375544248
+    },
+    "band_margin_mm": {
+      "median": -1.546016416734434,
+      "p95": 0.36497028341249776,
+      "max": 0.7011033541366777
+    },
+    "band_contained": 3,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.0146762696526865,
+      "p95": 3.61936525736044,
+      "max": 3.975661182540449
+    },
+    "normal_deg": {
+      "median": 0.45361074524745104,
+      "p95": 1.1230178061545744,
+      "max": 1.4820858339891059
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 2.058841493562849,
+      "p95": 2.733754786759595,
+      "max": 2.7842905249934504
+    },
+    "band_margin_mm": {
+      "median": 0.34813057061151553,
+      "p95": 1.6774142214642345,
+      "max": 2.043572344475354
+    },
+    "band_contained": 14,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.2596976539437694,
+      "p95": 4.56764162188819,
+      "max": 4.7315652342647345
+    },
+    "normal_deg": {
+      "median": 0.3857854410283553,
+      "p95": 0.9980524969457965,
+      "max": 1.3155062373226407
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 2.084725402035028,
+      "p95": 2.9011237292676912,
+      "max": 2.998013246271554
+    },
+    "band_margin_mm": {
+      "median": -0.2903263168979684,
+      "p95": 1.126373685335401,
+      "max": 1.4100710929859868
+    },
+    "band_contained": 6,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.8288308321428595,
+      "p95": 2.7371286839413163,
+      "max": 3.0344984579440695
+    },
+    "normal_deg": {
+      "median": 0.37511672922512435,
+      "p95": 0.9779861209538566,
+      "max": 1.3003732481275452
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.7645929230227743,
+      "p95": 0.9405131833456621,
+      "max": 1.0201661671813904
+    },
+    "band_margin_mm": {
+      "median": 0.7705052964672874,
+      "p95": 1.790295815396363,
+      "max": 2.573413981515354
+    },
+    "band_contained": 18,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.02423145279828,
+      "p95": 3.9291736754747877,
+      "max": 4.55490060465647
+    },
+    "normal_deg": {
+      "median": 0.3700750888897455,
+      "p95": 0.9939908799768311,
+      "max": 1.215128045836687
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.8765597255908015,
+      "p95": 1.944563070131447,
+      "max": 1.9622202866978835
+    },
+    "band_margin_mm": {
+      "median": -0.5545554089821378,
+      "p95": 0.608436236320486,
+      "max": 1.3123942484806954
+    },
+    "band_contained": 6,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.013321450387108,
+      "p95": 3.0624462813270314,
+      "max": 3.0992853561274485
+    },
+    "normal_deg": {
+      "median": 0.3714874779521229,
+      "p95": 0.9411320718098364,
+      "max": 1.2690359533542688
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9774605183585037,
+      "p95": 1.5336373448094012,
+      "max": 1.6308438214109229
+    },
+    "band_margin_mm": {
+      "median": 0.627555124226082,
+      "p95": 1.7110111033073854,
+      "max": 2.4751900064958625
+    },
+    "band_contained": 16,
+    "covariance_coverage95": 0.5454545454545454,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.000825485476371,
+      "p95": 3.910034416316932,
+      "max": 4.54012054707805
+    },
+    "normal_deg": {
+      "median": 0.38848340092063627,
+      "p95": 0.9755533413615582,
+      "max": 1.2209031062286477
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.8848762375059,
+      "p95": 1.9276922162923547,
+      "max": 1.98223027025291
+    },
+    "band_margin_mm": {
+      "median": -0.5110828859374185,
+      "p95": 0.6117383862206067,
+      "max": 1.332439381589387
+    },
+    "band_contained": 6,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_bad_image",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.006009368188361,
+      "p95": 3.061712784743668,
+      "max": 3.1215594191092886
+    },
+    "normal_deg": {
+      "median": 0.37040185410130877,
+      "p95": 0.9419510285271204,
+      "max": 1.2659866730212634
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9587032299852996,
+      "p95": 1.5026049169568825,
+      "max": 1.5887211183504863
+    },
+    "band_margin_mm": {
+      "median": 0.590334796795402,
+      "p95": 1.6768241459218864,
+      "max": 2.4536522113652692
+    },
+    "band_contained": 16,
+    "covariance_coverage95": 0.18181818181818182,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "park",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 5.547525977860982,
+      "p95": 8.655585903608047,
+      "max": 9.33039970650155
+    },
+    "normal_deg": {
+      "median": 0.3087586911320862,
+      "p95": 1.3123166257197967,
+      "max": 1.3932876571529922
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 5.328369866697699,
+      "p95": 6.8526110630421,
+      "max": 6.859087297480932
+    },
+    "band_margin_mm": {
+      "median": -1.9821861743287865,
+      "p95": 2.418719631460498,
+      "max": 2.458621659220519
+    },
+    "band_contained": 10,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "park",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 3.481922555455078,
+      "p95": 3.8838132350497117,
+      "max": 3.938739082972292
+    },
+    "normal_deg": {
+      "median": 0.31007642653076445,
+      "p95": 1.0683308056596772,
+      "max": 1.3350042076477426
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 3.0153821807506986,
+      "p95": 3.151737414073111,
+      "max": 3.1580521646459383
+    },
+    "band_margin_mm": {
+      "median": 0.778639980892896,
+      "p95": 2.2304447553477327,
+      "max": 2.364363285265299
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.1083881082684344,
+      "p95": 3.191389874378636,
+      "max": 3.2764627765197565
+    },
+    "normal_deg": {
+      "median": 0.2939366929135703,
+      "p95": 0.9754860989921355,
+      "max": 1.2091114112376131
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.2102548606214119,
+      "p95": 1.3123481213701473,
+      "max": 1.3180204137840088
+    },
+    "band_margin_mm": {
+      "median": 0.5449591692751936,
+      "p95": 1.9405560855543327,
+      "max": 2.154489566956743
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.5595382362625974,
+      "p95": 2.760356890066183,
+      "max": 2.797300163283653
+    },
+    "normal_deg": {
+      "median": 0.2773119515378839,
+      "p95": 0.9823397014390179,
+      "max": 1.0700027454253134
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.5852960759789353,
+      "p95": 0.8719928921523912,
+      "max": 0.8749487285458893
+    },
+    "band_margin_mm": {
+      "median": 0.7665224788582996,
+      "p95": 2.3290548878712207,
+      "max": 2.378473417471161
+    },
+    "band_contained": 20,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "uncertain_fixed",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.4865241853602305,
+      "p95": 3.276532536990189,
+      "max": 3.3069200115860014
+    },
+    "normal_deg": {
+      "median": 0.275608549710774,
+      "p95": 1.0579544099601421,
+      "max": 1.28481991908296
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.4803487791174603,
+      "p95": 1.9944725563343026,
+      "max": 1.997678077112076
+    },
+    "band_margin_mm": {
+      "median": 0.6268395739921323,
+      "p95": 1.8582633008507157,
+      "max": 2.1193529722603905
+    },
+    "band_contained": 16,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "uncertain_fixed",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.6725891539565338,
+      "p95": 2.591230856162197,
+      "max": 2.620012345838611
+    },
+    "normal_deg": {
+      "median": 0.28807043638832697,
+      "p95": 0.9688540798435994,
+      "max": 1.109924007852375
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.9320534738351561,
+      "p95": 1.1451706971699145,
+      "max": 1.150719219406222
+    },
+    "band_margin_mm": {
+      "median": 0.9073872881410514,
+      "p95": 2.4778747128831453,
+      "max": 2.557552654753485
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 0.5454545454545454,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "uncertain_vce",
+    "tool_policy": "nominal_mount",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 2.1775975889430477,
+      "p95": 3.2367121974198363,
+      "max": 3.369593925580839
+    },
+    "normal_deg": {
+      "median": 0.2976272037385217,
+      "p95": 0.9712339845248723,
+      "max": 1.226160862602276
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 1.2977205133727627,
+      "p95": 1.4417965715440564,
+      "max": 1.456075671549644
+    },
+    "band_margin_mm": {
+      "median": 0.4682196985613336,
+      "p95": 1.941588884105026,
+      "max": 2.0594743219840814
+    },
+    "band_contained": 17,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "wrong_K",
+    "method": "uncertain_vce",
+    "tool_policy": "measured_board_jig",
+    "total": 22,
+    "IK_success": 22,
+    "calibration_candidate_accepted": 22,
+    "center_mm": {
+      "median": 1.5673432025523975,
+      "p95": 2.7613081004184603,
+      "max": 2.7927737291402033
+    },
+    "normal_deg": {
+      "median": 0.2798028851160651,
+      "p95": 0.9792276132893258,
+      "max": 1.0728888064455677
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.6261908348746787,
+      "p95": 0.8587686542111896,
+      "max": 0.8743911969701561
+    },
+    "band_margin_mm": {
+      "median": 0.7569458034010412,
+      "p95": 2.331069307541221,
+      "max": 2.368689764855169
+    },
+    "band_contained": 20,
+    "covariance_coverage95": 0.5,
+    "final_fastening_success": null
+  }
+]

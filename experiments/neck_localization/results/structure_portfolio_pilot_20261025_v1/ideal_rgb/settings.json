@@ -1,0 +1,6 @@
+{
+  "preprocessing": {
+    "condition": "ideal_rgb",
+    "kind": "frozen_active_stereo_observations"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "records": 448,
+  "baseline_records_replayed": 160,
+  "negative_controls": 168,
+  "negative_task_rejected": 168,
+  "negatives_are_not_end_to_end": true,
+  "tracked_files": 84,
+  "no_hardware": true
+}

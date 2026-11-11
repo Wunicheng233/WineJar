@@ -1,0 +1,66 @@
+{
+  "nominal/cam_a": {
+    "worst_accepted_center": "nominal_014",
+    "worst_accepted_normal": "nominal_014",
+    "rejected": [
+      "nominal_003",
+      "nominal_004",
+      "nominal_005",
+      "nominal_013",
+      "nominal_015"
+    ],
+    "false_accepted": []
+  },
+  "nominal/cam_a,cam_b": {
+    "worst_accepted_center": "nominal_017",
+    "worst_accepted_normal": "nominal_005",
+    "rejected": [
+      "nominal_003",
+      "nominal_013"
+    ],
+    "false_accepted": []
+  },
+  "nominal/all": {
+    "worst_accepted_center": "nominal_014",
+    "worst_accepted_normal": "nominal_011",
+    "rejected": [
+      "nominal_002"
+    ],
+    "false_accepted": []
+  },
+  "stress/cam_a": {
+    "worst_accepted_center": "stress_011",
+    "worst_accepted_normal": "stress_011",
+    "rejected": [
+      "stress_000",
+      "stress_001",
+      "stress_002",
+      "stress_003",
+      "stress_004",
+      "stress_005",
+      "stress_008",
+      "stress_009",
+      "stress_010"
+    ],
+    "false_accepted": []
+  },
+  "stress/cam_a,cam_b": {
+    "worst_accepted_center": "stress_004",
+    "worst_accepted_normal": "stress_011",
+    "rejected": [
+      "stress_000",
+      "stress_001",
+      "stress_005",
+      "stress_008"
+    ],
+    "false_accepted": []
+  },
+  "stress/all": {
+    "worst_accepted_center": "stress_011",
+    "worst_accepted_normal": "stress_000",
+    "rejected": [
+      "stress_001"
+    ],
+    "false_accepted": []
+  }
+}

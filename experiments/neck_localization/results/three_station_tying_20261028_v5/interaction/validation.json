@@ -1,0 +1,596 @@
+{
+  "passed": true,
+  "paths": [
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_nominal_000",
+      "max_interpolated_position_error_mm": 0.000792639301247176,
+      "max_interpolated_angle_error_deg": 1.3896087176692835e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_nominal_006",
+      "max_interpolated_position_error_mm": 0.0008271969794040118,
+      "max_interpolated_angle_error_deg": 4.7375900076069635e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_stress_000",
+      "max_interpolated_position_error_mm": 0.0007054356260658635,
+      "max_interpolated_angle_error_deg": 1.9340007779004408e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_stress_002",
+      "max_interpolated_position_error_mm": 0.0006174977443407021,
+      "max_interpolated_angle_error_deg": 1.4469502373284048e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_nominal_000",
+      "max_interpolated_position_error_mm": 0.0007555246446992258,
+      "max_interpolated_angle_error_deg": 1.2575605347108472e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_nominal_006",
+      "max_interpolated_position_error_mm": 0.0008576368759829926,
+      "max_interpolated_angle_error_deg": 5.009279064316956e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_stress_000",
+      "max_interpolated_position_error_mm": 0.0007214493861021895,
+      "max_interpolated_angle_error_deg": 1.981852721342965e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_stress_002",
+      "max_interpolated_position_error_mm": 0.0006399478375060111,
+      "max_interpolated_angle_error_deg": 1.5238048953388402e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_nominal_000",
+      "max_interpolated_position_error_mm": 0.0007148440128067162,
+      "max_interpolated_angle_error_deg": 1.927823496764376e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_nominal_006",
+      "max_interpolated_position_error_mm": 0.0008792783099720018,
+      "max_interpolated_angle_error_deg": 4.816694611496688e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_stress_000",
+      "max_interpolated_position_error_mm": 0.0006291521436231334,
+      "max_interpolated_angle_error_deg": 1.6724012098093246e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_stress_002",
+      "max_interpolated_position_error_mm": 0.0006199482616298384,
+      "max_interpolated_angle_error_deg": 1.35036163085541e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_nominal_000",
+      "max_interpolated_position_error_mm": 0.000713704572241619,
+      "max_interpolated_angle_error_deg": 1.8997392610376049e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_nominal_006",
+      "max_interpolated_position_error_mm": 0.0008273608787600061,
+      "max_interpolated_angle_error_deg": 4.204203081782332e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_stress_000",
+      "max_interpolated_position_error_mm": 0.000632909950788183,
+      "max_interpolated_angle_error_deg": 1.698123558071481e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_stress_002",
+      "max_interpolated_position_error_mm": 0.0005894341829084911,
+      "max_interpolated_angle_error_deg": 1.3153393847087643e-05,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_002",
+      "max_interpolated_position_error_mm": 0.0006780608178980705,
+      "max_interpolated_angle_error_deg": 5.79515817656693e-07,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007200220594838374,
+      "max_interpolated_angle_error_deg": 8.245765499552001e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_005",
+      "max_interpolated_position_error_mm": 0.0007521078991564635,
+      "max_interpolated_angle_error_deg": 1.3484719984357397e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_002",
+      "max_interpolated_position_error_mm": 0.0007135219783797838,
+      "max_interpolated_angle_error_deg": 4.862174897773827e-07,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007227097991101972,
+      "max_interpolated_angle_error_deg": 7.97098943016008e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_005",
+      "max_interpolated_position_error_mm": 0.0007592111249707638,
+      "max_interpolated_angle_error_deg": 1.6010830774485443e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_002",
+      "max_interpolated_position_error_mm": 0.0006686130874287943,
+      "max_interpolated_angle_error_deg": 1.4563290039166605e-07,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007155575623041726,
+      "max_interpolated_angle_error_deg": 7.150200643437712e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_005",
+      "max_interpolated_position_error_mm": 0.0007213085331201804,
+      "max_interpolated_angle_error_deg": 3.3619876571490623e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_002",
+      "max_interpolated_position_error_mm": 0.0006604787790196831,
+      "max_interpolated_angle_error_deg": 3.9762295414840984e-08,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007378464965737885,
+      "max_interpolated_angle_error_deg": 7.869467086613152e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_005",
+      "max_interpolated_position_error_mm": 0.0007450585316735109,
+      "max_interpolated_angle_error_deg": 3.4900391961763806e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_000",
+      "max_interpolated_position_error_mm": 0.000704154953056889,
+      "max_interpolated_angle_error_deg": 5.706862540191612e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_001",
+      "max_interpolated_position_error_mm": 0.0007309942773039715,
+      "max_interpolated_angle_error_deg": 1.6677392278936797e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_003",
+      "max_interpolated_position_error_mm": 0.0006698164192725419,
+      "max_interpolated_angle_error_deg": 8.578625547921395e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007714385585571318,
+      "max_interpolated_angle_error_deg": 1.4964291193829345e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_000",
+      "max_interpolated_position_error_mm": 0.0006459565338962432,
+      "max_interpolated_angle_error_deg": 5.521642789372414e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_001",
+      "max_interpolated_position_error_mm": 0.0007360265455678787,
+      "max_interpolated_angle_error_deg": 1.3356299775450534e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_003",
+      "max_interpolated_position_error_mm": 0.0007208181497209377,
+      "max_interpolated_angle_error_deg": 9.40145349989976e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.000786521541551143,
+      "max_interpolated_angle_error_deg": 2.227091425328828e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_000",
+      "max_interpolated_position_error_mm": 0.0006391015694248395,
+      "max_interpolated_angle_error_deg": 4.375143166740772e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_001",
+      "max_interpolated_position_error_mm": 0.0007415386580399016,
+      "max_interpolated_angle_error_deg": 6.729066601417483e-07,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_003",
+      "max_interpolated_position_error_mm": 0.0006895180646149792,
+      "max_interpolated_angle_error_deg": 8.121824665316287e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007761551925099164,
+      "max_interpolated_angle_error_deg": 1.6824065505172032e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_000",
+      "max_interpolated_position_error_mm": 0.0006409393683995273,
+      "max_interpolated_angle_error_deg": 4.1961762629136735e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_001",
+      "max_interpolated_position_error_mm": 0.000768416964741916,
+      "max_interpolated_angle_error_deg": 7.702067026343109e-07,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_003",
+      "max_interpolated_position_error_mm": 0.0006917049917559355,
+      "max_interpolated_angle_error_deg": 8.020940358284436e-06,
+      "checked_poses": 81
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_004",
+      "max_interpolated_position_error_mm": 0.0007794253932508166,
+      "max_interpolated_angle_error_deg": 1.2402030704059385e-06,
+      "checked_poses": 81
+    }
+  ],
+  "routes": [
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_nominal_000"
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_nominal_006"
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_stress_000"
+    },
+    {
+      "condition": "old12/fs/clean",
+      "case": "structural_test_stress_002"
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_nominal_000"
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_nominal_006"
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_stress_000"
+    },
+    {
+      "condition": "old12/fs/shared_noise",
+      "case": "structural_test_stress_002"
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_nominal_000"
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_nominal_006"
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_stress_000"
+    },
+    {
+      "condition": "old12/ss/clean",
+      "case": "structural_test_stress_002"
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_nominal_000"
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_nominal_006"
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_stress_000"
+    },
+    {
+      "condition": "old12/ss/shared_noise",
+      "case": "structural_test_stress_002"
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_002"
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "old8/fs/clean",
+      "case": "confirmation_nominal_005"
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_002"
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "old8/fs/shared_noise",
+      "case": "confirmation_nominal_005"
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_002"
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "old8/ss/clean",
+      "case": "confirmation_nominal_005"
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_002"
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "old8/ss/shared_noise",
+      "case": "confirmation_nominal_005"
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_000"
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_001"
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_003"
+    },
+    {
+      "condition": "new8/fs/clean",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_000"
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_001"
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_003"
+    },
+    {
+      "condition": "new8/fs/shared_noise",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_000"
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_001"
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_003"
+    },
+    {
+      "condition": "new8/ss/clean",
+      "case": "confirmation_nominal_004"
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_000"
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_001"
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_003"
+    },
+    {
+      "condition": "new8/ss/shared_noise",
+      "case": "confirmation_nominal_004"
+    }
+  ],
+  "interactions": [
+    "mouse:stage:recognize",
+    "mouse:stage:cover",
+    "mouse:stage:above",
+    "mouse:stage:descend",
+    "mouse:stage:close",
+    "mouse:stage:tighten",
+    "mouse:stage:retract"
+  ],
+  "protected_files_unchanged": 465,
+  "input_pixels_unchanged_across_stages": true,
+  "scope": "actual_GLFW_callback_and_framebuffer_FK_audit_not_robot_execution",
+  "asset_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_000/assets/jar.obj": "3651803236e5b1d53516e5fb43d05303088c6aeed01fb3303c29237d15c0daa0",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_000/assets/jar_inside.obj": "64cc185691b806bfb441cb0d62ecf4693e96db449b0b23f049b5ca7078844ce9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_000/assets/ceramic.png": "9688c037e6a050846c0ab887a16c72fdcac6d3d5ba86cb9f64272d9e7817ed22",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/clean/scenes/structural_test_nominal_000/loading_cover.obj": "40d58143bb00b2799d3a4c114c316f01e423ab848804e2c3d31599f4ccbdd8d3",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link_base.stl": "d3d61f2888bc39eecb8583babc7dddccb92f2ccd55aa32cd6f1dce6193feb3b6",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link1.stl": "103a81f9f00c217247f8b6c8f19b3afcbc9288852082389044d88a4a321cd8cd",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link2.stl": "20ef55e34f8a63bb65108ed3134c4b22d911b55cd496ca5562b3978cba88ac77",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link3.stl": "f1503bc0c1fe8d39f4c509dba7288d9130954a35a1bcbaa0fca95d083fed3ffe",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link4.stl": "2a9952085fef91045380dac9825d9ad5a75867196933bc2cb1c3a635c23b0b7e",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link5.stl": "bfca01aae4255803ba2f5391c93836b91e1761e069275e38a9656ff2d53f45a4",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/link6.stl": "b90cb1b373e65c035d7965bde92f4e2aedacdbbd57785a9018cd996b6b0b688e",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/assets/end_tool.stl": "e06112781cdd615b7df536569f50addb445a6f4b4acced6d53b0742018b6c768",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_006/assets/jar.obj": "dd7a4fc254160ecb0c14920cec2c52b3a245a644d6a9c33ea57f1fcbef72f5ec",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_006/assets/jar_inside.obj": "ad25bf97a3b1b911e47ddfc386ac837e1d207d98a5589a55bbc06f6a6abfe572",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_nominal_006/assets/ceramic.png": "a4629ab2ad1fb868f297dab6b0bf7014bf2a1651487816fe3939808be8632a1a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/clean/scenes/structural_test_nominal_006/loading_cover.obj": "d68f1cb44ca62fae774b720a4372f15c858b9d27eb5930447b18a862c5bc063a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_000/assets/jar.obj": "6481722ded05d38bd338a9d303b0098234e7573165b047426b8671d15280930f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_000/assets/jar_inside.obj": "6e53ef14ea2f29beeb4a8e525a47f5e9982abe654a27792a3d69c72d5b9bf23a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_000/assets/ceramic.png": "e7a569cd92e0b54587d151be7f1d1c48d690cb6f4481f93f9c4086745133301a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/clean/scenes/structural_test_stress_000/loading_cover.obj": "79727fcaaab1b3254b72def96610eca50ff6dd38b12f7ed0e505c2119ab8d7ad",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_002/assets/jar.obj": "fe1c74c43f94fe70d772add2b95ac2528b01d407db3c819334b922b5d6490352",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_002/assets/jar_inside.obj": "a88cb2960e3383276d3e738ee73a7bff17d81a062892d4a064db94c3e1758c75",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/geometry/structural_test_stress_002/assets/ceramic.png": "a741272c3f31d802f971015556b5e2f1c36857f350448bb3ae44ffc001ba18ef",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/clean/scenes/structural_test_stress_002/loading_cover.obj": "a00ccd7bbcd7217d4483b7de5b505acb7329a1113a4210ce3ec4a1f7b5973dd9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/shared_noise/scenes/structural_test_nominal_000/loading_cover.obj": "40d58143bb00b2799d3a4c114c316f01e423ab848804e2c3d31599f4ccbdd8d3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/shared_noise/scenes/structural_test_nominal_006/loading_cover.obj": "d68f1cb44ca62fae774b720a4372f15c858b9d27eb5930447b18a862c5bc063a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/shared_noise/scenes/structural_test_stress_000/loading_cover.obj": "79727fcaaab1b3254b72def96610eca50ff6dd38b12f7ed0e505c2119ab8d7ad",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/shared_noise/scenes/structural_test_stress_002/loading_cover.obj": "a00ccd7bbcd7217d4483b7de5b505acb7329a1113a4210ce3ec4a1f7b5973dd9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/clean/scenes/structural_test_nominal_000/loading_cover.obj": "40d58143bb00b2799d3a4c114c316f01e423ab848804e2c3d31599f4ccbdd8d3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/clean/scenes/structural_test_nominal_006/loading_cover.obj": "d68f1cb44ca62fae774b720a4372f15c858b9d27eb5930447b18a862c5bc063a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/clean/scenes/structural_test_stress_000/loading_cover.obj": "79727fcaaab1b3254b72def96610eca50ff6dd38b12f7ed0e505c2119ab8d7ad",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/clean/scenes/structural_test_stress_002/loading_cover.obj": "a00ccd7bbcd7217d4483b7de5b505acb7329a1113a4210ce3ec4a1f7b5973dd9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/shared_noise/scenes/structural_test_nominal_000/loading_cover.obj": "40d58143bb00b2799d3a4c114c316f01e423ab848804e2c3d31599f4ccbdd8d3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/shared_noise/scenes/structural_test_nominal_006/loading_cover.obj": "d68f1cb44ca62fae774b720a4372f15c858b9d27eb5930447b18a862c5bc063a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/shared_noise/scenes/structural_test_stress_000/loading_cover.obj": "79727fcaaab1b3254b72def96610eca50ff6dd38b12f7ed0e505c2119ab8d7ad",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/shared_noise/scenes/structural_test_stress_002/loading_cover.obj": "a00ccd7bbcd7217d4483b7de5b505acb7329a1113a4210ce3ec4a1f7b5973dd9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_002/assets/jar.obj": "fa7898fecf5d14b346c9fbb44e937bc8d98afc73662f2a05fea06a98eba9d5eb",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_002/assets/jar_inside.obj": "a47923bbafba62a8a228b1c5a76c35a502abb0f7b930299927a6b4e1558649f5",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_002/assets/ceramic.png": "e7e6cb01cb28486809568b7f130ab7e7a8354456a6c5b8e757a6c92e636c0394",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/clean/scenes/confirmation_nominal_002/loading_cover.obj": "5dc8930397223736503cb4bceacd0371129d4bd209cbfbed319c0371ad1e7d94",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_004/assets/jar.obj": "abe264f759fe564f6ca0a9c73bfb44c195a676dd6d98e2c14ed18acf99a945c8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_004/assets/jar_inside.obj": "dd7096b486b07e0dc1a18b4288aeac354b1a3ef2518d16df8db67206069c3ae0",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_004/assets/ceramic.png": "a92ebb507f81467196c3199a72ee817eac8c37bf17ed3dc38419bc5baab69616",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/clean/scenes/confirmation_nominal_004/loading_cover.obj": "6eb4e59054e52e7458b81f1d8f6d887d825d22cf33cbb4366a78fbef560168da",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_005/assets/jar.obj": "ed8aefd02499e0d39490e2e9bb099cdd6b398a147b7e1180a2203fa92d17427a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_005/assets/jar_inside.obj": "6fcaf19b9a37c5842021e9e5c3efa929d8d5ece7b561ab865b2cf5942465fce1",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/geometry_confirmation_close_20261027_v1/geometry/confirmation_nominal_005/assets/ceramic.png": "9338de00bd505c0b0c7bea6cf9d336c4a3b3a274ce284f9f0e176144012d6537",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/clean/scenes/confirmation_nominal_005/loading_cover.obj": "931dc7afd57e54cb5c064397f215f7ef48b591757b4a8da0afadd1894e722161",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/shared_noise/scenes/confirmation_nominal_002/loading_cover.obj": "5dc8930397223736503cb4bceacd0371129d4bd209cbfbed319c0371ad1e7d94",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/shared_noise/scenes/confirmation_nominal_004/loading_cover.obj": "6eb4e59054e52e7458b81f1d8f6d887d825d22cf33cbb4366a78fbef560168da",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/shared_noise/scenes/confirmation_nominal_005/loading_cover.obj": "931dc7afd57e54cb5c064397f215f7ef48b591757b4a8da0afadd1894e722161",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/clean/scenes/confirmation_nominal_002/loading_cover.obj": "5dc8930397223736503cb4bceacd0371129d4bd209cbfbed319c0371ad1e7d94",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/clean/scenes/confirmation_nominal_004/loading_cover.obj": "6eb4e59054e52e7458b81f1d8f6d887d825d22cf33cbb4366a78fbef560168da",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/clean/scenes/confirmation_nominal_005/loading_cover.obj": "931dc7afd57e54cb5c064397f215f7ef48b591757b4a8da0afadd1894e722161",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/shared_noise/scenes/confirmation_nominal_002/loading_cover.obj": "5dc8930397223736503cb4bceacd0371129d4bd209cbfbed319c0371ad1e7d94",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/shared_noise/scenes/confirmation_nominal_004/loading_cover.obj": "6eb4e59054e52e7458b81f1d8f6d887d825d22cf33cbb4366a78fbef560168da",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/shared_noise/scenes/confirmation_nominal_005/loading_cover.obj": "931dc7afd57e54cb5c064397f215f7ef48b591757b4a8da0afadd1894e722161",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_000/assets/jar.obj": "18aaae4ff626135161227ec87199654cc584ad249e8042deebbc0e85d5b85bfa",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_000/assets/jar_inside.obj": "0d264c9e92b1c30150fa5cd3b0bf0b2136e321a49eed64e87b6e034a2922d92d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_000/assets/ceramic.png": "32def5a9aea1bc1daf975d2e85ed4b64951a6ac2b81670ffa898641808fe16d3",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/clean/scenes/confirmation_nominal_000/loading_cover.obj": "439d457715081f2521203911f19b38afbf1afe84f473635992d9bb3f2d9636c9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/jar.obj": "bd88419e799ef33f44a84a956bcd1410b4c254dc86909737fb34aba2532626a8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/jar_inside.obj": "f9db76dd9c0a682f857a97930a9574c1507b597e7846f0473bca71399092fab2",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/ceramic.png": "9eacabcf3f9f8ff959d6667c817d7c6e42fc3b570328d8bfce62aeb40bc1a001",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/clean/scenes/confirmation_nominal_001/loading_cover.obj": "fc12ede6198b5572d2590be66f7e29e753329b1267f86c9ea6c7e382c9927c9b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/jar.obj": "0ef809bc860650afdd4f27d8ef80a2707d19ffe333a38e01bcabaa8469429042",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/jar_inside.obj": "171b509c0d7d2646ce4c358ae8a4fdd10168a61e9482fe2deca7cca1abc1d7b7",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/ceramic.png": "bfe04ecf8fc12e270e202e36903a690ddf825c0ebec823c6bbce978a3cf2b485",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/clean/scenes/confirmation_nominal_003/loading_cover.obj": "9335766ff974e1eaa571d19d7a8607ffe46f916c646d5969f151b0c899bd895a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_004/assets/jar.obj": "690d27355834adb039c1a582e9a15d15e64a5d459752cb922934c6ecfdf2bacb",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_004/assets/jar_inside.obj": "40105d23dfa1fc485e0d1b002a945b257331c701998d35323874975290deb1d6",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_004/assets/ceramic.png": "20679434c7d00759599f76dd9134eb9873f3e6185476a60366400d3a89dc76f1",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/clean/scenes/confirmation_nominal_004/loading_cover.obj": "29841623631d10eb8c9a998b3ef7e6da34c3ea6d45cbe0fdcf638b8b5a072a73",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/shared_noise/scenes/confirmation_nominal_000/loading_cover.obj": "439d457715081f2521203911f19b38afbf1afe84f473635992d9bb3f2d9636c9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/shared_noise/scenes/confirmation_nominal_001/loading_cover.obj": "fc12ede6198b5572d2590be66f7e29e753329b1267f86c9ea6c7e382c9927c9b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/shared_noise/scenes/confirmation_nominal_003/loading_cover.obj": "9335766ff974e1eaa571d19d7a8607ffe46f916c646d5969f151b0c899bd895a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/shared_noise/scenes/confirmation_nominal_004/loading_cover.obj": "29841623631d10eb8c9a998b3ef7e6da34c3ea6d45cbe0fdcf638b8b5a072a73",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_000/loading_cover.obj": "439d457715081f2521203911f19b38afbf1afe84f473635992d9bb3f2d9636c9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_001/loading_cover.obj": "fc12ede6198b5572d2590be66f7e29e753329b1267f86c9ea6c7e382c9927c9b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_003/loading_cover.obj": "9335766ff974e1eaa571d19d7a8607ffe46f916c646d5969f151b0c899bd895a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_004/loading_cover.obj": "29841623631d10eb8c9a998b3ef7e6da34c3ea6d45cbe0fdcf638b8b5a072a73",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/shared_noise/scenes/confirmation_nominal_000/loading_cover.obj": "439d457715081f2521203911f19b38afbf1afe84f473635992d9bb3f2d9636c9",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/shared_noise/scenes/confirmation_nominal_001/loading_cover.obj": "fc12ede6198b5572d2590be66f7e29e753329b1267f86c9ea6c7e382c9927c9b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/shared_noise/scenes/confirmation_nominal_003/loading_cover.obj": "9335766ff974e1eaa571d19d7a8607ffe46f916c646d5969f151b0c899bd895a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/shared_noise/scenes/confirmation_nominal_004/loading_cover.obj": "29841623631d10eb8c9a998b3ef7e6da34c3ea6d45cbe0fdcf638b8b5a072a73",
+    "/home/wunicheng/Git/WineJar/mujoco_xarm6/scene/xarm6_right_bare.xml": "f5d7896ba748eba4a6fb93ca4fc9f2e53c32eb1aa4cd4686d87b9199754b8691"
+  },
+  "viewer_source_sha256": {
+    "/home/wunicheng/Git/WineJar/neck_localization/tying_viewer.py": "21c362100de3b81b10ddcb5f9ffb418737447911b063ee85ad09d82ecd326f20",
+    "/home/wunicheng/Git/WineJar/scripts/view_tying_stage.py": "a85176019044a549ede278189fe3f5e78f1ab791e85c7158e08c31e4962322e6",
+    "/home/wunicheng/Git/WineJar/scripts/verify_three_station_tying.py": "46a83dfae7ac49002c5ae68a6d2169a3d8f09fbd65874789fe98d08f8084afcd"
+  }
+}

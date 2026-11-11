@@ -1,0 +1,9 @@
+{
+  "exported_frame_sets": 108,
+  "depth_bias_exact_within_m": 1e-12,
+  "invalid_depth_pixels_preserved": true,
+  "rgb_and_K_T_unchanged": true,
+  "fitted_subsets_checked": 94,
+  "max_fitted_point_reconstruction_error_m": 1.1102230246251565e-16,
+  "original_inputs_and_13_frozen_sources_unchanged": true
+}

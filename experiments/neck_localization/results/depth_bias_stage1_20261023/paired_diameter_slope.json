@@ -1,0 +1,8 @@
+{
+  "units": "mm diameter / mm axial depth bias",
+  "n": 11,
+  "finite_difference": "common +1 vs -1 mm; solved both sides only",
+  "median": -1.5697661349865983,
+  "minimum": -1.5885807709718966,
+  "maximum": -1.5429159121193652
+}

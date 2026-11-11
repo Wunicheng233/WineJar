@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "kind": "original_observation_hashes",
+      "matched": 960
+    },
+    {
+      "kind": "estimator_sources_unchanged",
+      "matched": 34
+    }
+  ],
+  "replayed_cases": 48,
+  "readout_replay_assertions": 48,
+  "chain_records": 432,
+  "sensor_readouts": 72,
+  "solver_restarts": 24,
+  "clean_objective_fits": 24,
+  "unit_tests": {
+    "run": 83,
+    "passed": 81,
+    "skipped_desktop_GL": 2
+  },
+  "new_renderer_invoked": false,
+  "hardware_access": false
+}

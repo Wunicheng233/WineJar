@@ -1,0 +1,47 @@
+{
+  "frozen_before_audit_inference": true,
+  "uses_only_four_supervised_development_cases": true,
+  "no_audit_truth_read": true,
+  "protocol_sha256": "ba462dbfa162ffec97c72ca55dce5e2ddb4fd41a4b7c731913d34b972317c9b7",
+  "candidates": [
+    {
+      "name": "full",
+      "upper_window_mm": 0,
+      "cos_loss": true,
+      "run": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/capability_lndf_development_cos_full_20261027_v1",
+      "result": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_lndf_development_cos_full_20261027_v1",
+      "raw_pass": 0,
+      "raw_median_normalized_pose_error": 10.475517115007765,
+      "records_sha256": "f36f045abe720a561ac335cac9330dc1bb9661eef1f40bfe9ca795daeab6c3fa",
+      "inference_provenance_sha256": "1602efba57edb1442d7c69c0472ad55ed4ce69f392344b5fbc0056b99a4e5928"
+    },
+    {
+      "name": "upper70",
+      "upper_window_mm": 70,
+      "cos_loss": true,
+      "run": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/capability_lndf_development_cos_upper70_20261027_v1",
+      "result": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_lndf_development_cos_upper70_20261027_v1",
+      "raw_pass": 0,
+      "raw_median_normalized_pose_error": 34.98047642755155,
+      "records_sha256": "b552f85fb1a767babf63e7fcab8d936c1de0eb6eade678e2e12578bac3e57a89",
+      "inference_provenance_sha256": "6fef1e019a597821cd6409dcab4028349ea5bed31871999dc0be0e11f4f7d2c1"
+    }
+  ],
+  "selected": {
+    "name": "full",
+    "upper_window_mm": 0,
+    "cos_loss": true,
+    "run": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/capability_lndf_development_cos_full_20261027_v1",
+    "result": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_lndf_development_cos_full_20261027_v1",
+    "raw_pass": 0,
+    "raw_median_normalized_pose_error": 10.475517115007765,
+    "records_sha256": "f36f045abe720a561ac335cac9330dc1bb9661eef1f40bfe9ca795daeab6c3fa",
+    "inference_provenance_sha256": "1602efba57edb1442d7c69c0472ad55ed4ce69f392344b5fbc0056b99a4e5928"
+  },
+  "command_flags": [
+    "--cos-loss"
+  ],
+  "iterations": 500,
+  "initializations": 20,
+  "query_points": 1000
+}

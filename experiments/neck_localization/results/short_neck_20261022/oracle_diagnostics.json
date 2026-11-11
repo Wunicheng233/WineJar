@@ -1,0 +1,169 @@
+{
+  "kind": "explicit_generator_oracle_diagnostic_not_normal_estimation",
+  "range_definition": [
+    {
+      "group": "preparation_20261022_v5",
+      "case": "flat_neck",
+      "generator_neck_interval_s_m": [
+        0.584,
+        0.594
+      ],
+      "generator_near_min_interval_s_m": [
+        0.584,
+        0.594
+      ],
+      "broader_threshold_interval_s_m": [
+        0.5812926718006229,
+        0.5948223604437618
+      ],
+      "signed_midpoint_bias_mm": -0.9424838778075983
+    },
+    {
+      "group": "preparation_20261022_v5",
+      "case": "reference_shallow",
+      "generator_neck_interval_s_m": [
+        0.584,
+        0.594
+      ],
+      "generator_near_min_interval_s_m": [
+        0.5852732200375003,
+        0.5927267799624997
+      ],
+      "broader_threshold_interval_s_m": [
+        0.5852732200378863,
+        0.5927267799624996
+      ],
+      "signed_midpoint_bias_mm": 1.929567616798522e-10
+    },
+    {
+      "group": "preparation_20261022_v5",
+      "case": "tall_broad_jar",
+      "generator_neck_interval_s_m": [
+        0.642,
+        0.654
+      ],
+      "generator_near_min_interval_s_m": [
+        0.6435278640450004,
+        0.6524721359549996
+      ],
+      "broader_threshold_interval_s_m": [
+        0.6435278640450087,
+        0.6524721359553034
+      ],
+      "signed_midpoint_bias_mm": 1.559863349598345e-10
+    },
+    {
+      "group": "preparation_20261022_v5",
+      "case": "tilted_neck",
+      "generator_neck_interval_s_m": [
+        0.584,
+        0.594
+      ],
+      "generator_near_min_interval_s_m": [
+        0.5852732200375003,
+        0.5927267799624997
+      ],
+      "broader_threshold_interval_s_m": [
+        0.5852732200378863,
+        0.5927267799624996
+      ],
+      "signed_midpoint_bias_mm": 1.929567616798522e-10
+    },
+    {
+      "group": "short_neck_heldout_20261022_v1",
+      "case": "broad_reverse_tilt",
+      "generator_neck_interval_s_m": [
+        0.6245,
+        0.6335000000000001
+      ],
+      "generator_near_min_interval_s_m": [
+        0.6254424376323106,
+        0.6325575623676895
+      ],
+      "broader_threshold_interval_s_m": [
+        0.625442437632372,
+        0.6325575623676866
+      ],
+      "signed_midpoint_bias_mm": 2.930988785010413e-11
+    },
+    {
+      "group": "short_neck_heldout_20261022_v1",
+      "case": "short_upright",
+      "generator_neck_interval_s_m": [
+        0.5555,
+        0.5645
+      ],
+      "generator_near_min_interval_s_m": [
+        0.5563257653858252,
+        0.5636742346141749
+      ],
+      "broader_threshold_interval_s_m": [
+        0.5563257653861473,
+        0.5636742346141747
+      ],
+      "signed_midpoint_bias_mm": 1.609823385706477e-10
+    },
+    {
+      "group": "short_neck_heldout_20261022_v1",
+      "case": "taller_mild_tilt",
+      "generator_neck_interval_s_m": [
+        0.612,
+        0.623
+      ],
+      "generator_near_min_interval_s_m": [
+        0.6136109127034739,
+        0.621389087296526
+      ],
+      "broader_threshold_interval_s_m": [
+        0.613610912703078,
+        0.6213890872965259
+      ],
+      "signed_midpoint_bias_mm": -1.9806378759312793e-10
+    },
+    {
+      "group": "short_neck_heldout_20261022_v1",
+      "case": "tilted_flat",
+      "generator_neck_interval_s_m": [
+        0.5925,
+        0.6045
+      ],
+      "generator_near_min_interval_s_m": [
+        0.5925,
+        0.6045
+      ],
+      "broader_threshold_interval_s_m": [
+        0.5897145480876077,
+        0.605183371932403
+      ],
+      "signed_midpoint_bias_mm": -1.0510399899946732
+    }
+  ],
+  "worst_single_view_case": "broad_reverse_tilt",
+  "mouth_center_error_mm": 5.989158458424993,
+  "interventions": [
+    {
+      "condition": "observations_only",
+      "oracle_input": false,
+      "center_error_mm": 6.051423088627525,
+      "diameter_error_mm": 7.481585140808503
+    },
+    {
+      "condition": "oracle_mouth_center_only",
+      "oracle_input": true,
+      "center_error_mm": 0.497503905589791,
+      "diameter_error_mm": 0.560412663532156
+    },
+    {
+      "condition": "oracle_axis_only",
+      "oracle_input": true,
+      "center_error_mm": 5.608534086760657,
+      "diameter_error_mm": 6.3865908797742375
+    },
+    {
+      "condition": "oracle_mouth_center_and_axis",
+      "oracle_input": true,
+      "center_error_mm": 0.02146833511168846,
+      "diameter_error_mm": 0.03824341328063918
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_003/loading_cover.obj": "9335766ff974e1eaa571d19d7a8607ffe46f916c646d5969f151b0c899bd895a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/jar.obj": "0ef809bc860650afdd4f27d8ef80a2707d19ffe333a38e01bcabaa8469429042",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/jar_inside.obj": "171b509c0d7d2646ce4c358ae8a4fdd10168a61e9482fe2deca7cca1abc1d7b7",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_003/assets/ceramic.png": "bfe04ecf8fc12e270e202e36903a690ddf825c0ebec823c6bbce978a3cf2b485",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/scenes/confirmation_nominal_001/loading_cover.obj": "fc12ede6198b5572d2590be66f7e29e753329b1267f86c9ea6c7e382c9927c9b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/jar.obj": "bd88419e799ef33f44a84a956bcd1410b4c254dc86909737fb34aba2532626a8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/jar_inside.obj": "f9db76dd9c0a682f857a97930a9574c1507b597e7846f0473bca71399092fab2",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_render_20261028_v1/geometry/confirmation_nominal_001/assets/ceramic.png": "9eacabcf3f9f8ff959d6667c817d7c6e42fc3b570328d8bfce62aeb40bc1a001",
+    "/home/wunicheng/Git/WineJar/scripts/probe_active_stereo_body_transfer.py": "d64890f7eb0903b770245c08d935079c379a8ae565dc907ea11a83b123368e67"
+  },
+  "sensor": "existing_SAPIEN_SimSense_D435_preset_32spp",
+  "isolated_emitters": true,
+  "materials_noise_not_measured_D435i": true,
+  "not_new_independent_jars": true,
+  "no_target_depth_or_label_to_registration": true,
+  "no_devices_training_or_official_filter_enabled_as_default": true
+}

@@ -1,0 +1,30 @@
+{
+  "note": "Exact historical snapshots. Absolute paths refer to the original workstation; not executable recipes. No full-loading execution was found.",
+  "files": [
+    {
+      "source": "xarm_sdk_control/data/recommissioning/2026-10-14/resumed_suction/20261014_202934_361/execution.json",
+      "snapshot": "paper_ceramic_execution.json",
+      "sha256": "e28e10a09ecdfe96fba15fd5c0fd0bb01c694f72a440d29903c72bedf899c0a4"
+    },
+    {
+      "source": "xarm_sdk_control/data/recommissioning/2026-10-14/bamboo_relocated/20261014_203943_929/execution.json",
+      "snapshot": "bamboo_compression0_execution.json",
+      "sha256": "8bef9e9e0776ac18083de1eff221eb7cb0a27a5080e16968efb26aa830bf27d7"
+    },
+    {
+      "source": "xarm_sdk_control/data/recommissioning/2026-10-14/bamboo_relocated/20261014_203943_929/execution_compression3.json",
+      "snapshot": "bamboo_compression3_execution.json",
+      "sha256": "e551450ca3ea16fcd588bb56c9ebdf9379353ee88ebb710a7716ff9ae123ffd0"
+    },
+    {
+      "source": "xarm_sdk_control/data/recommissioning/2026-10-14/bamboo_relocated/20261014_203943_929/execution_compression8.json",
+      "snapshot": "bamboo_compression8_execution.json",
+      "sha256": "114fe3bc803b488c9637504c2faad5dc7665de7683596ccc6d36d02e0c827ba6"
+    },
+    {
+      "source": "xarm_sdk_control/data/recommissioning/2026-10-14/full_loading_run/clear/plan.json",
+      "snapshot": "full_loading_clear_plan_unexecuted.json",
+      "sha256": "53c90977e8a3fea352935c3768c4955478d71d28180883d4a55300215aa5de32"
+    }
+  ]
+}

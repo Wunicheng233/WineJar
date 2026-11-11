@@ -1,0 +1,95 @@
+[
+  {
+    "condition": "kinematic_5",
+    "method": "camera_poe_block",
+    "tool_policy": "measured_board_jig",
+    "total": 11,
+    "IK_success": 11,
+    "calibration_candidate_accepted": 11,
+    "center_mm": {
+      "median": 1.6773928395561482,
+      "p95": 2.6657937916332326,
+      "max": 2.7096114926817245
+    },
+    "normal_deg": {
+      "median": 0.263882350271017,
+      "p95": 0.8613426132392636,
+      "max": 1.0205549163813905
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.7792996400748042,
+      "p95": 1.0140957923294243,
+      "max": 1.0367322223507123
+    },
+    "band_margin_mm": {
+      "median": 0.9855897338976313,
+      "p95": 2.2433501471089805,
+      "max": 2.458988207230344
+    },
+    "band_contained": 10,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "pixel_huber",
+    "tool_policy": "nominal_mount",
+    "total": 11,
+    "IK_success": 11,
+    "calibration_candidate_accepted": 11,
+    "center_mm": {
+      "median": 3.472546979737226,
+      "p95": 4.522197371942771,
+      "max": 4.619954782278516
+    },
+    "normal_deg": {
+      "median": 0.5975539195352916,
+      "p95": 1.045451597167287,
+      "max": 1.0796248575715184
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 2.1937834443505952,
+      "p95": 2.477168539216879,
+      "max": 2.577049151216225
+    },
+    "band_margin_mm": {
+      "median": -1.5348843909015883,
+      "p95": -0.3602920778105296,
+      "max": 0.052606395523575336
+    },
+    "band_contained": 1,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "kinematic_5",
+    "method": "pixel_huber",
+    "tool_policy": "measured_board_jig",
+    "total": 11,
+    "IK_success": 11,
+    "calibration_candidate_accepted": 11,
+    "center_mm": {
+      "median": 1.483918351974083,
+      "p95": 2.6132225349583633,
+      "max": 2.762238545854187
+    },
+    "normal_deg": {
+      "median": 0.22067200057916642,
+      "p95": 1.002275345319033,
+      "max": 1.1963897732110742
+    },
+    "calibration_and_execution_only_mm": {
+      "median": 0.958466644641785,
+      "p95": 1.2675897169744315,
+      "max": 1.3597215648558114
+    },
+    "band_margin_mm": {
+      "median": 1.1888447263048585,
+      "p95": 2.2993301363414336,
+      "max": 2.5661336238453045
+    },
+    "band_contained": 10,
+    "covariance_coverage95": null,
+    "final_fastening_success": null
+  }
+]

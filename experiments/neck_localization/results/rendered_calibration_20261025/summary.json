@@ -1,0 +1,59 @@
+[
+  {
+    "camera": "cam_a",
+    "fx_delta_px": 3.291785370805883,
+    "fy_delta_px": 3.3804178897753445,
+    "cx_delta_px": 0.1677524340973946,
+    "cy_delta_px": 0.10089429840485309,
+    "train_reprojection_rms_px": 0.09891776845471387,
+    "translation_mm": 3.96692903041148,
+    "rotation_deg": 0.07997124590329951,
+    "validation_fixed_world_rms_px_max": 0.20280417799949646,
+    "validation_per_pose_translation_mm_max": 6.251029089646973,
+    "ideal_point_backprojection_near_nominal_target": {
+      "scope": "diagnostic only; exact point pixels/Z, not jar localization",
+      "points": 27,
+      "median_mm": 3.873196040573939,
+      "p95_mm": 4.009227558114435,
+      "max_mm": 4.014479012724358
+    }
+  },
+  {
+    "camera": "cam_b",
+    "fx_delta_px": 3.1639435849848496,
+    "fy_delta_px": 3.2408104361991263,
+    "cx_delta_px": 0.1765805637911626,
+    "cy_delta_px": 0.2944194188060578,
+    "train_reprojection_rms_px": 0.09894558155533939,
+    "translation_mm": 3.818266738988211,
+    "rotation_deg": 0.08060269868682372,
+    "validation_fixed_world_rms_px_max": 0.20491325855255127,
+    "validation_per_pose_translation_mm_max": 6.088792781235971,
+    "ideal_point_backprojection_near_nominal_target": {
+      "scope": "diagnostic only; exact point pixels/Z, not jar localization",
+      "points": 27,
+      "median_mm": 3.723119920013512,
+      "p95_mm": 3.8563756725925558,
+      "max_mm": 3.8658631864180393
+    }
+  },
+  {
+    "camera": "cam_c",
+    "fx_delta_px": 3.2721962768029016,
+    "fy_delta_px": 3.3615375313505638,
+    "cx_delta_px": 0.15768916737260952,
+    "cy_delta_px": 0.10577197815868544,
+    "train_reprojection_rms_px": 0.09883535476344926,
+    "translation_mm": 3.943922534631445,
+    "rotation_deg": 0.07893473713067221,
+    "validation_fixed_world_rms_px_max": 0.2027127593755722,
+    "validation_per_pose_translation_mm_max": 6.224799693931828,
+    "ideal_point_backprojection_near_nominal_target": {
+      "scope": "diagnostic only; exact point pixels/Z, not jar localization",
+      "points": 27,
+      "median_mm": 3.849965673669295,
+      "p95_mm": 3.946562674963061,
+      "max_mm": 3.9482595829471454
+    }
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "schema": 2,
+  "seed": 2026102519,
+  "reference_dimensions": {
+    "height_m": {
+      "value": 0.6,
+      "source": "user approximate total height"
+    },
+    "mouth_outer_diameter_m": {
+      "value": 0.125,
+      "source": "user approximate mouth outside diameter"
+    },
+    "body_max_diameter_m": {
+      "value": 0.36,
+      "source": "assumed from photograph proportions; not measured"
+    },
+    "neck_min_diameter_m": {
+      "value": 0.105,
+      "source": "synthetic assumption"
+    },
+    "neck_length_m": {
+      "value": 0.01,
+      "source": "user approximate exposed neck length below raised lip, 2026-10-22"
+    },
+    "lip_height_m": {
+      "value": 0.006,
+      "source": "synthetic assumption; independent of exposed neck length"
+    }
+  },
+  "angular_segments": 160,
+  "vertical_samples": 180,
+  "jar": {
+    "height_m": 0.6,
+    "body_radius_m": 0.18,
+    "neck_radius_m": 0.0525,
+    "lip_radius_m": 0.0625,
+    "neck_length_m": 0.01,
+    "neck_tilt_deg": [
+      0,
+      0
+    ],
+    "neck_offset_xy_m": [
+      0,
+      0
+    ],
+    "neck_profile": "shallow",
+    "near_min_delta_m": 0.001,
+    "lip_height_m": 0.006,
+    "body_profile": [
+      [
+        0,
+        0.6
+      ],
+      [
+        0.025,
+        0.64
+      ],
+      [
+        0.12,
+        0.72
+      ],
+      [
+        0.3,
+        0.84
+      ],
+      [
+        0.52,
+        0.95
+      ],
+      [
+        0.72,
+        1.0
+      ],
+      [
+        0.81,
+        0.975
+      ],
+      [
+        0.89,
+        0.84
+      ],
+      [
+        0.95,
+        0.6
+      ]
+    ]
+  },
+  "scene": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fovy_deg": 50,
+    "nominal_target_world_m": [
+      0,
+      0,
+      0.59
+    ],
+    "cameras": [
+      {
+        "name": "cam_a",
+        "azimuth_deg": -50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_b",
+        "azimuth_deg": 50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_c",
+        "azimuth_deg": 180,
+        "elevation_deg": 8,
+        "distance_m": 0.8,
+        "role": "third-view comparison"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "structural_test_nominal_000",
+      "group": "nominal",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.6420113113707184,
+        "body_radius_m": 0.18098461327053533,
+        "neck_radius_m": 0.04882332932095861,
+        "lip_radius_m": 0.05693949748764741,
+        "neck_length_m": 0.008727299520295119,
+        "lip_height_m": 0.0054190428987119545,
+        "neck_tilt_deg": [
+          -1.926217939041008,
+          0.3302772823806507
+        ],
+        "neck_offset_xy_m": [
+          0.003212379146410093,
+          2.3235536211505675e-05
+        ],
+        "neck_profile": "flat",
+        "shallow_relief_m": 0.001539329943325728,
+        "body_profile": [
+          [
+            0.0,
+            0.631679500948725
+          ],
+          [
+            0.025,
+            0.6716795009487251
+          ],
+          [
+            0.12,
+            0.717178118115896
+          ],
+          [
+            0.3,
+            0.863244899212252
+          ],
+          [
+            0.52,
+            0.930024168321029
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9893807755971378
+          ],
+          [
+            0.89,
+            0.805812402685187
+          ],
+          [
+            0.95,
+            0.5877564389873778
+          ]
+        ]
+      }
+    },
+    {
+      "name": "structural_test_nominal_001",
+      "group": "nominal",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.5876785497022687,
+        "body_radius_m": 0.17430746268571148,
+        "neck_radius_m": 0.04958831937382903,
+        "lip_radius_m": 0.06309385081011191,
+        "neck_length_m": 0.013226557843150905,
+        "lip_height_m": 0.006141879854108783,
+        "neck_tilt_deg": [
+          6.052453800702138,
+          -0.933218004585593
+        ],
+        "neck_offset_xy_m": [
+          -0.0048924229113354424,
+          0.0004701626165681235
+        ],
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.0019028415656607298,
+        "body_profile": [
+          [
+            0.0,
+            0.6290299300870261
+          ],
+          [
+            0.025,
+            0.6690299300870262
+          ],
+          [
+            0.12,
+            0.7358407785803582
+          ],
+          [
+            0.3,
+            0.8236163672761644
+          ],
+          [
+            0.52,
+            0.9607614187990756
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9524927409964455
+          ],
+          [
+            0.89,
+            0.8281842129901464
+          ],
+          [
+            0.95,
+            0.558409066402666
+          ]
+        ]
+      }
+    }
+  ],
+  "dataset_split": "opened_two_case_render_replay_diagnostic",
+  "audit_assumptions": {
+    "nominal": "Assumed range around photo/user dimensions, NOT measured factory distribution",
+    "stress": "Deliberately short/long neck, stronger local tilt and wider size range; NOT factory frequency",
+    "neck": "Circular sections; single flat or shallow neck; no ellipticity/local dents/asymmetric rim",
+    "cameras": "frozen 0.8m poses and D435 preset; true K/T; noisy active stereo; no layout search",
+    "placement": "Body base position and orientation fixed; local geometry varies between jars",
+    "nominal_count": 8,
+    "stress_count": 4,
+    "minimum_neck_length": "6.2mm floor specified before any inference"
+  }
+}

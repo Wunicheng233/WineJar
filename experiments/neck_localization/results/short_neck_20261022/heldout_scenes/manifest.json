@@ -1,0 +1,529 @@
+{
+  "stage": "scene_preparation_only_no_localization_or_noise_benchmark",
+  "schema": 2,
+  "cases": [
+    {
+      "name": "short_upright",
+      "relative_dir": "short_upright",
+      "jar_spec": {
+        "height_m": 0.57,
+        "body_radius_m": 0.172,
+        "neck_radius_m": 0.0505,
+        "lip_radius_m": 0.061,
+        "neck_length_m": 0.009,
+        "lip_height_m": 0.0055,
+        "body_profile": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.025,
+            0.64
+          ],
+          [
+            0.12,
+            0.72
+          ],
+          [
+            0.3,
+            0.84
+          ],
+          [
+            0.52,
+            0.95
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.975
+          ],
+          [
+            0.89,
+            0.84
+          ],
+          [
+            0.95,
+            0.6
+          ]
+        ],
+        "neck_tilt_deg": [
+          0,
+          0
+        ],
+        "neck_offset_xy_m": [
+          0,
+          0
+        ],
+        "wall_thickness_m": 0.006,
+        "bottom_thickness_m": 0.01,
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.0015,
+        "near_min_delta_m": 0.001
+      },
+      "material": "mottled_gray",
+      "mesh_vertices": 62722,
+      "mesh_triangles": 125440,
+      "bbox_min_m": [
+        -0.172,
+        -0.172,
+        0.0
+      ],
+      "bbox_max_m": [
+        0.172,
+        0.172,
+        0.57
+      ],
+      "geometry_diagnostics": {
+        "local_collar_blend_start_s_m": 0.5405,
+        "minimum_axial_jacobian": 1.0,
+        "max_orientation_radius_over_axial_rate": 0.0,
+        "minimum_axial_jacobian_limit": 0.2,
+        "check_scope": "local_swept_surface_regularity; not_a_global_self_intersection_proof"
+      },
+      "geometry_source": "photo-inspired synthetic parameterization; no metric single-view reconstruction",
+      "quality": {
+        "cam_a": {
+          "jar_pixels": 43146,
+          "jar_bbox_xyxy": [
+            211,
+            245,
+            428,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6591804027557373,
+            0.8628895878791809
+          ]
+        },
+        "cam_b": {
+          "jar_pixels": 43146,
+          "jar_bbox_xyxy": [
+            211,
+            245,
+            428,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6591804027557373,
+            0.8628895282745361
+          ]
+        },
+        "cam_c": {
+          "jar_pixels": 43420,
+          "jar_bbox_xyxy": [
+            210,
+            247,
+            429,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6534125804901123,
+            0.8550642728805542
+          ]
+        }
+      }
+    },
+    {
+      "name": "taller_mild_tilt",
+      "relative_dir": "taller_mild_tilt",
+      "jar_spec": {
+        "height_m": 0.63,
+        "body_radius_m": 0.184,
+        "neck_radius_m": 0.054,
+        "lip_radius_m": 0.065,
+        "neck_length_m": 0.011,
+        "lip_height_m": 0.007,
+        "body_profile": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.025,
+            0.64
+          ],
+          [
+            0.12,
+            0.72
+          ],
+          [
+            0.3,
+            0.84
+          ],
+          [
+            0.52,
+            0.95
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.975
+          ],
+          [
+            0.89,
+            0.84
+          ],
+          [
+            0.95,
+            0.6
+          ]
+        ],
+        "neck_tilt_deg": [
+          -4,
+          2
+        ],
+        "neck_offset_xy_m": [
+          0,
+          0
+        ],
+        "wall_thickness_m": 0.006,
+        "bottom_thickness_m": 0.01,
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.002,
+        "near_min_delta_m": 0.001
+      },
+      "material": "mottled_gray",
+      "mesh_vertices": 62722,
+      "mesh_triangles": 125440,
+      "bbox_min_m": [
+        -0.184,
+        -0.184,
+        0.0
+      ],
+      "bbox_max_m": [
+        0.184,
+        0.184,
+        0.6350283974857892
+      ],
+      "geometry_diagnostics": {
+        "local_collar_blend_start_s_m": 0.597,
+        "minimum_axial_jacobian": 0.3600129349698058,
+        "max_orientation_radius_over_axial_rate": 0.6399958454439333,
+        "minimum_axial_jacobian_limit": 0.2,
+        "check_scope": "local_swept_surface_regularity; not_a_global_self_intersection_proof"
+      },
+      "geometry_source": "photo-inspired synthetic parameterization; no metric single-view reconstruction",
+      "quality": {
+        "cam_a": {
+          "jar_pixels": 53732,
+          "jar_bbox_xyxy": [
+            202,
+            210,
+            437,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6397041082382202,
+            0.8553452491760254
+          ]
+        },
+        "cam_b": {
+          "jar_pixels": 54016,
+          "jar_bbox_xyxy": [
+            202,
+            207,
+            437,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6397041082382202,
+            0.8508483171463013
+          ]
+        },
+        "cam_c": {
+          "jar_pixels": 54107,
+          "jar_bbox_xyxy": [
+            202,
+            211,
+            437,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6354721188545227,
+            0.8572158813476562
+          ]
+        }
+      }
+    },
+    {
+      "name": "tilted_flat",
+      "relative_dir": "tilted_flat",
+      "jar_spec": {
+        "height_m": 0.61,
+        "body_radius_m": 0.175,
+        "neck_radius_m": 0.051,
+        "lip_radius_m": 0.063,
+        "neck_length_m": 0.012,
+        "lip_height_m": 0.0055,
+        "body_profile": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.025,
+            0.64
+          ],
+          [
+            0.12,
+            0.72
+          ],
+          [
+            0.3,
+            0.84
+          ],
+          [
+            0.52,
+            0.95
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.975
+          ],
+          [
+            0.89,
+            0.84
+          ],
+          [
+            0.95,
+            0.6
+          ]
+        ],
+        "neck_tilt_deg": [
+          3,
+          4
+        ],
+        "neck_offset_xy_m": [
+          0,
+          0
+        ],
+        "wall_thickness_m": 0.006,
+        "bottom_thickness_m": 0.01,
+        "neck_profile": "flat",
+        "shallow_relief_m": 0.0018,
+        "near_min_delta_m": 0.001
+      },
+      "material": "mottled_gray",
+      "mesh_vertices": 62722,
+      "mesh_triangles": 125440,
+      "bbox_min_m": [
+        -0.175,
+        -0.175,
+        0.0
+      ],
+      "bbox_max_m": [
+        0.175,
+        0.175,
+        0.6154450962841437
+      ],
+      "geometry_diagnostics": {
+        "local_collar_blend_start_s_m": 0.5775,
+        "minimum_axial_jacobian": 0.36862947720504513,
+        "max_orientation_radius_over_axial_rate": 0.6314061459876297,
+        "minimum_axial_jacobian_limit": 0.2,
+        "check_scope": "local_swept_surface_regularity; not_a_global_self_intersection_proof"
+      },
+      "geometry_source": "photo-inspired synthetic parameterization; no metric single-view reconstruction",
+      "quality": {
+        "cam_a": {
+          "jar_pixels": 48743,
+          "jar_bbox_xyxy": [
+            209,
+            219,
+            430,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6510839462280273,
+            0.8520008325576782
+          ]
+        },
+        "cam_b": {
+          "jar_pixels": 48537,
+          "jar_bbox_xyxy": [
+            209,
+            221,
+            430,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6510838866233826,
+            0.8575387001037598
+          ]
+        },
+        "cam_c": {
+          "jar_pixels": 48698,
+          "jar_bbox_xyxy": [
+            208,
+            225,
+            431,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6463669538497925,
+            0.8575903177261353
+          ]
+        }
+      }
+    },
+    {
+      "name": "broad_reverse_tilt",
+      "relative_dir": "broad_reverse_tilt",
+      "jar_spec": {
+        "height_m": 0.64,
+        "body_radius_m": 0.19,
+        "neck_radius_m": 0.055,
+        "lip_radius_m": 0.066,
+        "neck_length_m": 0.009,
+        "lip_height_m": 0.0065,
+        "body_profile": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.025,
+            0.64
+          ],
+          [
+            0.12,
+            0.72
+          ],
+          [
+            0.3,
+            0.84
+          ],
+          [
+            0.52,
+            0.95
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.975
+          ],
+          [
+            0.89,
+            0.84
+          ],
+          [
+            0.95,
+            0.6
+          ]
+        ],
+        "neck_tilt_deg": [
+          -6,
+          -2
+        ],
+        "neck_offset_xy_m": [
+          0,
+          0
+        ],
+        "wall_thickness_m": 0.006,
+        "bottom_thickness_m": 0.01,
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.0016,
+        "near_min_delta_m": 0.001
+      },
+      "material": "mottled_gray",
+      "mesh_vertices": 62722,
+      "mesh_triangles": 125440,
+      "bbox_min_m": [
+        -0.19,
+        -0.19,
+        0.0
+      ],
+      "bbox_max_m": [
+        0.19,
+        0.19,
+        0.6472139377573576
+      ],
+      "geometry_diagnostics": {
+        "local_collar_blend_start_s_m": 0.6057333333333333,
+        "minimum_axial_jacobian": 0.22876545193993103,
+        "max_orientation_radius_over_axial_rate": 0.7712561171019616,
+        "minimum_axial_jacobian_limit": 0.2,
+        "check_scope": "local_swept_surface_regularity; not_a_global_self_intersection_proof"
+      },
+      "geometry_source": "photo-inspired synthetic parameterization; no metric single-view reconstruction",
+      "quality": {
+        "cam_a": {
+          "jar_pixels": 56973,
+          "jar_bbox_xyxy": [
+            198,
+            206,
+            441,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6321768164634705,
+            0.8541504144668579
+          ]
+        },
+        "cam_b": {
+          "jar_pixels": 57424,
+          "jar_bbox_xyxy": [
+            198,
+            200,
+            441,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6321768164634705,
+            0.8542132377624512
+          ]
+        },
+        "cam_c": {
+          "jar_pixels": 57759,
+          "jar_bbox_xyxy": [
+            197,
+            202,
+            442,
+            479
+          ],
+          "depth_on_jar_m": [
+            0.6282635927200317,
+            0.8560299277305603
+          ]
+        }
+      }
+    }
+  ],
+  "neck_length_definition": "exposed neck below lip, excluding lip_height_m",
+  "review_views": "overview/front/neck images are for human inspection only; not measurement-camera observations",
+  "world": "metres; fixed jar body base at origin; +Z up; static support top Z=0",
+  "target_truth_location": "each_case/evaluation_only/target.json",
+  "limitations": [
+    "Approximate user height/mouth diameter; unmeasured body/neck dimensions assumed",
+    "Single photograph cannot determine unseen shape or true 3D neck orientation",
+    "Circular sections are an initial hypothesis",
+    "Near-min interval uses an explicit synthetic tolerance, not an identified real contact band",
+    "Ideal co-located RGB/depth is not a RealSense active stereo/registration/noise simulation",
+    "Geometry and target truth not supplied to any estimator; no estimator invoked"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "mujoco": "3.8.1",
+    "numpy": "2.2.6",
+    "opencv": "5.0.0"
+  },
+  "source_sha256": {
+    "jar_model.py": "8ba7beac8a18baabebc0e1a86d54b16a0277d4a65d87bf1f6841af96062369fe",
+    "geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "scene_preparation.py": "72f7a23e4c02a1e2c7b9c38ecdacd1e7245c3e7dfb0cc0dd5fb61565ba312298"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "winejar_three_station_kinematic_v1",
+  "random_seed": 2026102817,
+  "factory_domain": {"physical_neck_min_m": 0.006, "physical_neck_max_m": 0.010, "mouth_tilt_max_deg": 15},
+  "gun": {"inner_diameter_m": 0.150, "head_tube_radius_m": 0.0015, "max_opening_deg": 60, "band_width_m": 0.003, "approach_clearance_m": 0.045, "flange_behind_m": 0.190, "flange_above_m": 0.070, "arc_segments_per_half": 64},
+  "M_W_t2_t0": [[1,0,0,2.4],[0,1,0,0],[0,0,1,0],[0,0,0,1]],
+  "loading_displacement_W_m": [1.2,0,0],
+  "B_T_W": [[0,1,0,0.55],[-1,0,0,2.4],[0,0,1,-0.18],[0,0,0,1]],
+  "preferred_guide_x_W": [0,1,0],
+  "cover_radial_allowance_m": 0.002,
+  "cover_cap_height_m": 0.002,
+  "durations_s": {"recognize": 8, "to_loading": 3, "cover": 3, "to_tying": 3, "above": 2, "descend": 3, "close": 2, "tighten": 3, "open": 2, "retract": 3},
+  "assumptions": ["Only the 150 mm inner aperture, 60 degree opening, 3 mm band and factory domain are user dimensions; rear hinge topology, head thickness, mount/TCP, station spacing/base pose, cover geometry and timing are unmeasured assumptions.", "Jar fixed relative to belt; ideal known conveyor translation and common reference; no added calibration or motion errors.", "Loading is an opaque sleeve/cap event, not simulated bamboo-leaf contact.", "Tightening is commanded radius animation, not a validated tension, locking or cutting model.", "Recognition RGB/depth are frozen t0 inputs. No post-cover target observations."]
+}

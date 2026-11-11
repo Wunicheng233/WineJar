@@ -1,0 +1,402 @@
+{
+  "prediction_records": 48,
+  "successful_model_executions": 48,
+  "independent_audit_jars": 12,
+  "all_prediction_and_input_file_hashes_match": true,
+  "all_frames_finite_and_proper_rigid": true,
+  "max_rotation_orthogonality_error": 5.519846960622132e-06,
+  "paired_case_seeds_match": true,
+  "paired_raw_ideal_rgb_hashes_match": true,
+  "prediction_source_snapshots_match": true,
+  "total_saved_observation_points": 4064369,
+  "query_geometry_physical_after_reversing_similarity": [
+    {
+      "case": "structural_test_nominal_000",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.19439387371319708,
+      "physical_query_radius_m": 0.054969934952945367,
+      "physical_query_full_height_m": 0.003225437575811008
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.21869583302948173,
+      "physical_query_radius_m": 0.04886155554607662,
+      "physical_query_full_height_m": 0.0028670198974366417
+    },
+    {
+      "case": "structural_test_nominal_002",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.21486015880833742,
+      "physical_query_radius_m": 0.049733829913053515,
+      "physical_query_full_height_m": 0.0029182018120973083
+    },
+    {
+      "case": "structural_test_nominal_003",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.2010629605182189,
+      "physical_query_radius_m": 0.05314662912415063,
+      "physical_query_full_height_m": 0.0031184525641419214
+    },
+    {
+      "case": "structural_test_nominal_004",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.21860726900482308,
+      "physical_query_radius_m": 0.04888135075247549,
+      "physical_query_full_height_m": 0.0028681814087717834
+    },
+    {
+      "case": "structural_test_nominal_005",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.21242772647781086,
+      "physical_query_radius_m": 0.05030331383969176,
+      "physical_query_full_height_m": 0.002951617075502145
+    },
+    {
+      "case": "structural_test_nominal_006",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.1914299785246253,
+      "physical_query_radius_m": 0.0558210301000003,
+      "physical_query_full_height_m": 0.003275376770213389
+    },
+    {
+      "case": "structural_test_nominal_007",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.20291916336356947,
+      "physical_query_radius_m": 0.052660470387017023,
+      "physical_query_full_height_m": 0.003089926522408348
+    },
+    {
+      "case": "structural_test_stress_000",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.19667292026879335,
+      "physical_query_radius_m": 0.05433294313554294,
+      "physical_query_full_height_m": 0.003188061192791951
+    },
+    {
+      "case": "structural_test_stress_001",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.20887032924896867,
+      "physical_query_radius_m": 0.051160060079803234,
+      "physical_query_full_height_m": 0.0030018878556687177
+    },
+    {
+      "case": "structural_test_stress_002",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.1068824189361364,
+      "physical_query_radius_m": 0.09997732741855732,
+      "physical_query_full_height_m": 0.0058663090807913815
+    },
+    {
+      "case": "structural_test_stress_003",
+      "layout": "far",
+      "condition": "stereo_raw",
+      "observed_scale": 0.22635466535033094,
+      "physical_query_radius_m": 0.04720829843169785,
+      "physical_query_full_height_m": 0.0027700127311782352
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.19257222026582546,
+      "physical_query_radius_m": 0.055489927771071465,
+      "physical_query_full_height_m": 0.0032559488794203627
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21193350740904388,
+      "physical_query_radius_m": 0.05042061882475844,
+      "physical_query_full_height_m": 0.0029585001090547203
+    },
+    {
+      "case": "structural_test_nominal_002",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21259013398629603,
+      "physical_query_radius_m": 0.050264884794486035,
+      "physical_query_full_height_m": 0.002949362197694572
+    },
+    {
+      "case": "structural_test_nominal_003",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.2000899907184311,
+      "physical_query_radius_m": 0.05340506316631663,
+      "physical_query_full_height_m": 0.003133616541890567
+    },
+    {
+      "case": "structural_test_nominal_004",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21300992161708868,
+      "physical_query_radius_m": 0.05016582566738174,
+      "physical_query_full_height_m": 0.0029435497652974315
+    },
+    {
+      "case": "structural_test_nominal_005",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.2110693481472318,
+      "physical_query_radius_m": 0.05062705071610686,
+      "physical_query_full_height_m": 0.002970612788099563
+    },
+    {
+      "case": "structural_test_nominal_006",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.18839816884379437,
+      "physical_query_radius_m": 0.05671933362646109,
+      "physical_query_full_height_m": 0.0033280859820982197
+    },
+    {
+      "case": "structural_test_nominal_007",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.19633077976652477,
+      "physical_query_radius_m": 0.054427627730980456,
+      "physical_query_full_height_m": 0.0031936169434443043
+    },
+    {
+      "case": "structural_test_stress_000",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.18547243961264476,
+      "physical_query_radius_m": 0.057614050990986175,
+      "physical_query_full_height_m": 0.0033805847709314275
+    },
+    {
+      "case": "structural_test_stress_001",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.2124951331622481,
+      "physical_query_radius_m": 0.05028735686434047,
+      "physical_query_full_height_m": 0.0029506807777252165
+    },
+    {
+      "case": "structural_test_stress_002",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.19223846614731097,
+      "physical_query_radius_m": 0.05558626640870643,
+      "physical_query_full_height_m": 0.0032616016833048175
+    },
+    {
+      "case": "structural_test_stress_003",
+      "layout": "far",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21395986649096785,
+      "physical_query_radius_m": 0.049943098060946926,
+      "physical_query_full_height_m": 0.0029304809124494112
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.0700182288538233,
+      "physical_query_radius_m": 0.15261480857469628,
+      "physical_query_full_height_m": 0.008954886678024966
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.2294477708420752,
+      "physical_query_radius_m": 0.04657189980119867,
+      "physical_query_full_height_m": 0.0027326711542277836
+    },
+    {
+      "case": "structural_test_nominal_002",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.22202582586273478,
+      "physical_query_radius_m": 0.048128719043125726,
+      "physical_query_full_height_m": 0.002824019693860503
+    },
+    {
+      "case": "structural_test_nominal_003",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.20206006392777706,
+      "physical_query_radius_m": 0.05288436708148813,
+      "physical_query_full_height_m": 0.0031030639731269116
+    },
+    {
+      "case": "structural_test_nominal_004",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.2311675172832713,
+      "physical_query_radius_m": 0.046225433048931265,
+      "physical_query_full_height_m": 0.0027123417344733477
+    },
+    {
+      "case": "structural_test_nominal_005",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.22545948790324874,
+      "physical_query_radius_m": 0.0473957370019891,
+      "physical_query_full_height_m": 0.0027810109506283985
+    },
+    {
+      "case": "structural_test_nominal_006",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.1866138073557415,
+      "physical_query_radius_m": 0.057261671816679495,
+      "physical_query_full_height_m": 0.0033599084315703753
+    },
+    {
+      "case": "structural_test_nominal_007",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.2094884881626408,
+      "physical_query_radius_m": 0.05100909690545554,
+      "physical_query_full_height_m": 0.002993029880931772
+    },
+    {
+      "case": "structural_test_stress_000",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.04645381806755742,
+      "physical_query_radius_m": 0.23003100795127795,
+      "physical_query_full_height_m": 0.013497390114848188
+    },
+    {
+      "case": "structural_test_stress_001",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.04302080130529876,
+      "physical_query_radius_m": 0.24838725149336943,
+      "physical_query_full_height_m": 0.014574468298078376
+    },
+    {
+      "case": "structural_test_stress_002",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.19415229968772527,
+      "physical_query_radius_m": 0.05503833130203763,
+      "physical_query_full_height_m": 0.0032294508269563715
+    },
+    {
+      "case": "structural_test_stress_003",
+      "layout": "close",
+      "condition": "stereo_raw",
+      "observed_scale": 0.08836119778791258,
+      "physical_query_radius_m": 0.12093338321322859,
+      "physical_query_full_height_m": 0.007095934872759015
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21800428391759222,
+      "physical_query_radius_m": 0.049016553258672955,
+      "physical_query_full_height_m": 0.0028761146043305274
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.2262162665162852,
+      "physical_query_radius_m": 0.04723718041070337,
+      "physical_query_full_height_m": 0.0027717074215654063
+    },
+    {
+      "case": "structural_test_nominal_002",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.20783978679500204,
+      "physical_query_radius_m": 0.051413729575296524,
+      "physical_query_full_height_m": 0.0030167722669983193
+    },
+    {
+      "case": "structural_test_nominal_003",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.2092986762464577,
+      "physical_query_radius_m": 0.05105535679873357,
+      "physical_query_full_height_m": 0.002995744244668234
+    },
+    {
+      "case": "structural_test_nominal_004",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21922195621142018,
+      "physical_query_radius_m": 0.048744289933075835,
+      "physical_query_full_height_m": 0.0028601391740949275
+    },
+    {
+      "case": "structural_test_nominal_005",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21579234378483028,
+      "physical_query_radius_m": 0.049518988513885864,
+      "physical_query_full_height_m": 0.002905595693456121
+    },
+    {
+      "case": "structural_test_nominal_006",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.20108678299587981,
+      "physical_query_radius_m": 0.053140332915288954,
+      "physical_query_full_height_m": 0.0031180831253084036
+    },
+    {
+      "case": "structural_test_nominal_007",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.19972646560197063,
+      "physical_query_radius_m": 0.05350226651765316,
+      "physical_query_full_height_m": 0.0031393200840570987
+    },
+    {
+      "case": "structural_test_stress_000",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.06177872225470151,
+      "physical_query_radius_m": 0.1729692392990906,
+      "physical_query_full_height_m": 0.010149211280171613
+    },
+    {
+      "case": "structural_test_stress_001",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.22101057870588844,
+      "physical_query_radius_m": 0.048349805949722234,
+      "physical_query_full_height_m": 0.002836992276357947
+    },
+    {
+      "case": "structural_test_stress_002",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.19943089433312303,
+      "physical_query_radius_m": 0.053581560815829606,
+      "physical_query_full_height_m": 0.003143972787559564
+    },
+    {
+      "case": "structural_test_stress_003",
+      "layout": "close",
+      "condition": "ideal_rgb",
+      "observed_scale": 0.21947461261568516,
+      "physical_query_radius_m": 0.048688176121659724,
+      "physical_query_full_height_m": 0.0028568466179727777
+    }
+  ],
+  "physical_query_height_range_mm": [
+    2.712341734473348,
+    14.574468298078376
+  ]
+}

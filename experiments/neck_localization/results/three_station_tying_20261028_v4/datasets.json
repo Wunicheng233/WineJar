@@ -1,0 +1,86 @@
+[
+  {
+    "condition": "old12/fs/clean",
+    "label": "old12·fs·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/fs/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/fs/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "old12/fs/shared_noise",
+    "label": "old12·fs·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/fs/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/fs/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "old12/ss/clean",
+    "label": "old12·ss·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/ss/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/ss/clean/records.json.gz",
+    "method": "standard_sor"
+  },
+  {
+    "condition": "old12/ss/shared_noise",
+    "label": "old12·ss·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/ss/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old12/ss/shared_noise/records.json.gz",
+    "method": "standard_sor"
+  },
+  {
+    "condition": "old8/fs/clean",
+    "label": "old8·fs·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/fs/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/fs/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "old8/fs/shared_noise",
+    "label": "old8·fs·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/fs/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/fs/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "old8/ss/clean",
+    "label": "old8·ss·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/ss/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/ss/clean/records.json.gz",
+    "method": "standard_sor"
+  },
+  {
+    "condition": "old8/ss/shared_noise",
+    "label": "old8·ss·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/ss/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/old8/ss/shared_noise/records.json.gz",
+    "method": "standard_sor"
+  },
+  {
+    "condition": "new8/fs/clean",
+    "label": "new8·fs·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/fs/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/fs/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "new8/fs/shared_noise",
+    "label": "new8·fs·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/fs/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/fs/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "new8/ss/clean",
+    "label": "new8·ss·原始",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/ss/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/ss/clean/records.json.gz",
+    "method": "standard_sor"
+  },
+  {
+    "condition": "new8/ss/shared_noise",
+    "label": "new8·ss·扰动",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/ss/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v4/new8/ss/shared_noise/records.json.gz",
+    "method": "standard_sor"
+  }
+]

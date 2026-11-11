@@ -1,0 +1,8 @@
+Observed validation results, 2026-10-24 (summary, not raw log):
+48 core tests passed in 3.59s.
+3 desktop viewer tests and 3 subtests passed in 0.69s.
+552 processed frame sets exact; 550 fitted point subsets agree with saved final-fit observations.
+Full latest-stage one-key reconstruction ran successfully; 8 newly re-rendered scenes, all40 baseline and80 compensated records identical except runtime.
+Development and first independent test not fully rerun.
+13 original frozen sources and all experiment-frozen sources unchanged.
+No hardware access, commits or pushes.

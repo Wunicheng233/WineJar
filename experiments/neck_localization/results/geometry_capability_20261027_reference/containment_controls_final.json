@@ -1,0 +1,1093 @@
+{
+  "schema": 1,
+  "role": "evaluation_only_engineering_positive_and_negative_controls",
+  "no_hardware": true,
+  "no_depth_or_network_inference": true,
+  "no_parameter_changes": true,
+  "no_audit_12_cases_read": true,
+  "development": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3",
+  "threshold_pixels": 2.0,
+  "threshold_source": "unchanged PortfolioSettings.validation_contact_pixels",
+  "reference": "saved finite physical neck meridian with exact evaluation axis; linear between saved mesh rings, 0.1 mm axial sampling, 360 angular samples",
+  "scope": "tests necessary RGB containment geometry only; not an estimator capability result",
+  "positive_pass_count": 0,
+  "ideal_silhouette_positive_pass_count": 4,
+  "negative_rejection_count": 4,
+  "input_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/effective_config.json": "02c1155edab8e74ff6982a4f1d7d34a19e612311c1e741f5d123ff43a4f1e408",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_000/evaluation_only/target.json": "733da2727787ee01ba845c08be552e999e7fe82228fb84d1db56d9d20ae2d08b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_000/evaluation_only/profile.npz": "ddd81b367277137527d9ca6083127aa36d740e00f4605ac95073bced42bc5c87",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_000/sensor.json": "ff762f161d742923e0b33bdbc7f2880860e0b91f32bed870d75f4d5124f2e4a1",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_000/observations/camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_000/observations/cam_a_rgb.png": "5ab563ac05f19e6a685a095bd1ea56471c38a8d3aba740bac776bf05b5630ffa",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_a_depth_z_m.npz": "dc39dac3f06b6421314fdb2af9700444e35b185f1ab351e32b4471ab53baa948",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_000/observations/cam_b_rgb.png": "fb2f6a1448ff6e865b7e2761592c3472adbb8b5410d5b1a9a139c649fb63a2f1",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_b_depth_z_m.npz": "7182f87838b67c8984532cae2e2a43f101f51ffb9fabf4a594f7255ccc6b0d6d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_000/observations/cam_c_rgb.png": "8e644b20614a5e04840be5b4ba6f5e8131be194492a7bbe775e4a8ca65611190",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_000/observations/cam_c_depth_z_m.npz": "0a12bc1c770bcbae5503439969637f7bcb3359b1d08742debc291ae04e3fb5bf",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_000/assets/jar.obj": "3b1250f7685af40f7aa606c16a976047592b3f1ec78557bc886e87a8ed67219f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_001/evaluation_only/target.json": "6ea9e9548e2f9e3382e7948e44cc325b5cb56af8ba96b81d40dec070e4cf5898",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_001/evaluation_only/profile.npz": "9037431e38072b9eeba0506c6fdddc09020e96502d28052fb35aa87a9cbed101",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_001/sensor.json": "e1f2c5218183ad7b9130c3c1c127e92bba6d743dd0916f3fef9a9ecf95ed933a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_001/observations/camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_001/observations/cam_a_rgb.png": "8deaa6de6973e3a2716098dd5ee349f8b3e17e5c76c0fa71647b21ac4a14aa8a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_001/observations/cam_a_depth_z_m.npz": "77c2f8da765dae003bbee995ded03a42d78bec9902d6a5d616e54cd476c33593",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_001/observations/cam_b_rgb.png": "1e4c994b6a0b5bf2aa6add502943f285732c0dc48e5317b8417b3eb7dfb1ba53",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_001/observations/cam_b_depth_z_m.npz": "2dac3b36ca424a4ab4e8d46bb0b9bc7fc0affc9b21cdccb650f3a327ad21101e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_nominal_001/observations/cam_c_rgb.png": "5b7a72395df98f0b20655200f0e85d81d23decc4d3f3977180fcb5f3923074b6",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_nominal_001/observations/cam_c_depth_z_m.npz": "216552aa8d3aecbce5290e61069ee53a52caac843ee763d239643706d1f4f688",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_nominal_001/assets/jar.obj": "c001692ba434d4499373dbb68c0b7f8498968ce30f269e461e01acdfbf4b6215",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_000/evaluation_only/target.json": "40da4fee63f455a83b6043347149f7bf7b33c5497aed9c10ef6e662f5e96fd3e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_000/evaluation_only/profile.npz": "151b5878b37c930ab2efeb52f83911c7b2976f9d33ec53741c15822a715f4fdd",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_000/sensor.json": "f8b17eb3ee355224196968a843648bcaaa33bd8b3208c155e678ed11015d55b8",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_000/observations/camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_000/observations/cam_a_rgb.png": "6f28d98548a9d4c64390bea25cfebe0be324c2de10ec3bd414d6be1d6a8f85a5",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_000/observations/cam_a_depth_z_m.npz": "515ab2b4cbe6c1a7c1121a9472c08a990b97bfb4ca456d8a870e059a784ecf7d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_000/observations/cam_b_rgb.png": "8515b6ff4b15e43fea1ccef5d19054da17c6c326b41b83bb01f89cd9a707db60",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_000/observations/cam_b_depth_z_m.npz": "20133f97c15af74c93cb6639eb592ca2c639ababaec32c03c6919b4feeca9ff1",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_000/observations/cam_c_rgb.png": "e74690e3ec73e51c64f154d5e225cab117293dbc4592b2d82e70af2d273c7194",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_000/observations/cam_c_depth_z_m.npz": "f26af26fa083eb73913d5591a99d6abafe25d012bd356d26f36c96280c2a3b28",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_000/assets/jar.obj": "26a59fa9749aecead0cb7cea4ab475e149061ac9ba6525546329e932c784d4c6",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_001/evaluation_only/target.json": "5a98ee831d865d676e1c4f6bb30cca9e9c4a3a6336de2b9175d59d9071bef32e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_001/evaluation_only/profile.npz": "c2386a2dd80bf8acfa9bc489def8c26a6b125281bbc497702a095ff3fa13ee2f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_001/sensor.json": "49c250d740e1dd16942e4ac73ef35154210a29cb3106a51de083083844a0b862",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_001/observations/camera_true_parameters.json": "424cc12fdc1ab48785cf86ec501beb4a7a429104796d5a6521516693e5c35660",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_001/observations/cam_a_rgb.png": "bbd1d2829a150a52b86b343e2fc0f07e6286e076c32653976b7e865627ddeb1e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_001/observations/cam_a_depth_z_m.npz": "5d0ef77b3b9befc09530b842c63f62859c345b50a48281552c034bcf3a6b5307",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_001/observations/cam_b_rgb.png": "972a6816b760627b496af39f3e302bc095b1425dd4df58e59d8336def338c7c6",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_001/observations/cam_b_depth_z_m.npz": "de51c632ca33b38b6c862805405d097dc434c91a6b2f74fd2a3e87d32ea28ca0",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/stereo_raw/scenes/development_stress_001/observations/cam_c_rgb.png": "360f9210c6eb680694aed649c15d41d29d559b104e439dbab2d97c7abf03953e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/ideal_rgb/scenes/development_stress_001/observations/cam_c_depth_z_m.npz": "80c80b891d6b1bd9f367ea5aa4c2a323b8cc2f3515640950610e1e13f7fe4272",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/active_stereo_development_20261024_v3/geometry/development_stress_001/assets/jar.obj": "bc3aee65b2ca116b470292d3054ee00922d5034e1b2ee3e75107c05cdf71bdd1"
+  },
+  "source_sha256": {
+    "scripts/check_profile_containment_reference.py": "7ed44246c8bd6af2c061c22e06ffa918620c162c5d3fe10e1b85aa4d6e8fe683",
+    "neck_localization/visible_profile_baseline.py": "f49c7a51d48ec82767a22ad21c49af8b9bb260662f39eb1d6e795d0aeef636ae",
+    "neck_localization/structure_portfolio.py": "992ed087505349042bf7b04254d11113247b4dd80ca98e211c2e43627776378a",
+    "neck_localization/stereo_robust.py": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d"
+  },
+  "inputs_unchanged": true,
+  "records": [
+    {
+      "case": "development_nominal_000",
+      "evaluation_only": true,
+      "exact_saved_neck_profile_reference": true,
+      "reference_neck_bounds_s_m": [
+        0.5957332750891134,
+        0.6096058657658813
+      ],
+      "reference_centerline_consistency_max_m": 1.1102272597818149e-16,
+      "saved_camera_metadata_agreement": [
+        {
+          "camera": "cam_a",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_b",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_c",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        }
+      ],
+      "true_full_mesh_projection_checks": [
+        {
+          "camera": "cam_a",
+          "projected_vertices_inside_FOV": 39265,
+          "geometric_foreground_pixels": 67271,
+          "geometric_foreground_pixels_removed_by_RGB_key": 6522,
+          "RGB": {
+            "maximum_outside_pixels": 16.207859146670067,
+            "rms_outside_pixels": 2.2350365139062505,
+            "vertices_more_than_two_pixels_outside": 3082
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.48537254008556374,
+            "rms_outside_pixels": 0.04215262608158578,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_b",
+          "projected_vertices_inside_FOV": 39265,
+          "geometric_foreground_pixels": 67269,
+          "geometric_foreground_pixels_removed_by_RGB_key": 18642,
+          "RGB": {
+            "maximum_outside_pixels": 78.73910639531624,
+            "rms_outside_pixels": 13.043577195960475,
+            "vertices_more_than_two_pixels_outside": 5541
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.4850674268849957,
+            "rms_outside_pixels": 0.04199098273564767,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_c",
+          "projected_vertices_inside_FOV": 38619,
+          "geometric_foreground_pixels": 68958,
+          "geometric_foreground_pixels_removed_by_RGB_key": 12725,
+          "RGB": {
+            "maximum_outside_pixels": 72.9401324078067,
+            "rms_outside_pixels": 13.638193183818016,
+            "vertices_more_than_two_pixels_outside": 5215
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.4897221090469799,
+            "rms_outside_pixels": 0.04190373544458325,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        }
+      ],
+      "positive": {
+        "outside_rms_pixels": 0.4625908825006687,
+        "maximum_outside_pixels": 3.4378415017182666,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.6459853593853319,
+            "maximum_outside_pixels": 3.4378415017182666,
+            "front_facing_sample_count": 24139,
+            "locally_visible_sample_count": 957,
+            "outside_sample_count": 11405
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.16900876020136557,
+            "maximum_outside_pixels": 0.9538469497694726,
+            "front_facing_sample_count": 24115,
+            "locally_visible_sample_count": 961,
+            "outside_sample_count": 8476
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.4428430062146668,
+            "maximum_outside_pixels": 2.424800883086044,
+            "front_facing_sample_count": 24183,
+            "locally_visible_sample_count": 957,
+            "outside_sample_count": 13964
+          }
+        ],
+        "axial_sample_count": 140,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "positive_pass": false,
+      "ideal_silhouette_positive": {
+        "outside_rms_pixels": 0.06539041804394824,
+        "maximum_outside_pixels": 0.49421404309404693,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.06700337684792361,
+            "maximum_outside_pixels": 0.49421404309404693,
+            "front_facing_sample_count": 24139,
+            "locally_visible_sample_count": 957,
+            "outside_sample_count": 4880
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.06290009110099784,
+            "maximum_outside_pixels": 0.4523305461030418,
+            "front_facing_sample_count": 24115,
+            "locally_visible_sample_count": 961,
+            "outside_sample_count": 4957
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 50400,
+            "outside_rms_pixels": 0.0661955160592335,
+            "maximum_outside_pixels": 0.4368918740978813,
+            "front_facing_sample_count": 24183,
+            "locally_visible_sample_count": 957,
+            "outside_sample_count": 5452
+          }
+        ],
+        "axial_sample_count": 140,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "ideal_silhouette_positive_pass": true,
+      "old_true_circle_contact_rms_pixels": 1.2321500436600383,
+      "negative_translation_world_m": [
+        0.25,
+        0,
+        0
+      ],
+      "negative": {
+        "outside_rms_pixels": 64.00451613675277,
+        "maximum_outside_pixels": 119.23349500879695,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 50400,
+            "outside_rms_pixels": 78.77844237315708,
+            "maximum_outside_pixels": 119.23349500879695,
+            "front_facing_sample_count": 23954,
+            "locally_visible_sample_count": 1540,
+            "outside_sample_count": 50400
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 50400,
+            "outside_rms_pixels": 77.87491150428914,
+            "maximum_outside_pixels": 118.37801491279868,
+            "front_facing_sample_count": 23946,
+            "locally_visible_sample_count": 1539,
+            "outside_sample_count": 50400
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 50400,
+            "outside_rms_pixels": 4.380574523717433,
+            "maximum_outside_pixels": 9.362081152007594,
+            "front_facing_sample_count": 24432,
+            "locally_visible_sample_count": 573,
+            "outside_sample_count": 43856
+          }
+        ],
+        "axial_sample_count": 140,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "negative_rejected": true,
+      "foreground": {
+        "method": "rgb_blue_key_largest_filled_external_contour",
+        "settings": {
+          "hue_low": 95,
+          "hue_high": 125,
+          "minimum_saturation": 65,
+          "minimum_blue_over_red": 12,
+          "minimum_blue_over_green": 4
+        },
+        "inputs": "original_RGB_only; no depth or target dimensions",
+        "cameras": [
+          {
+            "camera": "cam_a",
+            "pixels": 60757,
+            "fraction": 0.1492654284591195,
+            "bbox_xyxy": [
+              286,
+              211,
+              564,
+              479
+            ],
+            "mask_sha256": "9e2a319c1048bd11a1d7441e69609917d00eb9484512b6ba00dff31e731c00bc",
+            "rgb_sha256": "25a3055180a5f2f4b80f0939733430b5912a262050486d5dbf490793668b88ed"
+          },
+          {
+            "camera": "cam_b",
+            "pixels": 48632,
+            "fraction": 0.11947720125786164,
+            "bbox_xyxy": [
+              282,
+              211,
+              566,
+              479
+            ],
+            "mask_sha256": "cb7d9c19ab5b46b61294b092d58cfbae2508ac4673ee55a9adbe4d5612ce00fe",
+            "rgb_sha256": "ae0b848e1c694d1dc51049787d94e09c88d8f294c104709bd3898b00146d3a04"
+          },
+          {
+            "camera": "cam_c",
+            "pixels": 56242,
+            "fraction": 0.13817315251572326,
+            "bbox_xyxy": [
+              281,
+              212,
+              564,
+              479
+            ],
+            "mask_sha256": "b79e681ea0073fefa4cc7c06dd99bb24d98067d3eb4761a841e11263da4a497a",
+            "rgb_sha256": "a2c7b86c75879bc4ced6a8f1066a95891758c552b937c397ce52739136b06439"
+          }
+        ]
+      }
+    },
+    {
+      "case": "development_nominal_001",
+      "evaluation_only": true,
+      "exact_saved_neck_profile_reference": true,
+      "reference_neck_bounds_s_m": [
+        0.5558377543548189,
+        0.5656951906165594
+      ],
+      "reference_centerline_consistency_max_m": 1.110259022941803e-16,
+      "saved_camera_metadata_agreement": [
+        {
+          "camera": "cam_a",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_b",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_c",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        }
+      ],
+      "true_full_mesh_projection_checks": [
+        {
+          "camera": "cam_a",
+          "projected_vertices_inside_FOV": 37513,
+          "geometric_foreground_pixels": 56940,
+          "geometric_foreground_pixels_removed_by_RGB_key": 6096,
+          "RGB": {
+            "maximum_outside_pixels": 15.534714600485529,
+            "rms_outside_pixels": 2.010031232370412,
+            "vertices_more_than_two_pixels_outside": 2556
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.4934833316202685,
+            "rms_outside_pixels": 0.04028621673463073,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_b",
+          "projected_vertices_inside_FOV": 37513,
+          "geometric_foreground_pixels": 56871,
+          "geometric_foreground_pixels_removed_by_RGB_key": 13038,
+          "RGB": {
+            "maximum_outside_pixels": 61.63544037137172,
+            "rms_outside_pixels": 8.502132655716235,
+            "vertices_more_than_two_pixels_outside": 3868
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.47965253631005567,
+            "rms_outside_pixels": 0.040349693013167466,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_c",
+          "projected_vertices_inside_FOV": 36817,
+          "geometric_foreground_pixels": 58757,
+          "geometric_foreground_pixels_removed_by_RGB_key": 10506,
+          "RGB": {
+            "maximum_outside_pixels": 61.833082530053915,
+            "rms_outside_pixels": 10.436357882870166,
+            "vertices_more_than_two_pixels_outside": 4102
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.4733745234225353,
+            "rms_outside_pixels": 0.03953388179256446,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        }
+      ],
+      "positive": {
+        "outside_rms_pixels": 0.4922496725810317,
+        "maximum_outside_pixels": 3.863955451839199,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.32232392063868426,
+            "maximum_outside_pixels": 2.3227343920878094,
+            "front_facing_sample_count": 17188,
+            "locally_visible_sample_count": 755,
+            "outside_sample_count": 5089
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.6600112139550907,
+            "maximum_outside_pixels": 3.863955451839199,
+            "front_facing_sample_count": 17205,
+            "locally_visible_sample_count": 759,
+            "outside_sample_count": 11059
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.4329222887609661,
+            "maximum_outside_pixels": 2.6293549527107962,
+            "front_facing_sample_count": 17205,
+            "locally_visible_sample_count": 757,
+            "outside_sample_count": 6815
+          }
+        ],
+        "axial_sample_count": 100,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "positive_pass": false,
+      "ideal_silhouette_positive": {
+        "outside_rms_pixels": 0.0543370351711954,
+        "maximum_outside_pixels": 0.4784433447251786,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.05578797551874097,
+            "maximum_outside_pixels": 0.4784433447251786,
+            "front_facing_sample_count": 17188,
+            "locally_visible_sample_count": 755,
+            "outside_sample_count": 2256
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.04898609940480391,
+            "maximum_outside_pixels": 0.4297944279395267,
+            "front_facing_sample_count": 17205,
+            "locally_visible_sample_count": 759,
+            "outside_sample_count": 2384
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 36000,
+            "outside_rms_pixels": 0.05784119661806979,
+            "maximum_outside_pixels": 0.46581669637567563,
+            "front_facing_sample_count": 17205,
+            "locally_visible_sample_count": 757,
+            "outside_sample_count": 2941
+          }
+        ],
+        "axial_sample_count": 100,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "ideal_silhouette_positive_pass": true,
+      "old_true_circle_contact_rms_pixels": 0.633751933721491,
+      "negative_translation_world_m": [
+        0.25,
+        0,
+        0
+      ],
+      "negative": {
+        "outside_rms_pixels": 64.02878704682622,
+        "maximum_outside_pixels": 123.83969903761897,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 36000,
+            "outside_rms_pixels": 76.70141672271713,
+            "maximum_outside_pixels": 121.22333143669056,
+            "front_facing_sample_count": 17030,
+            "locally_visible_sample_count": 1198,
+            "outside_sample_count": 36000
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 36000,
+            "outside_rms_pixels": 79.45012954024257,
+            "maximum_outside_pixels": 123.83969903761897,
+            "front_facing_sample_count": 17043,
+            "locally_visible_sample_count": 1178,
+            "outside_sample_count": 36000
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 36000,
+            "outside_rms_pixels": 10.179700429296911,
+            "maximum_outside_pixels": 16.024309564034468,
+            "front_facing_sample_count": 17391,
+            "locally_visible_sample_count": 456,
+            "outside_sample_count": 36000
+          }
+        ],
+        "axial_sample_count": 100,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "negative_rejected": true,
+      "foreground": {
+        "method": "rgb_blue_key_largest_filled_external_contour",
+        "settings": {
+          "hue_low": 95,
+          "hue_high": 125,
+          "minimum_saturation": 65,
+          "minimum_blue_over_red": 12,
+          "minimum_blue_over_green": 4
+        },
+        "inputs": "original_RGB_only; no depth or target dimensions",
+        "cameras": [
+          {
+            "camera": "cam_a",
+            "pixels": 50853,
+            "fraction": 0.12493366745283019,
+            "bbox_xyxy": [
+              296,
+              241,
+              553,
+              479
+            ],
+            "mask_sha256": "bc36211978f9b5ae1f6dd530af6f9f8f4a9bae06f46b5b65f467d5bbfdeeb868",
+            "rgb_sha256": "c6eab2734dd0fd4dc4fc3dc24c7471302a88937a0474291760c1497d0c604833"
+          },
+          {
+            "camera": "cam_b",
+            "pixels": 43838,
+            "fraction": 0.1076994889937107,
+            "bbox_xyxy": [
+              292,
+              241,
+              556,
+              479
+            ],
+            "mask_sha256": "524f0563a37f61724ee056f4b2b8e7609e4bad4f5d98f90f83d2e6f2db265592",
+            "rgb_sha256": "835fe4b98e2b2d8ae7a5b0b1c0b0bfbd7326dd08e3140ceb731df048d2bc7d1e"
+          },
+          {
+            "camera": "cam_c",
+            "pixels": 48253,
+            "fraction": 0.11854608883647799,
+            "bbox_xyxy": [
+              291,
+              242,
+              553,
+              479
+            ],
+            "mask_sha256": "144c0652512d88005e4247d2eadc4a2f90d85d2cc71372acfe328f5199d40551",
+            "rgb_sha256": "57b13a401ba3b3e52573a479ff6f79e7c141b6cfa71ff4097c56f6e90c840f96"
+          }
+        ]
+      }
+    },
+    {
+      "case": "development_stress_000",
+      "evaluation_only": true,
+      "exact_saved_neck_profile_reference": true,
+      "reference_neck_bounds_s_m": [
+        0.5960622647388775,
+        0.6026093517314995
+      ],
+      "reference_centerline_consistency_max_m": 1.110259022941803e-16,
+      "saved_camera_metadata_agreement": [
+        {
+          "camera": "cam_a",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_b",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_c",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        }
+      ],
+      "true_full_mesh_projection_checks": [
+        {
+          "camera": "cam_a",
+          "projected_vertices_inside_FOV": 39038,
+          "geometric_foreground_pixels": 61979,
+          "geometric_foreground_pixels_removed_by_RGB_key": 7098,
+          "RGB": {
+            "maximum_outside_pixels": 15.279560729511097,
+            "rms_outside_pixels": 2.1271487081116804,
+            "vertices_more_than_two_pixels_outside": 3162
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.609528389182699,
+            "rms_outside_pixels": 0.04352957612647531,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_b",
+          "projected_vertices_inside_FOV": 39038,
+          "geometric_foreground_pixels": 62691,
+          "geometric_foreground_pixels_removed_by_RGB_key": 17897,
+          "RGB": {
+            "maximum_outside_pixels": 70.22763298248425,
+            "rms_outside_pixels": 12.289814995031449,
+            "vertices_more_than_two_pixels_outside": 5572
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.49852257738562855,
+            "rms_outside_pixels": 0.040363272918825625,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_c",
+          "projected_vertices_inside_FOV": 38380,
+          "geometric_foreground_pixels": 64203,
+          "geometric_foreground_pixels_removed_by_RGB_key": 13389,
+          "RGB": {
+            "maximum_outside_pixels": 65.92903048628125,
+            "rms_outside_pixels": 13.163981869913727,
+            "vertices_more_than_two_pixels_outside": 5455
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.49548300006904356,
+            "rms_outside_pixels": 0.04266825062047123,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        }
+      ],
+      "positive": {
+        "outside_rms_pixels": 0.5718104848939357,
+        "maximum_outside_pixels": 3.6229277895720706,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.6559425995615691,
+            "maximum_outside_pixels": 3.009858722488938,
+            "front_facing_sample_count": 11658,
+            "locally_visible_sample_count": 441,
+            "outside_sample_count": 5809
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.011832109718100964,
+            "maximum_outside_pixels": 0.2854304550286578,
+            "front_facing_sample_count": 11591,
+            "locally_visible_sample_count": 428,
+            "outside_sample_count": 254
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.7419575453918797,
+            "maximum_outside_pixels": 3.6229277895720706,
+            "front_facing_sample_count": 11591,
+            "locally_visible_sample_count": 450,
+            "outside_sample_count": 8123
+          }
+        ],
+        "axial_sample_count": 67,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "positive_pass": false,
+      "ideal_silhouette_positive": {
+        "outside_rms_pixels": 0.057096592453710064,
+        "maximum_outside_pixels": 0.45706100750031226,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.06483874736836345,
+            "maximum_outside_pixels": 0.3934041741296994,
+            "front_facing_sample_count": 11658,
+            "locally_visible_sample_count": 441,
+            "outside_sample_count": 2545
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.0,
+            "maximum_outside_pixels": 0.0,
+            "front_facing_sample_count": 11591,
+            "locally_visible_sample_count": 428,
+            "outside_sample_count": 0
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 24120,
+            "outside_rms_pixels": 0.07467261512212307,
+            "maximum_outside_pixels": 0.45706100750031226,
+            "front_facing_sample_count": 11591,
+            "locally_visible_sample_count": 450,
+            "outside_sample_count": 2681
+          }
+        ],
+        "axial_sample_count": 67,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "ideal_silhouette_positive_pass": true,
+      "old_true_circle_contact_rms_pixels": 1.5693593953418787,
+      "negative_translation_world_m": [
+        0.25,
+        0,
+        0
+      ],
+      "negative": {
+        "outside_rms_pixels": 63.74178185068301,
+        "maximum_outside_pixels": 113.80064539883466,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 24120,
+            "outside_rms_pixels": 77.98258311664442,
+            "maximum_outside_pixels": 112.52169869030493,
+            "front_facing_sample_count": 11524,
+            "locally_visible_sample_count": 686,
+            "outside_sample_count": 24120
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 24120,
+            "outside_rms_pixels": 77.75270363707088,
+            "maximum_outside_pixels": 113.80064539883466,
+            "front_facing_sample_count": 11524,
+            "locally_visible_sample_count": 658,
+            "outside_sample_count": 24120
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 24120,
+            "outside_rms_pixels": 7.891645460970563,
+            "maximum_outside_pixels": 10.729870631840043,
+            "front_facing_sample_count": 11725,
+            "locally_visible_sample_count": 277,
+            "outside_sample_count": 24120
+          }
+        ],
+        "axial_sample_count": 67,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "negative_rejected": true,
+      "foreground": {
+        "method": "rgb_blue_key_largest_filled_external_contour",
+        "settings": {
+          "hue_low": 95,
+          "hue_high": 125,
+          "minimum_saturation": 65,
+          "minimum_blue_over_red": 12,
+          "minimum_blue_over_green": 4
+        },
+        "inputs": "original_RGB_only; no depth or target dimensions",
+        "cameras": [
+          {
+            "camera": "cam_a",
+            "pixels": 54886,
+            "fraction": 0.13484178459119497,
+            "bbox_xyxy": [
+              300,
+              215,
+              550,
+              479
+            ],
+            "mask_sha256": "33d52a92ff4b666835108be18602e5e395e56b66364b16b43486304761a9d462",
+            "rgb_sha256": "a55f2b0f45647cb1341dec53d827dff95691bcca665efc05a3c8d51ee085db3f"
+          },
+          {
+            "camera": "cam_b",
+            "pixels": 44808,
+            "fraction": 0.11008254716981132,
+            "bbox_xyxy": [
+              295,
+              209,
+              554,
+              479
+            ],
+            "mask_sha256": "98bc90f00e4c5c162adaa781613d52c8f3d5de8a044455033abd3fa992662caa",
+            "rgb_sha256": "840c95625c9be809a54d83ba604aca2385b16ffbbccdad6ee1f94a8d03b9faac"
+          },
+          {
+            "camera": "cam_c",
+            "pixels": 50818,
+            "fraction": 0.12484768081761007,
+            "bbox_xyxy": [
+              294,
+              215,
+              549,
+              479
+            ],
+            "mask_sha256": "3892868a2061434207e14546d5a91a865bc3144d7a0ed172baf3e753d2204dd6",
+            "rgb_sha256": "3165f31ca0f004116f0559c72c277d2d098762d12466aed0ba866f3f9cce805d"
+          }
+        ]
+      }
+    },
+    {
+      "case": "development_stress_001",
+      "evaluation_only": true,
+      "exact_saved_neck_profile_reference": true,
+      "reference_neck_bounds_s_m": [
+        0.6009170658579862,
+        0.6222394269103086
+      ],
+      "reference_centerline_consistency_max_m": 1.1102399651548566e-16,
+      "saved_camera_metadata_agreement": [
+        {
+          "camera": "cam_a",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_b",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        },
+        {
+          "camera": "cam_c",
+          "K_max_abs": 0.0,
+          "T_max_abs": 0.0
+        }
+      ],
+      "true_full_mesh_projection_checks": [
+        {
+          "camera": "cam_a",
+          "projected_vertices_inside_FOV": 39815,
+          "geometric_foreground_pixels": 66421,
+          "geometric_foreground_pixels_removed_by_RGB_key": 7451,
+          "RGB": {
+            "maximum_outside_pixels": 15.825465548388852,
+            "rms_outside_pixels": 2.308088163272149,
+            "vertices_more_than_two_pixels_outside": 3485
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.4969366594527287,
+            "rms_outside_pixels": 0.040079964857441634,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_b",
+          "projected_vertices_inside_FOV": 39815,
+          "geometric_foreground_pixels": 65457,
+          "geometric_foreground_pixels_removed_by_RGB_key": 20838,
+          "RGB": {
+            "maximum_outside_pixels": 75.83172828372125,
+            "rms_outside_pixels": 14.025414774054429,
+            "vertices_more_than_two_pixels_outside": 6566
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.5623478207068218,
+            "rms_outside_pixels": 0.043104897417298664,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        },
+        {
+          "camera": "cam_c",
+          "projected_vertices_inside_FOV": 39165,
+          "geometric_foreground_pixels": 67401,
+          "geometric_foreground_pixels_removed_by_RGB_key": 15120,
+          "RGB": {
+            "maximum_outside_pixels": 73.5165396104312,
+            "rms_outside_pixels": 14.559418079067592,
+            "vertices_more_than_two_pixels_outside": 6497
+          },
+          "ideal_silhouette": {
+            "maximum_outside_pixels": 0.6075246657868052,
+            "rms_outside_pixels": 0.04270142265820818,
+            "vertices_more_than_two_pixels_outside": 0
+          }
+        }
+      ],
+      "positive": {
+        "outside_rms_pixels": 1.003510660586098,
+        "maximum_outside_pixels": 6.459955991758813,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 77400,
+            "outside_rms_pixels": 0.6710329678304061,
+            "maximum_outside_pixels": 3.9161795370965904,
+            "front_facing_sample_count": 36793,
+            "locally_visible_sample_count": 1586,
+            "outside_sample_count": 13196
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 77400,
+            "outside_rms_pixels": 0.4186133152360095,
+            "maximum_outside_pixels": 2.6552644619409453,
+            "front_facing_sample_count": 36854,
+            "locally_visible_sample_count": 1696,
+            "outside_sample_count": 17882
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 77400,
+            "outside_rms_pixels": 1.547765675456616,
+            "maximum_outside_pixels": 6.459955991758813,
+            "front_facing_sample_count": 36910,
+            "locally_visible_sample_count": 1714,
+            "outside_sample_count": 40457
+          }
+        ],
+        "axial_sample_count": 215,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "positive_pass": false,
+      "ideal_silhouette_positive": {
+        "outside_rms_pixels": 0.05719579065509126,
+        "maximum_outside_pixels": 0.4730309831869022,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 77400,
+            "outside_rms_pixels": 0.04016123265508178,
+            "maximum_outside_pixels": 0.46958542675341164,
+            "front_facing_sample_count": 36793,
+            "locally_visible_sample_count": 1586,
+            "outside_sample_count": 4029
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 77400,
+            "outside_rms_pixels": 0.06294164300295091,
+            "maximum_outside_pixels": 0.4730309831869022,
+            "front_facing_sample_count": 36854,
+            "locally_visible_sample_count": 1696,
+            "outside_sample_count": 7101
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 77400,
+            "outside_rms_pixels": 0.06511144579639244,
+            "maximum_outside_pixels": 0.4643905589113331,
+            "front_facing_sample_count": 36910,
+            "locally_visible_sample_count": 1714,
+            "outside_sample_count": 7715
+          }
+        ],
+        "axial_sample_count": 215,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "ideal_silhouette_positive_pass": true,
+      "old_true_circle_contact_rms_pixels": 1.918549403191119,
+      "negative_translation_world_m": [
+        0.25,
+        0,
+        0
+      ],
+      "negative": {
+        "outside_rms_pixels": 68.39823269159304,
+        "maximum_outside_pixels": 133.11540341010272,
+        "views": [
+          {
+            "camera": "cam_a",
+            "sample_count": 77400,
+            "outside_rms_pixels": 85.02057261226666,
+            "maximum_outside_pixels": 133.11540341010272,
+            "front_facing_sample_count": 36370,
+            "locally_visible_sample_count": 2521,
+            "outside_sample_count": 77400
+          },
+          {
+            "camera": "cam_b",
+            "sample_count": 77400,
+            "outside_rms_pixels": 82.4151951667377,
+            "maximum_outside_pixels": 128.6208739102659,
+            "front_facing_sample_count": 36480,
+            "locally_visible_sample_count": 2754,
+            "outside_sample_count": 77400
+          },
+          {
+            "camera": "cam_c",
+            "sample_count": 77400,
+            "outside_rms_pixels": 3.767299339147285,
+            "maximum_outside_pixels": 9.218630777651178,
+            "front_facing_sample_count": 37301,
+            "locally_visible_sample_count": 1003,
+            "outside_sample_count": 57268
+          }
+        ],
+        "axial_sample_count": 215,
+        "angular_sample_count": 360,
+        "validation": "one-sided containment of full finite fitted surface",
+        "visibility": "front face + finite local z-buffer; diagnostic only; unknown whole-jar occlusion is not a rejection",
+        "boundary_distance": "outside foreground pixel squares, pixels",
+        "uses_ground_truth": false
+      },
+      "negative_rejected": true,
+      "foreground": {
+        "method": "rgb_blue_key_largest_filled_external_contour",
+        "settings": {
+          "hue_low": 95,
+          "hue_high": 125,
+          "minimum_saturation": 65,
+          "minimum_blue_over_red": 12,
+          "minimum_blue_over_green": 4
+        },
+        "inputs": "original_RGB_only; no depth or target dimensions",
+        "cameras": [
+          {
+            "camera": "cam_a",
+            "pixels": 58984,
+            "fraction": 0.14490959119496855,
+            "bbox_xyxy": [
+              295,
+              192,
+              553,
+              479
+            ],
+            "mask_sha256": "b2f084cbcd5552307fc08e36a7939e613b388c60fc4a12bd02f80042178ace68",
+            "rgb_sha256": "358162b8f4ceddc11885f4b875e7c7b1ad731fe9f69bed1375d31d2e454b4f9a"
+          },
+          {
+            "camera": "cam_b",
+            "pixels": 44635,
+            "fraction": 0.10965752751572327,
+            "bbox_xyxy": [
+              292,
+              197,
+              557,
+              479
+            ],
+            "mask_sha256": "172dc2d07aafc7c8f741a61f542368a7d2ed9fb6c2f248dd7f4702955d5b1ca3",
+            "rgb_sha256": "c3ba7a4b5420677f149f78c663fef780e90602d6ebe282b6c58e50208a73d03e"
+          },
+          {
+            "camera": "cam_c",
+            "pixels": 52281,
+            "fraction": 0.12844192216981132,
+            "bbox_xyxy": [
+              291,
+              200,
+              554,
+              479
+            ],
+            "mask_sha256": "7f254bd9fc6cdc09eaeec096c9d15c045784806f45062cbf9829f8bb357d1274",
+            "rgb_sha256": "d72eacdad7e3db7096f6d4467d5e73f779a609f1f4fa150fd587620d31d6f21b"
+          }
+        ]
+      }
+    }
+  ]
+}

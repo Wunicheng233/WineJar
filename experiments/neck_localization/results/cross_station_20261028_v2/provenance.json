@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/cross_station_20261028_v1.json": "c7dc047e4240533554da182dc00f9713475312a330882d76adedc44888619728",
+    "/home/wunicheng/Git/WineJar/scripts/run_cross_station_study.py": "f927d0a4d2a945ea9b9b442d4259fda82bfd7566c354104d09f83bed41aa0b4f",
+    "/home/wunicheng/Git/WineJar/neck_localization/task_circle_fusion.py": "d8531febe440b28b4912e79b7e5696d4d77ecdfcb107580ccfb98cd4d0cd4c28",
+    "/home/wunicheng/Git/WineJar/neck_localization/cross_station_uncertainty.py": "62e23011dbcac68f1644683998892dac50e852ebeb930b945ffd25c1c7d570d5",
+    "/home/wunicheng/Git/WineJar/neck_localization/tool_clearance.py": "caf6c30212d3b2748dec62bc54bb1d062070b5351bf334d0381f6c6b6ff0293d",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/clean/records.json.gz": "135c29a4dd48c3457a19d808f1892ccbe4f6c09c42887227bcf9755e4204b430",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/clean/records.json.gz": "2b6d74fb25d7fe1ae3f14f43d17cb3e9a1ec01ace70da91ed3730f84fe61425e",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/fs/shared_noise/records.json.gz": "fcc5da15f819b34c01887b075f130cfc28656de642f1e112271a83a6dd920947",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old12/ss/shared_noise/records.json.gz": "5c0f33bcc1d78cbcc2828de02b451fa625d8fd5878316f6a4e1e61d2adb46151",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/clean/records.json.gz": "29c432fb2512ecaab9bd2e8ad450712c54aca17295c0d8fe319da93ab5900d9a",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/clean/records.json.gz": "2808c8988a0413d5876694f8f2e63ddedf497cce92c5fcd0d2f011f096a89551",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/fs/shared_noise/records.json.gz": "aac89a114dbfd82339e4a1e1e654e6f064d93f4dce59c7b7c08250fe1700e25b",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/old8/ss/shared_noise/records.json.gz": "96dbd81e1d414684a41695fde671c739cf3258d36079881da9ed17fa0967ce8f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/clean/records.json.gz": "bbbfef8de7c9df2b737581d61eb5618c227a5ffa1c5f242a7647ac38e637b060",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/clean/records.json.gz": "2119be5e58fc9e7f2523fee7710a4b57c470021d6470563509f3e3d4987192e7",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/fs/shared_noise/records.json.gz": "9026d2428472cc5acff6347f43ab47a1077c06a3a4d4e2d7fd7f65fb4a453277",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/three_station_tying_20261028_v5/new8/ss/shared_noise/records.json.gz": "e881e9a86ef108b8f93980ed8135876be32b4d6bdf4c699fc1acd679672dad93"
+  },
+  "previous_465_protected_inputs_unchanged": true,
+  "no_training_or_devices": true,
+  "runtime_body_or_carrier_observation": false,
+  "independent_jar_evaluation": false,
+  "all_uncertainty_priors_assumed": true
+}

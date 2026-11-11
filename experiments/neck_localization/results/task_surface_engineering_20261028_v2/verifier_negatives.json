@@ -1,0 +1,2018 @@
+[
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs12",
+    "case": "structural_test_stress_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss12",
+    "case": "structural_test_stress_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "fs_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_000",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_001",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_002",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_003",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_004",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_005",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_006",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_x_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "shift_y_150mm",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  },
+  {
+    "dataset": "ss_new8",
+    "case": "confirmation_nominal_007",
+    "perturbation": "radius_times3",
+    "full_context_accept": false,
+    "task_accept": false,
+    "no_RGB_accept": true,
+    "reasons": [
+      "operation_surface_projects_outside_rgb_foreground"
+    ],
+    "scope": "verifier-only synthetic corruption; stale depth fit is deliberate; NOT end-to-end false-accept metric"
+  }
+]

@@ -1,0 +1,3558 @@
+{
+  "rows": [
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0030962823220847674,
+          -0.0005382983916938593,
+          0.6299382356354164
+        ],
+        "normal": [
+          0.011106863798002856,
+          0.02186839868914034,
+          0.9996991601053516
+        ],
+        "radius_m": 0.04878699085449935
+      },
+      "center_mm": 2.308609243518763,
+      "axial_mm": -2.3029040065659436,
+      "tangent_mm": 0.16220288469321495,
+      "xyz_mm": [
+        -0.05973739297262083,
+        -0.2327130468117331,
+        -2.29607332656967
+      ],
+      "normal_deg": 0.7394978399331907,
+      "band_margin_mm": -0.06878952407203835,
+      "band_contained": false,
+      "diameter_mm": 0.07267693291852784
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0030195153925272828,
+          -0.00035672427402069957,
+          0.6306788525769698
+        ],
+        "normal": [
+          0.016919484148544973,
+          0.018541701219945736,
+          0.999684918547848
+        ],
+        "radius_m": 0.049520058908875585
+      },
+      "center_mm": 1.5622718028022018,
+      "axial_mm": -1.5570569584357021,
+      "tangent_mm": 0.1275414207926254,
+      "xyz_mm": [
+        -0.13650432253010544,
+        -0.05113892913857337,
+        -1.5554563850163072
+      ],
+      "normal_deg": 1.0745356376929347,
+      "band_margin_mm": 0.37820268693782033,
+      "band_contained": true,
+      "diameter_mm": 1.3934591758339443
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0030195153925272828,
+          -0.00035672427402069957,
+          0.6306788525769698
+        ],
+        "normal": [
+          0.016919484148544973,
+          0.018541701219945736,
+          0.999684918547848
+        ],
+        "radius_m": 0.04878699085449935
+      },
+      "center_mm": 1.5622718028022018,
+      "axial_mm": -1.5570569584357021,
+      "tangent_mm": 0.1275414207926254,
+      "xyz_mm": [
+        -0.13650432253010544,
+        -0.05113892913857337,
+        -1.5554563850163072
+      ],
+      "normal_deg": 1.0745356376929347,
+      "band_margin_mm": 0.39194997480843746,
+      "band_contained": true,
+      "diameter_mm": 0.07267693291852784,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0030195153925272828,
+          -0.00035672427402069957,
+          0.6306788525769698
+        ],
+        "normal": [
+          0.016919484148544973,
+          0.018541701219945736,
+          0.999684918547848
+        ],
+        "radius_m": 0.04882688155545023
+      },
+      "center_mm": 1.5622718028022018,
+      "axial_mm": -1.5570569584357021,
+      "tangent_mm": 0.1275414207926254,
+      "xyz_mm": [
+        -0.13650432253010544,
+        -0.05113892913857337,
+        -1.5554563850163072
+      ],
+      "normal_deg": 1.0745356376929347,
+      "band_margin_mm": 0.3912019010845059,
+      "band_contained": true,
+      "diameter_mm": 0.007104468983235024,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 175,
+        "robust_scale_m": 0.0005286426344316138
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_006",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0013791773082334378,
+          0.0028474868719780607,
+          0.6360918612494194
+        ],
+        "normal": [
+          -0.03630618519044964,
+          0.03691107907419629,
+          0.9986588171935874
+        ],
+        "radius_m": 0.050936319685627625
+      },
+      "center_mm": 1.8360408100370167,
+      "axial_mm": -1.8352786419995684,
+      "tangent_mm": 0.05289765913161559,
+      "xyz_mm": [
+        0.028601791103955193,
+        -0.021969186996879508,
+        -1.8356865605243522
+      ],
+      "normal_deg": 0.2086207375388178,
+      "band_margin_mm": 0.8368228985225002,
+      "band_contained": true,
+      "diameter_mm": 1.2166807772473476
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_006",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014829950427931687,
+          0.0026265593460761743,
+          0.6360843024634265
+        ],
+        "normal": [
+          -0.0347007578022413,
+          0.036648134970233635,
+          0.998725573724411
+        ],
+        "radius_m": 0.0521508625084253
+      },
+      "center_mm": 1.8607013889242074,
+      "axial_mm": -1.8468495597675896,
+      "tangent_mm": 0.22661942178625352,
+      "xyz_mm": [
+        -0.07521594345577574,
+        -0.24289671289876588,
+        -1.8432453465172527
+      ],
+      "normal_deg": 0.14980166248884155,
+      "band_margin_mm": 0.8743619877609529,
+      "band_contained": true,
+      "diameter_mm": 1.2124048683480049
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_006",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014829950427931687,
+          0.0026265593460761743,
+          0.6360843024634265
+        ],
+        "normal": [
+          -0.0347007578022413,
+          0.036648134970233635,
+          0.998725573724411
+        ],
+        "radius_m": 0.050936319685627625
+      },
+      "center_mm": 1.8607013889242074,
+      "axial_mm": -1.8468495597675896,
+      "tangent_mm": 0.22661942178625352,
+      "xyz_mm": [
+        -0.07521594345577574,
+        -0.24289671289876588,
+        -1.8432453465172527
+      ],
+      "normal_deg": 0.14980166248884155,
+      "band_margin_mm": 0.8775374455046301,
+      "band_contained": true,
+      "diameter_mm": 1.2166807772473476,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_nominal_006",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014829950427931687,
+          0.0026265593460761743,
+          0.6360843024634265
+        ],
+        "normal": [
+          -0.0347007578022413,
+          0.036648134970233635,
+          0.998725573724411
+        ],
+        "radius_m": 0.05107821241791398
+      },
+      "center_mm": 1.8607013889242074,
+      "axial_mm": -1.8468495597675896,
+      "tangent_mm": 0.22661942178625352,
+      "xyz_mm": [
+        -0.07521594345577574,
+        -0.24289671289876588,
+        -1.8432453465172527
+      ],
+      "normal_deg": 0.14980166248884155,
+      "band_margin_mm": 0.8771664628047592,
+      "band_contained": true,
+      "diameter_mm": 0.9328953126746392,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 201,
+        "robust_scale_m": 0.000499412606162509
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.004934707334686602,
+          -0.005680909904273858,
+          0.5679368520204375
+        ],
+        "normal": [
+          0.1840730629492786,
+          0.10505769967236497,
+          0.9772819384578958
+        ],
+        "radius_m": 0.04906418047978835
+      },
+      "center_mm": 1.887441760273977,
+      "axial_mm": -1.6538544324991082,
+      "tangent_mm": 0.909506412582771,
+      "xyz_mm": [
+        0.275472266809098,
+        0.5257254830486119,
+        -1.7916930945668375
+      ],
+      "normal_deg": 0.5651240518422271,
+      "band_margin_mm": -0.5377071471660304,
+      "band_contained": false,
+      "diameter_mm": 0.8606492894996376
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0045538627586979505,
+          -0.006228306742546483,
+          0.5686185653201546
+        ],
+        "normal": [
+          0.17549902876279783,
+          0.10034583214156373,
+          0.9793522373871066
+        ],
+        "radius_m": 0.05197671130573102
+      },
+      "center_mm": 1.289680809639303,
+      "axial_mm": -0.9734239198951253,
+      "tangent_mm": 0.8460038196887157,
+      "xyz_mm": [
+        0.6563168427977497,
+        -0.021671355224013415,
+        -1.1099797948497248
+      ],
+      "normal_deg": 0.07866631058740534,
+      "band_margin_mm": 0.5552142126304805,
+      "band_contained": true,
+      "diameter_mm": 6.685710941384981
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0045538627586979505,
+          -0.006228306742546483,
+          0.5686185653201546
+        ],
+        "normal": [
+          0.17549902876279783,
+          0.10034583214156373,
+          0.9793522373871066
+        ],
+        "radius_m": 0.04906418047978835
+      },
+      "center_mm": 1.289680809639303,
+      "axial_mm": -0.9734239198951253,
+      "tangent_mm": 0.8460038196887157,
+      "xyz_mm": [
+        0.6563168427977497,
+        -0.021671355224013415,
+        -1.1099797948497248
+      ],
+      "normal_deg": 0.07866631058740534,
+      "band_margin_mm": 0.5592130758017543,
+      "band_contained": true,
+      "diameter_mm": 0.8606492894996376,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0045538627586979505,
+          -0.006228306742546483,
+          0.5686185653201546
+        ],
+        "normal": [
+          0.17549902876279783,
+          0.10034583214156373,
+          0.9793522373871066
+        ],
+        "radius_m": 0.04936901741922845
+      },
+      "center_mm": 1.289680809639303,
+      "axial_mm": -0.9734239198951253,
+      "tangent_mm": 0.8460038196887157,
+      "xyz_mm": [
+        0.6563168427977497,
+        -0.021671355224013415,
+        -1.1099797948497248
+      ],
+      "normal_deg": 0.07866631058740534,
+      "band_margin_mm": 0.5587945390434432,
+      "band_contained": true,
+      "diameter_mm": 1.4703231683798474,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 103,
+        "robust_scale_m": 0.000905044605467499
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_002",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007297251496038387,
+          -0.003908138256723547,
+          0.6046684393929183
+        ],
+        "normal": [
+          -0.13474676618125397,
+          -0.060369928395310364,
+          0.9890393221451003
+        ],
+        "radius_m": 0.05767964563244394
+      },
+      "center_mm": 1.376024296543601,
+      "axial_mm": -1.2378408194032071,
+      "tangent_mm": 0.6009933198443294,
+      "xyz_mm": [
+        -0.43745902573837353,
+        0.052653965732469415,
+        -1.3035720253867789
+      ],
+      "normal_deg": 0.4097022627383556,
+      "band_margin_mm": -0.05024611215254321,
+      "band_contained": false,
+      "diameter_mm": 2.58200376534444
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_002",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007487513884246425,
+          -0.004277602057709627,
+          0.6058686241158933
+        ],
+        "normal": [
+          -0.1251727271255853,
+          -0.06019349994423719,
+          0.990307291171991
+        ],
+        "radius_m": 0.060587403615803295
+      },
+      "center_mm": 0.7106979523962942,
+      "axial_mm": -0.0032636292843208183,
+      "tangent_mm": 0.7106904588245009,
+      "xyz_mm": [
+        -0.6277214139464113,
+        -0.31680983525361056,
+        -0.10338730241177263
+      ],
+      "normal_deg": 0.1469720098008248,
+      "band_margin_mm": 1.4413259716422084,
+      "band_contained": true,
+      "diameter_mm": 8.397519732063152
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_002",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007487513884246425,
+          -0.004277602057709627,
+          0.6058686241158933
+        ],
+        "normal": [
+          -0.1251727271255853,
+          -0.06019349994423719,
+          0.990307291171991
+        ],
+        "radius_m": 0.05767964563244394
+      },
+      "center_mm": 0.7106979523962942,
+      "axial_mm": -0.0032636292843208183,
+      "tangent_mm": 0.7106904588245009,
+      "xyz_mm": [
+        -0.6277214139464113,
+        -0.31680983525361056,
+        -0.10338730241177263
+      ],
+      "normal_deg": 0.1469720098008248,
+      "band_margin_mm": 1.4487847857083112,
+      "band_contained": true,
+      "diameter_mm": 2.58200376534444,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "clean",
+      "case": "structural_test_stress_002",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007487513884246425,
+          -0.004277602057709627,
+          0.6058686241158933
+        ],
+        "normal": [
+          -0.1251727271255853,
+          -0.06019349994423719,
+          0.990307291171991
+        ],
+        "radius_m": 0.05747775260343906
+      },
+      "center_mm": 0.7106979523962942,
+      "axial_mm": -0.0032636292843208183,
+      "tangent_mm": 0.7106904588245009,
+      "xyz_mm": [
+        -0.6277214139464113,
+        -0.31680983525361056,
+        -0.10338730241177263
+      ],
+      "normal_deg": 0.1469720098008248,
+      "band_margin_mm": 1.4493026701310203,
+      "band_contained": true,
+      "diameter_mm": 2.178217707334687,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 61,
+        "robust_scale_m": 0.000894575423434921
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0030922507114585288,
+          -0.0004762019871730524,
+          0.6300402356025754
+        ],
+        "normal": [
+          0.01060327897396212,
+          0.024298209066562555,
+          0.999648521987182
+        ],
+        "radius_m": 0.048716447329410655
+      },
+      "center_mm": 2.2016208644819653,
+      "axial_mm": -2.198899379695905,
+      "tangent_mm": 0.10943467866851732,
+      "xyz_mm": [
+        -0.06376900359885947,
+        -0.17061664229092618,
+        -2.1940733594106865
+      ],
+      "normal_deg": 0.6016236677702935,
+      "band_margin_mm": 0.15330448502776994,
+      "band_contained": true,
+      "diameter_mm": 0.21376398309591593
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002997701620437435,
+          -0.00036064467186199575,
+          0.6307476528115654
+        ],
+        "normal": [
+          0.016713288674598797,
+          0.019112869041423276,
+          0.9996776301481817
+        ],
+        "radius_m": 0.04957315910895868
+      },
+      "center_mm": 1.4960757528130444,
+      "axial_mm": -1.488554189078727,
+      "tangent_mm": 0.14983018498050177,
+      "xyz_mm": [
+        -0.1583180946199531,
+        -0.055059326979869545,
+        -1.486656150420651
+      ],
+      "normal_deg": 1.0412483227067202,
+      "band_margin_mm": 0.4744893439336174,
+      "band_contained": true,
+      "diameter_mm": 1.4996595760001368
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002997701620437435,
+          -0.00036064467186199575,
+          0.6307476528115654
+        ],
+        "normal": [
+          0.016713288674598797,
+          0.019112869041423276,
+          0.9996776301481817
+        ],
+        "radius_m": 0.048716447329410655
+      },
+      "center_mm": 1.4960757528130444,
+      "axial_mm": -1.488554189078727,
+      "tangent_mm": 0.14983018498050177,
+      "xyz_mm": [
+        -0.1583180946199531,
+        -0.055059326979869545,
+        -1.486656150420651
+      ],
+      "normal_deg": 1.0412483227067202,
+      "band_margin_mm": 0.4900576913697514,
+      "band_contained": true,
+      "diameter_mm": 0.21376398309591593,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002997701620437435,
+          -0.00036064467186199575,
+          0.6307476528115654
+        ],
+        "normal": [
+          0.016713288674598797,
+          0.019112869041423276,
+          0.9996776301481817
+        ],
+        "radius_m": 0.04876074956378067
+      },
+      "center_mm": 1.4960757528130444,
+      "axial_mm": -1.488554189078727,
+      "tangent_mm": 0.14983018498050177,
+      "xyz_mm": [
+        -0.1583180946199531,
+        -0.055059326979869545,
+        -1.486656150420651
+      ],
+      "normal_deg": 1.0412483227067202,
+      "band_margin_mm": 0.4892526218080451,
+      "band_contained": true,
+      "diameter_mm": 0.1251595143558909,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 178,
+        "robust_scale_m": 0.000544797868268801
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_006",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014083694465157669,
+          0.0027980866419655857,
+          0.6360987905582262
+        ],
+        "normal": [
+          -0.03698108065559457,
+          0.03609398034775097,
+          0.998663919572646
+        ],
+        "radius_m": 0.0509565281084828
+      },
+      "center_mm": 1.830149455072939,
+      "axial_mm": -1.8290535584197427,
+      "tangent_mm": 0.06332541619169978,
+      "xyz_mm": [
+        -0.0005903471783739057,
+        -0.07136941700935451,
+        -1.8287572517176054
+      ],
+      "normal_deg": 0.20705149530207004,
+      "band_margin_mm": 0.8443698627974453,
+      "band_contained": true,
+      "diameter_mm": 1.1762639315369972
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_006",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014633012644370287,
+          0.0026421757548667517,
+          0.6360660921463367
+        ],
+        "normal": [
+          -0.03222075399694425,
+          0.03687815898150382,
+          0.9988001924319014
+        ],
+        "radius_m": 0.052136960271673485
+      },
+      "center_mm": 1.8761013392212318,
+      "axial_mm": -1.865173883090199,
+      "tangent_mm": 0.20219451245255965,
+      "xyz_mm": [
+        -0.055522165099635694,
+        -0.22728030410818856,
+        -1.86145566360707
+      ],
+      "normal_deg": 0.18482315723677353,
+      "band_margin_mm": 0.8242086099317619,
+      "band_contained": true,
+      "diameter_mm": 1.1846003948443733
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_006",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014633012644370287,
+          0.0026421757548667517,
+          0.6360660921463367
+        ],
+        "normal": [
+          -0.03222075399694425,
+          0.03687815898150382,
+          0.9988001924319014
+        ],
+        "radius_m": 0.0509565281084828
+      },
+      "center_mm": 1.8761013392212318,
+      "axial_mm": -1.865173883090199,
+      "tangent_mm": 0.20219451245255965,
+      "xyz_mm": [
+        -0.055522165099635694,
+        -0.22728030410818856,
+        -1.86145566360707
+      ],
+      "normal_deg": 0.18482315723677353,
+      "band_margin_mm": 0.8280164090889014,
+      "band_contained": true,
+      "diameter_mm": 1.1762639315369972,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_nominal_006",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0014633012644370287,
+          0.0026421757548667517,
+          0.6360660921463367
+        ],
+        "normal": [
+          -0.03222075399694425,
+          0.03687815898150382,
+          0.9988001924319014
+        ],
+        "radius_m": 0.05115018318848852
+      },
+      "center_mm": 1.8761013392212318,
+      "axial_mm": -1.865173883090199,
+      "tangent_mm": 0.20219451245255965,
+      "xyz_mm": [
+        -0.055522165099635694,
+        -0.22728030410818856,
+        -1.86145566360707
+      ],
+      "normal_deg": 0.18482315723677353,
+      "band_margin_mm": 0.8273917229159761,
+      "band_contained": true,
+      "diameter_mm": 0.7889537715255607,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 229,
+        "robust_scale_m": 0.0005275696126797339
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.004854055258384515,
+          -0.005633546047526634,
+          0.5678284578435737
+        ],
+        "normal": [
+          0.18532255972512604,
+          0.10647634770135642,
+          0.9768921825038356
+        ],
+        "radius_m": 0.04897226038287426
+      },
+      "center_mm": 2.0163302254831112,
+      "axial_mm": -1.7410811934008055,
+      "tangent_mm": 1.016967972053595,
+      "xyz_mm": [
+        0.3561243431111855,
+        0.5730893397958353,
+        -1.9000872714306505
+      ],
+      "normal_deg": 0.6738496215399075,
+      "band_margin_mm": -0.7169217687840396,
+      "band_contained": false,
+      "diameter_mm": 0.6768090956714573
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.004513869132205658,
+          -0.006250832917845541,
+          0.5684557474428914
+        ],
+        "normal": [
+          0.17717773441456897,
+          0.10023916150519127,
+          0.9790608566010882
+        ],
+        "radius_m": 0.05188090937922953
+      },
+      "center_mm": 1.4514873769631786,
+      "axial_mm": -1.1280562823915476,
+      "tangent_mm": 0.9134027749248463,
+      "xyz_mm": [
+        0.696310469290042,
+        -0.044197530523071814,
+        -1.2727976721129686
+      ],
+      "normal_deg": 0.0744929101940309,
+      "band_margin_mm": 0.40449221893908266,
+      "band_contained": true,
+      "diameter_mm": 6.494107088382009
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.004513869132205658,
+          -0.006250832917845541,
+          0.5684557474428914
+        ],
+        "normal": [
+          0.17717773441456897,
+          0.10023916150519127,
+          0.9790608566010882
+        ],
+        "radius_m": 0.04897226038287426
+      },
+      "center_mm": 1.4514873769631786,
+      "axial_mm": -1.1280562823915476,
+      "tangent_mm": 0.9134027749248463,
+      "xyz_mm": [
+        0.696310469290042,
+        -0.044197530523071814,
+        -1.2727976721129686
+      ],
+      "normal_deg": 0.0744929101940309,
+      "band_margin_mm": 0.40827388783807117,
+      "band_contained": true,
+      "diameter_mm": 0.6768090956714573,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.004513869132205658,
+          -0.006250832917845541,
+          0.5684557474428914
+        ],
+        "normal": [
+          0.17717773441456897,
+          0.10023916150519127,
+          0.9790608566010882
+        ],
+        "radius_m": 0.04929031384898808
+      },
+      "center_mm": 1.4514873769631786,
+      "axial_mm": -1.1280562823915476,
+      "tangent_mm": 0.9134027749248463,
+      "xyz_mm": [
+        0.696310469290042,
+        -0.044197530523071814,
+        -1.2727976721129686
+      ],
+      "normal_deg": 0.0744929101940309,
+      "band_margin_mm": 0.4078603718371631,
+      "band_contained": true,
+      "diameter_mm": 1.312916027899097,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 82,
+        "robust_scale_m": 0.0007399183161032102
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_002",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007493407478336299,
+          -0.0037901686646655878,
+          0.6043741710215994
+        ],
+        "normal": [
+          -0.13682675820370924,
+          -0.0609505341081242,
+          0.9887180946212111
+        ],
+        "radius_m": 0.057845615591137885
+      },
+      "center_mm": 1.7273315576999948,
+      "axial_mm": -1.511175531246811,
+      "tangent_mm": 0.8366736663641385,
+      "xyz_mm": [
+        -0.6336150080362858,
+        0.17062355779042881,
+        -1.5978403967056298
+      ],
+      "normal_deg": 0.5331156837227603,
+      "band_margin_mm": -0.449334535078267,
+      "band_contained": false,
+      "diameter_mm": 2.9139436827323313
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_002",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007645983118756231,
+          -0.004390649841994506,
+          0.6058053959182533
+        ],
+        "normal": [
+          -0.12806054940161132,
+          -0.0622013404336924,
+          0.9898138658026616
+        ],
+        "radius_m": 0.06060147120480519
+      },
+      "center_mm": 0.9113912626598875,
+      "axial_mm": -0.03886772827354958,
+      "tangent_mm": 0.910562097471467,
+      "xyz_mm": [
+        -0.7861906484562176,
+        -0.4298576195384896,
+        -0.16661550005170334
+      ],
+      "normal_deg": 0.14079670127506566,
+      "band_margin_mm": 1.4122169549007375,
+      "band_contained": true,
+      "diameter_mm": 8.425654910066942
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_002",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007645983118756231,
+          -0.004390649841994506,
+          0.6058053959182533
+        ],
+        "normal": [
+          -0.12806054940161132,
+          -0.0622013404336924,
+          0.9898138658026616
+        ],
+        "radius_m": 0.057845615591137885
+      },
+      "center_mm": 0.9113912626598875,
+      "axial_mm": -0.03886772827354958,
+      "tangent_mm": 0.910562097471467,
+      "xyz_mm": [
+        -0.7861906484562176,
+        -0.4298576195384896,
+        -0.16661550005170334
+      ],
+      "normal_deg": 0.14079670127506566,
+      "band_margin_mm": 1.4189890940072758,
+      "band_contained": true,
+      "diameter_mm": 2.9139436827323313,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old12",
+      "condition": "shared_noise",
+      "case": "structural_test_stress_002",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.007645983118756231,
+          -0.004390649841994506,
+          0.6058053959182533
+        ],
+        "normal": [
+          -0.12806054940161132,
+          -0.0622013404336924,
+          0.9898138658026616
+        ],
+        "radius_m": 0.057977996898109084
+      },
+      "center_mm": 0.9113912626598875,
+      "axial_mm": -0.03886772827354958,
+      "tangent_mm": 0.910562097471467,
+      "xyz_mm": [
+        -0.7861906484562176,
+        -0.4298576195384896,
+        -0.16661550005170334
+      ],
+      "normal_deg": 0.14079670127506566,
+      "band_margin_mm": 1.418663785010147,
+      "band_contained": true,
+      "diameter_mm": 3.1787062966747297,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 75,
+        "robust_scale_m": 0.0013479812634008645
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_002",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0019742978716823733,
+          0.0032530667695542187,
+          0.5970507505142555
+        ],
+        "normal": [
+          0.0051187285459218775,
+          0.0018166937303577449,
+          0.9999852490121858
+        ],
+        "radius_m": 0.05591942615688912
+      },
+      "center_mm": 0.4327264127256415,
+      "axial_mm": -0.4274840911818735,
+      "tangent_mm": 0.06715281123534524,
+      "xyz_mm": [
+        0.05716039329967852,
+        0.0337258468108767,
+        -0.42760660070340073
+      ],
+      "normal_deg": 0.3470351299698869,
+      "band_margin_mm": 2.1013173003598054,
+      "band_contained": true,
+      "diameter_mm": 0.6724978878514809
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_002",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.001937921941645414,
+          0.0030229085025655004,
+          0.5972597105256017
+        ],
+        "normal": [
+          0.0013151379925133572,
+          -0.003962229311150168,
+          0.9999912855375024
+        ],
+        "radius_m": 0.05780888585276549
+      },
+      "center_mm": 0.30844946185364686,
+      "axial_mm": -0.21739667908813398,
+      "tangent_mm": 0.21881442923001052,
+      "xyz_mm": [
+        0.0935363233366378,
+        -0.1964324201778416,
+        -0.2186465893572187
+      ],
+      "normal_deg": 0.18210286182615532,
+      "band_margin_mm": 2.46634803520753,
+      "band_contained": true,
+      "diameter_mm": 3.1064215039012524
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_002",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.001937921941645414,
+          0.0030229085025655004,
+          0.5972597105256017
+        ],
+        "normal": [
+          0.0013151379925133572,
+          -0.003962229311150168,
+          0.9999912855375024
+        ],
+        "radius_m": 0.05591942615688912
+      },
+      "center_mm": 0.30844946185364686,
+      "axial_mm": -0.21739667908813398,
+      "tangent_mm": 0.21881442923001052,
+      "xyz_mm": [
+        0.0935363233366378,
+        -0.1964324201778416,
+        -0.2186465893572187
+      ],
+      "normal_deg": 0.18210286182615532,
+      "band_margin_mm": 2.472353284487054,
+      "band_contained": true,
+      "diameter_mm": 0.6724978878514809,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_002",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.001937921941645414,
+          0.0030229085025655004,
+          0.5972597105256017
+        ],
+        "normal": [
+          0.0013151379925133572,
+          -0.003962229311150168,
+          0.9999912855375024
+        ],
+        "radius_m": 0.05595962297831172
+      },
+      "center_mm": 0.30844946185364686,
+      "axial_mm": -0.21739667908813398,
+      "tangent_mm": 0.21881442923001052,
+      "xyz_mm": [
+        0.0935363233366378,
+        -0.1964324201778416,
+        -0.2186465893572187
+      ],
+      "normal_deg": 0.18210286182615532,
+      "band_margin_mm": 2.47222552736505,
+      "band_contained": true,
+      "diameter_mm": 0.5921042450062891,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 198,
+        "robust_scale_m": 0.0006123486926781967
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0032286297274753874,
+          0.0025873839197332145,
+          0.6357650180179061
+        ],
+        "normal": [
+          -0.06749817585564999,
+          -0.06529843798102163,
+          0.9955802882005039
+        ],
+        "radius_m": 0.05073018561671145
+      },
+      "center_mm": 0.6021709105538672,
+      "axial_mm": -0.49062556195706286,
+      "tangent_mm": 0.3491365971530194,
+      "xyz_mm": [
+        -0.15116218290461533,
+        -0.27088650302921996,
+        -0.5161204340591308
+      ],
+      "normal_deg": 0.7610755076305125,
+      "band_margin_mm": 1.6417836907755228,
+      "band_contained": true,
+      "diameter_mm": 0.7118088855435079
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002826359081517216,
+          0.0023598224303854947,
+          0.6354176449122111
+        ],
+        "normal": [
+          -0.05932965496018148,
+          -0.05005990941621911,
+          0.9969824459395188
+        ],
+        "radius_m": 0.05268514013135701
+      },
+      "center_mm": 1.14033301730888,
+      "axial_mm": -0.8002851226566522,
+      "tangent_mm": 0.8123442083373288,
+      "xyz_mm": [
+        -0.553432828862787,
+        -0.4984479923769397,
+        -0.8634935397541232
+      ],
+      "normal_deg": 0.24541081374380894,
+      "band_margin_mm": 1.7801869595205937,
+      "band_contained": true,
+      "diameter_mm": 3.1981001437476064
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002826359081517216,
+          0.0023598224303854947,
+          0.6354176449122111
+        ],
+        "normal": [
+          -0.05932965496018148,
+          -0.05005990941621911,
+          0.9969824459395188
+        ],
+        "radius_m": 0.05073018561671145
+      },
+      "center_mm": 1.14033301730888,
+      "axial_mm": -0.8002851226566522,
+      "tangent_mm": 0.8123442083373288,
+      "xyz_mm": [
+        -0.553432828862787,
+        -0.4984479923769397,
+        -0.8634935397541232
+      ],
+      "normal_deg": 0.24541081374380894,
+      "band_margin_mm": 1.788560447330339,
+      "band_contained": true,
+      "diameter_mm": 0.7118088855435079,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002826359081517216,
+          0.0023598224303854947,
+          0.6354176449122111
+        ],
+        "normal": [
+          -0.05932965496018148,
+          -0.05005990941621911,
+          0.9969824459395188
+        ],
+        "radius_m": 0.051338714969516995
+      },
+      "center_mm": 1.14033301730888,
+      "axial_mm": -0.8002851226566522,
+      "tangent_mm": 0.8123442083373288,
+      "xyz_mm": [
+        -0.553432828862787,
+        -0.4984479923769397,
+        -0.8634935397541232
+      ],
+      "normal_deg": 0.24541081374380894,
+      "band_margin_mm": 1.7859539861163227,
+      "band_contained": true,
+      "diameter_mm": 0.5052498200675826,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 239,
+        "robust_scale_m": 0.0010733559438604481
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_005",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0015245099398333403,
+          -0.0033338614980316455,
+          0.5638664718322451
+        ],
+        "normal": [
+          0.0100522429452754,
+          0.02778737089001143,
+          0.9995633118671323
+        ],
+        "radius_m": 0.054957726803655634
+      },
+      "center_mm": 2.9413322039294942,
+      "axial_mm": -2.4271644616672736,
+      "tangent_mm": 1.661417409891972,
+      "xyz_mm": [
+        -0.7972885597381753,
+        -1.6519359130493747,
+        -2.2993202964269877
+      ],
+      "normal_deg": 2.5048956558355866,
+      "band_margin_mm": -1.5374886471468439,
+      "band_contained": false,
+      "diameter_mm": 1.8611320771044353
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_005",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00042518483787518156,
+          -0.0011125786999924747,
+          0.5635662852167009
+        ],
+        "normal": [
+          0.027158297012292148,
+          0.05642716303530978,
+          0.9980372749427642
+        ],
+        "radius_m": 0.057293889629336014
+      },
+      "center_mm": 2.678211741754151,
+      "axial_mm": -2.54557136173207,
+      "tangent_mm": 0.8323968861062236,
+      "xyz_mm": [
+        0.30203654221998355,
+        0.5693468849897959,
+        -2.5995069119711944
+      ],
+      "normal_deg": 0.6181320072764798,
+      "band_margin_mm": 0.1265726291317963,
+      "band_contained": true,
+      "diameter_mm": 2.8111935742563263
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_005",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00042518483787518156,
+          -0.0011125786999924747,
+          0.5635662852167009
+        ],
+        "normal": [
+          0.027158297012292148,
+          0.05642716303530978,
+          0.9980372749427642
+        ],
+        "radius_m": 0.054957726803655634
+      },
+      "center_mm": 2.678211741754151,
+      "axial_mm": -2.54557136173207,
+      "tangent_mm": 0.8323968861062236,
+      "xyz_mm": [
+        0.30203654221998355,
+        0.5693468849897959,
+        -2.5995069119711944
+      ],
+      "normal_deg": 0.6181320072764798,
+      "band_margin_mm": 0.1517756897550952,
+      "band_contained": true,
+      "diameter_mm": 1.8611320771044353,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "clean",
+      "case": "confirmation_nominal_005",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00042518483787518156,
+          -0.0011125786999924747,
+          0.5635662852167009
+        ],
+        "normal": [
+          0.027158297012292148,
+          0.05642716303530978,
+          0.9980372749427642
+        ],
+        "radius_m": 0.05601715096606399
+      },
+      "center_mm": 2.678211741754151,
+      "axial_mm": -2.54557136173207,
+      "tangent_mm": 0.8323968861062236,
+      "xyz_mm": [
+        0.30203654221998355,
+        0.5693468849897959,
+        -2.5995069119711944
+      ],
+      "normal_deg": 0.6181320072764798,
+      "band_margin_mm": 0.14034637879378015,
+      "band_contained": true,
+      "diameter_mm": 0.2577162477122724,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 120,
+        "robust_scale_m": 0.0009357259856858648
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_002",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.001988751273547842,
+          0.0031972528597313797,
+          0.5969054559569238
+        ],
+        "normal": [
+          0.00408010776322537,
+          -0.0007719123139233142,
+          0.9999913783988441
+        ],
+        "radius_m": 0.05577516027928253
+      },
+      "center_mm": 0.5749152168128273,
+      "axial_mm": -0.572605910266899,
+      "tangent_mm": 0.051477937510707575,
+      "xyz_mm": [
+        0.0427069914342099,
+        -0.02208806301196237,
+        -0.5729011580350996
+      ],
+      "normal_deg": 0.1981641724088157,
+      "band_margin_mm": 2.101969007063788,
+      "band_contained": true,
+      "diameter_mm": 0.9610296430646592
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_002",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002013762486535588,
+          0.002973734605193585,
+          0.597288812415317
+        ],
+        "normal": [
+          0.0003655694652300578,
+          -0.0011298266302096625,
+          0.9999992949251274
+        ],
+        "radius_m": 0.057830149859547264
+      },
+      "center_mm": 0.31074555018138594,
+      "axial_mm": -0.18842854026713082,
+      "tangent_mm": 0.24709812255525238,
+      "xyz_mm": [
+        0.017695778446463837,
+        -0.2456063175497571,
+        -0.18954469964194143
+      ],
+      "normal_deg": 0.2945572961380299,
+      "band_margin_mm": 2.3817585941368367,
+      "band_contained": true,
+      "diameter_mm": 3.1489495174648052
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_002",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002013762486535588,
+          0.002973734605193585,
+          0.597288812415317
+        ],
+        "normal": [
+          0.0003655694652300578,
+          -0.0011298266302096625,
+          0.9999992949251274
+        ],
+        "radius_m": 0.05577516027928253
+      },
+      "center_mm": 0.31074555018138594,
+      "axial_mm": -0.18842854026713082,
+      "tangent_mm": 0.24709812255525238,
+      "xyz_mm": [
+        0.017695778446463837,
+        -0.2456063175497571,
+        -0.18954469964194143
+      ],
+      "normal_deg": 0.2945572961380299,
+      "band_margin_mm": 2.392323238044637,
+      "band_contained": true,
+      "diameter_mm": 0.9610296430646592,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_002",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002013762486535588,
+          0.002973734605193585,
+          0.597288812415317
+        ],
+        "normal": [
+          0.0003655694652300578,
+          -0.0011298266302096625,
+          0.9999992949251274
+        ],
+        "radius_m": 0.05584276803003582
+      },
+      "center_mm": 0.31074555018138594,
+      "axial_mm": -0.18842854026713082,
+      "tangent_mm": 0.24709812255525238,
+      "xyz_mm": [
+        0.017695778446463837,
+        -0.2456063175497571,
+        -0.18954469964194143
+      ],
+      "normal_deg": 0.2945572961380299,
+      "band_margin_mm": 2.391975668490526,
+      "band_contained": true,
+      "diameter_mm": 0.8258141415580789,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 151,
+        "robust_scale_m": 0.0005953467381047489
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0033111166307731024,
+          0.0026828854849995252,
+          0.6357232754003865
+        ],
+        "normal": [
+          -0.06509752841701986,
+          -0.0628573328453798,
+          0.9958972173379943
+        ],
+        "radius_m": 0.05089082163582936
+      },
+      "center_mm": 0.5888016259657065,
+      "axial_mm": -0.542378775014625,
+      "tangent_mm": 0.22915632034376582,
+      "xyz_mm": [
+        -0.06867527960690038,
+        -0.1753849377629092,
+        -0.5578630515786775
+      ],
+      "normal_deg": 0.5690752955742028,
+      "band_margin_mm": 1.7583638223892588,
+      "band_contained": true,
+      "diameter_mm": 0.3905368473076931
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0029244618251176666,
+          0.0024346859320254835,
+          0.6355136818483531
+        ],
+        "normal": [
+          -0.06318559184067128,
+          -0.05336952383001844,
+          0.9965737679218238
+        ],
+        "radius_m": 0.05263832760983759
+      },
+      "center_mm": 0.9877949917699093,
+      "axial_mm": -0.7145332075945403,
+      "tangent_mm": 0.6820419642590717,
+      "xyz_mm": [
+        -0.45533008526233615,
+        -0.4235844907369509,
+        -0.7674566036121044
+      ],
+      "normal_deg": 0.17679951057930035,
+      "band_margin_mm": 1.9291663692371628,
+      "band_contained": true,
+      "diameter_mm": 3.10447510070877
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0029244618251176666,
+          0.0024346859320254835,
+          0.6355136818483531
+        ],
+        "normal": [
+          -0.06318559184067128,
+          -0.05336952383001844,
+          0.9965737679218238
+        ],
+        "radius_m": 0.05089082163582936
+      },
+      "center_mm": 0.9877949917699093,
+      "axial_mm": -0.7145332075945403,
+      "tangent_mm": 0.6820419642590717,
+      "xyz_mm": [
+        -0.45533008526233615,
+        -0.4235844907369509,
+        -0.7674566036121044
+      ],
+      "normal_deg": 0.17679951057930035,
+      "band_margin_mm": 1.9345586985371745,
+      "band_contained": true,
+      "diameter_mm": 0.3905368473076931,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0029244618251176666,
+          0.0024346859320254835,
+          0.6355136818483531
+        ],
+        "normal": [
+          -0.06318559184067128,
+          -0.05336952383001844,
+          0.9965737679218238
+        ],
+        "radius_m": 0.05133655362137325
+      },
+      "center_mm": 0.9877949917699093,
+      "axial_mm": -0.7145332075945403,
+      "tangent_mm": 0.6820419642590717,
+      "xyz_mm": [
+        -0.45533008526233615,
+        -0.4235844907369509,
+        -0.7674566036121044
+      ],
+      "normal_deg": 0.17679951057930035,
+      "band_margin_mm": 1.933183290566415,
+      "band_contained": true,
+      "diameter_mm": 0.5009271237800955,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 245,
+        "robust_scale_m": 0.000886521788824526
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_005",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0013996972044406294,
+          -0.0031997121195651143,
+          0.563800197367584
+        ],
+        "normal": [
+          0.011857073150246155,
+          0.028375338331984513,
+          0.9995270131371413
+        ],
+        "radius_m": 0.055092710930580525
+      },
+      "center_mm": 2.8899720193416427,
+      "axial_mm": -2.480620905932057,
+      "tangent_mm": 1.482719863504375,
+      "xyz_mm": [
+        -0.6724758243454644,
+        -1.5177865345828436,
+        -2.365594761088108
+      ],
+      "normal_deg": 2.430320252404393,
+      "band_margin_mm": -1.5252871767004939,
+      "band_contained": false,
+      "diameter_mm": 1.5911638232546514
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_005",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00047133298208219517,
+          -0.0011969375000334564,
+          0.5636346038524179
+        ],
+        "normal": [
+          0.02747945325842024,
+          0.05936184380944266,
+          0.9978582319889744
+        ],
+        "radius_m": 0.05723606957918993
+      },
+      "center_mm": 2.5899047095649466,
+      "axial_mm": -2.484437378862835,
+      "tangent_mm": 0.7315581420063996,
+      "xyz_mm": [
+        0.2558883980129699,
+        0.48498808494881424,
+        -2.5311882762542037
+      ],
+      "normal_deg": 0.44961685926258116,
+      "band_margin_mm": 0.35662144482475583,
+      "band_contained": true,
+      "diameter_mm": 2.695553473964163
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_005",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00047133298208219517,
+          -0.0011969375000334564,
+          0.5636346038524179
+        ],
+        "normal": [
+          0.02747945325842024,
+          0.05936184380944266,
+          0.9978582319889744
+        ],
+        "radius_m": 0.055092710930580525
+      },
+      "center_mm": 2.5899047095649466,
+      "axial_mm": -2.484437378862835,
+      "tangent_mm": 0.7315581420063996,
+      "xyz_mm": [
+        0.2558883980129699,
+        0.48498808494881424,
+        -2.5311882762542037
+      ],
+      "normal_deg": 0.44961685926258116,
+      "band_margin_mm": 0.37344083887790314,
+      "band_contained": true,
+      "diameter_mm": 1.5911638232546514,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "old8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_005",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.00047133298208219517,
+          -0.0011969375000334564,
+          0.5636346038524179
+        ],
+        "normal": [
+          0.02747945325842024,
+          0.05936184380944266,
+          0.9978582319889744
+        ],
+        "radius_m": 0.05592837702900224
+      },
+      "center_mm": 2.5899047095649466,
+      "axial_mm": -2.484437378862835,
+      "tangent_mm": 0.7315581420063996,
+      "xyz_mm": [
+        0.2558883980129699,
+        0.48498808494881424,
+        -2.5311882762542037
+      ],
+      "normal_deg": 0.44961685926258116,
+      "band_margin_mm": 0.36688318814813375,
+      "band_contained": true,
+      "diameter_mm": 0.08016837358877649,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 118,
+        "robust_scale_m": 0.0007645396941949619
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.00220317055382722,
+          -0.002906222225675216,
+          0.6124919912829866
+        ],
+        "normal": [
+          0.04941131938526059,
+          -0.012988334591434595,
+          0.9986940596004107
+        ],
+        "radius_m": 0.055613653304492604
+      },
+      "center_mm": 1.605579329718489,
+      "axial_mm": -1.5686140254555203,
+      "tangent_mm": 0.3425420020428162,
+      "xyz_mm": [
+        0.19666153328719163,
+        -0.21279641687800294,
+        -1.5792171827548884
+      ],
+      "normal_deg": 0.6516512258198236,
+      "band_margin_mm": 0.6696000128646075,
+      "band_contained": true,
+      "diameter_mm": 0.5585972874239536
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002014954860403058,
+          -0.00266555940037324,
+          0.6128756783744288
+        ],
+        "normal": [
+          0.041620835451137525,
+          -0.015620023768783664,
+          0.9990113717640114
+        ],
+        "radius_m": 0.05766034210777604
+      },
+      "center_mm": 1.195884638317404,
+      "axial_mm": -1.194421726182603,
+      "tangent_mm": 0.059133815930644616,
+      "xyz_mm": [
+        0.008445839863029537,
+        0.027866408423973116,
+        -1.1955300913126798
+      ],
+      "normal_deg": 0.49935575438784985,
+      "band_margin_mm": 1.173731557736598,
+      "band_contained": true,
+      "diameter_mm": 3.5347803191429215
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002014954860403058,
+          -0.00266555940037324,
+          0.6128756783744288
+        ],
+        "normal": [
+          0.041620835451137525,
+          -0.015620023768783664,
+          0.9990113717640114
+        ],
+        "radius_m": 0.055613653304492604
+      },
+      "center_mm": 1.195884638317404,
+      "axial_mm": -1.194421726182603,
+      "tangent_mm": 0.059133815930644616,
+      "xyz_mm": [
+        0.008445839863029537,
+        0.027866408423973116,
+        -1.1955300913126798
+      ],
+      "normal_deg": 0.49935575438784985,
+      "band_margin_mm": 1.1915690477149048,
+      "band_contained": true,
+      "diameter_mm": 0.5585972874239536,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.002014954860403058,
+          -0.00266555940037324,
+          0.6128756783744288
+        ],
+        "normal": [
+          0.041620835451137525,
+          -0.015620023768783664,
+          0.9990113717640114
+        ],
+        "radius_m": 0.055755860239562714
+      },
+      "center_mm": 1.195884638317404,
+      "axial_mm": -1.194421726182603,
+      "tangent_mm": 0.059133815930644616,
+      "xyz_mm": [
+        0.008445839863029537,
+        0.027866408423973116,
+        -1.1955300913126798
+      ],
+      "normal_deg": 0.49935575438784985,
+      "band_margin_mm": 1.1903296727913264,
+      "band_contained": true,
+      "diameter_mm": 0.27418341728373263,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 162,
+        "robust_scale_m": 0.0007198780566094839
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_001",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.00575790948799288,
+          0.0024667837100931117,
+          0.569510321828332
+        ],
+        "normal": [
+          0.013532746431466467,
+          0.028042577736559632,
+          0.999515121750497
+        ],
+        "radius_m": 0.057545514762967896
+      },
+      "center_mm": 2.4062348518875636,
+      "axial_mm": -2.245354358659647,
+      "tangent_mm": 0.8650722319474199,
+      "xyz_mm": [
+        0.8517299819596177,
+        0.17564855926953177,
+        -2.243584137913257
+      ],
+      "normal_deg": 1.244185054882594,
+      "band_margin_mm": -0.9605419897098443,
+      "band_contained": false,
+      "diameter_mm": 1.498774667811023
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_001",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.004142356549653357,
+          0.0024643206351193927,
+          0.5695762013316241
+        ],
+        "normal": [
+          0.00541944421105123,
+          0.02169786302300565,
+          0.9997498849035582
+        ],
+        "radius_m": 0.06141164112110808
+      },
+      "center_mm": 2.3142636401918097,
+      "axial_mm": -2.167395756366203,
+      "tangent_mm": 0.8113025524424425,
+      "xyz_mm": [
+        -0.7638229563799049,
+        0.17318548429581282,
+        -2.1777046346210804
+      ],
+      "normal_deg": 0.7439531195397688,
+      "band_margin_mm": -0.43067354355758697,
+      "band_contained": false,
+      "diameter_mm": 9.231027384091387
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.004142356549653357,
+          0.0024643206351193927,
+          0.5695762013316241
+        ],
+        "normal": [
+          0.00541944421105123,
+          0.02169786302300565,
+          0.9997498849035582
+        ],
+        "radius_m": 0.057545514762967896
+      },
+      "center_mm": 2.3142636401918097,
+      "axial_mm": -2.167395756366203,
+      "tangent_mm": 0.8113025524424425,
+      "xyz_mm": [
+        -0.7638229563799049,
+        0.17318548429581282,
+        -2.1777046346210804
+      ],
+      "normal_deg": 0.7439531195397688,
+      "band_margin_mm": -0.3804755015677137,
+      "band_contained": false,
+      "diameter_mm": 1.498774667811023,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.004142356549653357,
+          0.0024643206351193927,
+          0.5695762013316241
+        ],
+        "normal": [
+          0.00541944421105123,
+          0.02169786302300565,
+          0.9997498849035582
+        ],
+        "radius_m": 0.058533287891506726
+      },
+      "center_mm": 2.3142636401918097,
+      "axial_mm": -2.167395756366203,
+      "tangent_mm": 0.8113025524424425,
+      "xyz_mm": [
+        -0.7638229563799049,
+        0.17318548429581282,
+        -2.1777046346210804
+      ],
+      "normal_deg": 0.7439531195397688,
+      "band_margin_mm": -0.39330081362158914,
+      "band_contained": false,
+      "diameter_mm": 3.4743209248886826,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 89,
+        "robust_scale_m": 0.0007659016882617058
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_003",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0018286887918841116,
+          0.003523561008248576,
+          0.5800936203513501
+        ],
+        "normal": [
+          -0.07418217160336513,
+          0.009131597825625358,
+          0.9972028977782604
+        ],
+        "radius_m": 0.05497495524574846
+      },
+      "center_mm": 1.0602108876436414,
+      "axial_mm": -1.0534305708301193,
+      "tangent_mm": 0.11971281768735986,
+      "xyz_mm": [
+        -0.0202612400445805,
+        0.06771728961400435,
+        -1.0578520582374962
+      ],
+      "normal_deg": 0.308037909059815,
+      "band_margin_mm": 1.9133267091567554,
+      "band_contained": true,
+      "diameter_mm": 0.49081546061185977
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_003",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002081671847473118,
+          0.0033135222367608086,
+          0.5800557811620665
+        ],
+        "normal": [
+          -0.06826090079442083,
+          0.010169137047376996,
+          0.9976156765380374
+        ],
+        "radius_m": 0.05716459972367928
+      },
+      "center_mm": 1.138181514167911,
+      "axial_mm": -1.0746902834333594,
+      "tangent_mm": 0.3748305669065487,
+      "xyz_mm": [
+        -0.2732442956335868,
+        -0.14232148187376306,
+        -1.09569124752118
+      ],
+      "normal_deg": 0.2692511876086362,
+      "band_margin_mm": 1.9189872319654555,
+      "band_contained": true,
+      "diameter_mm": 3.8884734952497753
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_003",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002081671847473118,
+          0.0033135222367608086,
+          0.5800557811620665
+        ],
+        "normal": [
+          -0.06826090079442083,
+          0.010169137047376996,
+          0.9976156765380374
+        ],
+        "radius_m": 0.05497495524574846
+      },
+      "center_mm": 1.138181514167911,
+      "axial_mm": -1.0746902834333594,
+      "tangent_mm": 0.3748305669065487,
+      "xyz_mm": [
+        -0.2732442956335868,
+        -0.14232148187376306,
+        -1.09569124752118
+      ],
+      "normal_deg": 0.2692511876086362,
+      "band_margin_mm": 1.929277033608526,
+      "band_contained": true,
+      "diameter_mm": 0.49081546061185977,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_003",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002081671847473118,
+          0.0033135222367608086,
+          0.5800557811620665
+        ],
+        "normal": [
+          -0.06826090079442083,
+          0.010169137047376996,
+          0.9976156765380374
+        ],
+        "radius_m": 0.055204214756200076
+      },
+      "center_mm": 1.138181514167911,
+      "axial_mm": -1.0746902834333594,
+      "tangent_mm": 0.3748305669065487,
+      "xyz_mm": [
+        -0.2732442956335868,
+        -0.14232148187376306,
+        -1.09569124752118
+      ],
+      "normal_deg": 0.2692511876086362,
+      "band_margin_mm": 1.9281996738311236,
+      "band_contained": true,
+      "diameter_mm": 0.03229643970863172,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 168,
+        "robust_scale_m": 0.0006714527590007368
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0007519273925620566,
+          -0.0038540038561602616,
+          0.5838771763491869
+        ],
+        "normal": [
+          0.010365994298757711,
+          -0.0636820958118642,
+          0.9979163977183694
+        ],
+        "radius_m": 0.05232138392327047
+      },
+      "center_mm": 2.162165988879383,
+      "axial_mm": -2.155353827682742,
+      "tangent_mm": 0.17149822436431453,
+      "xyz_mm": [
+        -0.18345758677521656,
+        0.06817583349607009,
+        -2.153289839535888
+      ],
+      "normal_deg": 0.31051825036829717,
+      "band_margin_mm": 0.7370897844226924,
+      "band_contained": true,
+      "diameter_mm": 0.6382829326033179
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009638294286095804,
+          -0.004078442963872284,
+          0.5839636156548845
+        ],
+        "normal": [
+          0.011777888396805125,
+          -0.05046771397321639,
+          0.9986562427538468
+        ],
+        "radius_m": 0.05560982643819167
+      },
+      "center_mm": 2.072944385841211,
+      "axial_mm": -2.0538359951160565,
+      "tangent_mm": 0.28081334006103925,
+      "xyz_mm": [
+        0.028444449272307156,
+        -0.15626327421595226,
+        -2.0668505338382603
+      ],
+      "normal_deg": 0.45769596336114843,
+      "band_margin_mm": 0.6779679082547095,
+      "band_contained": true,
+      "diameter_mm": 5.938602097239079
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009638294286095804,
+          -0.004078442963872284,
+          0.5839636156548845
+        ],
+        "normal": [
+          0.011777888396805125,
+          -0.05046771397321639,
+          0.9986562427538468
+        ],
+        "radius_m": 0.05232138392327047
+      },
+      "center_mm": 2.072944385841211,
+      "axial_mm": -2.0538359951160565,
+      "tangent_mm": 0.28081334006103925,
+      "xyz_mm": [
+        0.028444449272307156,
+        -0.15626327421595226,
+        -2.0668505338382603
+      ],
+      "normal_deg": 0.45769596336114843,
+      "band_margin_mm": 0.7042366992566307,
+      "band_contained": true,
+      "diameter_mm": 0.6382829326033179,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "clean",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009638294286095804,
+          -0.004078442963872284,
+          0.5839636156548845
+        ],
+        "normal": [
+          0.011777888396805125,
+          -0.05046771397321639,
+          0.9986562427538468
+        ],
+        "radius_m": 0.05261055654914587
+      },
+      "center_mm": 2.072944385841211,
+      "axial_mm": -2.0538359951160565,
+      "tangent_mm": 0.28081334006103925,
+      "xyz_mm": [
+        0.028444449272307156,
+        -0.15626327421595226,
+        -2.0668505338382603
+      ],
+      "normal_deg": 0.45769596336114843,
+      "band_margin_mm": 0.7019267256937267,
+      "band_contained": true,
+      "diameter_mm": 0.059937680852523156,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 138,
+        "robust_scale_m": 0.001013074548932994
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_000",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0023605614024938435,
+          -0.002884459938043222,
+          0.6126043317109281
+        ],
+        "normal": [
+          0.05215932982556558,
+          -0.013182719405050546,
+          0.9985517614131156
+        ],
+        "radius_m": 0.055632572228845274
+      },
+      "center_mm": 1.5210438986156174,
+      "axial_mm": -1.4502750744804602,
+      "tangent_mm": 0.4585594289255123,
+      "xyz_mm": [
+        0.35405238195381505,
+        -0.19103412924600893,
+        -1.4668767548133843
+      ],
+      "normal_deg": 0.7957354436871084,
+      "band_margin_mm": 0.6478809577387773,
+      "band_contained": true,
+      "diameter_mm": 0.5207594387186126
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_000",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.001962030954799368,
+          -0.0026891948911077655,
+          0.6128010847462892
+        ],
+        "normal": [
+          0.03980415787581853,
+          -0.015310341392007178,
+          0.9990901973607073
+        ],
+        "radius_m": 0.05761196120513834
+      },
+      "center_mm": 1.2709093050692866,
+      "axial_mm": -1.2708861982620692,
+      "tangent_mm": 0.007663731381122042,
+      "xyz_mm": [
+        -0.04447806574066045,
+        0.004230917689447469,
+        -1.270123719452232
+      ],
+      "normal_deg": 0.4690280882660549,
+      "band_margin_mm": 1.128175967139659,
+      "band_contained": true,
+      "diameter_mm": 3.4380185138675188
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_000",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.001962030954799368,
+          -0.0026891948911077655,
+          0.6128010847462892
+        ],
+        "normal": [
+          0.03980415787581853,
+          -0.015310341392007178,
+          0.9990901973607073
+        ],
+        "radius_m": 0.055632572228845274
+      },
+      "center_mm": 1.2709093050692866,
+      "axial_mm": -1.2708861982620692,
+      "tangent_mm": 0.007663731381122042,
+      "xyz_mm": [
+        -0.04447806574066045,
+        0.004230917689447469,
+        -1.270123719452232
+      ],
+      "normal_deg": 0.4690280882660549,
+      "band_margin_mm": 1.1443792314384575,
+      "band_contained": true,
+      "diameter_mm": 0.5207594387186126,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_000",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.001962030954799368,
+          -0.0026891948911077655,
+          0.6128010847462892
+        ],
+        "normal": [
+          0.03980415787581853,
+          -0.015310341392007178,
+          0.9990901973607073
+        ],
+        "radius_m": 0.05579892693507991
+      },
+      "center_mm": 1.2709093050692866,
+      "axial_mm": -1.2708861982620692,
+      "tangent_mm": 0.007663731381122042,
+      "xyz_mm": [
+        -0.04447806574066045,
+        0.004230917689447469,
+        -1.270123719452232
+      ],
+      "normal_deg": 0.4690280882660549,
+      "band_margin_mm": 1.143017452978159,
+      "band_contained": true,
+      "diameter_mm": 0.18805002624934508,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 154,
+        "robust_scale_m": 0.000573697566570493
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_001",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.005471135344409292,
+          0.00260056980137444,
+          0.5694707853169451
+        ],
+        "normal": [
+          0.010895902941332651,
+          0.03061100872796203,
+          0.9994719833210682
+        ],
+        "radius_m": 0.05774516401012428
+      },
+      "center_mm": 2.372248891144728,
+      "axial_mm": -2.2796800743672843,
+      "tangent_mm": 0.6562191402802627,
+      "xyz_mm": [
+        0.5649558383760298,
+        0.30943465055086006,
+        -2.283120649300141
+      ],
+      "normal_deg": 1.147801248180758,
+      "band_margin_mm": -0.9021368470797789,
+      "band_contained": false,
+      "diameter_mm": 1.8980731621237867
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_001",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.00412196182074377,
+          0.002350474854441408,
+          0.569634628801897
+        ],
+        "normal": [
+          0.0059663229446236385,
+          0.022045164057334265,
+          0.9997391728507019
+        ],
+        "radius_m": 0.06151927206872285
+      },
+      "center_mm": 2.2604986789808446,
+      "axial_mm": -2.1114202304734495,
+      "tangent_mm": 0.8073158539392065,
+      "xyz_mm": [
+        -0.7842176852894921,
+        0.059339703617827894,
+        -2.119277164348232
+      ],
+      "normal_deg": 0.7739141099995029,
+      "band_margin_mm": -0.40825182357866013,
+      "band_contained": false,
+      "diameter_mm": 9.446289279320924
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.00412196182074377,
+          0.002350474854441408,
+          0.569634628801897
+        ],
+        "normal": [
+          0.0059663229446236385,
+          0.022045164057334265,
+          0.9997391728507019
+        ],
+        "radius_m": 0.05774516401012428
+      },
+      "center_mm": 2.2604986789808446,
+      "axial_mm": -2.1114202304734495,
+      "tangent_mm": 0.8073158539392065,
+      "xyz_mm": [
+        -0.7842176852894921,
+        0.059339703617827894,
+        -2.119277164348232
+      ],
+      "normal_deg": 0.7739141099995029,
+      "band_margin_mm": -0.3572751776923158,
+      "band_contained": false,
+      "diameter_mm": 1.8980731621237867,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_001",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.00412196182074377,
+          0.002350474854441408,
+          0.569634628801897
+        ],
+        "normal": [
+          0.0059663229446236385,
+          0.022045164057334265,
+          0.9997391728507019
+        ],
+        "radius_m": 0.058490645114905086
+      },
+      "center_mm": 2.2604986789808446,
+      "axial_mm": -2.1114202304734495,
+      "tangent_mm": 0.8073158539392065,
+      "xyz_mm": [
+        -0.7842176852894921,
+        0.059339703617827894,
+        -2.119277164348232
+      ],
+      "normal_deg": 0.7739141099995029,
+      "band_margin_mm": -0.3673443452156971,
+      "band_contained": false,
+      "diameter_mm": 3.389035371685403,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 98,
+        "robust_scale_m": 0.0009493587786511985
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_003",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.0017117882471241663,
+          0.003490382196125973,
+          0.579923622385552
+        ],
+        "normal": [
+          -0.07553858108763903,
+          0.00921121330576679,
+          0.9971003341272641
+        ],
+        "radius_m": 0.05499333600311558
+      },
+      "center_mm": 1.2321313822672257,
+      "axial_mm": -1.2313817716414837,
+      "tangent_mm": 0.04297296402187318,
+      "xyz_mm": [
+        0.09663930471536485,
+        0.03453847749140121,
+        -1.2278500240356927
+      ],
+      "normal_deg": 0.37467638187821456,
+      "band_margin_mm": 1.6713276303102758,
+      "band_contained": true,
+      "diameter_mm": 0.45405394587762216
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_003",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002086321769376782,
+          0.003341601454079776,
+          0.5801724832721072
+        ],
+        "normal": [
+          -0.0672585183880536,
+          0.010879126035641744,
+          0.997676268295956
+        ],
+        "radius_m": 0.0572326628573264
+      },
+      "center_mm": 1.0240587006885247,
+      "axial_mm": -0.9577880967596151,
+      "tangent_mm": 0.36240610392412476,
+      "xyz_mm": [
+        -0.2778942175372507,
+        -0.11424226455479568,
+        -0.9789891374804016
+      ],
+      "normal_deg": 0.3304340282997608,
+      "band_margin_mm": 1.9744633494678905,
+      "band_contained": true,
+      "diameter_mm": 4.0245997625440175
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_003",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002086321769376782,
+          0.003341601454079776,
+          0.5801724832721072
+        ],
+        "normal": [
+          -0.0672585183880536,
+          0.010879126035641744,
+          0.997676268295956
+        ],
+        "radius_m": 0.05499333600311558
+      },
+      "center_mm": 1.0240587006885247,
+      "axial_mm": -0.9577880967596151,
+      "tangent_mm": 0.36240610392412476,
+      "xyz_mm": [
+        -0.2778942175372507,
+        -0.11424226455479568,
+        -0.9789891374804016
+      ],
+      "normal_deg": 0.3304340282997608,
+      "band_margin_mm": 1.987377838067302,
+      "band_contained": true,
+      "diameter_mm": 0.45405394587762216,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_003",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          -0.002086321769376782,
+          0.003341601454079776,
+          0.5801724832721072
+        ],
+        "normal": [
+          -0.0672585183880536,
+          0.010879126035641744,
+          0.997676268295956
+        ],
+        "radius_m": 0.055260281996883744
+      },
+      "center_mm": 1.0240587006885247,
+      "axial_mm": -0.9577880967596151,
+      "tangent_mm": 0.36240610392412476,
+      "xyz_mm": [
+        -0.2778942175372507,
+        -0.11424226455479568,
+        -0.9789891374804016
+      ],
+      "normal_deg": 0.3304340282997608,
+      "band_margin_mm": 1.9858383258756382,
+      "band_contained": true,
+      "diameter_mm": 0.07983804165870301,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 156,
+        "robust_scale_m": 0.0006852007719462476
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "fs_visible",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0008792494357607754,
+          -0.004357991658322861,
+          0.5834708544050867
+        ],
+        "normal": [
+          0.014994554340752916,
+          -0.07183475669047468,
+          0.9973038308716871
+        ],
+        "radius_m": 0.05264192943450938
+      },
+      "center_mm": 2.5970552081567706,
+      "axial_mm": -2.530301300976467,
+      "tangent_mm": 0.5850393837093436,
+      "xyz_mm": [
+        -0.05613554357649785,
+        -0.43581196866652927,
+        -2.559611783636062
+      ],
+      "normal_deg": 0.826731609205567,
+      "band_margin_mm": -0.11371974271479264,
+      "band_contained": false,
+      "diameter_mm": 0.002808089874489772
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "ss_sor",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009423865438623635,
+          -0.0040891476881311254,
+          0.5840026617442998
+        ],
+        "normal": [
+          0.008608865601843409,
+          -0.050798665273393745,
+          0.9986718094747098
+        ],
+        "radius_m": 0.05555962523936603
+      },
+      "center_mm": 2.0346788933986626,
+      "axial_mm": -2.014452025216204,
+      "tangent_mm": 0.28618392223243794,
+      "xyz_mm": [
+        0.007001564525090272,
+        -0.1669679984747938,
+        -2.027804444422965
+      ],
+      "normal_deg": 0.4381300788209585,
+      "band_margin_mm": 0.7367213187476699,
+      "band_contained": true,
+      "diameter_mm": 5.8381996995877925
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009423865438623635,
+          -0.0040891476881311254,
+          0.5840026617442998
+        ],
+        "normal": [
+          0.008608865601843409,
+          -0.050798665273393745,
+          0.9986718094747098
+        ],
+        "radius_m": 0.05264192943450938
+      },
+      "center_mm": 2.0346788933986626,
+      "axial_mm": -2.014452025216204,
+      "tangent_mm": 0.28618392223243794,
+      "xyz_mm": [
+        0.007001564525090272,
+        -0.1669679984747938,
+        -2.027804444422965
+      ],
+      "normal_deg": 0.4381300788209585,
+      "band_margin_mm": 0.7590321738530862,
+      "band_contained": true,
+      "diameter_mm": 0.002808089874489772,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": false,
+        "uses_target_truth": false,
+        "radius_fallback": false
+      }
+    },
+    {
+      "cohort": "new8",
+      "condition": "shared_noise",
+      "case": "confirmation_nominal_004",
+      "method": "pose_fs_radius_refit",
+      "accepted": true,
+      "reasons": [],
+      "estimate": {
+        "center_m": [
+          0.0009423865438623635,
+          -0.0040891476881311254,
+          0.5840026617442998
+        ],
+        "normal": [
+          0.008608865601843409,
+          -0.050798665273393745,
+          0.9986718094747098
+        ],
+        "radius_m": 0.0528142504574363
+      },
+      "center_mm": 2.0346788933986626,
+      "axial_mm": -2.014452025216204,
+      "tangent_mm": 0.28618392223243794,
+      "xyz_mm": [
+        0.007001564525090272,
+        -0.1669679984747938,
+        -2.027804444422965
+      ],
+      "normal_deg": 0.4381300788209585,
+      "band_margin_mm": 0.7577144801552921,
+      "band_contained": true,
+      "diameter_mm": 0.3474501357283305,
+      "composition": {
+        "pose_source": "simsense_standard_sor",
+        "radius_source": "foundation_stereo_visible_profile",
+        "shared_IR_inputs": true,
+        "independence_assumed": false,
+        "refit": true,
+        "uses_target_truth": false,
+        "radius_fallback": false,
+        "slab_width_m": 0.003,
+        "slab_points": 126,
+        "robust_scale_m": 0.0008650211491578765
+      }
+    }
+  ],
+  "summary": [
+    {
+      "method": "fs_visible",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 6,
+      "max_normal_deg": 2.5048956558355866,
+      "center_mm": {
+        "median": 1.8360408100370167,
+        "p95": 2.6737835279085287,
+        "max": 2.9413322039294942
+      },
+      "diameter_mm": {
+        "median": 0.7118088855435079,
+        "p95": 2.2215679212244375,
+        "max": 2.58200376534444
+      },
+      "diameter_pass_2mm": 10,
+      "joint_pose_band_diameter_pass": 6,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "fs_visible",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 6,
+      "max_normal_deg": 2.430320252404393,
+      "center_mm": {
+        "median": 1.830149455072939,
+        "p95": 2.7435136137492067,
+        "max": 2.8899720193416427
+      },
+      "diameter_mm": {
+        "median": 0.6768090956714573,
+        "p95": 2.406008422428059,
+        "max": 2.9139436827323313
+      },
+      "diameter_pass_2mm": 10,
+      "joint_pose_band_diameter_pass": 6,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "ss_sor",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0745356376929347,
+      "center_mm": {
+        "median": 1.289680809639303,
+        "p95": 2.4962376909729804,
+        "max": 2.678211741754151
+      },
+      "diameter_mm": {
+        "median": 3.5347803191429215,
+        "p95": 8.81427355807727,
+        "max": 9.231027384091387
+      },
+      "diameter_pass_2mm": 2,
+      "joint_pose_band_diameter_pass": 2,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "ss_sor",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0412483227067202,
+      "center_mm": {
+        "median": 1.4514873769631786,
+        "p95": 2.4252016942728956,
+        "max": 2.5899047095649466
+      },
+      "diameter_mm": {
+        "median": 3.4380185138675188,
+        "p95": 8.935972094693934,
+        "max": 9.446289279320924
+      },
+      "diameter_pass_2mm": 2,
+      "joint_pose_band_diameter_pass": 2,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "pose_fs_radius",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0745356376929347,
+      "center_mm": {
+        "median": 1.289680809639303,
+        "p95": 2.4962376909729804,
+        "max": 2.678211741754151
+      },
+      "diameter_mm": {
+        "median": 0.7118088855435079,
+        "p95": 2.2215679212244375,
+        "max": 2.58200376534444
+      },
+      "diameter_pass_2mm": 10,
+      "joint_pose_band_diameter_pass": 9,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "pose_fs_radius",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0412483227067202,
+      "center_mm": {
+        "median": 1.4514873769631786,
+        "p95": 2.4252016942728956,
+        "max": 2.5899047095649466
+      },
+      "diameter_mm": {
+        "median": 0.6768090956714573,
+        "p95": 2.406008422428059,
+        "max": 2.9139436827323313
+      },
+      "diameter_pass_2mm": 10,
+      "joint_pose_band_diameter_pass": 9,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "pose_fs_radius_refit",
+      "condition": "clean",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0745356376929347,
+      "center_mm": {
+        "median": 1.289680809639303,
+        "p95": 2.4962376909729804,
+        "max": 2.678211741754151
+      },
+      "diameter_mm": {
+        "median": 0.5052498200675826,
+        "p95": 2.8262693161116847,
+        "max": 3.4743209248886826
+      },
+      "diameter_pass_2mm": 9,
+      "joint_pose_band_diameter_pass": 9,
+      "radius_fallbacks": 0
+    },
+    {
+      "method": "pose_fs_radius_refit",
+      "condition": "shared_noise",
+      "total": 11,
+      "accepted": 11,
+      "center_false_rejects": 0,
+      "center_false_accepts": 0,
+      "band_contained": 10,
+      "max_normal_deg": 1.0412483227067202,
+      "center_mm": {
+        "median": 1.4514873769631786,
+        "p95": 2.4252016942728956,
+        "max": 2.5899047095649466
+      },
+      "diameter_mm": {
+        "median": 0.5009271237800955,
+        "p95": 3.2838708341800666,
+        "max": 3.389035371685403
+      },
+      "diameter_pass_2mm": 9,
+      "joint_pose_band_diameter_pass": 9,
+      "radius_fallbacks": 0
+    }
+  ],
+  "split": "posthoc_same_11_saved_jars_not_new_independent_test",
+  "diameter_2mm_is_research_not_factory_requirement": true
+}

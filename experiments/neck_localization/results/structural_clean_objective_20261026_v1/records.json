@@ -1,0 +1,250 @@
+[
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "intervention": "measured",
+    "diagnostic_only": true,
+    "old_axis_cost": 476.61565189888756,
+    "true_axis_cost": 836.3257119026559,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 476.61564956758673,
+        "normal_deg": 11.94640654578153,
+        "nfev": 3
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 453.3894994834981,
+        "normal_deg": 13.804324629591596,
+        "nfev": 54
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 457.46613187466227,
+        "normal_deg": 11.496094923616157,
+        "nfev": 24
+      }
+    ]
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "intervention": "ideal_same_pixels",
+    "diagnostic_only": true,
+    "old_axis_cost": 6817.039771464558,
+    "true_axis_cost": 110.68324432723065,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 356.9182278542823,
+        "normal_deg": 12.113708846952804,
+        "nfev": 8
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 102.54759176038068,
+        "normal_deg": 0.4986606145535608,
+        "nfev": 8
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 102.54759185240687,
+        "normal_deg": 0.49869201641508637,
+        "nfev": 6
+      }
+    ]
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "intervention": "measured",
+    "diagnostic_only": true,
+    "old_axis_cost": 3928.276583804016,
+    "true_axis_cost": 4261.887428806833,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 3928.2765068314066,
+        "normal_deg": 0.9018033604612685,
+        "nfev": 2
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 3928.2765926515676,
+        "normal_deg": 0.902772661971593,
+        "nfev": 17
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 3928.2766479136453,
+        "normal_deg": 0.9011121571742173,
+        "nfev": 10
+      }
+    ]
+  },
+  {
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "intervention": "ideal_same_pixels",
+    "diagnostic_only": true,
+    "old_axis_cost": 2166.504637009809,
+    "true_axis_cost": 1730.4557628266944,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 1678.5749515390112,
+        "normal_deg": 0.4396673461756258,
+        "nfev": 15
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 1678.5749287546696,
+        "normal_deg": 0.43924497669734486,
+        "nfev": 14
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 1678.5749511957429,
+        "normal_deg": 0.4396650741259867,
+        "nfev": 13
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "intervention": "measured",
+    "diagnostic_only": true,
+    "old_axis_cost": 560.8843073812125,
+    "true_axis_cost": 673.2103174232731,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 560.8843073809519,
+        "normal_deg": 0.7659974185141359,
+        "nfev": 2
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 560.8843073975903,
+        "normal_deg": 0.7659914551655336,
+        "nfev": 5
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 560.8843073833202,
+        "normal_deg": 0.7659951613544896,
+        "nfev": 6
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "intervention": "ideal_same_pixels",
+    "diagnostic_only": true,
+    "old_axis_cost": 144.87655101534273,
+    "true_axis_cost": 181.978567482188,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 124.05972644413615,
+        "normal_deg": 0.5003515543695649,
+        "nfev": 4
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 124.05972644348435,
+        "normal_deg": 0.5003531404823363,
+        "nfev": 5
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 124.05972644348445,
+        "normal_deg": 0.5003531071496423,
+        "nfev": 5
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "intervention": "measured",
+    "diagnostic_only": true,
+    "old_axis_cost": 964.7721073789562,
+    "true_axis_cost": 1060.0633421024063,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 964.7721072079596,
+        "normal_deg": 0.8972474463014932,
+        "nfev": 2
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 964.7721077107847,
+        "normal_deg": 0.8971458541133396,
+        "nfev": 7
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 964.7721082075897,
+        "normal_deg": 0.8971089446909355,
+        "nfev": 8
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "intervention": "ideal_same_pixels",
+    "diagnostic_only": true,
+    "old_axis_cost": 85.10752306751648,
+    "true_axis_cost": 32.357359262173475,
+    "fits": [
+      {
+        "start": "old_axis",
+        "success": true,
+        "cost": 32.11869424119399,
+        "normal_deg": 0.049255432379017756,
+        "nfev": 5
+      },
+      {
+        "start": "zero",
+        "success": true,
+        "cost": 32.11869424112197,
+        "normal_deg": 0.04925420441940651,
+        "nfev": 4
+      },
+      {
+        "start": "true_axis",
+        "success": true,
+        "cost": 32.118694241113346,
+        "normal_deg": 0.04925431377158005,
+        "nfev": 4
+      }
+    ]
+  }
+]

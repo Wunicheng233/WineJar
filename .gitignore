@@ -39,3 +39,8 @@ MUJOCO_LOG.TXT
 
 # Simulation is maintained in Wunicheng233/Winejar-mujoco.
 mujoco_xarm6/
+
+# Local scratch work and duplicate presentation build products.
+/tmp/
+/experiments/factory_briefing_20261028/build/
+/experiments/factory_briefing_20261028/*.zip

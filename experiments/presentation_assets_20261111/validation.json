@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "hashed_asset_files": 37,
+  "records": 216,
+  "summary_groups": 12,
+  "figures": {
+    "nominal_014_comparison.png": [
+      3200,
+      1800
+    ],
+    "stress_010_comparison.png": [
+      3200,
+      1800
+    ],
+    "all_36_cases.png": [
+      3080,
+      1540
+    ]
+  },
+  "no_local_symlinks": true,
+  "no_new_estimation": true,
+  "hardware_access": false,
+  "relocated_viewer_passed": true,
+  "actual_GL_routes": [
+    [
+      "nominal_014",
+      "cam_a"
+    ],
+    [
+      "nominal_014",
+      "cam_a,cam_b"
+    ],
+    [
+      "nominal_014",
+      "all"
+    ],
+    [
+      "stress_010",
+      "cam_a"
+    ],
+    [
+      "stress_010",
+      "cam_a,cam_b"
+    ],
+    [
+      "stress_010",
+      "all"
+    ]
+  ],
+  "rendered_model_and_cloud_views": 12
+}

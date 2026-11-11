@@ -1,0 +1,6 @@
+Observed validation results, 2026-10-23 (summary, not raw terminal transcript):
+Core geometry/estimator/generator tests: 37 passed in 5.53s.
+Desktop inspection tests: 3 passed, 3 subtests passed in 1.48s.
+3 actual-window band checks: see viewer_validation.json.
+All 48 records and tables/plots independently reproduced: see reproduction_check.json.
+No device access, source estimator changes, new scene generation or new unseen estimator test.

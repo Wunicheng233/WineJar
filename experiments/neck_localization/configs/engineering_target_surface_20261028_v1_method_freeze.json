@@ -1,0 +1,49 @@
+{
+  "source_sha256": {
+    "neck_localization/__init__.py": "ab77ecedfcb82db72288f038a2e263b5b101a07c071fed2da830d862b21d7f77",
+    "neck_localization/active_stereo.py": "63918115fa2da157bba8d6f8e578f1ad9bbb9a6e31a1689310e2f374ab918c6a",
+    "neck_localization/band_geometry.py": "79978442f03ee39aaf5825d714de61e0e2ab71fb9e78af05ea361008ec9a4f97",
+    "neck_localization/depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "neck_localization/evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "neck_localization/geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "neck_localization/joint_profile.py": "b38b592417ee5a42db08ba8882a1ca4eb57ebd206da722fb8adbb07a13b786ba",
+    "neck_localization/reliable_output.py": "d8daad4c3b33b5154a0b510dea822062a29fd024e2e50e2cd5af2286a4b816fc",
+    "neck_localization/silhouette_profile.py": "5ba9c7fc229363a1d3cfdab3df49ab91a248931457432726daf1aba8fe069d19",
+    "neck_localization/stereo_robust.py": "df1b238267a593707111843f0e9c0f680aefbe3f662b65bf1c1eef08b2b9dbd0",
+    "neck_localization/structural_localization.py": "d01407077e56fa6925431a9eafc8515681ff6aff4bc0abcfbef95b8f5586a202",
+    "neck_localization/structure_portfolio.py": "992ed087505349042bf7b04254d11113247b4dd80ca98e211c2e43627776378a",
+    "neck_localization/support_feedback.py": "561ba86663d226cbb6e79edbef111036f48e088f6d6a583b2860090caa64eb73",
+    "neck_localization/task_validated_output.py": "f00cdd3209681e58f3e50ea0a16d4a87c00ae2a586259e9a58e9d235cce23f46",
+    "scripts/evaluate_capability_depth.py": "71d2c494aa1d26e8dc6100204cf5611894b434d892143c8aa0aa3fcfdd252ffa",
+    "neck_localization/visible_profile_baseline.py": "f49c7a51d48ec82767a22ad21c49af8b9bb260662f39eb1d6e795d0aeef636ae",
+    "neck_localization/masked_geometry_baseline.py": "3ee066d087ba9183fc6d914f325b4de1e39318a3508cc371d1e35cf7a5a594a1",
+    "neck_localization/sor_baseline.py": "a58cb1d254e84fd2746d03e6ab0c2d18b8839252cf4007b224c0781467c4bcff",
+    "neck_localization/task_surface_validation.py": "dc64c2c3eadf8ccc18eea1416ae8781626bc091dd50eb87a3768af36851db00e",
+    "scripts/run_task_surface_study.py": "bebb57eb003a0dc02ab2bb8a2dca8a3966ac44b5049fc311e45a2cf36be981af",
+    "scripts/run_masked_geometry_capability_stage.py": "262cf4c592b1a7b594519f4c7d0b8177a16f080e6d4e6130ccf73e9002025778"
+  },
+  "seed": 2026102809,
+  "new_objects": 8,
+  "freeze_before_test_inference_and_evaluation": true,
+  "render_already_launched": true,
+  "source_written_before_config_generation": true,
+  "scope": "new circular-section nominal instances only; not factory validation",
+  "operation_width_m": 0.003,
+  "unchanged_pixel_gate": 2,
+  "geometry_and_all_nonRGB_gates": "frozen",
+  "rank": "unchanged full-context heldout+containment score",
+  "conditions": [
+    "clean",
+    "shared_noise"
+  ],
+  "baselines": [
+    "visible_profile",
+    "no_rgb_gate",
+    "standard_sor"
+  ],
+  "primary": "accepted center <=4mm; 3mm preference and provisional 2deg/2mm separate",
+  "process": "3mm axial containment only; final tying untested",
+  "keep_all_cases": true,
+  "no_hardware": true,
+  "no_training": true
+}

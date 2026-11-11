@@ -1,0 +1,90 @@
+[
+  {
+    "method": "frozen_v2",
+    "case": "nominal_001",
+    "observed_estimated_center_shift_mm": [
+      5.000000000000009,
+      -8.673617379884035e-16,
+      0.0
+    ],
+    "residual_change_mm": 7.14218181124826e-15,
+    "wrong_accepted": true
+  },
+  {
+    "method": "frozen_v2",
+    "case": "nominal_002",
+    "observed_estimated_center_shift_mm": [
+      5.000000000000004,
+      3.469446951953614e-15,
+      0.0
+    ],
+    "residual_change_mm": -2.512299721556255e-15,
+    "wrong_accepted": true
+  },
+  {
+    "method": "frozen_v2",
+    "case": "stress_000",
+    "observed_estimated_center_shift_mm": [
+      4.999999999999986,
+      -1.734723475976807e-15,
+      0.0
+    ],
+    "residual_change_mm": 2.597206304189026e-13,
+    "wrong_accepted": true
+  },
+  {
+    "method": "frozen_v2",
+    "case": "stress_003",
+    "observed_estimated_center_shift_mm": [
+      5.000000000000052,
+      -2.0122792321330962e-13,
+      2.220446049250313e-13
+    ],
+    "residual_change_mm": 1.157385819128276e-14,
+    "wrong_accepted": true
+  },
+  {
+    "method": "bias_no_prior",
+    "case": "nominal_001",
+    "observed_estimated_center_shift_mm": [
+      5.000000000000006,
+      0.0,
+      0.0
+    ],
+    "residual_change_mm": -4.929731753020028e-16,
+    "wrong_accepted": true
+  },
+  {
+    "method": "bias_no_prior",
+    "case": "nominal_002",
+    "observed_estimated_center_shift_mm": [
+      5.0000000001484635,
+      9.855137539371839e-11,
+      1.3539169785303784e-09
+    ],
+    "residual_change_mm": -6.868617680915248e-10,
+    "wrong_accepted": true
+  },
+  {
+    "method": "bias_no_prior",
+    "case": "stress_000",
+    "observed_estimated_center_shift_mm": [
+      5.000000000000022,
+      1.8388068845354155e-13,
+      4.440892098500626e-13
+    ],
+    "residual_change_mm": -1.3822222446474575e-13,
+    "wrong_accepted": true
+  },
+  {
+    "method": "bias_no_prior",
+    "case": "stress_003",
+    "observed_estimated_center_shift_mm": [
+      5.0000000000000355,
+      1.249000902703301e-13,
+      0.0
+    ],
+    "residual_change_mm": -8.85183311198634e-14,
+    "wrong_accepted": true
+  }
+]

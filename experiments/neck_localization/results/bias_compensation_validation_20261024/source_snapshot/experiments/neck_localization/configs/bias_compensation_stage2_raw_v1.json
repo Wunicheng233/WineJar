@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-24",
+  "scenes": "experiments/neck_localization/runs/bias_compensation_stage2_scenes_20261024",
+  "band_width_mm": 3,
+  "minimum_model_neck_length_m": 0.006,
+  "cases": [
+    {
+      "name": "nominal_000",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_001",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_002",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_003",
+      "group": "nominal"
+    },
+    {
+      "name": "stress_000",
+      "group": "stress"
+    },
+    {
+      "name": "stress_001",
+      "group": "stress"
+    },
+    {
+      "name": "stress_002",
+      "group": "stress"
+    },
+    {
+      "name": "stress_003",
+      "group": "stress"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "zero",
+      "bias_by_camera_mm": {}
+    },
+    {
+      "name": "common_m2p5",
+      "bias_by_camera_mm": {
+        "cam_a": -2.5,
+        "cam_b": -2.5,
+        "cam_c": -2.5
+      }
+    },
+    {
+      "name": "common_p2p5",
+      "bias_by_camera_mm": {
+        "cam_a": 2.5,
+        "cam_b": 2.5,
+        "cam_c": 2.5
+      }
+    },
+    {
+      "name": "only_c_m3p5",
+      "bias_by_camera_mm": {
+        "cam_c": -3.5
+      }
+    },
+    {
+      "name": "mixed_a1p7_bm2p3_c0p6",
+      "bias_by_camera_mm": {
+        "cam_a": 1.7,
+        "cam_b": -2.3,
+        "cam_c": 0.6
+      }
+    }
+  ],
+  "study_kind": "new 8 geometries, new 5 bias conditions, second locked test after v1 failure diagnosis"
+}

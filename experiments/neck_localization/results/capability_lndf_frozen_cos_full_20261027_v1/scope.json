@@ -1,0 +1,20 @@
+{
+  "no_hardware": true,
+  "independent_audit_jars": 12,
+  "development_control_jars": 0,
+  "prediction_records": 48,
+  "layouts": [
+    "close",
+    "far"
+  ],
+  "layouts_are_paired": true,
+  "previously_viewed": true,
+  "supervised_demonstrations": 4,
+  "predicted_radius": false,
+  "threshold_center_mm": 4,
+  "threshold_axis_deg": 2,
+  "success_is_partial_pose_only": true,
+  "no_new_method_trained": true,
+  "evaluation_script_sha256": "45d9e9ed601b5cc8dd30bf4bd9c09bca555a1b1d059f58e14661806488a80185",
+  "predictions_sha256": "2386639b35851a811a395004834e8b81a4bffd3a990c6127c2f1db118e9a3b8d"
+}

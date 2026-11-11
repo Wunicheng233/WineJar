@@ -1,0 +1,3446 @@
+[
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.7592156094492872,
+      "p95": 3.45743392762771,
+      "max": 3.458430096954383
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.997506547934023,
+      "p95": 2.3989357729244785,
+      "max": 2.4004189033000882
+    },
+    "transport_only_center_mm": {
+      "median": 0.6908401362561989,
+      "p95": 2.118737075703936,
+      "max": 2.1219847860591834
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 129.000287000963,
+      "p95": 419.3860798983225,
+      "max": 465.36733899847604
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.002860499080270529,
+      "p95": 0.003571450724848546,
+      "max": 0.0038059952203184366
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.6404575880423675,
+      "p95": 2.6699373254664547,
+      "max": 2.670989967630591
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8356893858262145,
+      "p95": 1.4559996327561358,
+      "max": 1.4608795658289129
+    },
+    "transport_only_center_mm": {
+      "median": 0.6524090212320921,
+      "p95": 0.7452192377583655,
+      "max": 0.7542034560015232
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 82.42864050043863,
+      "p95": 160.60047769642554,
+      "max": 195.56024400662864
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.6720247660311107,
+      "p95": 2.6813450635528193,
+      "max": 2.6824110803919288
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8491792404826719,
+      "p95": 1.5239086489518192,
+      "max": 1.5407590283400887
+    },
+    "transport_only_center_mm": {
+      "median": 0.7048652423615742,
+      "p95": 0.7848187766272163,
+      "max": 0.7968373475386592
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 146.14260949747404,
+      "p95": 256.30628269900626,
+      "max": 817.567866994068
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 27,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 21,
+    "center_mm": {
+      "median": 11.773337312238315,
+      "p95": 22.402643453165403,
+      "max": 25.760641611482384
+    },
+    "normal_deg": {
+      "median": 3.783208433271432,
+      "p95": 9.827356296482634,
+      "max": 11.14061504078464
+    },
+    "tangent_mm": {
+      "median": 11.26096063349998,
+      "p95": 22.38106486461551,
+      "max": 25.751452166393246
+    },
+    "transport_only_center_mm": {
+      "median": 11.68601730474574,
+      "p95": 22.30966726918614,
+      "max": 25.30336495539608
+    },
+    "transport_only_normal_deg": {
+      "median": 3.8312357530674244,
+      "p95": 9.750437942902078,
+      "max": 10.907568507022898
+    },
+    "elapsed_ms": {
+      "median": 533.7489129997266,
+      "p95": 647.0366102999833,
+      "max": 671.4784189971397
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 2.0496210398276076,
+      "p95": 4.994352190154214,
+      "max": 5.1870226771769605
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.4187367806163926,
+      "p95": 3.3697150440129087,
+      "max": 3.516822225942628
+    },
+    "transport_only_center_mm": {
+      "median": 0.8593725708825278,
+      "p95": 3.2433377483159784,
+      "max": 3.2818470249160834
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 125.86446249770233,
+      "p95": 449.1190214008384,
+      "max": 481.3413860028959
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.6395612157309278,
+      "p95": 2.6648620105549985,
+      "max": 2.6655649621887556
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.675135205621215,
+      "p95": 1.4498849461784407,
+      "max": 1.4637863195891982
+    },
+    "transport_only_center_mm": {
+      "median": 0.42510442386012315,
+      "p95": 1.0375320606653915,
+      "max": 1.0434172157096633
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 123.48680800278089,
+      "p95": 255.35763510306427,
+      "max": 508.1084580015158
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0017045022104866803,
+      "p95": 0.0019800052541540936,
+      "max": 0.0021180021576583385
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.648990787768248,
+      "p95": 2.6665058085071407,
+      "max": 2.669898608188405
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.854947653173449,
+      "p95": 1.4509846915315674,
+      "max": 1.4854950656820463
+    },
+    "transport_only_center_mm": {
+      "median": 0.5436736588915192,
+      "p95": 0.7538611298339992,
+      "max": 0.7807442230425288
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 89.23368149771704,
+      "p95": 191.74112594992047,
+      "max": 438.35173200204736
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.761428910924581,
+      "p95": 2.7386465603310013,
+      "max": 2.768844858457968
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.9450077659928178,
+      "p95": 1.6826707060281727,
+      "max": 1.7318825005390215
+    },
+    "transport_only_center_mm": {
+      "median": 0.8568469935543721,
+      "p95": 1.0993303384134512,
+      "max": 1.117144289477956
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 171.2501074980537,
+      "p95": 726.2970292493266,
+      "max": 1022.9581050007255
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 22,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 20,
+    "center_mm": {
+      "median": 3.92630513435949,
+      "p95": 18.7584581089036,
+      "max": 20.331799572280417
+    },
+    "normal_deg": {
+      "median": 1.4825276270868892,
+      "p95": 7.0237401350200805,
+      "max": 7.426927140272043
+    },
+    "tangent_mm": {
+      "median": 3.6046998629609885,
+      "p95": 18.493982684697254,
+      "max": 20.049985897987977
+    },
+    "transport_only_center_mm": {
+      "median": 3.6008865013112414,
+      "p95": 19.32863312172485,
+      "max": 20.89531853693383
+    },
+    "transport_only_normal_deg": {
+      "median": 1.1999001699546141,
+      "p95": 6.316193967309345,
+      "max": 6.728707910945205
+    },
+    "elapsed_ms": {
+      "median": 488.6951229964325,
+      "p95": 590.1387364963739,
+      "max": 745.5407020024722
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 2,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 32,
+    "center_mm": {
+      "median": 1.9058110693992774,
+      "p95": 3.957023026005185,
+      "max": 4.225177526104835
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.6296223659910812,
+      "p95": 1.8314281600739637,
+      "max": 2.085127579857009
+    },
+    "transport_only_center_mm": {
+      "median": 0.7445966780862521,
+      "p95": 1.4865029998597572,
+      "max": 1.7712356343969746
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 149.50808050343767,
+      "p95": 427.7923400470173,
+      "max": 590.5325689964229
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.3724210737277893,
+      "p95": 2.886770224310154,
+      "max": 2.9317279429561065
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.0735496544491614,
+      "p95": 2.8078346252537743,
+      "max": 2.8547118085193217
+    },
+    "transport_only_center_mm": {
+      "median": 1.2234944068381104,
+      "p95": 2.1658839627649806,
+      "max": 2.203550529303655
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 125.16406700160587,
+      "p95": 396.50648950191686,
+      "max": 459.9290119949728
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.002839002263499424,
+      "p95": 0.00382149919460062,
+      "max": 0.008599003194831312
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.843422362634745,
+      "p95": 3.5693357561608554,
+      "max": 3.602778154035692
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 2.281755646943901,
+      "p95": 3.006426745432737,
+      "max": 3.0132491305831834
+    },
+    "transport_only_center_mm": {
+      "median": 2.063763615672398,
+      "p95": 2.360299185964898,
+      "max": 2.3651875874817208
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 90.94641799674719,
+      "p95": 236.39214280374298,
+      "max": 366.4563130005263
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.8623979190622793,
+      "p95": 3.688153543698367,
+      "max": 3.7018408685603954
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 2.3063114781397043,
+      "p95": 3.030549654267865,
+      "max": 3.0566561165966153
+    },
+    "transport_only_center_mm": {
+      "median": 2.1612448796692885,
+      "p95": 2.4035203586064258,
+      "max": 2.6437142768709343
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 179.30396649899194,
+      "p95": 422.41206909893674,
+      "max": 904.8738779965788
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 33,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 17,
+    "center_mm": {
+      "median": 5.828199844842543,
+      "p95": 17.618583991893455,
+      "max": 18.463460718365454
+    },
+    "normal_deg": {
+      "median": 2.2275829912746987,
+      "p95": 8.976025313462946,
+      "max": 9.177501481535598
+    },
+    "tangent_mm": {
+      "median": 5.721763069598041,
+      "p95": 17.552466584378312,
+      "max": 18.41153471474627
+    },
+    "transport_only_center_mm": {
+      "median": 6.010312981451826,
+      "p95": 17.383884898604503,
+      "max": 18.07255889818903
+    },
+    "transport_only_normal_deg": {
+      "median": 2.108954459125857,
+      "p95": 8.800511110941708,
+      "max": 9.113814211649487
+    },
+    "elapsed_ms": {
+      "median": 553.0104025019682,
+      "p95": 669.3698858991411,
+      "max": 691.4135269980761
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 27,
+    "center_mm": {
+      "median": 2.7494018782974,
+      "p95": 4.6246424099571115,
+      "max": 4.699089610892671
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.3251636099578203,
+      "p95": 2.6859319971690967,
+      "max": 2.7150088265575176
+    },
+    "transport_only_center_mm": {
+      "median": 1.8528729355856408,
+      "p95": 2.456824646193731,
+      "max": 2.555079057178178
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 135.8769399994344,
+      "p95": 460.1372087443452,
+      "max": 538.5886700023548
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.5947540619406757,
+      "p95": 3.1929226192781455,
+      "max": 3.2331330326886407
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.8804023101687641,
+      "p95": 2.90597717478413,
+      "max": 2.9802521780158524
+    },
+    "transport_only_center_mm": {
+      "median": 1.7562676461737592,
+      "p95": 2.517188561080208,
+      "max": 2.569254371946883
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 137.02131099853432,
+      "p95": 414.762273901215,
+      "max": 529.6437139986665
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0017409984138794243,
+      "p95": 0.0020943527488270774,
+      "max": 0.002116001269314438
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.8440464433999306,
+      "p95": 3.508790128002821,
+      "max": 3.539096620343593
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 2.3705420834153443,
+      "p95": 3.0387779222688436,
+      "max": 3.0920092649816104
+    },
+    "transport_only_center_mm": {
+      "median": 2.146058289576036,
+      "p95": 2.3911872713784366,
+      "max": 2.4453777935122822
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 94.43810499942629,
+      "p95": 163.0986271025904,
+      "max": 469.5371720008552
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.983878900680848,
+      "p95": 3.8633953453779717,
+      "max": 3.9113618022850467
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 2.356594999634381,
+      "p95": 3.2104347891074747,
+      "max": 3.2682861216090306
+    },
+    "transport_only_center_mm": {
+      "median": 2.420648936656278,
+      "p95": 2.6278544741312304,
+      "max": 2.6793911888929323
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 195.17743350297678,
+      "p95": 836.5884145965546,
+      "max": 995.6495760052348
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 20,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 20,
+    "center_mm": {
+      "median": 3.9004595013099177,
+      "p95": 17.796011951492662,
+      "max": 19.932642714930743
+    },
+    "normal_deg": {
+      "median": 1.8388276417366254,
+      "p95": 6.8885750996767845,
+      "max": 8.366928584807896
+    },
+    "tangent_mm": {
+      "median": 3.5392902457636453,
+      "p95": 17.403399963929736,
+      "max": 19.60421805209214
+    },
+    "transport_only_center_mm": {
+      "median": 3.317447624552777,
+      "p95": 18.270431948966003,
+      "max": 20.462733017845107
+    },
+    "transport_only_normal_deg": {
+      "median": 1.4697739166314054,
+      "p95": 6.320365002757788,
+      "max": 7.623206097143693
+    },
+    "elapsed_ms": {
+      "median": 516.7075019999174,
+      "p95": 701.6764935946412,
+      "max": 729.2365780012915
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 28,
+    "center_mm": {
+      "median": 2.655801247902633,
+      "p95": 4.079411684692761,
+      "max": 4.22931325576558
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.3509493851901988,
+      "p95": 2.537494818657845,
+      "max": 2.61966417938235
+    },
+    "transport_only_center_mm": {
+      "median": 1.5970584712188831,
+      "p95": 1.9947266533838213,
+      "max": 2.031917423299528
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 161.0432050001691,
+      "p95": 406.21814394762623,
+      "max": 492.85748900001636
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.0940117270977705,
+      "p95": 4.03141341214075,
+      "max": 4.033136651093851
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.972270923118526,
+      "p95": 3.1894347512841366,
+      "max": 3.191664530624708
+    },
+    "transport_only_center_mm": {
+      "median": 0.26905048406922205,
+      "p95": 2.883846975712556,
+      "max": 2.885669576193184
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 122.13326700293692,
+      "p95": 403.6099912987994,
+      "max": 474.5210289984243
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0030000010156072676,
+      "p95": 0.003887949787895195,
+      "max": 0.004469002305995673
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.3952329362237306,
+      "p95": 2.7109686088337264,
+      "max": 2.7120499886627862
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.35037770543021557,
+      "p95": 1.030135743843948,
+      "max": 1.0371893956138991
+    },
+    "transport_only_center_mm": {
+      "median": 0.12769083697161676,
+      "p95": 0.21541656274259857,
+      "max": 0.22105339285083403
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 64.00737049989402,
+      "p95": 113.32730675203494,
+      "max": 143.3133010068559
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.3498272158964273,
+      "p95": 2.6971777159862063,
+      "max": 2.6990559963566585
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.3113530037784443,
+      "p95": 0.9530115865513917,
+      "max": 0.9656565763058731
+    },
+    "transport_only_center_mm": {
+      "median": 0.06609972684024079,
+      "p95": 0.1374775617114965,
+      "max": 0.14886390204171818
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 95.03142649919027,
+      "p95": 158.94318640202982,
+      "max": 201.1887589978869
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 25,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 22,
+    "center_mm": {
+      "median": 14.588960578324087,
+      "p95": 29.29493775916549,
+      "max": 32.34070774555481
+    },
+    "normal_deg": {
+      "median": 3.1393379758571913,
+      "p95": 9.826200532291518,
+      "max": 10.907698895806119
+    },
+    "tangent_mm": {
+      "median": 14.089123312776131,
+      "p95": 29.294074998159658,
+      "max": 32.100730687351714
+    },
+    "transport_only_center_mm": {
+      "median": 14.510298651997829,
+      "p95": 28.83901141719651,
+      "max": 31.667540730805424
+    },
+    "transport_only_normal_deg": {
+      "median": 3.308310436904672,
+      "p95": 9.747425756553023,
+      "max": 10.986352607429259
+    },
+    "elapsed_ms": {
+      "median": 515.5447005017777,
+      "p95": 631.3583511480829,
+      "max": 665.7872950017918
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 6,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 35,
+    "center_mm": {
+      "median": 2.233145302230832,
+      "p95": 5.540314967068963,
+      "max": 5.6493108545493556
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.020585856804598,
+      "p95": 4.1582318839050165,
+      "max": 4.24181533146674
+    },
+    "transport_only_center_mm": {
+      "median": 0.4947830591121395,
+      "p95": 3.8898816298678307,
+      "max": 3.976623541069103
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 125.11723799980246,
+      "p95": 470.158333150539,
+      "max": 511.236710997764
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.1982866498706954,
+      "p95": 2.8215336869490586,
+      "max": 2.833015985667188
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.49172137987528486,
+      "p95": 1.2552145965526873,
+      "max": 1.2827811336858357
+    },
+    "transport_only_center_mm": {
+      "median": 0.35737779228606215,
+      "p95": 1.1692861746800842,
+      "max": 1.2828414825936107
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 116.07093599741347,
+      "p95": 427.36543489882035,
+      "max": 520.7938109961106
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0017474994820076972,
+      "p95": 0.0021395990188466385,
+      "max": 0.0027330024749971926
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.5116189879264552,
+      "p95": 2.8674107947154157,
+      "max": 2.8814264444807174
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.38649130470203863,
+      "p95": 1.3622800475535286,
+      "max": 1.3935062796226279
+    },
+    "transport_only_center_mm": {
+      "median": 0.23836984602954026,
+      "p95": 0.7658832121025805,
+      "max": 0.8029640433542262
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 85.928281503584,
+      "p95": 133.67342919918883,
+      "max": 169.58993799926247
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.2524546142326687,
+      "p95": 2.670241855215639,
+      "max": 2.6779895536166167
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.5936268685479058,
+      "p95": 0.8882728884707493,
+      "max": 0.9390141927068484
+    },
+    "transport_only_center_mm": {
+      "median": 0.09752504567406284,
+      "p95": 0.30846257516792264,
+      "max": 0.3225411368976694
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 165.94955549953738,
+      "p95": 730.6246919459228,
+      "max": 942.2076819973881
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 24,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 22,
+    "center_mm": {
+      "median": 4.647087606279381,
+      "p95": 32.34659927658845,
+      "max": 32.43831470795257
+    },
+    "normal_deg": {
+      "median": 1.4070390448046672,
+      "p95": 7.742048884120676,
+      "max": 7.911755188953233
+    },
+    "tangent_mm": {
+      "median": 4.270478905242525,
+      "p95": 32.06346042037503,
+      "max": 32.140038577859926
+    },
+    "transport_only_center_mm": {
+      "median": 4.246680072051923,
+      "p95": 31.951888546102236,
+      "max": 32.131503198708614
+    },
+    "transport_only_normal_deg": {
+      "median": 1.1849981951298583,
+      "p95": 7.155972956102354,
+      "max": 7.299419754358201
+    },
+    "elapsed_ms": {
+      "median": 487.1232084988151,
+      "p95": 587.0645531507762,
+      "max": 620.3134190000128
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 1.6525572966081268,
+      "p95": 4.3402248009439575,
+      "max": 4.4756289850557796
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8186927093564014,
+      "p95": 2.549898319173456,
+      "max": 2.690235550484628
+    },
+    "transport_only_center_mm": {
+      "median": 0.7900969982353074,
+      "p95": 2.1733904149052234,
+      "max": 2.3184600641620747
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 134.27928949749912,
+      "p95": 329.89180069744185,
+      "max": 440.20307299797423
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.445373242992005,
+      "p95": 4.827932008890657,
+      "max": 4.829845957871182
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.9544795659933483,
+      "p95": 4.168057123577867,
+      "max": 4.170313181783676
+    },
+    "transport_only_center_mm": {
+      "median": 1.269050484069112,
+      "p95": 3.8838469757128236,
+      "max": 3.8856695761930737
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 121.76161949901143,
+      "p95": 403.2638214503096,
+      "max": 473.0896609980846
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0029900002118665725,
+      "p95": 0.0035730467061512172,
+      "max": 0.004011999408248812
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8097166226372463,
+      "p95": 3.0633734324545374,
+      "max": 3.0661694361445577
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.9474185206858092,
+      "p95": 2.0125214451155764,
+      "max": 2.0195950970282976
+    },
+    "transport_only_center_mm": {
+      "median": 1.1276908369715066,
+      "p95": 1.2154165627424884,
+      "max": 1.221053392850724
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 63.75129050138639,
+      "p95": 113.99379079775828,
+      "max": 142.5985120004043
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.7859113653999112,
+      "p95": 3.0255239612636777,
+      "max": 3.0309576308473587
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8999975050450977,
+      "p95": 1.9351556653501127,
+      "max": 1.947843389799033
+    },
+    "transport_only_center_mm": {
+      "median": 1.0660997268401307,
+      "p95": 1.1374775617113864,
+      "max": 1.148863902041608
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 94.63196949945996,
+      "p95": 160.04359399921668,
+      "max": 200.65912699647015
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 25,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 22,
+    "center_mm": {
+      "median": 15.525770209238718,
+      "p95": 30.244158716338127,
+      "max": 33.32730077352197
+    },
+    "normal_deg": {
+      "median": 3.1393379758571913,
+      "p95": 9.826200532291518,
+      "max": 10.907698895806119
+    },
+    "tangent_mm": {
+      "median": 15.055935501219146,
+      "p95": 30.24309665546885,
+      "max": 33.07304686546365
+    },
+    "transport_only_center_mm": {
+      "median": 15.445819586317718,
+      "p95": 29.792621884522582,
+      "max": 32.65437339189092
+    },
+    "transport_only_normal_deg": {
+      "median": 3.308310436904672,
+      "p95": 9.747425756553023,
+      "max": 10.986352607429259
+    },
+    "elapsed_ms": {
+      "median": 515.6514839982265,
+      "p95": 631.3733997998497,
+      "max": 666.1778740017326
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 13,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 32,
+    "center_mm": {
+      "median": 2.6292627418052366,
+      "p95": 6.299337993635126,
+      "max": 6.406051574712179
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 2.00334063777892,
+      "p95": 5.146659121001442,
+      "max": 5.228142899815613
+    },
+    "transport_only_center_mm": {
+      "median": 1.4391341621356344,
+      "p95": 4.849091734802207,
+      "max": 4.932772582380838
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 125.54649599769618,
+      "p95": 470.19350285190745,
+      "max": 511.70244399691
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.7361131886415408,
+      "p95": 3.2919042796625666,
+      "max": 3.312034363507319
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.1230545343536997,
+      "p95": 2.1443657081161334,
+      "max": 2.1762858901435993
+    },
+    "transport_only_center_mm": {
+      "median": 1.35737779228573,
+      "p95": 2.169286174679974,
+      "max": 2.2828414825935006
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 116.3233540028159,
+      "p95": 430.42210500170773,
+      "max": 518.6797130008927
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0016470003174617887,
+      "p95": 0.0019458020688034594,
+      "max": 0.0020219958969391882
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8097741188292868,
+      "p95": 3.370146016632921,
+      "max": 3.3930251290110807
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.9326491712857347,
+      "p95": 2.2668441325586057,
+      "max": 2.3018977376417435
+    },
+    "transport_only_center_mm": {
+      "median": 1.2383698460294301,
+      "p95": 1.7658832121024703,
+      "max": 1.802964043354116
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 85.8948134991806,
+      "p95": 133.0063400509971,
+      "max": 169.45046600449132
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.734585383241571,
+      "p95": 2.927580353883454,
+      "max": 2.9617136929111263
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.7849207874658417,
+      "p95": 1.5617033321635503,
+      "max": 1.6105272813331946
+    },
+    "transport_only_center_mm": {
+      "median": 0.902474954325827,
+      "p95": 0.9981018290583066,
+      "max": 1.0104391945433555
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 164.86210400034906,
+      "p95": 732.300015153669,
+      "max": 940.3908960011904
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 25,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 23,
+    "center_mm": {
+      "median": 5.57612158298267,
+      "p95": 33.28328765517687,
+      "max": 33.361221887072894
+    },
+    "normal_deg": {
+      "median": 1.4070390448046672,
+      "p95": 7.742048884120676,
+      "max": 7.911755188953233
+    },
+    "tangent_mm": {
+      "median": 5.269835188352715,
+      "p95": 33.01196061997991,
+      "max": 33.11368199547159
+    },
+    "transport_only_center_mm": {
+      "median": 5.241614831211329,
+      "p95": 32.912979128595296,
+      "max": 33.04796475377159
+    },
+    "transport_only_normal_deg": {
+      "median": 1.1849981951298583,
+      "p95": 7.155972956102354,
+      "max": 7.299419754358201
+    },
+    "elapsed_ms": {
+      "median": 489.82657300439314,
+      "p95": 587.2055117011769,
+      "max": 616.5838910019374
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 2.314396887259248,
+      "p95": 4.918883232441733,
+      "max": 5.061065129162938
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.7722047725311763,
+      "p95": 3.4734329050204886,
+      "max": 3.609591420038928
+    },
+    "transport_only_center_mm": {
+      "median": 1.7648210955688488,
+      "p95": 3.0785927371983686,
+      "max": 3.217811277006815
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 134.30379750207067,
+      "p95": 329.6933554975112,
+      "max": 439.38699799764436
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 1,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1910563371703127,
+      "p95": 3.9886857872956947,
+      "max": 4.00537847814231
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.711968690921604,
+      "p95": 3.13393711379577,
+      "max": 3.155667484541063
+    },
+    "transport_only_center_mm": {
+      "median": 2.2941555936808466,
+      "p95": 2.799845074711471,
+      "max": 2.801764139367613
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 41.117765998933464,
+      "p95": 122.45939974964138,
+      "max": 199.8228989978088
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0027330024749971926,
+      "p95": 0.0032916017516981815,
+      "max": 0.004224995791446418
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.3819784314558616,
+      "p95": 2.6967895010392064,
+      "max": 2.697027047299325
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.3094886500051006,
+      "p95": 1.0080162844740677,
+      "max": 1.010702188813718
+    },
+    "transport_only_center_mm": {
+      "median": 0.05674472460115432,
+      "p95": 0.16538604513911537,
+      "max": 0.16812572379309998
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 13.64409700181568,
+      "p95": 24.012818199844336,
+      "max": 34.30454999761423
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.3400606586917199,
+      "p95": 2.6880608244678594,
+      "max": 2.6888446936346693
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.339511286916074,
+      "p95": 0.93718991495922,
+      "max": 0.9396863477429894
+    },
+    "transport_only_center_mm": {
+      "median": 0.013041830228655016,
+      "p95": 0.09311887796319418,
+      "max": 0.09566690356610508
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 33.90414099703776,
+      "p95": 63.082088295777815,
+      "max": 66.02130499959458
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 31,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 13,
+    "center_mm": {
+      "median": 13.795909092731135,
+      "p95": 124.16489255191819,
+      "max": 128.27581245579168
+    },
+    "normal_deg": {
+      "median": 2.866141440581794,
+      "p95": 39.659055719011,
+      "max": 41.65088314419193
+    },
+    "tangent_mm": {
+      "median": 13.244248322720013,
+      "p95": 117.55825451481078,
+      "max": 120.69350508188909
+    },
+    "transport_only_center_mm": {
+      "median": 15.248621894606396,
+      "p95": 124.62061785616055,
+      "max": 128.77406001468398
+    },
+    "transport_only_normal_deg": {
+      "median": 2.9910501886335066,
+      "p95": 39.518807994250494,
+      "max": 41.50395353637945
+    },
+    "elapsed_ms": {
+      "median": 268.79955600452377,
+      "p95": 384.1124790982576,
+      "max": 412.87967399694026
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 1,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 44,
+    "center_mm": {
+      "median": 1.6968184883526058,
+      "p95": 3.81548108550173,
+      "max": 4.0928820858650194
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.9887772825117158,
+      "p95": 3.0441436479111577,
+      "max": 3.183906017040369
+    },
+    "transport_only_center_mm": {
+      "median": 2.008293798733768,
+      "p95": 2.927655892065154,
+      "max": 2.977395179112968
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 51.83260099875042,
+      "p95": 211.9644367488945,
+      "max": 239.303585003654
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8680527482396192,
+      "p95": 3.4009491583070384,
+      "max": 3.4151928027714193
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8850725914896627,
+      "p95": 2.9361996532659473,
+      "max": 2.939947570330098
+    },
+    "transport_only_center_mm": {
+      "median": 0.7467724486025507,
+      "p95": 2.8625729903117847,
+      "max": 2.8657842393777777
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 55.03950600177632,
+      "p95": 111.33805590325211,
+      "max": 121.71727800159715
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "transport_only_center_mm": {
+      "median": 1.2499999999999734,
+      "p95": 1.9999999999997797,
+      "max": 1.9999999999997797
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.001643998984945938,
+      "p95": 0.0019763992895605043,
+      "max": 0.0023989996407181025
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.567383369896386,
+      "p95": 2.8348115333490393,
+      "max": 2.838978427343337
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.4089172053525906,
+      "p95": 1.3892671871162718,
+      "max": 1.4359372755990252
+    },
+    "transport_only_center_mm": {
+      "median": 0.2635604032514838,
+      "p95": 0.6749563918774237,
+      "max": 0.6870066570829891
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 22.73695899566519,
+      "p95": 32.631843000490335,
+      "max": 33.49947999959113
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.2639117542898601,
+      "p95": 2.6706566696027814,
+      "max": 2.6742707690091465
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.7022536680804492,
+      "p95": 0.8653765903481849,
+      "max": 0.8812841734119276
+    },
+    "transport_only_center_mm": {
+      "median": 0.09206301336939227,
+      "p95": 0.3351960316363201,
+      "max": 0.3454828520186304
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 60.08777499664575,
+      "p95": 294.7145617985371,
+      "max": 393.4332920034649
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 43,
+    "center_false_accepts": 31,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 9,
+    "center_mm": {
+      "median": 25.767962563009284,
+      "p95": 222.0793554779828,
+      "max": 280.2960421424841
+    },
+    "normal_deg": {
+      "median": 3.766121981574625,
+      "p95": 82.38995998610359,
+      "max": 112.49007976827149
+    },
+    "tangent_mm": {
+      "median": 25.732836247937406,
+      "p95": 165.0851793289506,
+      "max": 166.97003802526837
+    },
+    "transport_only_center_mm": {
+      "median": 25.853212865351743,
+      "p95": 220.71103395495604,
+      "max": 278.60657970765885
+    },
+    "transport_only_normal_deg": {
+      "median": 3.591368457112334,
+      "p95": 82.24924454135216,
+      "max": 112.29169136262969
+    },
+    "elapsed_ms": {
+      "median": 311.59119400399504,
+      "p95": 379.7204144997522,
+      "max": 393.08491699921433
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 6,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 31,
+    "center_mm": {
+      "median": 2.1033889913801262,
+      "p95": 4.836469842726714,
+      "max": 5.062583938332909
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.4305776541784014,
+      "p95": 3.4027509755648637,
+      "max": 3.4779191777693383
+    },
+    "transport_only_center_mm": {
+      "median": 1.2962424043548575,
+      "p95": 3.599402805166754,
+      "max": 3.8017084634831524
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 63.03360850142781,
+      "p95": 210.86706435089582,
+      "max": 218.6696739954641
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 3.0663930832569712,
+      "p95": 3.9559759482121493,
+      "max": 3.96289726472033
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 2.3131349550351614,
+      "p95": 3.777702913294537,
+      "max": 3.7867530219238463
+    },
+    "transport_only_center_mm": {
+      "median": 2.3466524487380775,
+      "p95": 3.7457069007869035,
+      "max": 3.747741747717429
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 118.8985609987867,
+      "p95": 417.36705635121325,
+      "max": 478.20983300334774
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 44,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 31,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "normal_deg": {
+      "median": 1.010179453703574,
+      "p95": 1.2743700927787438,
+      "max": 1.2743700927787438
+    },
+    "tangent_mm": {
+      "median": 10.65047670514856,
+      "p95": 13.139121091376632,
+      "max": 13.684630873128233
+    },
+    "transport_only_center_mm": {
+      "median": 10.47425631079755,
+      "p95": 12.96064107255487,
+      "max": 13.101620007633018
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 0.0030495029932353646,
+      "p95": 0.0035772529372479767,
+      "max": 0.0038619982660748065
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 3.8320605042742084,
+      "p95": 4.572415615345722,
+      "max": 4.5815289706097175
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 3.244723721135985,
+      "p95": 4.091516452843968,
+      "max": 4.101648331300923
+    },
+    "transport_only_center_mm": {
+      "median": 3.2608521108996884,
+      "p95": 3.618641448682983,
+      "max": 3.6441150048505646
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 88.30031849720399,
+      "p95": 181.79735430494478,
+      "max": 379.8208629959845
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 21,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 3.9887120471192197,
+      "p95": 4.679885671075207,
+      "max": 4.6865756094108475
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 3.5620889717749726,
+      "p95": 4.21070231896279,
+      "max": 4.218100914986859
+    },
+    "transport_only_center_mm": {
+      "median": 3.4730529616657195,
+      "p95": 3.754358486601066,
+      "max": 3.7764068864894385
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 158.10749400043278,
+      "p95": 276.1785591497756,
+      "max": 829.5214899990242
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 27,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 21,
+    "center_mm": {
+      "median": 14.309958012700928,
+      "p95": 26.28634160931932,
+      "max": 28.639269622614666
+    },
+    "normal_deg": {
+      "median": 2.690794418667255,
+      "p95": 9.805314503823467,
+      "max": 10.24099786596699
+    },
+    "tangent_mm": {
+      "median": 13.819082205617992,
+      "p95": 26.25268621662502,
+      "max": 28.63896413969425
+    },
+    "transport_only_center_mm": {
+      "median": 14.2342257926082,
+      "p95": 26.102744409633477,
+      "max": 28.156332038835377
+    },
+    "transport_only_normal_deg": {
+      "median": 2.81351825475329,
+      "p95": 9.728566765713445,
+      "max": 10.096968751694371
+    },
+    "elapsed_ms": {
+      "median": 495.75459950210643,
+      "p95": 621.7876260991034,
+      "max": 675.2686940017156
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 6,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 21,
+    "center_mm": {
+      "median": 3.237253510267045,
+      "p95": 4.18435173518078,
+      "max": 4.275152845381312
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 1.434453712088583,
+      "p95": 3.7495059028675977,
+      "max": 3.75362814419953
+    },
+    "transport_only_center_mm": {
+      "median": 1.9533465294153074,
+      "p95": 3.631958258423143,
+      "max": 3.651597987306773
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 123.71769049786963,
+      "p95": 465.85933110109187,
+      "max": 504.01160799810896
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 12,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 3.794963878042827,
+      "p95": 4.151569237928447,
+      "max": 4.17271818719552
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 3.4620336608597735,
+      "p95": 3.9008989780832257,
+      "max": 3.9118479050712693
+    },
+    "transport_only_center_mm": {
+      "median": 3.253540059067708,
+      "p95": 4.152448386239007,
+      "max": 4.157970226163198
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 122.38121750124265,
+      "p95": 355.4948899971352,
+      "max": 399.55572000326356
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 44,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 31,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "normal_deg": {
+      "median": 1.010179453703574,
+      "p95": 1.2743700927787438,
+      "max": 1.2743700927787438
+    },
+    "tangent_mm": {
+      "median": 10.65047670514856,
+      "p95": 13.139121091376632,
+      "max": 13.684630873128233
+    },
+    "transport_only_center_mm": {
+      "median": 10.47425631079755,
+      "p95": 12.96064107255487,
+      "max": 13.101620007633018
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 0.0017090023902710527,
+      "p95": 0.001993648038478568,
+      "max": 0.0021930027287453413
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 3.7386263728517566,
+      "p95": 4.153209446918856,
+      "max": 4.206933485657382
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 3.2787298655721093,
+      "p95": 3.8342572933846526,
+      "max": 3.88358560929051
+    },
+    "transport_only_center_mm": {
+      "median": 3.0983155258436548,
+      "p95": 3.4904872795301616,
+      "max": 3.5399093089602887
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 98.67404399847146,
+      "p95": 136.75662735004153,
+      "max": 369.7921549974126
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 24,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 4.1218524967136165,
+      "p95": 4.855505010810559,
+      "max": 4.934779568101389
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 3.841355444263069,
+      "p95": 4.429200205337823,
+      "max": 4.491029518176642
+    },
+    "transport_only_center_mm": {
+      "median": 3.6804432969966974,
+      "p95": 4.180564712768155,
+      "max": 4.22127106192065
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 172.49355199965066,
+      "p95": 326.34784580259304,
+      "max": 732.0434119974379
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 23,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 24,
+    "center_mm": {
+      "median": 4.288984682471661,
+      "p95": 30.378017978924998,
+      "max": 32.48248142329451
+    },
+    "normal_deg": {
+      "median": 1.6655458221232076,
+      "p95": 7.557592120141988,
+      "max": 7.759385303721189
+    },
+    "tangent_mm": {
+      "median": 3.851011666716804,
+      "p95": 30.08107219117488,
+      "max": 32.17723569025726
+    },
+    "transport_only_center_mm": {
+      "median": 3.8193895490284206,
+      "p95": 30.19911257402617,
+      "max": 32.17239032210325
+    },
+    "transport_only_normal_deg": {
+      "median": 1.66091218109243,
+      "p95": 7.042215809302896,
+      "max": 7.1628433707467645
+    },
+    "elapsed_ms": {
+      "median": 470.44827599893324,
+      "p95": 590.1777211034641,
+      "max": 693.1236710006488
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 9,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 20,
+    "center_mm": {
+      "median": 3.841300503537726,
+      "p95": 4.09121167319686,
+      "max": 4.169674739201825
+    },
+    "normal_deg": {
+      "median": 1.010179453703575,
+      "p95": 1.2743700927787442,
+      "max": 1.2743700927787442
+    },
+    "tangent_mm": {
+      "median": 2.6105096365459044,
+      "p95": 3.7920945832482027,
+      "max": 3.8154191738409446
+    },
+    "transport_only_center_mm": {
+      "median": 2.531232389544435,
+      "p95": 3.639722047335878,
+      "max": 3.68690011413842
+    },
+    "transport_only_normal_deg": {
+      "median": 0.9993282144288567,
+      "p95": 0.9999921501387316,
+      "max": 0.9999921501387316
+    },
+    "elapsed_ms": {
+      "median": 131.63914250253583,
+      "p95": 440.9846920978453,
+      "max": 609.386985997844
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.3031936160573268,
+      "p95": 2.244159818284951,
+      "max": 2.2610876539612565
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.014409436230068,
+      "p95": 1.87211569202379,
+      "max": 1.8870926038317157
+    },
+    "transport_only_center_mm": {
+      "median": 2.2022882073208576,
+      "p95": 2.645282049706952,
+      "max": 2.6555049705039773
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 94.71728700009407,
+      "p95": 432.1357678014465,
+      "max": 500.29771700064884
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2624616208053774,
+      "p95": 2.4516116580453704,
+      "max": 2.770722645183577
+    },
+    "transport_only_center_mm": {
+      "median": 2.4449899687774543,
+      "p95": 2.8284271247460357,
+      "max": 2.8284271247460357
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0028735012165270746,
+      "p95": 0.003586304228520021,
+      "max": 0.005226000212132931
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.6572972862811035,
+      "p95": 2.6128217192926066,
+      "max": 2.6238179321206188
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.2789619303664579,
+      "p95": 2.1240366327494424,
+      "max": 2.5693184775359597
+    },
+    "transport_only_center_mm": {
+      "median": 2.3163538910597996,
+      "p95": 2.4301966638294776,
+      "max": 2.9576440437999563
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 86.75214550385135,
+      "p95": 245.6215062004049,
+      "max": 357.0640190009726
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8719448839655186,
+      "p95": 2.7997118255295623,
+      "max": 3.3970314897689087
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.5418985253866495,
+      "p95": 2.46076050650745,
+      "max": 3.028400253494738
+    },
+    "transport_only_center_mm": {
+      "median": 2.467612949208215,
+      "p95": 2.8134983780184126,
+      "max": 3.968892507189484
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 182.24129900045227,
+      "p95": 902.9399555503915,
+      "max": 967.4847080023028
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 25,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 22,
+    "center_mm": {
+      "median": 10.643088946499383,
+      "p95": 28.924236619209204,
+      "max": 32.30821637821619
+    },
+    "normal_deg": {
+      "median": 3.1341852731143938,
+      "p95": 9.689289887845131,
+      "max": 11.065554444680442
+    },
+    "tangent_mm": {
+      "median": 10.226979265416613,
+      "p95": 28.920661484127184,
+      "max": 32.07287060493749
+    },
+    "transport_only_center_mm": {
+      "median": 10.965052931147557,
+      "p95": 28.487599757682467,
+      "max": 31.636663147485546
+    },
+    "transport_only_normal_deg": {
+      "median": 3.283764752624663,
+      "p95": 9.611341765581944,
+      "max": 11.144111121126882
+    },
+    "elapsed_ms": {
+      "median": 514.3459860009898,
+      "p95": 651.0194855978625,
+      "max": 706.8234889957239
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 6,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 35,
+    "center_mm": {
+      "median": 2.2342673266428,
+      "p95": 5.540315015728328,
+      "max": 5.649310853249502
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.020588778158549,
+      "p95": 4.158231891147217,
+      "max": 4.24181533056141
+    },
+    "transport_only_center_mm": {
+      "median": 0.49479485929897177,
+      "p95": 3.8898816699269108,
+      "max": 3.976623540149671
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 96.3683635018242,
+      "p95": 472.4537979509478,
+      "max": 524.9165649947827
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.7906061108171891,
+      "p95": 2.492562996197652,
+      "max": 2.5115980671664477
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.406624904447956,
+      "p95": 2.1475111055350253,
+      "max": 2.1605232916734507
+    },
+    "transport_only_center_mm": {
+      "median": 2.386287678166543,
+      "p95": 2.9775846957923457,
+      "max": 2.993696124806418
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 111.22481550046359,
+      "p95": 425.78482125027233,
+      "max": 541.7667400033679
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "tangent_mm": {
+      "median": 1.2624616208053774,
+      "p95": 2.4516116580453704,
+      "max": 2.770722645183577
+    },
+    "transport_only_center_mm": {
+      "median": 2.4449899687774543,
+      "p95": 2.8284271247460357,
+      "max": 2.8284271247460357
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 0.0017785023374017328,
+      "p95": 0.0020806466636713594,
+      "max": 0.002134001988451928
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "observed_subset_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.5496485644243831,
+      "p95": 2.5333822323557897,
+      "max": 2.5544419931096365
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.2849182330928781,
+      "p95": 1.921994157379055,
+      "max": 1.9799774893917756
+    },
+    "transport_only_center_mm": {
+      "median": 2.271936391928107,
+      "p95": 2.6065347378282695,
+      "max": 2.6703892332925263
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 89.69545950094471,
+      "p95": 367.7036419030629,
+      "max": 404.8350789962569
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "reciprocal_axis",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.129250805151476,
+      "p95": 3.0181675518666795,
+      "max": 3.0775680714528098
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 1.9904985817467435,
+      "p95": 2.786803855175447,
+      "max": 2.83275541468501
+    },
+    "transport_only_center_mm": {
+      "median": 2.7364073855777775,
+      "p95": 3.0474874820930427,
+      "max": 3.0868728923573796
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 164.67568300140556,
+      "p95": 575.3599899013358,
+      "max": 1005.2113409983576
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 24,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 22,
+    "center_mm": {
+      "median": 4.719531893096676,
+      "p95": 32.38081329776087,
+      "max": 32.69964964456829
+    },
+    "normal_deg": {
+      "median": 1.4715783613320967,
+      "p95": 7.791897633780981,
+      "max": 7.914789240750498
+    },
+    "tangent_mm": {
+      "median": 4.349924344989139,
+      "p95": 32.08383633029634,
+      "max": 32.414052191166846
+    },
+    "transport_only_center_mm": {
+      "median": 4.339858528561278,
+      "p95": 32.05833212511198,
+      "max": 32.36097595290066
+    },
+    "transport_only_normal_deg": {
+      "median": 1.2679765295189793,
+      "p95": 7.297539893777919,
+      "max": 7.649129173081346
+    },
+    "elapsed_ms": {
+      "median": 499.01848300214624,
+      "p95": 651.3253668468678,
+      "max": 678.3693730030791
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 4,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 36,
+    "center_mm": {
+      "median": 1.6525581594694128,
+      "p95": 4.340274928485671,
+      "max": 4.475629030810075
+    },
+    "normal_deg": {
+      "median": 0.2692511876086361,
+      "p95": 1.0745356376929343,
+      "max": 1.0745356376929343
+    },
+    "tangent_mm": {
+      "median": 0.8186929393006063,
+      "p95": 2.5499505361824153,
+      "max": 2.690235596880231
+    },
+    "transport_only_center_mm": {
+      "median": 0.7900936853516372,
+      "p95": 2.1734504307885145,
+      "max": 2.318460117892949
+    },
+    "transport_only_normal_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "elapsed_ms": {
+      "median": 152.7250555009232,
+      "p95": 380.33132149976166,
+      "max": 440.2770110027632
+    },
+    "final_fastening_success": null
+  }
+]

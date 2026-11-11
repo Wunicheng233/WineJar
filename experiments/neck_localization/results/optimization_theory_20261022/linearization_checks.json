@@ -1,0 +1,65 @@
+{
+  "kind": "analytic_linearization_and_degeneracy_checks_not_localization_results",
+  "seed": 20261022,
+  "camera_pose_search": false,
+  "rendered_noise_experiments": false,
+  "maximum_absolute_derivative_difference": {
+    "origin": 5.671854097499818e-10,
+    "normal_tangent": 1.0219845802961203e-11,
+    "profile": 3.467053033556766e-13,
+    "unprojection": 7.783481541581705e-12
+  },
+  "circle_examples": {
+    "full_circle": {
+      "n": 120,
+      "rank": 3,
+      "information_eigenvalues": [
+        59.99999999999999,
+        60.0,
+        120.0
+      ],
+      "condition": 2.0000000000000004
+    },
+    "short_arc_30_deg": {
+      "n": 120,
+      "rank": 3,
+      "information_eigenvalues": [
+        0.006484709146802402,
+        2.749039280583631,
+        237.24447601026958
+      ],
+      "condition": 36585.214639465274
+    },
+    "one_repeated_direction": {
+      "n": 120,
+      "rank": 1,
+      "information_eigenvalues": [
+        0.0,
+        0.0,
+        240.0
+      ],
+      "condition": null
+    },
+    "two_opposed_directions": {
+      "n": 120,
+      "rank": 2,
+      "information_eigenvalues": [
+        1.401298464324817e-45,
+        120.0,
+        120.0
+      ],
+      "condition": null
+    },
+    "three_balanced_directions": {
+      "n": 120,
+      "rank": 3,
+      "information_eigenvalues": [
+        59.99999999999999,
+        60.00000000000003,
+        120.0
+      ],
+      "condition": 2.0000000000000004
+    }
+  },
+  "limits": "Unit radial variance and specified angular evidence only; not a camera placement or real accuracy prediction."
+}

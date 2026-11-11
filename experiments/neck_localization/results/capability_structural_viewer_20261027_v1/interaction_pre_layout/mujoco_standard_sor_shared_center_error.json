@@ -1,0 +1,40 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "structural_test_stress_001",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "standard_sor",
+  "large_neck_view": true,
+  "finite_band_overlay": false,
+  "sensor_perturbation": null,
+  "depth_preprocessing": {
+    "kind": "saved_capability_predictions",
+    "condition": "近·FoundationStereo噪"
+  },
+  "point_cloud_view": true,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": true,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "mouse_navigation": true,
+  "navigation_scroll": 0,
+  "show_neck_view": true,
+  "show_estimate": true,
+  "show_rejected_candidate": true,
+  "fitted_pixel_display_overlay": true,
+  "fit_subset_semantics": "actual fixed training subset; Huber influence times equal-view base weight",
+  "ground_truth_overlay": true,
+  "depth_display": true,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "6818cedf2dc5164c1b3f94e051f0b4fe28a778c64bde89a74f984caa208d6b6c",
+  "raw_rgb_sha256": {
+    "cam_a": "09a7ad29b310504ed351ed5d40001cec89a7d27b8e8b37ec33ce5b429d59a8c9",
+    "cam_b": "b5e94787524b56ba50623bc34743df75fd8aeb7752cde849f48c6e9263e64bd0",
+    "cam_c": "76748c19a05cfe516cd1812945f153d79d205613850d26e513a7c4ca85b764b5"
+  }
+}

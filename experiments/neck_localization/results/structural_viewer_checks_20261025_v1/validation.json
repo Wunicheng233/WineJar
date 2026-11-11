@@ -1,0 +1,36 @@
+{
+  "scope": "new-viewer mouse callback integration; post-hoc selected examples are visualization only",
+  "actions": [
+    "toggle_rejected",
+    "toggle_truth",
+    "view:fit",
+    "dataset:close/stereo_raw",
+    "method:portfolio_fixed",
+    "method:baseline",
+    "dataset:far/narrow5",
+    "method:portfolio_single",
+    "next",
+    "method:portfolio",
+    "next",
+    "next",
+    "next",
+    "next",
+    "view:cloud",
+    "input:depth"
+  ],
+  "protected_files": 90,
+  "inputs_unchanged": true,
+  "method_preserved_between_conditions": true,
+  "same_case_view_pose_preserved": true,
+  "rejected_orange_candidate": true,
+  "no_circle_fabricated_for_baseline": true,
+  "wrong_accept_example": {
+    "case": "structural_test_nominal_005",
+    "condition": "far/narrow5",
+    "method": "portfolio",
+    "center_mm": 4.654081318628307,
+    "normal_deg": 6.111979156757245,
+    "diameter_mm": 6.923235781807257
+  },
+  "presented_GL_backbuffer_snapshots": true
+}

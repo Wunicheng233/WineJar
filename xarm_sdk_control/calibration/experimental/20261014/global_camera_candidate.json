@@ -1,0 +1,151 @@
+{
+  "type": "experimental_global_camera_calibration",
+  "status": "requires_physical_validation",
+  "absolute_accuracy_validated": false,
+  "camera": {
+    "name": "Intel RealSense D435I",
+    "serial": "013222073103",
+    "firmware": "5.11.1.100",
+    "usb_type": "3.2"
+  },
+  "description": "New global RGB extrinsic from fixed board pose estimated by 2026-10-14 hand-eye dataset",
+  "base_T_camera": [
+    [
+      -0.06666003210056039,
+      0.992878225813992,
+      -0.09873838577175209,
+      0.4646404837860746
+    ],
+    [
+      0.9975557475758925,
+      0.06424024656887381,
+      -0.027490383756377336,
+      -0.007580327210794879
+    ],
+    [
+      -0.020951625203187777,
+      -0.10032955409663406,
+      -0.9947336377021316,
+      0.8666701092683637
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "base_T_camera_translation_m": [
+    0.4646404837860746,
+    -0.007580327210794879,
+    0.8666701092683637
+  ],
+  "transform_base_from_board": [
+    [
+      -0.023208571318847245,
+      0.9997179844183437,
+      -0.00503128689918864,
+      0.32670130796465807
+    ],
+    [
+      0.9996758084236482,
+      0.023154293788487115,
+      -0.010590407531441378,
+      -0.17799534778029277
+    ],
+    [
+      -0.010470924976503477,
+      -0.005275444026847046,
+      -0.9999312623477955,
+      0.0023565940857676573
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_global_from_board": [
+    [
+      0.9989988154103477,
+      -0.04343300495703736,
+      0.010721048881708122,
+      -0.14269468052603054
+    ],
+    [
+      0.042226678541210746,
+      0.9946149391726015,
+      0.09464687207752628,
+      -0.061188117522272566
+    ],
+    [
+      -0.014774113445457869,
+      -0.09409939880299098,
+      0.9954531775612635,
+      0.8780663929412994
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "board": {
+    "inner_corners": [
+      11,
+      8
+    ],
+    "square_size_mm": 20
+  },
+  "source_hand_eye": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/recommissioning/2026-10-14/new_hand_eye_candidates/wrist_hand_eye_20261014_140106_801.json",
+  "source_hand_eye_sha256": "15b434bfb92e4a7ab3e5b8f7cfbd0d4aa9d3256c313a1ed5ed6f187475a38846",
+  "source_color": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/recommissioning/2026-10-14/global_after_hand_eye/20261014_141341_060/color.png",
+  "source_color_sha256": "c5df828e27acfcbfd41c867e56b4011258a28a85e0be804cb3a31c6f68422041",
+  "global_RGB_intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 607.8262939453125,
+    "fy": 607.08203125,
+    "ppx": 322.5444030761719,
+    "ppy": 246.16725158691406,
+    "distortion_model": "distortion.inverse_brown_conrady",
+    "distortion_coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "camera_matrix": [
+      [
+        607.8262939453125,
+        0.0,
+        322.5444030761719
+      ],
+      [
+        0.0,
+        607.08203125,
+        246.16725158691406
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "global_pnp_rmse_px": 0.1482405509822275,
+  "hand_eye_training_origin_residual_mm": {
+    "mean": 4.350550812048515,
+    "median": 3.6780252632085113,
+    "max": 9.66095910763241
+  },
+  "limitations": [
+    "Estimated board base pose inherits hand-eye error; not independent ground truth",
+    "Global aligned depth consistency not qualified",
+    "Old home, jar position, visual bias and robot routes are not valid for relocated setup",
+    "No unattended motion authorization; use explicit reviewed configuration for staged testing"
+  ]
+}

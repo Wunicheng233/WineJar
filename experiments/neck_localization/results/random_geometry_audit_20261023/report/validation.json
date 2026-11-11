@@ -1,0 +1,7 @@
+{
+  "saved_36_case_config_reproduces_seed": true,
+  "all_36_JarSpec_valid": true,
+  "nominal_000_all_observation_files_identical_on_independent_rebuild": true,
+  "nominal_000_six_estimates_identical_except_runtime": true,
+  "frozen_sources_unchanged": true
+}

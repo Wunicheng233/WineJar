@@ -1,0 +1,35 @@
+{
+  "kind": "unchanged copies of completed locked artifacts; originals retained",
+  "files": [
+    {
+      "file": "sim_d435_preset.npz",
+      "source": "experiments/neck_localization/runs/gp_depth_calibration_20261024_v1/models/sim_d435_preset.npz",
+      "sha256": "bf0f1699578616f153d6d00c038df21ae47680544d074565505d1c44caf7cf3a",
+      "bytes": 886534
+    },
+    {
+      "file": "estimated_camera_parameters.json",
+      "source": "experiments/neck_localization/runs/rendered_calibration_20261025_v3/estimated_camera_parameters.json",
+      "sha256": "9f9d25bccbcc333a0d8dc14cfc2c94e9f82d8c1f2d4eb4a29134a10323c63bf7",
+      "bytes": 3428
+    },
+    {
+      "file": "true_parameters_records.json.gz",
+      "source": "experiments/neck_localization/runs/active_stereo_adapted_test_20261025_v1/records.json.gz",
+      "sha256": "1cad1cd3b0af1b3639eb9363b79c66aeeb33c0c59e2bd95fd831150fad2c8e12",
+      "bytes": 1674090
+    },
+    {
+      "file": "gp_records.json.gz",
+      "source": "experiments/neck_localization/runs/active_stereo_gp_adapted_test_20261025_v1/records.json.gz",
+      "sha256": "11e740b5734dd20ef0f1ccac4d8f2b13d40165faad2a757c662003335b585fe9",
+      "bytes": 496505
+    },
+    {
+      "file": "board_parameters_records.json.gz",
+      "source": "experiments/neck_localization/runs/active_stereo_board_calibrated_test_20261025_v1/records.json.gz",
+      "sha256": "8922174a5d9afb66a4cfc905765f2777018df2efbcfb1574970c6d452a3b10ec",
+      "bytes": 1657468
+    }
+  ]
+}

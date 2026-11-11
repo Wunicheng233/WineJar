@@ -1,0 +1,433 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 1,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 2,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 3,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 4,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 5,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 6,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 7,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 8,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 9,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 10,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 11,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 12,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 13,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 14,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 15,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 16,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 17,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 18,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 19,
+      "identified_corners": 25,
+      "used": false
+    },
+    {
+      "frame": 20,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 21,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 22,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 23,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 24,
+      "identified_corners": 35,
+      "used": true
+    },
+    {
+      "frame": 25,
+      "identified_corners": 35,
+      "used": true
+    }
+  ],
+  "full_detection_frames": 25,
+  "corner_error_px": {
+    "median": 0.6960906926127741,
+    "p95": 0.7813159937562787,
+    "max": 0.9803698844469458
+  },
+  "methods": [
+    {
+      "accepted": true,
+      "reason": "ok",
+      "B_T_C": [
+        [
+          0.5539320560815164,
+          0.31998303384549653,
+          -0.7686157266777298,
+          0.6005690564480869
+        ],
+        [
+          0.8325617223137805,
+          -0.21233487503726567,
+          0.5116198582745008,
+          -0.3506284303458084
+        ],
+        [
+          0.0005057501504848738,
+          -0.9233226732263974,
+          -0.3840247196767999,
+          0.6005311891849476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "F_T_P": [
+        [
+          0.9684309285450455,
+          -0.21984739220408187,
+          -0.11751025818389672,
+          0.029805766379023164
+        ],
+        [
+          0.2068128788083892,
+          0.9717578297497091,
+          -0.11364485680893059,
+          0.009572111672747624
+        ],
+        [
+          0.13917603887296112,
+          0.0857545594193126,
+          0.986547609465672,
+          0.08073723487819565
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_rms": 0.2499676524624567,
+      "evaluations": 0,
+      "excitation": {
+        "singular_values_rad": [
+          1.8776633041776964,
+          1.0962095704932824,
+          1.066161438605325
+        ],
+        "independent_axes": true,
+        "practical_secondary_excitation_floor_rad": 0.01
+      },
+      "robot_poses_treated_as_fixed": true,
+      "no_real_accuracy_or_confidence_claim": true,
+      "method": "park",
+      "physical_query_max_mm": 1.23989768410051,
+      "holdout_pixel_rms": 0.24526805016474382
+    },
+    {
+      "accepted": true,
+      "reason": "ok",
+      "B_T_C": [
+        [
+          0.5539270558657665,
+          0.3199860586943104,
+          -0.7686180709696888,
+          0.6005695704134439
+        ],
+        [
+          0.8325650485457887,
+          -0.2123330919006516,
+          0.5116151854898939,
+          -0.35062715741721456
+        ],
+        [
+          0.0005066752733614566,
+          -0.9233220350046843,
+          -0.3840262529502074,
+          0.6005313340201585
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "F_T_P": [
+        [
+          0.9684306855582155,
+          -0.21985054560471662,
+          -0.11750636096208841,
+          0.029804208921809437
+        ],
+        [
+          0.2068167438366474,
+          0.9717573063324556,
+          -0.113642298719694,
+          0.009571017909406504
+        ],
+        [
+          0.1391719861827472,
+          0.08575240630325195,
+          0.9865483683404229,
+          0.08073654706702953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_rms": 0.2500371382633306,
+      "evaluations": 0,
+      "excitation": {
+        "singular_values_rad": [
+          1.8776633041776964,
+          1.0962095704932824,
+          1.066161438605325
+        ],
+        "independent_axes": true,
+        "practical_secondary_excitation_floor_rad": 0.01
+      },
+      "robot_poses_treated_as_fixed": true,
+      "no_real_accuracy_or_confidence_claim": true,
+      "method": "horaud",
+      "physical_query_max_mm": 1.241110653962913,
+      "holdout_pixel_rms": 0.24540827204690485
+    },
+    {
+      "accepted": true,
+      "reason": "ok",
+      "B_T_C": [
+        [
+          0.5542659277486274,
+          0.31915252474514894,
+          -0.7687203309954476,
+          0.5999895647740616
+        ],
+        [
+          0.8323396306352049,
+          -0.2126871657344976,
+          0.5118348452439291,
+          -0.35009373194409027
+        ],
+        [
+          -0.00014356532976395053,
+          -0.9235290117157248,
+          -0.3835285437987278,
+          0.6000334701197669
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "F_T_P": [
+        [
+          0.9685951909766879,
+          -0.2191096680272965,
+          -0.11753429028926682,
+          0.03002022217755484
+        ],
+        [
+          0.20601200849654996,
+          0.9718793397306542,
+          -0.11405963948709123,
+          0.009977692290208706
+        ],
+        [
+          0.13922071818537335,
+          0.08626414308202289,
+          0.9864968774640259,
+          0.07998733232615235
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_rms": 0.07667015445699638,
+      "evaluations": 7,
+      "excitation": {
+        "singular_values_rad": [
+          1.8776633041776964,
+          1.0962095704932824,
+          1.066161438605325
+        ],
+        "independent_axes": true,
+        "practical_secondary_excitation_floor_rad": 0.01
+      },
+      "robot_poses_treated_as_fixed": true,
+      "no_real_accuracy_or_confidence_claim": true,
+      "method": "pixel_ls",
+      "physical_query_max_mm": 0.7347597151514105,
+      "holdout_pixel_rms": 0.07740166652655782
+    },
+    {
+      "accepted": true,
+      "reason": "ok",
+      "B_T_C": [
+        [
+          0.5542489765001516,
+          0.3191524123951796,
+          -0.7687325996150232,
+          0.5999959799985422
+        ],
+        [
+          0.8323509175625297,
+          -0.21268329118618745,
+          0.5118181001909039,
+          -0.35008413024856233
+        ],
+        [
+          -0.00014859794479205046,
+          -0.9235299428348538,
+          -0.38352629975805075,
+          0.6000360543601329
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "F_T_P": [
+        [
+          0.9685936839173634,
+          -0.21911727887623944,
+          -0.1175325213430851,
+          0.0300183466852219
+        ],
+        [
+          0.20599804168813418,
+          0.9718641955986255,
+          -0.11421380010353521,
+          0.009980815237606794
+        ],
+        [
+          0.13925186640057707,
+          0.08641529616514015,
+          0.9864792518307959,
+          0.07999025962921857
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_rms": 0.07670486294858848,
+      "evaluations": 5,
+      "excitation": {
+        "singular_values_rad": [
+          1.8776633041776964,
+          1.0962095704932824,
+          1.066161438605325
+        ],
+        "independent_axes": true,
+        "practical_secondary_excitation_floor_rad": 0.01
+      },
+      "robot_poses_treated_as_fixed": true,
+      "no_real_accuracy_or_confidence_claim": true,
+      "method": "pixel_huber",
+      "physical_query_max_mm": 0.7415375914236514,
+      "holdout_pixel_rms": 0.07742458988453742
+    }
+  ],
+  "renderer": "analytic_planar_homography_4x_supersampling_not_sensor_simulation",
+  "hardware_or_training": false,
+  "nominal_intrinsics_and_robot_poses_exact": true
+}

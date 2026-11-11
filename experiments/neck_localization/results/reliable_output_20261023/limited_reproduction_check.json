@@ -1,0 +1,10 @@
+{
+  "repeated_development_cases": [
+    "nominal_002",
+    "stress_001"
+  ],
+  "compared_estimates": 12,
+  "identical_all_serialized_score_fields_except_runtime_ms": true,
+  "full_one_command_rebuild_executed": false,
+  "normalization": "JSON roundtrip, e.g. tuples become lists"
+}

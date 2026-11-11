@@ -1,0 +1,32 @@
+{
+  "scope": "display-only integration; mouse callback receives injected pointer coordinates",
+  "actions": [
+    "view:fit",
+    "input:depth",
+    "dataset:stereo_spatial",
+    "toggle_truth",
+    "toggle_fit_pixels",
+    "dataset:stereo_gp",
+    "dataset:stereo_gp_spatial",
+    "dataset:ideal_ir_registered",
+    "dataset:ideal_rgb",
+    "input:rgb",
+    "color:weights",
+    "next",
+    "previous",
+    "small_window:reset",
+    "native_initialization_failure:no_fabricated_fit_cloud"
+  ],
+  "condition_count": 6,
+  "native_count": 4,
+  "same_case_and_view_pose_preserved": true,
+  "RGB_unchanged_across_conditions": true,
+  "protected_input_file_count": 90,
+  "protected_inputs_unchanged": true,
+  "no_fallback_when_fit_absent": true,
+  "rendered_snapshots": "actual window back-buffer readback",
+  "sources": {
+    "neck_localization/inspection_viewer.py": "03215bb0618ca7424d961504cc74543356768a303b97e89cc808f958f260e349",
+    "neck_localization/viewer_navigation.py": "aa6bcc95edcf348287e7d73f12796a2424c8429b1e4bd66a17f7b0486bc9aa8b"
+  }
+}

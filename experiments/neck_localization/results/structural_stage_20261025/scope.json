@@ -1,0 +1,10 @@
+{
+  "total_records": 624,
+  "layouts": 2,
+  "independent_jar_geometries": 12,
+  "paired_layouts_not_24_independent_jars": true,
+  "parameter_tuning_uses_only_old_development": true,
+  "no_calibrated_uncertainty": true,
+  "no_real_hardware": true,
+  "all_rejections_are_failures": true
+}

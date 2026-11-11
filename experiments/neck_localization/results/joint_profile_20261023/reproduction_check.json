@@ -1,0 +1,7 @@
+{
+  "kind": "same_source_fixed_seed_reproduction",
+  "development_records": 72,
+  "test_records": 54,
+  "identical_after_removing": "runtime_ms",
+  "scope": "repeated already evaluated synthetic cases; not a second independent test set"
+}

@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "completed_first_round": true,
+  "scope": "previously viewed synthetic capability audit, no unseen or physical validation",
+  "snapshots": {
+    "foundation_stereo_inference": {
+      "original": "experiments/neck_localization/runs/foundation_stereo_capability_20261027_v1/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/foundation_stereo_inference.json",
+      "sha256": "97784dfc41887e2f7c69a11a69c950421bba3939a4682c67fb28e01a0d6094c5"
+    },
+    "simsense_inference": {
+      "original": "experiments/neck_localization/runs/simsense_capability_20261027_v1/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/simsense_inference.json",
+      "sha256": "8fe02971e4cc1e51ad2f6e74a224c14a150f2ca81b218d6a4d3147f74f54c8a1"
+    },
+    "ideal_reference": {
+      "original": "experiments/neck_localization/runs/ideal_native_reference_capability_20261027_v1/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/ideal_reference.json",
+      "sha256": "aa3f9beecc0e940f73f19ddd1fb88c7b9d9ae72ab397d9a67b3caafaeb1272f6"
+    },
+    "p2p_far_inference": {
+      "original": "experiments/neck_localization/runs/p2p_capability_far_20261027_v2/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/p2p_far_inference.json",
+      "sha256": "0644d19f45111938d7cba3a61594be0b6fefd096d43dffc0dddd3447395aaa39"
+    },
+    "p2p_close_inference": {
+      "original": "experiments/neck_localization/runs/p2p_capability_close_20261027_v2/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/p2p_close_inference.json",
+      "sha256": "e21b16ef2390c875cfbfea3167b6b2a3f30131b38c463334432f213265913f82"
+    },
+    "p2p_output_audit": {
+      "original": "experiments/neck_localization/runs/p2p_capability_output_audit_20261027_v2.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/p2p_output_audit.json",
+      "sha256": "86dda05b2a02bbd30961c203375f620f89db6313b1476146ebeb0624d719c241"
+    },
+    "lndf_inference": {
+      "original": "experiments/neck_localization/runs/capability_lndf_frozen_cos_full_20261027_v1/provenance.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/lndf_inference.json",
+      "sha256": "819ce2842d603a3abfafc8f26a0014a0928e59d373c56ace16a15bf15efd4218"
+    },
+    "lndf_output_audit": {
+      "original": "experiments/neck_localization/runs/capability_lndf_frozen_cos_full_20261027_v1/artifact_audit.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/lndf_output_audit.json",
+      "sha256": "eb1386bda6e7cf63bd12d40267b4f233a41f084e969459eac02bcfe7726aa64d"
+    },
+    "lndf_development_protocol": {
+      "original": "experiments/neck_localization/runs/capability_lndf_development_protocol_20261027_v1/protocol.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/lndf_development_protocol.json",
+      "sha256": "ba462dbfa162ffec97c72ca55dce5e2ddb4fd41a4b7c731913d34b972317c9b7"
+    },
+    "lndf_development_selection": {
+      "original": "experiments/neck_localization/runs/capability_lndf_development_protocol_20261027_v1/selection.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/lndf_development_selection.json",
+      "sha256": "27ab8570254c6567584b0531ddf9d4e0ea24d24c9d25ee7a82991e13ac9b51bb"
+    },
+    "shared_ir_manifest": {
+      "original": "experiments/neck_localization/runs/capability_inputs_20261027_v1/manifest.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/shared_ir_manifest.json",
+      "sha256": "46bd2d4954b75d1471001bcdeb2c2df264bcff0659b80da727d6c4e3cbc66aa3"
+    },
+    "common_depth_summary": {
+      "original": "experiments/neck_localization/results/capability_common_depth_summary_20261027.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/common_depth_summary.json",
+      "sha256": "74dc896384f9098665d7b9e9fc3ab6dfe7c352d483a5aa0ea27f88e04c71a81c"
+    },
+    "intrinsics_audit": {
+      "original": "experiments/neck_localization/results/capability_intrinsics_audit_20261027.json",
+      "snapshot": "experiments/neck_localization/results/capability_audit_20261027_v1/provenance/intrinsics_audit.json",
+      "sha256": "a0ac5a9d4a097d1e420755d72cca9c2c3a67ceca5da38c7cae1926e428fecc06"
+    }
+  },
+  "validations": {
+    "simsense_capability_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "group_count": 56,
+      "backend_record_count": 224,
+      "pair_count": 168,
+      "manifest_pair_count": 168
+    },
+    "foundation_stereo_capability_eval_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "group_count": 56,
+      "backend_record_count": 224,
+      "pair_count": 168,
+      "manifest_pair_count": 168
+    },
+    "ideal_native_capability_eval_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "group_count": 28,
+      "backend_record_count": 112,
+      "pair_count": 84,
+      "manifest_pair_count": 84
+    },
+    "p2p_capability_close_eval_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "paired_cloud_count": 24,
+      "backend_record_count": 96
+    },
+    "p2p_capability_far_eval_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "paired_cloud_count": 24,
+      "backend_record_count": 96
+    },
+    "p2p_capability_close_eval_20261027_v2": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "paired_cloud_count": 24,
+      "backend_record_count": 96
+    },
+    "p2p_capability_far_eval_20261027_v2": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "paired_cloud_count": 24,
+      "backend_record_count": 96
+    },
+    "simsense_capability_common_metrics_20261027_v1": {
+      "passed": true,
+      "changed_inputs": [],
+      "frozen_sources_unchanged": true,
+      "settings_unchanged": true,
+      "group_count": 56,
+      "backend_record_count": 0,
+      "pair_count": 168,
+      "manifest_pair_count": 168
+    }
+  },
+  "shared_pair_count": 168,
+  "shared_inputs_unchanged": true,
+  "unit_tests": {
+    "command": "conda run -n winejar-stereo python -m unittest discover -s tests/neck_localization",
+    "run": 98,
+    "passed": 96,
+    "skipped": 2,
+    "errors": 0,
+    "failures": 0
+  },
+  "no_hardware": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "primary_summaries_sha256": "3d34c06a4a1e348bbf637cfa60830426b17d7a76354d3295d58236b003667d31",
+  "common_intersection_summary_count": 36,
+  "oracle_measurement_summary_count": 9
+}

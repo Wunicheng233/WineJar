@@ -1,0 +1,558 @@
+{
+  "kind": "development_mechanism_diagnostic_not_test",
+  "note": "Single-update variant intentionally fails feedback convergence; compare candidate errors only, not success rates.",
+  "records": [
+    {
+      "case": "flat_neck",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.19983733213533855,
+      "converged_normal_deg": 0.1779416621575818,
+      "single_update_center_mm": 1.009287550279589,
+      "converged_center_mm": 0.9883476544401403,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "flat_neck",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.0473731352972327,
+      "converged_normal_deg": 0.0445830068965685,
+      "single_update_center_mm": 0.8422073013972904,
+      "converged_center_mm": 0.8404463852489257,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "flat_neck",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.0411316812497272,
+      "converged_normal_deg": 0.038691872625888316,
+      "single_update_center_mm": 0.8316236900138801,
+      "converged_center_mm": 0.8313731568249584,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "reference_shallow",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.013291930065895557,
+      "converged_normal_deg": 0.01345701674033098,
+      "single_update_center_mm": 0.04256684734782921,
+      "converged_center_mm": 0.042721663414127704,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "reference_shallow",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.0012639506817328716,
+      "converged_normal_deg": 0.0012646500340695959,
+      "single_update_center_mm": 0.03008253429543251,
+      "converged_center_mm": 0.030082454435092453,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "reference_shallow",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.003207409991303662,
+      "converged_normal_deg": 0.0032060899965230543,
+      "single_update_center_mm": 0.035751415677434804,
+      "converged_center_mm": 0.03575132215003154,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tall_broad_jar",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.005088289447357047,
+      "converged_normal_deg": 0.005002294111925792,
+      "single_update_center_mm": 0.0012814701988824494,
+      "converged_center_mm": 0.0012314966175229506,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tall_broad_jar",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.0010870070909138494,
+      "converged_normal_deg": 0.0010729438326919898,
+      "single_update_center_mm": 0.001464018461697729,
+      "converged_center_mm": 0.0014554576158969832,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tall_broad_jar",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.0017432082191573132,
+      "converged_normal_deg": 0.0017203875817977622,
+      "single_update_center_mm": 0.006355141929497823,
+      "converged_center_mm": 0.006355205402052003,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tilted_neck",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.014744251458897904,
+      "converged_normal_deg": 0.014403923702618423,
+      "single_update_center_mm": 0.05550336173947947,
+      "converged_center_mm": 0.055204392398930886,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tilted_neck",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.010023988415087528,
+      "converged_normal_deg": 0.009976694353903408,
+      "single_update_center_mm": 0.03330469809790881,
+      "converged_center_mm": 0.03327428791673273,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tilted_neck",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.008122413316201728,
+      "converged_normal_deg": 0.008005911285984638,
+      "single_update_center_mm": 0.02966663978014584,
+      "converged_center_mm": 0.029655364529005333,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "broad_reverse_tilt",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.014847735395627235,
+      "converged_normal_deg": 0.013572535015056501,
+      "single_update_center_mm": 0.006150631669170941,
+      "converged_center_mm": 0.0071560870856941005,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "broad_reverse_tilt",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.009235396616116717,
+      "converged_normal_deg": 0.00813699817110394,
+      "single_update_center_mm": 0.021870881826319577,
+      "converged_center_mm": 0.021306720392427286,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "broad_reverse_tilt",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.009090201474118991,
+      "converged_normal_deg": 0.008057441106064468,
+      "single_update_center_mm": 0.021765545599804172,
+      "converged_center_mm": 0.02173173298414398,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "short_upright",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.004404911070600309,
+      "converged_normal_deg": 0.0053732160167946075,
+      "single_update_center_mm": 0.067791026714702,
+      "converged_center_mm": 0.06858971950109412,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "short_upright",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.00011154087889841926,
+      "converged_normal_deg": 0.00010948960477758867,
+      "single_update_center_mm": 0.06293149383654596,
+      "converged_center_mm": 0.0629264857404534,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "short_upright",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.00016585198615451214,
+      "converged_normal_deg": 0.00016052760986427753,
+      "single_update_center_mm": 0.0641438315127948,
+      "converged_center_mm": 0.06414437874301906,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "taller_mild_tilt",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.011095048851375584,
+      "converged_normal_deg": 0.011071800720990153,
+      "single_update_center_mm": 0.028994930790656365,
+      "converged_center_mm": 0.028947895093204674,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "taller_mild_tilt",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.0017692425196899136,
+      "converged_normal_deg": 0.0018686265489879109,
+      "single_update_center_mm": 0.022586738302798098,
+      "converged_center_mm": 0.022557623039819105,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "taller_mild_tilt",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.00255347212486401,
+      "converged_normal_deg": 0.002629635443220688,
+      "single_update_center_mm": 0.027820132191439455,
+      "converged_center_mm": 0.02782338535015951,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "tilted_flat",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": null,
+      "converged_normal_deg": null,
+      "single_update_center_mm": null,
+      "converged_center_mm": null,
+      "full_iterations": 0,
+      "single_update_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ],
+      "full_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ]
+    },
+    {
+      "case": "tilted_flat",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": null,
+      "converged_normal_deg": null,
+      "single_update_center_mm": null,
+      "converged_center_mm": null,
+      "full_iterations": 0,
+      "single_update_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ],
+      "full_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ]
+    },
+    {
+      "case": "tilted_flat",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.046262347109991366,
+      "converged_normal_deg": 0.09323278550414324,
+      "single_update_center_mm": 1.0255934245785874,
+      "converged_center_mm": 1.0193951472947447,
+      "full_iterations": 4,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_compact_shallow",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.001574774323652395,
+      "converged_normal_deg": 0.0007642852736740285,
+      "single_update_center_mm": 0.0957193288558384,
+      "converged_center_mm": 0.09503080962672521,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_compact_shallow",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.001594363707849121,
+      "converged_normal_deg": 0.0016110453068871558,
+      "single_update_center_mm": 0.09026584249209849,
+      "converged_center_mm": 0.0902548354350316,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_compact_shallow",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.000763664136532111,
+      "converged_normal_deg": 0.0007788662102567799,
+      "single_update_center_mm": 0.08531812272138359,
+      "converged_center_mm": 0.08532278598045871,
+      "full_iterations": 2,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_high_broad",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.007716685548268491,
+      "converged_normal_deg": 0.007908478562069431,
+      "single_update_center_mm": 0.02341225791019617,
+      "converged_center_mm": 0.023186520800935376,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_high_broad",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.0033186316717979396,
+      "converged_normal_deg": 0.0048295183773891534,
+      "single_update_center_mm": 0.005703852210641774,
+      "converged_center_mm": 0.007849915867855242,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_high_broad",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.008230817364087163,
+      "converged_normal_deg": 0.006935554797309618,
+      "single_update_center_mm": 0.01868809877058665,
+      "converged_center_mm": 0.01864775804877774,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_low_flat",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": null,
+      "converged_normal_deg": null,
+      "single_update_center_mm": null,
+      "converged_center_mm": null,
+      "full_iterations": 0,
+      "single_update_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ],
+      "full_reasons": [
+        "axis_core_touches_candidate_boundary"
+      ]
+    },
+    {
+      "case": "test_low_flat",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.06467283707106952,
+      "converged_normal_deg": 0.06546107320091249,
+      "single_update_center_mm": 1.0745508774261985,
+      "converged_center_mm": 1.0538801752515505,
+      "full_iterations": 4,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_low_flat",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.05449674054911868,
+      "converged_normal_deg": 0.05635800159439442,
+      "single_update_center_mm": 1.0461910970155595,
+      "converged_center_mm": 1.0417576017910373,
+      "full_iterations": 4,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_oblique_flat",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.17731492244400243,
+      "converged_normal_deg": 0.18518874636296453,
+      "single_update_center_mm": 0.8436625441386824,
+      "converged_center_mm": 0.8324353600105447,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_oblique_flat",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.04940825651542184,
+      "converged_normal_deg": 0.08050064921151633,
+      "single_update_center_mm": 1.107792564378928,
+      "converged_center_mm": 1.1039641711283699,
+      "full_iterations": 4,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_oblique_flat",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.04718813366344066,
+      "converged_normal_deg": 0.05596907238702605,
+      "single_update_center_mm": 1.0203873062854572,
+      "converged_center_mm": 1.0203263352249023,
+      "full_iterations": 4,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_offset_upright",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.011534366900427523,
+      "converged_normal_deg": 0.006446562752882343,
+      "single_update_center_mm": 0.07042107705156037,
+      "converged_center_mm": 0.06552810620728658,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_offset_upright",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.004931728856942504,
+      "converged_normal_deg": 0.0038996458742804213,
+      "single_update_center_mm": 0.04821298606659438,
+      "converged_center_mm": 0.04878179621222575,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_offset_upright",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.005636210767211382,
+      "converged_normal_deg": 0.004727986162353513,
+      "single_update_center_mm": 0.04495923643566407,
+      "converged_center_mm": 0.04500937394853839,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_reverse_collar",
+      "camera_set": "cam_a",
+      "single_update_normal_deg": 0.016297159135492848,
+      "converged_normal_deg": 0.016319833546255262,
+      "single_update_center_mm": 0.023657646987405884,
+      "converged_center_mm": 0.023651066936306458,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_reverse_collar",
+      "camera_set": "cam_a,cam_b",
+      "single_update_normal_deg": 0.012507196310889417,
+      "converged_normal_deg": 0.010853132626740404,
+      "single_update_center_mm": 0.014793541566351875,
+      "converged_center_mm": 0.014823470258397085,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    },
+    {
+      "case": "test_reverse_collar",
+      "camera_set": "all",
+      "single_update_normal_deg": 0.007812028262747299,
+      "converged_normal_deg": 0.007253665274765662,
+      "single_update_center_mm": 0.013510576948520328,
+      "converged_center_mm": 0.013511827553028063,
+      "full_iterations": 3,
+      "single_update_reasons": [
+        "feedback_not_converged"
+      ],
+      "full_reasons": []
+    }
+  ]
+}

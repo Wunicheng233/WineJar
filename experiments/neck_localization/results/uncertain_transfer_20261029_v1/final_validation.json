@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "final_source_files": 88,
+  "frozen_observation_and_RGB_files": 54,
+  "reproduction_tables": 12,
+  "byte_identical_RGB_frames": 30,
+  "main_GL_routes": 44,
+  "supplementary_GL_routes": 66,
+  "main_test_suite": {
+    "total": 181,
+    "passed": 173,
+    "skipped": 8
+  },
+  "vision_uncertainty_tests_passed": 3,
+  "vision_simple_control_tests_passed": 2,
+  "hardware_or_controller_used": false,
+  "training_performed": false,
+  "production_default_changed": false,
+  "final_fastening_success": null
+}

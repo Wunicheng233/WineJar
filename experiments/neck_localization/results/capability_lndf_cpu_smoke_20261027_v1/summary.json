@@ -1,0 +1,20 @@
+[
+  {
+    "layout": "close",
+    "condition": "stereo_raw",
+    "total": 1,
+    "solved": 1,
+    "errors": 0,
+    "center_axis_pass": 0,
+    "full_metrology_pass": null,
+    "radius_not_predicted": true,
+    "center_mm_median": 1980.1859497496596,
+    "center_mm_max": 1980.1859497496596,
+    "axis_deg_median": 87.35415265556743,
+    "axis_deg_max": 87.35415265556743,
+    "directed_normal_deg_median": 92.64584734443257,
+    "directed_normal_deg_max": 92.64584734443257,
+    "elapsed_ms_median": 2034.370775999946,
+    "elapsed_ms_max": 2034.370775999946
+  }
+]

@@ -1,0 +1,999 @@
+[
+  {
+    "case": "test_nominal_000",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 879,
+    "measured_neck_slab_fraction": 0.5176336746302617,
+    "reference_neck_slab_fraction": 0.49032992036405004,
+    "reference_outer_neck_fraction": 0.45733788395904434,
+    "reference_above_neck_fraction": 0.5096700796359499,
+    "weight_share_above_neck": 0.5096700796359499,
+    "measured_axial_midpoint_offset_mm": 6.464011861422092,
+    "initial_mouth_normal_error_deg": 13.054889200520188,
+    "initial_mouth_center_error_mm": 18.54522621871492,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_touches_candidate_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_000",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 921,
+    "measured_neck_slab_fraction": 0.6406080347448425,
+    "reference_neck_slab_fraction": 0.5917480998914224,
+    "reference_outer_neck_fraction": 0.5667752442996743,
+    "reference_above_neck_fraction": 0.40825190010857765,
+    "weight_share_above_neck": 0.40825190010857765,
+    "measured_axial_midpoint_offset_mm": 4.938899139050323,
+    "initial_mouth_normal_error_deg": 13.466217409015773,
+    "initial_mouth_center_error_mm": 11.125223632554725,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_000",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 829,
+    "measured_neck_slab_fraction": 0.5476477683956574,
+    "reference_neck_slab_fraction": 0.5138721351025332,
+    "reference_outer_neck_fraction": 0.4837153196622437,
+    "reference_above_neck_fraction": 0.48612786489746684,
+    "weight_share_above_neck": 0.48612786489746684,
+    "measured_axial_midpoint_offset_mm": 6.148947376625968,
+    "initial_mouth_normal_error_deg": 13.376463471223145,
+    "initial_mouth_center_error_mm": 17.630991530142396,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_000",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 1208,
+    "measured_neck_slab_fraction": 0.5240066225165563,
+    "reference_neck_slab_fraction": 0.46605960264900664,
+    "reference_outer_neck_fraction": 0.4279801324503311,
+    "reference_above_neck_fraction": 0.5306291390728477,
+    "weight_share_above_neck": 0.5306291390728477,
+    "measured_axial_midpoint_offset_mm": 6.3670710120846685,
+    "initial_mouth_normal_error_deg": 6.0399422234412565,
+    "initial_mouth_center_error_mm": 9.21347836221689,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_000",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 2289,
+    "measured_neck_slab_fraction": 0.7959807776321538,
+    "reference_neck_slab_fraction": 0.7959807776321538,
+    "reference_outer_neck_fraction": 0.7959807776321538,
+    "reference_above_neck_fraction": 0.06072520751419834,
+    "weight_share_above_neck": 0.00016084408692069365,
+    "measured_axial_midpoint_offset_mm": -0.9888994853145538,
+    "initial_mouth_normal_error_deg": 0.0010882687329125636,
+    "initial_mouth_center_error_mm": 0.09388641136930644,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0205,
+      -0.0035
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_nominal_000",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 2439,
+    "measured_neck_slab_fraction": 0.6178761787617876,
+    "reference_neck_slab_fraction": 0.6441164411644117,
+    "reference_outer_neck_fraction": 0.6400164001640016,
+    "reference_above_neck_fraction": 0.2984829848298483,
+    "weight_share_above_neck": 0.2984829848298483,
+    "measured_axial_midpoint_offset_mm": 3.1777616848397416,
+    "initial_mouth_normal_error_deg": 3.4974248452550265,
+    "initial_mouth_center_error_mm": 4.844821592943491,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0205,
+      -0.0035
+    ],
+    "reasons": [
+      "core_model_mismatch",
+      "target_readout_mismatch"
+    ]
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 1003,
+    "measured_neck_slab_fraction": 0.43768693918245266,
+    "reference_neck_slab_fraction": 0.35692921236291125,
+    "reference_outer_neck_fraction": 0.325024925224327,
+    "reference_above_neck_fraction": 0.6430707876370887,
+    "weight_share_above_neck": 0.6430707876370887,
+    "measured_axial_midpoint_offset_mm": 6.320493445415298,
+    "initial_mouth_normal_error_deg": 7.091103751944216,
+    "initial_mouth_center_error_mm": 22.483913331547157,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01275,
+      0.00425
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 1327,
+    "measured_neck_slab_fraction": 0.5094197437829691,
+    "reference_neck_slab_fraction": 0.3278070836473248,
+    "reference_outer_neck_fraction": 0.25772418990203466,
+    "reference_above_neck_fraction": 0.6616428033157498,
+    "weight_share_above_neck": 0.6616428033157498,
+    "measured_axial_midpoint_offset_mm": 5.689487355696077,
+    "initial_mouth_normal_error_deg": 2.852593544820967,
+    "initial_mouth_center_error_mm": 31.170530251334423,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 1740,
+    "measured_neck_slab_fraction": 0.7833333333333333,
+    "reference_neck_slab_fraction": 0.6471264367816092,
+    "reference_outer_neck_fraction": 0.646551724137931,
+    "reference_above_neck_fraction": 0.3408045977011494,
+    "weight_share_above_neck": 0.3408045977011494,
+    "measured_axial_midpoint_offset_mm": 3.308121016641241,
+    "initial_mouth_normal_error_deg": 2.2618990999691446,
+    "initial_mouth_center_error_mm": 4.002668492969419,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01325,
+      0.00375
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 527,
+    "measured_neck_slab_fraction": 0.5009487666034156,
+    "reference_neck_slab_fraction": 0.41366223908918404,
+    "reference_outer_neck_fraction": 0.3889943074003795,
+    "reference_above_neck_fraction": 0.5863377609108159,
+    "weight_share_above_neck": 0.5863377609108159,
+    "measured_axial_midpoint_offset_mm": 5.759687168848671,
+    "initial_mouth_normal_error_deg": 14.606800660396333,
+    "initial_mouth_center_error_mm": 13.162153224529446,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01325,
+      0.00375
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 2445,
+    "measured_neck_slab_fraction": 0.6106339468302658,
+    "reference_neck_slab_fraction": 0.6106339468302658,
+    "reference_outer_neck_fraction": 0.6106339468302658,
+    "reference_above_neck_fraction": 0.04785276073619632,
+    "weight_share_above_neck": 0.010525200417675558,
+    "measured_axial_midpoint_offset_mm": -2.8748294514852057,
+    "initial_mouth_normal_error_deg": 0.0006796923045067244,
+    "initial_mouth_center_error_mm": 0.025651778767335837,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0215,
+      -0.003
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_nominal_001",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 1316,
+    "measured_neck_slab_fraction": 0.8381458966565349,
+    "reference_neck_slab_fraction": 0.8761398176291794,
+    "reference_outer_neck_fraction": 0.8761398176291794,
+    "reference_above_neck_fraction": 0.12386018237082067,
+    "weight_share_above_neck": 0.12386018237082067,
+    "measured_axial_midpoint_offset_mm": 1.8601895723537876,
+    "initial_mouth_normal_error_deg": 0.7982365400930472,
+    "initial_mouth_center_error_mm": 2.0247612262387453,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01525,
+      0.00175
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 1461,
+    "measured_neck_slab_fraction": 0.24229979466119098,
+    "reference_neck_slab_fraction": 0.2464065708418891,
+    "reference_outer_neck_fraction": 0.23203285420944558,
+    "reference_above_neck_fraction": 0.730321697467488,
+    "weight_share_above_neck": 0.730321697467488,
+    "measured_axial_midpoint_offset_mm": 6.496757618488225,
+    "initial_mouth_normal_error_deg": 0.928911595568132,
+    "initial_mouth_center_error_mm": 3.254610084654632,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 1306,
+    "measured_neck_slab_fraction": 0.33767228177641656,
+    "reference_neck_slab_fraction": 0.28637059724349156,
+    "reference_outer_neck_fraction": 0.2771822358346095,
+    "reference_above_neck_fraction": 0.6944869831546707,
+    "weight_share_above_neck": 0.6944869831546707,
+    "measured_axial_midpoint_offset_mm": 5.8372929713135235,
+    "initial_mouth_normal_error_deg": 1.7444126367649855,
+    "initial_mouth_center_error_mm": 6.32409826420942,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 1544,
+    "measured_neck_slab_fraction": 0.29468911917098445,
+    "reference_neck_slab_fraction": 0.29533678756476683,
+    "reference_outer_neck_fraction": 0.2817357512953368,
+    "reference_above_neck_fraction": 0.6800518134715026,
+    "weight_share_above_neck": 0.6800518134715026,
+    "measured_axial_midpoint_offset_mm": 6.277149623931222,
+    "initial_mouth_normal_error_deg": 0.7638320966562023,
+    "initial_mouth_center_error_mm": 3.2435038594279058,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.013,
+      0.004
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 1277,
+    "measured_neck_slab_fraction": 0.3837118245888802,
+    "reference_neck_slab_fraction": 0.32106499608457323,
+    "reference_outer_neck_fraction": 0.3093187157400157,
+    "reference_above_neck_fraction": 0.6546593578700078,
+    "weight_share_above_neck": 0.6546593578700078,
+    "measured_axial_midpoint_offset_mm": 5.498458975571552,
+    "initial_mouth_normal_error_deg": 2.731033101052715,
+    "initial_mouth_center_error_mm": 11.024381649650046,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.012,
+      0.005
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 1826,
+    "measured_neck_slab_fraction": 0.5460021905805038,
+    "reference_neck_slab_fraction": 0.5460021905805038,
+    "reference_outer_neck_fraction": 0.5460021905805038,
+    "reference_above_neck_fraction": 0.07447973713033954,
+    "weight_share_above_neck": 0.022026975295700503,
+    "measured_axial_midpoint_offset_mm": -2.9087273095126376,
+    "initial_mouth_normal_error_deg": 0.0004002878384004349,
+    "initial_mouth_center_error_mm": 0.03233435578601202,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02075,
+      -0.00375
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_nominal_002",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 1823,
+    "measured_neck_slab_fraction": 0.5293472298409215,
+    "reference_neck_slab_fraction": 0.5430608886450905,
+    "reference_outer_neck_fraction": 0.5430608886450905,
+    "reference_above_neck_fraction": 0.04388370817334065,
+    "weight_share_above_neck": 0.04388370817334065,
+    "measured_axial_midpoint_offset_mm": -3.2996396065330114,
+    "initial_mouth_normal_error_deg": 0.19053793396643542,
+    "initial_mouth_center_error_mm": 0.5222530591119894,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02125,
+      -0.00425
+    ],
+    "reasons": [
+      "core_model_mismatch",
+      "target_readout_mismatch"
+    ]
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 1819,
+    "measured_neck_slab_fraction": 0.4931280923584387,
+    "reference_neck_slab_fraction": 0.4282572842221001,
+    "reference_outer_neck_fraction": 0.4046179219351292,
+    "reference_above_neck_fraction": 0.5552501374381529,
+    "weight_share_above_neck": 0.5552501374381529,
+    "measured_axial_midpoint_offset_mm": 5.93785987565465,
+    "initial_mouth_normal_error_deg": 2.144222264563265,
+    "initial_mouth_center_error_mm": 4.856108636489577,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01325,
+      0.00375
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 1614,
+    "measured_neck_slab_fraction": 0.5285006195786865,
+    "reference_neck_slab_fraction": 0.36369268897149937,
+    "reference_outer_neck_fraction": 0.3475836431226766,
+    "reference_above_neck_fraction": 0.6195786864931846,
+    "weight_share_above_neck": 0.6195786864931846,
+    "measured_axial_midpoint_offset_mm": 5.53673376705377,
+    "initial_mouth_normal_error_deg": 1.738434117049525,
+    "initial_mouth_center_error_mm": 6.516815890985568,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 1830,
+    "measured_neck_slab_fraction": 0.5010928961748634,
+    "reference_neck_slab_fraction": 0.426775956284153,
+    "reference_outer_neck_fraction": 0.40437158469945356,
+    "reference_above_neck_fraction": 0.5562841530054645,
+    "weight_share_above_neck": 0.5562841530054645,
+    "measured_axial_midpoint_offset_mm": 5.839154817927739,
+    "initial_mouth_normal_error_deg": 1.7808358740784107,
+    "initial_mouth_center_error_mm": 3.0552052986780818,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01325,
+      0.00375
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 1640,
+    "measured_neck_slab_fraction": 0.5414634146341464,
+    "reference_neck_slab_fraction": 0.37926829268292683,
+    "reference_outer_neck_fraction": 0.3652439024390244,
+    "reference_above_neck_fraction": 0.6042682926829268,
+    "weight_share_above_neck": 0.6042682926829268,
+    "measured_axial_midpoint_offset_mm": 5.466641517367532,
+    "initial_mouth_normal_error_deg": 1.1995285465247458,
+    "initial_mouth_center_error_mm": 6.836520157622026,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 1948,
+    "measured_neck_slab_fraction": 0.7407597535934292,
+    "reference_neck_slab_fraction": 0.7407597535934292,
+    "reference_outer_neck_fraction": 0.7407597535934292,
+    "reference_above_neck_fraction": 0.03542094455852156,
+    "weight_share_above_neck": 8.490154402914258e-05,
+    "measured_axial_midpoint_offset_mm": -1.7887316461444591,
+    "initial_mouth_normal_error_deg": 0.0008283153338924357,
+    "initial_mouth_center_error_mm": 0.009106747677214927,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0195,
+      -0.0025
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_nominal_003",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 1959,
+    "measured_neck_slab_fraction": 0.7029096477794793,
+    "reference_neck_slab_fraction": 0.7233282286881062,
+    "reference_outer_neck_fraction": 0.7233282286881062,
+    "reference_above_neck_fraction": 0.02041858090862685,
+    "weight_share_above_neck": 0.02041858090862685,
+    "measured_axial_midpoint_offset_mm": -2.1404849782989954,
+    "initial_mouth_normal_error_deg": 0.22423952038833608,
+    "initial_mouth_center_error_mm": 0.23119293765911858,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01975,
+      -0.00275
+    ],
+    "reasons": [
+      "core_model_mismatch",
+      "target_readout_mismatch"
+    ]
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 747,
+    "measured_neck_slab_fraction": 0.3386880856760375,
+    "reference_neck_slab_fraction": 0.31459170013386883,
+    "reference_outer_neck_fraction": 0.3132530120481928,
+    "reference_above_neck_fraction": 0.5970548862115127,
+    "weight_share_above_neck": 0.5970548862115127,
+    "measured_axial_midpoint_offset_mm": 4.687195129748578,
+    "initial_mouth_normal_error_deg": 15.868624003872695,
+    "initial_mouth_center_error_mm": 16.451812659792473,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01475,
+      0.00225
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 485,
+    "measured_neck_slab_fraction": 0.31752577319587627,
+    "reference_neck_slab_fraction": 0.2907216494845361,
+    "reference_outer_neck_fraction": 0.2907216494845361,
+    "reference_above_neck_fraction": 0.7051546391752578,
+    "weight_share_above_neck": 0.7051546391752578,
+    "measured_axial_midpoint_offset_mm": 5.485018949046627,
+    "initial_mouth_normal_error_deg": 14.897847665496641,
+    "initial_mouth_center_error_mm": 16.213604817148674,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 752,
+    "measured_neck_slab_fraction": 0.35638297872340424,
+    "reference_neck_slab_fraction": 0.33111702127659576,
+    "reference_outer_neck_fraction": 0.33111702127659576,
+    "reference_above_neck_fraction": 0.5146276595744681,
+    "weight_share_above_neck": 0.5146276595744681,
+    "measured_axial_midpoint_offset_mm": 3.46126396566393,
+    "initial_mouth_normal_error_deg": 16.85497705589136,
+    "initial_mouth_center_error_mm": 11.15273927813709,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01425,
+      0.00275
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 479,
+    "measured_neck_slab_fraction": 0.31941544885177453,
+    "reference_neck_slab_fraction": 0.2881002087682672,
+    "reference_outer_neck_fraction": 0.2881002087682672,
+    "reference_above_neck_fraction": 0.7035490605427975,
+    "weight_share_above_neck": 0.7035490605427975,
+    "measured_axial_midpoint_offset_mm": 5.475330347636143,
+    "initial_mouth_normal_error_deg": 15.178911825946921,
+    "initial_mouth_center_error_mm": 18.113708133389057,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 2139,
+    "measured_neck_slab_fraction": 0.36091631603553065,
+    "reference_neck_slab_fraction": 0.36091631603553065,
+    "reference_outer_neck_fraction": 0.36091631603553065,
+    "reference_above_neck_fraction": 0.23562412342215988,
+    "weight_share_above_neck": 0.0010559678655860138,
+    "measured_axial_midpoint_offset_mm": -1.8857703151237137,
+    "initial_mouth_normal_error_deg": 0.001786846259114919,
+    "initial_mouth_center_error_mm": 0.09347293366460678,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02,
+      -0.003
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_stress_000",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 2241,
+    "measured_neck_slab_fraction": 0.31860776439089694,
+    "reference_neck_slab_fraction": 0.32307005800981703,
+    "reference_outer_neck_fraction": 0.322177599286033,
+    "reference_above_neck_fraction": 0.4319500223114681,
+    "weight_share_above_neck": 0.4319500223114681,
+    "measured_axial_midpoint_offset_mm": 2.4301466508657166,
+    "initial_mouth_normal_error_deg": 4.95672816754936,
+    "initial_mouth_center_error_mm": 12.42716961498079,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.022,
+      -0.005
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 1009,
+    "measured_neck_slab_fraction": 0.6283448959365708,
+    "reference_neck_slab_fraction": 0.6035678889990089,
+    "reference_outer_neck_fraction": 0.6035678889990089,
+    "reference_above_neck_fraction": 0.39643211100099107,
+    "weight_share_above_neck": 0.39643211100099107,
+    "measured_axial_midpoint_offset_mm": 6.922952729273346,
+    "initial_mouth_normal_error_deg": 11.418670959714555,
+    "initial_mouth_center_error_mm": 9.388036837186736,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01475,
+      0.00225
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 2075,
+    "measured_neck_slab_fraction": 0.7421686746987952,
+    "reference_neck_slab_fraction": 0.6669879518072289,
+    "reference_outer_neck_fraction": 0.6578313253012048,
+    "reference_above_neck_fraction": 0.3060240963855422,
+    "weight_share_above_neck": 0.3060240963855422,
+    "measured_axial_midpoint_offset_mm": 4.8684133529529605,
+    "initial_mouth_normal_error_deg": 7.954193340852963,
+    "initial_mouth_center_error_mm": 13.0619203061878,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02325,
+      -0.00625
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 903,
+    "measured_neck_slab_fraction": 0.4130675526024363,
+    "reference_neck_slab_fraction": 0.39867109634551495,
+    "reference_outer_neck_fraction": 0.3754152823920266,
+    "reference_above_neck_fraction": 0.6013289036544851,
+    "weight_share_above_neck": 0.6013289036544851,
+    "measured_axial_midpoint_offset_mm": 9.60466895741996,
+    "initial_mouth_normal_error_deg": 7.6464711405867645,
+    "initial_mouth_center_error_mm": 36.76773616480531,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 2002,
+    "measured_neck_slab_fraction": 0.6428571428571429,
+    "reference_neck_slab_fraction": 0.5884115884115884,
+    "reference_outer_neck_fraction": 0.5774225774225774,
+    "reference_above_neck_fraction": 0.28121878121878124,
+    "weight_share_above_neck": 0.28121878121878124,
+    "measured_axial_midpoint_offset_mm": 2.3942421409373082,
+    "initial_mouth_normal_error_deg": 11.467949320606019,
+    "initial_mouth_center_error_mm": 9.629492650096601,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02425,
+      -0.00725
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 2420,
+    "measured_neck_slab_fraction": 1.0,
+    "reference_neck_slab_fraction": 1.0,
+    "reference_outer_neck_fraction": 1.0,
+    "reference_above_neck_fraction": 0.0,
+    "weight_share_above_neck": 0.0,
+    "measured_axial_midpoint_offset_mm": -0.3608792409065531,
+    "initial_mouth_normal_error_deg": 0.0011390661985636234,
+    "initial_mouth_center_error_mm": 0.15482894638237135,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02275,
+      -0.00575
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_stress_001",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 2332,
+    "measured_neck_slab_fraction": 0.9073756432246999,
+    "reference_neck_slab_fraction": 0.9176672384219554,
+    "reference_outer_neck_fraction": 0.9176672384219554,
+    "reference_above_neck_fraction": 0.08147512864493997,
+    "weight_share_above_neck": 0.08147512864493997,
+    "measured_axial_midpoint_offset_mm": 1.5392208141163932,
+    "initial_mouth_normal_error_deg": 2.3387992746233333,
+    "initial_mouth_center_error_mm": 7.1942308417089,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02325,
+      -0.00625
+    ],
+    "reasons": [
+      "core_model_mismatch",
+      "target_readout_mismatch"
+    ]
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 549,
+    "measured_neck_slab_fraction": 0.2204007285974499,
+    "reference_neck_slab_fraction": 0.22768670309653916,
+    "reference_outer_neck_fraction": 0.20218579234972678,
+    "reference_above_neck_fraction": 0.7723132969034608,
+    "weight_share_above_neck": 0.7723132969034608,
+    "measured_axial_midpoint_offset_mm": 5.597699515791921,
+    "initial_mouth_normal_error_deg": 14.994884348738827,
+    "initial_mouth_center_error_mm": 41.58826290146345,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0125,
+      0.0045
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 665,
+    "measured_neck_slab_fraction": 0.33383458646616543,
+    "reference_neck_slab_fraction": 0.30526315789473685,
+    "reference_outer_neck_fraction": 0.29172932330827067,
+    "reference_above_neck_fraction": 0.49624060150375937,
+    "weight_share_above_neck": 0.49624060150375937,
+    "measured_axial_midpoint_offset_mm": 2.7299012986181648,
+    "initial_mouth_normal_error_deg": 17.940787354149524,
+    "initial_mouth_center_error_mm": 24.19764329952538,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01325,
+      0.00375
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 420,
+    "measured_neck_slab_fraction": 0.3357142857142857,
+    "reference_neck_slab_fraction": 0.32142857142857145,
+    "reference_outer_neck_fraction": 0.3119047619047619,
+    "reference_above_neck_fraction": 0.638095238095238,
+    "weight_share_above_neck": 0.638095238095238,
+    "measured_axial_midpoint_offset_mm": 4.213880555690053,
+    "initial_mouth_normal_error_deg": 17.608602510898685,
+    "initial_mouth_center_error_mm": 15.070884460747132,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01175,
+      0.00525
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 544,
+    "measured_neck_slab_fraction": 0.3069852941176471,
+    "reference_neck_slab_fraction": 0.27941176470588236,
+    "reference_outer_neck_fraction": 0.2610294117647059,
+    "reference_above_neck_fraction": 0.6544117647058824,
+    "weight_share_above_neck": 0.6544117647058824,
+    "measured_axial_midpoint_offset_mm": 4.508335654132778,
+    "initial_mouth_normal_error_deg": 17.840655405072177,
+    "initial_mouth_center_error_mm": 27.25113464065037,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.014,
+      0.003
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 1923,
+    "measured_neck_slab_fraction": 0.3551742069682787,
+    "reference_neck_slab_fraction": 0.3551742069682787,
+    "reference_outer_neck_fraction": 0.3551742069682787,
+    "reference_above_neck_fraction": 0.11492459698387936,
+    "weight_share_above_neck": 0.024399393218213616,
+    "measured_axial_midpoint_offset_mm": -3.62236469715016,
+    "initial_mouth_normal_error_deg": 0.0003579409737806785,
+    "initial_mouth_center_error_mm": 0.024248232478426883,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.019,
+      -0.002
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_stress_002",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 2386,
+    "measured_neck_slab_fraction": 0.26697401508801344,
+    "reference_neck_slab_fraction": 0.28331936295054483,
+    "reference_outer_neck_fraction": 0.28248113998323554,
+    "reference_above_neck_fraction": 0.3985750209555742,
+    "weight_share_above_neck": 0.3985750209555742,
+    "measured_axial_midpoint_offset_mm": 1.3007619960424543,
+    "initial_mouth_normal_error_deg": 4.931113845246473,
+    "initial_mouth_center_error_mm": 11.97859351970896,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02175,
+      -0.00475
+    ],
+    "reasons": [
+      "core_model_mismatch",
+      "target_readout_mismatch"
+    ]
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "stereo_raw",
+    "accepted": false,
+    "fit_points": 648,
+    "measured_neck_slab_fraction": 0.5262345679012346,
+    "reference_neck_slab_fraction": 0.47685185185185186,
+    "reference_outer_neck_fraction": 0.44290123456790126,
+    "reference_above_neck_fraction": 0.5231481481481481,
+    "weight_share_above_neck": 0.5231481481481481,
+    "measured_axial_midpoint_offset_mm": 9.85811797138847,
+    "initial_mouth_normal_error_deg": 10.025100017028336,
+    "initial_mouth_center_error_mm": 11.555612859196735,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_coverage"
+    ]
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "stereo_spatial",
+    "accepted": false,
+    "fit_points": 1575,
+    "measured_neck_slab_fraction": 0.7282539682539683,
+    "reference_neck_slab_fraction": 0.6831746031746032,
+    "reference_outer_neck_fraction": 0.6253968253968254,
+    "reference_above_neck_fraction": 0.31555555555555553,
+    "weight_share_above_neck": 0.31555555555555553,
+    "measured_axial_midpoint_offset_mm": 6.181878621125958,
+    "initial_mouth_normal_error_deg": 14.926608275585338,
+    "initial_mouth_center_error_mm": 31.01686985563949,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02275,
+      -0.00575
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "stereo_gp",
+    "accepted": false,
+    "fit_points": 657,
+    "measured_neck_slab_fraction": 0.5251141552511416,
+    "reference_neck_slab_fraction": 0.4840182648401826,
+    "reference_outer_neck_fraction": 0.4398782343987823,
+    "reference_above_neck_fraction": 0.5159817351598174,
+    "weight_share_above_neck": 0.5159817351598174,
+    "measured_axial_midpoint_offset_mm": 9.834831895064955,
+    "initial_mouth_normal_error_deg": 9.920009926755444,
+    "initial_mouth_center_error_mm": 13.593157148729723,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01225,
+      0.00475
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "stereo_gp_spatial",
+    "accepted": false,
+    "fit_points": 507,
+    "measured_neck_slab_fraction": 0.6528599605522682,
+    "reference_neck_slab_fraction": 0.5680473372781065,
+    "reference_outer_neck_fraction": 0.5621301775147929,
+    "reference_above_neck_fraction": 0.4319526627218935,
+    "weight_share_above_neck": 0.4319526627218935,
+    "measured_axial_midpoint_offset_mm": 8.813893353518566,
+    "initial_mouth_normal_error_deg": 15.285118188769415,
+    "initial_mouth_center_error_mm": 18.286088960837457,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.01275,
+      0.00425
+    ],
+    "reasons": [
+      "continuous_core_insufficient_extent"
+    ]
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "ideal_rgb",
+    "accepted": true,
+    "fit_points": 3246,
+    "measured_neck_slab_fraction": 0.8046826863832409,
+    "reference_neck_slab_fraction": 0.8046826863832409,
+    "reference_outer_neck_fraction": 0.8046826863832409,
+    "reference_above_neck_fraction": 0.053604436229205174,
+    "weight_share_above_neck": 0.010133695875522507,
+    "measured_axial_midpoint_offset_mm": -1.9573443552339809,
+    "initial_mouth_normal_error_deg": 0.0011177439455390757,
+    "initial_mouth_center_error_mm": 0.12355735381604468,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.0295,
+      -0.0025
+    ],
+    "reasons": []
+  },
+  {
+    "case": "test_stress_003",
+    "condition": "ideal_ir_registered",
+    "accepted": false,
+    "fit_points": 2353,
+    "measured_neck_slab_fraction": 0.6532086697832554,
+    "reference_neck_slab_fraction": 0.6731831704207395,
+    "reference_outer_neck_fraction": 0.6672333191670208,
+    "reference_above_neck_fraction": 0.3217169570760731,
+    "weight_share_above_neck": 0.3217169570760731,
+    "measured_axial_midpoint_offset_mm": 6.66116331312816,
+    "initial_mouth_normal_error_deg": 4.506134640199844,
+    "initial_mouth_center_error_mm": 12.118868898408389,
+    "local_selection_interval_from_initial_axis_m": [
+      -0.02225,
+      -0.00525
+    ],
+    "reasons": [
+      "near_minimum_interval_touches_observed_search_boundary"
+    ]
+  }
+]

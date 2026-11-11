@@ -1,0 +1,11 @@
+{
+  "neck_localization/task_surface_validation.py": "dc64c2c3eadf8ccc18eea1416ae8781626bc091dd50eb87a3768af36851db00e",
+  "scripts/run_task_surface_study.py": "bebb57eb003a0dc02ab2bb8a2dca8a3966ac44b5049fc311e45a2cf36be981af",
+  "scripts/report_task_surface_study.py": "1810ad394beba6facef49ee159e43f29036882dbc2262c3e0ec3698ab49bf761",
+  "scripts/verify_task_surface_viewer.py": "4393303644f352ae938b5bc5aa012d697ebd7102f58ec2956ed8fc9c2f9f0834",
+  "tests/neck_localization/test_task_surface_validation.py": "2ceceaf1f52e45f287236eaf0f174c461d9415c8771a6c45825690c52b77214e",
+  "experiments/neck_localization/configs/engineering_target_surface_20261028_v1.json": "7e471f8ca3a3998c91ad3cef5cbf403ce6c39ffb9cdb55d7704d9909eedcabba",
+  "experiments/neck_localization/configs/engineering_target_surface_20261028_v1_render_freeze.json": "990b8992f3ed091de645f87a1a0adb08dbcd8465f8a4007cb799fba4207d9c39",
+  "experiments/neck_localization/configs/engineering_target_surface_20261028_v1_method_freeze.json": "1e56d0ac055bd7358ca9fec056b7d69f57e50895a99ccb02b3eabcd67ae77942",
+  "experiments/neck_localization/configs/engineering_target_surface_20261028_v1_protocol.json": "891d9f6514d95285d8680aeeb81c7e2bfc43cf4fe6311f254868a6e297a951d2"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "phase": "test",
+    "seed": 2026102981,
+    "condition": "kinematic_5",
+    "method": "pixel_huber",
+    "accepted": true,
+    "pixel_rms": 0.3690260550504333,
+    "holdout_pixel_rms": 0.5033427585124877,
+    "elapsed_ms": 47.68374499985839,
+    "query_max_mm": 4.869570835123868,
+    "initial_X_Y_not_runtime_mapping": false,
+    "estimated_sigmas": null
+  },
+  {
+    "phase": "test",
+    "seed": 2026102981,
+    "condition": "kinematic_5",
+    "method": "camera_poe_block",
+    "accepted": true,
+    "pixel_rms": 0.09709890520794574,
+    "holdout_pixel_rms": 0.1395369463305383,
+    "elapsed_ms": 634.7067799999877,
+    "query_max_mm": null,
+    "initial_X_Y_not_runtime_mapping": true,
+    "estimated_sigmas": null
+  }
+]

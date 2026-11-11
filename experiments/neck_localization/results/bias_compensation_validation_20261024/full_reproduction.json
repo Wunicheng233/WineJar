@@ -1,0 +1,8 @@
+{
+  "full_latest_stage_reproduction": true,
+  "independent_scene_count": 8,
+  "baseline_and_compensation_records_exact_except_runtime": 120,
+  "raw_rgb_files_byte_identical": 24,
+  "raw_depth_arrays_exact": true,
+  "development_and_first_test_not_fully_rerun": true
+}

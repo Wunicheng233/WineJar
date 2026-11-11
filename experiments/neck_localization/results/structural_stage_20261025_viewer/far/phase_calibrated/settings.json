@@ -1,0 +1,10 @@
+{
+  "preprocessing": {
+    "kind": "frozen_structural_study",
+    "condition": "far/phase_calibrated"
+  },
+  "depth_display_range_m": [
+    0.45,
+    1.35
+  ]
+}

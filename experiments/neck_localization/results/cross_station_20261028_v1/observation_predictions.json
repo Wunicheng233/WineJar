@@ -1,0 +1,1762 @@
+[
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0030962823220847674,
+        -0.0005382983916938593,
+        0.6299382356354164
+      ],
+      "normal": [
+        0.011106863798002856,
+        0.02186839868914034,
+        0.9996991601053516
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0030195153925272828,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.049520058908875585
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0030195153925272828,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0030195153925272828,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04882688155545023
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0013791773082334378,
+        0.0028474868719780607,
+        0.6360918612494194
+      ],
+      "normal": [
+        -0.03630618519044964,
+        0.03691107907419629,
+        0.9986588171935874
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014829950427931687,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.0521508625084253
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014829950427931687,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014829950427931687,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.05107821241791398
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.004934707334686602,
+        -0.005680909904273858,
+        0.5679368520204375
+      ],
+      "normal": [
+        0.1840730629492786,
+        0.10505769967236497,
+        0.9772819384578958
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.0045538627586979505,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871066
+      ],
+      "radius_m": 0.05197671130573102
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.0045538627586979505,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871066
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.0045538627586979505,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871066
+      ],
+      "radius_m": 0.04936901741922845
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007297251496038387,
+        -0.003908138256723547,
+        0.6046684393929183
+      ],
+      "normal": [
+        -0.13474676618125397,
+        -0.060369928395310364,
+        0.9890393221451003
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007487513884246425,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.1251727271255853,
+        -0.06019349994423719,
+        0.990307291171991
+      ],
+      "radius_m": 0.060587403615803295
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007487513884246425,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.1251727271255853,
+        -0.06019349994423719,
+        0.990307291171991
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007487513884246425,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.1251727271255853,
+        -0.06019349994423719,
+        0.990307291171991
+      ],
+      "radius_m": 0.05747775260343906
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0030922507114585288,
+        -0.0004762019871730524,
+        0.6300402356025754
+      ],
+      "normal": [
+        0.01060327897396212,
+        0.024298209066562555,
+        0.999648521987182
+      ],
+      "radius_m": 0.048716447329410655
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002997701620437435,
+        -0.00036064467186199575,
+        0.6307476528115654
+      ],
+      "normal": [
+        0.016713288674598797,
+        0.019112869041423276,
+        0.9996776301481817
+      ],
+      "radius_m": 0.04957315910895868
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002997701620437435,
+        -0.00036064467186199575,
+        0.6307476528115654
+      ],
+      "normal": [
+        0.016713288674598797,
+        0.019112869041423276,
+        0.9996776301481817
+      ],
+      "radius_m": 0.048716447329410655
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002997701620437435,
+        -0.00036064467186199575,
+        0.6307476528115654
+      ],
+      "normal": [
+        0.016713288674598797,
+        0.019112869041423276,
+        0.9996776301481817
+      ],
+      "radius_m": 0.04876074956378067
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014083694465157669,
+        0.0027980866419655857,
+        0.6360987905582262
+      ],
+      "normal": [
+        -0.03698108065559457,
+        0.03609398034775097,
+        0.998663919572646
+      ],
+      "radius_m": 0.0509565281084828
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014633012644370287,
+        0.0026421757548667517,
+        0.6360660921463367
+      ],
+      "normal": [
+        -0.03222075399694425,
+        0.03687815898150382,
+        0.9988001924319014
+      ],
+      "radius_m": 0.052136960271673485
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014633012644370287,
+        0.0026421757548667517,
+        0.6360660921463367
+      ],
+      "normal": [
+        -0.03222075399694425,
+        0.03687815898150382,
+        0.9988001924319014
+      ],
+      "radius_m": 0.0509565281084828
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_nominal_006",
+    "estimate": {
+      "center_m": [
+        -0.0014633012644370287,
+        0.0026421757548667517,
+        0.6360660921463367
+      ],
+      "normal": [
+        -0.03222075399694425,
+        0.03687815898150382,
+        0.9988001924319014
+      ],
+      "radius_m": 0.05115018318848852
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.004854055258384515,
+        -0.005633546047526634,
+        0.5678284578435737
+      ],
+      "normal": [
+        0.18532255972512604,
+        0.10647634770135642,
+        0.9768921825038356
+      ],
+      "radius_m": 0.04897226038287426
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.004513869132205658,
+        -0.006250832917845541,
+        0.5684557474428914
+      ],
+      "normal": [
+        0.17717773441456897,
+        0.10023916150519127,
+        0.9790608566010882
+      ],
+      "radius_m": 0.05188090937922953
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.004513869132205658,
+        -0.006250832917845541,
+        0.5684557474428914
+      ],
+      "normal": [
+        0.17717773441456897,
+        0.10023916150519127,
+        0.9790608566010882
+      ],
+      "radius_m": 0.04897226038287426
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_stress_000",
+    "estimate": {
+      "center_m": [
+        -0.004513869132205658,
+        -0.006250832917845541,
+        0.5684557474428914
+      ],
+      "normal": [
+        0.17717773441456897,
+        0.10023916150519127,
+        0.9790608566010882
+      ],
+      "radius_m": 0.04929031384898808
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007493407478336299,
+        -0.0037901686646655878,
+        0.6043741710215994
+      ],
+      "normal": [
+        -0.13682675820370924,
+        -0.0609505341081242,
+        0.9887180946212111
+      ],
+      "radius_m": 0.057845615591137885
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007645983118756231,
+        -0.004390649841994506,
+        0.6058053959182533
+      ],
+      "normal": [
+        -0.12806054940161132,
+        -0.0622013404336924,
+        0.9898138658026616
+      ],
+      "radius_m": 0.06060147120480519
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007645983118756231,
+        -0.004390649841994506,
+        0.6058053959182533
+      ],
+      "normal": [
+        -0.12806054940161132,
+        -0.0622013404336924,
+        0.9898138658026616
+      ],
+      "radius_m": 0.057845615591137885
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old12",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "structural_test_stress_002",
+    "estimate": {
+      "center_m": [
+        -0.007645983118756231,
+        -0.004390649841994506,
+        0.6058053959182533
+      ],
+      "normal": [
+        -0.12806054940161132,
+        -0.0622013404336924,
+        0.9898138658026616
+      ],
+      "radius_m": 0.057977996898109084
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.0019742978716823733,
+        0.0032530667695542187,
+        0.5970507505142555
+      ],
+      "normal": [
+        0.0051187285459218775,
+        0.0018166937303577449,
+        0.9999852490121858
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.001937921941645414,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05780888585276549
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.001937921941645414,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.001937921941645414,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05595962297831172
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0032286297274753874,
+        0.0025873839197332145,
+        0.6357650180179061
+      ],
+      "normal": [
+        -0.06749817585564999,
+        -0.06529843798102163,
+        0.9955802882005039
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.002826359081517216,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018148,
+        -0.05005990941621911,
+        0.9969824459395188
+      ],
+      "radius_m": 0.05268514013135701
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.002826359081517216,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018148,
+        -0.05005990941621911,
+        0.9969824459395188
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.002826359081517216,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018148,
+        -0.05005990941621911,
+        0.9969824459395188
+      ],
+      "radius_m": 0.051338714969516995
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.0015245099398333403,
+        -0.0033338614980316455,
+        0.5638664718322451
+      ],
+      "normal": [
+        0.0100522429452754,
+        0.02778737089001143,
+        0.9995633118671323
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00042518483787518156,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.027158297012292148,
+        0.05642716303530978,
+        0.9980372749427642
+      ],
+      "radius_m": 0.057293889629336014
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00042518483787518156,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.027158297012292148,
+        0.05642716303530978,
+        0.9980372749427642
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00042518483787518156,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.027158297012292148,
+        0.05642716303530978,
+        0.9980372749427642
+      ],
+      "radius_m": 0.05601715096606399
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.001988751273547842,
+        0.0031972528597313797,
+        0.5969054559569238
+      ],
+      "normal": [
+        0.00408010776322537,
+        -0.0007719123139233142,
+        0.9999913783988441
+      ],
+      "radius_m": 0.05577516027928253
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.002013762486535588,
+        0.002973734605193585,
+        0.597288812415317
+      ],
+      "normal": [
+        0.0003655694652300578,
+        -0.0011298266302096625,
+        0.9999992949251274
+      ],
+      "radius_m": 0.057830149859547264
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.002013762486535588,
+        0.002973734605193585,
+        0.597288812415317
+      ],
+      "normal": [
+        0.0003655694652300578,
+        -0.0011298266302096625,
+        0.9999992949251274
+      ],
+      "radius_m": 0.05577516027928253
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_002",
+    "estimate": {
+      "center_m": [
+        -0.002013762486535588,
+        0.002973734605193585,
+        0.597288812415317
+      ],
+      "normal": [
+        0.0003655694652300578,
+        -0.0011298266302096625,
+        0.9999992949251274
+      ],
+      "radius_m": 0.05584276803003582
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0033111166307731024,
+        0.0026828854849995252,
+        0.6357232754003865
+      ],
+      "normal": [
+        -0.06509752841701986,
+        -0.0628573328453798,
+        0.9958972173379943
+      ],
+      "radius_m": 0.05089082163582936
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0029244618251176666,
+        0.0024346859320254835,
+        0.6355136818483531
+      ],
+      "normal": [
+        -0.06318559184067128,
+        -0.05336952383001844,
+        0.9965737679218238
+      ],
+      "radius_m": 0.05263832760983759
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0029244618251176666,
+        0.0024346859320254835,
+        0.6355136818483531
+      ],
+      "normal": [
+        -0.06318559184067128,
+        -0.05336952383001844,
+        0.9965737679218238
+      ],
+      "radius_m": 0.05089082163582936
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0029244618251176666,
+        0.0024346859320254835,
+        0.6355136818483531
+      ],
+      "normal": [
+        -0.06318559184067128,
+        -0.05336952383001844,
+        0.9965737679218238
+      ],
+      "radius_m": 0.05133655362137325
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.0013996972044406294,
+        -0.0031997121195651143,
+        0.563800197367584
+      ],
+      "normal": [
+        0.011857073150246155,
+        0.028375338331984513,
+        0.9995270131371413
+      ],
+      "radius_m": 0.055092710930580525
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00047133298208219517,
+        -0.0011969375000334564,
+        0.5636346038524179
+      ],
+      "normal": [
+        0.02747945325842024,
+        0.05936184380944266,
+        0.9978582319889744
+      ],
+      "radius_m": 0.05723606957918993
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00047133298208219517,
+        -0.0011969375000334564,
+        0.5636346038524179
+      ],
+      "normal": [
+        0.02747945325842024,
+        0.05936184380944266,
+        0.9978582319889744
+      ],
+      "radius_m": 0.055092710930580525
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "old8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_005",
+    "estimate": {
+      "center_m": [
+        -0.00047133298208219517,
+        -0.0011969375000334564,
+        0.5636346038524179
+      ],
+      "normal": [
+        0.02747945325842024,
+        0.05936184380944266,
+        0.9978582319889744
+      ],
+      "radius_m": 0.05592837702900224
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.00220317055382722,
+        -0.002906222225675216,
+        0.6124919912829866
+      ],
+      "normal": [
+        0.04941131938526059,
+        -0.012988334591434595,
+        0.9986940596004107
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002014954860403058,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.041620835451137525,
+        -0.015620023768783664,
+        0.9990113717640114
+      ],
+      "radius_m": 0.05766034210777604
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002014954860403058,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.041620835451137525,
+        -0.015620023768783664,
+        0.9990113717640114
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.002014954860403058,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.041620835451137525,
+        -0.015620023768783664,
+        0.9990113717640114
+      ],
+      "radius_m": 0.055755860239562714
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.00575790948799288,
+        0.0024667837100931117,
+        0.569510321828332
+      ],
+      "normal": [
+        0.013532746431466467,
+        0.028042577736559632,
+        0.999515121750497
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.004142356549653357,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.00541944421105123,
+        0.02169786302300565,
+        0.9997498849035582
+      ],
+      "radius_m": 0.06141164112110808
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.004142356549653357,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.00541944421105123,
+        0.02169786302300565,
+        0.9997498849035582
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.004142356549653357,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.00541944421105123,
+        0.02169786302300565,
+        0.9997498849035582
+      ],
+      "radius_m": 0.058533287891506726
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.0018286887918841116,
+        0.003523561008248576,
+        0.5800936203513501
+      ],
+      "normal": [
+        -0.07418217160336513,
+        0.009131597825625358,
+        0.9972028977782604
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002081671847473118,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05716459972367928
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002081671847473118,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002081671847473118,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.055204214756200076
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0007519273925620566,
+        -0.0038540038561602616,
+        0.5838771763491869
+      ],
+      "normal": [
+        0.010365994298757711,
+        -0.0636820958118642,
+        0.9979163977183694
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009638294286095804,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05560982643819167
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009638294286095804,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "clean",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009638294286095804,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05261055654914587
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.0023605614024938435,
+        -0.002884459938043222,
+        0.6126043317109281
+      ],
+      "normal": [
+        0.05215932982556558,
+        -0.013182719405050546,
+        0.9985517614131156
+      ],
+      "radius_m": 0.055632572228845274
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.001962030954799368,
+        -0.0026891948911077655,
+        0.6128010847462892
+      ],
+      "normal": [
+        0.03980415787581853,
+        -0.015310341392007178,
+        0.9990901973607073
+      ],
+      "radius_m": 0.05761196120513834
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.001962030954799368,
+        -0.0026891948911077655,
+        0.6128010847462892
+      ],
+      "normal": [
+        0.03980415787581853,
+        -0.015310341392007178,
+        0.9990901973607073
+      ],
+      "radius_m": 0.055632572228845274
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_000",
+    "estimate": {
+      "center_m": [
+        0.001962030954799368,
+        -0.0026891948911077655,
+        0.6128010847462892
+      ],
+      "normal": [
+        0.03980415787581853,
+        -0.015310341392007178,
+        0.9990901973607073
+      ],
+      "radius_m": 0.05579892693507991
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.005471135344409292,
+        0.00260056980137444,
+        0.5694707853169451
+      ],
+      "normal": [
+        0.010895902941332651,
+        0.03061100872796203,
+        0.9994719833210682
+      ],
+      "radius_m": 0.05774516401012428
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.00412196182074377,
+        0.002350474854441408,
+        0.569634628801897
+      ],
+      "normal": [
+        0.0059663229446236385,
+        0.022045164057334265,
+        0.9997391728507019
+      ],
+      "radius_m": 0.06151927206872285
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.00412196182074377,
+        0.002350474854441408,
+        0.569634628801897
+      ],
+      "normal": [
+        0.0059663229446236385,
+        0.022045164057334265,
+        0.9997391728507019
+      ],
+      "radius_m": 0.05774516401012428
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_001",
+    "estimate": {
+      "center_m": [
+        0.00412196182074377,
+        0.002350474854441408,
+        0.569634628801897
+      ],
+      "normal": [
+        0.0059663229446236385,
+        0.022045164057334265,
+        0.9997391728507019
+      ],
+      "radius_m": 0.058490645114905086
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.0017117882471241663,
+        0.003490382196125973,
+        0.579923622385552
+      ],
+      "normal": [
+        -0.07553858108763903,
+        0.00921121330576679,
+        0.9971003341272641
+      ],
+      "radius_m": 0.05499333600311558
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002086321769376782,
+        0.003341601454079776,
+        0.5801724832721072
+      ],
+      "normal": [
+        -0.0672585183880536,
+        0.010879126035641744,
+        0.997676268295956
+      ],
+      "radius_m": 0.0572326628573264
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002086321769376782,
+        0.003341601454079776,
+        0.5801724832721072
+      ],
+      "normal": [
+        -0.0672585183880536,
+        0.010879126035641744,
+        0.997676268295956
+      ],
+      "radius_m": 0.05499333600311558
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_003",
+    "estimate": {
+      "center_m": [
+        -0.002086321769376782,
+        0.003341601454079776,
+        0.5801724832721072
+      ],
+      "normal": [
+        -0.0672585183880536,
+        0.010879126035641744,
+        0.997676268295956
+      ],
+      "radius_m": 0.055260281996883744
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "fs_visible",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0008792494357607754,
+        -0.004357991658322861,
+        0.5834708544050867
+      ],
+      "normal": [
+        0.014994554340752916,
+        -0.07183475669047468,
+        0.9973038308716871
+      ],
+      "radius_m": 0.05264192943450938
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "ss_sor",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009423865438623635,
+        -0.0040891476881311254,
+        0.5840026617442998
+      ],
+      "normal": [
+        0.008608865601843409,
+        -0.050798665273393745,
+        0.9986718094747098
+      ],
+      "radius_m": 0.05555962523936603
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009423865438623635,
+        -0.0040891476881311254,
+        0.5840026617442998
+      ],
+      "normal": [
+        0.008608865601843409,
+        -0.050798665273393745,
+        0.9986718094747098
+      ],
+      "radius_m": 0.05264192943450938
+    },
+    "accepted": true
+  },
+  {
+    "cohort": "new8",
+    "condition": "shared_noise",
+    "method": "pose_fs_radius_refit",
+    "case": "confirmation_nominal_004",
+    "estimate": {
+      "center_m": [
+        0.0009423865438623635,
+        -0.0040891476881311254,
+        0.5840026617442998
+      ],
+      "normal": [
+        0.008608865601843409,
+        -0.050798665273393745,
+        0.9986718094747098
+      ],
+      "radius_m": 0.0528142504574363
+    },
+    "accepted": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/configs/pose_transfer_20261028_v1.json": "8ac9ea19d2df5741ad74acf60d62fb0a80a30814c904189f2b37e2a8853c01f2",
+    "/home/wunicheng/Git/WineJar/scripts/run_charuco_eye_to_hand_check.py": "547172ee7e7a2a45a069f5f700232253871a4ff9d6d0b76ba90fe4c203305dbc",
+    "/home/wunicheng/Git/WineJar/neck_localization/fixed_camera_calibration.py": "b46d08ba259a77466f9649b07baa273ce518aecadb7fd6bd7c2a135d4c24da8c",
+    "/home/wunicheng/Git/WineJar/scripts/run_fixed_camera_calibration_study.py": "488545cbcfc9b645015f14b22c83d16aefe72c4f29e8ca772127992ba6451e1d"
+  },
+  "opencv": "4.13.0"
+}

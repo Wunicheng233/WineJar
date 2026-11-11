@@ -1,0 +1,81 @@
+{
+  "scope": "follow-up diagnosis on opened plane test; no jar data; locked jar model unchanged",
+  "metrics": [
+    {
+      "method": "raw",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 4.285201072692871,
+      "frame_equal_rmse_mm": 4.534764289855957,
+      "pooled_abs_p95_mm": 8.925914764404297,
+      "mean_mm": -0.01660802774131298
+    },
+    {
+      "method": "GP_frozen_512",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 4.299630641937256,
+      "frame_equal_rmse_mm": 4.548234462738037,
+      "pooled_abs_p95_mm": 8.944034576416016,
+      "mean_mm": 0.3523447811603546
+    },
+    {
+      "method": "harmonic0_n512",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 4.301759243011475,
+      "frame_equal_rmse_mm": 4.553083419799805,
+      "pooled_abs_p95_mm": 8.954748153686523,
+      "mean_mm": 0.15604226291179657
+    },
+    {
+      "method": "harmonic0_n11904",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 4.289905548095703,
+      "frame_equal_rmse_mm": 4.537395477294922,
+      "pooled_abs_p95_mm": 8.91876220703125,
+      "mean_mm": 0.2686064839363098
+    },
+    {
+      "method": "harmonic2_n512",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 2.5493693351745605,
+      "frame_equal_rmse_mm": 2.667175054550171,
+      "pooled_abs_p95_mm": 5.313277244567871,
+      "mean_mm": 0.23466786742210388
+    },
+    {
+      "method": "harmonic2_n11904",
+      "pixels": 2631724,
+      "pooled_rmse_mm": 2.4767773151397705,
+      "frame_equal_rmse_mm": 2.590195417404175,
+      "pooled_abs_p95_mm": 5.162343502044678,
+      "mean_mm": 0.07989253848791122
+    }
+  ],
+  "mapping_derivative": [
+    {
+      "method": "harmonic0_n512",
+      "min_corrected_disparity_derivative": 1.0007599698629177,
+      "negative_fraction": 0.0,
+      "nonmonotone_mapping": false
+    },
+    {
+      "method": "harmonic0_n11904",
+      "min_corrected_disparity_derivative": 0.9985242975491163,
+      "negative_fraction": 0.0,
+      "nonmonotone_mapping": false
+    },
+    {
+      "method": "harmonic2_n512",
+      "min_corrected_disparity_derivative": -0.7138021561109581,
+      "negative_fraction": 0.3177682231776822,
+      "nonmonotone_mapping": true
+    },
+    {
+      "method": "harmonic2_n11904",
+      "min_corrected_disparity_derivative": -0.6067882432002125,
+      "negative_fraction": 0.3086691330866913,
+      "nonmonotone_mapping": true
+    }
+  ],
+  "training_points": 11904,
+  "inference": "feature and sample-count effects separated for simple models; GP also differs in objective/kernel/hyperparameters"
+}

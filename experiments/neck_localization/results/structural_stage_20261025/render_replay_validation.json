@@ -1,0 +1,174 @@
+{
+  "scope": "two opened far cases rerendered with estimator-free capture; not full second test",
+  "checks": [
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_a",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_b",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_000",
+      "camera": "cam_c",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_a",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_b",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "condition": "ideal_rgb",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "condition": "ideal_ir_registered",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "condition": "stereo_raw",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    },
+    {
+      "case": "structural_test_nominal_001",
+      "camera": "cam_c",
+      "condition": "stereo_spatial",
+      "rgb_identical": true,
+      "depth_max_difference_m": 0.0
+    }
+  ],
+  "native_arrays_identical": true
+}

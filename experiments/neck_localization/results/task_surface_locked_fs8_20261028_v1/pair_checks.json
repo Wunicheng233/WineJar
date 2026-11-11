@@ -1,0 +1,1346 @@
+[
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 4436.667026999999,
+        "gpu_peak_allocated_bytes": 3428086272,
+        "input_sha256": [
+          "e6a6090ee8ae191bc51ebc646ac2bd878c740aa8fcc8dc85b5123d56c79a794e",
+          "6bc6250f1c50cdd0b72ac72daf0b5b9991690702622e54c49fa029e6d1755b63"
+        ],
+        "prediction_sha256": "26ee19f1f3d356c5116e753c9ad95c4f4c8f6935d5876b7ff560fa16068e395a"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_a/clean.npz",
+      "prediction_sha256": "26ee19f1f3d356c5116e753c9ad95c4f4c8f6935d5876b7ff560fa16068e395a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392387,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392387,
+      "native_quantized_valid": 392387,
+      "aligned_valid": 403686,
+      "foreground_sha256": "40a5878502f25d388c9a76e110f242e6f5ee74bc43836691f838d13623404a85",
+      "ordinary_RGB_sha256": "80d85be139872f165f57a7d92b29dd95c39e010f77d1021001d20226786b52ce"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2312.0696859999725,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "19a3d767e16bb155674aebb0d9d38ec5309c8c79035cd1564c5a4356a00ba33e",
+          "f185210d975ff9d23fae5e24abb6b6631b77ea10d9e12f888adfa534c1ed7e47"
+        ],
+        "prediction_sha256": "ed8187ea0dd6bb38dc08eacb7db70427b6489772eb3bed0ac7f0ec7fa96dabd5"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_b/clean.npz",
+      "prediction_sha256": "ed8187ea0dd6bb38dc08eacb7db70427b6489772eb3bed0ac7f0ec7fa96dabd5",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 386740,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 386740,
+      "native_quantized_valid": 386740,
+      "aligned_valid": 404522,
+      "foreground_sha256": "1872e636bddb413bec41bc99acf98466fa1cf2db6d9dd23062dfdb2918996ed9",
+      "ordinary_RGB_sha256": "9f3ed37c9db94ecb09f0881b4f16036a2854a83d406c9e24935391d6a13f4943"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2321.5985359998967,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "72ae7dbe9317b1aee2eb7940b428f3627fd68dd1931c85e67b40ab9451b8f77e",
+          "4dbcb9db73d8e17968eb466104f3e643e642df8f5298e28a7c5b7b7b9e897fe4"
+        ],
+        "prediction_sha256": "fc6c1de6f0aa0927c7aa39d61272453cff096d7cf08995b92724e09fb2f6744f"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_c/clean.npz",
+      "prediction_sha256": "fc6c1de6f0aa0927c7aa39d61272453cff096d7cf08995b92724e09fb2f6744f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 393580,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 393580,
+      "native_quantized_valid": 393580,
+      "aligned_valid": 403908,
+      "foreground_sha256": "3fba489e9156f8e7f797fbaf186461633e4d32f24cd91ef772676fadc8f2b930",
+      "ordinary_RGB_sha256": "354f21e72b2a13dc3df9b93df7b66da744c69dda0abb3b38270d53722b366808"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2317.355048999957,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "3d5bda049b4750ee2e4ce84235511e13330b2a15c22aa824d219752b5f0421c3",
+          "f1b6b4eadc9b89a883c87f8325c031a318ed462fe24e074113dd69f88bfcccd5"
+        ],
+        "prediction_sha256": "84208a209c1c9c8fb55a42b01274566644e055fdfa89e8a47f2d99cb8f2ceeab"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_a/shared_noise.npz",
+      "prediction_sha256": "84208a209c1c9c8fb55a42b01274566644e055fdfa89e8a47f2d99cb8f2ceeab",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392266,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392266,
+      "native_quantized_valid": 392266,
+      "aligned_valid": 404038,
+      "foreground_sha256": "40a5878502f25d388c9a76e110f242e6f5ee74bc43836691f838d13623404a85",
+      "ordinary_RGB_sha256": "80d85be139872f165f57a7d92b29dd95c39e010f77d1021001d20226786b52ce"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2321.6500700000324,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "78764e1f3f0849482aa2bc2dae2fca44664ff05e781bcfb3421f9b12463d9bfd",
+          "e38cda31f6249bdc61bc72388650693215caf5c115d00669fd4c1acc2d095a3b"
+        ],
+        "prediction_sha256": "311fc83970ef9cfcb9609b4f06554b846b5a2258f337f722fa0ad46c5097304b"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_b/shared_noise.npz",
+      "prediction_sha256": "311fc83970ef9cfcb9609b4f06554b846b5a2258f337f722fa0ad46c5097304b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 386911,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 386911,
+      "native_quantized_valid": 386911,
+      "aligned_valid": 404305,
+      "foreground_sha256": "1872e636bddb413bec41bc99acf98466fa1cf2db6d9dd23062dfdb2918996ed9",
+      "ordinary_RGB_sha256": "9f3ed37c9db94ecb09f0881b4f16036a2854a83d406c9e24935391d6a13f4943"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_000/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_000/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2322.5331449999658,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "18ed31181bdca87f37efaea21424460ee173ecfe5070a3f275fe95a8739ebcee",
+          "bab5903b220f4ab3d4b099a2a454cd757f19e68c1fc112a03ef0fa751609fa22"
+        ],
+        "prediction_sha256": "c2417b381a17ceaadc1498325729037a7c5d3d2bf78c3d27fa2aeb9d3d01f2c9"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_000/cam_c/shared_noise.npz",
+      "prediction_sha256": "c2417b381a17ceaadc1498325729037a7c5d3d2bf78c3d27fa2aeb9d3d01f2c9",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390831,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390831,
+      "native_quantized_valid": 390831,
+      "aligned_valid": 404293,
+      "foreground_sha256": "3fba489e9156f8e7f797fbaf186461633e4d32f24cd91ef772676fadc8f2b930",
+      "ordinary_RGB_sha256": "354f21e72b2a13dc3df9b93df7b66da744c69dda0abb3b38270d53722b366808"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2322.4833890000127,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "c2647692511f9c64a9a591a36d030bbd22869db7b18a789c2a5681f7970abb25",
+          "7b9ed05c62018189f48cb4fe397156496207815bbbb0dde79384726f555ba353"
+        ],
+        "prediction_sha256": "63d461ca194136e8cccd612b3a05ee42c91b4be9248bfd3c42e10bc1af45da1e"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_a/clean.npz",
+      "prediction_sha256": "63d461ca194136e8cccd612b3a05ee42c91b4be9248bfd3c42e10bc1af45da1e",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396072,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396072,
+      "native_quantized_valid": 396072,
+      "aligned_valid": 404534,
+      "foreground_sha256": "31152295489f863d22673a918fc8634e607fbcd4fe958b57e89f814ac43d302f",
+      "ordinary_RGB_sha256": "2c58146602bb441fa5876cab5d27ccc67ba7511f850d3e579de9df008ad1adbd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2325.5483350000077,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "3a958f9f9b80c3c21296355ba6f689e9c2b628a6e8b42e7fa3c042896dd13ea1",
+          "5fd1621c48726a17f1d928888212cb1412640f20c8bf76bdf2ddf3dac4996a17"
+        ],
+        "prediction_sha256": "7f433f86af441220aa24bfc6e676738f81cd7be62fcde81208bb2d94ea57e49a"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_b/clean.npz",
+      "prediction_sha256": "7f433f86af441220aa24bfc6e676738f81cd7be62fcde81208bb2d94ea57e49a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 388604,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 388604,
+      "native_quantized_valid": 388604,
+      "aligned_valid": 405055,
+      "foreground_sha256": "d79fe57bb6c47bb61bdae4ae81b89ef2cb4f0b708785819574fd22da5995ec43",
+      "ordinary_RGB_sha256": "83c2d990cc151beaab548d8ea4f272343b141b23460e784f5f29631a397e2d25"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2326.800603000038,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "d3dbbd955a7af2998845d2d26e4e389675c063e47d2dada72f1d926bd71ba6e1",
+          "4156e94c482042cd0a6f07f32a237b03c61818004c0abc3edfbb9cbd33d6ed57"
+        ],
+        "prediction_sha256": "7c36f171b30999393c2eba769ced244817ef9f6762d1130cbb1bf4d1e5a15798"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_c/clean.npz",
+      "prediction_sha256": "7c36f171b30999393c2eba769ced244817ef9f6762d1130cbb1bf4d1e5a15798",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 394084,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 394084,
+      "native_quantized_valid": 394084,
+      "aligned_valid": 404454,
+      "foreground_sha256": "3711cd6672e1cd644635373b90dd8e6659d7942c256c3e02ecc1f404b512475e",
+      "ordinary_RGB_sha256": "bde8593d32b5dd36248fe2c65cdcebcb9959cab425915cbd896f2e05eb88cdf9"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2328.4903169999325,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "4513126a352127f90ceaa51ccc21ccf434e59eca33fbb189df9d38d8574e7188",
+          "04c709bd2fa80a0ab88ac184908052abb8918dbfa0470b5a4ec2ccb36a3095b7"
+        ],
+        "prediction_sha256": "04e8725ae877984b3d4fe4acb8daca3fb598fbed348516af21618a8e37c09f09"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_a/shared_noise.npz",
+      "prediction_sha256": "04e8725ae877984b3d4fe4acb8daca3fb598fbed348516af21618a8e37c09f09",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 393374,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 393374,
+      "native_quantized_valid": 393374,
+      "aligned_valid": 404807,
+      "foreground_sha256": "31152295489f863d22673a918fc8634e607fbcd4fe958b57e89f814ac43d302f",
+      "ordinary_RGB_sha256": "2c58146602bb441fa5876cab5d27ccc67ba7511f850d3e579de9df008ad1adbd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2328.1718039999078,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "2239660b035973282efd3dbf34f836384d494086dbdf3220b3dbd7b152219e4b",
+          "1f3957924e13edda536b1e87599558116482916b92507379ec979739a849fdc7"
+        ],
+        "prediction_sha256": "4a8455050a880c4985be8dda5cfbd7fba64fe14885f412f08f2d2bd31979a336"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_b/shared_noise.npz",
+      "prediction_sha256": "4a8455050a880c4985be8dda5cfbd7fba64fe14885f412f08f2d2bd31979a336",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 388577,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 388577,
+      "native_quantized_valid": 388577,
+      "aligned_valid": 404989,
+      "foreground_sha256": "d79fe57bb6c47bb61bdae4ae81b89ef2cb4f0b708785819574fd22da5995ec43",
+      "ordinary_RGB_sha256": "83c2d990cc151beaab548d8ea4f272343b141b23460e784f5f29631a397e2d25"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_001/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_001/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2329.53903300006,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "8c5d1ebe1a3a0604e0a851225c6c09f6e809d6565dd0ade9d2265babea7011f4",
+          "c01f3897173e2132929e2bb7a7a15e8a1627c344bc5e484525ecaed87a124a55"
+        ],
+        "prediction_sha256": "ec1614ea17f13863b025ced345acff933b21f77a14249b272ca0d7c21d1297f2"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_001/cam_c/shared_noise.npz",
+      "prediction_sha256": "ec1614ea17f13863b025ced345acff933b21f77a14249b272ca0d7c21d1297f2",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 394387,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 394387,
+      "native_quantized_valid": 394387,
+      "aligned_valid": 404297,
+      "foreground_sha256": "3711cd6672e1cd644635373b90dd8e6659d7942c256c3e02ecc1f404b512475e",
+      "ordinary_RGB_sha256": "bde8593d32b5dd36248fe2c65cdcebcb9959cab425915cbd896f2e05eb88cdf9"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2332.2732330000235,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "47751801ea1bb0c84f86ec9c66963db0998e559c1b05ec478bc55184d3059211",
+          "3bad2463d60eeb66286b58c0af6ab803939fec05f47810b2404f8690ceebcaa8"
+        ],
+        "prediction_sha256": "9121efeeb41dea57d3c5054d81da22a8db74da4c7f9c4d1b254bc961af074f9f"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_a/clean.npz",
+      "prediction_sha256": "9121efeeb41dea57d3c5054d81da22a8db74da4c7f9c4d1b254bc961af074f9f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389884,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389884,
+      "native_quantized_valid": 389884,
+      "aligned_valid": 403487,
+      "foreground_sha256": "9e3d6540cbad7a6c6b50fe52bbbc53265a34246d7ba357ac994fc6c2681e4ae8",
+      "ordinary_RGB_sha256": "f374acfcdc1123e461284ac1b4576028da75b5eb1e94cb621c05a2a3a932c14f"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2327.5068130000136,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "1a09ec150150116f8063395e19fa9f2168c9949786fca97d80ecfd7b0b6522c1",
+          "1ab9bbf67b98d80f6bcc796d97876fe96be52ab75ff81f1a4a9fe65caf1bca31"
+        ],
+        "prediction_sha256": "3c642ba5d4c89190df4585ad25620c6f3489086b1b1a87f18b41c2f53c46e76a"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_b/clean.npz",
+      "prediction_sha256": "3c642ba5d4c89190df4585ad25620c6f3489086b1b1a87f18b41c2f53c46e76a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 386070,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 386070,
+      "native_quantized_valid": 386070,
+      "aligned_valid": 404200,
+      "foreground_sha256": "41c81e0c7b0e761a8235d27092ea630ec792bf0286826f1a0d99046629fe8530",
+      "ordinary_RGB_sha256": "90fcf8836a554f3659efa9a898da086c37a9c2dfc17c020f595b128758a847b6"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2330.8834629999637,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "d2320eb5388428f1a4b01c0135872541d161487dbf9b2bf7bdff0b218f58d837",
+          "53a03ac217e75d7eeb1def3f1d0de183abf58a4c58bf29164fa6af00e747b2c4"
+        ],
+        "prediction_sha256": "1bbc17c2a4a07834ad43fb6281620826bc806aee03cece258d2c8c5b76fa9196"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_c/clean.npz",
+      "prediction_sha256": "1bbc17c2a4a07834ad43fb6281620826bc806aee03cece258d2c8c5b76fa9196",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389756,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389756,
+      "native_quantized_valid": 389756,
+      "aligned_valid": 403710,
+      "foreground_sha256": "cb7524ad2ae5a0b38684f5a0fecd132175aa631f5a9f1f5937db3d99d8fbc60e",
+      "ordinary_RGB_sha256": "e1c94f6dd284c040a3ea7ae936bed4088d7aac71315827ddfea9a2ee8efe26e3"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2335.1000210000166,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "207852975c08a42bdfd83e548250140a7986dea1db2f9181c07b037dcc9db74e",
+          "5d4ede24b6ee55ba068e866c10b259da772a6126ab217b82e6de75196be6a048"
+        ],
+        "prediction_sha256": "0e37924e4c91a61d2104b744a12e806a9020ef7c9e69c3bf85aa40b4148c4523"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_a/shared_noise.npz",
+      "prediction_sha256": "0e37924e4c91a61d2104b744a12e806a9020ef7c9e69c3bf85aa40b4148c4523",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 391886,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 391886,
+      "native_quantized_valid": 391886,
+      "aligned_valid": 403716,
+      "foreground_sha256": "9e3d6540cbad7a6c6b50fe52bbbc53265a34246d7ba357ac994fc6c2681e4ae8",
+      "ordinary_RGB_sha256": "f374acfcdc1123e461284ac1b4576028da75b5eb1e94cb621c05a2a3a932c14f"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2337.8392220000705,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "0f303b8e3bc6679febcef2452d5e06320f3b2c6a967279d724cd687933191f9b",
+          "6b541dba112f562c8aee906adfedeefe6bddecb909f8b1f401178320c2a4a6c4"
+        ],
+        "prediction_sha256": "ec3acf23b88c7cfd73fda178744f3d0078ec12f7a6a779cad68f81b9944b1f5c"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_b/shared_noise.npz",
+      "prediction_sha256": "ec3acf23b88c7cfd73fda178744f3d0078ec12f7a6a779cad68f81b9944b1f5c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 385303,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 385303,
+      "native_quantized_valid": 385303,
+      "aligned_valid": 404257,
+      "foreground_sha256": "41c81e0c7b0e761a8235d27092ea630ec792bf0286826f1a0d99046629fe8530",
+      "ordinary_RGB_sha256": "90fcf8836a554f3659efa9a898da086c37a9c2dfc17c020f595b128758a847b6"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_002/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_002/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2335.6473780000897,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "c976649d88e673a47c879f2da239df25ebce6f4c2e39d53c82ccbb44fe734ebd",
+          "70493a543b0f4ed447a753a0c489dca35d2d0b1ed05fefe87bb462495d082b56"
+        ],
+        "prediction_sha256": "91ca0a7dba97983b046832a0eb72c3e9ce63be631f8ff30d18f492a6abf602bd"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_002/cam_c/shared_noise.npz",
+      "prediction_sha256": "91ca0a7dba97983b046832a0eb72c3e9ce63be631f8ff30d18f492a6abf602bd",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390112,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390112,
+      "native_quantized_valid": 390112,
+      "aligned_valid": 403894,
+      "foreground_sha256": "cb7524ad2ae5a0b38684f5a0fecd132175aa631f5a9f1f5937db3d99d8fbc60e",
+      "ordinary_RGB_sha256": "e1c94f6dd284c040a3ea7ae936bed4088d7aac71315827ddfea9a2ee8efe26e3"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2335.835555000017,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "6c1f355906925e68e8c7655e32ed30a530617cdafc2be73a6728d2f31bca3b51",
+          "4464496c7f8318ee71e5918694ea9cd1f57bbebe4e6b1cd2db31fc6b7aa04fe7"
+        ],
+        "prediction_sha256": "66221c4f124b7f954e75badb856cf751b8198371c9e390959cddbaa5a2fd8630"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_a/clean.npz",
+      "prediction_sha256": "66221c4f124b7f954e75badb856cf751b8198371c9e390959cddbaa5a2fd8630",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 395816,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 395816,
+      "native_quantized_valid": 395816,
+      "aligned_valid": 404727,
+      "foreground_sha256": "e61040110f9b20c65fef36a89fb44245646624be5ba093de33de0e7f04e7c4c8",
+      "ordinary_RGB_sha256": "e2a9eb5b2a7d38365ca26de3f0ae8d0bb3dfea623d0f72673b0d8a0e1954ebff"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2335.6253330000527,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "6190e4dc1f58a0001c89b2c460eb2232c0a1d5a0e338ff54af1dd1bf8106e71d",
+          "be59080a860b7f2f6f6c262aec7026c387d2f0bd2391365545326110832708c8"
+        ],
+        "prediction_sha256": "273b9295c75c8dbbf079a53529f8d6bd63da03c90b399edcd671e2e85cafa99e"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_b/clean.npz",
+      "prediction_sha256": "273b9295c75c8dbbf079a53529f8d6bd63da03c90b399edcd671e2e85cafa99e",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 388275,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 388275,
+      "native_quantized_valid": 388275,
+      "aligned_valid": 405215,
+      "foreground_sha256": "bf8f765b8f135342b93e8302328520447cf3d8b48396464036276c5255b60c28",
+      "ordinary_RGB_sha256": "12e484a73a71c780ec7b46efb9ee833cd59561bf0457191e6ec45adef89932d9"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2334.223376000068,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "a9376ac7f6398f9ea215c3b58badf8f00c05b8db909ff1767da7c5cf24336d9c",
+          "98a96bc0a9247c129f1af61c3574972c770f1d9c18f84a50ce25fc78c2d476ba"
+        ],
+        "prediction_sha256": "830491afca31f80fbc74f753149e14ac6144abc3b14424eae854e106019c5d28"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_c/clean.npz",
+      "prediction_sha256": "830491afca31f80fbc74f753149e14ac6144abc3b14424eae854e106019c5d28",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392087,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392087,
+      "native_quantized_valid": 392087,
+      "aligned_valid": 404711,
+      "foreground_sha256": "6480ac6724704091e01b912820c83467ad1660db31e5e8a5bcd2ea9a167a7906",
+      "ordinary_RGB_sha256": "2edacca3db039fb29749ab01f2ff8c32062c5e06d30f96796bf787afb97e6174"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2339.6191109999336,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "7cd8ec01d13c6113134fe341d1c4d4c0680a3e0b3f1f657fd55fec5288c3971e",
+          "a4234a93817fda4f273bf9e80e9b0875e066a625c1f30f7ad0514456ad0dad7b"
+        ],
+        "prediction_sha256": "faba5df42ca8c9675baddff52b01a5f3923a2ad672b63e3eb0d238b46913f665"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_a/shared_noise.npz",
+      "prediction_sha256": "faba5df42ca8c9675baddff52b01a5f3923a2ad672b63e3eb0d238b46913f665",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 394292,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 394292,
+      "native_quantized_valid": 394292,
+      "aligned_valid": 404713,
+      "foreground_sha256": "e61040110f9b20c65fef36a89fb44245646624be5ba093de33de0e7f04e7c4c8",
+      "ordinary_RGB_sha256": "e2a9eb5b2a7d38365ca26de3f0ae8d0bb3dfea623d0f72673b0d8a0e1954ebff"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2339.6075319999454,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "00fbcf263cc42b94e5ed22aaa70d833e9c78ec7538b8ba5f6d4385c53836b67f",
+          "222a4113309ad9c6122415fad6524dbe11d9a82a1044dcb7ea4b3b6b3fc38cf1"
+        ],
+        "prediction_sha256": "dc1c82ae583a40d547f0de065f9cd8eadeedae89bc722658d2ec606987226838"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_b/shared_noise.npz",
+      "prediction_sha256": "dc1c82ae583a40d547f0de065f9cd8eadeedae89bc722658d2ec606987226838",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 387219,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 387219,
+      "native_quantized_valid": 387219,
+      "aligned_valid": 405311,
+      "foreground_sha256": "bf8f765b8f135342b93e8302328520447cf3d8b48396464036276c5255b60c28",
+      "ordinary_RGB_sha256": "12e484a73a71c780ec7b46efb9ee833cd59561bf0457191e6ec45adef89932d9"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_003/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_003/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2340.3107750000345,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "9bb1984fa7e24ca594ee7391724c574834a30f7d47e83a9c2aa5a5ad0691d3c8",
+          "20ee3a37053a2c6dee92b95295ee3032fddf66ae2718711db827621685de0904"
+        ],
+        "prediction_sha256": "4e05e93b6c0bec7d23daa7c4deca103ca9de1f20df3c134af831887318c83827"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_003/cam_c/shared_noise.npz",
+      "prediction_sha256": "4e05e93b6c0bec7d23daa7c4deca103ca9de1f20df3c134af831887318c83827",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 391725,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 391725,
+      "native_quantized_valid": 391725,
+      "aligned_valid": 404700,
+      "foreground_sha256": "6480ac6724704091e01b912820c83467ad1660db31e5e8a5bcd2ea9a167a7906",
+      "ordinary_RGB_sha256": "2edacca3db039fb29749ab01f2ff8c32062c5e06d30f96796bf787afb97e6174"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2340.381416000014,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "c3aef0e28b8bcdeb0c2150fde368419219931b2fb793bdaff29caca43bb24d07",
+          "847d927ca309c673c8ac3d90f73e5086793c966dbe91ed6cf2eed5ec3886bd39"
+        ],
+        "prediction_sha256": "e9e88f4abbfe73e1e7cec381a6baf45adacae7db5612d53ae25e7b48f123aa39"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_a/clean.npz",
+      "prediction_sha256": "e9e88f4abbfe73e1e7cec381a6baf45adacae7db5612d53ae25e7b48f123aa39",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 394692,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 394692,
+      "native_quantized_valid": 394692,
+      "aligned_valid": 404298,
+      "foreground_sha256": "0a22ddf5deb79aaddf03fff8ced0222f5352ada5c2194e87e6fccb90652685af",
+      "ordinary_RGB_sha256": "ebbf2d018b34879f4d58508076bb9e78e09f881e49d815f6605cc7d51bda2a8a"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2339.37018000006,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "0f0cb34d2ccca682dd30e6665a420de738d57858c00288fc2b43d7375f0bca6e",
+          "4a57edf43d5c7fa6b0a682fc213c5166ce23db75960c3dd4fe3800543555f6d9"
+        ],
+        "prediction_sha256": "971f9d3a6257956cc7166803f8c3a80405d79d8a7d13776e7e6a92e3ce07dae5"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_b/clean.npz",
+      "prediction_sha256": "971f9d3a6257956cc7166803f8c3a80405d79d8a7d13776e7e6a92e3ce07dae5",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390341,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390341,
+      "native_quantized_valid": 390341,
+      "aligned_valid": 404818,
+      "foreground_sha256": "badd6022649ffa25d22863d1c51aea9cab6f3188bce794851e89adc56166edf1",
+      "ordinary_RGB_sha256": "a0d49f4748b925e913cb158d797db99b8cad98f05055366082264a63b705c327"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2342.04760099999,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "ec90f7f1551b1fc58846195877301bbf897ad41309c1bb8f9e7640262af69b13",
+          "90cee02675090a01410babfad9b3320016187e8dec67734542dd1fe3bc673a96"
+        ],
+        "prediction_sha256": "9b7919a6b73ae98b14007f879ab854e435723e36400e1a2499bdff3bf40a3677"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_c/clean.npz",
+      "prediction_sha256": "9b7919a6b73ae98b14007f879ab854e435723e36400e1a2499bdff3bf40a3677",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390540,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390540,
+      "native_quantized_valid": 390540,
+      "aligned_valid": 404948,
+      "foreground_sha256": "7ff7fdcbc6f8add3b6382639811149a78d7df298e8097bc6c3692a744d2ef5b1",
+      "ordinary_RGB_sha256": "f2448c0e35dd780e1989ad7fc12941c3f8dec429fff0dec7d478367ef98fa9d0"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2342.346869000039,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "98c0dd026f1060413bf819aff9f91d15a7ca2253406b467ca161b735739273d8",
+          "aeb1c333a3cec38535fb966b156ec41076522d72a15032e9cf3bfc26cc29b55c"
+        ],
+        "prediction_sha256": "bf4246002d305f54970faa93e1718ae87fc7c6c57c7b336bc25e1537717f3f15"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_a/shared_noise.npz",
+      "prediction_sha256": "bf4246002d305f54970faa93e1718ae87fc7c6c57c7b336bc25e1537717f3f15",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392242,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392242,
+      "native_quantized_valid": 392242,
+      "aligned_valid": 404594,
+      "foreground_sha256": "0a22ddf5deb79aaddf03fff8ced0222f5352ada5c2194e87e6fccb90652685af",
+      "ordinary_RGB_sha256": "ebbf2d018b34879f4d58508076bb9e78e09f881e49d815f6605cc7d51bda2a8a"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2340.616106000084,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "c8ed82fa1d25e05774a6c59762db1bd1775fa42085a427c72f1a93af4fc1d4c2",
+          "cbc52b6a9e4208614995da6ed6ef3f2ac14e40e0dfb04a7da2ea936321761a8b"
+        ],
+        "prediction_sha256": "116c4878f51c9ad26690b42964bdc8e9402b47f894f5aeca1a2b062a6ed0d08a"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_b/shared_noise.npz",
+      "prediction_sha256": "116c4878f51c9ad26690b42964bdc8e9402b47f894f5aeca1a2b062a6ed0d08a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389759,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389759,
+      "native_quantized_valid": 389759,
+      "aligned_valid": 404865,
+      "foreground_sha256": "badd6022649ffa25d22863d1c51aea9cab6f3188bce794851e89adc56166edf1",
+      "ordinary_RGB_sha256": "a0d49f4748b925e913cb158d797db99b8cad98f05055366082264a63b705c327"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_004/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_004/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2346.5261229999896,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "2b583de09751963c886e5bfddb99af7ed5d5a85a65fcaa7b6c5d0f60463331f0",
+          "c49445be946d1a0734f6324150fbcdd4865d75f5b678ccb33c41b0445dc11da5"
+        ],
+        "prediction_sha256": "772abeec80aa4ea56f95f0b2a472e52018ba5ae428078c772b56d518bb8b20dc"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_004/cam_c/shared_noise.npz",
+      "prediction_sha256": "772abeec80aa4ea56f95f0b2a472e52018ba5ae428078c772b56d518bb8b20dc",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389205,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389205,
+      "native_quantized_valid": 389205,
+      "aligned_valid": 405122,
+      "foreground_sha256": "7ff7fdcbc6f8add3b6382639811149a78d7df298e8097bc6c3692a744d2ef5b1",
+      "ordinary_RGB_sha256": "f2448c0e35dd780e1989ad7fc12941c3f8dec429fff0dec7d478367ef98fa9d0"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2346.1537030000272,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "f8417c4a1dd1afa9708adef0f38d582ca10bbdca343286a45669a06cae61eb7b",
+          "1087fafd68f511fd73e52a109ea203106856943c25d0cbf7ed961e4b91e53f9c"
+        ],
+        "prediction_sha256": "82b6e31b316d0d3dc8ba4625f1be9609fa261b91e83432148d70b63d7a3042ce"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_a/clean.npz",
+      "prediction_sha256": "82b6e31b316d0d3dc8ba4625f1be9609fa261b91e83432148d70b63d7a3042ce",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396552,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396552,
+      "native_quantized_valid": 396552,
+      "aligned_valid": 404464,
+      "foreground_sha256": "4f1edfbfd3a62717e406dd4e95fbc64db81560436eacca13d27b8a093d7ca0d6",
+      "ordinary_RGB_sha256": "d9a6c7bd54ebbbaad90d01adbe9c886a73f70343c86c54ab76e0d15f9c4797dd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2347.6490399999648,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "efad75494449342f80367c9d9f95f4f6f619a6e2942e4f67572f02d4c0554749",
+          "bd0e8fa67012555f25e8e7cc8fe7ee605ceca4a078322cf277de2ac1a1d9e434"
+        ],
+        "prediction_sha256": "eeae85ebc01efb2ee1100ab540c7a8fcb263fecf9b12f37db20db05123cefd8f"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_b/clean.npz",
+      "prediction_sha256": "eeae85ebc01efb2ee1100ab540c7a8fcb263fecf9b12f37db20db05123cefd8f",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389857,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389857,
+      "native_quantized_valid": 389857,
+      "aligned_valid": 405019,
+      "foreground_sha256": "831c106b7277ad612f29b7dfdf83e381b56ce12cc61d985c729f213c67657e26",
+      "ordinary_RGB_sha256": "405edd05964944f6f1a167601f8d0a323f76e6d7932dc2a09e775e27915409e5"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2348.0971660000023,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "27ef181e4de0abf44806c876f96fbda3bb95601191dae71373b95f88648976e0",
+          "1eff52bbb6cbae5f4fedcd409c1bacf4d8ea0731e4edc6cba58686df532e931b"
+        ],
+        "prediction_sha256": "f3cfa9a9a0ab8e97807de857c8216844c3e2b70c6644f60e2eb871725373ae24"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_c/clean.npz",
+      "prediction_sha256": "f3cfa9a9a0ab8e97807de857c8216844c3e2b70c6644f60e2eb871725373ae24",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 395346,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 395346,
+      "native_quantized_valid": 395346,
+      "aligned_valid": 404550,
+      "foreground_sha256": "14acef80ff8c8c3a3a54aceb198c0b943afa0b64eb7a94d1345fdccb92e08892",
+      "ordinary_RGB_sha256": "bd7de7e6e865fe214c11c9f463db5806f32ebe28ecb9477354966d6720781a32"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2342.1704559999625,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "04bac6485ba966e97ceb67c93f7df372c8d5bccf0c699568b73d21b553883aca",
+          "636ffd42d29c7a081b4529b19a5ca5b58ea2346b2d56d962897f8db1773d0061"
+        ],
+        "prediction_sha256": "98ed7eff54da43b969feb5cf21ac6481bb702c7ef42643adaccd7c19657cc270"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_a/shared_noise.npz",
+      "prediction_sha256": "98ed7eff54da43b969feb5cf21ac6481bb702c7ef42643adaccd7c19657cc270",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392046,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392046,
+      "native_quantized_valid": 392046,
+      "aligned_valid": 404886,
+      "foreground_sha256": "4f1edfbfd3a62717e406dd4e95fbc64db81560436eacca13d27b8a093d7ca0d6",
+      "ordinary_RGB_sha256": "d9a6c7bd54ebbbaad90d01adbe9c886a73f70343c86c54ab76e0d15f9c4797dd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2352.2472820000075,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "6200f172e51e791adf2897deb6b973897461c0fffb7a55993cdd58e4c2677624",
+          "b984bc278c27481774490543c45a943afdeba5c1754e3e437caeb779a38a4ea3"
+        ],
+        "prediction_sha256": "3a429d9d66eb01f23c441924e8a514ebcc365e04f9faad43b976b8b6065cb76a"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_b/shared_noise.npz",
+      "prediction_sha256": "3a429d9d66eb01f23c441924e8a514ebcc365e04f9faad43b976b8b6065cb76a",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 386394,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 386394,
+      "native_quantized_valid": 386394,
+      "aligned_valid": 405280,
+      "foreground_sha256": "831c106b7277ad612f29b7dfdf83e381b56ce12cc61d985c729f213c67657e26",
+      "ordinary_RGB_sha256": "405edd05964944f6f1a167601f8d0a323f76e6d7932dc2a09e775e27915409e5"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_005/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_005/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2347.8514380000206,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "02652b6957c75d9eb45f56c41c005b69a8c592f2c6e14bec66de825bab1547c3",
+          "55c09201dc4a77b0ea5d975514bd2c62e4f60ebd6b7cdf70f467122feb68af5e"
+        ],
+        "prediction_sha256": "a1c010e418e13c3630b6784deba28eed7b4b7906765b8b4f8d25bb782aba3891"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_005/cam_c/shared_noise.npz",
+      "prediction_sha256": "a1c010e418e13c3630b6784deba28eed7b4b7906765b8b4f8d25bb782aba3891",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396647,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396647,
+      "native_quantized_valid": 396647,
+      "aligned_valid": 404418,
+      "foreground_sha256": "14acef80ff8c8c3a3a54aceb198c0b943afa0b64eb7a94d1345fdccb92e08892",
+      "ordinary_RGB_sha256": "bd7de7e6e865fe214c11c9f463db5806f32ebe28ecb9477354966d6720781a32"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2349.225749000084,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "c69e93b0b2d77bed1d718f6b0bca12594a5bc5b4164fe4ac2686d58fceef5035",
+          "c3cdddae8795ba135ca51a72de8362a72748520c249a7ac7cf5b9f48ad1d2c09"
+        ],
+        "prediction_sha256": "4eb3fff5fd0ca57d238405676e874e684feae6796c1e2d94d2bc4cfc9024b1db"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_a/clean.npz",
+      "prediction_sha256": "4eb3fff5fd0ca57d238405676e874e684feae6796c1e2d94d2bc4cfc9024b1db",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 395457,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 395457,
+      "native_quantized_valid": 395457,
+      "aligned_valid": 404756,
+      "foreground_sha256": "15c84ee1b33be325449be6474ef87296a0c3629e655559027f75bcf689dfbb68",
+      "ordinary_RGB_sha256": "c1b85cda31fce0d955b8131c8d71d75344558cb0ab7ae32bcdefd022d5ea627d"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2349.8538160000635,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "dade68165d303ff336816a9bb20b43e56805f82834193851be4848dddfdb0ecf",
+          "eff8eb954ae14c4ba20fd53c9711eccfc643d6563e067046602ca68ce2eb3b51"
+        ],
+        "prediction_sha256": "35af2db0d9f0a3842bc618a0d6425b00d729cd68f8e993b46392513cd9810c89"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_b/clean.npz",
+      "prediction_sha256": "35af2db0d9f0a3842bc618a0d6425b00d729cd68f8e993b46392513cd9810c89",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390765,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390765,
+      "native_quantized_valid": 390765,
+      "aligned_valid": 404896,
+      "foreground_sha256": "0616913dfbb20f6980cf4da634fb9bc9a8650ef1683c191c85e10c13d95507d8",
+      "ordinary_RGB_sha256": "f2c79b66120be080a00a0289c84a7af6459bacfb8a171437119f76567084ecfd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2351.542818000098,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "ab75691d654aba32c6bdcda34ffe91155340b9710e1ace345167510d25a858f6",
+          "be428e0666de7f00c8e3f4ceb352b2d64a31c5657f3aab262f7136cd9178bbe9"
+        ],
+        "prediction_sha256": "7f49781aa5d5b5f4dc5d770ed93d6a0206a8524887b26c9d1d8aa829292d0644"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_c/clean.npz",
+      "prediction_sha256": "7f49781aa5d5b5f4dc5d770ed93d6a0206a8524887b26c9d1d8aa829292d0644",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 392156,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 392156,
+      "native_quantized_valid": 392156,
+      "aligned_valid": 404892,
+      "foreground_sha256": "4ddefe5eeb4b36cb5a061cc1f8989de1ef2dafcbd99adf414872fdefb05b7543",
+      "ordinary_RGB_sha256": "a1cd9872cc7869c1b8c2ba90a729c7924e0c9773691280ab0e3ea152e4a59663"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2352.6556110000456,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "3ec88aaca13f3bf0a690cf225f91040c93cca9f2117d60889ea65bc3b28e830b",
+          "3fe23c390088c9e83c3f46c80cbae53bc8e981f9dc83c484d248ddb357039a3b"
+        ],
+        "prediction_sha256": "f6dd1675f7be3c41a33f859744e5e050e209727a8b4ba858cbbc0160a34b546b"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_a/shared_noise.npz",
+      "prediction_sha256": "f6dd1675f7be3c41a33f859744e5e050e209727a8b4ba858cbbc0160a34b546b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 395468,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 395468,
+      "native_quantized_valid": 395468,
+      "aligned_valid": 404592,
+      "foreground_sha256": "15c84ee1b33be325449be6474ef87296a0c3629e655559027f75bcf689dfbb68",
+      "ordinary_RGB_sha256": "c1b85cda31fce0d955b8131c8d71d75344558cb0ab7ae32bcdefd022d5ea627d"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2353.083401000049,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "24dea3490391167374c7656a17ffd42d85ecb307143425e559871fdd16cd4294",
+          "c22b5c61a81297e333f601ead65c3ccf2642111039e478afa7e94474d9232326"
+        ],
+        "prediction_sha256": "a2e96a836f20d10aec0ac84898ed3b36cc0bfe5132099f1596f170332daf4996"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_b/shared_noise.npz",
+      "prediction_sha256": "a2e96a836f20d10aec0ac84898ed3b36cc0bfe5132099f1596f170332daf4996",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 389154,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 389154,
+      "native_quantized_valid": 389154,
+      "aligned_valid": 405103,
+      "foreground_sha256": "0616913dfbb20f6980cf4da634fb9bc9a8650ef1683c191c85e10c13d95507d8",
+      "ordinary_RGB_sha256": "f2c79b66120be080a00a0289c84a7af6459bacfb8a171437119f76567084ecfd"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_006/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_006/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2350.95225200007,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "ff21882026463bf65e2c22da57749e0ff91d7909b41bd2bb16202e1ef1368446",
+          "e38725452b26347f5399ec169ec5a2b24a1ad78dc21ce7c3fd4c4d8d92555dad"
+        ],
+        "prediction_sha256": "162dd627ea9cc11b781bd34566b6b9706e517ae0f5234d155a5472002fc34c08"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_006/cam_c/shared_noise.npz",
+      "prediction_sha256": "162dd627ea9cc11b781bd34566b6b9706e517ae0f5234d155a5472002fc34c08",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390384,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390384,
+      "native_quantized_valid": 390384,
+      "aligned_valid": 405078,
+      "foreground_sha256": "4ddefe5eeb4b36cb5a061cc1f8989de1ef2dafcbd99adf414872fdefb05b7543",
+      "ordinary_RGB_sha256": "a1cd9872cc7869c1b8c2ba90a729c7924e0c9773691280ab0e3ea152e4a59663"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_a/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_a/clean",
+        "status": "ok",
+        "inference_ms": 2353.5594579999497,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "9ae6e6685caabe235555d39f47d44c03fe22da250b79180149d67f6f21dd8879",
+          "57031518696e34385b8a2d3592c7b1cb19598cb34ff6309bcfb121d86287aefa"
+        ],
+        "prediction_sha256": "956292fb35c1058dbef27fd13a297c988e47d275bd0007a0ed4831a8d5c7a513"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_a/clean.npz",
+      "prediction_sha256": "956292fb35c1058dbef27fd13a297c988e47d275bd0007a0ed4831a8d5c7a513",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396598,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396598,
+      "native_quantized_valid": 396598,
+      "aligned_valid": 404449,
+      "foreground_sha256": "00a24983893dc737b3e92e22fda849e4b245d4f2de0458b556e4181a4871f0fd",
+      "ordinary_RGB_sha256": "5778e086588e92a6047fba3ae7adaec8eaaa908dfe63ccaa6399998a4f2a99b4"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_b/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_b/clean",
+        "status": "ok",
+        "inference_ms": 2353.9071369999647,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "f6bbb43e82a0f57c7b0cb550cd57bcb6a510443873c0ee070fb099d45e9b0c56",
+          "2c7ad5d069ee5b0a53b8a448791e320e9d3f21c451abb37bdb8b0ce686f004d9"
+        ],
+        "prediction_sha256": "fcf6ded741b090a56c6d00f96c7a2116883208b3bb9c0ba72e0816fa607c109c"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_b/clean.npz",
+      "prediction_sha256": "fcf6ded741b090a56c6d00f96c7a2116883208b3bb9c0ba72e0816fa607c109c",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 390221,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 390221,
+      "native_quantized_valid": 390221,
+      "aligned_valid": 404897,
+      "foreground_sha256": "9124bff47c3bb95daaeff071503e68bd12e52c038b5a59c77251ea3c48fa4e63",
+      "ordinary_RGB_sha256": "4d478f46b19b327b59b8144550fc1e30caeb3189e8d4d07edd964e6c7af048da"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_c/clean",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_c/clean",
+        "status": "ok",
+        "inference_ms": 2355.8565369999087,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "2a82c1ff3b628e42e902bfeb2862666cf9bdb255db4427d5810b39b78049e531",
+          "440d627c94771e0d74bbd3e6bea348e43c7a3ff7deeec1ead4b2d16739093aee"
+        ],
+        "prediction_sha256": "41970f624a31143ae48212a20b858b8fb4ac5da7a632700b3abdaf1ff0d9558b"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_c/clean.npz",
+      "prediction_sha256": "41970f624a31143ae48212a20b858b8fb4ac5da7a632700b3abdaf1ff0d9558b",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396449,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396449,
+      "native_quantized_valid": 396449,
+      "aligned_valid": 404255,
+      "foreground_sha256": "a78edd5599079c7f7eb1b109000016c83762702804a3a20c18fd67f9dce828ea",
+      "ordinary_RGB_sha256": "a3607a505494a9ca46041c18feb16c652eb77ea0742feadb9f6e23598885496a"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_a/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_a/shared_noise",
+        "status": "ok",
+        "inference_ms": 2356.7340460000423,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "7cc69be451c5da7a8b6e545da578a581fb093e68837b56c49f6f07009c6dbe69",
+          "67f6202bdd405a43e1e05eea773cf545484cb4ff62a9381c5d715d773c3f4f02"
+        ],
+        "prediction_sha256": "b4c85de02cc2ef6301fba4bf0c830b9773c8115f439adc9c58c6841864c965ac"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_a/shared_noise.npz",
+      "prediction_sha256": "b4c85de02cc2ef6301fba4bf0c830b9773c8115f439adc9c58c6841864c965ac",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 396241,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 396241,
+      "native_quantized_valid": 396241,
+      "aligned_valid": 404504,
+      "foreground_sha256": "00a24983893dc737b3e92e22fda849e4b245d4f2de0458b556e4181a4871f0fd",
+      "ordinary_RGB_sha256": "5778e086588e92a6047fba3ae7adaec8eaaa908dfe63ccaa6399998a4f2a99b4"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_b/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_b/shared_noise",
+        "status": "ok",
+        "inference_ms": 2356.936872999995,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "d4aaa7dbd52af9052f47acd0482984225cb7dc1b15ea7fcd16eea88fa0698225",
+          "62a3ffe83a1941fe5b17fb8b91a85b53087dc4eed835acd3339520f0d29d71cb"
+        ],
+        "prediction_sha256": "633df1589c056cac7a9ef181584d250c0f9a7027fedac9e30737188fd3fbaf47"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_b/shared_noise.npz",
+      "prediction_sha256": "633df1589c056cac7a9ef181584d250c0f9a7027fedac9e30737188fd3fbaf47",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 393189,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 393189,
+      "native_quantized_valid": 393189,
+      "aligned_valid": 404550,
+      "foreground_sha256": "9124bff47c3bb95daaeff071503e68bd12e52c038b5a59c77251ea3c48fa4e63",
+      "ordinary_RGB_sha256": "4d478f46b19b327b59b8144550fc1e30caeb3189e8d4d07edd964e6c7af048da"
+    }
+  },
+  {
+    "pair_id": "close/confirmation_nominal_007/cam_c/shared_noise",
+    "prediction": {
+      "prediction_status": {
+        "pair_id": "close/confirmation_nominal_007/cam_c/shared_noise",
+        "status": "ok",
+        "inference_ms": 2358.1395600000405,
+        "gpu_peak_allocated_bytes": 3427507200,
+        "input_sha256": [
+          "b7ed10bda24aa9055b88a5a08630f5b1d40e30a2a25ffd104aff818037ff0113",
+          "b45f4bcd1e17d072b49d9ac0033f1d53068071b3b1c1e87d7f2e1e6166b1c768"
+        ],
+        "prediction_sha256": "f577a390ca43c17f4712871f23998018a002e92bfe9c6db1261e8e57eb5d26ac"
+      },
+      "prediction_path": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/engineering_target_surface_20261028_v1/foundation_stereo/predictions/close/confirmation_nominal_007/cam_c/shared_noise.npz",
+      "prediction_sha256": "f577a390ca43c17f4712871f23998018a002e92bfe9c6db1261e8e57eb5d26ac",
+      "range_invalidated_pixels": 0,
+      "valid_pixels": 395453,
+      "total_pixels": 407040
+    },
+    "registration": {
+      "native_float_valid": 395453,
+      "native_quantized_valid": 395453,
+      "aligned_valid": 404330,
+      "foreground_sha256": "a78edd5599079c7f7eb1b109000016c83762702804a3a20c18fd67f9dce828ea",
+      "ordinary_RGB_sha256": "a3607a505494a9ca46041c18feb16c652eb77ea0742feadb9f6e23598885496a"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "training_frames": 12,
+  "holdout_frames": 6,
+  "excluded_frames": 12,
+  "corner_error_px": {
+    "median": 0.08228001992983416,
+    "p95": 0.24061663623982277,
+    "max": 0.6947278705063138
+  },
+  "fit_summary": [
+    {
+      "method": "pixel_huber",
+      "accepted": true,
+      "pixel_rms": 0.3690260550504333,
+      "holdout_pixel_rms": 0.5033427585124877,
+      "elapsed_ms": 47.68374499985839
+    },
+    {
+      "method": "camera_poe_block",
+      "accepted": true,
+      "pixel_rms": 0.09709890520794574,
+      "holdout_pixel_rms": 0.1395369463305383,
+      "elapsed_ms": 634.7067799999877
+    }
+  ],
+  "no_added_pixel_Gaussian_noise_or_gt_pixel_replacement": true
+}

@@ -1,0 +1,7 @@
+{
+  "scripts/diagnose_structural_failure_chain.py": "1dcce14372649ad8cbcd1586f7a4c9c56552508b5351b5d387f9be9261fddcb1",
+  "scripts/diagnose_structural_sensor_transfer.py": "f89a8576941bc772e8058b0c217745c7c3c900ad565bcb5dafb693d31d078bc3",
+  "scripts/diagnose_structural_clean_objective.py": "3753872007cd069ca9ee376a3e553313c4a8a497df48be32981e74aef335291b",
+  "scripts/report_structural_failure_chain.py": "d842eb89d33afddb5c9af5c0643f46569a4e7dec5772890852df234dfcc72dc5",
+  "tests/neck_localization/test_failure_chain_diagnostics.py": "57b5a92794da2c1cdc9aa682f843f46c30c691c56108c5613309ee20a2d10e98"
+}

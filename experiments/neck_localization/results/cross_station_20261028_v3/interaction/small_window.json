@@ -1,0 +1,39 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "confirmation_nominal_004",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "pose_fs_radius",
+  "large_neck_view": false,
+  "finite_band_overlay": true,
+  "sensor_perturbation": null,
+  "depth_preprocessing": {
+    "condition": "new8/ss/shared_noise"
+  },
+  "point_cloud_view": false,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": false,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "mouse_navigation": true,
+  "navigation_scroll": 0,
+  "show_neck_view": true,
+  "show_estimate": true,
+  "show_rejected_candidate": false,
+  "fitted_pixel_display_overlay": false,
+  "fit_subset_semantics": "actual fixed training subset; Huber influence times equal-view base weight",
+  "ground_truth_overlay": true,
+  "depth_display": true,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "857db2595c96a55ce18aeff70193698f46fa262d20448b372d00514fa7a1c8e2",
+  "raw_rgb_sha256": {
+    "cam_a": "ebbf2d018b34879f4d58508076bb9e78e09f881e49d815f6605cc7d51bda2a8a",
+    "cam_b": "a0d49f4748b925e913cb158d797db99b8cad98f05055366082264a63b705c327",
+    "cam_c": "f2448c0e35dd780e1989ad7fc12941c3f8dec429fff0dec7d478367ef98fa9d0"
+  }
+}

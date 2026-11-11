@@ -1,0 +1,56 @@
+{
+  "data_directories": {
+    "archive": {
+      "files": 1,
+      "bytes": 41282
+    },
+    "complete_loading": {
+      "files": 39,
+      "bytes": 4411696
+    },
+    "hand_eye": {
+      "files": 47,
+      "bytes": 19503418
+    },
+    "jar_neck_three_camera": {
+      "files": 12,
+      "bytes": 2164508
+    },
+    "multiview_neck": {
+      "files": 2502,
+      "bytes": 1071034441
+    },
+    "optimization": {
+      "files": 24,
+      "bytes": 1033064
+    },
+    "recommissioning": {
+      "files": 313,
+      "bytes": 45933463
+    },
+    "suction_surface": {
+      "files": 16,
+      "bytes": 2155615
+    },
+    "vision_frames": {
+      "files": 16,
+      "bytes": 3688209
+    },
+    "visual_pick_test": {
+      "files": 29,
+      "bytes": 3945979
+    },
+    "wrist_guided_pick_test": {
+      "files": 129,
+      "bytes": 17620309
+    },
+    "wrist_live_preview": {
+      "files": 4,
+      "bytes": 636437
+    }
+  },
+  "cache_paths": 0,
+  "cache_bytes": 0,
+  "broken_markdown_links": [],
+  "evidence_hash_errors": []
+}

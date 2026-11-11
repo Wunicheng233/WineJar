@@ -1,0 +1,14 @@
+{
+  "test_command": "conda run -n winejar-stereo python -m unittest discover -s tests/neck_localization",
+  "tests_run": 144,
+  "passed": 142,
+  "skipped_existing_default_gl_tests": 2,
+  "actual_gl_paths": 44,
+  "actual_gl_routes": 44,
+  "all_protected_files_unchanged": true,
+  "absolute_cli_verified_from_directory": "/tmp",
+  "independent_mujoco_xarm6_working_tree": "clean",
+  "no_device_connections": true,
+  "no_training": true,
+  "final_fastening_validated": false
+}

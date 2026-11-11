@@ -1,0 +1,9 @@
+{
+  "preprocessing": {
+    "condition": "old8/ss/shared_noise"
+  },
+  "depth_display_range_m": [
+    0.2,
+    0.9
+  ]
+}

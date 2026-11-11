@@ -1,0 +1,56 @@
+[
+  {
+    "layout": "far",
+    "intervention": "measured_common",
+    "n": 12,
+    "geometric_pass": 0,
+    "minimum_common_fraction": 1.0,
+    "diameter_median_mm": 12.899564075111641,
+    "diameter_max_mm": 35.42973640087647
+  },
+  {
+    "layout": "far",
+    "intervention": "ideal_IR_registered_common",
+    "n": 12,
+    "geometric_pass": 3,
+    "minimum_common_fraction": 1.0,
+    "diameter_median_mm": 9.868529976301812,
+    "diameter_max_mm": 17.49663479341665
+  },
+  {
+    "layout": "far",
+    "intervention": "ideal_RGB_common",
+    "n": 12,
+    "geometric_pass": 3,
+    "minimum_common_fraction": 1.0,
+    "diameter_median_mm": 11.720064550554785,
+    "diameter_max_mm": 21.01609886804283
+  },
+  {
+    "layout": "close",
+    "intervention": "measured_common",
+    "n": 12,
+    "geometric_pass": 5,
+    "minimum_common_fraction": 0.9977941176470588,
+    "diameter_median_mm": 2.3307049486198315,
+    "diameter_max_mm": 8.61062582170509
+  },
+  {
+    "layout": "close",
+    "intervention": "ideal_IR_registered_common",
+    "n": 12,
+    "geometric_pass": 11,
+    "minimum_common_fraction": 0.9977941176470588,
+    "diameter_median_mm": 0.6301841571095812,
+    "diameter_max_mm": 2.1483306273293867
+  },
+  {
+    "layout": "close",
+    "intervention": "ideal_RGB_common",
+    "n": 12,
+    "geometric_pass": 12,
+    "minimum_common_fraction": 0.9977941176470588,
+    "diameter_median_mm": 0.13351660383844471,
+    "diameter_max_mm": 1.4727539231383369
+  }
+]

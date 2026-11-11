@@ -1,0 +1,6492 @@
+[
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.6432386339393066,
+    "axial_mm": -1.5685792321732197,
+    "tangent_mm": 2.127503153545067,
+    "xyz_mm": [
+      -2.136504322529653,
+      -0.05113892913857337,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929347,
+    "band_margin_mm": 0.3804277010709201,
+    "band_contained": true,
+    "elapsed_ms": 0.0015409968909807503,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000888849247675523
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743098678336225
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837822005778915
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.000626810408743944,
+    "overlap_fraction": 0.532783326096396,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.0002502949033095069,
+      0.00080604052381371,
+      0.001308018903470545,
+      0.20844356347342846,
+      0.6168481189566781,
+      0.842633662813959
+    ],
+    "rotation_scale_m": 0.12426772732509081,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4048276102476875,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.5905698771255967,
+    "axial_mm": -1.5581625502409446,
+    "tangent_mm": 0.31944013687383077,
+    "xyz_mm": [
+      -0.3284094673694504,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.390844383003195,
+    "band_contained": true,
+    "elapsed_ms": 47.79728699941188,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048276102476875,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009451176202486811
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27450825573359594
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836739301672433
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0006240271693962026,
+    "overlap_fraction": 0.532783326096396,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.00024194302234591776,
+      0.0007858520503578648,
+      0.0012727167234409759,
+      0.20820564382694368,
+      0.616801503498149,
+      0.8431730161514853
+    ],
+    "rotation_scale_m": 0.12426772732509081,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404983146614132,
+        -0.000379911992812263,
+        0.6305070470507479
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.73748187605802,
+    "axial_mm": -1.7297514743947282,
+    "tangent_mm": 0.16371654302287314,
+    "xyz_mm": [
+      -0.1728731009249529,
+      -0.07432664793013678,
+      -1.727261911238176
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.21925545884941172,
+    "band_contained": true,
+    "elapsed_ms": 47.810019001190085,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404983146614132,
+        -0.000379911992812263,
+        0.6305070470507479
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.3198332229888844,
+        0.9474715763249324,
+        0.002078828730226178,
+        -3.5555474499413876e-05
+      ],
+      [
+        0.19873394519401807,
+        -0.06494002984315872,
+        -0.9778995917534639,
+        0.27418615338705227
+      ],
+      [
+        -0.926397068486382,
+        0.31317791202496514,
+        -0.209064743367981,
+        0.7848980939514698
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0006164455606283229,
+    "overlap_fraction": 0.5384281372123317,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0002469108429438014,
+      0.0007207055648084618,
+      0.0012589866119430053,
+      0.19000710303947013,
+      0.6124970697901287,
+      0.872675454208219
+    ],
+    "rotation_scale_m": 0.12426772732509081,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4055568487868477,
+        -0.0009513313828980389,
+        0.6305555629790174
+      ],
+      "normal": [
+        0.023701240056415034,
+        0.015394523891568038,
+        0.9996005501468775
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.842780498523732,
+    "axial_mm": -1.6971654309026991,
+    "tangent_mm": 0.7179620225946701,
+    "xyz_mm": [
+      0.40082907179073146,
+      -0.6457460380159127,
+      -1.678745982968688
+    ],
+    "normal_deg": 1.4650377801488115,
+    "band_margin_mm": -0.0803597350564492,
+    "band_contained": false,
+    "elapsed_ms": 273.57642400602344,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4055568487868477,
+        -0.0009513313828980389,
+        0.6305555629790174
+      ],
+      "normal": [
+        0.023701240056415034,
+        0.015394523891568038,
+        0.9996005501468775
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.786229249822579,
+    "axial_mm": -1.7789688332378886,
+    "tangent_mm": 2.1443748093407358,
+    "xyz_mm": [
+      -2.0752159434556106,
+      -0.24289671289876588,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.14980166248884155,
+    "band_margin_mm": 0.9454181720343309,
+    "band_contained": true,
+    "elapsed_ms": 0.0015760015230625868,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000930502580233479
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743250793563079
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783709999683739
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0007581307945790759,
+    "overlap_fraction": 0.5080459770114942,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00022452493918226135,
+      0.00046243108591158234,
+      0.0008936178110234829,
+      0.1653574607924918,
+      0.5523289360794792,
+      0.7868190929350064
+    ],
+    "rotation_scale_m": 0.13850461454741797,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4004098309144015,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.868105545113116,
+    "axial_mm": -1.8432120338221187,
+    "tangent_mm": 0.30395349324477366,
+    "xyz_mm": [
+      -0.18238998626074476,
+      -0.2428967128988782,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8811749714501002,
+    "band_contained": true,
+    "elapsed_ms": 41.691348000313155,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4004098309144015,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009442202188431129
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27428953923829635
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783734876711901
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0007572103417365157,
+    "overlap_fraction": 0.5074712643678161,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.000222366656614901,
+      0.00046532612747519176,
+      0.0008943175875208824,
+      0.16558625703740523,
+      0.5522193937343278,
+      0.7868942050096255
+    ],
+    "rotation_scale_m": 0.13850461454741797,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4003889958540374,
+        0.002654073549219126,
+        0.636113950549579
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.8376139605170176,
+    "axial_mm": -1.8119515925620948,
+    "tangent_mm": 0.306033485257295,
+    "xyz_mm": [
+      -0.2032250466248442,
+      -0.21538250975581402,
+      -1.8135972603647854
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.9124354127101243,
+    "band_contained": true,
+    "elapsed_ms": 41.97397799725877,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4003889958540374,
+        0.002654073549219126,
+        0.636113950549579
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.46769550145487737,
+        0.8838564914207416,
+        0.007656402045840548,
+        -0.002524249878666399
+      ],
+      [
+        0.2013449262509206,
+        -0.09809988516139584,
+        -0.9745956254797851,
+        0.2724744895553668
+      ],
+      [
+        -0.8606515779291188,
+        0.4573555674797649,
+        -0.22384089506473132,
+        0.791680163169395
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0007767806267643542,
+    "overlap_fraction": 0.5201149425287356,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00020883595649551407,
+      0.0003532956959182274,
+      0.0008222677306116922,
+      0.16704567040973461,
+      0.5479985552197404,
+      0.7948573549156808
+    ],
+    "rotation_scale_m": 0.13850461454741797,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4040867502033936,
+        0.0022562017273610804,
+        0.636162569995507
+      ],
+      "normal": [
+        -0.014174186803799404,
+        0.035342259373565124,
+        0.999274745568416
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 3.962696381044708,
+    "axial_mm": -1.902478682826585,
+    "tangent_mm": 3.476138298418986,
+    "xyz_mm": [
+      3.4945293027313085,
+      -0.6132543316138598,
+      -1.7649778144367412
+    ],
+    "normal_deg": 1.1348710267375215,
+    "band_margin_mm": -0.05346980717429789,
+    "band_contained": false,
+    "elapsed_ms": 214.30606899957638,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4040867502033936,
+        0.0022562017273610804,
+        0.636162569995507
+      ],
+      "normal": [
+        -0.014174186803799404,
+        0.035342259373565124,
+        0.999274745568416
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.7429885884766019,
+    "axial_mm": -1.3261222162499011,
+    "tangent_mm": 1.1311096706898527,
+    "xyz_mm": [
+      -1.3436831572017915,
+      -0.021671355224013415,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.07866631058740589,
+    "band_margin_mm": 0.20651477944697746,
+    "band_contained": true,
+    "elapsed_ms": 0.0015619953046552837,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010009527174928909
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743508072823898
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835878830944788
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0014438496227408568,
+    "overlap_fraction": 0.38813405797101447,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.0001268016175070431,
+      0.0013626153768819854,
+      0.004935480213930115,
+      0.09413704056373425,
+      0.45263752744683505,
+      0.7949813351478499
+    ],
+    "rotation_scale_m": 0.13655241538087332,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.397482272686644,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.3084398969622069,
+    "axial_mm": -0.9670514648899854,
+    "tangent_mm": 0.8813775741511712,
+    "xyz_mm": [
+      0.6924522881401884,
+      -0.021671355224125305,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5655855308068928,
+    "band_contained": true,
+    "elapsed_ms": 72.3879679935635,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397482272686644,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0016322177079976866
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27514827394768615
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833795908216103
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0013806181072684343,
+    "overlap_fraction": 0.391304347826087,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00014487640132475934,
+      0.0015045094356707677,
+      0.0052389544726794655,
+      0.09932455958427963,
+      0.4621708619940638,
+      0.7887104819665537
+    ],
+    "rotation_scale_m": 0.13655241538087332,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.398113255406259,
+        -0.005859601556140457,
+        0.5678811702194817
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 2.2988489955507347,
+    "axial_mm": -1.5413152626216597,
+    "tangent_mm": 1.7055949007763092,
+    "xyz_mm": [
+      1.3234350077553358,
+      0.34703383118201214,
+      -1.8473748955226688
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": -0.008678266924781554,
+    "band_contained": false,
+    "elapsed_ms": 51.29614600446075,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.398113255406259,
+        -0.005859601556140457,
+        0.5678811702194817
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.419021453405936,
+        0.9073655324897045,
+        0.03329882933752942,
+        -0.011379954748763228
+      ],
+      [
+        0.2221960441856996,
+        -0.06691353115902228,
+        -0.9727031907504243,
+        0.2715027090088328
+      ],
+      [
+        -0.8803692063752583,
+        0.41498237287564804,
+        -0.22965123702844037,
+        0.7920830240320152
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0011267420883118073,
+    "overlap_fraction": 0.41440217391304346,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00012664411614694718,
+      0.0026205000971950927,
+      0.006311736646321594,
+      0.08473854400422537,
+      0.5693489586070962,
+      0.7411854785199601
+    ],
+    "rotation_scale_m": 0.13655241538087332,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4044478046662663,
+        -0.002516759053364557,
+        0.5694610082478424
+      ],
+      "normal": [
+        0.2195378366169132,
+        0.10251887269008494,
+        0.9702025659808986
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 8.504791965738516,
+    "axial_mm": 1.4547663152898807,
+    "tangent_mm": 8.379447556276507,
+    "xyz_mm": [
+      7.65798426776243,
+      3.6898763339579124,
+      -0.267536867161966
+    ],
+    "normal_deg": 2.5359969718461954,
+    "band_margin_mm": -2.0242423165624253,
+    "band_contained": false,
+    "elapsed_ms": 234.51441100041848,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4044478046662663,
+        -0.002516759053364557,
+        0.5694610082478424
+      ],
+      "normal": [
+        0.2195378366169132,
+        0.10251887269008494,
+        0.9702025659808986
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.6487690037686016,
+    "axial_mm": 0.2521104694107609,
+    "tangent_mm": 2.6367437392622732,
+    "xyz_mm": [
+      -2.6277214139462934,
+      -0.31680983525361056,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082478,
+    "band_margin_mm": 1.1999379455818704,
+    "band_contained": true,
+    "elapsed_ms": 0.0015789992175996304,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002389575086056403
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2748579230247266
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7811808781684976
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.00279034462752427,
+    "overlap_fraction": 0.5074946466809421,
+    "iterations": 8,
+    "information_eigenvalues": [
+      8.846058698448278e-05,
+      0.000668200289267534,
+      0.0012264138222155406,
+      0.12591996662529392,
+      0.42979303006915703,
+      0.7627474608120488
+    ],
+    "rotation_scale_m": 0.1358875551856532,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3973733536142814,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.257874850627471,
+    "axial_mm": -0.36855935874566964,
+    "tangent_mm": 2.22759126416338,
+    "xyz_mm": [
+      2.233146084581694,
+      -0.3168098352537216,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.0834890562469637,
+    "band_contained": true,
+    "elapsed_ms": 55.444577999878675,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3973733536142814,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0027276910593509313
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27483359957392073
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7813754649729377
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002785307560288351,
+    "overlap_fraction": 0.5080299785867237,
+    "iterations": 8,
+    "information_eigenvalues": [
+      9.084223151043565e-05,
+      0.0006876806628134075,
+      0.0012463166602358275,
+      0.12591433690552142,
+      0.43121218705455017,
+      0.7621080301398736
+    ],
+    "rotation_scale_m": 0.1358875551856532,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3973693918941135,
+        -0.0038870944328482024,
+        0.6058523095268229
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.2336120606686185,
+    "axial_mm": -0.40754988993920854,
+    "tangent_mm": 2.196116100021775,
+    "xyz_mm": [
+      2.229184364413772,
+      0.0736977896078142,
+      -0.11970189148213795
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.0444985250534249,
+    "band_contained": true,
+    "elapsed_ms": 55.528303993924055,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3973693918941135,
+        -0.0038870944328482024,
+        0.6058523095268229
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9190371613149799,
+        0.3875595879141647,
+        0.07189062482623318,
+        -0.027825874041906392
+      ],
+      [
+        0.17311414809254363,
+        -0.23300438830243375,
+        -0.9569432829389636,
+        0.2614437880585363
+      ],
+      [
+        -0.3541217133307369,
+        0.8919117225642973,
+        -0.2812317394962603,
+        0.815688915647485
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002928396486844959,
+    "overlap_fraction": 0.6375802997858673,
+    "iterations": 35,
+    "information_eigenvalues": [
+      5.3974308245887035e-05,
+      0.000430323798317887,
+      0.001484972972724884,
+      0.047160464814677394,
+      0.46166807157503204,
+      1.044787512380895
+    ],
+    "rotation_scale_m": 0.1358875551856532,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.417451543647989,
+        -0.001593673768938363,
+        0.6089994534656
+      ],
+      "normal": [
+        0.04077021539332963,
+        -0.10015287041572914,
+        0.9941364051699705
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 22.6398845956864,
+    "axial_mm": 0.006825383327301558,
+    "tangent_mm": 22.63988356684152,
+    "xyz_mm": [
+      22.311336118289393,
+      2.3671184535176537,
+      3.0274420472949926
+    ],
+    "normal_deg": 9.940481968052227,
+    "band_margin_mm": -8.341260233866647,
+    "band_contained": false,
+    "elapsed_ms": 375.395432994992,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.417451543647989,
+        -0.001593673768938363,
+        0.6089994534656
+      ],
+      "normal": [
+        0.04077021539332963,
+        -0.10015287041572914,
+        0.9941364051699705
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.9289882781320438,
+    "axial_mm": -0.22636465321411284,
+    "tangent_mm": 1.9156604137858257,
+    "xyz_mm": [
+      -1.9064636766632503,
+      -0.1964324201778416,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.18210286182615532,
+    "band_margin_mm": 2.4633853103610748,
+    "band_contained": true,
+    "elapsed_ms": 0.001843996869865805,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023771393782340486
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27485338158614225
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7812024339281226
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002963529810357717,
+    "overlap_fraction": 0.4309978768577495,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.00010453588636817355,
+      0.0003317963406203979,
+      0.000493117745325595,
+      0.09988668421228097,
+      0.44705360123028115,
+      0.7378347246837246
+    ],
+    "rotation_scale_m": 0.13335161386604058,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4028976488719915,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 2.9438173595870443,
+    "axial_mm": -0.20468201624359303,
+    "tangent_mm": 2.9366930242762,
+    "xyz_mm": [
+      2.9291071369739186,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.485067947331594,
+    "band_contained": true,
+    "elapsed_ms": 54.0512959996704,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4028976488719915,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0027925114880309257
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274084221985103
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7816939050443286
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0029446206078259374,
+    "overlap_fraction": 0.4299363057324841,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.00010084330781960757,
+      0.00032340120962898964,
+      0.0005126445059835859,
+      0.09997793963099075,
+      0.4431335298101273,
+      0.739763574144517
+    ],
+    "rotation_scale_m": 0.13335161386604058,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4025449671598706,
+        0.003698990287416567,
+        0.5979110271687643
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 2.6561692073963514,
+    "axial_mm": 0.4421967207739169,
+    "tangent_mm": 2.6191023115673353,
+    "xyz_mm": [
+      2.576425424853035,
+      0.47964936467322516,
+      0.43267005380542845
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.2475532428012697,
+    "band_contained": true,
+    "elapsed_ms": 53.529705000983085,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4025449671598706,
+        0.003698990287416567,
+        0.5979110271687643
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8244141879127052,
+        0.24904706203670468,
+        0.508248765526413,
+        -0.21956535423917334
+      ],
+      [
+        0.2999116272152094,
+        0.5693276680999724,
+        -0.7654534748741919,
+        0.17479324781229597
+      ],
+      [
+        -0.4799940235350457,
+        0.7834804191725124,
+        0.3946696975242767,
+        0.5265137755211602
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.00210220984417568,
+    "overlap_fraction": 0.05997876857749469,
+    "iterations": 35,
+    "information_eigenvalues": [
+      4.482688608765682e-06,
+      8.273294631914351e-05,
+      0.00046866117351266375,
+      0.007057252943961833,
+      0.017881369145182353,
+      1.3143696927103612
+    ],
+    "rotation_scale_m": 0.13335161386604058,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3580597010148234,
+        0.11915602970979133,
+        0.547379695408023
+      ],
+      "normal": [
+        -0.2209736504246243,
+        0.7084909881954111,
+        0.6702321728057421
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 133.06969092261932,
+    "axial_mm": -50.773361705482905,
+    "tangent_mm": 123.00247307825008,
+    "xyz_mm": [
+      -41.908840720194185,
+      115.936688787048,
+      -50.098661706935886
+    ],
+    "normal_deg": 48.221848886034884,
+    "band_margin_mm": -89.1060636763198,
+    "band_contained": false,
+    "elapsed_ms": 380.20096800028114,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3580597010148234,
+        0.11915602970979133,
+        0.547379695408023
+      ],
+      "normal": [
+        -0.2209736504246243,
+        0.7084909881954111,
+        0.6702321728057421
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.741184179477161,
+    "axial_mm": -0.6798290834426058,
+    "tangent_mm": 2.655545729811758,
+    "xyz_mm": [
+      -2.5534328288627783,
+      -0.4984479923769397,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.24541081374380888,
+    "band_margin_mm": 1.9090164865443853,
+    "band_contained": true,
+    "elapsed_ms": 0.001558000803925097,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009408137628037147
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743288449322643
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836921265255635
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.000505100760495853,
+    "overlap_fraction": 0.5634715025906736,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.0001174582978602722,
+      0.00013559199995834536,
+      0.0003681461203351831,
+      0.14784397380408124,
+      0.564396792305402,
+      0.8452188345651602
+    ],
+    "rotation_scale_m": 0.11887297511896439,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4047401600197955,
+        0.002359822430385327,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.1845676214359375,
+    "axial_mm": -0.7950935238771693,
+    "tangent_mm": 0.8780812821390626,
+    "xyz_mm": [
+      -0.6396318905843579,
+      -0.4984479923771075,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7937520461098218,
+    "band_contained": true,
+    "elapsed_ms": 63.289156001701485,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4047401600197955,
+        0.002359822430385327,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009877795854288524
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27433994970307285
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837071809545632
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0005045127629035015,
+    "overlap_fraction": 0.5634715025906736,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.00011750648023399642,
+      0.00013605875387971968,
+      0.0003682958577808936,
+      0.14782987462878652,
+      0.5644130805662458,
+      0.8452716053166033
+    ],
+    "rotation_scale_m": 0.11887297511896439,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404752413610768,
+        0.002406837684653084,
+        0.6354036751005987
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.1693318523208214,
+    "axial_mm": -0.8123054433410981,
+    "tangent_mm": 0.8411283181361006,
+    "xyz_mm": [
+      -0.6273782996117916,
+      -0.4514327381093504,
+      -0.8774633513665142
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7765401266458927,
+    "band_contained": true,
+    "elapsed_ms": 54.946067997661885,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404752413610768,
+        0.002406837684653084,
+        0.6354036751005987
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5161112675889371,
+        0.855262370501711,
+        0.046426684907869976,
+        -0.019927420936018188
+      ],
+      [
+        0.23378580126827236,
+        -0.08851884284157988,
+        -0.9682502845790129,
+        0.2697384894459225
+      ],
+      [
+        -0.8239983972029875,
+        0.5105787814488391,
+        -0.24563377076681822,
+        0.8014940905021252
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0005029668739446521,
+    "overlap_fraction": 0.5777202072538861,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00011331623372280884,
+      0.00013304218077041078,
+      0.0004496323782577987,
+      0.15830801728417973,
+      0.5565699931251763,
+      0.8614086468408655
+    ],
+    "rotation_scale_m": 0.11887297511896439,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4154578272209823,
+        0.006259490097300155,
+        0.6348155373238653
+      ],
+      "normal": [
+        0.00045594400602894553,
+        -0.03143298776205321,
+        0.9995057575599122
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 10.736995746618346,
+    "axial_mm": -2.252238039857688,
+    "tangent_mm": 10.498118949350808,
+    "xyz_mm": [
+      10.078035310602473,
+      3.401219674537721,
+      -1.4656011280999026
+    ],
+    "normal_deg": 3.7184703836086217,
+    "band_margin_mm": -2.733015709571659,
+    "band_contained": false,
+    "elapsed_ms": 326.3541760024964,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4154578272209823,
+        0.006259490097300155,
+        0.6348155373238653
+      ],
+      "normal": [
+        0.00045594400602894553,
+        -0.03143298776205321,
+        0.9995057575599122
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 3.15668686517831,
+    "axial_mm": -2.6041466388685084,
+    "tangent_mm": 1.784122262643207,
+    "xyz_mm": [
+      -1.6979634577798386,
+      0.5693468849897959,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764792,
+    "band_margin_mm": 0.09320041261865722,
+    "band_contained": true,
+    "elapsed_ms": 0.001767999492585659,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0018869910826782854
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27467438265714395
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.782052045304529
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0025895793314497277,
+    "overlap_fraction": 0.4604385128693994,
+    "iterations": 18,
+    "information_eigenvalues": [
+      0.00013265261870264286,
+      0.0007434788610784321,
+      0.002058878057196657,
+      0.14056350869748221,
+      0.43463432136085056,
+      0.7731842108290364
+    ],
+    "rotation_scale_m": 0.12958290317027016,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4034133275726894,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 3.4151928027714193,
+    "axial_mm": -2.491725674748261,
+    "tangent_mm": 2.3355609694251243,
+    "xyz_mm": [
+      2.1405489527848154,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.20562137673890463,
+    "band_contained": true,
+    "elapsed_ms": 112.73054100456648,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4034133275726894,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0025666379225359748
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27504283577017374
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7822046092879517
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002577212117999712,
+    "overlap_fraction": 0.4599618684461392,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00014188837495100276,
+      0.0007464263504871355,
+      0.0022076575010937976,
+      0.13944287475119435,
+      0.43405191379750824,
+      0.7739662013155958
+    ],
+    "rotation_scale_m": 0.12958290317027016,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403683582911773,
+        -0.0004846784088313105,
+        0.563174294695739
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 4.024230985634204,
+    "axial_mm": -2.8326959502048177,
+    "tangent_mm": 2.858368184722126,
+    "xyz_mm": [
+      2.4108042918684625,
+      1.1972471761509602,
+      -2.9914974329331434
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": -0.13534889871765216,
+    "band_contained": false,
+    "elapsed_ms": 211.49802600120893,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403683582911773,
+        -0.0004846784088313105,
+        0.563174294695739
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8903968837543612,
+        -0.4543063036994389,
+        -0.028269627154843574,
+        0.006322140174025219
+      ],
+      [
+        0.03893835191513465,
+        0.13789922589705222,
+        -0.989680558689079,
+        0.27270368549233626
+      ],
+      [
+        0.4535164761622814,
+        0.8801077126783665,
+        0.1404749797415869,
+        0.659598030782167
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0022303315922592025,
+    "overlap_fraction": 0.18589132507149667,
+    "iterations": 35,
+    "information_eigenvalues": [
+      4.220558630552719e-05,
+      0.00035503594817009313,
+      0.0008764126509552682,
+      0.017111921028230222,
+      0.032549749332122506,
+      1.9506988749577812
+    ],
+    "rotation_scale_m": 0.12958290317027016,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.335617944097653,
+        0.025455256047381275,
+        0.5570297141961871
+      ],
+      "normal": [
+        -0.3626028463498633,
+        0.17062663623407218,
+        0.9161908790347255
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 71.62717251909763,
+    "axial_mm": -9.216880038393805,
+    "tangent_mm": 71.03168986754034,
+    "xyz_mm": [
+      -65.65483452225163,
+      27.137181632363546,
+      -9.136077932485055
+    ],
+    "normal_deg": 23.858351885936386,
+    "band_margin_mm": -28.027677632439776,
+    "band_contained": false,
+    "elapsed_ms": 297.5477209984092,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.335617944097653,
+        0.025455256047381275,
+        0.5570297141961871
+      ],
+      "normal": [
+        -0.3626028463498633,
+        0.17062663623407218,
+        0.9161908790347255
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.3230059639851395,
+    "axial_mm": -1.2737772528939777,
+    "tangent_mm": 1.9426394978792125,
+    "xyz_mm": [
+      -1.9915541601367437,
+      0.027866408423973116,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.11221352100353,
+    "band_contained": true,
+    "elapsed_ms": 0.0015410041669383645,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010841367261000198
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27438118553441154
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834436939160433
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0016269938189279708,
+    "overlap_fraction": 0.4944262295081967,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00014214761745079854,
+      0.00020980866786308666,
+      0.0007738273275766089,
+      0.1298862926270762,
+      0.5059609143713307,
+      0.7785489441483313
+    ],
+    "rotation_scale_m": 0.1272899943436857,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4042203030022593,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.214815460295004,
+    "axial_mm": -1.1862739712043793,
+    "tangent_mm": 0.2617836278584949,
+    "xyz_mm": [
+      0.21379398171950115,
+      0.027866408423860792,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1997168026931284,
+    "band_contained": true,
+    "elapsed_ms": 32.649624001351185,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4042203030022593,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011284333089172024
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2740982793432417
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835265555604873
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0016178144279277282,
+    "overlap_fraction": 0.49245901639344264,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00013315251877889713,
+      0.00020044857142866333,
+      0.0007776351090001411,
+      0.13002373571711856,
+      0.5077731616549358,
+      0.7745519462978877
+    ],
+    "rotation_scale_m": 0.1272899943436857,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4041206817502436,
+        -0.0025584541803297615,
+        0.6131354248476633
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 0.9523359347219589,
+    "axial_mm": -0.9314546030898939,
+    "tangent_mm": 0.19833319173904154,
+    "xyz_mm": [
+      0.11417272970382086,
+      0.13497162846745148,
+      -0.9357836180782231
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.4545361708076137,
+    "band_contained": true,
+    "elapsed_ms": 32.62278300098842,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4041206817502436,
+        -0.0025584541803297615,
+        0.6131354248476633
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5055376434947387,
+        0.8626233642812448,
+        0.01768113135220472,
+        -0.007014773929045228
+      ],
+      [
+        0.1996255845537426,
+        -0.09700421647753672,
+        -0.9750588741082029,
+        0.2724667554084925
+      ],
+      [
+        -0.8393934220622428,
+        0.4964585716670499,
+        -0.22124097635146672,
+        0.7904831345653937
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0016180450611611352,
+    "overlap_fraction": 0.49836065573770494,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0001434775957285041,
+      0.00020094610897922663,
+      0.0007950350393032201,
+      0.1317225647846879,
+      0.5036884024265396,
+      0.7839097304480261
+    ],
+    "rotation_scale_m": 0.1272899943436857,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.407524698197088,
+        -0.0013300915990487362,
+        0.6131034520494962
+      ],
+      "normal": [
+        0.06400513160365884,
+        -0.007158974835233731,
+        0.9979238909895417
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 3.8952391108423896,
+    "axial_mm": -0.837090754454609,
+    "tangent_mm": 3.804230119149316,
+    "xyz_mm": [
+      3.5181891765483364,
+      1.3633342097484766,
+      -0.9677564162452468
+    ],
+    "normal_deg": 1.3957692135218445,
+    "band_margin_mm": 0.6793199954222525,
+    "band_contained": true,
+    "elapsed_ms": 169.99060799571453,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.407524698197088,
+        -0.0013300915990487362,
+        0.6131034520494962
+      ],
+      "normal": [
+        0.06400513160365884,
+        -0.007158974835233731,
+        0.9979238909895417
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.52294025237908,
+    "axial_mm": -2.152349512788035,
+    "tangent_mm": 2.78899616289336,
+    "xyz_mm": [
+      -2.76382295637978,
+      0.17318548429581282,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397688,
+    "band_margin_mm": -0.3654292579895462,
+    "band_contained": false,
+    "elapsed_ms": 0.0017049969756044447,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002078723394471474
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2747444020344967
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7817197010838078
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002715770029624865,
+    "overlap_fraction": 0.4636449480642115,
+    "iterations": 13,
+    "information_eigenvalues": [
+      0.00017188143150742121,
+      0.000847884165350126,
+      0.0019909356825482307,
+      0.16754467096994513,
+      0.48044582569380734,
+      0.7465961136822068
+    ],
+    "rotation_scale_m": 0.12503752072213198,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.40837089033609,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.6301651095144125,
+    "axial_mm": -2.184161287452661,
+    "tangent_mm": 1.4653354475000258,
+    "xyz_mm": [
+      1.4647108300569478,
+      0.17318548429564457,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3972410326541706,
+    "band_contained": false,
+    "elapsed_ms": 82.8136740019545,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40837089033609,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023896337420741404
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27465244232820796
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7819550783829264
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002690166751579569,
+    "overlap_fraction": 0.46222851746931065,
+    "iterations": 15,
+    "information_eigenvalues": [
+      0.00017282073856988273,
+      0.0008258319734984303,
+      0.002010025238997916,
+      0.1662895884533229,
+      0.476198827577735,
+      0.7492977566091454
+    ],
+    "rotation_scale_m": 0.12503752072213198,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4083066536345386,
+        0.002857613225518055,
+        0.5696176608212338
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.6164419568008914,
+    "axial_mm": -2.1332877728224258,
+    "tangent_mm": 1.5148768239148729,
+    "xyz_mm": [
+      1.4004741285056355,
+      0.5664780746944751,
+      -2.1362451450114284
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.34636751802393556,
+    "band_contained": false,
+    "elapsed_ms": 94.25685099995462,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4083066536345386,
+        0.002857613225518055,
+        0.5696176608212338
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.857537107183931,
+        -0.5115476968236057,
+        0.05430528222080946,
+        -0.026354755356913347
+      ],
+      [
+        0.0714072624198777,
+        0.01382652611590975,
+        -0.9973514075035267,
+        0.27141403262145086
+      ],
+      [
+        0.5094419620293527,
+        0.859143632374722,
+        0.04838497983520764,
+        0.6876800688240907
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0028615670921783355,
+    "overlap_fraction": 0.17705382436260622,
+    "iterations": 35,
+    "information_eigenvalues": [
+      9.208860640133146e-05,
+      0.0003847342770581879,
+      0.001902503776541086,
+      0.02367345760682871,
+      0.0473215379327106,
+      1.9246529105272436
+    ],
+    "rotation_scale_m": 0.12503752072213198,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3571077513389977,
+        0.03209997182243772,
+        0.5716348727473876
+      ],
+      "normal": [
+        -0.21482257471900512,
+        0.1762067831160561,
+        0.9606260619902984
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 58.03847310646208,
+    "axial_mm": 0.9334316256751714,
+    "tangent_mm": 58.03096643973552,
+    "xyz_mm": [
+      -49.79842816703517,
+      29.80883667161414,
+      -0.11903321885764484
+    ],
+    "normal_deg": 14.989504090580407,
+    "band_margin_mm": -13.232115326753215,
+    "band_contained": false,
+    "elapsed_ms": 326.105683001515,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3571077513389977,
+        0.03209997182243772,
+        0.5716348727473876
+      ],
+      "normal": [
+        -0.21482257471900512,
+        0.1762067831160561,
+        0.9606260619902984
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.527535230560865,
+    "axial_mm": -0.9347328443601947,
+    "tangent_mm": 2.348341723727759,
+    "xyz_mm": [
+      -2.2732442956332477,
+      -0.14232148187376306,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086362,
+    "band_margin_mm": 2.069234472681691,
+    "band_contained": true,
+    "elapsed_ms": 0.0023989996407181025,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001401959948947526
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27449725248193824
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7828927867145582
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0027000631441105693,
+    "overlap_fraction": 0.49305263157894735,
+    "iterations": 19,
+    "information_eigenvalues": [
+      0.00016476980480355165,
+      0.0009977002266253051,
+      0.0020337342308044412,
+      0.1376598042022013,
+      0.4372386033875801,
+      0.8281694010658325
+    ],
+    "rotation_scale_m": 0.12888986889453818,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4007701914774513,
+        0.003313522236760752,
+        0.5800557811620664
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.2472348195731173,
+    "axial_mm": -1.134302588131903,
+    "tangent_mm": 0.5186061450781829,
+    "xyz_mm": [
+      0.5786190292913496,
+      -0.14232148187381988,
+      -1.095691247521291
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.869664728909983,
+    "band_contained": true,
+    "elapsed_ms": 120.9823859971948,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4007701914774513,
+        0.003313522236760752,
+        0.5800557811620664
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0019583970553615215
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2748310269523792
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7829229540946746
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0026741417442457042,
+    "overlap_fraction": 0.49473684210526314,
+    "iterations": 10,
+    "information_eigenvalues": [
+      0.00017234223049842934,
+      0.0009766202336623955,
+      0.0021544709166264817,
+      0.14004950254476295,
+      0.4411642073902243,
+      0.8263272646249943
+    ],
+    "rotation_scale_m": 0.12888986889453818,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401077948196355,
+        0.0037787660665927923,
+        0.5797229573316272
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.71189840170492,
+    "axial_mm": -1.4851448276202484,
+    "tangent_mm": 0.851434659121111,
+    "xyz_mm": [
+      0.8863757481951673,
+      0.3229223479582206,
+      -1.4285150779604905
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.5188224894216376,
+    "band_contained": true,
+    "elapsed_ms": 67.68336800450925,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401077948196355,
+        0.0037787660665927923,
+        0.5797229573316272
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9703628982598406,
+        0.2238076496197848,
+        0.09113715846145692,
+        -0.03199990972907486
+      ],
+      [
+        0.11827794058718627,
+        -0.1109983577034285,
+        -0.9867571602768316,
+        0.27335321922616573
+      ],
+      [
+        -0.21072772587207236,
+        0.9682920533386652,
+        -0.13418019596786798,
+        0.7604545184494957
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0028804990395570637,
+    "overlap_fraction": 0.5616842105263158,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00010204529266565049,
+      0.0008483466200785894,
+      0.004974219473338555,
+      0.07944774786525298,
+      0.4953787087612149,
+      1.193823963006729
+    ],
+    "rotation_scale_m": 0.12888986889453818,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3910532655020686,
+        0.02754230038458058,
+        0.5817187872138827
+      ],
+      "normal": [
+        -0.07170999068787587,
+        0.07143825686676823,
+        0.994863936772955
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 25.767962563009284,
+    "axial_mm": 1.3450030801030006,
+    "tangent_mm": 25.732836247937406,
+    "xyz_mm": [
+      -9.138306946091301,
+      24.08645666594601,
+      0.5673148042950604
+    ],
+    "normal_deg": 3.766121981574625,
+    "band_margin_mm": -1.690438888829215,
+    "band_contained": false,
+    "elapsed_ms": 367.75133199989796,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3910532655020686,
+        0.02754230038458058,
+        0.5817187872138827
+      ],
+      "normal": [
+        -0.07170999068787587,
+        0.07143825686676823,
+        0.994863936772955
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.8606503857867414,
+    "axial_mm": -2.0741304425769647,
+    "tangent_mm": 1.9701024178649489,
+    "xyz_mm": [
+      -1.9715555507278104,
+      -0.15626327421595226,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.45769596336114843,
+    "band_margin_mm": 0.6839422517957224,
+    "band_contained": true,
+    "elapsed_ms": 0.001877000613603741,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002162047326593107
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2747748313856643
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7815752693652864
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0029167278092468033,
+    "overlap_fraction": 0.4151867728107777,
+    "iterations": 12,
+    "information_eigenvalues": [
+      0.00010422149482717203,
+      0.00030459706416540474,
+      0.0015226487601465418,
+      0.0794379514744733,
+      0.2741294674174721,
+      0.8589691147790414
+    ],
+    "rotation_scale_m": 0.14066875824112726,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405361860543614,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 3.1912494424797826,
+    "axial_mm": -2.0295026368794007,
+    "tangent_mm": 2.4627610625123757,
+    "xyz_mm": [
+      2.4264755642766644,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7285700574932866,
+    "band_contained": true,
+    "elapsed_ms": 69.4999609986553,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405361860543614,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.003072071557849998
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2765221959623724
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7813064437858782
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002863405043627639,
+    "overlap_fraction": 0.41702388242498467,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00011720869037200371,
+      0.00033939794456037644,
+      0.0017087358663987612,
+      0.0811833921717959,
+      0.2801696195657735,
+      0.8568682772246166
+    ],
+    "rotation_scale_m": 0.14066875824112726,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4063519936001705,
+        -0.003592374313027567,
+        0.58230920698272
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 5.062583938332909,
+    "axial_mm": -3.6992938271416307,
+    "tangent_mm": 3.45615122833741,
+    "xyz_mm": [
+      3.4166086208333724,
+      0.32980537662876447,
+      -3.721259206002747
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": -0.9412211327689433,
+    "band_contained": false,
+    "elapsed_ms": 189.27319499925943,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4063519936001705,
+        -0.003592374313027567,
+        0.58230920698272
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.034887181963153595,
+        0.7499197821451496,
+        0.6606082083065891,
+        -0.2742260357007906
+      ],
+      [
+        0.994698998877069,
+        -0.0900344327600053,
+        0.04967597558721791,
+        -0.15545095926070163
+      ],
+      [
+        0.09673048210170145,
+        0.6553732686530296,
+        -0.7490855041765367,
+        1.008948114241494
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024932879655509737,
+    "overlap_fraction": 0.33190447030006126,
+    "iterations": 35,
+    "information_eigenvalues": [
+      3.841352528561859e-05,
+      0.00015987832924785016,
+      0.002325123499768713,
+      0.014143827233439245,
+      0.4073637598357136,
+      1.2051426920721124
+    ],
+    "rotation_scale_m": 0.14066875824112726,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.566090950833708,
+        0.030856817034467188,
+        0.4351392551432098
+      ],
+      "normal": [
+        0.9824014618059593,
+        0.16001120349470183,
+        0.09635238760763183
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 224.93882469057704,
+    "axial_mm": -150.998226304451,
+    "tangent_mm": 166.7243548678116,
+    "xyz_mm": [
+      163.15556585437108,
+      34.778996724123516,
+      -150.89121104551302
+    ],
+    "normal_deg": 84.44349813466107,
+    "band_margin_mm": -198.54302391951688,
+    "band_contained": false,
+    "elapsed_ms": 313.3906549992389,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.566090950833708,
+        0.030856817034467188,
+        0.4351392551432098
+      ],
+      "normal": [
+        0.9824014618059593,
+        0.16001120349470183,
+        0.09635238760763183
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009563349554924342
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27433451316959817
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836652224599914
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0006501620228524667,
+    "overlap_fraction": 0.8007389812615466,
+    "iterations": 6,
+    "scalar_information": 982.3309721727938,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4049648895010813,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 23.17725899774814,
+    "center_mm": 1.5679893221753232,
+    "axial_mm": -1.557371665672902,
+    "tangent_mm": 0.1821647864298717,
+    "xyz_mm": [
+      -0.19113021397565433,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.39163526757123807,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4049648895010813,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2303,
+    "target_points": 3789,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00088825080444546
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27430964928609664
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783783237905127
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005229909068374355,
+    "overlap_fraction": 0.22670889416732648,
+    "iterations": 6,
+    "scalar_information": 269.4286038788664,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4048263928960067,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 65.19087999913609,
+    "center_mm": 1.5908216730980982,
+    "axial_mm": -1.5581695635705952,
+    "tangent_mm": 0.32065746016715924,
+    "xyz_mm": [
+      -0.3296268190502438,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3908373696735445,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048263928960067,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010091944039849162
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743538170920098
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783573597151494
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005417367396175061,
+    "overlap_fraction": 0.6384592053381862,
+    "iterations": 6,
+    "scalar_information": 788.8797606557794,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4005699056200283,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 18.05500200134702,
+    "center_mm": 1.8593144414928724,
+    "axial_mm": -1.8486450274806048,
+    "tangent_mm": 0.1989013693145097,
+    "xyz_mm": [
+      -0.022315280634011003,
+      -0.2428967128988782,
+      -1.8432453465171417
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8757419777916142,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005699056200283,
+        0.002626559346076062,
+        0.6360843024634266
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1740,
+    "target_points": 3297,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009077886901715922
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743167843932705
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837493713995525
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0004620945008222667,
+    "overlap_fraction": 0.17076129814983318,
+    "iterations": 8,
+    "scalar_information": 205.55062845104501,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.400363626377615,
+        0.0026265593460761175,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 65.7330419999198,
+    "center_mm": 1.8731811649068293,
+    "axial_mm": -1.8416438350592137,
+    "tangent_mm": 0.3422800919570082,
+    "xyz_mm": [
+      -0.22859452304713201,
+      -0.2428967128988227,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8827431702130055,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400363626377615,
+        0.0026265593460761175,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001278810216585402
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744522790108497
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7831062515262588
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0013334457139218391,
+    "overlap_fraction": 0.6229187071498531,
+    "iterations": 9,
+    "scalar_information": 1007.6593410509109,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.398047489697167,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 32.677880000846926,
+    "center_mm": 1.6775746950318264,
+    "axial_mm": -0.8673759265487917,
+    "tangent_mm": 1.4359372755990252,
+    "xyz_mm": [
+      1.257669298663,
+      -0.021671355224180816,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.6652610691480865,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.398047489697167,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2208,
+    "target_points": 4084,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009296670757831511
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274324774235586
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7837114479272451
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0010331729600684728,
+    "overlap_fraction": 0.13344760039177278,
+    "iterations": 7,
+    "scalar_information": 241.4528948986929,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3973372636174917,
+        -0.006228306742546539,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 70.77648500126088,
+    "center_mm": 1.237828288022058,
+    "axial_mm": -0.9926236907130039,
+    "tangent_mm": 0.7395384231146572,
+    "xyz_mm": [
+      0.5474432189878087,
+      -0.021671355224069794,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5400133049838743,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3973372636174917,
+        -0.006228306742546539,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010844873604708852
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27438131358377427
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834430861347798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0012201047035638446,
+    "overlap_fraction": 0.4960505529225908,
+    "iterations": 7,
+    "scalar_information": 917.7978098271082,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.3947185475171455,
+        -0.004277602057709683,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 22.160924003401306,
+    "center_mm": 0.5374519254785691,
+    "axial_mm": -0.02957500161251355,
+    "tangent_mm": 0.5366375792657846,
+    "xyz_mm": [
+      -0.4216600125541703,
+      -0.31680983525366607,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.4224734133801198,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3947185475171455,
+        -0.004277602057709683,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1868,
+    "target_points": 3798,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009363157321241833
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743272022810879
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836999233047657
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0011984517125210425,
+    "overlap_fraction": 0.11374407582938388,
+    "iterations": 6,
+    "scalar_information": 214.42723182023065,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.394417137171584,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 52.30745500011835,
+    "center_mm": 0.7961709293856903,
+    "axial_mm": 0.008911196055051748,
+    "tangent_mm": 0.7961210582466353,
+    "xyz_mm": [
+      -0.7230703581155851,
+      -0.3168098352537216,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.4431372189375813,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.394417137171584,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001094521440117759
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743849779635681
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834256933002091
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018410235048923267,
+    "overlap_fraction": 0.43268961656870975,
+    "iterations": 7,
+    "scalar_information": 807.4671338185792,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4002885507587752,
+        0.003022908502565499,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 21.49320700118551,
+    "center_mm": 0.43450869038573137,
+    "axial_mm": -0.21638117842921495,
+    "tangent_mm": 0.37679833816287933,
+    "xyz_mm": [
+      0.320009023757617,
+      -0.1964324201778429,
+      -0.21864658935710768
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.4733687851459716,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4002885507587752,
+        0.003022908502565499,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1884,
+    "target_points": 3573,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009619803788273736
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743365748410144
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836554368177001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0011835620345028374,
+    "overlap_fraction": 0.09991603694374475,
+    "iterations": 35,
+    "scalar_information": 194.65030806095717,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.400018936072547,
+        0.003022908502565388,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 270.28903999598697,
+    "center_mm": 0.2982140439172322,
+    "axial_mm": -0.2175901271942548,
+    "tangent_mm": 0.2039268313318698,
+    "xyz_mm": [
+      0.05039433752918043,
+      -0.19643242017795393,
+      -0.21864658935710768
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.472159836380932,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400018936072547,
+        0.003022908502565388,
+        0.5972597105256018
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009921943902281034
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743476087989626
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836030645702687
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0004936863470232766,
+    "overlap_fraction": 0.9040071770334929,
+    "iterations": 8,
+    "scalar_information": 1025.2531117526553,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.404844678360047,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 26.68009099579649,
+    "center_mm": 1.1315555691399382,
+    "axial_mm": -0.8013884565231356,
+    "tangent_mm": 0.7988707954375822,
+    "xyz_mm": [
+      -0.5351135503328663,
+      -0.4984479923769965,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7874571134638555,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404844678360047,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2316,
+    "target_points": 3344,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009388051018884291
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27432811138252877
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836956082905324
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00047175376362963467,
+    "overlap_fraction": 0.2909688995215311,
+    "iterations": 5,
+    "scalar_information": 313.4498005767149,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.404736074006924,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 57.94111899740528,
+    "center_mm": 1.1867789320389484,
+    "axial_mm": -0.7948474314138296,
+    "tangent_mm": 0.8812841734119276,
+    "xyz_mm": [
+      -0.6437179034559648,
+      -0.4984479923769965,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7939981385731614,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404736074006924,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0013169968574401002
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2744662245205597
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7830400597129015
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0020993466247651014,
+    "overlap_fraction": 0.6081258191349934,
+    "iterations": 7,
+    "scalar_information": 934.3321098446334,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4022538467846712,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 23.53013100218959,
+    "center_mm": 2.8362099366499787,
+    "axial_mm": -2.525684128994535,
+    "tangent_mm": 1.2903513030555644,
+    "xyz_mm": [
+      0.9810681647666186,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.17166292249263063,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4022538467846712,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2098,
+    "target_points": 3815,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009480829628277897
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27433149959623176
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836795262674504
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016226223043983995,
+    "overlap_fraction": 0.1326343381389253,
+    "iterations": 7,
+    "scalar_information": 228.13491947469882,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4015034030884093,
+        -0.0011125786999924758,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 60.216040998057,
+    "center_mm": 2.6711008416581064,
+    "axial_mm": -2.5476628527364524,
+    "tangent_mm": 0.8026167797233029,
+    "xyz_mm": [
+      0.23062446850463658,
+      0.5693468849897949,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.1496841987507129,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4015034030884093,
+        -0.0011125786999924758,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011419815526520925
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27440231008405264
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833434270720075
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.000724209341166147,
+    "overlap_fraction": 0.5397830018083183,
+    "iterations": 6,
+    "scalar_information": 825.5366169367492,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4043379707997627,
+        -0.002665559400373352,
+        0.6128756783744287
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 16.353564999008086,
+    "center_mm": 1.240941435781098,
+    "axial_mm": -1.181605176180674,
+    "tangent_mm": 0.37913698667037454,
+    "xyz_mm": [
+      0.3314617792229413,
+      0.027866408423860792,
+      -1.1955300913127909
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.2043855977168338,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4043379707997627,
+        -0.002665559400373352,
+        0.6128756783744287
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1525,
+    "target_points": 3318,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010608741906805665
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743726902097035
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834840166406465
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0005777121540703923,
+    "overlap_fraction": 0.14466546112115733,
+    "iterations": 7,
+    "scalar_information": 210.1905332826339,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.404172982412497,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 46.50483700243058,
+    "center_mm": 1.2073864858370966,
+    "axial_mm": -1.1881515463668157,
+    "tangent_mm": 0.2146579349760886,
+    "xyz_mm": [
+      0.16647339195730027,
+      0.027866408423860792,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.197839227530692,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404172982412497,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0012589482263262992
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27444502554283523
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7831406798269083
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016239043328989862,
+    "overlap_fraction": 0.6502717391304348,
+    "iterations": 6,
+    "scalar_information": 949.757463219251,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.406703305795981,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 20.366108998132404,
+    "center_mm": 2.1939800431752294,
+    "axial_mm": -2.171615845863825,
+    "tangent_mm": 0.3124628743456217,
+    "xyz_mm": [
+      -0.20287371005212052,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3846955910653347,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.406703305795981,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2118,
+    "target_points": 3680,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009866847176760994
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27434559670283803
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836126149053874
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014256705618196364,
+    "overlap_fraction": 0.12880434782608696,
+    "iterations": 8,
+    "scalar_information": 210.1808725467692,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4061494680664386,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 68.8007370044943,
+    "center_mm": 2.3119262294532166,
+    "axial_mm": -2.16744925717309,
+    "tangent_mm": 0.8044666605979329,
+    "xyz_mm": [
+      -0.7567114395943264,
+      0.17318548429564457,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.38052900237459975,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4061494680664386,
+        0.0024643206351192245,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010526413144855973
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436968361754593
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834982873120724
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0014560757639086725,
+    "overlap_fraction": 0.7339877300613497,
+    "iterations": 6,
+    "scalar_information": 973.2794062627488,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.400059608409024,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 22.788139001931995,
+    "center_mm": 1.1127484988632037,
+    "axial_mm": -1.0845768948788812,
+    "tangent_mm": 0.2488014887760878,
+    "xyz_mm": [
+      -0.13196403913573462,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9193904221630045,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400059608409024,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 2375,
+    "target_points": 4075,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0008160399496111817
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27428327835755406
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7839084064802777
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0009400207277637275,
+    "overlap_fraction": 0.15754601226993864,
+    "iterations": 5,
+    "scalar_information": 258.57725283349663,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.399578314520694,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 46.46446200058563,
+    "center_mm": 1.2636771738450363,
+    "axial_mm": -1.0508965648526278,
+    "tangent_mm": 0.7017808843776843,
+    "xyz_mm": [
+      -0.6132579274660266,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9530707521892576,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399578314520694,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011263877392224727
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743966153261024
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833704570166417
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0019827629704399583,
+    "overlap_fraction": 0.4286817713697219,
+    "iterations": 5,
+    "scalar_information": 896.9259855339265,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4032551244727687,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 15.884658001596108,
+    "center_mm": 2.0972655253342714,
+    "axial_mm": -2.0508801591312826,
+    "tangent_mm": 0.4386493549947199,
+    "xyz_mm": [
+      0.31973949343155894,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7071925352414047,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4032551244727687,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "stop_error_mm": 2.0,
+    "source_points": 1633,
+    "target_points": 3884,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009824117136485709
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743440362299128
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836200216287528
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017072175662366717,
+    "overlap_fraction": 0.08856848609680741,
+    "iterations": 7,
+    "scalar_information": 201.85897437614,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.402962248811584,
+        -0.004078442963872451,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 55.11609699897235,
+    "center_mm": 2.072923299492474,
+    "axial_mm": -2.0538520339905264,
+    "tangent_mm": 0.2805402431947014,
+    "xyz_mm": [
+      0.026863832246704078,
+      -0.15626327421611966,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.704220660382161,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "窄可见区域压力对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402962248811584,
+        -0.004078442963872451,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "dataset": "fs12",
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "baseline": {
+      "accepted": true,
+      "center_mm": 1.9005052294304097,
+      "normal_deg": 1.2299393509233685,
+      "reasons": []
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 1.7059949878374214,
+      "normal_deg": 1.3929514886396226,
+      "reasons": []
+    },
+    "candidate_changed": true
+  },
+  {
+    "dataset": "ss12",
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "shared_noise",
+    "baseline": {
+      "accepted": true,
+      "center_mm": 1.9708720173082275,
+      "normal_deg": 0.4540768861665953,
+      "reasons": []
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 1.818167624268836,
+      "normal_deg": 0.42464747518585355,
+      "reasons": []
+    },
+    "candidate_changed": true
+  },
+  {
+    "dataset": "ss12",
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "baseline": {
+      "accepted": true,
+      "center_mm": 2.3364117630759393,
+      "normal_deg": 1.3115383916686332,
+      "reasons": []
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 2.2992330794967497,
+      "normal_deg": 1.4297911615410108,
+      "reasons": []
+    },
+    "candidate_changed": true
+  },
+  {
+    "dataset": "fs8",
+    "layout": "close",
+    "case": "confirmation_nominal_004",
+    "condition": "shared_noise",
+    "baseline": {
+      "accepted": true,
+      "center_mm": 0.5888016259657065,
+      "normal_deg": 0.5690752955745146,
+      "reasons": []
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 0.3905814660168598,
+      "normal_deg": 0.4879474628619271,
+      "reasons": []
+    },
+    "candidate_changed": true
+  },
+  {
+    "dataset": "fs8",
+    "layout": "close",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "baseline": {
+      "accepted": false,
+      "center_mm": 0.6596747170054236,
+      "normal_deg": 0.3479397647687606,
+      "reasons": [
+        "fitted_surface_projects_outside_rgb_foreground"
+      ]
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 0.6596747170054236,
+      "normal_deg": 0.3479397647687606,
+      "reasons": []
+    },
+    "candidate_changed": false
+  },
+  {
+    "dataset": "ss8",
+    "layout": "close",
+    "case": "confirmation_nominal_006",
+    "condition": "clean",
+    "baseline": {
+      "accepted": true,
+      "center_mm": 0.6981412004702137,
+      "normal_deg": 0.3430504265220854,
+      "reasons": []
+    },
+    "task": {
+      "accepted": true,
+      "center_mm": 0.6815712295562831,
+      "normal_deg": 0.34805481949125006,
+      "reasons": []
+    },
+    "candidate_changed": true
+  }
+]

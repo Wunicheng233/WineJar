@@ -1,0 +1,10 @@
+{
+  "scope": "display_only",
+  "changes": [
+    "Algorithm buttons moved directly below dataset buttons so all four methods are visible at default 1480x960",
+    "Shortened SimSense confirmation labels to avoid overlap",
+    "Original entry point defaults to entity view; point clouds remain user selectable"
+  ],
+  "scientific_records_changed": false,
+  "pre_adjustment_interaction": "interaction_pre_layout/interaction_validation.json"
+}

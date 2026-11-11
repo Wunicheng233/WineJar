@@ -1,0 +1,2306 @@
+[
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.833095133304596,
+      "p95": 2.889971971511841,
+      "max": 2.9413321018218994
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8724839091300964,
+      "p95": 3.1402697563171387,
+      "max": 3.744951009750366
+    },
+    "band_conditional_fraction": 0.6231060606060606,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8446969696969697,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8522727272727273,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8503787878787878,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8483538031578064,
+      "p95": 2.912682056427002,
+      "max": 3.100078821182251
+    },
+    "band_conditional_fraction": 0.5700757575757576,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9034090909090909,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8343632817268372,
+      "p95": 2.9090102434158327,
+      "max": 2.9699816703796387
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3747824430465698,
+      "p95": 2.598791575431824,
+      "max": 2.691311836242676
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3747824430465698,
+      "p95": 2.598791575431824,
+      "max": 2.691311836242676
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3747824430465698,
+      "p95": 2.598791575431824,
+      "max": 2.691311836242676
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8736329078674316,
+      "p95": 3.1360638380050654,
+      "max": 3.7754948139190674
+    },
+    "band_conditional_fraction": 0.6226621685606061,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6057769060134888,
+      "p95": 2.8975655913352965,
+      "max": 3.549232244491577
+    },
+    "band_conditional_fraction": 0.8456143465909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6057769060134888,
+      "p95": 2.8975655913352965,
+      "max": 3.549232244491577
+    },
+    "band_conditional_fraction": 0.8512369791666666,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6057769060134888,
+      "p95": 2.8975655913352965,
+      "max": 3.549232244491577
+    },
+    "band_conditional_fraction": 0.8499940814393939,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.852109968662262,
+      "p95": 2.904212176799774,
+      "max": 3.1301283836364746
+    },
+    "band_conditional_fraction": 0.5700757575757576,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4005234837532043,
+      "p95": 2.6463435292243953,
+      "max": 2.8450582027435303
+    },
+    "band_conditional_fraction": 0.9034090909090909,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4005234837532043,
+      "p95": 2.6463435292243953,
+      "max": 2.8450582027435303
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4005234837532043,
+      "p95": 2.6463435292243953,
+      "max": 2.8450582027435303
+    },
+    "band_conditional_fraction": 0.9082623106060606,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.837460219860077,
+      "p95": 2.9096996068954466,
+      "max": 3.018656015396118
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.380625069141388,
+      "p95": 2.6164470314979553,
+      "max": 2.717740058898926
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.380625069141388,
+      "p95": 2.6164470314979553,
+      "max": 2.717740058898926
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.380625069141388,
+      "p95": 2.6164470314979553,
+      "max": 2.717740058898926
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8804633617401123,
+      "p95": 3.140727972984312,
+      "max": 3.825751543045044
+    },
+    "band_conditional_fraction": 0.6224846117424242,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6145362257957458,
+      "p95": 2.9103628516197206,
+      "max": 3.5936455726623535
+    },
+    "band_conditional_fraction": 0.8455255681818182,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6145362257957458,
+      "p95": 2.9103628516197206,
+      "max": 3.5936455726623535
+    },
+    "band_conditional_fraction": 0.8506451231060606,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6145362257957458,
+      "p95": 2.9103628516197206,
+      "max": 3.5936455726623535
+    },
+    "band_conditional_fraction": 0.8499644886363636,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8575232028961182,
+      "p95": 2.9074946284294128,
+      "max": 3.180260181427002
+    },
+    "band_conditional_fraction": 0.5690104166666666,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4087600111961365,
+      "p95": 2.6551989197731016,
+      "max": 2.8648011684417725
+    },
+    "band_conditional_fraction": 0.9027580492424242,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4087600111961365,
+      "p95": 2.6551989197731016,
+      "max": 2.8648011684417725
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4087600111961365,
+      "p95": 2.6551989197731016,
+      "max": 2.8648011684417725
+    },
+    "band_conditional_fraction": 0.9073449337121212,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8547605872154236,
+      "p95": 2.905296313762664,
+      "max": 3.11415958404541
+    },
+    "band_conditional_fraction": 0.5499230587121212,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3955206274986267,
+      "p95": 2.657132351398468,
+      "max": 2.7792446613311768
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3955206274986267,
+      "p95": 2.657132351398468,
+      "max": 2.7792446613311768
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3955206274986267,
+      "p95": 2.657132351398468,
+      "max": 2.7792446613311768
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.904423177242279,
+      "p95": 3.1556546688079825,
+      "max": 3.920835256576538
+    },
+    "band_conditional_fraction": 0.6227213541666666,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6317734718322754,
+      "p95": 2.934244751930236,
+      "max": 3.678922653198242
+    },
+    "band_conditional_fraction": 0.8452296401515151,
+    "mouth_bore_sufficient_fraction": 0.9993489583333334,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6317734718322754,
+      "p95": 2.934244751930236,
+      "max": 3.678922653198242
+    },
+    "band_conditional_fraction": 0.8500236742424242,
+    "mouth_bore_sufficient_fraction": 0.9993489583333334,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6317734718322754,
+      "p95": 2.934244751930236,
+      "max": 3.678922653198242
+    },
+    "band_conditional_fraction": 0.8493430397727273,
+    "mouth_bore_sufficient_fraction": 0.9993489583333334,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8750057220458984,
+      "p95": 2.9134696602821344,
+      "max": 3.2765913009643555
+    },
+    "band_conditional_fraction": 0.5684481534090909,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4339712858200073,
+      "p95": 2.6717509269714355,
+      "max": 2.9131457805633545
+    },
+    "band_conditional_fraction": 0.9029947916666666,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4339712858200073,
+      "p95": 2.6717509269714355,
+      "max": 2.9131457805633545
+    },
+    "band_conditional_fraction": 0.9089429450757576,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4339712858200073,
+      "p95": 2.6717509269714355,
+      "max": 2.9131457805633545
+    },
+    "band_conditional_fraction": 0.9066938920454546,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.9015141725540161,
+      "p95": 2.897061741352081,
+      "max": 3.3532047271728516
+    },
+    "band_conditional_fraction": 0.5587417140151515,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.5416513085365295,
+      "p95": 2.677568030357361,
+      "max": 2.962224006652832
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.5416513085365295,
+      "p95": 2.677568030357361,
+      "max": 2.962224006652832
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.5416513085365295,
+      "p95": 2.677568030357361,
+      "max": 2.962224006652832
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.9720229506492615,
+      "p95": 3.203263759613037,
+      "max": 4.150622367858887
+    },
+    "band_conditional_fraction": 0.6221886837121212,
+    "mouth_bore_sufficient_fraction": 0.997366240530303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6925915479660034,
+      "p95": 2.9941965103149406,
+      "max": 3.8881583213806152
+    },
+    "band_conditional_fraction": 0.845407196969697,
+    "mouth_bore_sufficient_fraction": 0.998342803030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6925915479660034,
+      "p95": 2.9941965103149406,
+      "max": 3.8881583213806152
+    },
+    "band_conditional_fraction": 0.850290009469697,
+    "mouth_bore_sufficient_fraction": 0.998342803030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6925915479660034,
+      "p95": 2.9941965103149406,
+      "max": 3.8881583213806152
+    },
+    "band_conditional_fraction": 0.8495797821969697,
+    "mouth_bore_sufficient_fraction": 0.998342803030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.941976547241211,
+      "p95": 2.926293075084686,
+      "max": 3.512169599533081
+    },
+    "band_conditional_fraction": 0.5693063446969697,
+    "mouth_bore_sufficient_fraction": 0.9999704071969697,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.5558574199676514,
+      "p95": 2.7228140115737913,
+      "max": 3.0639877319335938
+    },
+    "band_conditional_fraction": 0.9035274621212122,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.5558574199676514,
+      "p95": 2.7228140115737913,
+      "max": 3.0639877319335938
+    },
+    "band_conditional_fraction": 0.9075816761363636,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.5558574199676514,
+      "p95": 2.7228140115737913,
+      "max": 3.0639877319335938
+    },
+    "band_conditional_fraction": 0.9058652935606061,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.1405502557754517,
+      "p95": 3.111991238594055,
+      "max": 3.97922945022583
+    },
+    "band_conditional_fraction": 0.5634173768939394,
+    "mouth_bore_sufficient_fraction": 0.9847301136363636,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.8869659304618835,
+      "p95": 2.9059104800224302,
+      "max": 3.5220537185668945
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 0.9929273200757576,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.8869659304618835,
+      "p95": 2.9059104800224302,
+      "max": 3.5220537185668945
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 0.9929273200757576,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.8869659304618835,
+      "p95": 2.9059104800224302,
+      "max": 3.5220537185668945
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 0.9929273200757576,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.1836732625961304,
+      "p95": 3.460663294792175,
+      "max": 4.845285892486572
+    },
+    "band_conditional_fraction": 0.6223958333333334,
+    "mouth_bore_sufficient_fraction": 0.9844045928030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.9396624565124512,
+      "p95": 3.260223853588104,
+      "max": 4.451064586639404
+    },
+    "band_conditional_fraction": 0.8456439393939394,
+    "mouth_bore_sufficient_fraction": 0.9897312973484849,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.9396624565124512,
+      "p95": 3.260223853588104,
+      "max": 4.451064586639404
+    },
+    "band_conditional_fraction": 0.8507634943181818,
+    "mouth_bore_sufficient_fraction": 0.9897312973484849,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.9396624565124512,
+      "p95": 3.260223853588104,
+      "max": 4.451064586639404
+    },
+    "band_conditional_fraction": 0.8500828598484849,
+    "mouth_bore_sufficient_fraction": 0.9897312973484849,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.1496965885162354,
+      "p95": 3.1443068027496324,
+      "max": 4.117654323577881
+    },
+    "band_conditional_fraction": 0.573922821969697,
+    "mouth_bore_sufficient_fraction": 0.9840494791666666,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.8939698338508606,
+      "p95": 2.934664487838745,
+      "max": 3.666839122772217
+    },
+    "band_conditional_fraction": 0.9020774147727273,
+    "mouth_bore_sufficient_fraction": 0.9928089488636364,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.8939698338508606,
+      "p95": 2.934664487838745,
+      "max": 3.666839122772217
+    },
+    "band_conditional_fraction": 0.9047999526515151,
+    "mouth_bore_sufficient_fraction": 0.9928089488636364,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "uniform_bound",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.8939698338508606,
+      "p95": 2.934664487838745,
+      "max": 3.666839122772217
+    },
+    "band_conditional_fraction": 0.9037050189393939,
+    "mouth_bore_sufficient_fraction": 0.9928089488636364,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.833095133304596,
+      "p95": 2.889971971511841,
+      "max": 2.9413321018218994
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3705841302871704,
+      "p95": 2.58990478515625,
+      "max": 2.6782116889953613
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8724839091300964,
+      "p95": 3.1402697563171387,
+      "max": 3.744951009750366
+    },
+    "band_conditional_fraction": 0.6231060606060606,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8446969696969697,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8522727272727273,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.5958619117736816,
+      "p95": 2.8965423107147217,
+      "max": 3.5225586891174316
+    },
+    "band_conditional_fraction": 0.8503787878787878,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8483538031578064,
+      "p95": 2.912682056427002,
+      "max": 3.100078821182251
+    },
+    "band_conditional_fraction": 0.5700757575757576,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9034090909090909,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.396700382232666,
+      "p95": 2.6430628299713135,
+      "max": 2.8358535766601562
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8358181715011597,
+      "p95": 2.9062729239463803,
+      "max": 2.987499237060547
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3856360912322998,
+      "p95": 2.5983771800994875,
+      "max": 2.7059433460235596
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3856360912322998,
+      "p95": 2.5983771800994875,
+      "max": 2.7059433460235596
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3856360912322998,
+      "p95": 2.5983771800994875,
+      "max": 2.7059433460235596
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8725400567054749,
+      "p95": 3.139252471923828,
+      "max": 3.786926507949829
+    },
+    "band_conditional_fraction": 0.622750946969697,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6012946963310242,
+      "p95": 2.8933459639549253,
+      "max": 3.575438976287842
+    },
+    "band_conditional_fraction": 0.8455847537878788,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6012946963310242,
+      "p95": 2.8933459639549253,
+      "max": 3.575438976287842
+    },
+    "band_conditional_fraction": 0.851858428030303,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6012946963310242,
+      "p95": 2.8933459639549253,
+      "max": 3.575438976287842
+    },
+    "band_conditional_fraction": 0.8501716382575758,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8515716195106506,
+      "p95": 2.9060928940773008,
+      "max": 3.1340818405151367
+    },
+    "band_conditional_fraction": 0.5699573863636364,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.401207447052002,
+      "p95": 2.646826672554016,
+      "max": 2.8561394214630127
+    },
+    "band_conditional_fraction": 0.9032907196969697,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.401207447052002,
+      "p95": 2.646826672554016,
+      "max": 2.8561394214630127
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.1,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.401207447052002,
+      "p95": 2.646826672554016,
+      "max": 2.8561394214630127
+    },
+    "band_conditional_fraction": 0.908499053030303,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8367685079574585,
+      "p95": 2.9090415120124815,
+      "max": 3.0704026222229004
+    },
+    "band_conditional_fraction": 0.5454545454545454,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.3841076493263245,
+      "p95": 2.6150620341300965,
+      "max": 2.771139621734619
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.3841076493263245,
+      "p95": 2.6150620341300965,
+      "max": 2.771139621734619
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.3841076493263245,
+      "p95": 2.6150620341300965,
+      "max": 2.771139621734619
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8790522813796997,
+      "p95": 3.142826986312866,
+      "max": 3.8579604625701904
+    },
+    "band_conditional_fraction": 0.622750946969697,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6073638200759888,
+      "p95": 2.9028723597526547,
+      "max": 3.670337677001953
+    },
+    "band_conditional_fraction": 0.8458806818181818,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6073638200759888,
+      "p95": 2.9028723597526547,
+      "max": 3.670337677001953
+    },
+    "band_conditional_fraction": 0.8512961647727273,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6073638200759888,
+      "p95": 2.9028723597526547,
+      "max": 3.670337677001953
+    },
+    "band_conditional_fraction": 0.8504083806818182,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8579856157302856,
+      "p95": 2.905898392200469,
+      "max": 3.191460371017456
+    },
+    "band_conditional_fraction": 0.5692767518939394,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4095227718353271,
+      "p95": 2.6551190972328187,
+      "max": 2.9078047275543213
+    },
+    "band_conditional_fraction": 0.9027580492424242,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4095227718353271,
+      "p95": 2.6551190972328187,
+      "max": 2.9078047275543213
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.25,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4095227718353271,
+      "p95": 2.6551190972328187,
+      "max": 2.9078047275543213
+    },
+    "band_conditional_fraction": 0.9074633049242424,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8488890528678894,
+      "p95": 2.90493494272232,
+      "max": 3.241727113723755
+    },
+    "band_conditional_fraction": 0.5490648674242424,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4134594798088074,
+      "p95": 2.655363547801971,
+      "max": 2.9375734329223633
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4134594798088074,
+      "p95": 2.655363547801971,
+      "max": 2.9375734329223633
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4134594798088074,
+      "p95": 2.655363547801971,
+      "max": 2.9375734329223633
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.903786063194275,
+      "p95": 3.1582142949104304,
+      "max": 3.996553897857666
+    },
+    "band_conditional_fraction": 0.622750946969697,
+    "mouth_bore_sufficient_fraction": 0.9997928503787878,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6290989518165588,
+      "p95": 2.922526669502258,
+      "max": 3.8664796352386475
+    },
+    "band_conditional_fraction": 0.8454959753787878,
+    "mouth_bore_sufficient_fraction": 0.9995857007575758,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6290989518165588,
+      "p95": 2.922526669502258,
+      "max": 3.8664796352386475
+    },
+    "band_conditional_fraction": 0.8506747159090909,
+    "mouth_bore_sufficient_fraction": 0.9995857007575758,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6290989518165588,
+      "p95": 2.922526669502258,
+      "max": 3.8664796352386475
+    },
+    "band_conditional_fraction": 0.8499644886363636,
+    "mouth_bore_sufficient_fraction": 0.9995857007575758,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.8808895945549011,
+      "p95": 2.9098556160926816,
+      "max": 3.3486080169677734
+    },
+    "band_conditional_fraction": 0.5681522253787878,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.4390625953674316,
+      "p95": 2.6753878593444824,
+      "max": 3.04695200920105
+    },
+    "band_conditional_fraction": 0.9026692708333334,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.4390625953674316,
+      "p95": 2.6753878593444824,
+      "max": 3.04695200920105
+    },
+    "band_conditional_fraction": 0.9089725378787878,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 0.5,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.4390625953674316,
+      "p95": 2.6753878593444824,
+      "max": 3.04695200920105
+    },
+    "band_conditional_fraction": 0.9066642992424242,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.891456663608551,
+      "p95": 2.918647563457489,
+      "max": 3.68620228767395
+    },
+    "band_conditional_fraction": 0.5563742897727273,
+    "mouth_bore_sufficient_fraction": 0.9981356534090909,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.53451269865036,
+      "p95": 2.6746174335479735,
+      "max": 3.44394588470459
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.53451269865036,
+      "p95": 2.6746174335479735,
+      "max": 3.44394588470459
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.53451269865036,
+      "p95": 2.6746174335479735,
+      "max": 3.44394588470459
+    },
+    "band_conditional_fraction": 0.9090909090909091,
+    "mouth_bore_sufficient_fraction": 1.0,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.9689407348632812,
+      "p95": 3.2151690602302545,
+      "max": 4.506197929382324
+    },
+    "band_conditional_fraction": 0.6224550189393939,
+    "mouth_bore_sufficient_fraction": 0.9961529356060606,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.6910362839698792,
+      "p95": 2.9861231088638305,
+      "max": 4.37632417678833
+    },
+    "band_conditional_fraction": 0.8458214962121212,
+    "mouth_bore_sufficient_fraction": 0.9984907670454546,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.6910362839698792,
+      "p95": 2.9861231088638305,
+      "max": 4.37632417678833
+    },
+    "band_conditional_fraction": 0.8513257575757576,
+    "mouth_bore_sufficient_fraction": 0.9984907670454546,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.6910362839698792,
+      "p95": 2.9861231088638305,
+      "max": 4.37632417678833
+    },
+    "band_conditional_fraction": 0.8504971590909091,
+    "mouth_bore_sufficient_fraction": 0.9984907670454546,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 1.9426341652870178,
+      "p95": 2.939664840698242,
+      "max": 3.811882495880127
+    },
+    "band_conditional_fraction": 0.5689512310606061,
+    "mouth_bore_sufficient_fraction": 0.9979876893939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.550667941570282,
+      "p95": 2.7232268929481505,
+      "max": 3.4909985065460205
+    },
+    "band_conditional_fraction": 0.9029060132575758,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.550667941570282,
+      "p95": 2.7232268929481505,
+      "max": 3.4909985065460205
+    },
+    "band_conditional_fraction": 0.9076704545454546,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 1.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.550667941570282,
+      "p95": 2.7232268929481505,
+      "max": 3.4909985065460205
+    },
+    "band_conditional_fraction": 0.9056581439393939,
+    "mouth_bore_sufficient_fraction": 0.9999408143939394,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.145907163619995,
+      "p95": 3.252724385261534,
+      "max": 5.138889312744141
+    },
+    "band_conditional_fraction": 0.562795928030303,
+    "mouth_bore_sufficient_fraction": 0.9869495738636364,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.8707824349403381,
+      "p95": 3.0467986822128292,
+      "max": 4.862955570220947
+    },
+    "band_conditional_fraction": 0.9081439393939394,
+    "mouth_bore_sufficient_fraction": 0.9930160984848485,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.8707824349403381,
+      "p95": 3.0467986822128292,
+      "max": 4.862955570220947
+    },
+    "band_conditional_fraction": 0.908203125,
+    "mouth_bore_sufficient_fraction": 0.9930160984848485,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "exact_reference_tcp_diagnostic",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.8707824349403381,
+      "p95": 3.0467986822128292,
+      "max": 4.862955570220947
+    },
+    "band_conditional_fraction": 0.9081735321969697,
+    "mouth_bore_sufficient_fraction": 0.9930160984848485,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.1668401956558228,
+      "p95": 3.5400457143783566,
+      "max": 5.939074516296387
+    },
+    "band_conditional_fraction": 0.6224254261363636,
+    "mouth_bore_sufficient_fraction": 0.9850852272727273,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.9085171818733215,
+      "p95": 3.3295994520187375,
+      "max": 5.704491138458252
+    },
+    "band_conditional_fraction": 0.8462653882575758,
+    "mouth_bore_sufficient_fraction": 0.9902639678030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.9085171818733215,
+      "p95": 3.3295994520187375,
+      "max": 5.704491138458252
+    },
+    "band_conditional_fraction": 0.8516808712121212,
+    "mouth_bore_sufficient_fraction": 0.9902639678030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "nominal_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.9085171818733215,
+      "p95": 3.3295994520187375,
+      "max": 5.704491138458252
+    },
+    "band_conditional_fraction": 0.8509410511363636,
+    "mouth_bore_sufficient_fraction": 0.9902639678030303,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "fs_visible",
+    "center_mm": {
+      "median": 2.156554937362671,
+      "p95": 3.283017408847808,
+      "max": 5.033807277679443
+    },
+    "band_conditional_fraction": 0.5728870738636364,
+    "mouth_bore_sufficient_fraction": 0.9861505681818182,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "ss_sor",
+    "center_mm": {
+      "median": 1.869749128818512,
+      "p95": 3.0880153894424436,
+      "max": 4.793462753295898
+    },
+    "band_conditional_fraction": 0.9005385890151515,
+    "mouth_bore_sufficient_fraction": 0.9929569128787878,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius",
+    "center_mm": {
+      "median": 1.869749128818512,
+      "p95": 3.0880153894424436,
+      "max": 4.793462753295898
+    },
+    "band_conditional_fraction": 0.9039121685606061,
+    "mouth_bore_sufficient_fraction": 0.9929569128787878,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  },
+  {
+    "distribution": "normal_same_standard_deviation",
+    "uniform_equivalent_half_range_mm": 2.0,
+    "strategy": "calibrated_reference_tcp_timer",
+    "method": "pose_fs_radius_refit",
+    "center_mm": {
+      "median": 1.869749128818512,
+      "p95": 3.0880153894424436,
+      "max": 4.793462753295898
+    },
+    "band_conditional_fraction": 0.9024917140151515,
+    "mouth_bore_sufficient_fraction": 0.9929569128787878,
+    "mouth_scope": "projected_mouth_plus_assumed_cover_only_not_complete_head_collision",
+    "final_fastening_success": null,
+    "priors_not_measured": true
+  }
+]

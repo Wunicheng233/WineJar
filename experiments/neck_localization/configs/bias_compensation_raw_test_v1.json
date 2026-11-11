@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-24",
+  "stage": "locked new geometry and additive bias test",
+  "scenes": "experiments/neck_localization/runs/bias_compensation_test_scenes_20261024_v1",
+  "band_width_mm": 3,
+  "minimum_model_neck_length_m": 0.006,
+  "cases": [
+    {
+      "name": "nominal_000",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_001",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_002",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_003",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_004",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_005",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_006",
+      "group": "nominal"
+    },
+    {
+      "name": "nominal_007",
+      "group": "nominal"
+    },
+    {
+      "name": "stress_000",
+      "group": "stress"
+    },
+    {
+      "name": "stress_001",
+      "group": "stress"
+    },
+    {
+      "name": "stress_002",
+      "group": "stress"
+    },
+    {
+      "name": "stress_003",
+      "group": "stress"
+    },
+    {
+      "name": "stress_004",
+      "group": "stress"
+    },
+    {
+      "name": "stress_005",
+      "group": "stress"
+    },
+    {
+      "name": "stress_006",
+      "group": "stress"
+    },
+    {
+      "name": "stress_007",
+      "group": "stress"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "zero",
+      "bias_by_camera_mm": {}
+    },
+    {
+      "name": "common_m3",
+      "bias_by_camera_mm": {
+        "cam_a": -3.0,
+        "cam_b": -3.0,
+        "cam_c": -3.0
+      }
+    },
+    {
+      "name": "common_m1p5",
+      "bias_by_camera_mm": {
+        "cam_a": -1.5,
+        "cam_b": -1.5,
+        "cam_c": -1.5
+      }
+    },
+    {
+      "name": "common_p1p5",
+      "bias_by_camera_mm": {
+        "cam_a": 1.5,
+        "cam_b": 1.5,
+        "cam_c": 1.5
+      }
+    },
+    {
+      "name": "common_p3",
+      "bias_by_camera_mm": {
+        "cam_a": 3.0,
+        "cam_b": 3.0,
+        "cam_c": 3.0
+      }
+    },
+    {
+      "name": "only_b_p3",
+      "bias_by_camera_mm": {
+        "cam_b": 3.0
+      }
+    },
+    {
+      "name": "only_c_m3",
+      "bias_by_camera_mm": {
+        "cam_c": -3.0
+      }
+    },
+    {
+      "name": "mixed_a2_bm2_c1",
+      "bias_by_camera_mm": {
+        "cam_a": 2.0,
+        "cam_b": -2.0,
+        "cam_c": 1.0
+      }
+    }
+  ],
+  "study_kind": "new geometry and new bias combinations, frozen estimators",
+  "magnitude_basis": "assumed additive axial Z; no actual sensor performance claim",
+  "geometry_config_sha256": "a19637608fb8eb67952c20c3589e5a6dc77642f9f1db10aa133c2bb93c9aa2f0"
+}

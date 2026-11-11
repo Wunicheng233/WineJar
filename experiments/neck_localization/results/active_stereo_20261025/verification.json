@@ -1,0 +1,30 @@
+{
+  "no_hardware": true,
+  "checks": {
+    "core_unittest": {
+      "total": 68,
+      "passed": 66,
+      "desktop_skipped": 2
+    },
+    "desktop_viewer": {
+      "total": 3,
+      "passed": 3
+    },
+    "source_and_model_preflight": "passed",
+    "native_short_command_snapshot": "passed",
+    "report_from_packed_records_byte_identical": true,
+    "packed_artifact_hashes": "passed",
+    "repository_audit": {
+      "broken_markdown_links": 0,
+      "evidence_hash_errors": 0
+    }
+  },
+  "commands": [
+    "python -m unittest discover -s tests/neck_localization -p test_*.py",
+    "env -u MUJOCO_GL python -m unittest discover -s tests/neck_localization -p test_inspection_viewer.py -v",
+    "python scripts/reproduce_active_stereo.py --check-artifacts",
+    "python tools/project_maintenance.py audit"
+  ],
+  "environment": "winejar-stereo; OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1",
+  "full_input_audit": "input_validation.json"
+}

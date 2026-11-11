@@ -1,0 +1,1178 @@
+[
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.002044998836936429,
+      "p95": 0.002504846270312555,
+      "max": 0.0025710032787173986
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0007375019777100533,
+      "p95": 0.0009188519470626489,
+      "max": 0.000938998709898442
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "ideal",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.001939002686413005,
+      "p95": 0.0025496494345134124,
+      "max": 0.002715998562052846
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0007290036592166871,
+      "p95": 0.0009325485734734685,
+      "max": 0.0010689982445910573
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0019569997675716877,
+      "p95": 0.002410503293504007,
+      "max": 0.002621003659442067
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0007495000318158418,
+      "p95": 0.0008644019544590265,
+      "max": 0.0009349969332106411
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "depth_bias_3mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0019534963939804584,
+      "p95": 0.002288349060108885,
+      "max": 0.0030220035114325583
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0007415001164190471,
+      "p95": 0.000912251925910823,
+      "max": 0.0009729992598295212
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "local_extrinsic_1mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 43,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0018885002646129578,
+      "p95": 0.0023619970306754112,
+      "max": 0.0025959961931221187
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 2.1198906282058925,
+      "p95": 3.1182064957736935,
+      "max": 3.52294025237908
+    },
+    "axial_mm": {
+      "median": -1.244212487700259,
+      "p95": -0.08830538660871096,
+      "max": 0.2521104694107609
+    },
+    "tangent_mm": {
+      "median": 1.2696520890535807,
+      "p95": 2.6527254312293356,
+      "max": 2.811270826907918
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.000807500327937305,
+      "p95": 0.0009425497410120443,
+      "max": 0.0010220028343610466
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "lower_strip",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 44,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 31,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "axial_mm": {
+      "median": -1.6370559657361476,
+      "p95": 1.0459791827682245,
+      "max": 1.346790633057004
+    },
+    "tangent_mm": {
+      "median": 10.65047670514856,
+      "p95": 13.139121091376632,
+      "max": 13.684630873128233
+    },
+    "normal_deg": {
+      "median": 1.010179453703574,
+      "p95": 1.2743700927787438,
+      "max": 1.2743700927787438
+    },
+    "elapsed_ms": {
+      "median": 0.001870499545475468,
+      "p95": 0.0022245538275456056,
+      "max": 0.0027749993023462594
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 44,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 31,
+    "center_mm": {
+      "median": 10.799678803529154,
+      "p95": 13.239384631211985,
+      "max": 13.684953734695059
+    },
+    "axial_mm": {
+      "median": -1.6370559657361476,
+      "p95": 1.0459791827682245,
+      "max": 1.346790633057004
+    },
+    "tangent_mm": {
+      "median": 10.65047670514856,
+      "p95": 13.139121091376632,
+      "max": 13.684630873128233
+    },
+    "normal_deg": {
+      "median": 1.010179453703574,
+      "p95": 1.2743700927787438,
+      "max": 1.2743700927787438
+    },
+    "elapsed_ms": {
+      "median": 0.000750500475987792,
+      "p95": 0.000875601836014539,
+      "max": 0.0009110008249990642
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "rotation_mismatch_1deg",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "axial_mm": {
+      "median": 0.752506277796104,
+      "p95": 1.8947080908861504,
+      "max": 2.2321329965961287
+    },
+    "tangent_mm": {
+      "median": 1.2624616208053774,
+      "p95": 2.4516116580453704,
+      "max": 2.770722645183577
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0018485006876289845,
+      "p95": 0.0021087016648380086,
+      "max": 0.00228799763135612
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "nominal",
+    "total": 44,
+    "accepted": 44,
+    "center_false_accepts": 0,
+    "center_false_rejects": 0,
+    "accepted_band_contained": 40,
+    "center_mm": {
+      "median": 1.8882180918486082,
+      "p95": 2.797549690820201,
+      "max": 3.2561369789488626
+    },
+    "axial_mm": {
+      "median": 0.752506277796104,
+      "p95": 1.8947080908861504,
+      "max": 2.2321329965961287
+    },
+    "tangent_mm": {
+      "median": 1.2624616208053774,
+      "p95": 2.4516116580453704,
+      "max": 2.770722645183577
+    },
+    "normal_deg": {
+      "median": 0.2692511876086362,
+      "p95": 1.0745356376929347,
+      "max": 1.0745356376929347
+    },
+    "elapsed_ms": {
+      "median": 0.0007595008355565369,
+      "p95": 0.0008615475962869823,
+      "max": 0.0009099967428483069
+    },
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "axis",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "translation",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  },
+  {
+    "condition": "upstream_frame_bias_2mm",
+    "source_control": "saved_simsense_body",
+    "method": "rigid",
+    "total": 44,
+    "accepted": 0,
+    "center_false_accepts": 0,
+    "center_false_rejects": 44,
+    "accepted_band_contained": 0,
+    "center_mm": null,
+    "axial_mm": null,
+    "tangent_mm": null,
+    "normal_deg": null,
+    "elapsed_ms": null,
+    "final_fastening_success": null
+  }
+]

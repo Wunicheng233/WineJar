@@ -1,0 +1,6492 @@
+[
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 2.6432386339393066,
+    "axial_mm": -1.5685792321732197,
+    "tangent_mm": 2.127503153545067,
+    "xyz_mm": [
+      -2.136504322529653,
+      -0.05113892913857337,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929347,
+    "band_margin_mm": 0.3804277010709201,
+    "band_contained": true,
+    "elapsed_ms": 0.0027520000003278255,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4030195153925273,
+        -0.00035672427402069957,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.016919484148544973,
+        0.018541701219945736,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010132834134539345
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27435531037133426
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835665093599121
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0005962934861534727,
+    "overlap_fraction": 0.4737777777777778,
+    "iterations": 4,
+    "information_eigenvalues": [
+      0.0003807525795703467,
+      0.005334489613760067,
+      0.005435425409755838,
+      0.10528205019876216,
+      0.4680391415902556,
+      0.7194972006708417
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4050807339079014,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.5581167185164633,
+    "axial_mm": -1.556704270189731,
+    "tangent_mm": 0.06632890541513126,
+    "xyz_mm": [
+      -0.07528580715554511,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3923026630544092,
+    "band_contained": true,
+    "elapsed_ms": 60.1849000013317,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4050807339079014,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009649994144006815
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2742272277503741
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836267021634433
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0005926769960436387,
+    "overlap_fraction": 0.4731111111111111,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.0003790506249460379,
+      0.005322817235055736,
+      0.005449139456293228,
+      0.1051764854803664,
+      0.46784956051349497,
+      0.720015148956225
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404982712104795,
+        -0.00035683570028685943,
+        0.6307917746281975
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.4538113463798301,
+    "axial_mm": -1.4444163641098824,
+    "tangent_mm": 0.1650115085511366,
+    "xyz_mm": [
+      -0.173307610261908,
+      -0.05125035540473323,
+      -1.4425343337886032
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.5045905691342575,
+    "band_contained": true,
+    "elapsed_ms": 71.66826599859633,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404982712104795,
+        -0.00035683570028685943,
+        0.6307917746281975
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5221643673552262,
+        0.8528438933186012,
+        0.0012911598223608333,
+        0.00039280676744706813
+      ],
+      [
+        0.17891565916799004,
+        -0.10806284971608988,
+        -0.9779118607603257,
+        0.273920721242658
+      ],
+      [
+        -0.83386663224343,
+        0.510861736813796,
+        -0.20901369689709742,
+        0.7848845200700241
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0005966952238624964,
+    "overlap_fraction": 0.47555555555555556,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0003893056321751329,
+      0.005109733897610976,
+      0.005661816132623218,
+      0.10497762447279868,
+      0.46730673200627354,
+      0.7196287302659347
+    ],
+    "rotation_scale_m": 0.14597562447646234,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405589273245033,
+        -0.000307855507955075,
+        0.6308194680085822
+      ],
+      "normal": [
+        0.01942768661386554,
+        0.01881911184707037,
+        0.9996341360828576
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "center_mm": 1.4796920957772028,
+    "axial_mm": -1.4115982629115127,
+    "tangent_mm": 0.4437105390350007,
+    "xyz_mm": [
+      0.4332535299758078,
+      -0.0022701630729487707,
+      -1.4148409534038286
+    ],
+    "normal_deg": 1.1540223067691737,
+    "band_margin_mm": 0.4697795504621041,
+    "band_contained": true,
+    "elapsed_ms": 432.92912199831335,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405589273245033,
+        -0.000307855507955075,
+        0.6308194680085822
+      ],
+      "normal": [
+        0.01942768661386554,
+        0.01881911184707037,
+        0.9996341360828576
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 2.786229249822579,
+    "axial_mm": -1.7789688332378886,
+    "tangent_mm": 2.1443748093407358,
+    "xyz_mm": [
+      -2.0752159434556106,
+      -0.24289671289876588,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.14980166248884155,
+    "band_margin_mm": 0.9454181720343309,
+    "band_contained": true,
+    "elapsed_ms": 0.0027999994927085936,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3985170049572067,
+        0.0026265593460761743,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.0347007578022413,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010519682150440315
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743694378060635
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783499454046606
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.001338254306773531,
+    "overlap_fraction": 0.2877777777777778,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.0003885422169435928,
+      0.0016563691836162082,
+      0.002021640319158953,
+      0.11188502722620147,
+      0.500442232406514,
+      0.6663271692518273
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4006569159965503,
+        0.0026265593460761175,
+        0.6360843024634264
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.8603058017505965,
+    "axial_mm": -1.8515981912677941,
+    "tangent_mm": 0.17978268582030793,
+    "xyz_mm": [
+      0.06469509588802325,
+      -0.2428967128988227,
+      -1.8432453465173637
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8727888140044248,
+    "band_contained": true,
+    "elapsed_ms": 157.19859399541747,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4006569159965503,
+        0.0026265593460761175,
+        0.6360843024634264
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009537192399310598
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739087675786969
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835832665470449
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0012717424334906546,
+    "overlap_fraction": 0.2846666666666667,
+    "iterations": 20,
+    "information_eigenvalues": [
+      0.0004054215934851958,
+      0.001668013959407998,
+      0.00199204816565762,
+      0.11241067322720076,
+      0.500185155260127,
+      0.6664889313344481
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4004544964609966,
+        0.002628005479966588,
+        0.6365177983631136
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.43689244768792,
+    "axial_mm": -1.4116854538175139,
+    "tangent_mm": 0.26796284388441044,
+    "xyz_mm": [
+      -0.13772443966564296,
+      -0.24145057900835237,
+      -1.4097494468301441
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 1.312701551454705,
+    "band_contained": true,
+    "elapsed_ms": 327.1117990007042,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4004544964609966,
+        0.002628005479966588,
+        0.6365177983631136
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.48307865139050843,
+        0.8755736983970873,
+        0.00239065806326752,
+        -0.0001658086273659009
+      ],
+      [
+        0.1865133748265648,
+        -0.10023619741450283,
+        -0.9773256702546432,
+        0.2732620620290086
+      ],
+      [
+        -0.8554810211696887,
+        0.472571056459374,
+        -0.21172817246492803,
+        0.7861306983464617
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0012950423477722903,
+    "overlap_fraction": 0.2886666666666667,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000361766317496181,
+      0.0016658074057899076,
+      0.0020627253689823894,
+      0.11154942883992307,
+      0.4962728369297642,
+      0.6684833750705902
+    ],
+    "rotation_scale_m": 0.1553626773974723,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.401546193283756,
+        0.0025011871415437197,
+        0.6366241403705937
+      ],
+      "normal": [
+        -0.02821287163898799,
+        0.03626661269528572,
+        0.9989438255865504
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "center_mm": 1.6566702315803141,
+    "axial_mm": -1.3468501126265073,
+    "tangent_mm": 0.9646507297060086,
+    "xyz_mm": [
+      0.953972383093582,
+      -0.36826891743122053,
+      -1.3034074393500905
+    ],
+    "normal_deg": 0.34991832590162825,
+    "band_margin_mm": 1.199656509446894,
+    "band_contained": true,
+    "elapsed_ms": 560.9962949965848,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401546193283756,
+        0.0025011871415437197,
+        0.6366241403705937
+      ],
+      "normal": [
+        -0.02821287163898799,
+        0.03626661269528572,
+        0.9989438255865504
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.7429885884766019,
+    "axial_mm": -1.3261222162499011,
+    "tangent_mm": 1.1311096706898527,
+    "xyz_mm": [
+      -1.3436831572017915,
+      -0.021671355224013415,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.07866631058740589,
+    "band_margin_mm": 0.20651477944697746,
+    "band_contained": true,
+    "elapsed_ms": 0.003445995389483869,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.395446137241302,
+        -0.006228306742546483,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279785,
+        0.10034583214156374,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010462053338190017
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436733323979934
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835094432876051
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0018383464999953982,
+    "overlap_fraction": 0.4235555555555556,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00025549156137234834,
+      0.002252391216546508,
+      0.00596068215414135,
+      0.11929412730075023,
+      0.3977711938305408,
+      0.7399592951856531
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.397574325442469,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.3594016906781092,
+    "axial_mm": -0.9508180398127544,
+    "tangent_mm": 0.9715544306857606,
+    "xyz_mm": [
+      0.7845050439652113,
+      -0.021671355224180816,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.581818955884124,
+    "band_contained": true,
+    "elapsed_ms": 89.98780399997486,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397574325442469,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010545441906560232
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274417176803214
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834748791729115
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.001830957945782164,
+    "overlap_fraction": 0.4235555555555556,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.00025357383985051226,
+      0.002256389076240832,
+      0.006017899404860767,
+      0.11931715075339401,
+      0.39783089104940306,
+      0.7397160844059418
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.397616825747228,
+        -0.0062427230300702834,
+        0.5685769181099098
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 1.4182682833796354,
+    "axial_mm": -0.9855397320943394,
+    "tangent_mm": 1.019900171636438,
+    "xyz_mm": [
+      0.8270053487242635,
+      -0.036087642747813925,
+      -1.1516270050945243
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.547097263602539,
+    "band_contained": true,
+    "elapsed_ms": 102.58586500276579,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397616825747228,
+        -0.0062427230300702834,
+        0.5685769181099098
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9879986335499069,
+        0.14735242084902342,
+        0.04632455259848476,
+        -0.01677579355351755
+      ],
+      [
+        0.08945824077311251,
+        -0.30137793918868266,
+        -0.9492989839498214,
+        0.26229486108318634
+      ],
+      [
+        -0.12592030519855535,
+        0.9420502119528004,
+        -0.310942880443318,
+        0.8202784888968053
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0020705876184498205,
+    "overlap_fraction": 0.6644444444444444,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00012188346885875703,
+      0.005576757637338262,
+      0.017297960890332094,
+      0.09201390585429753,
+      0.5166452945246764,
+      0.7512382414301787
+    ],
+    "rotation_scale_m": 0.1520062226230061,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.428683620081212,
+        -0.011428786677236165,
+        0.5685301899139381
+      ],
+      "normal": [
+        0.14306241236837455,
+        0.1874297469940305,
+        0.9718041140626514
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "center_mm": 32.34070774555481,
+    "axial_mm": 3.9324886295455515,
+    "tangent_mm": 32.100730687351714,
+    "xyz_mm": [
+      31.893799682708224,
+      -5.222151289913695,
+      -1.198355201066259
+    ],
+    "normal_deg": 5.418434797143881,
+    "band_margin_mm": -6.958849347700285,
+    "band_contained": false,
+    "elapsed_ms": 604.6269979997305,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.428683620081212,
+        -0.011428786677236165,
+        0.5685301899139381
+      ],
+      "normal": [
+        0.14306241236837455,
+        0.1874297469940305,
+        0.9718041140626514
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.6487690037686016,
+    "axial_mm": 0.2521104694107609,
+    "tangent_mm": 2.6367437392622732,
+    "xyz_mm": [
+      -2.6277214139462934,
+      -0.31680983525361056,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082478,
+    "band_margin_mm": 1.1999379455818704,
+    "band_contained": true,
+    "elapsed_ms": 0.0024140026653185487,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3925124861157534,
+        -0.004277602057709627,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558533,
+        -0.06019349994423721,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0024003120337726808
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27486184408730974
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7811622669991631
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0020604899886690945,
+    "overlap_fraction": 0.5071111111111111,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.00016368965793531486,
+      0.00504426330861661,
+      0.006997817788953012,
+      0.12020382549125407,
+      0.27460192029808683,
+      0.7860819986219165
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.3973951946857306,
+        -0.004277602057709683,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 2.2794789930766477,
+    "axial_mm": -0.37134818071350073,
+    "tangent_mm": 2.249027569541667,
+    "xyz_mm": [
+      2.2549871560308965,
+      -0.31680983525366607,
+      -0.10338730241166161
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.0807002342791325,
+    "band_contained": true,
+    "elapsed_ms": 84.38045300135855,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3973951946857306,
+        -0.004277602057709683,
+        0.6058686241158934
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0025125130442153476
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2759763534410098
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.780642924797644
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0020156699557509405,
+    "overlap_fraction": 0.5091111111111111,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00016246609449097372,
+      0.005111448480976854,
+      0.006973316692082657,
+      0.12143426863802281,
+      0.2790236471122036,
+      0.7810276721250604
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.39809297743869,
+        -0.004542667075550087,
+        0.6048851220800554
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 3.19980576187105,
+    "axial_mm": -1.4182783594907677,
+    "tangent_mm": 2.868317173658336,
+    "xyz_mm": [
+      2.9527699089904047,
+      -0.5818748530940707,
+      -1.0868893382496303
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 0.033770055501865445,
+    "band_contained": true,
+    "elapsed_ms": 495.91463999968255,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.39809297743869,
+        -0.004542667075550087,
+        0.6048851220800554
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        -0.7408110884937095,
+        0.6716997449296925,
+        0.004287636429578193,
+        -0.0015703541691544434
+      ],
+      [
+        0.19322787304958722,
+        0.2192137779803835,
+        -0.9563515612055544,
+        0.2610974882492106
+      ],
+      [
+        -0.643321008705218,
+        -0.707647350171647,
+        -0.2921871105191808,
+        0.8188294850890249
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002359117437005689,
+    "overlap_fraction": 0.6655555555555556,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0001332618903360005,
+      0.0029258355512890412,
+      0.01307414648536058,
+      0.061636977371286435,
+      0.5480712289315501,
+      0.7562952141766386
+    ],
+    "rotation_scale_m": 0.1506784484572245,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4106678225776146,
+        -0.0017722084322825161,
+        0.6098916568830077
+      ],
+      "normal": [
+        -0.007291316131936503,
+        0.06904703119646519,
+        0.9975867602329227
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "center_mm": 16.16355000152527,
+    "axial_mm": 1.766983045255546,
+    "tangent_mm": 16.066677303337702,
+    "xyz_mm": [
+      15.527615047914889,
+      2.1885837901735004,
+      3.9196454647026924
+    ],
+    "normal_deg": 10.125359360186291,
+    "band_margin_mm": -10.28384450721656,
+    "band_contained": false,
+    "elapsed_ms": 622.9595059994608,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4106678225776146,
+        -0.0017722084322825161,
+        0.6098916568830077
+      ],
+      "normal": [
+        -0.007291316131936503,
+        0.06904703119646519,
+        0.9975867602329227
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 1.9289882781320438,
+    "axial_mm": -0.22636465321411284,
+    "tangent_mm": 1.9156604137858257,
+    "xyz_mm": [
+      -1.9064636766632503,
+      -0.1964324201778416,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.18210286182615532,
+    "band_margin_mm": 2.4633853103610748,
+    "band_contained": true,
+    "elapsed_ms": 0.003216999175492674,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3980620780583544,
+        0.0030229085025655004,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133572,
+        -0.003962229311150168,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0021459959512610677
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27476896952912133
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7816030924368197
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.001998035857145112,
+    "overlap_fraction": 0.46444444444444444,
+    "iterations": 18,
+    "information_eigenvalues": [
+      0.00024178658085250638,
+      0.00716248706611526,
+      0.007374798380220301,
+      0.11690820918011667,
+      0.30365525363858775,
+      0.7747948322518942
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4024274575069127,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 2.4764205620226827,
+    "axial_mm": -0.20679034824173612,
+    "tangent_mm": 2.4677715761153425,
+    "xyz_mm": [
+      2.458915771895054,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.4829596153334506,
+    "band_contained": true,
+    "elapsed_ms": 224.37302400066983,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4024274575069127,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002345907869991712
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2751099455559153
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7815128002036348
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0019930898290391043,
+    "overlap_fraction": 0.4648888888888889,
+    "iterations": 15,
+    "information_eigenvalues": [
+      0.00023963456643527527,
+      0.007132567122819108,
+      0.007358649316984492,
+      0.11732128735669682,
+      0.30477528482219574,
+      0.77321226975745
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4026638871259056,
+        0.0031190064740185455,
+        0.596944673498226
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 2.749503951724969,
+    "axial_mm": -0.5211655431780983,
+    "tangent_mm": 2.69965895200766,
+    "xyz_mm": [
+      2.6953453908880043,
+      -0.10033444872479658,
+      -0.533683616732894
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.1685844203970883,
+    "band_contained": true,
+    "elapsed_ms": 189.99448000249686,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4026638871259056,
+        0.0031190064740185455,
+        0.596944673498226
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9373993663821656,
+        -0.34464298026375617,
+        0.050036427342801185,
+        -0.020487689083152634
+      ],
+      [
+        -0.049711271177963916,
+        -0.27462497869361596,
+        -0.9602655417098974,
+        0.2624491938011189
+      ],
+      [
+        0.3446900309324107,
+        0.8976649359490696,
+        -0.2745659216715844,
+        0.81176187158208
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024216830112651884,
+    "overlap_fraction": 0.622,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00016785688160528118,
+      0.0037661366580902353,
+      0.011935965121340854,
+      0.061585232505902636,
+      0.5709338325991754,
+      0.6987916333479303
+    ],
+    "rotation_scale_m": 0.14761631588499602,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4135120308613636,
+        -0.00011921605697276516,
+        0.6011490773835595
+      ],
+      "normal": [
+        0.09027126190683533,
+        0.009482407996700928,
+        0.995872071710183
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "center_mm": 14.423808363694295,
+    "axial_mm": 3.7454245231449708,
+    "tangent_mm": 13.92903596283683,
+    "xyz_mm": [
+      13.543489126345953,
+      -3.338556979716107,
+      3.6707202686006024
+    ],
+    "normal_deg": 4.984571046912914,
+    "band_margin_mm": -5.7309791524457845,
+    "band_contained": false,
+    "elapsed_ms": 592.3181239995756,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4135120308613636,
+        -0.00011921605697276516,
+        0.6011490773835595
+      ],
+      "normal": [
+        0.09027126190683533,
+        0.009482407996700928,
+        0.995872071710183
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 2.741184179477161,
+    "axial_mm": -0.6798290834426058,
+    "tangent_mm": 2.655545729811758,
+    "xyz_mm": [
+      -2.5534328288627783,
+      -0.4984479923769397,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.24541081374380888,
+    "band_margin_mm": 1.9090164865443853,
+    "band_contained": true,
+    "elapsed_ms": 0.0029220027499832213,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402826359081517,
+        0.0023598224303854947,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018149,
+        -0.05005990941621912,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010200820500846502
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27435779318865
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835547247651723
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.00044302840669843517,
+    "overlap_fraction": 0.4488888888888889,
+    "iterations": 4,
+    "information_eigenvalues": [
+      0.0003468588067617122,
+      0.0018534271265655202,
+      0.0022285818828541954,
+      0.118370306181261,
+      0.5289282300480944,
+      0.6463861854623372
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404901407366052,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.1058586105616908,
+    "axial_mm": -0.8048051322090991,
+    "tangent_mm": 0.7584272975858185,
+    "xyz_mm": [
+      -0.4783845443276924,
+      -0.498447992377052,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7840404377778918,
+    "band_contained": true,
+    "elapsed_ms": 66.68900499789743,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404901407366052,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009560024904445991
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274138696736858
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836307290837514
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.00040475888838680766,
+    "overlap_fraction": 0.4468888888888889,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00034606674265242764,
+      0.0018270332069481763,
+      0.0021972955840574805,
+      0.11829596499941364,
+      0.5273332604751745,
+      0.6477187964092682
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404765807836015,
+        0.002362785606318784,
+        0.6356163660450487
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 1.031699568623419,
+    "axial_mm": -0.5987316309862818,
+    "tangent_mm": 0.8401930932555061,
+    "xyz_mm": [
+      -0.6139840743650815,
+      -0.49548481644365056,
+      -0.6647724069165362
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.9901139390007088,
+    "band_contained": true,
+    "elapsed_ms": 93.01949699874967,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404765807836015,
+        0.002362785606318784,
+        0.6356163660450487
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.4922459422754529,
+        0.8704436559983507,
+        0.0046662667706928755,
+        -0.0011881682712813577
+      ],
+      [
+        0.18560740864245512,
+        -0.09972268858872912,
+        -0.9775506509831939,
+        0.2736092369919796
+      ],
+      [
+        -0.8504374298973335,
+        0.482061434998548,
+        -0.21064888016971925,
+        0.7857099332252718
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.00045096554022275466,
+    "overlap_fraction": 0.45111111111111113,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000340216207187837,
+      0.0018452894117238284,
+      0.0021784379734015387,
+      0.11850351801157995,
+      0.5261497351516748,
+      0.6474068055737976
+    ],
+    "rotation_scale_m": 0.13951767367178827,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405842945562423,
+        0.0026984284522140662,
+        0.6356701410270462
+      ],
+      "normal": [
+        -0.05301401928555357,
+        -0.04830541898779113,
+        0.9974247341306536
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "center_mm": 0.7831849169941688,
+    "axial_mm": -0.6282123715549072,
+    "tangent_mm": 0.46768347248168,
+    "xyz_mm": [
+      0.4631536520429691,
+      -0.1598419705483682,
+      -0.6109974249189909
+    ],
+    "normal_deg": 0.5367504315056929,
+    "band_margin_mm": 1.7027368933694185,
+    "band_contained": true,
+    "elapsed_ms": 474.7871840008884,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405842945562423,
+        0.0026984284522140662,
+        0.6356701410270462
+      ],
+      "normal": [
+        -0.05301401928555357,
+        -0.04830541898779113,
+        0.9974247341306536
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 3.15668686517831,
+    "axial_mm": -2.6041466388685084,
+    "tangent_mm": 1.784122262643207,
+    "xyz_mm": [
+      -1.6979634577798386,
+      0.5693468849897959,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764792,
+    "band_margin_mm": 0.09320041261865722,
+    "band_contained": true,
+    "elapsed_ms": 0.002444001438561827,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.399574815162125,
+        -0.0011125786999924747,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229215,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023231121736264487
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27483365120688924
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.781296083397245
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0019062386028654336,
+    "overlap_fraction": 0.4691111111111111,
+    "iterations": 12,
+    "information_eigenvalues": [
+      0.00018068714309650902,
+      0.0032162842981882374,
+      0.006362476996060975,
+      0.12403653887676158,
+      0.3346883658876201,
+      0.7568953576316022
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4043004839750064,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 4.03095420194096,
+    "axial_mm": -2.4657429586837183,
+    "tangent_mm": 3.188840453808744,
+    "xyz_mm": [
+      3.027705355101773,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.23160409280344726,
+    "band_contained": true,
+    "elapsed_ms": 155.01636399858398,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4043004839750064,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0027559230752240704
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2762943983816528
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7806478380714286
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0018297846852314283,
+    "overlap_fraction": 0.47155555555555556,
+    "iterations": 9,
+    "information_eigenvalues": [
+      0.00017525070070978824,
+      0.003385728851424342,
+      0.006563013305201901,
+      0.12658913756790735,
+      0.33983114135068404,
+      0.7490710196932805
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.405327876458631,
+        -0.0011955454435278933,
+        0.5622705573163982
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 5.643867323599757,
+    "axial_mm": -3.7334711958781632,
+    "tangent_mm": 4.232544293441612,
+    "xyz_mm": [
+      4.055097838726596,
+      0.4863801414543773,
+      -3.89523481227394
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": -1.0361241443909974,
+    "band_contained": false,
+    "elapsed_ms": 120.03220200131182,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.405327876458631,
+        -0.0011955454435278933,
+        0.5622705573163982
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9860711996884697,
+        -0.1488344926747848,
+        0.07424205637763971,
+        -0.026204707984181945
+      ],
+      [
+        0.023677736246290125,
+        -0.316208902326172,
+        -0.9483940609767272,
+        0.2608928902819186
+      ],
+      [
+        0.1646297480748614,
+        0.9369419533140332,
+        -0.30828042780703857,
+        0.8199112896119802
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002352513474965069,
+    "overlap_fraction": 0.6528888888888889,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00013077512937740594,
+      0.0038697091253606345,
+      0.014548338693088086,
+      0.07861457996356651,
+      0.5570229384317452,
+      0.6866930167299748
+    ],
+    "rotation_scale_m": 0.14479485513813006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.428836951424946,
+        0.0013847300472929975,
+        0.5643940873946882
+      ],
+      "normal": [
+        0.08576090661276384,
+        0.05778257078030389,
+        0.9946387492004201
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "center_mm": 27.790770713630188,
+    "axial_mm": -0.7542725107656282,
+    "tangent_mm": 27.780532929320646,
+    "xyz_mm": [
+      27.56417280504131,
+      3.0666556322752685,
+      -1.7717047339839143
+    ],
+    "normal_deg": 3.2823629892713915,
+    "band_margin_mm": -0.6083540846632653,
+    "band_contained": false,
+    "elapsed_ms": 605.9259789981297,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.428836951424946,
+        0.0013847300472929975,
+        0.5643940873946882
+      ],
+      "normal": [
+        0.08576090661276384,
+        0.05778257078030389,
+        0.9946387492004201
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 2.3230059639851395,
+    "axial_mm": -1.2737772528939777,
+    "tangent_mm": 1.9426394978792125,
+    "xyz_mm": [
+      -1.9915541601367437,
+      0.027866408423973116,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.11221352100353,
+    "band_contained": true,
+    "elapsed_ms": 0.002997003321070224,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.402014954860403,
+        -0.00266555940037324,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113753,
+        -0.015620023768783665,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010322635005683978
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436224177412916
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.78353360972916
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.00143517283600632,
+    "overlap_fraction": 0.46266666666666667,
+    "iterations": 5,
+    "information_eigenvalues": [
+      0.0003344558409280687,
+      0.012210577159664936,
+      0.022475572782741274,
+      0.12382975126440804,
+      0.3912123163209596,
+      0.7083055749331587
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404114782620204,
+        -0.0026655594003732967,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.2007463963454328,
+    "axial_mm": -1.1904607839527699,
+    "tangent_mm": 0.15682802749221803,
+    "xyz_mm": [
+      0.10827359966425476,
+      0.027866408423916304,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1955299899447378,
+    "band_contained": true,
+    "elapsed_ms": 75.72713500121608,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404114782620204,
+        -0.0026655594003732967,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000994504443167725
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27424776157629527
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835803306505406
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0014315585471255875,
+    "overlap_fraction": 0.4622222222222222,
+    "iterations": 6,
+    "information_eigenvalues": [
+      0.00033261992869065924,
+      0.012231251470629591,
+      0.022429828036065472,
+      0.123621484610549,
+      0.39040866621703463,
+      0.7092655682954957
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.404035856454486,
+        -0.002664364439292877,
+        0.6129780675293212
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.0939209029699493,
+    "axial_mm": -1.091294988131736,
+    "tangent_mm": 0.0757508470787192,
+    "xyz_mm": [
+      0.029347433946114165,
+      0.029061369504335913,
+      -1.0931409364203226
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.294695785765772,
+    "band_contained": true,
+    "elapsed_ms": 87.90718900127104,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404035856454486,
+        -0.002664364439292877,
+        0.6129780675293212
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.5174340130523263,
+        0.8557230855312665,
+        0.0002074256850963552,
+        0.0009016697268018417
+      ],
+      [
+        0.17700682075057939,
+        -0.10679436627653094,
+        -0.9783984611288835,
+        0.2741658333435598
+      ],
+      [
+        -0.8372159981416608,
+        0.5062933578671992,
+        -0.20672786032661086,
+        0.7838378593195838
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0014433849235111515,
+    "overlap_fraction": 0.462,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.000333029801831319,
+      0.012124938333704899,
+      0.022332530148302006,
+      0.12307915224022135,
+      0.39024413878997066,
+      0.7093462093292009
+    ],
+    "rotation_scale_m": 0.14149894961922233,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4042084963055697,
+        -0.00261643101699942,
+        0.613003475080191
+      ],
+      "normal": [
+        0.04267854897321348,
+        -0.014473289942457796,
+        0.9989840165567129
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "center_mm": 1.0893950816378415,
+    "axial_mm": -1.0593996928296452,
+    "tangent_mm": 0.25387779487220374,
+    "xyz_mm": [
+      0.20198728502984764,
+      0.07699479179779306,
+      -1.06773338555044
+    ],
+    "normal_deg": 0.45488472363908733,
+    "band_margin_mm": 1.3697453101289472,
+    "band_contained": true,
+    "elapsed_ms": 458.19159600068815,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4042084963055697,
+        -0.00261643101699942,
+        0.613003475080191
+      ],
+      "normal": [
+        0.04267854897321348,
+        -0.014473289942457796,
+        0.9989840165567129
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.52294025237908,
+    "axial_mm": -2.152349512788035,
+    "tangent_mm": 2.78899616289336,
+    "xyz_mm": [
+      -2.76382295637978,
+      0.17318548429581282,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397688,
+    "band_margin_mm": -0.3654292579895462,
+    "band_contained": false,
+    "elapsed_ms": 0.003258996002841741,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404142356549653,
+        0.0024643206351193927,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051231,
+        0.021697863023005654,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0022311627983407217
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27480007190069267
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7814554662534224
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.002067385998228722,
+    "overlap_fraction": 0.4882222222222222,
+    "iterations": 13,
+    "information_eigenvalues": [
+      0.00022650078174795253,
+      0.0011952504141289004,
+      0.004363473261568853,
+      0.12253338788602301,
+      0.36337951820063974,
+      0.7531847274682667
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.408680982179651,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.814660764266686,
+    "axial_mm": -2.1864941461575707,
+    "tangent_mm": 1.7724442351512788,
+    "xyz_mm": [
+      1.774802673617959,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3995738913590806,
+    "band_contained": false,
+    "elapsed_ms": 138.10138100234326,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.408680982179651,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023851506844900228
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2751040080862964
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.781324744591903
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0020683520630968397,
+    "overlap_fraction": 0.48933333333333334,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00022886678666398508,
+      0.0012225891863243436,
+      0.004534643715649866,
+      0.12343681092759383,
+      0.36538950096445416,
+      0.7507450815764246
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4089226367925263,
+        0.0025047327355643663,
+        0.5693057433182392
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.1788715399573464,
+    "axial_mm": -2.4577736894497284,
+    "tangent_mm": 2.0160785597291246,
+    "xyz_mm": [
+      2.016457286493356,
+      0.21359758474078644,
+      -2.448162648005958
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.6708534346512385,
+    "band_contained": false,
+    "elapsed_ms": 352.10180699505145,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4089226367925263,
+        0.0025047327355643663,
+        0.5693057433182392
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.8927873594573796,
+        -0.44121658568882055,
+        0.09087714402543669,
+        -0.03405304888605303
+      ],
+      [
+        -0.056508412451901045,
+        -0.3098308104437626,
+        -0.9491109883580148,
+        0.25946745802669624
+      ],
+      [
+        0.4469200489072809,
+        0.8422189699910955,
+        -0.30154547993935005,
+        0.8193100659067702
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0023539234642276285,
+    "overlap_fraction": 0.6082222222222222,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00016388199218875016,
+      0.003898151845278125,
+      0.011717698130300143,
+      0.06951534880121965,
+      0.569531398736282,
+      0.6546476005135622
+    ],
+    "rotation_scale_m": 0.14030979635274968,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.424199509651505,
+        0.009672457788669337,
+        0.5717525691045426
+      ],
+      "normal": [
+        0.10997773214226357,
+        0.036809875954726554,
+        0.99325219932555
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 18.802744299475922,
+    "axial_mm": 0.036399645489880415,
+    "tangent_mm": 18.802709066974433,
+    "xyz_mm": [
+      17.293330145472297,
+      7.3813226378457575,
+      -0.0013368617025610874
+    ],
+    "normal_deg": 6.79448872375433,
+    "band_margin_mm": -4.300017294790223,
+    "band_contained": false,
+    "elapsed_ms": 469.8026839978411,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.424199509651505,
+        0.009672457788669337,
+        0.5717525691045426
+      ],
+      "normal": [
+        0.10997773214226357,
+        0.036809875954726554,
+        0.99325219932555
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.527535230560865,
+    "axial_mm": -0.9347328443601947,
+    "tangent_mm": 2.348341723727759,
+    "xyz_mm": [
+      -2.2732442956332477,
+      -0.14232148187376306,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086362,
+    "band_margin_mm": 2.069234472681691,
+    "band_contained": true,
+    "elapsed_ms": 0.004058994818478823,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3979183281525267,
+        0.0033135222367608086,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442083,
+        0.010169137047376996,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0023063283922701364
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2748275218804903
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.781325176003929
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0018984066904456558,
+    "overlap_fraction": 0.504,
+    "iterations": 7,
+    "information_eigenvalues": [
+      0.00029375769565134123,
+      0.0061494313583273594,
+      0.012241841947767932,
+      0.10854841438996869,
+      0.35552261980662264,
+      0.7647656464730738
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.40260985544051,
+        0.003313522236760752,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.6587379233739252,
+    "axial_mm": -1.263039916644255,
+    "tangent_mm": 2.3395763535627485,
+    "xyz_mm": [
+      2.4182829923500293,
+      -0.14232148187381988,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.7409274003976307,
+    "band_contained": true,
+    "elapsed_ms": 94.7691469991696,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40260985544051,
+        0.003313522236760752,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002823705263458924
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2760669365125183
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7807942103160006
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.0018490994898488155,
+    "overlap_fraction": 0.5057777777777778,
+    "iterations": 8,
+    "information_eigenvalues": [
+      0.0002906981043508663,
+      0.006028491546899859,
+      0.012500937423834959,
+      0.11083903741847834,
+      0.35802886246659166,
+      0.7593757279160696
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4035391488192936,
+        0.003383044273859398,
+        0.578952453232034
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 4.005902228335182,
+    "axial_mm": -2.4282722650699045,
+    "tangent_mm": 3.186023614111021,
+    "xyz_mm": [
+      3.347576371133698,
+      -0.07279944477517385,
+      -2.199019177553607
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 0.5756950519719813,
+    "band_contained": true,
+    "elapsed_ms": 106.4827209993382,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4035391488192936,
+        0.003383044273859398,
+        0.578952453232034
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.9469337250922312,
+        -0.31570364192185346,
+        0.06039644658610805,
+        -0.02248777764196937
+      ],
+      [
+        -0.012991313991308633,
+        -0.2253372231469399,
+        -0.9741942114512923,
+        0.26876660591198687
+      ],
+      [
+        0.32116622805601724,
+        0.9217127244113018,
+        -0.21748082125687765,
+        0.7885509500582187
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.002426035183716069,
+    "overlap_fraction": 0.6242222222222222,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.0002474890335086944,
+      0.004967034936623444,
+      0.017052208287001453,
+      0.054750960911047086,
+      0.6031970942908937,
+      0.7133014836267317
+    ],
+    "rotation_scale_m": 0.14690635142751732,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4048816568509612,
+        0.008185852138230254,
+        0.5836086576206154
+      ],
+      "normal": [
+        0.017107815916888012,
+        -0.018381028795309572,
+        0.9996846804942946
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 7.099833132978512,
+    "axial_mm": 2.150328348654257,
+    "tangent_mm": 6.766366714058093,
+    "xyz_mm": [
+      4.690084402801276,
+      4.7300084195956815,
+      2.457185211027779
+    ],
+    "normal_deg": 5.181640603410229,
+    "band_margin_mm": -3.846882290015147,
+    "band_contained": false,
+    "elapsed_ms": 559.9024459952489,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048816568509612,
+        0.008185852138230254,
+        0.5836086576206154
+      ],
+      "normal": [
+        0.017107815916888012,
+        -0.018381028795309572,
+        0.9996846804942946
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": false,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal_no_secondary_measurement",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.8606503857867414,
+    "axial_mm": -2.0741304425769647,
+    "tangent_mm": 1.9701024178649489,
+    "xyz_mm": [
+      -1.9715555507278104,
+      -0.15626327421595226,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.45769596336114843,
+    "band_margin_mm": 0.6839422517957224,
+    "band_contained": true,
+    "elapsed_ms": 0.002940003469120711,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4009638294286093,
+        -0.004078442963872284,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805125,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0011477236387774925
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27440440705608327
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7833334738767387
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0022618424146074534,
+    "overlap_fraction": 0.458,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00020998019628228512,
+      0.013407214216805277,
+      0.015377295020557116,
+      0.13016302425224885,
+      0.27748318154442314,
+      0.7904721125443377
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.403298525904807,
+        -0.00407844296387234,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.1043195270318313,
+    "axial_mm": -2.0504397550902795,
+    "tangent_mm": 0.473135797200746,
+    "xyz_mm": [
+      0.3631409254700735,
+      -0.15626327421600864,
+      -2.0668505338382603
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7076329392824077,
+    "band_contained": true,
+    "elapsed_ms": 474.5210289984243,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403298525904807,
+        -0.00407844296387234,
+        0.5839636156548845
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "translation",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001208709282166806
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.274550122657939
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7832231691527807
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "translation",
+    "point_plane_rms_m": 0.002229065395524065,
+    "overlap_fraction": 0.45844444444444443,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00021196168804002018,
+      0.01343814641186223,
+      0.015392998144679874,
+      0.13063383394303757,
+      0.2782842923596355,
+      0.7894768989660956
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.4034486586289443,
+        -0.0040931632215877685,
+        0.583843770352068
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.2526259986105313,
+    "axial_mm": -2.167693907832592,
+    "tangent_mm": 0.6127209899795821,
+    "xyz_mm": [
+      0.5132736496071821,
+      -0.1709835319314368,
+      -2.1866958366547617
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.5903787865400951,
+    "band_contained": true,
+    "elapsed_ms": 474.88238799996907,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4034486586289443,
+        -0.0040931632215877685,
+        0.583843770352068
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "method": "rigid",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.002088464968904149,
+        0.9999473242495872,
+        0.010049230824460275,
+        -0.002172643477202616
+      ],
+      [
+        0.21553772432068455,
+        0.009362927941687115,
+        -0.9764506259791216,
+        0.27351416507454307
+      ],
+      [
+        -0.9764932809337363,
+        0.00420527126929955,
+        -0.21550681656230136,
+        0.7864547645043306
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "rigid",
+    "point_plane_rms_m": 0.0024982247005729524,
+    "overlap_fraction": 0.5655555555555556,
+    "iterations": 35,
+    "information_eigenvalues": [
+      0.00025288461605734494,
+      0.011391491453410223,
+      0.023496010254534027,
+      0.07302342675323943,
+      0.5648519051830371,
+      0.6571279955344197
+    ],
+    "rotation_scale_m": 0.1534666684283006,
+    "information_is_not_calibrated_covariance": true,
+    "estimate": {
+      "center_m": [
+        2.40448001943737,
+        -0.002965955144298111,
+        0.584166652081971
+      ],
+      "normal": [
+        -0.0011839974390338527,
+        -0.04572987209324653,
+        0.9989531405168111
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "center_mm": 2.6027032129335255,
+    "axial_mm": -1.900602633752979,
+    "tangent_mm": 1.77813768960273,
+    "xyz_mm": [
+      1.5446344580327676,
+      0.9562245453582207,
+      -1.8638141067517378
+    ],
+    "normal_deg": 0.9695253236965161,
+    "band_margin_mm": 0.39028220230192556,
+    "band_contained": true,
+    "elapsed_ms": 438.90946700412314,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "final_fastening_success": null,
+    "registration_acceptance_is_not_process_release": true,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40448001943737,
+        -0.002965955144298111,
+        0.584166652081971
+      ],
+      "normal": [
+        -0.0011839974390338527,
+        -0.04572987209324653,
+        0.9989531405168111
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010134245218929186
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27435536190320664
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835662647659062
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00016633946065204087,
+    "overlap_fraction": 0.3068888888888889,
+    "iterations": 4,
+    "scalar_information": 584.8665295419487,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4050810209503255,
+        -0.0003567242740208676,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 43.415068998001516,
+    "center_mm": 1.5581028754458754,
+    "axial_mm": -1.5567026164990407,
+    "tangent_mm": 0.06604191288679091,
+    "xyz_mm": [
+      -0.07499876473149314,
+      -0.05113892913874142,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.39230431674509925,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4050810209503255,
+        -0.0003567242740208676,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.07267693291852784,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009894590133047827
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743466098573277
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836078060074498
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 3.397319809398346e-05,
+    "overlap_fraction": 0.17244444444444446,
+    "iterations": 3,
+    "scalar_information": 312.44153957421196,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.40503227037435,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935
+    },
+    "elapsed_ms": 65.69835200207308,
+    "center_mm": 1.5612090363198967,
+    "axial_mm": -1.5569834752396654,
+    "tangent_mm": 0.11478725067495642,
+    "xyz_mm": [
+      -0.1237493407071355,
+      -0.05113892913868591,
+      -1.5554563850163072
+    ],
+    "normal_deg": 1.0745356376929343,
+    "band_margin_mm": 0.3920234580044745,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.07267693291852784,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.40503227037435,
+        -0.0003567242740208121,
+        0.6306788525769698
+      ],
+      "normal": [
+        0.01691948414854496,
+        0.018541701219945732,
+        0.999684918547848
+      ],
+      "radius_m": 0.04878699085449935,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010152438316119977
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743560263031325
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835631112177892
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00014444427748475203,
+    "overlap_fraction": 0.20555555555555555,
+    "iterations": 3,
+    "scalar_information": 503.101676649335,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4005822113501596,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 48.4042079988285,
+    "center_mm": 1.8592074687069897,
+    "axial_mm": -1.8490626884316124,
+    "tangent_mm": 0.1939576911233763,
+    "xyz_mm": [
+      -0.01000955050267649,
+      -0.2428967128988782,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8753243168406069,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005822113501596,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_nominal_006",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.2166807772473476,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.00099236507079359
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27434767113038083
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836027687166434
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00012277001198180234,
+    "overlap_fraction": 0.10177777777777777,
+    "iterations": 3,
+    "scalar_information": 237.13248883218483,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4005356714337043,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625
+    },
+    "elapsed_ms": 92.79170600348152,
+    "center_mm": 1.8600403390270384,
+    "axial_mm": -1.8474831067608029,
+    "tangent_mm": 0.2157689343748794,
+    "xyz_mm": [
+      -0.056549466957989125,
+      -0.2428967128988782,
+      -1.8432453465172527
+    ],
+    "normal_deg": 0.1498016624888418,
+    "band_margin_mm": 0.8769038985114163,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.2166807772473476,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005356714337043,
+        0.002626559346076062,
+        0.6360843024634265
+      ],
+      "normal": [
+        -0.034700757802241314,
+        0.036648134970233635,
+        0.998725573724411
+      ],
+      "radius_m": 0.050936319685627625,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010756125229373803
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743780725515644
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834584695666932
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0019390975870878509,
+    "overlap_fraction": 0.30044444444444446,
+    "iterations": 8,
+    "scalar_information": 381.4983780603254,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.3976341454709935,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 88.05783100251574,
+    "center_mm": 1.3947794164836806,
+    "axial_mm": -0.9402688287386217,
+    "tangent_mm": 1.0301961708087723,
+    "xyz_mm": [
+      0.84432507248966,
+      -0.021671355224125305,
+      -1.1099797948497248
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5923681669582564,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3976341454709935,
+        -0.006228306742546595,
+        0.5686185653201546
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.8606492894996376,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010387619426350182
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743646149623676
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835223454845244
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018888994530598326,
+    "overlap_fraction": 0.1731111111111111,
+    "iterations": 6,
+    "scalar_information": 234.76818127424806,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.397559184115253,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835
+    },
+    "elapsed_ms": 137.39774999703513,
+    "center_mm": 1.3507202971976693,
+    "axial_mm": -0.9534881999695768,
+    "tangent_mm": 0.9567160361259429,
+    "xyz_mm": [
+      0.7693637167491829,
+      -0.021671355224180816,
+      -1.1099797948496137
+    ],
+    "normal_deg": 0.0786663105874063,
+    "band_margin_mm": 0.5791487957273016,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.8606492894996376,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397559184115253,
+        -0.00622830674254665,
+        0.5686185653201548
+      ],
+      "normal": [
+        0.17549902876279783,
+        0.10034583214156373,
+        0.9793522373871067
+      ],
+      "radius_m": 0.04906418047978835,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010424213608048452
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743659513577791
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835160023362645
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017085482142472784,
+    "overlap_fraction": 0.2677777777777778,
+    "iterations": 5,
+    "scalar_information": 461.7130458889511,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.3946329769687402,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 65.70948700391455,
+    "center_mm": 0.6069104118275883,
+    "axial_mm": -0.018648750775585855,
+    "tangent_mm": 0.6066238307874517,
+    "xyz_mm": [
+      -0.5072305609594707,
+      -0.3168098352537216,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.4333996642170475,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3946329769687402,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old12",
+    "case": "old12__structural_test_stress_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 2.58200376534444,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010152521807380041
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743560293521783
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835630967456131
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0015481175466610481,
+    "overlap_fraction": 0.15911111111111112,
+    "iterations": 5,
+    "scalar_information": 269.5947375567512,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.3945777094924767,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394
+    },
+    "elapsed_ms": 131.65618499624543,
+    "center_mm": 0.6538053593334691,
+    "axial_mm": -0.011591809806614051,
+    "tangent_mm": 0.653702591274177,
+    "xyz_mm": [
+      -0.5624980372229693,
+      -0.3168098352537216,
+      -0.10338730241177263
+    ],
+    "normal_deg": 0.14697200980082317,
+    "band_margin_mm": 1.440456605186019,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 2.58200376534444,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.3945777094924767,
+        -0.004277602057709738,
+        0.6058686241158933
+      ],
+      "normal": [
+        -0.12517272712558536,
+        -0.0601934999442372,
+        0.9903072911719912
+      ],
+      "radius_m": 0.05767964563244394,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010240638357221989
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743592473105374
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835478228328251
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0010196222876625938,
+    "overlap_fraction": 0.24533333333333332,
+    "iterations": 4,
+    "scalar_information": 477.3183948242359,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4001452260809994,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 49.80885700206272,
+    "center_mm": 0.3429422471051359,
+    "axial_mm": -0.2170238444302795,
+    "tangent_mm": 0.26553725877590495,
+    "xyz_mm": [
+      0.1766843459818368,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.472726119144907,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4001452260809994,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_002",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6724978878514809,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009942797041218696
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743483703418609
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835994499368536
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0008508572504950946,
+    "overlap_fraction": 0.1348888888888889,
+    "iterations": 4,
+    "scalar_information": 253.1100120160551,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.400084639277047,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912
+    },
+    "elapsed_ms": 94.76491899840767,
+    "center_mm": 0.31602320484380064,
+    "axial_mm": -0.21729551487539034,
+    "tangent_mm": 0.22946312386696427,
+    "xyz_mm": [
+      0.11609754202934752,
+      -0.19643242017789841,
+      -0.2186465893572187
+    ],
+    "normal_deg": 0.1821028618261563,
+    "band_margin_mm": 2.472454448699796,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6724978878514809,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400084639277047,
+        0.0030229085025654436,
+        0.5972597105256017
+      ],
+      "normal": [
+        0.0013151379925133394,
+        -0.00396222931115017,
+        0.9999912855375024
+      ],
+      "radius_m": 0.05591942615688912,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010144208211278051
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27435572574512473
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783564537804552
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00012453680469239563,
+    "overlap_fraction": 0.3382222222222222,
+    "iterations": 4,
+    "scalar_information": 696.6093393675546,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4048898913086583,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 42.043008004839066,
+    "center_mm": 1.110888875571724,
+    "axial_mm": -0.8041115428785831,
+    "tangent_mm": 0.7664716044827978,
+    "xyz_mm": [
+      -0.48990060172160454,
+      -0.498447992377052,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.784734027108408,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048898913086583,
+        0.0023598224303853824,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.7118088855435079,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0009900755154346416
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27434683499984475
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836067373773479
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 5.006013824401107e-05,
+    "overlap_fraction": 0.1817777777777778,
+    "iterations": 3,
+    "scalar_information": 343.05204625783165,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4048403681503876,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145
+    },
+    "elapsed_ms": 68.21090399898821,
+    "center_mm": 1.1336002325096652,
+    "axial_mm": -0.8011288611312585,
+    "tangent_mm": 0.8020237122482726,
+    "xyz_mm": [
+      -0.5394237599922747,
+      -0.4984479923769965,
+      -0.8634935397541232
+    ],
+    "normal_deg": 0.245410813743809,
+    "band_margin_mm": 1.7877167088557329,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.7118088855435079,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4048403681503876,
+        0.002359822430385438,
+        0.6354176449122111
+      ],
+      "normal": [
+        -0.05932965496018152,
+        -0.050059909416219114,
+        0.996982445939519
+      ],
+      "radius_m": 0.05073018561671145,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010878815477389384
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743825531186075
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.783437202731445
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0021137375864962765,
+    "overlap_fraction": 0.3211111111111111,
+    "iterations": 11,
+    "scalar_information": 392.564171398034,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.401787781010534,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 120.04475000139792,
+    "center_mm": 2.710501710604081,
+    "axial_mm": -2.5393340949364807,
+    "tangent_mm": 0.9479461363815849,
+    "xyz_mm": [
+      0.5150023906295154,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.1580129565506847,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.401787781010534,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "old8",
+    "case": "old8__confirmation_nominal_005",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.8611320771044353,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010511297586162543
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743691316072988
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835009074069994
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0020755491528352365,
+    "overlap_fraction": 0.18222222222222223,
+    "iterations": 7,
+    "scalar_information": 231.35762165684434,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4017130206155577,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634
+    },
+    "elapsed_ms": 154.97631399921374,
+    "center_mm": 2.6972958820956463,
+    "axial_mm": -2.5415236503637684,
+    "tangent_mm": 0.9033618379208607,
+    "xyz_mm": [
+      0.4402419956530679,
+      0.5693468849897394,
+      -2.5995069119711944
+    ],
+    "normal_deg": 0.6181320072764793,
+    "band_margin_mm": 0.15582340112339713,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.8611320771044353,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4017130206155577,
+        -0.0011125786999925313,
+        0.5635662852167009
+      ],
+      "normal": [
+        0.02715829701229214,
+        0.056427163035309785,
+        0.9980372749427643
+      ],
+      "radius_m": 0.054957726803655634,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010213726799128027
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743582645181621
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835524876181811
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0001721047921056845,
+    "overlap_fraction": 0.2931111111111111,
+    "iterations": 4,
+    "scalar_information": 574.6175239307893,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.404092628540817,
+        -0.0026655594003732967,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 58.231296003214084,
+    "center_mm": 1.1989517537104397,
+    "axial_mm": -1.1913398082721611,
+    "tangent_mm": 0.1348879866829861,
+    "xyz_mm": [
+      0.08611952027726133,
+      0.027866408423916304,
+      -1.1955300913126798
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1946509656253466,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.404092628540817,
+        -0.0026655594003732967,
+        0.6128756783744288
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_000",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.5585972874239536,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.000992899226854138
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743478662006557
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7836018428232557
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 4.434785425712532e-05,
+    "overlap_fraction": 0.16777777777777778,
+    "iterations": 3,
+    "scalar_information": 297.7883692392817,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.4040347079157858,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604
+    },
+    "elapsed_ms": 78.73529399512336,
+    "center_mm": 1.1961872402117395,
+    "axial_mm": -1.1936379691254553,
+    "tangent_mm": 0.07805326583453602,
+    "xyz_mm": [
+      0.028198895245967748,
+      0.027866408423860792,
+      -1.1955300913125688
+    ],
+    "normal_deg": 0.4993557543878502,
+    "band_margin_mm": 1.1923528047720524,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.5585972874239536,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4040347079157858,
+        -0.002665559400373352,
+        0.6128756783744289
+      ],
+      "normal": [
+        0.04162083545113751,
+        -0.01562002376878367,
+        0.9990113717640116
+      ],
+      "radius_m": 0.055613653304492604,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010614517557726176
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27437290113267077
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834830155030782
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.001717173425047355,
+    "overlap_fraction": 0.31533333333333335,
+    "iterations": 6,
+    "scalar_information": 420.05009077861604,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4063015589831727,
+        0.002464320635119391,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 66.10974900104338,
+    "center_mm": 2.266706126582076,
+    "axial_mm": -2.1685934556626902,
+    "tangent_mm": 0.6596658914493532,
+    "xyz_mm": [
+      -0.6046205228602552,
+      0.1731854842958111,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.3816732008642002,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4063015589831727,
+        0.002464320635119391,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_001",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 1.498774667811023,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001024540665927232
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743594214457874
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835469963067094
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.001597341656163451,
+    "overlap_fraction": 0.1751111111111111,
+    "iterations": 5,
+    "scalar_information": 239.38831424315526,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.406226474539076,
+        0.0024643206351193355,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "elapsed_ms": 100.70526599884033,
+    "center_mm": 2.2878788275883584,
+    "axial_mm": -2.168028586245285,
+    "tangent_mm": 0.7307814850900046,
+    "xyz_mm": [
+      -0.6797049669571287,
+      0.1731854842957556,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.38110833144679473,
+    "band_contained": false,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.406226474539076,
+        0.0024643206351193355,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001079019182803883
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743793166413084
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834525645436535
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0019714265759722244,
+    "overlap_fraction": 0.346,
+    "iterations": 9,
+    "scalar_information": 425.38975768792693,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4001132662009628,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 94.39929800282698,
+    "center_mm": 1.1076671803602192,
+    "axial_mm": -1.0883317984517915,
+    "tangent_mm": 0.20605940630276334,
+    "xyz_mm": [
+      -0.0783062471971796,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9156355185900944,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4001132662009628,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_003",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.49081546061185977,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010361897694978247
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436367562168046
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835268040281516
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0018641489189047033,
+    "overlap_fraction": 0.18955555555555556,
+    "iterations": 6,
+    "scalar_information": 256.83304806470954,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.400026142718493,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "elapsed_ms": 129.13028000184568,
+    "center_mm": 1.11721157779311,
+    "axial_mm": -1.0822350087071002,
+    "tangent_mm": 0.2773609480148806,
+    "xyz_mm": [
+      -0.1654297296669327,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.9217323083347857,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.400026142718493,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010649550659876526
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2743741805184855
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7834769429486271
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017629348588026196,
+    "overlap_fraction": 0.2693333333333333,
+    "iterations": 6,
+    "scalar_information": 379.4715094737011,
+    "reciprocal": false,
+    "method": "observed_subset_axis",
+    "estimate": {
+      "center_m": [
+        2.4031301582867646,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 89.89299100358039,
+    "center_mm": 2.0818803955515786,
+    "axial_mm": -2.052148218979408,
+    "tangent_mm": 0.3505904572598108,
+    "xyz_mm": [
+      0.1947733074274538,
+      -0.15626327421606415,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7059244753932795,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4031301582867646,
+        -0.004078442963872396,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  },
+  {
+    "cohort": "new8",
+    "case": "new8__confirmation_nominal_004",
+    "condition": "ideal",
+    "source_control": "mujoco_ideal_body_diagnostic",
+    "stop_error_mm": 2.0,
+    "source_points": 4500,
+    "target_points": 4500,
+    "diameter_error_mm": 0.6382829326033179,
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0010295359960547366
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27436124570744647
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7835383375204935
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016522960191644326,
+    "overlap_fraction": 0.16177777777777777,
+    "iterations": 5,
+    "scalar_information": 214.59280283031416,
+    "reciprocal": true,
+    "method": "reciprocal_axis",
+    "estimate": {
+      "center_m": [
+        2.403058108905739,
+        -0.004078442963872451,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047
+    },
+    "elapsed_ms": 137.01771299383836,
+    "center_mm": 2.0763791807392087,
+    "axial_mm": -2.052879320168314,
+    "tangent_mm": 0.31150762275185206,
+    "xyz_mm": [
+      0.12272392640166885,
+      -0.15626327421611966,
+      -2.0668505338381493
+    ],
+    "normal_deg": 0.4576959633611482,
+    "band_margin_mm": 0.7051933742043734,
+    "band_contained": true,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "理想坛身对照",
+    "diameter_mm": 0.6382829326033179,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.403058108905739,
+        -0.004078442963872451,
+        0.5839636156548846
+      ],
+      "normal": [
+        0.011777888396805103,
+        -0.05046771397321639,
+        0.9986562427538468
+      ],
+      "radius_m": 0.05232138392327047,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "truth_pass_definition": "center_4mm_only_not_process_release",
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true
+  }
+]

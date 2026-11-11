@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/body/records.json": "4ef835c948d16ee4dc8826a58c90c72c710873e873f5bada59f218151971db2f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/body/partial_view_ablation/records.json": "c29e2927c1edea3ae8b85f4f0832cc91669f366935b49d67d85db4b4c831189b",
+    "/home/wunicheng/Git/WineJar/scripts/run_bounded_transport_study.py": "777accd237622762ed3a42797b8eb78643862cc881480dc6b201d5d6392a9342",
+    "/home/wunicheng/Git/WineJar/neck_localization/bounded_transport.py": "1c1a1e3b05d4cb33b21f51671b706e744dce80b7996070b5d36be15f36bf4de5"
+  },
+  "error_bound_scan_not_measured_factory_bound": true,
+  "condition_and_truth_never_given_to_update_function": true,
+  "no_new_rejection_of_jar_or_claimed_confidence": true,
+  "old_seen_geometry_and_noise_conditions": true
+}

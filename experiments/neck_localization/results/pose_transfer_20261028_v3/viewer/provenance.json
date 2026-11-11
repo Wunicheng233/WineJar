@@ -1,0 +1,10 @@
+{
+  "source_record_sha256": {
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/body/records.json": "4ef835c948d16ee4dc8826a58c90c72c710873e873f5bada59f218151971db2f",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/pose_transfer_20261028_v3/body/partial_view_ablation/records.json": "c29e2927c1edea3ae8b85f4f0832cc91669f366935b49d67d85db4b4c831189b"
+  },
+  "exporter_sha256": "375dfb55cacca82195f1a0a789cf3e66ff5fc37de6ff1075988095b75d7c1f42",
+  "old_viewer_source_unchanged": true,
+  "no_robot_motion_in_this_inspection_scene": true,
+  "exact_placement_used_only_by_visualization": true
+}

@@ -1,0 +1,36 @@
+{
+  "case": "stress_010",
+  "source_records_sha256": "4c8f6ad5202da6b6c1d8b16ed54a28f1dc136f9e113577ae5521541b84f88ff8",
+  "same_viewpoint_for_all_camera_sets": true,
+  "truth_for_display_only": true,
+  "no_estimator_rerun": true,
+  "method": "region_equal_trust",
+  "results": [
+    {
+      "camera_set": "cam_a",
+      "accepted": false,
+      "center_mm": null,
+      "normal_deg": null,
+      "reasons": [
+        "axis_core_touches_candidate_boundary"
+      ],
+      "observation_points_before_display_thinning": 31958
+    },
+    {
+      "camera_set": "cam_a,cam_b",
+      "accepted": true,
+      "center_mm": 1.0311415628224991,
+      "normal_deg": 0.03206999858289525,
+      "reasons": [],
+      "observation_points_before_display_thinning": 63792
+    },
+    {
+      "camera_set": "all",
+      "accepted": true,
+      "center_mm": 1.0655945966998532,
+      "normal_deg": 0.013058295377646275,
+      "reasons": [],
+      "observation_points_before_display_thinning": 95507
+    }
+  ]
+}

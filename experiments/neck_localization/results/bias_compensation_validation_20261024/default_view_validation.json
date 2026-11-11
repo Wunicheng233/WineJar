@@ -1,0 +1,8 @@
+{
+  "method": "bias_no_prior_200",
+  "case": "stress_002",
+  "actual_window_capture": "actual_window_back_buffer_after_presentation",
+  "preprocessing": "estimated_bias_corrected_depth",
+  "point_cloud": true,
+  "band": true
+}

@@ -1,0 +1,1562 @@
+[
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5190367906227877,
+      "displacement_mm_max": 6.532292705009342
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2674,
+        "behind_camera": 0,
+        "projected_inside": 2674,
+        "occupied_pixels": 2674,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2765,
+        "behind_camera": 0,
+        "projected_inside": 2765,
+        "occupied_pixels": 2765,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2753,
+        "behind_camera": 0,
+        "projected_inside": 2753,
+        "occupied_pixels": 2753,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2674,
+        "behind_camera": 0,
+        "projected_inside": 2674,
+        "occupied_pixels": 2653,
+        "pixel_collisions": 21
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2765,
+        "behind_camera": 0,
+        "projected_inside": 2765,
+        "occupied_pixels": 2743,
+        "pixel_collisions": 22
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2753,
+        "behind_camera": 0,
+        "projected_inside": 2753,
+        "occupied_pixels": 2734,
+        "pixel_collisions": 19
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.3477167680470453,
+      "displacement_mm_max": 5.703629883731112
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2693,
+        "behind_camera": 0,
+        "projected_inside": 2693,
+        "occupied_pixels": 2693,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2768,
+        "behind_camera": 0,
+        "projected_inside": 2768,
+        "occupied_pixels": 2768,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2731,
+        "behind_camera": 0,
+        "projected_inside": 2731,
+        "occupied_pixels": 2731,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2693,
+        "behind_camera": 0,
+        "projected_inside": 2693,
+        "occupied_pixels": 2689,
+        "pixel_collisions": 4
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2768,
+        "behind_camera": 0,
+        "projected_inside": 2768,
+        "occupied_pixels": 2759,
+        "pixel_collisions": 9
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2731,
+        "behind_camera": 0,
+        "projected_inside": 2731,
+        "occupied_pixels": 2726,
+        "pixel_collisions": 5
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.6131377508958602,
+      "displacement_mm_max": 50.53907731120127
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2624,
+        "behind_camera": 0,
+        "projected_inside": 2624,
+        "occupied_pixels": 2624,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2770,
+        "behind_camera": 0,
+        "projected_inside": 2770,
+        "occupied_pixels": 2770,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2798,
+        "behind_camera": 0,
+        "projected_inside": 2798,
+        "occupied_pixels": 2798,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2624,
+        "behind_camera": 0,
+        "projected_inside": 2624,
+        "occupied_pixels": 2588,
+        "pixel_collisions": 36
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2770,
+        "behind_camera": 0,
+        "projected_inside": 2770,
+        "occupied_pixels": 2745,
+        "pixel_collisions": 25
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2798,
+        "behind_camera": 0,
+        "projected_inside": 2798,
+        "occupied_pixels": 2762,
+        "pixel_collisions": 36
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.30641764531030674,
+      "displacement_mm_max": 9.377722004999434
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2631,
+        "behind_camera": 0,
+        "projected_inside": 2631,
+        "occupied_pixels": 2631,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2763,
+        "behind_camera": 0,
+        "projected_inside": 2763,
+        "occupied_pixels": 2763,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2798,
+        "behind_camera": 0,
+        "projected_inside": 2798,
+        "occupied_pixels": 2798,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2631,
+        "behind_camera": 0,
+        "projected_inside": 2631,
+        "occupied_pixels": 2625,
+        "pixel_collisions": 6
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2763,
+        "behind_camera": 0,
+        "projected_inside": 2763,
+        "occupied_pixels": 2757,
+        "pixel_collisions": 6
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2798,
+        "behind_camera": 0,
+        "projected_inside": 2798,
+        "occupied_pixels": 2794,
+        "pixel_collisions": 4
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5049613256145459,
+      "displacement_mm_max": 7.313816621046237
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2663,
+        "behind_camera": 0,
+        "projected_inside": 2663,
+        "occupied_pixels": 2663,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2741,
+        "behind_camera": 0,
+        "projected_inside": 2741,
+        "occupied_pixels": 2741,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2788,
+        "behind_camera": 0,
+        "projected_inside": 2788,
+        "occupied_pixels": 2788,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2663,
+        "behind_camera": 0,
+        "projected_inside": 2663,
+        "occupied_pixels": 2637,
+        "pixel_collisions": 26
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2741,
+        "behind_camera": 0,
+        "projected_inside": 2741,
+        "occupied_pixels": 2717,
+        "pixel_collisions": 24
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2788,
+        "behind_camera": 0,
+        "projected_inside": 2788,
+        "occupied_pixels": 2762,
+        "pixel_collisions": 26
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.2931812389115855,
+      "displacement_mm_max": 8.636989845137768
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2663,
+        "behind_camera": 0,
+        "projected_inside": 2663,
+        "occupied_pixels": 2663,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2741,
+        "behind_camera": 0,
+        "projected_inside": 2741,
+        "occupied_pixels": 2741,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2788,
+        "behind_camera": 0,
+        "projected_inside": 2788,
+        "occupied_pixels": 2788,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2663,
+        "behind_camera": 0,
+        "projected_inside": 2663,
+        "occupied_pixels": 2659,
+        "pixel_collisions": 4
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2741,
+        "behind_camera": 0,
+        "projected_inside": 2741,
+        "occupied_pixels": 2738,
+        "pixel_collisions": 3
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2788,
+        "behind_camera": 0,
+        "projected_inside": 2788,
+        "occupied_pixels": 2786,
+        "pixel_collisions": 2
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5407440455123298,
+      "displacement_mm_max": 5.8252741113613595
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2433,
+        "behind_camera": 0,
+        "projected_inside": 2433,
+        "occupied_pixels": 2433,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2835,
+        "behind_camera": 0,
+        "projected_inside": 2835,
+        "occupied_pixels": 2835,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2924,
+        "behind_camera": 0,
+        "projected_inside": 2924,
+        "occupied_pixels": 2924,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2433,
+        "behind_camera": 0,
+        "projected_inside": 2433,
+        "occupied_pixels": 2412,
+        "pixel_collisions": 21
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2835,
+        "behind_camera": 0,
+        "projected_inside": 2835,
+        "occupied_pixels": 2808,
+        "pixel_collisions": 27
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2924,
+        "behind_camera": 0,
+        "projected_inside": 2924,
+        "occupied_pixels": 2902,
+        "pixel_collisions": 22
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.39059629823947156,
+      "displacement_mm_max": 16.2303720900468
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2434,
+        "behind_camera": 0,
+        "projected_inside": 2434,
+        "occupied_pixels": 2434,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2836,
+        "behind_camera": 0,
+        "projected_inside": 2836,
+        "occupied_pixels": 2836,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2922,
+        "behind_camera": 0,
+        "projected_inside": 2922,
+        "occupied_pixels": 2922,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2434,
+        "behind_camera": 0,
+        "projected_inside": 2434,
+        "occupied_pixels": 2427,
+        "pixel_collisions": 7
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2836,
+        "behind_camera": 0,
+        "projected_inside": 2836,
+        "occupied_pixels": 2829,
+        "pixel_collisions": 7
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2922,
+        "behind_camera": 0,
+        "projected_inside": 2922,
+        "occupied_pixels": 2912,
+        "pixel_collisions": 10
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5168802618476243,
+      "displacement_mm_max": 7.627728381166179
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2681,
+        "behind_camera": 0,
+        "projected_inside": 2681,
+        "occupied_pixels": 2681,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2799,
+        "behind_camera": 0,
+        "projected_inside": 2799,
+        "occupied_pixels": 2799,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2712,
+        "behind_camera": 0,
+        "projected_inside": 2712,
+        "occupied_pixels": 2712,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2681,
+        "behind_camera": 0,
+        "projected_inside": 2681,
+        "occupied_pixels": 2661,
+        "pixel_collisions": 20
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2799,
+        "behind_camera": 0,
+        "projected_inside": 2799,
+        "occupied_pixels": 2782,
+        "pixel_collisions": 17
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2712,
+        "behind_camera": 0,
+        "projected_inside": 2712,
+        "occupied_pixels": 2692,
+        "pixel_collisions": 20
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.30240299151062283,
+      "displacement_mm_max": 6.401375462644525
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2693,
+        "behind_camera": 0,
+        "projected_inside": 2693,
+        "occupied_pixels": 2693,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2796,
+        "behind_camera": 0,
+        "projected_inside": 2796,
+        "occupied_pixels": 2796,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2703,
+        "behind_camera": 0,
+        "projected_inside": 2703,
+        "occupied_pixels": 2703,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2693,
+        "behind_camera": 0,
+        "projected_inside": 2693,
+        "occupied_pixels": 2691,
+        "pixel_collisions": 2
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2796,
+        "behind_camera": 0,
+        "projected_inside": 2796,
+        "occupied_pixels": 2793,
+        "pixel_collisions": 3
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2703,
+        "behind_camera": 0,
+        "projected_inside": 2703,
+        "occupied_pixels": 2699,
+        "pixel_collisions": 4
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5225111767463917,
+      "displacement_mm_max": 15.707690229365513
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2428,
+        "behind_camera": 0,
+        "projected_inside": 2428,
+        "occupied_pixels": 2428,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2784,
+        "behind_camera": 0,
+        "projected_inside": 2784,
+        "occupied_pixels": 2784,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2980,
+        "behind_camera": 0,
+        "projected_inside": 2980,
+        "occupied_pixels": 2980,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2428,
+        "behind_camera": 0,
+        "projected_inside": 2428,
+        "occupied_pixels": 2402,
+        "pixel_collisions": 26
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2784,
+        "behind_camera": 0,
+        "projected_inside": 2784,
+        "occupied_pixels": 2753,
+        "pixel_collisions": 31
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2980,
+        "behind_camera": 0,
+        "projected_inside": 2980,
+        "occupied_pixels": 2951,
+        "pixel_collisions": 29
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.3324949931793902,
+      "displacement_mm_max": 11.556135793335233
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2437,
+        "behind_camera": 0,
+        "projected_inside": 2437,
+        "occupied_pixels": 2437,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2774,
+        "behind_camera": 0,
+        "projected_inside": 2774,
+        "occupied_pixels": 2774,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2981,
+        "behind_camera": 0,
+        "projected_inside": 2981,
+        "occupied_pixels": 2981,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2437,
+        "behind_camera": 0,
+        "projected_inside": 2437,
+        "occupied_pixels": 2430,
+        "pixel_collisions": 7
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2774,
+        "behind_camera": 0,
+        "projected_inside": 2774,
+        "occupied_pixels": 2768,
+        "pixel_collisions": 6
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2981,
+        "behind_camera": 0,
+        "projected_inside": 2981,
+        "occupied_pixels": 2973,
+        "pixel_collisions": 8
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5648262811961382,
+      "displacement_mm_max": 11.665885631301405
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2436,
+        "behind_camera": 0,
+        "projected_inside": 2436,
+        "occupied_pixels": 2436,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2856,
+        "behind_camera": 0,
+        "projected_inside": 2856,
+        "occupied_pixels": 2856,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2900,
+        "behind_camera": 0,
+        "projected_inside": 2900,
+        "occupied_pixels": 2900,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2436,
+        "behind_camera": 0,
+        "projected_inside": 2436,
+        "occupied_pixels": 2411,
+        "pixel_collisions": 25
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2856,
+        "behind_camera": 0,
+        "projected_inside": 2856,
+        "occupied_pixels": 2833,
+        "pixel_collisions": 23
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2900,
+        "behind_camera": 0,
+        "projected_inside": 2900,
+        "occupied_pixels": 2870,
+        "pixel_collisions": 30
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.40228006488188855,
+      "displacement_mm_max": 5.873935342669013
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2426,
+        "behind_camera": 0,
+        "projected_inside": 2426,
+        "occupied_pixels": 2426,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2851,
+        "behind_camera": 0,
+        "projected_inside": 2851,
+        "occupied_pixels": 2851,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2915,
+        "behind_camera": 0,
+        "projected_inside": 2915,
+        "occupied_pixels": 2915,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2426,
+        "behind_camera": 0,
+        "projected_inside": 2426,
+        "occupied_pixels": 2423,
+        "pixel_collisions": 3
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2851,
+        "behind_camera": 0,
+        "projected_inside": 2851,
+        "occupied_pixels": 2844,
+        "pixel_collisions": 7
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2915,
+        "behind_camera": 0,
+        "projected_inside": 2915,
+        "occupied_pixels": 2910,
+        "pixel_collisions": 5
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5565408057497736,
+      "displacement_mm_max": 7.247336527319259
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2391,
+        "behind_camera": 0,
+        "projected_inside": 2391,
+        "occupied_pixels": 2391,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2789,
+        "behind_camera": 0,
+        "projected_inside": 2789,
+        "occupied_pixels": 2789,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3012,
+        "behind_camera": 0,
+        "projected_inside": 3012,
+        "occupied_pixels": 3012,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2391,
+        "behind_camera": 0,
+        "projected_inside": 2391,
+        "occupied_pixels": 2358,
+        "pixel_collisions": 33
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2789,
+        "behind_camera": 0,
+        "projected_inside": 2789,
+        "occupied_pixels": 2753,
+        "pixel_collisions": 36
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3012,
+        "behind_camera": 0,
+        "projected_inside": 3012,
+        "occupied_pixels": 2979,
+        "pixel_collisions": 33
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.35072884498415957,
+      "displacement_mm_max": 3.7031391927386554
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2423,
+        "behind_camera": 0,
+        "projected_inside": 2423,
+        "occupied_pixels": 2423,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2773,
+        "behind_camera": 0,
+        "projected_inside": 2773,
+        "occupied_pixels": 2773,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2996,
+        "behind_camera": 0,
+        "projected_inside": 2996,
+        "occupied_pixels": 2996,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2423,
+        "behind_camera": 0,
+        "projected_inside": 2423,
+        "occupied_pixels": 2415,
+        "pixel_collisions": 8
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2773,
+        "behind_camera": 0,
+        "projected_inside": 2773,
+        "occupied_pixels": 2765,
+        "pixel_collisions": 8
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2996,
+        "behind_camera": 0,
+        "projected_inside": 2996,
+        "occupied_pixels": 2990,
+        "pixel_collisions": 6
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.593439025394248,
+      "displacement_mm_max": 35.75952331293899
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2756,
+        "behind_camera": 0,
+        "projected_inside": 2756,
+        "occupied_pixels": 2756,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2750,
+        "behind_camera": 0,
+        "projected_inside": 2750,
+        "occupied_pixels": 2750,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2686,
+        "behind_camera": 0,
+        "projected_inside": 2686,
+        "occupied_pixels": 2686,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2756,
+        "behind_camera": 0,
+        "projected_inside": 2756,
+        "occupied_pixels": 2731,
+        "pixel_collisions": 25
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2750,
+        "behind_camera": 0,
+        "projected_inside": 2750,
+        "occupied_pixels": 2724,
+        "pixel_collisions": 26
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2686,
+        "behind_camera": 0,
+        "projected_inside": 2686,
+        "occupied_pixels": 2663,
+        "pixel_collisions": 23
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.30782087810880926,
+      "displacement_mm_max": 3.896978654043048
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2747,
+        "behind_camera": 0,
+        "projected_inside": 2747,
+        "occupied_pixels": 2747,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2743,
+        "behind_camera": 0,
+        "projected_inside": 2743,
+        "occupied_pixels": 2743,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2702,
+        "behind_camera": 0,
+        "projected_inside": 2702,
+        "occupied_pixels": 2702,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2747,
+        "behind_camera": 0,
+        "projected_inside": 2747,
+        "occupied_pixels": 2747,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2743,
+        "behind_camera": 0,
+        "projected_inside": 2743,
+        "occupied_pixels": 2740,
+        "pixel_collisions": 3
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2702,
+        "behind_camera": 0,
+        "projected_inside": 2702,
+        "occupied_pixels": 2700,
+        "pixel_collisions": 2
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.573324785085578,
+      "displacement_mm_max": 39.28350164153551
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1027,
+        "behind_camera": 0,
+        "projected_inside": 1027,
+        "occupied_pixels": 1027,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 3565,
+        "behind_camera": 0,
+        "projected_inside": 3565,
+        "occupied_pixels": 3565,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3600,
+        "behind_camera": 0,
+        "projected_inside": 3600,
+        "occupied_pixels": 3600,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1027,
+        "behind_camera": 0,
+        "projected_inside": 1027,
+        "occupied_pixels": 1006,
+        "pixel_collisions": 21
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 3565,
+        "behind_camera": 0,
+        "projected_inside": 3565,
+        "occupied_pixels": 3478,
+        "pixel_collisions": 87
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3600,
+        "behind_camera": 0,
+        "projected_inside": 3600,
+        "occupied_pixels": 3522,
+        "pixel_collisions": 78
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.43195393414259725,
+      "displacement_mm_max": 4.316277346731637
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1073,
+        "behind_camera": 0,
+        "projected_inside": 1073,
+        "occupied_pixels": 1073,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 3526,
+        "behind_camera": 0,
+        "projected_inside": 3526,
+        "occupied_pixels": 3526,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3593,
+        "behind_camera": 0,
+        "projected_inside": 3593,
+        "occupied_pixels": 3593,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1073,
+        "behind_camera": 0,
+        "projected_inside": 1073,
+        "occupied_pixels": 1063,
+        "pixel_collisions": 10
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 3526,
+        "behind_camera": 0,
+        "projected_inside": 3526,
+        "occupied_pixels": 3494,
+        "pixel_collisions": 32
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3593,
+        "behind_camera": 0,
+        "projected_inside": 3593,
+        "occupied_pixels": 3572,
+        "pixel_collisions": 21
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.5287203485217472,
+      "displacement_mm_max": 3.3200738436328416
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2635,
+        "behind_camera": 0,
+        "projected_inside": 2635,
+        "occupied_pixels": 2635,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2902,
+        "behind_camera": 0,
+        "projected_inside": 2902,
+        "occupied_pixels": 2902,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2655,
+        "behind_camera": 0,
+        "projected_inside": 2655,
+        "occupied_pixels": 2655,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2635,
+        "behind_camera": 0,
+        "projected_inside": 2635,
+        "occupied_pixels": 2615,
+        "pixel_collisions": 20
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2902,
+        "behind_camera": 0,
+        "projected_inside": 2902,
+        "occupied_pixels": 2881,
+        "pixel_collisions": 21
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2655,
+        "behind_camera": 0,
+        "projected_inside": 2655,
+        "occupied_pixels": 2639,
+        "pixel_collisions": 16
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.34529253165252555,
+      "displacement_mm_max": 7.743693097518605
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2640,
+        "behind_camera": 0,
+        "projected_inside": 2640,
+        "occupied_pixels": 2640,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2900,
+        "behind_camera": 0,
+        "projected_inside": 2900,
+        "occupied_pixels": 2900,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2652,
+        "behind_camera": 0,
+        "projected_inside": 2652,
+        "occupied_pixels": 2652,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 2640,
+        "behind_camera": 0,
+        "projected_inside": 2640,
+        "occupied_pixels": 2637,
+        "pixel_collisions": 3
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2900,
+        "behind_camera": 0,
+        "projected_inside": 2900,
+        "occupied_pixels": 2899,
+        "pixel_collisions": 1
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 2652,
+        "behind_camera": 0,
+        "projected_inside": 2652,
+        "occupied_pixels": 2650,
+        "pixel_collisions": 2
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition": "stereo_raw",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.7803340117417481,
+      "displacement_mm_max": 25.251434686124178
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1468,
+        "behind_camera": 0,
+        "projected_inside": 1468,
+        "occupied_pixels": 1468,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2997,
+        "behind_camera": 0,
+        "projected_inside": 2997,
+        "occupied_pixels": 2997,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3727,
+        "behind_camera": 0,
+        "projected_inside": 3727,
+        "occupied_pixels": 3727,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1468,
+        "behind_camera": 0,
+        "projected_inside": 1468,
+        "occupied_pixels": 1417,
+        "pixel_collisions": 51
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2997,
+        "behind_camera": 0,
+        "projected_inside": 2997,
+        "occupied_pixels": 2891,
+        "pixel_collisions": 106
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3727,
+        "behind_camera": 0,
+        "projected_inside": 3727,
+        "occupied_pixels": 3612,
+        "pixel_collisions": 115
+      }
+    ]
+  },
+  {
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition": "ideal_rgb",
+    "status": "ok",
+    "cloud": {
+      "points": 8192,
+      "updated_points": 8192,
+      "untouched_points": 0,
+      "displacement_mm_median": 0.4452474343841944,
+      "displacement_mm_max": 8.654904093210963
+    },
+    "sampled_input_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1495,
+        "behind_camera": 0,
+        "projected_inside": 1495,
+        "occupied_pixels": 1495,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2984,
+        "behind_camera": 0,
+        "projected_inside": 2984,
+        "occupied_pixels": 2984,
+        "pixel_collisions": 0
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3713,
+        "behind_camera": 0,
+        "projected_inside": 3713,
+        "occupied_pixels": 3713,
+        "pixel_collisions": 0
+      }
+    ],
+    "restored_reprojected": [
+      {
+        "camera": "cam_a",
+        "source_points": 1495,
+        "behind_camera": 0,
+        "projected_inside": 1495,
+        "occupied_pixels": 1471,
+        "pixel_collisions": 24
+      },
+      {
+        "camera": "cam_b",
+        "source_points": 2984,
+        "behind_camera": 0,
+        "projected_inside": 2984,
+        "occupied_pixels": 2953,
+        "pixel_collisions": 31
+      },
+      {
+        "camera": "cam_c",
+        "source_points": 3713,
+        "behind_camera": 0,
+        "projected_inside": 3713,
+        "occupied_pixels": 3688,
+        "pixel_collisions": 25
+      }
+    ]
+  }
+]

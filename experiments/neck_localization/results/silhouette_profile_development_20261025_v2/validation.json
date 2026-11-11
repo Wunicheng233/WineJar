@@ -1,0 +1,8 @@
+{
+  "primary_rows": 4,
+  "oracle_rows": 8,
+  "primary_reproduction_exact_excluding_runtime": true,
+  "no_depth_input": true,
+  "no_gt_masks": true,
+  "analytic_tests": 4
+}

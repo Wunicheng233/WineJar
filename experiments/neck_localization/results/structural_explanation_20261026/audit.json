@@ -1,0 +1,62 @@
+{
+  "scope": "Saved far/close main records only; no new inference; not screenshot case identification; not proof of optimizer global optimum",
+  "count": 305,
+  "maximum_axis_midpoint_interpolated_radius_discrepancy_mm": [
+    4.763261972896538e-14,
+    1.5092094240998222e-13,
+    0.001566113106248046
+  ],
+  "examples": [
+    {
+      "rig": "far",
+      "case": "structural_test_nominal_000",
+      "method": "portfolio",
+      "condition": "stereo_raw",
+      "reasons": [
+        "near_minimum_touches_observed_boundary",
+        "insufficient_three_mm_band_span"
+      ],
+      "center_mm": 2.7077514722377947,
+      "normal_deg": 0.9942507359894102,
+      "diameter_mm": 4.866238372880346,
+      "circle_offset_along_initial_seed_normal_mm": -2.787224069942699,
+      "axis_effective_points": 631.5016421308084,
+      "readout_effective_points": 1023.1006358625156,
+      "training_points": 1066
+    },
+    {
+      "rig": "far",
+      "case": "structural_test_nominal_005",
+      "method": "portfolio",
+      "condition": "stereo_raw",
+      "reasons": [
+        "near_minimum_touches_observed_boundary",
+        "candidate_inconsistent_with_rgb_silhouette",
+        "axis_parameter_hits_bound"
+      ],
+      "center_mm": 16.638827124934867,
+      "normal_deg": 11.946281219530208,
+      "diameter_mm": 13.21627796997807,
+      "circle_offset_along_initial_seed_normal_mm": 1.6151622675613744,
+      "axis_effective_points": 305.99212809399546,
+      "readout_effective_points": 1102.5996176098595,
+      "training_points": 1231
+    },
+    {
+      "rig": "close",
+      "case": "structural_test_nominal_000",
+      "method": "portfolio",
+      "condition": "stereo_raw",
+      "reasons": [
+        "candidate_inconsistent_with_rgb_silhouette"
+      ],
+      "center_mm": 1.548456208120525,
+      "normal_deg": 0.7659981259157063,
+      "diameter_mm": 1.252638766094022,
+      "circle_offset_along_initial_seed_normal_mm": -11.156334757342838,
+      "axis_effective_points": 1106.0607909738515,
+      "readout_effective_points": 1348.8715704994697,
+      "training_points": 1358
+    }
+  ]
+}

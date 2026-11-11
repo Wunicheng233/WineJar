@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "type": "eye_in_hand_chessboard_calibration",
+  "created_at": "2026-10-14T14:12:57.456+08:00",
+  "camera": {
+    "name": "Intel RealSense D435I",
+    "serial": "011422070172",
+    "firmware": "5.17.3.10",
+    "usb_type": "3.2"
+  },
+  "robot_ip": "192.168.1.212",
+  "sample_manifest": "/home/wunicheng/Git/WineJar/xarm_sdk_control/data/recommissioning/2026-10-14/new_hand_eye_samples/20261014_140106_801/samples.json",
+  "intrinsic_calibration": "/home/wunicheng/Git/WineJar/xarm_sdk_control/calibration/multiview_neck/wrist_intrinsics_20260903_135209_313.json",
+  "intrinsic_rms_reprojection_error_px": 0.13582034287316797,
+  "active_tcp_offset_mm_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "expected_tcp_offset_mm_deg": [
+    0.0,
+    0.0,
+    116.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "transform_definition": "p_flange = transform_flange_from_camera @ p_camera",
+  "transform_flange_from_camera": [
+    [
+      0.00946443486815085,
+      -0.9999006421349043,
+      0.010446546359077692,
+      0.08629139760655484
+    ],
+    [
+      0.9998627320628836,
+      0.009320964471250526,
+      -0.013698052893447245,
+      -0.03514455859781748
+    ],
+    [
+      0.013599319996695555,
+      0.010574756712639508,
+      0.9998516054975839,
+      0.023249686299471776
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "estimated_transform_base_from_board": [
+    [
+      -0.023208571318847245,
+      0.9997179844183437,
+      -0.00503128689918864,
+      0.32670130796465807
+    ],
+    [
+      0.9996758084236482,
+      0.023154293788487115,
+      -0.010590407531441378,
+      -0.17799534778029277
+    ],
+    [
+      -0.010470924976503477,
+      -0.005275444026847046,
+      -0.9999312623477955,
+      0.0023565940857676573
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "HORAUD",
+  "accepted_sample_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "rejected_sample_indices": [
+    15
+  ],
+  "quality": {
+    "accepted_count": 19,
+    "board_translation_residual_mm": {
+      "mean": 4.350550812048515,
+      "median": 3.6780252632085113,
+      "max": 9.66095910763241
+    },
+    "board_rotation_residual_deg": {
+      "mean": 0.24713917625415763,
+      "median": 0.23432362303330942,
+      "max": 0.5685193654071592
+    },
+    "robot_pose_diversity": {
+      "max_translation_m": 0.4701328724414083,
+      "max_rotation_deg": 63.21665817124459
+    }
+  }
+}

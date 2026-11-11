@@ -1,0 +1,5 @@
+# Large/raw results stay locally intact. Selected reports, images, tables and
+# frozen source snapshots are explicitly promoted with the publication tool.
+# Once tracked, those selected files continue to show normal Git changes.
+*
+!.gitignore

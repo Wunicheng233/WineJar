@@ -1,0 +1,37 @@
+{
+  "evaluation_only": true,
+  "target_definition": "midpoint_of_connected_near_minimum_radius_interval_below_lip",
+  "selection_policy": "Within search_s, r(s) <= min(r) + near_min_delta_m; select axial interval midpoint",
+  "policy_is_synthetic_assumption": true,
+  "search_interval_s_m": [
+    0.5657,
+    0.5761999999999999
+  ],
+  "minimum_interval_s_m": [
+    0.57095,
+    0.57095
+  ],
+  "near_min_interval_s_m": [
+    0.5669234338085513,
+    0.5749765661914487
+  ],
+  "near_min_interval_axial_length_m": 0.008053132382897399,
+  "near_min_delta_m": 0.001,
+  "s_m": 0.57095,
+  "center_m": [
+    0.0,
+    0.0,
+    0.57095
+  ],
+  "normal": [
+    0.0,
+    -0.0,
+    1.0
+  ],
+  "normal_sign_convention": "toward_mouth; dot(body_up)>0",
+  "radius_m": 0.0498,
+  "diameter_m": 0.0996,
+  "profile_parameter_definition": "body_z_below_bridge; nominal_parameter_in_bridge; metric_axial_coordinate_in_straight_neck",
+  "height_parameter_definition": "bottom_plane_to_mouth_center_z; tilted_lip_bbox_height_may_be_larger",
+  "observability_verified": false
+}

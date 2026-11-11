@@ -1,0 +1,30 @@
+{
+  "scene_source": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/short_neck_heldout_20261022_v1",
+  "split": "heldout",
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "evidence": [
+    "mask_diagnostic",
+    "rgb"
+  ],
+  "seed": 4101,
+  "elapsed_s": 1.4255261640000754,
+  "source_sha256": {
+    "depth_profile.py": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f",
+    "geometry.py": "7a45897cfd30ace98eb8fa9dddc81055f564ed7fdbf4def35611806cfb2c4c9d",
+    "evaluation.py": "09d95a507ed33ad8ed3673ffc65ca8b14477feddd0bd299694ca1b80a7e246bc",
+    "run_depth_profile_baseline.py": "2f901d0639f324454c749c0bafda03200d9740e6cd839bb0b3e695643d298e11"
+  },
+  "limitations": [
+    "true camera parameters; no virtual calibration or sensor noise",
+    "mouth plane is an axis proxy; no independent local neck-axis recovery",
+    "planar crown and circular neck are synthetic model assumptions",
+    "RGB extraction assumes declared grey/clay jar and blue background",
+    "no uncertainty estimate; plane residual is not absolute accuracy",
+    "4 mm center is historical goal; 2 deg normal and 2 mm diameter are provisional analysis thresholds",
+    "small scene family, no real-world accuracy claim"
+  ]
+}

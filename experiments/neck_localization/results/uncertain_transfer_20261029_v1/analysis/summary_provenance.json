@@ -1,0 +1,7 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/summarize_uncertain_transfer.py": "09b75bd057475832bee8d361ac0946196c2728d7e86ba6bdfbe56cd55dab2301"
+  },
+  "aggregate_distribution_is_conditional_not_factory_probability": true,
+  "previously_seen_jars": true
+}

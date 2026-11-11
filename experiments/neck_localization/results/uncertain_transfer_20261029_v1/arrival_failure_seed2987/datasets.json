@@ -1,0 +1,30 @@
+[
+  {
+    "condition": "camera_poe",
+    "label": "关节映射",
+    "method": "camera_poe",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/camera_poe/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/camera_poe/records.json.gz"
+  },
+  {
+    "condition": "camera_poe_block",
+    "label": "关节映射·整图加权",
+    "method": "camera_poe_block",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/camera_poe_block/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/camera_poe_block/records.json.gz"
+  },
+  {
+    "condition": "pixel_huber",
+    "label": "原像素Huber",
+    "method": "pixel_huber",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/pixel_huber/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/pixel_huber/records.json.gz"
+  },
+  {
+    "condition": "uncertain_vce",
+    "label": "不确定性标定",
+    "method": "uncertain_vce",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/uncertain_vce/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_failure_seed2987/uncertain_vce/records.json.gz"
+  }
+]

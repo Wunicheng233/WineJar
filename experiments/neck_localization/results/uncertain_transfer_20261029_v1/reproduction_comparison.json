@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "path": "confirmation_baselines/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "confirmation_poe/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "confirmation_poe_block/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "confirmation_evaluation_baselines/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "confirmation_evaluation_poe/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "confirmation_evaluation_poe_block/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "partial_rendered_board/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "partial_rendered_board/summary.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "partial_rendered_evaluation/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    },
+    {
+      "path": "bounded_transport/records.json",
+      "numerical_agreement_1e_9": true,
+      "difference_count": 0
+    }
+  ],
+  "differences": [],
+  "excluded_keys": [
+    "elapsed_ms",
+    "source_observations"
+  ]
+}

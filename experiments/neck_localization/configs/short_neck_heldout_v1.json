@@ -1,0 +1,191 @@
+{
+  "schema": 2,
+  "seed": 2026102207,
+  "reference_dimensions": {
+    "height_m": {
+      "value": 0.6,
+      "source": "user approximate total height"
+    },
+    "mouth_outer_diameter_m": {
+      "value": 0.125,
+      "source": "user approximate mouth outside diameter"
+    },
+    "body_max_diameter_m": {
+      "value": 0.36,
+      "source": "assumed from photograph proportions; not measured"
+    },
+    "neck_min_diameter_m": {
+      "value": 0.105,
+      "source": "synthetic assumption"
+    },
+    "neck_length_m": {
+      "value": 0.01,
+      "source": "user approximate exposed neck length below raised lip, 2026-10-22"
+    },
+    "lip_height_m": {
+      "value": 0.006,
+      "source": "synthetic assumption; independent of exposed neck length"
+    }
+  },
+  "angular_segments": 160,
+  "vertical_samples": 180,
+  "jar": {
+    "height_m": 0.6,
+    "body_radius_m": 0.18,
+    "neck_radius_m": 0.0525,
+    "lip_radius_m": 0.0625,
+    "neck_length_m": 0.01,
+    "neck_tilt_deg": [
+      0,
+      0
+    ],
+    "neck_offset_xy_m": [
+      0,
+      0
+    ],
+    "neck_profile": "shallow",
+    "near_min_delta_m": 0.001,
+    "lip_height_m": 0.006,
+    "body_profile": [
+      [
+        0,
+        0.6
+      ],
+      [
+        0.025,
+        0.64
+      ],
+      [
+        0.12,
+        0.72
+      ],
+      [
+        0.3,
+        0.84
+      ],
+      [
+        0.52,
+        0.95
+      ],
+      [
+        0.72,
+        1.0
+      ],
+      [
+        0.81,
+        0.975
+      ],
+      [
+        0.89,
+        0.84
+      ],
+      [
+        0.95,
+        0.6
+      ]
+    ]
+  },
+  "scene": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fovy_deg": 50,
+    "nominal_target_world_m": [
+      0,
+      0,
+      0.59
+    ],
+    "cameras": [
+      {
+        "name": "cam_a",
+        "azimuth_deg": -50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_b",
+        "azimuth_deg": 50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_c",
+        "azimuth_deg": 180,
+        "elevation_deg": 8,
+        "distance_m": 0.8,
+        "role": "third-view comparison"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "short_upright",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.57,
+        "body_radius_m": 0.172,
+        "neck_radius_m": 0.0505,
+        "lip_radius_m": 0.061,
+        "neck_length_m": 0.009,
+        "lip_height_m": 0.0055,
+        "shallow_relief_m": 0.0015
+      }
+    },
+    {
+      "name": "taller_mild_tilt",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.63,
+        "body_radius_m": 0.184,
+        "neck_radius_m": 0.054,
+        "lip_radius_m": 0.065,
+        "neck_length_m": 0.011,
+        "lip_height_m": 0.007,
+        "neck_tilt_deg": [
+          -4,
+          2
+        ],
+        "shallow_relief_m": 0.002
+      }
+    },
+    {
+      "name": "tilted_flat",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.61,
+        "body_radius_m": 0.175,
+        "neck_radius_m": 0.051,
+        "lip_radius_m": 0.063,
+        "neck_length_m": 0.012,
+        "lip_height_m": 0.0055,
+        "neck_tilt_deg": [
+          3,
+          4
+        ],
+        "neck_profile": "flat"
+      }
+    },
+    {
+      "name": "broad_reverse_tilt",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.64,
+        "body_radius_m": 0.19,
+        "neck_radius_m": 0.055,
+        "lip_radius_m": 0.066,
+        "neck_length_m": 0.009,
+        "lip_height_m": 0.0065,
+        "neck_tilt_deg": [
+          -6,
+          -2
+        ],
+        "shallow_relief_m": 0.0016
+      }
+    }
+  ],
+  "dataset_split": "heldout_smoke_test_not_large_final_evaluation",
+  "frozen_estimator_sha256": "3ea1663b89e35b9a8976f190ec69a60b303b880806724033678115503525780f"
+}

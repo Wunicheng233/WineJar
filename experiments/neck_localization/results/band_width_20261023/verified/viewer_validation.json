@@ -1,0 +1,71 @@
+[
+  {
+    "case": "nominal_000",
+    "actual_window_band_changes": {
+      "neck": {
+        "new_yellow_pixels": 639,
+        "changed_pixels": 2598
+      },
+      "camera_0": {
+        "new_yellow_pixels": 4,
+        "changed_pixels": 369
+      },
+      "camera_1": {
+        "new_yellow_pixels": 5,
+        "changed_pixels": 368
+      },
+      "camera_2": {
+        "new_yellow_pixels": 46,
+        "changed_pixels": 223
+      }
+    },
+    "band_only_did_not_read_truth": true,
+    "raw_rgb_unchanged": true
+  },
+  {
+    "case": "stress_002",
+    "actual_window_band_changes": {
+      "neck": {
+        "new_yellow_pixels": 594,
+        "changed_pixels": 2482
+      },
+      "camera_0": {
+        "new_yellow_pixels": 3,
+        "changed_pixels": 347
+      },
+      "camera_1": {
+        "new_yellow_pixels": 10,
+        "changed_pixels": 371
+      },
+      "camera_2": {
+        "new_yellow_pixels": 41,
+        "changed_pixels": 239
+      }
+    },
+    "band_only_did_not_read_truth": true,
+    "raw_rgb_unchanged": true
+  },
+  {
+    "case": "stress_006",
+    "actual_window_band_changes": {
+      "neck": {
+        "new_yellow_pixels": 536,
+        "changed_pixels": 2288
+      },
+      "camera_0": {
+        "new_yellow_pixels": 6,
+        "changed_pixels": 303
+      },
+      "camera_1": {
+        "new_yellow_pixels": 10,
+        "changed_pixels": 346
+      },
+      "camera_2": {
+        "new_yellow_pixels": 61,
+        "changed_pixels": 202
+      }
+    },
+    "band_only_did_not_read_truth": true,
+    "raw_rgb_unchanged": true
+  }
+]

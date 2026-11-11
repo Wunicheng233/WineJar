@@ -1,0 +1,80 @@
+[
+  {
+    "pair_id": "close/stereo_raw/structural_test_nominal_000",
+    "layout": "close",
+    "condition": "stereo_raw",
+    "case": "structural_test_nominal_000",
+    "camera": "cam_a",
+    "observations": "/home/wunicheng/Git/WineJar/experiments/neck_localization/runs/structural_stage_20261025_v1/close/render_inputs/stereo_raw/scenes/structural_test_nominal_000/observations",
+    "config_sha256": "877e126384ee137e01f01f0de8f3b71fc3b8f628cce324c5d60beee6e728cbcd",
+    "split": "previously_viewed_capability_audit",
+    "seed": 2026102708,
+    "status": "ok",
+    "center_m": [
+      -0.36854554309183174,
+      1.8763781921180263,
+      1.1431475532612771
+    ],
+    "normal": [
+      -0.9457313418388367,
+      -0.32357263565063477,
+      -0.029855087399482727
+    ],
+    "frame_world": [
+      [
+        0.2953336238861084,
+        0.13553079962730408,
+        -0.9457313418388367,
+        -0.36854554309183174
+      ],
+      [
+        -0.8175884485244751,
+        -0.4762861430644989,
+        -0.32357263565063477,
+        1.8763781921180263
+      ],
+      [
+        -0.4942929446697235,
+        0.868781328201294,
+        -0.029855087399482727,
+        1.1431475532612771
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "best_index": 1,
+    "predicted_radius_m": null,
+    "observed_center_m": [
+      0.05544429018951489,
+      -0.06407298856230143,
+      0.5820347330099198
+    ],
+    "observed_scale": 0.0700182288538233,
+    "input": {
+      "camera": "cam_a",
+      "points": 132771,
+      "input_sha256": {
+        "camera_true_parameters.json": "ff436acbde67ccc888ed41e42c8158ab500c8173f4a6ddf36bf680da295dc6af",
+        "cam_a_rgb.png": "4fa04822a0be501f31729bc7302e5ecb3345dc5217ab3c99d2d035ffaf693061",
+        "cam_a_depth_z_m.npz": "65aaf03a3b4153fc8e312ad0978caeb4a4bb79c09e2a7e9c0ac7e4e1d82e5065"
+      },
+      "mask_sha256": "9cb8982d3f40364f739208e2bab2553811e63d798114f147b67fac76bb7fd870",
+      "evidence": "RGB-only blue-background mask plus valid saved depth; full visible jar"
+    },
+    "peak_cuda_mib": null,
+    "prediction_sha256": "25e49fa97936912ddc9c6df5080d3a7321f074c5e44e8a2b82e6720bb9e66d05",
+    "elapsed_ms": 2034.370775999946,
+    "evaluation_truth_sha256": "4d61bca024032298f172e9be546dd4d987deab9aac4c834c111c2026fec698e4",
+    "center_mm": 1980.1859497496596,
+    "axis_deg": 87.35415265556743,
+    "directed_normal_deg": 92.64584734443257,
+    "axial_offset_mm": 571.5546976353696,
+    "diameter_mm": null,
+    "center_axis_pass": false,
+    "full_metrology_pass": null
+  }
+]

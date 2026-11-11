@@ -1,0 +1,25 @@
+{
+  "scope": "fixed camera rig; true camera parameters; ideal depth; no camera search/no noise/no learning",
+  "test_config_sha256": "63408586d5187aa330ebf870a67c946858b1c0f1629cef6c57e687670c5f63c6",
+  "development_scenes": [
+    "preparation_20261022_v5",
+    "short_neck_heldout_20261022_v1 (already inspected, now development only)"
+  ],
+  "methods": [
+    "rim_guided_profile frozen baseline",
+    "spline_fixed_axis (same selection/profile as joint)",
+    "joint_axis_spline"
+  ],
+  "camera_sets": [
+    "cam_a",
+    "cam_a,cam_b",
+    "all"
+  ],
+  "evidence": "ordinary RGB foreground plus saved depth only",
+  "policy": "freeze estimator/settings/source hashes after development before rendering/evaluating new test; no tuning after test",
+  "thresholds": {
+    "center_mm": 4,
+    "normal_deg_provisional": 2,
+    "diameter_mm_provisional": 2
+  }
+}

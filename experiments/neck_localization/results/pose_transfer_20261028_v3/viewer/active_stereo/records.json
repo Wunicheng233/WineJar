@@ -1,0 +1,770 @@
+[
+  {
+    "case": "new8__confirmation_nominal_003",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.397918328152527,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.527535230560472,
+    "axial_mm": -0.9347328443602264,
+    "tangent_mm": 2.348341723727324,
+    "xyz_mm": [
+      -2.2732442956328036,
+      -0.1423214818738754,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 2.069234472681659,
+    "band_contained": true,
+    "transport_only_center_mm": 1.9999999999993356,
+    "elapsed_ms": 0.4048929986311123,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.397918328152527,
+        0.0033135222367606963,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_003",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0022985758930648276
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27482469071884513
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7813386140013271
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.003132133109708067,
+    "overlap_fraction": 0.5302222222222223,
+    "iterations": 16,
+    "information_eigenvalues": [
+      0.011672880906236313,
+      0.02802715916650725,
+      0.032082823752908676,
+      0.0686842395971096,
+      0.4083319495223597,
+      0.7985873149636759
+    ],
+    "rotation_scale_m": 0.15497189644628598,
+    "information_is_not_calibrated_covariance": true,
+    "history_rms_m": [
+      0.003923693783356203,
+      0.0031734675808237816,
+      0.0031157488893544046,
+      0.003116891180823847,
+      0.003129971092999562,
+      0.0031301321097174503,
+      0.003128731627286292,
+      0.0031216703075647207,
+      0.003134118703310455,
+      0.003134931094676246,
+      0.0031335313080674133,
+      0.0031325218457309133,
+      0.0031322700984851184,
+      0.00313218270871665,
+      0.0031321499798492233,
+      0.00313213771070847
+    ],
+    "estimate": {
+      "center_m": [
+        2.4025940853265517,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 2.644402171556998,
+    "axial_mm": -1.2619363442623994,
+    "tangent_mm": 2.3238716634024823,
+    "xyz_mm": [
+      2.4025128783917715,
+      -0.1423214818738754,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.7420309727794865,
+    "band_contained": true,
+    "transport_only_center_mm": 2.6757571740252395,
+    "elapsed_ms": 167.6685179991182,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4025940853265517,
+        0.0033135222367606963,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_003",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "observed_subset_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0016446311951042636
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27458587442259275
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7824721461587691
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.00245352348534962,
+    "overlap_fraction": 0.26155555555555554,
+    "iterations": 10,
+    "scalar_information": 439.0082140085142,
+    "reciprocal": false,
+    "estimate": {
+      "center_m": [
+        2.4012638327026856,
+        0.0033135222367606408,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.539654755954244,
+    "axial_mm": -1.1688469689840555,
+    "tangent_mm": 1.0021644229512985,
+    "xyz_mm": [
+      1.0722602545256699,
+      -0.1423214818739309,
+      -1.095691247521069
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.8351203480578302,
+    "band_contained": true,
+    "transport_only_center_mm": 1.3455045501591378,
+    "elapsed_ms": 101.69792400120059,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4012638327026856,
+        0.0033135222367606408,
+        0.5800557811620666
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_003",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001278134007433434
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27445203206372143
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7831074236510905
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0017988253702547912,
+    "overlap_fraction": 0.12755555555555556,
+    "iterations": 10,
+    "scalar_information": 221.29430858709554,
+    "reciprocal": true,
+    "estimate": {
+      "center_m": [
+        2.4005183050654724,
+        0.0033135222367608073,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846
+    },
+    "center_mm": 1.1521930902904634,
+    "axial_mm": -1.1166758995528394,
+    "tangent_mm": 0.28387295163672266,
+    "xyz_mm": [
+      0.32673261731241965,
+      -0.14232148187376437,
+      -1.09569124752118
+    ],
+    "normal_deg": 0.2692511876086361,
+    "band_margin_mm": 1.8872914174890463,
+    "band_contained": true,
+    "transport_only_center_mm": 0.5999769129458876,
+    "elapsed_ms": 185.63239399372833,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 0.49081546061185977,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4005183050654724,
+        0.0033135222367608073,
+        0.5800557811620665
+      ],
+      "normal": [
+        -0.06826090079442085,
+        0.010169137047377,
+        0.9976156765380374
+      ],
+      "radius_m": 0.05497495524574846,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_001",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "nominal",
+    "accepted": true,
+    "reason": "nominal",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.2739852659430978
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7853229106845729
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "estimate": {
+      "center_m": [
+        2.4041423565496536,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 3.522940252378726,
+    "axial_mm": -2.1523495127880414,
+    "tangent_mm": 2.788996162892908,
+    "xyz_mm": [
+      -2.763822956379336,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.36542925798955117,
+    "band_contained": false,
+    "transport_only_center_mm": 1.9999999999993356,
+    "elapsed_ms": 0.33805499697336927,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4041423565496536,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_001",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.002351129305726417
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27484388287898714
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7812475191680468
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mode": "axis",
+    "point_plane_rms_m": 0.0028956660277086243,
+    "overlap_fraction": 0.4851111111111111,
+    "iterations": 12,
+    "information_eigenvalues": [
+      0.010428255785239624,
+      0.021827248174789298,
+      0.033169868454767784,
+      0.0765635487225012,
+      0.43951888398212474,
+      0.7714474008531063
+    ],
+    "rotation_scale_m": 0.14745855773214256,
+    "information_is_not_calibrated_covariance": true,
+    "history_rms_m": [
+      0.0038747810262357817,
+      0.0030146793462381355,
+      0.002954687171129041,
+      0.0029307424013013048,
+      0.002917516578361134,
+      0.00290027518083645,
+      0.002898981776684459,
+      0.002897041667367663,
+      0.002896123740010354,
+      0.0028957801759102206,
+      0.002895677718526822,
+      0.002895665759947657
+    ],
+    "estimate": {
+      "center_m": [
+        2.408925017740645,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.9745753487098363,
+    "axial_mm": -2.1883300554037968,
+    "tangent_mm": 2.014772958367434,
+    "xyz_mm": [
+      2.0188382346120193,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.40140980060530657,
+    "band_contained": false,
+    "transport_only_center_mm": 2.7826611909920196,
+    "elapsed_ms": 146.81870300410083,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.408925017740645,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_001",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "observed_subset_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.0017660108978088545
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27463020149050915
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.782261749474301
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.002426622630443598,
+    "overlap_fraction": 0.25044444444444447,
+    "iterations": 11,
+    "scalar_information": 430.94606635953585,
+    "reciprocal": false,
+    "estimate": {
+      "center_m": [
+        2.4077347713790918,
+        0.0024643206351192245,
+        0.5695762013316243
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.33644070751197,
+    "axial_mm": -2.179375687066597,
+    "tangent_mm": 0.8421857243755894,
+    "xyz_mm": [
+      0.8285918730588371,
+      0.17318548429564457,
+      -2.1777046346208584
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.39245543226810664,
+    "band_contained": false,
+    "transport_only_center_mm": 1.5924148294388374,
+    "elapsed_ms": 128.70784199913032,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4077347713790918,
+        0.0024643206351192245,
+        0.5695762013316243
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  },
+  {
+    "case": "new8__confirmation_nominal_001",
+    "stop_error_mm": 2.0,
+    "depth": "stereo_raw",
+    "method": "reciprocal_axis",
+    "accepted": true,
+    "reason": "registration_candidate_not_process_release",
+    "transform": [
+      [
+        0.49159436803824397,
+        0.870824309096318,
+        -9.561828485621315e-17,
+        0.001410984223930575
+      ],
+      [
+        0.17952702514378804,
+        -0.10134590129084822,
+        -0.9785188069396356,
+        0.27450054808772034
+      ],
+      [
+        -0.8521179639909613,
+        0.48103433451102656,
+        -0.20615757193329728,
+        0.7828771442513303
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_plane_rms_m": 0.0016322166248544695,
+    "overlap_fraction": 0.12311111111111112,
+    "iterations": 35,
+    "scalar_information": 204.37680196604015,
+    "reciprocal": true,
+    "estimate": {
+      "center_m": [
+        2.4070125770315545,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896
+    },
+    "center_mm": 2.1871696598704866,
+    "axial_mm": -2.173942531034906,
+    "tangent_mm": 0.24017700309464773,
+    "xyz_mm": [
+      0.10639752552155102,
+      0.17318548429570008,
+      -2.1777046346210804
+    ],
+    "normal_deg": 0.7439531195397678,
+    "band_margin_mm": -0.387022276236416,
+    "band_contained": false,
+    "transport_only_center_mm": 0.8702204819015513,
+    "elapsed_ms": 769.6071280006436,
+    "target_points": 4500,
+    "final_fastening_success": null,
+    "evidence": "rgb",
+    "camera_set": "all",
+    "condition_name": "主动双目下游·两例探针",
+    "diameter_mm": 1.498774667811023,
+    "reasons": [],
+    "band": {
+      "center_m": [
+        2.4070125770315545,
+        0.00246432063511928,
+        0.5695762013316241
+      ],
+      "normal": [
+        0.005419444211051215,
+        0.02169786302300565,
+        0.9997498849035584
+      ],
+      "radius_m": 0.057545514762967896,
+      "width_m": 0.003
+    },
+    "diagnostics": {},
+    "truth_pass": true,
+    "secondary_body_observation": true,
+    "neck_has_not_been_reobserved": true,
+    "not_independent_new_case": true
+  }
+]

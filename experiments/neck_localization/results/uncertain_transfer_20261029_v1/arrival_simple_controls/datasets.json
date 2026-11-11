@@ -1,0 +1,44 @@
+[
+  {
+    "condition": "camera_poe",
+    "label": "关节映射",
+    "method": "camera_poe",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/camera_poe/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/camera_poe/records.json.gz"
+  },
+  {
+    "condition": "camera_poe_block",
+    "label": "关节映射·整图加权",
+    "method": "camera_poe_block",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/camera_poe_block/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/camera_poe_block/records.json.gz"
+  },
+  {
+    "condition": "fixed_block",
+    "label": "固定外参·整图加权",
+    "method": "fixed_block",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/fixed_block/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/fixed_block/records.json.gz"
+  },
+  {
+    "condition": "park",
+    "label": "Park闭式法",
+    "method": "park",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/park/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/park/records.json.gz"
+  },
+  {
+    "condition": "pixel_huber",
+    "label": "原像素Huber",
+    "method": "pixel_huber",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/pixel_huber/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/pixel_huber/records.json.gz"
+  },
+  {
+    "condition": "uncertain_vce",
+    "label": "不确定性标定",
+    "method": "uncertain_vce",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/uncertain_vce/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/arrival_simple_controls/uncertain_vce/records.json.gz"
+  }
+]

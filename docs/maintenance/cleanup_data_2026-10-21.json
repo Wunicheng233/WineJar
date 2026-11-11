@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-21",
+  "operations": [
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_225837_139/hull_points_reference_m.ply",
+      "bytes": 233546,
+      "sha256": "a0820df6caeb4b55244c7d9bfff955d5e7c0d871a48e87661f0b70f8c0f2ea52",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_225837_139/hull_points_reference_m.npz",
+      "retained_sha256": "9c9d0fc1cf7a93860f0daf416f30536bf7b72684c931fb57fa0efe1e8647f322",
+      "max_coordinate_difference_m": 3.8542374514172195e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_230301_963/hull_points_reference_m.ply",
+      "bytes": 1864902,
+      "sha256": "fb6e14b4d18a2d603c736cab3d3c905378e0a08f5d1733ef0b0dbfc4c2647b2c",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_230301_963/hull_points_reference_m.npz",
+      "retained_sha256": "f7894617cfafa63ba6405dcf920629ed370dc0a3d0909b77c0d110dff93c8d90",
+      "max_coordinate_difference_m": 3.8542374514172195e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231154_825/hull_points_reference_m.ply",
+      "bytes": 1068831,
+      "sha256": "65c621ea4261deab9434123784bc84ebfbde45b4aba54a150ff93d7e761c0442",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231154_825/hull_points_reference_m.npz",
+      "retained_sha256": "5a8eb5282866eb1bb0f19adbd1d728c7ac60010e278c4301d5b3400b9454bfa7",
+      "max_coordinate_difference_m": 4.8446961414816414e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231246_247/hull_points_reference_m.ply",
+      "bytes": 1827644,
+      "sha256": "688c1c973ecb407b6835034638b65d13c245e1027ab6c0595149d3a118503fb6",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231246_247/hull_points_reference_m.npz",
+      "retained_sha256": "1883c9c60b6041a433b2610b988a38f4a6f816220897b6d387529522c933ef17",
+      "max_coordinate_difference_m": 2.4470295206802106e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231408_492/hull_points_reference_m.ply",
+      "bytes": 1556039,
+      "sha256": "511e65cf3f86dc5554f4e1caf075988f19501b07397991655bcaa6a37a19faf8",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231408_492/hull_points_reference_m.npz",
+      "retained_sha256": "0409bcfe6e1d18ee48a36738e8415b0e70d8aa226ffd89ab8d7c459ff9de0995",
+      "max_coordinate_difference_m": 2.4470295206802106e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231438_781/hull_points_reference_m.ply",
+      "bytes": 1168538,
+      "sha256": "04bcebfb57af4d6c8bbad546c3997e83306584dc03b3283a42844e5636afcbb7",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260901_231438_781/hull_points_reference_m.npz",
+      "retained_sha256": "c550d38c78fa2234cf9b83b59d17d3583ce384e82374ba46546b66732e257a15",
+      "max_coordinate_difference_m": 4.840000000783107e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133008_582/hull_points_reference_m.ply",
+      "bytes": 537758,
+      "sha256": "da620f24f6fd6b1e2aa33044a72546f41b7152b718ba87ac4c5b48703a0981c0",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133008_582/hull_points_reference_m.npz",
+      "retained_sha256": "32fd14178217cb08cd3023769f24b31a9e6653c437f5e895bb64b2337db4bc4d",
+      "max_coordinate_difference_m": 4.840000000783107e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133600_527/hull_points_reference_m.ply",
+      "bytes": 853323,
+      "sha256": "13c4746b59ddfcd210707782e99af54382646c8ca2c4cc2a950e1ea3866049f8",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133600_527/hull_points_reference_m.npz",
+      "retained_sha256": "9ac29c426803b3a1c1c3e6b4ad071d014c18dad2f976b9cb07c89f08ec3ee367",
+      "max_coordinate_difference_m": 4.840000000783107e-08
+    },
+    {
+      "action": "remove_duplicate_ascii_pointcloud",
+      "path": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133951_025/hull_points_reference_m.ply",
+      "bytes": 688320,
+      "sha256": "799e745e09c3888fc561e9e787e87d73afc49cc19c80c0a250a31c9b2ee5120f",
+      "retained": "xarm_sdk_control/data/multiview_neck/visual_hulls/20260902_133951_025/hull_points_reference_m.npz",
+      "retained_sha256": "3edc64025e5cc3510a3a8b12a3f785ec91f202a835ec849831247aad0d3168d5",
+      "max_coordinate_difference_m": 4.8446961414816414e-08
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/board_visibility/analyze.py",
+      "bytes": 1837,
+      "sha256": "545ab7885d75c2c4294583c74363d916ca71df684e0d3d4767e695a01d047451",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "board_visibility/analyze.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/board_visibility/relative_candidate.py",
+      "bytes": 2617,
+      "sha256": "39d04270ca43c309b58a9830961577793c44cf78c0ce76d10f004e048d5eece9",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "board_visibility/relative_candidate.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/build_global_candidate.py",
+      "bytes": 5590,
+      "sha256": "808cd848a14f6a0021f543908961b6f7f060060965e4710621186b6c80a4c018",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "build_global_candidate.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/build_global_candidate_with_reference.py",
+      "bytes": 7319,
+      "sha256": "184646753933a89f5b71e3028626016070cd982cbbb15ac4cdfae067d0d4399e",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "build_global_candidate_with_reference.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/build_global_from_new_hand_eye.py",
+      "bytes": 2624,
+      "sha256": "24540e1d3ef0bef678e9117675192fbb32543d1092704a1b22acfe6d2f18a780",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "build_global_from_new_hand_eye.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/check_candidate_depth.py",
+      "bytes": 1951,
+      "sha256": "d7a8caac646a90bd7f86d3080c5de5da984e89ca9d482e46dbb77cd2a29fa636",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "check_candidate_depth.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/execute_quiet_ceramic_hover.py",
+      "bytes": 2814,
+      "sha256": "4158738518ff45d4645e3d6f411786346211a0d2e55cce2bd5a62dfd268ebfa8",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "execute_quiet_ceramic_hover.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/full_loading_recovery.py",
+      "bytes": 11139,
+      "sha256": "841c1fc62450ed8ab33a7e10442642930373269a1d97b7a616b497ba22a90d8e",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "full_loading_recovery.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/paper_depth_probe.py",
+      "bytes": 10930,
+      "sha256": "5c234117ea1d60d619a2bde763c4d35fd80586124cfa74a16c87517cb25a0665",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "paper_depth_probe.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/paper_pick_place.py",
+      "bytes": 18751,
+      "sha256": "57f1434fbde0f6db51963191ad9f9ee9cbf8f693229c181dccb7c117e6f11cea",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "paper_pick_place.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/prepare_quiet_ceramic_check.py",
+      "bytes": 4913,
+      "sha256": "994e6f8fcee844124b3c452e9f964632621294d74136b719c9068b6cbc1a2b13",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "prepare_quiet_ceramic_check.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/resume_three_picks.py",
+      "bytes": 12813,
+      "sha256": "dd9e0d322e15251dc2c1f13e6e25e6190c7f5207e1c502111baeb8afa54355c7",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "resume_three_picks.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/return_quiet_ceramic_hover.py",
+      "bytes": 5033,
+      "sha256": "31dad5000ce68eac8c266e9af03b8f047b2dce54a9e63f3e75d2b48ed94cbace",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "return_quiet_ceramic_hover.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/review_new_hand_eye.py",
+      "bytes": 2915,
+      "sha256": "7183fb9b1155794f132e0f35f2ab45919de5751a50ed26dbcf307d120d40d91b",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "review_new_hand_eye.py"
+    },
+    {
+      "action": "archive_one_off_script",
+      "path": "xarm_sdk_control/data/recommissioning/2026-10-14/three_material_suction_check.py",
+      "bytes": 19841,
+      "sha256": "aaa69bdf9cef8c73ce52aa2b349a4e3cb0722fe80fd3599230d2c96d4f7a32eb",
+      "archive": "xarm_sdk_control/data/archive/recommissioning_20261014_scripts.zip",
+      "member": "three_material_suction_check.py"
+    }
+  ],
+  "archive_sha256": "bbfe959622ac8c512d00e90a613534e478f077e070378fcae3375b9c0fcbf940",
+  "archive_bytes": 41282,
+  "removed_file_count": 24,
+  "net_reclaimed_bytes": 9868706
+}

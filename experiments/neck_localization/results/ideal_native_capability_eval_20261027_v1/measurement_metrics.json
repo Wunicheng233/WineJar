@@ -1,0 +1,3866 @@
+[
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 68573,
+        "valid_prediction_pixels": 68573,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 68573,
+        "valid_prediction_pixels": 68573,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1006,
+        "valid_prediction_pixels": 1006,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 69490,
+        "valid_prediction_pixels": 69490,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 69012,
+        "valid_prediction_pixels": 69012,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 882,
+        "valid_prediction_pixels": 882,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_000/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 68912,
+        "valid_prediction_pixels": 68912,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 68803,
+        "valid_prediction_pixels": 68803,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 967,
+        "valid_prediction_pixels": 967,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 47348,
+        "valid_prediction_pixels": 47348,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 47348,
+        "valid_prediction_pixels": 47348,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 624,
+        "valid_prediction_pixels": 624,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 47112,
+        "valid_prediction_pixels": 47112,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 46554,
+        "valid_prediction_pixels": 46554,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1125,
+        "valid_prediction_pixels": 1125,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_001/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 47410,
+        "valid_prediction_pixels": 47410,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 46704,
+        "valid_prediction_pixels": 46704,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 758,
+        "valid_prediction_pixels": 758,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56799,
+        "valid_prediction_pixels": 56799,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56799,
+        "valid_prediction_pixels": 56799,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 525,
+        "valid_prediction_pixels": 525,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56749,
+        "valid_prediction_pixels": 56749,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56206,
+        "valid_prediction_pixels": 56206,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 900,
+        "valid_prediction_pixels": 900,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_002/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56577,
+        "valid_prediction_pixels": 56577,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56252,
+        "valid_prediction_pixels": 56252,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 931,
+        "valid_prediction_pixels": 931,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 73529,
+        "valid_prediction_pixels": 73529,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 73529,
+        "valid_prediction_pixels": 73529,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1353,
+        "valid_prediction_pixels": 1353,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 74083,
+        "valid_prediction_pixels": 74083,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 73618,
+        "valid_prediction_pixels": 73618,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1416,
+        "valid_prediction_pixels": 1416,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_003/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 73099,
+        "valid_prediction_pixels": 73099,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 73081,
+        "valid_prediction_pixels": 73081,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1497,
+        "valid_prediction_pixels": 1497,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 44961,
+        "valid_prediction_pixels": 44961,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 44961,
+        "valid_prediction_pixels": 44961,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 709,
+        "valid_prediction_pixels": 709,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 45074,
+        "valid_prediction_pixels": 45074,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 44495,
+        "valid_prediction_pixels": 44495,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 963,
+        "valid_prediction_pixels": 963,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_004/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 45247,
+        "valid_prediction_pixels": 45247,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 44504,
+        "valid_prediction_pixels": 44504,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 939,
+        "valid_prediction_pixels": 939,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56051,
+        "valid_prediction_pixels": 56051,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56051,
+        "valid_prediction_pixels": 56051,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1362,
+        "valid_prediction_pixels": 1362,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56609,
+        "valid_prediction_pixels": 56609,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56074,
+        "valid_prediction_pixels": 56074,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1514,
+        "valid_prediction_pixels": 1514,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_005/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56997,
+        "valid_prediction_pixels": 56997,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56631,
+        "valid_prediction_pixels": 56631,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1172,
+        "valid_prediction_pixels": 1172,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 77252,
+        "valid_prediction_pixels": 77252,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 77252,
+        "valid_prediction_pixels": 77252,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 959,
+        "valid_prediction_pixels": 959,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 78121,
+        "valid_prediction_pixels": 78121,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 77714,
+        "valid_prediction_pixels": 77714,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 763,
+        "valid_prediction_pixels": 763,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_006/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 77618,
+        "valid_prediction_pixels": 77618,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 77614,
+        "valid_prediction_pixels": 77614,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 663,
+        "valid_prediction_pixels": 663,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56606,
+        "valid_prediction_pixels": 56606,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56606,
+        "valid_prediction_pixels": 56606,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 989,
+        "valid_prediction_pixels": 989,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 56993,
+        "valid_prediction_pixels": 56993,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 56529,
+        "valid_prediction_pixels": 56529,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1250,
+        "valid_prediction_pixels": 1250,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_nominal_007/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 57296,
+        "valid_prediction_pixels": 57296,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 57139,
+        "valid_prediction_pixels": 57139,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 931,
+        "valid_prediction_pixels": 931,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 49863,
+        "valid_prediction_pixels": 49863,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 49863,
+        "valid_prediction_pixels": 49863,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 247,
+        "valid_prediction_pixels": 247,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 51328,
+        "valid_prediction_pixels": 51328,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 50859,
+        "valid_prediction_pixels": 50859,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 53,
+        "valid_prediction_pixels": 53,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_000/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 48279,
+        "valid_prediction_pixels": 48279,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 48100,
+        "valid_prediction_pixels": 48100,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 629,
+        "valid_prediction_pixels": 629,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 58828,
+        "valid_prediction_pixels": 58828,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 58828,
+        "valid_prediction_pixels": 58828,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 2624,
+        "valid_prediction_pixels": 2624,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 62481,
+        "valid_prediction_pixels": 62481,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 61931,
+        "valid_prediction_pixels": 61931,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1448,
+        "valid_prediction_pixels": 1448,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_001/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 60061,
+        "valid_prediction_pixels": 60061,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 59871,
+        "valid_prediction_pixels": 59871,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 2218,
+        "valid_prediction_pixels": 2218,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 62248,
+        "valid_prediction_pixels": 62248,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 62248,
+        "valid_prediction_pixels": 62248,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 584,
+        "valid_prediction_pixels": 584,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 62526,
+        "valid_prediction_pixels": 62526,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 62072,
+        "valid_prediction_pixels": 62072,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 766,
+        "valid_prediction_pixels": 766,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_002/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 63005,
+        "valid_prediction_pixels": 63005,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 62906,
+        "valid_prediction_pixels": 62906,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 179,
+        "valid_prediction_pixels": 179,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_a/clean",
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 40247,
+        "valid_prediction_pixels": 40247,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 40247,
+        "valid_prediction_pixels": 40247,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1851,
+        "valid_prediction_pixels": 1851,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_b/clean",
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 43457,
+        "valid_prediction_pixels": 43457,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 42832,
+        "valid_prediction_pixels": 42832,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 558,
+        "valid_prediction_pixels": 558,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "close/structural_test_stress_003/cam_c/clean",
+    "layout": "close",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 41830,
+        "valid_prediction_pixels": 41830,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 41145,
+        "valid_prediction_pixels": 41145,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 1596,
+        "valid_prediction_pixels": 1596,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_a/clean",
+    "layout": "development",
+    "case": "development_nominal_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 30695,
+        "valid_prediction_pixels": 30695,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 25131,
+        "valid_prediction_pixels": 25131,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 436,
+        "valid_prediction_pixels": 436,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_b/clean",
+    "layout": "development",
+    "case": "development_nominal_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 24717,
+        "valid_prediction_pixels": 24717,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 21686,
+        "valid_prediction_pixels": 21686,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 440,
+        "valid_prediction_pixels": 440,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_000/cam_c/clean",
+    "layout": "development",
+    "case": "development_nominal_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 28257,
+        "valid_prediction_pixels": 28257,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 23721,
+        "valid_prediction_pixels": 23721,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 434,
+        "valid_prediction_pixels": 434,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_a/clean",
+    "layout": "development",
+    "case": "development_nominal_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25680,
+        "valid_prediction_pixels": 25680,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19703,
+        "valid_prediction_pixels": 19703,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 332,
+        "valid_prediction_pixels": 332,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_b/clean",
+    "layout": "development",
+    "case": "development_nominal_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22260,
+        "valid_prediction_pixels": 22260,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 18611,
+        "valid_prediction_pixels": 18611,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 337,
+        "valid_prediction_pixels": 337,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_nominal_001/cam_c/clean",
+    "layout": "development",
+    "case": "development_nominal_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 24260,
+        "valid_prediction_pixels": 24260,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19219,
+        "valid_prediction_pixels": 19219,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 328,
+        "valid_prediction_pixels": 328,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_a/clean",
+    "layout": "development",
+    "case": "development_stress_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 27749,
+        "valid_prediction_pixels": 27749,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 21994,
+        "valid_prediction_pixels": 21994,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 177,
+        "valid_prediction_pixels": 177,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_b/clean",
+    "layout": "development",
+    "case": "development_stress_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22787,
+        "valid_prediction_pixels": 22787,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19618,
+        "valid_prediction_pixels": 19618,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 156,
+        "valid_prediction_pixels": 156,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_000/cam_c/clean",
+    "layout": "development",
+    "case": "development_stress_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25526,
+        "valid_prediction_pixels": 25526,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20813,
+        "valid_prediction_pixels": 20813,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 188,
+        "valid_prediction_pixels": 188,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_a/clean",
+    "layout": "development",
+    "case": "development_stress_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 29804,
+        "valid_prediction_pixels": 29804,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 24191,
+        "valid_prediction_pixels": 24191,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 736,
+        "valid_prediction_pixels": 736,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_b/clean",
+    "layout": "development",
+    "case": "development_stress_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22696,
+        "valid_prediction_pixels": 22696,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19823,
+        "valid_prediction_pixels": 19823,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 801,
+        "valid_prediction_pixels": 801,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "development/development_stress_001/cam_c/clean",
+    "layout": "development",
+    "case": "development_stress_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 26260,
+        "valid_prediction_pixels": 26260,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 21786,
+        "valid_prediction_pixels": 21786,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 810,
+        "valid_prediction_pixels": 810,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 31181,
+        "valid_prediction_pixels": 31181,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 25620,
+        "valid_prediction_pixels": 25620,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 263,
+        "valid_prediction_pixels": 263,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22574,
+        "valid_prediction_pixels": 22574,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19789,
+        "valid_prediction_pixels": 19789,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 263,
+        "valid_prediction_pixels": 263,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_000/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 27726,
+        "valid_prediction_pixels": 27726,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 23348,
+        "valid_prediction_pixels": 23348,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 261,
+        "valid_prediction_pixels": 261,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25840,
+        "valid_prediction_pixels": 25840,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19920,
+        "valid_prediction_pixels": 19920,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 380,
+        "valid_prediction_pixels": 380,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 21675,
+        "valid_prediction_pixels": 21675,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 18167,
+        "valid_prediction_pixels": 18167,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 400,
+        "valid_prediction_pixels": 400,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_001/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 24150,
+        "valid_prediction_pixels": 24150,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 19191,
+        "valid_prediction_pixels": 19191,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 400,
+        "valid_prediction_pixels": 400,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 28176,
+        "valid_prediction_pixels": 28176,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22235,
+        "valid_prediction_pixels": 22235,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 298,
+        "valid_prediction_pixels": 298,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22092,
+        "valid_prediction_pixels": 22092,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 18622,
+        "valid_prediction_pixels": 18622,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 309,
+        "valid_prediction_pixels": 309,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_002/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_002",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25677,
+        "valid_prediction_pixels": 25677,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20733,
+        "valid_prediction_pixels": 20733,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 311,
+        "valid_prediction_pixels": 311,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 33020,
+        "valid_prediction_pixels": 33020,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 27458,
+        "valid_prediction_pixels": 27458,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 398,
+        "valid_prediction_pixels": 398,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25143,
+        "valid_prediction_pixels": 25143,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22239,
+        "valid_prediction_pixels": 22239,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 403,
+        "valid_prediction_pixels": 403,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_003/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_003",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 29936,
+        "valid_prediction_pixels": 29936,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 25436,
+        "valid_prediction_pixels": 25436,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 402,
+        "valid_prediction_pixels": 402,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 24760,
+        "valid_prediction_pixels": 24760,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 18965,
+        "valid_prediction_pixels": 18965,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 313,
+        "valid_prediction_pixels": 313,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 19138,
+        "valid_prediction_pixels": 19138,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 15879,
+        "valid_prediction_pixels": 15879,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 323,
+        "valid_prediction_pixels": 323,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_004/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_004",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22715,
+        "valid_prediction_pixels": 22715,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 17951,
+        "valid_prediction_pixels": 17951,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 328,
+        "valid_prediction_pixels": 328,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 27685,
+        "valid_prediction_pixels": 27685,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 21860,
+        "valid_prediction_pixels": 21860,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 432,
+        "valid_prediction_pixels": 432,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 21335,
+        "valid_prediction_pixels": 21335,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 18039,
+        "valid_prediction_pixels": 18039,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 436,
+        "valid_prediction_pixels": 436,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_005/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_005",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25119,
+        "valid_prediction_pixels": 25119,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20314,
+        "valid_prediction_pixels": 20314,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 426,
+        "valid_prediction_pixels": 426,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 34470,
+        "valid_prediction_pixels": 34470,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 28929,
+        "valid_prediction_pixels": 28929,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 282,
+        "valid_prediction_pixels": 282,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25755,
+        "valid_prediction_pixels": 25755,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22755,
+        "valid_prediction_pixels": 22755,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 279,
+        "valid_prediction_pixels": 279,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_006/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_006",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 31218,
+        "valid_prediction_pixels": 31218,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 26709,
+        "valid_prediction_pixels": 26709,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 278,
+        "valid_prediction_pixels": 278,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 29194,
+        "valid_prediction_pixels": 29194,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 23652,
+        "valid_prediction_pixels": 23652,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 431,
+        "valid_prediction_pixels": 431,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 23759,
+        "valid_prediction_pixels": 23759,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20766,
+        "valid_prediction_pixels": 20766,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 432,
+        "valid_prediction_pixels": 432,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_nominal_007/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_nominal_007",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 27202,
+        "valid_prediction_pixels": 27202,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22634,
+        "valid_prediction_pixels": 22634,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 439,
+        "valid_prediction_pixels": 439,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 27684,
+        "valid_prediction_pixels": 27684,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22018,
+        "valid_prediction_pixels": 22018,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 177,
+        "valid_prediction_pixels": 177,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 23334,
+        "valid_prediction_pixels": 23334,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20068,
+        "valid_prediction_pixels": 20068,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 146,
+        "valid_prediction_pixels": 146,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_000/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_stress_000",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 25167,
+        "valid_prediction_pixels": 25167,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20443,
+        "valid_prediction_pixels": 20443,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 188,
+        "valid_prediction_pixels": 188,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 28420,
+        "valid_prediction_pixels": 28420,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 22529,
+        "valid_prediction_pixels": 22529,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 629,
+        "valid_prediction_pixels": 629,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 23596,
+        "valid_prediction_pixels": 23596,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20212,
+        "valid_prediction_pixels": 20212,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 562,
+        "valid_prediction_pixels": 562,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_001/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_stress_001",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 26512,
+        "valid_prediction_pixels": 26512,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 21631,
+        "valid_prediction_pixels": 21631,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 606,
+        "valid_prediction_pixels": 606,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 30563,
+        "valid_prediction_pixels": 30563,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 24955,
+        "valid_prediction_pixels": 24955,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 219,
+        "valid_prediction_pixels": 219,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 23335,
+        "valid_prediction_pixels": 23335,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 20290,
+        "valid_prediction_pixels": 20290,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 218,
+        "valid_prediction_pixels": 218,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_002/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_stress_002",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 28154,
+        "valid_prediction_pixels": 28154,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 23557,
+        "valid_prediction_pixels": 23557,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 205,
+        "valid_prediction_pixels": 205,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_a/clean",
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_a",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 22994,
+        "valid_prediction_pixels": 22994,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 17211,
+        "valid_prediction_pixels": 17211,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 645,
+        "valid_prediction_pixels": 645,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_b/clean",
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_b",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 20322,
+        "valid_prediction_pixels": 20322,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 17137,
+        "valid_prediction_pixels": 17137,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 497,
+        "valid_prediction_pixels": 497,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  },
+  {
+    "pair_id": "far/structural_test_stress_003/cam_c/clean",
+    "layout": "far",
+    "case": "structural_test_stress_003",
+    "condition": "clean",
+    "camera": "cam_c",
+    "status": "ok",
+    "regions": {
+      "ordinary_RGB_foreground_reference_projection": {
+        "reference_pixels": 21635,
+        "valid_prediction_pixels": 21635,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "fixed_upper_station_reference_projection": {
+        "reference_pixels": 16907,
+        "valid_prediction_pixels": 16907,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      },
+      "GT_visible_outer_neck_evaluation_only": {
+        "reference_pixels": 629,
+        "valid_prediction_pixels": 629,
+        "missing_prediction_pixels": 0,
+        "valid_coverage": 1.0,
+        "signed_mean_mm": 0.0,
+        "median_abs_mm": 0.0,
+        "rmse_mm": 0.0,
+        "p95_abs_mm": 0.0,
+        "max_abs_mm": 0.0,
+        "absolute_error_le_2mm_fraction_all_reference": 1.0
+      }
+    }
+  }
+]

@@ -1,0 +1,380 @@
+{
+  "schema": 2,
+  "seed": 2026102453,
+  "reference_dimensions": {
+    "height_m": {
+      "value": 0.6,
+      "source": "user approximate total height"
+    },
+    "mouth_outer_diameter_m": {
+      "value": 0.125,
+      "source": "user approximate mouth outside diameter"
+    },
+    "body_max_diameter_m": {
+      "value": 0.36,
+      "source": "assumed from photograph proportions; not measured"
+    },
+    "neck_min_diameter_m": {
+      "value": 0.105,
+      "source": "synthetic assumption"
+    },
+    "neck_length_m": {
+      "value": 0.01,
+      "source": "user approximate exposed neck length below raised lip, 2026-10-22"
+    },
+    "lip_height_m": {
+      "value": 0.006,
+      "source": "synthetic assumption; independent of exposed neck length"
+    }
+  },
+  "angular_segments": 160,
+  "vertical_samples": 180,
+  "jar": {
+    "height_m": 0.6,
+    "body_radius_m": 0.18,
+    "neck_radius_m": 0.0525,
+    "lip_radius_m": 0.0625,
+    "neck_length_m": 0.01,
+    "neck_tilt_deg": [
+      0,
+      0
+    ],
+    "neck_offset_xy_m": [
+      0,
+      0
+    ],
+    "neck_profile": "shallow",
+    "near_min_delta_m": 0.001,
+    "lip_height_m": 0.006,
+    "body_profile": [
+      [
+        0,
+        0.6
+      ],
+      [
+        0.025,
+        0.64
+      ],
+      [
+        0.12,
+        0.72
+      ],
+      [
+        0.3,
+        0.84
+      ],
+      [
+        0.52,
+        0.95
+      ],
+      [
+        0.72,
+        1.0
+      ],
+      [
+        0.81,
+        0.975
+      ],
+      [
+        0.89,
+        0.84
+      ],
+      [
+        0.95,
+        0.6
+      ]
+    ]
+  },
+  "scene": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fovy_deg": 50,
+    "nominal_target_world_m": [
+      0,
+      0,
+      0.59
+    ],
+    "cameras": [
+      {
+        "name": "cam_a",
+        "azimuth_deg": -50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_b",
+        "azimuth_deg": 50,
+        "elevation_deg": 10,
+        "distance_m": 0.8,
+        "role": "primary side view"
+      },
+      {
+        "name": "cam_c",
+        "azimuth_deg": 180,
+        "elevation_deg": 8,
+        "distance_m": 0.8,
+        "role": "third-view comparison"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "development_nominal_000",
+      "group": "nominal",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.6160786172509931,
+        "body_radius_m": 0.19020192000624841,
+        "neck_radius_m": 0.05079685530813843,
+        "lip_radius_m": 0.06396248423903973,
+        "neck_length_m": 0.013872590676767818,
+        "lip_height_m": 0.006472751485111857,
+        "neck_tilt_deg": [
+          -0.08567895538749197,
+          -0.06279658718457938
+        ],
+        "neck_offset_xy_m": [
+          0.0009749387561344049,
+          0.0014113255675530434
+        ],
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.002200493096832415,
+        "body_profile": [
+          [
+            0.0,
+            0.6062416219417267
+          ],
+          [
+            0.025,
+            0.6462416219417267
+          ],
+          [
+            0.12,
+            0.7557287052491848
+          ],
+          [
+            0.3,
+            0.8576149394619488
+          ],
+          [
+            0.52,
+            0.9493012988992451
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9659072744989711
+          ],
+          [
+            0.89,
+            0.796469392881283
+          ],
+          [
+            0.95,
+            0.6214732236266034
+          ]
+        ]
+      }
+    },
+    {
+      "name": "development_nominal_001",
+      "group": "nominal",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.5718938903930776,
+        "body_radius_m": 0.17809031169997908,
+        "neck_radius_m": 0.05509498416075022,
+        "lip_radius_m": 0.06744338391475388,
+        "neck_length_m": 0.009857436261740533,
+        "lip_height_m": 0.0061986997765181955,
+        "neck_tilt_deg": [
+          1.1098721505873173,
+          -0.4328117363162144
+        ],
+        "neck_offset_xy_m": [
+          0.0013773078708843476,
+          -0.004131028500479852
+        ],
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.0021979575425035555,
+        "body_profile": [
+          [
+            0.0,
+            0.6067210038552735
+          ],
+          [
+            0.025,
+            0.6467210038552735
+          ],
+          [
+            0.12,
+            0.7237190406441373
+          ],
+          [
+            0.3,
+            0.8695193280469192
+          ],
+          [
+            0.52,
+            0.9653712322607823
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9512387272161389
+          ],
+          [
+            0.89,
+            0.8432525532495241
+          ],
+          [
+            0.95,
+            0.6273020805230023
+          ]
+        ]
+      }
+    },
+    {
+      "name": "development_stress_000",
+      "group": "stress",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.6098906871935407,
+        "body_radius_m": 0.17394847759184826,
+        "neck_radius_m": 0.046073885731077915,
+        "lip_radius_m": 0.05869882246709797,
+        "neck_length_m": 0.006547086992622066,
+        "lip_height_m": 0.007281335462041124,
+        "neck_tilt_deg": [
+          -8.465937887371595,
+          2.9019151077872922
+        ],
+        "neck_offset_xy_m": [
+          -0.004138556125011437,
+          0.002751497976202102
+        ],
+        "neck_profile": "flat",
+        "shallow_relief_m": 0.002276610600615285,
+        "body_profile": [
+          [
+            0.0,
+            0.6385813457183391
+          ],
+          [
+            0.025,
+            0.6785813457183392
+          ],
+          [
+            0.12,
+            0.7524012262506747
+          ],
+          [
+            0.3,
+            0.835658821446497
+          ],
+          [
+            0.52,
+            0.9499740138686046
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9548692750500531
+          ],
+          [
+            0.89,
+            0.8426339962588297
+          ],
+          [
+            0.95,
+            0.629625962196076
+          ]
+        ]
+      }
+    },
+    {
+      "name": "development_stress_001",
+      "group": "stress",
+      "material": "mottled_gray",
+      "jar": {
+        "height_m": 0.6292552247635402,
+        "body_radius_m": 0.1775001216460318,
+        "neck_radius_m": 0.05960731276590718,
+        "lip_radius_m": 0.07240441705835676,
+        "neck_length_m": 0.021322361052322485,
+        "lip_height_m": 0.007015797853231592,
+        "neck_tilt_deg": [
+          7.667741864006041,
+          6.324966304766707
+        ],
+        "neck_offset_xy_m": [
+          -0.0003578200162924622,
+          -0.0001136902236481014
+        ],
+        "neck_profile": "shallow",
+        "shallow_relief_m": 0.001920900568292162,
+        "body_profile": [
+          [
+            0.0,
+            0.5787909722375454
+          ],
+          [
+            0.025,
+            0.6187909722375454
+          ],
+          [
+            0.12,
+            0.7222585091883262
+          ],
+          [
+            0.3,
+            0.8537704508247008
+          ],
+          [
+            0.52,
+            0.9363027003687667
+          ],
+          [
+            0.72,
+            1.0
+          ],
+          [
+            0.81,
+            0.9724267440485752
+          ],
+          [
+            0.89,
+            0.8570072603948611
+          ],
+          [
+            0.95,
+            0.5831484297091409
+          ]
+        ]
+      }
+    }
+  ],
+  "dataset_split": "active_stereo_development",
+  "audit_assumptions": {
+    "nominal": "Assumed range around photo/user dimensions, NOT measured factory distribution",
+    "stress": "Deliberately short/long neck, stronger local tilt and wider size range; NOT factory frequency",
+    "neck": "Circular sections; single flat or shallow neck; no ellipticity/local dents/asymmetric rim",
+    "cameras": "Original fixed rig poses; D435 preset RGB/IR models, true K/T, active stereo sampling; not current device calibration",
+    "placement": "Body base position and orientation fixed; local geometry varies between jars",
+    "nominal_count": 2,
+    "stress_count": 2,
+    "minimum_neck_length": "6.2mm synthetic floor; selected before any outcomes"
+  }
+}

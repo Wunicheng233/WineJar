@@ -1,0 +1,58 @@
+[
+  {
+    "condition": "close/foundation_stereo_confirm_sam/clean",
+    "label": "近·FS8+SAM2净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_confirm_sam/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_confirm_sam/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo_confirm_sam/shared_noise",
+    "label": "近·FS8+SAM2噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_confirm_sam/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_confirm_sam/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo_sam/clean",
+    "label": "近·FS+SAM2净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_sam/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_sam/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/foundation_stereo_sam/shared_noise",
+    "label": "近·FS+SAM2噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_sam/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/foundation_stereo_sam/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_confirm_sam/clean",
+    "label": "近·双目8+SAM2净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_confirm_sam/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_confirm_sam/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_confirm_sam/shared_noise",
+    "label": "近·双目8+SAM2噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_confirm_sam/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_confirm_sam/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_sam/clean",
+    "label": "近·双目+SAM2净",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_sam/clean/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_sam/clean/records.json.gz",
+    "method": "visible_profile"
+  },
+  {
+    "condition": "close/simsense_sam/shared_noise",
+    "label": "近·双目+SAM2噪",
+    "scenes": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_sam/shared_noise/scenes",
+    "records": "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/capability_structural_viewer_sam2_20261027_v1/close/simsense_sam/shared_noise/records.json.gz",
+    "method": "visible_profile"
+  }
+]

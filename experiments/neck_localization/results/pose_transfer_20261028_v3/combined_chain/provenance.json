@@ -1,0 +1,8 @@
+{
+  "script_sha256": "a746a8242a2a7a1c76f1838dc0d08a2dd6369b900e8b895401409b1dc504aaee",
+  "same_local_camera_intrinsics_and_geometry": true,
+  "X_Y_correlation_preserved": true,
+  "exact_rigid_board_to_gun_metrology_prior_not_measured": true,
+  "no_real_kinematics_tracking_contact_or_hardware_validation": true,
+  "body_input_records_sha256": "c29e2927c1edea3ae8b85f4f0832cc91669f366935b49d67d85db4b4c831189b"
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "inspection_only_no_estimation",
+  "case": "new8__confirmation_nominal_003",
+  "capture": "actual_window_back_buffer_after_presentation",
+  "camera_set": "all",
+  "rgb_result_overlay": true,
+  "method": "reciprocal_axis",
+  "large_neck_view": false,
+  "finite_band_overlay": true,
+  "sensor_perturbation": null,
+  "depth_preprocessing": {
+    "condition": "SAPIEN主动双目·两例探针"
+  },
+  "point_cloud_view": true,
+  "point_cloud_station_crop": false,
+  "point_cloud_local_fit": false,
+  "point_cloud_weights": false,
+  "point_cloud_source_colors": false,
+  "point_cloud_origin": "RGB foreground and valid saved axial depth; no mesh/GT/completion; deterministic display thinning",
+  "mouse_navigation": true,
+  "navigation_scroll": 0,
+  "show_neck_view": true,
+  "show_estimate": true,
+  "show_rejected_candidate": false,
+  "fitted_pixel_display_overlay": false,
+  "fit_subset_semantics": "saved training subset, not guaranteed to be the physical neck",
+  "ground_truth_overlay": true,
+  "depth_display": false,
+  "camera_props": "schematic; true poses and K-derived truncated FOV markers",
+  "result_lines": "through-surface projections, not observed image edges",
+  "accepted": true,
+  "reasons": [],
+  "records_sha256": "1020a2449cfbf3f7c44fcf9c47624c167e673f38e9690168253e7876df303f27",
+  "raw_rgb_sha256": {
+    "body_0": "d1155f18a94ab2e94ed38cfc9aba452eefec4512e12b4cb64f725e3f745f821c",
+    "body_1": "7e6df201048746bdb2cb6a15675b2819126d86fe644b9e1386a2c4bda25b0f8a"
+  }
+}

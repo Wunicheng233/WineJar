@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "/home/wunicheng/Git/WineJar/scripts/run_poe_camera_calibration.py": "921d28e4c082f582fb0eeb7f45ca7f211e9ff460189f88ddb117fd94334b7a8d",
+    "/home/wunicheng/Git/WineJar/neck_localization/poe_camera_calibration.py": "d629f739359a46e686eaa2a93c03d501f8374993681c4a613033e73fbe8d2275",
+    "/home/wunicheng/Git/WineJar/experiments/neck_localization/results/uncertain_transfer_20261029_v1/calibration_inputs/nominal_poe.json": "07cc4993cbe2ced1032ceac9091e0561a3b10f38aeb5bce37c50f04f579d8611"
+  },
+  "evaluation_truth_not_read": true,
+  "encoder_inputs_available_to_all_paired_geometric_conditions": true,
+  "random_Cartesian_pose_noise_condition_excluded_due_to_different_encoder_information": true
+}
